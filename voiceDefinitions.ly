@@ -17,7 +17,7 @@
 
 \addInstrumentDefinition #"Rooney"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "Roon.")
+     (shortInstrumentName . "Rn")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
      (middleCPosition . 1)
@@ -27,7 +27,7 @@
 
 \addInstrumentDefinition #"Fitt"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "Fitt")
+     (shortInstrumentName . "Ft")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
      (middleCPosition . 1)
@@ -47,7 +47,7 @@
 
 \addInstrumentDefinition #"Barrell"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "Barr")
+     (shortInstrumentName . "Br")
      (clefGlyph . "clefs.F")
      (clefTransposition . 0)
      (middleCPosition . 6)
@@ -57,7 +57,7 @@
 
 \addInstrumentDefinition #"Christy"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "Chr.")
+     (shortInstrumentName . "Chr")
      (clefGlyph . "clefs.F")
      (clefTransposition . 0)
      (middleCPosition . 6)
