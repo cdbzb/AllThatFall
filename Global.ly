@@ -13,3 +13,7 @@ lv = \laissezVibrer
 
 arpUp = \arpeggioArrowUp
 arpDown = \arpeggioArrowDown
+
+triangle = \once \override NoteHead.style = #'triangle
+cross = \once \override NoteHead.style = #'cross
+
