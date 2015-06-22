@@ -29,7 +29,7 @@
 }
 
 
-\parallelMusic #'( melody lyrix lh  rh fl ob kl bn hn tn tmp perc hpL hpR vn vnII va vc cb ) {
+\parallelMusic #'( melody lyrix lh  rh fl ob kl bn hn tn tmp perc fol hpL hpR vn vnII va vc cb ) {
 
 %bn1  
   \tempo 4 = 70 %dummy
@@ -38,7 +38,8 @@
   R2 | R2  |   
   R2 | R2 | R2  |  R2 | % fl ob kl bn   
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -47,7 +48,8 @@
   R2 | R2 |  
   R2 | R2 | <g c'>2  |  R2 | % fl ob kl bn   
   r4.. e16~ |R2 | % hn tn   
-  R2 | R2 | \grace {g,16~ c~ e}<g, c e>4.. d'16 | \grace c'16~ <g c'>4.. gis'16 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  \grace {g,16~ c~ e}<g, c e>4.. d'16 | \grace c'16~ <g c'>4.. gis'16 | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
   \dEQ
@@ -57,7 +59,8 @@
   R2 | R2 |   
   R2 |R2 | R2  |  R2 | % fl ob kl bn   
   e4 a,8-. r |R2 | % hn tn   
-  R2 | \triangle f2 |cis'4-.^"*" a-. | a'4-. r | % tmp perc harpR harpL  THIS CANT BE PEDALLED
+  R2 | \triangle f''2 | R2 | % tmp perc fol  
+  cis'4-.^"*" a-. | a'4-. r | % harpR harpL  THIS CANT BE PEDALLED
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -66,7 +69,8 @@
   R2. | R2. |   
   R2. |R2. | R2.  |  R2. | % fl ob kl bn   
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpR harpL  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % harpR harpL  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -75,7 +79,8 @@
   R2 | R2 |   
   R2 |R2 | R2  |  R2 | % fl ob kl bn   
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -84,7 +89,8 @@
   R2 | R2 |   
   R2 |R2 | a8 a a a  |  R2 | % fl ob kl bn   
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -93,7 +99,8 @@
   R2|  R2 |  
   R2 |R2 | <a d'>4. r8  |   R2 | % fl ob kl bn   
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   r8 a'-.^"solo" a'-. gis'-. | R2 | %vn vn2  
   r8  fis'-.^"solo" fis'-. fis'-.  | d,8^"pizz" r4. | R2 | % va vc cb   
 
@@ -102,7 +109,8 @@
   R2 | R2 |  
   r8 <a' cis''>-. q-. q-.  |R2 | R2  |   R2 | % fl ob kl bn   
   e4. r8 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   a'4. r8 | R2 | %vn vn2  
   e'4. r8 | cis'8. a16 e8 e | R2 | % va vc cb   
 
@@ -111,7 +119,8 @@
   \tag #'vocal {r4. <f g b>8} \tag #'pf {R2}  | R2 |   
   R2 |R2 | r8 <e b>8 q q  |   R2 | % fl ob kl bn   
   r4. a8~ | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | r4. <f g b>8  | R2 | % va vc cb   
 
@@ -120,7 +129,8 @@
   \tag #'vocal {<ees g c>2} \tag #'pf {R2} | R2 |  
   R2 |R2 | R2  |   R2 | % fl ob kl bn   
   a4 r | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | <ees g c'>4 c,~^"solo"  | R2 | % va vc cb   
 
@@ -129,7 +139,8 @@
   R2 | R2 |   
   R2 |R2 | R2  |   R2 | % fl ob kl bn   
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpR harpL  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | c,2~ | R2 | % va vc cb   
 
@@ -139,7 +150,8 @@
   R2. |\tag #'vocal {<gis b e>2.\arpeggio} \tag #'pf {R2.} |  
   R2. |R2. | R2.  |   R2. | % fl ob kl bn   
   R2. | R2. | % hn tn   
-  R2. | \cross b'4\fermata^"wind" r4. e'8(\p^"vibes"\laissezVibrer  | c2. | <gis' b' e''>2.\arpeggio | % tmp perc harpL harpR  
+  R2. | r4  r4. e'8(\p^"vibes"\laissezVibrer  |\cross b4\fermata^"wind" r2 |  % tmp perc fol  
+  c2. | <gis' b' e''>2.\arpeggio | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | c,8 r8 r2 | R2. | % va vc cb   
 
@@ -149,7 +161,8 @@
   R1 | R1 |    
   R1 |R1 | R1  |   R1 | % fl ob kl bn   
   R1 | R1 | % hn tn   
-  R1 | fis'8 gis' ais'4) \cross b'8\fermata^"wind" r4.  | << <fis ais>1\arpeggio \\ {s4 c2.}>> | <e' fis' ais'>1\arpeggio | % tmp perc harpL harpR  
+  R1 | fis'8 gis' ais'4)  r2  |r2 \cross b'8\fermata^"wind" r4.|  % tmp perc fol  
+  << <fis ais>1\arpeggio \\ {s4 c2.}>> | <e' fis' ais'>1\arpeggio | % hpL hpR  
   R1 | R1 | %vn vn2  
   R1 | R1 | R1 | % va vc cb   
 
@@ -159,7 +172,8 @@
   \tag #'vocal {f,=,8 g a bes c d16~ }\tag #'pf {r4 r4 r8.} | \tag #'vocal {\clef bass <f, a c>8 r16 <f a c> <f a c>8 r16 <f a c> <f a c>8 r16 } \tag #'pf {r4 r4 r8. } |
   <f'' a''>8^"* dbl tpt" r16 q16 q8 r16 q16 q8 r16 |r4 r4 r8. |r8 \tuplet 12/9  {r16 f'( g' a' bes' c'' d'' e'' f'' g'' a'' bes''}  |   f,16[ r g, r a, r bes,] r c[ r d | % fl ob kl bn   
   r4 r4 r8. | <f' c''>8^"*range!" r16 q16 q8 r16 q16 q8 r16 | % hn tn   
-  f8 r16 f16 f8 r16 f16 f8 r16|  \cross d''2~ \cross d''8. | r4 r4 r8. | r4 r4 r8. | % tmp perc harpR harpL  
+  f8 r16 f16 f8 r16 f16 f8 r16|  \cross d''2~ \cross d''8. | r4 r4 r8. |  % tmp perc fol  
+  r4 r4 r8. | r4 r4 r8. | % harpR harpL  
   r4 r4 r8. | r4 r4 r8. | %vn vn2  
   r4 r4 r8. | r4 r4 r8. | r4 r4 r8. | % va vc cb   
 
@@ -169,7 +183,8 @@
   \tag #'vocal {d16 e8 f g a16   r2} \tag #'pf {<b, b>8. q q8 q2 }  | \tag #'vocal {<b, dis fis>8. <b dis fis> <b dis fis>8  <b dis fis>4. <b dis fis>8} \tag #'pf {<b dis' fis'>8. q q8  q4. q8 }  |
   <f'' a''>16\> q8 r16 q16 q8 r16 q16 q8\! r16  r4 | dis'8. dis' dis'8 dis'2 | c'''8) r4. b2~  | r16 e16 r f] r g[ r a16]   r2  | % fl ob kl bn   
   R1 |<f' c''>16\> q8 r16 q16 q8 r16 q16 q8\! r16  r4 | % hn tn   
-  f16 f8 r16 f16 f8 r16 f16 f8 r16 r4 | <<{\once \override Voice.NoteHead.style = #'triangle f''2}\\{\once \override Voice.NoteHead.style = #'cross b'2_"lg. gong"}>> r2| R1 | R1 | % tmp perc harpR harpL  
+  f16 f8 r16 f16 f8 r16 f16 f8 r16 r4 | <<{\once \override Voice.NoteHead.style = #'triangle f''2}\\{\once \override Voice.NoteHead.style = #'cross b'2_"lg. gong"}>> r2| R1 |  % tmp perc fol  
+  R1 | R1 | % harpR harpL  
   R1 | R1 | %vn vn2  
   R1 | R1 | R1 | % va vc cb   
 
@@ -178,7 +193,8 @@
   R1 |\times 2/3 {<b dis fis>4 <b dis e> <b dis fis> }<b e g>2 |
   r2 g'~( | \times 2/3 {dis'4 dis' dis'} e'2 | \times 2/3 {b2 b4~} b2 | R1 |  % fl ob kl bn    
   R1 | R1 | % hn tn   
-  R1 | R1 | R1 | R1 | % tmp perc harpL harpR  
+  R1 | R1 | R1 |  % tmp perc fol  
+  R1 | R1 | % hpL hpR  
   R1 | R1 | %vn vn2  
   R1 | R1 | R1 | % va vc cb   
 
@@ -187,7 +203,8 @@
   \tag #'vocal {\tuplet 3/2 4 {e2 d4~d4 c2 }} \tag #'pf {R1} |<b e g>2  \times 2/3 { r4 <c e g b>2 }|  
   \tuplet 3/2 2 { g'4 fis' g' b') b'2}  | \times 2/3 {e'2 d' c'}  |\tuplet 3/2  {b2 a g}   | R1 |  % fl ob kl bn    
   \times 2/3 {a1( e'2)} \breathe | R1 | % hn tn   
-  R1 | R1 | R1 | R1 | % tmp perc harpL harpR  
+  R1 | R1 | R1 |  % tmp perc fol  
+  R1 | R1 | % hpL hpR  
   R1 | R1 | %vn vn2  
   R1 | R1 | R1 | % va vc cb   
 
@@ -198,7 +215,8 @@
   <fis fis'>4-. <e e'>-. |R2 |%lh rh
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   <fis, fis>4 <e, e> | R2 | % hn tn   
-  fis4 e | R2 | R2 | R2 | % tmp perc harpL harpR  
+  fis4 e | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -208,7 +226,8 @@
   <cis, cis'>4.:16\< |R4. |%lh rh
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | d'4.:32\< | R4. | R4. | % tmp perc harpL harpR  
+  R4. | d'4.:32\< | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   R4. | R4. | R4. | % va vc cb   
 
@@ -219,7 +238,8 @@
   <e g bes cis'>8->\! r <g ais cis' e'>4 r |<e' g' bes' cis''>8->\! r <g' ais' cis'' e''>4 r   |%lh rh
   g''8 r \grace {ais'16( cis''} e''8) r r4  | R2. | cis''8 r \grace{g'16( ais' cis''} e''8) r r4| R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | \cross d''16-! r8. r2 | R2. | R2. | % tmp perc harpL harpR  
+  R2. | \cross d''16-! r8. r2 | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -229,7 +249,8 @@
   \tag #'vocal {<e e'>8-. <f f'>-. <g g'>-. <e e'>-.} \tag #'pf {g8 r bes g }  |\tag #'vocal {R2} \tag #'pf {e'8 f' \times 2/3 { g'8 r g' }} |%lh rh
   R2 | R2 | R2 |  g,8-. aes,-. bes,-. g,-. |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -239,7 +260,8 @@
   R2 |\tag #'vocal {<e'' a c>4 <e a c>} \tag #'pf {R2 }   |%lh rh
   R2 | R2 | <a c'>8-. r <a c'>4~ | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | b'4->^"bell" b'-> | R2 | R2 | % tmp perc harpL harpR  
+  R2 | b'4->^"bell" b'-> | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -249,7 +271,8 @@
   r4 r4. | r4 r4. |  
   <a' c''>8-. r q4 r8| r4 c''4( a'8)  |q4.~\> q4~| r4 a4. |  % fl ob kl bn    
   r4 r4. | r4 r4. | % hn tn   
-  r4. r4 | r4 r4. | r4 <e, e>4. | r4 e'4. | % tmp perc harpL harpR  
+  r4. r4 | r4 r4. | r4. r4 |  % tmp perc fol  
+  r4 <e, e>4. | r4 e'4. | % hpL hpR  
   <e' a' c''>8-. r q4 r8| r4 e'4-.^"pizz" r8| %vn vn2  
   r4 r4. | r4 r4. | r4 r4. | % va vc cb   
 
@@ -259,7 +282,8 @@
   r4. r4.  |r4. r4.  |%lh rh
   <e' a'>4 r8 <c' e'>4 r8 | a'4( e'8) e'4( c'8)  |q2.\!|e4. c |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | <c, c>4. <a,, a,> | c'4. a | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  <c, c>4. <a,, a,> | c'4. a | % hpL hpR  
   <c' e' a'>4 r8 <a c' e'>4 r8  |c'4-. r8 a4-. r8 | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -270,7 +294,8 @@
   \tag #'vocal {\times 2/3 {r4 <c, c'>8~} <c c'>4.~} \tag #'pf {r4. r4} |r4. r4 |%lh rh ###not sure about this
   r4. r4 | r4. r4 | r4. fis4~ | c4-- r8 fis,4--|  % fl ob kl bn    
   c4--(\f fis,8->) fis,4~-- | r4. r4 | % hn tn   
-  r4. r4 | r4. r4 | r4. r4 | r4. r4 | % tmp perc harpL harpR  
+  r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
+  r4. r4 | r4. r4 | % hpL hpR  
   c'4 fis8 fis4| r4. r4 | %vn vn2  
   r4. r4 | r4. r4 | r4. r4 | % va vc cb   
 
@@ -281,7 +306,8 @@
   \tag #'vocal {<c c'>4 r2 } \tag #'pf {R2 } | R2 |
   R2 | R2 | fis2~\> | R2 |  % fl ob kl bn    
   fis,4. r8  | R2 | % hn tn   
-  R2 | R2 |<e gis b>2\arpeggio | <e' gis' b'>2\arpeggio | % tmp perc harpL harpR  
+  R2 | R2 | R2 | % tmp perc fol  
+  <e gis b>2\arpeggio | <e' gis' b'>2\arpeggio | % hpL hpR  
   b'4.^"mutes" c''8  |  gis'4^"mutes" r  | %vn vn2  
   b4.^"mutes" c'8 | gis2^"mutes" | R2 | % va vc cb   
 
@@ -290,7 +316,8 @@
   R2  | R2  |  
   R2 | R2 | fis4\! r8 <ees ees'>( | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | <e a c'>4\arpeggio <e gis b> | << {\times 2/3 {c''4 b'8} b'4}\\{<e' a'>\arpeggio <e' gis'>\arpeggio}>> | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  <e a c'>4\arpeggio <e gis b> | << {\times 2/3 {c''4 b'8} b'4}\\{<e' a'>\arpeggio <e' gis'>\arpeggio}>> | % hpL hpR  
   \times 2/3 {c''4 b'8} b'4  | \times 2/3 {a'4 r8} gis'4  | %vn vn2  
   \times 2/3 {c'4 b8} b4 |a4 gis | R2 | % va vc cb   
 
@@ -299,7 +326,8 @@
   R2 | R2 |  
   R2 | R2 | <f f'>8  <g g'> < cis' cis''> <a a'>| R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -308,7 +336,8 @@
   R2 |R2 |  
   R2 | R2 |<gis gis'>4.-- <a a'>8)  | R2 |  % fl ob kl bn    
   \clef treble <<r2 \\ {fis'4( e')}>> | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   <<{fis4~^"mutes" fis4~}\\{fis4( e4}>>   | R2 | R2 | % va vc cb   
 
@@ -318,7 +347,8 @@
   r4 r8. | r4 r8. | 
   r4 r8.  | r4 r8.  | r4 r8.  | r4 r8.  |  % fl ob kl bn    
   << {fis'4~(^"stopped" fis'8.~}\\{r4 \times 3/2 {fis'16( e'}}>>  | r4 r8.  | % hn tn   
- r4 r8.  | r4 r8.  | <ees c'>4..\arpeggio | <ees' c''>4..\arpeggio | % tmp perc harpL harpR  
+ r4 r8.  | r4 r8.  | r4 r8.  |  % tmp perc fol  
+ <ees c'>4..\arpeggio | <ees' c''>4..\arpeggio | % hpL hpR  
   r4 r8.  | r4 r8.  | %vn vn2  
   <<{fis4~ fis8.~}\\{dis4) \times 3/2 {r16 e(}}>> |c'8^"mutes" b16 a \times 3/2 {fis16 g~} | r4 r8.  | % va vc cb   
 
@@ -328,7 +358,8 @@
   R2 | R2 |
   R2 | R2 | R2 | b4( bes |  % fl ob kl bn    
   << b'2 \\ {d'4.)_"norm" r8}>> | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   <<{fis4 r}\\{d4.) r8}>> |g4 r | R2 | % va vc cb   
 
@@ -338,7 +369,8 @@
   R2 | R2 |
   R2 | R2 | R2 | a4 aes) |  % fl ob kl bn    
   << e''2) \\ c'2\p >> | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   e''4.(^"mutes" d''8) | c''2^"mutes" | %vn vn2  
   f4 g | c'2 | R2 | % va vc cb   
 
@@ -348,7 +380,8 @@
   \tag #'vocal {fis'=4 e} \tag #'pf {R2 }  |R2 |%lh rh
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \clef bass fis,4 e, | r8. a16 r8. fis16 | % hn tn     
-  fis4 e | R2 | R2 | R2 | % tmp perc harpL harpR  
+  fis4 e | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -357,7 +390,8 @@
   \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |R2 |%lh rh
   r4 fis'^"tpt :(" | R2 | R2 | R2 |  % fl ob kl bn    
   cis,2~ | dis2 | % hn tn   
-  R2 | d'2~:32\< | R2 | R2 | % tmp perc harpL harpR  
+  R2 | d'2~:32\< | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   dis'16^"no mutes*" cis' dis' e'  fis'8 e'16 fis'  | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -367,7 +401,8 @@
   \tag #'vocal {<cis cis'>2 r4.} \tag #'pf {r2 r4.  }  |  \tag #'vocal {r2 r4. } \tag #'pf {r2 r4 d''8 }|   
   g'2 r4 <e'' a''>8^"tpt"| r2 r4. | r2 r4. | r2 r4. |  % fl ob kl bn    
   cis,2 r4. | e2 r4. | % hn tn   
-  r2 r4. | d'2:32\! r4. | r2 r4. | r2 r4. | % tmp perc harpL harpR  
+  r2 r4. | d'2:32\! r4. | r2 r4. |  % tmp perc fol  
+  r2 r4. | r2 r4. | % hpL hpR  
   r2 r4 <a' d''>8 | r2 r4 <d' fis'>8 | %vn vn2  
   r2 r4. | r2 r4. | r2 r4 d,8 | % va vc cb   
 
@@ -377,7 +412,8 @@
   <d, d>4 | <d' fis' a' d''>4 |  
   <d'' a''>4 | R4 | R4 | R4 |  % fl ob kl bn    
   R4 | R4 | % hn tn   
-  R4 |\cross d''4| R4 | R4 | % tmp perc harpL harpR  
+  R4 |\cross d''4| R4 |  % tmp perc fol  
+  R4 | R4 | % hpL hpR  
   <a' d''>4  |<d' fis'>4 | %vn vn2  
   <d' d''>4 | d4 | d,4 | % va vc cb   
 
@@ -387,7 +423,8 @@
   R2. | \tag #'vocal {<f=' gis b>4.->-. <f=' gis b>8\arpeggio <f=' gis b> <f=' gis b> }\tag #'pf {R2. }  |  
   R2. | R2. | <f gis b>4 r8 q q q | r4. d'8. b16 gis8 | % fl ob kl bn    
   \clef treble <f' gis' b'>4.^"stopped" <b d' f'>8^"norm" q q | R2. | % hn tn   
-  R2. | \cross d''4 << \cross d''2->\lv \\ f'_"snares off">>  |r4. <f gis b d'>8\arpeggio b gis |r4. <f' gis' b' d''>8\arpeggio b' gis' | % tmp perc harpL harpR  
+  R2. | \cross d''4 << \cross d''2->\lv \\ f'_"snares off">>  | R2. | % tmp perc fol  
+  r4. <f gis b d'>8\arpeggio b gis |r4. <f' gis' b' d''>8\arpeggio b' gis' | % hpL hpR  
   R2. | R2. | %vn vn2  
   <gis f'>4. r |<f d'>4. r | R2. | % va vc cb   
 
@@ -396,7 +433,8 @@
   \tag #'vocal {\times 3/2 { <fis fis'>8 <fis fis'>} r4.} \tag #'pf {R2.} | \tag #'vocal {r4. \times 3/2{ <e gis c>8 <e gis b> }}\tag #'pf {R2. }  |  
  r4. \times 3/2 {c'''8 b''}  | r4. \times 3/2 {gis''8 gis''} | R2. |\times 3/2 {fis8-. fis} r4. | % fl ob kl bn    
   \clef bass \times 3/2 {fis,8-. fis,~} fis,4. | R2. | % hn tn   
- \times 3/2 {fis,8 fis,\lv} r4. | R2. | R2. | R2. | % tmp perc harpL harpR  
+ \times 3/2 {fis,8 fis,\lv} r4. | R2. | R2. |  % tmp perc fol  
+ R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   \times 3/2 {fis8-. fis8~} fis4 r8 | \times 3/2 {fis,8-. fis,~} fis,4.\glissando | R2. | % va vc cb   
 
@@ -406,7 +444,8 @@
   \tag #'vocal {<e, e'>2   a''=,8( e' cis' gis} \tag #'pf {R1 } |\tag #'vocal { r1} \tag #'pf {R1 } |   
    r8 e'' \times 2/3 {fis''4 gis''8 }   \times 2/3 {b''4 a''8} \times 2/3 {gis''4 a''8 } | R1 | R1 | r4 \times 2/3 {r4 d8( } <a, cis>4)\p r |  % fl ob kl bn    
   R1 | R1 | % hn tn   
-  e4 r2. | R1 | R1 |r2 a8 e' cis'' gis' | % tmp perc harpL harpR  
+  e4 r2. | R1 | R1 |  % tmp perc fol  
+  R1 |r2 a8 e' cis'' gis' | % hpL hpR  
   r8 e'' \times 2/3 {fis''4 gis''8 }   \times 2/3 {b''4 a''8-.} \times 2/3 {gis''4 a''8-. } | R1 | %vn vn2  
   e4~ \times 2/3 {e4 d8^"div arc/pz"} r8 e(^"arc" cis'^"arc/pz" gis | e,4. r8 a,8 e4 r8 | R1 | % va vc cb   
 
@@ -415,7 +454,8 @@
   \tag #'vocal {fis8  e  gis d) r4} \tag #'pf {R2. } |\tag #'vocal { R2.} \tag #'pf {R2. } |   
   r8 e'' \times 2/3 {fis''4 gis''8 } \times 2/3 {b''4 a''8}  | R2. | fis'8 e' gis' d' r4 | r2 a4   |% fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. |R2. |  fis'8  e'  gis' d' cis'8( e' | % tmp perc harpL harpR  
+  R2. | R2. | R2. | % tmp perc fol  
+  R2. |  fis'8  e'  gis' d' cis'8( e' | % hpL hpR  
   \times 2/3 {fis''4 e''8-.}  \times 2/3 {fis''4 gis''8-. } \times 2/3 {b''4 a''8} | R2. | %vn vn2  
   fis8  e  gis d) a,8^"pz" e  | fis4. d8 a,4 | R2. | % va vc cb   
 
@@ -425,7 +465,8 @@
   \tag #'vocal {R2} \tag #'pf {R2 } |\tag #'vocal { a8 c fis a} \tag #'pf {R2 } | 
   r4 fis''8( a'') | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2  | <a' cis'' e''>2\arpeggio) | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2  | <a' cis'' e''>2\arpeggio) | % hpL hpR  
   R2 | R2 | %vn vn2  
   cis'4 r | R2 | R2 | % va vc cb   
 
@@ -434,7 +475,8 @@
   \tag #'vocal {b'8 gis d b} \tag #'pf {R2 } |  \tag #'vocal {R2}  \tag #'pf {R2 } | 
   R2 | R2 | R2 | r4 d8( b,) |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | <b b'>4 <fis fis'> | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | <b b'>4 <fis fis'> | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -443,7 +485,8 @@
   \tag #'vocal {e,2} \tag #'pf {R2 } | \tag #'vocal {R2} \tag #'pf {R2 } | 
   R2 | R2 | <e' g' b'>2~ | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | <e e'>2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  <e e'>2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | e,2~^"mutes" | R2 | % va vc cb   
 
@@ -452,7 +495,8 @@
   \tag #'vocal {R2} \tag #'pf {R2 } | \tag #'vocal {r4 \times 2/3 {r4 <f,=' a cis>8} }\tag #'pf {R2 } | 
   R2 | R2 | <e' g' b'>2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r4^"mutes" << {\times 2/3 {r4^"div" a'8-.}} \\ {\times 2/3 {r4 f'8-.}} >> |e,4 r | R2 | % va vc cb   
 
@@ -461,7 +505,8 @@
   \tag #'vocal {cis4 g } \tag #'pf {R2 } |\tag #'vocal { <f a cis>4\> g } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | cis''8\>^"mutes" b'16 a' g'8 a'16 b' | %vn vn2  
   << {a'4 g'\>} \\ {f' g'}>> |f4\> f, | R2 | % va vc cb   
 
@@ -470,7 +515,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal {<f a cis>4 g } \tag #'pf {R2 } |   
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | cis''8 b'16 a' g'8 a'16 b' | %vn vn2  
   << {a'4 g'} \\ {f' g'}>>  |f4 f,4 | R2 | % va vc cb   
 
@@ -479,7 +525,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal { <f a cis>4 g\! } \tag #'pf {R2 } |  
   r4. ees8~ | R2 | R2 |   r4. ees8  |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |  r4. ees8 |  r4. ees'8 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  r4. ees8 |  r4. ees'8 | % hpL hpR  
   R2 | cis''8 b'16 a' g'8 a'16 b'\! | %vn vn2  
   << {a'4 g'\!} \\ {f' g'}>>   | f4 f, | R2 | % va vc cb   
 
@@ -488,7 +535,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal {R2 } \tag #'pf {R2 } |  
   ees4 bes4 | R2 |r4 bes8. a16 | f8 g bes8. r16 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |  f8 g bes8. a16 |  f'8 g' bes'8. a'16 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  f8 g bes8. a16 |  f'8 g' bes'8. a'16 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | f8\! r4.| R2 | % va vc cb   
 
@@ -497,7 +545,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal { <aes c e>4 <a c ees> } \tag #'pf {R2 } |  
   c'4 r | R2 | fis4 r | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | <gis c' e'>4\arpeggio <a, a> | <gis' c'' e''>4\arpeggio a' | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  <gis c' e'>4\arpeggio <a, a> | <gis' c'' e''>4\arpeggio a' | % hpL hpR  
   R2 | \grace b'8( <aes' e''>4 r | %vn vn2  
   R2 | aes4 r | R2 | % va vc cb   
 
@@ -506,7 +555,8 @@
   \tag #'vocal {fis'=4( e } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } |  
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | fis4 e | r4 e,4^"mutes" | % va vc cb   
 
@@ -515,7 +565,8 @@
   \tag #'vocal {d2) } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } |  
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   <fis b>2 | d4. r8 | d,2 | % va vc cb   
 
@@ -525,7 +576,8 @@
   \tag #'vocal {a,4\laissezVibrer\p \times 2/3 {r8 gis'=4 }} \tag #'pf {R2 } |\tag #'vocal {R2 } \tag #'pf {R2 } |
   R2 | R2 |r4 \times 2/3 {r8 gis'4~} | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |  r4 \times 2/3 {r8 gis4} | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  r4 \times 2/3 {r8 gis4} | R2 | % hpL hpR  
   R2 |  r4 \times 2/3 {r8 gis'4^"pz"} | %vn vn2  
   r4 \times 2/3 {r8 gis4^"pz"} | e,2~^"sul pont."\p | a,,2~   | % va vc cb   
 
@@ -535,7 +587,8 @@
   \tag #'vocal {r8 fis4 r8 e4 } \tag #'pf {R2. } |\tag #'vocal { R2.} \tag #'pf {R2. } |
   R2. | R2. |gis'8 fis'4~ fis'8 e'4~ | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. |  r8 fis4 r8 e4 | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |   % tmp perc fol  
+  r8 fis4 r8 e4 | R2. | % hpL hpR  
   R2. |  r8 fis'4 r8 e'4 | %vn vn2  
   r8 fis4 r8 e4~ | e,2.~ | a,,2.~ | % va vc cb   
 
@@ -545,7 +598,8 @@
   \tag #'vocal {r8 dis r e } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } | 
   R2 | R2 | ees'8 r e'8 r8 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |  dis8 r8 e8 r8 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  dis8 r8 e8 r8 | R2 | % hpL hpR  
   R2 |  ees'8 r e'8 r8 | %vn vn2  
   ees8 r e8 r8 | e,2~ | a,,2~ | % va vc cb   
 
@@ -554,7 +608,8 @@
   \tag #'vocal {r4 dis8 e } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } | 
   e''8( dis'' b'8 gis'  | R2 | ees'8 e' r4 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |  dis8 e r4 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  dis8 e r4 | R2 | % hpL hpR  
   R2 |  ees'8 e' r4 | %vn vn2  
   ees8 e r4 | e,2~ | a,,2~ | % va vc cb   
 
@@ -563,7 +618,8 @@
   \tag #'vocal {r8 dis r e } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } |  
   e'8 dis') r4 | R2 |ees'8 r e'8 r8  | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |  dis8 r e8 r8  | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  dis8 r e8 r8  | R2 | % hpL hpR  
   R2 |  ees'8 r e'8 r8  | %vn vn2  
   ees8 r e8 r8  | e,2 | a,,2~ | % va vc cb   
 
@@ -573,7 +629,8 @@
   \tag #'vocal {fis8 gis a b a b } \tag #'pf {R2. } |\tag #'vocal { R2. } \tag #'pf {R2. } |
   dis'8( e' fis' gis' fis' gis') | R2. | dis'8 e' fis' gis' fis' gis'   | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. |  dis8 e fis gis fis gis   | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |   % tmp perc fol  
+  dis8 e fis gis fis gis   | R2. | % hpL hpR  
   R2. |  dis'8 e' fis' gis' fis' gis'   | %vn vn2  
   dis8 e fis gis fis gis   |   dis8 e fis gis fis gis | R2. | % va vc cb   
 
@@ -583,7 +640,8 @@
   \tag #'vocal {R4. } \tag #'pf {R4. } |\tag #'vocal { r4 <f a cis>8 } \tag #'pf {R4. } |  
   r4 f''8-.  | R4. | R4. | r4 a8-. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   R4. | R4. | R4. | % va vc cb   
 
@@ -593,7 +651,8 @@
   \tag #'vocal {r4 <ges,=, ges'>2 } \tag #'pf {R2. } |\tag #'vocal { <f a cis>2 <ges bes d>4 } \tag #'pf {R2. } |
   f''4 fis'' r | R2. |cis''4 \times 2/3 {d''4 r8} r4 | a4( bes8) r4. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -604,7 +663,8 @@
   \tag #'vocal {<g g'>4 <aes aes'> } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } | 
   g''4 r | R2 |ees''4 r| R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -614,7 +674,8 @@
   \tag #'vocal {<des des'>4 \times 2/3 {<aes aes'>8 r8 <des des'> } \times 2/3 {r4 <aes aes'>8} } \tag #'pf {R2. } |\tag #'vocal { R2. } \tag #'pf {R2. } | 
   gis''8 r \times 2/3 {r gis'' r} r4 | R2. |e''8 r \times 2/3 {r e''4} \times 2/3 {r4 cis''8} |  R2. |  % fl ob kl bn    
   des8 r \times 2/3{ aes,8 r des } \times 2/3 {r4 aes,8~}  | R2. | % hn tn   
-  des8 r \times 2/3{ aes,8 r des } \times 2/3 {r4 aes,8~}  | R2. | R2. | R2. | % tmp perc harpL harpR  
+  des8 r \times 2/3{ aes,8 r des } \times 2/3 {r4 aes,8~}  | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -624,7 +685,8 @@
   \tag #'vocal {r4 \times 2/3 {r4 <e=, e'>8 } } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   aes,2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -634,7 +696,8 @@
   \tag #'vocal {r4 \times 2/3 {<f= a c>8 r <d f a>} } \tag #'pf {r4 \times 2/3 {<f= a c'>8 r <d f a>} } |\tag #'vocal { <a=' c e>4 \times 2/3 {r8 <f a c>4 }} \tag #'pf { r4 \times 2/3 {r8 <f' a' c''>4 }} | 
   R2 | R2 |<a' c'' e''>8 r \times 2/3 {a' <f' a' c''> f'}  | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
  <c'' e''>8^"pizz" r \times 2/3 {r8 < a' c''> r }  |  r4 \times 2/3 {<f a c'>8^"pizz" r <d f a>^"*out of range!"}| %vn vn2  
   r4 \times 2/3 {<f a c'>8 r <d f a>}| R2 | R2 | % va vc cb   
 
@@ -644,7 +707,8 @@
   \tag #'vocal {r8 <d f a>16~ <d f a>8 <f a c> } \tag #'pf {r8 <d f a>16~ <d f a>8 <f a c'> } |\tag #'vocal { <f a c>8. \times 2/3 {<a c e>4 <f a c>8 } } \tag #'pf { <f' a' c''>8. \times 2/3 {<a' c'' e''>4 <f' a' c''>8 } } |
   r8. r4  | r8. r4  |<f' a' c''>8 a'16 \times 2/3 {<a' c'' e''>4-. <f' a' c''>8} | r8. r4  |  % fl ob kl bn    
   r8. r4  | r8. r4  | % hn tn   
- r8. r4  | r8. r4  | r8. r4  | r8. r4  | % tmp perc harpL harpR  
+ r8. r4  | r8. r4  | r8. r4  |  % tmp perc fol  
+ r8. r4  | r8. r4  | % hpL hpR  
   <a' c''>8 r16 \times 2/3 {<c'' e''>4-. <a' c''>8} |  <f a c'>8 r16 \times 2/3 {q8 r q}| %vn vn2  
   <f a c'>8 r16 \times 2/3 {q8 r q}| r8. r4  | r8. r4  | % va vc cb   
 
@@ -655,7 +719,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal { r4. f8~ } \tag #'pf {  c''4( b'8 f' } |
   R2 | R2 | c''4( b'8 f' | g2~ |  % fl ob kl bn    
   R2 |r4 <d a>~\pp\< | % hn tn   
-  R2  | R2 | g,4\laissezVibrer <d g>\laissezVibrer | R2 | % tmp perc harpL harpR  
+  R2  | R2 | R2 |  % tmp perc fol  
+  g,4\laissezVibrer <d g>\laissezVibrer | R2 | % hpL hpR  
   <a' c''>4 r | a4 r | %vn vn2  
   R2 | g,2~^"mutes - norm"| R2 | % va vc cb   
 
@@ -664,7 +729,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal { f4( e8 a, } \tag #'pf {a'4) } |
   R2 | R2 | a'2) | g4 r |  % fl ob kl bn    
   \clef treble f'4( e'8 a  | <d a>2~ | % hn tn   
-  R2 | R2 | R2 | <d' g'>4\laissezVibrer r | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | <d' g'>4\laissezVibrer r | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | g,2~ | R2 | % va vc cb   
 
@@ -674,7 +740,8 @@
   \tag #'vocal {R2. } \tag #'pf {R2. } |\tag #'vocal { d4) r2 } \tag #'pf {R2. } |
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   d'4) r2  | <d a>4.\> r\!| % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | g,2. | R2. | % va vc cb   
 
@@ -684,7 +751,8 @@
   \tag #'vocal {d4.~ d2 r2 } \tag #'pf {r4. r2 r2 } |\tag #'vocal { r4. r2 r2 } \tag #'pf {r4. r2 r2 } |
   r4. r2 r2  | r4. r2 r2  | r4. r2 r2  | r4. r2 r2  |  % fl ob kl bn    
   r4. r2 r2  | r4. r2 r2  | % hn tn   
-  r4. r2 r2  | r4. r2 r2  | r4. r2 r2  | r4. r2 r2  | % tmp perc harpL harpR  
+  r4. r2 r2  | r4. r2 r2  | r4. r2 r2  |  % tmp perc fol  
+  r4. r2 r2  | r4. r2 r2  | % hpL hpR  
   r4. r2 r2  | r4. r2 r2  | %vn vn2  
   <<{d'4.~ d'4} \\ {g4. r4}>> r4 r2| a4.~ a2 <e gis> | \grace fis,,,8( <a,, d,>4.~ q2) a, | % va vc cb   
 
@@ -693,7 +761,8 @@
   \tag #'vocal {R1 } \tag #'pf {R1 } |\tag #'vocal { R1 } \tag #'pf {R1 } |   
   R1 | R1 | R1 | R1 |  % fl ob kl bn    
   R1 | R1 | % hn tn   
-  R1 | R1 | R1 | R1 | % tmp perc harpL harpR  
+  R1 | R1 | R1 |  % tmp perc fol  
+  R1 | R1 | % hpL hpR  
   a'8^"arco" g' fis' e' fis'8 g' a' fis' | R1 | %vn vn2  
   R1 | <e, a,>1 | a,,1 | % va vc cb   
 
@@ -703,7 +772,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } |  
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   d'2 | R2 | %vn vn2  
   R2 | <g d'>2 |g,,4. r8 | % va vc cb   
 
@@ -713,7 +783,8 @@
   \tag #'vocal {<f c' f>2 c8 d e f } \tag #'pf {R1 } |\tag #'vocal { <f a>2 r } \tag #'pf {R1 } |
   R1 | R1 | R1 | f,,8 g,, a,, b,, c, d, e, f, |  % fl ob kl bn    
   R1 | R1 | % hn tn   
-  R1 | R1 | R1 | R1 | % tmp perc harpL harpR  
+  R1 | R1 | R1 |  % tmp perc fol  
+  R1 | R1 | % hpL hpR  
   c'4. r8 r2 | R1 | %vn vn2  
   r8 << {<c''~ e''>2..\<} \\ {<f' a'>4. g'2~} >>    |<< { <a e'~>2 <c' e'> }\\{<f, c>8 g, a, b, c d e f} \\ {s2 c2} >> | <f,, c,>8 g,, a,, b,, c, d, e, f,  | % va vc cb   
 
@@ -723,7 +794,8 @@
   \tag #'vocal {g2 } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } |  
   R2 | R2 | R2 | g,2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   c''8 b' a' g' | R2 | %vn vn2  
   << c''2\! \\ g'2~ >> | <g, g>2 | <g, g>2 | % va vc cb   
 
@@ -733,7 +805,8 @@
   \tag #'vocal {cis4. } \tag #'pf {R4. } |\tag #'vocal { R4. } \tag #'pf {R4. } |
   R4. | R4. | R4. | cis4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   fis'4 e'8 | R4. | %vn vn2  
   <<cis''4.~ \\ {g'8 r4}>> | R4. | cis4.~ | % va vc cb   
 
@@ -743,7 +816,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } |   
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   dis'8 e' fis' gis' | R2 | %vn vn2  
   <<cis''2 \\ s2>> | R2 | cis2 | % va vc cb   
 
@@ -752,7 +826,8 @@
   \tag #'vocal {R2 } \tag #'pf {ais8( fis c' gis)} |\tag #'vocal { ais8 fis e d } \tag #'pf {ais'8( fis' c'' gis'} |  
   R2 |  ais'8 fis' e' d'  | ais'4 c''  |   ais'8 fis' e' d'  |  % fl ob kl bn    
   r4 \clef bass e,8. d,16 | R2 | % hn tn   
-  R2 | R2 |   ais8 fis e d  |   <ais' ais''>8 <fis' fis''> <e' e''> <d'  d''> | % tmp perc harpL harpR  
+  R2 | R2 | R2 |    % tmp perc fol  
+  ais8 fis e d  |   <ais' ais''>8 <fis' fis''> <e' e''> <d'  d''> | % hpL hpR  
   ais'16 r fis' r e'  r d'16 r | R2 | %vn vn2  
   ais'8 fis' e'8 << ais'~ \\ d'~>>  | bes4-.^"pizz" c-. | bes2 | % va vc cb   
 
@@ -761,7 +836,8 @@
   \tag #'vocal {R2 } \tag #'pf {r4 <b,, fis, b,> } |\tag #'vocal { <c e gis ais>2 } \tag #'pf {d'4) \times 2/3 {<b' dis' fis'>8 q q} } |
   R2 | c'4 r | d''4 r| c'4 r |  % fl ob kl bn    
   c,4 r | R2 | % hn tn   
-  r4 \times 2/3 {b,8 b, b, }  | r4 <<\cross g'4~\\\cross e'4\lv>> | c2 | <c' c''>2 | % tmp perc harpL harpR  
+  r4 \times 2/3 {b,8 b, b, }  | r4 <<\cross g'4~\\\cross e'4\lv>> | R2 |  % tmp perc fol  
+  c2 | <c' c''>2 | % hpL hpR  
   c'4 r | R2 | %vn vn2  
   <<ais'4 \\ c'>> r4 | aes4 r |r4 b,~ | % va vc cb   
 
@@ -770,7 +846,8 @@
   \tag #'vocal {R2 } \tag #'pf {<b,, fis, c>4-- <b,, b,>~\sustainOn } |\tag #'vocal { R2 } \tag #'pf {<c' dis' fis'>8-- \times 2/3 {<b dis' fis'>16 q q}r4 } |  
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
- c8 \times 2/3 {b,16 b, b, } r4| <<\cross g'2\\s2>> | R2 | R2 | % tmp perc harpL harpR  
+ c8 \times 2/3 {b,16 b, b, } r4| <<\cross g'2\\s2>> | R2 |  % tmp perc fol  
+ R2 | R2 | % hpL hpR  
   <a' b'>2~^"mutes" | R2 | %vn vn2  
   R2 | R2 |b,2| % va vc cb   
 
@@ -779,7 +856,8 @@
  \tag #'vocal {R2. } \tag #'pf {<b,, b,>2.~ } |\tag #'vocal { R2. } \tag #'pf {R2. } |  
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  r4 \times 2/3 {r8 b, b, }  c8 \times 2/3 {b,16 b, b, }  |\cross g'2. | R2. | R2. | % tmp perc harpL harpR  
+  r4 \times 2/3 {r8 b, b, }  c8 \times 2/3 {b,16 b, b, }  |\cross g'2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   q2.~ | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -790,7 +868,8 @@
   \tag #'vocal {R2. } \tag #'pf {<b,, b,>2. } |\tag #'vocal { R2. } \tag #'pf {r4 e' gis'} |
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   q2.~ | R2. | %vn vn2  
   R2. | \clef treble r4 e''~\o <e''\o gis''\o>~ | R2. | % va vc cb   
 
@@ -800,7 +879,8 @@
   \tag #'vocal {r4 \times 2/3 {b8 b b }} \tag #'pf {<b,, b,>2 } |\tag #'vocal { r2 } \tag #'pf { R2  } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
- r4 \times 2/3 {b,8\mp b, b,} |R2 | R2 | R2 | % tmp perc harpL harpR  
+ r4 \times 2/3 {b,8\mp b, b,} |R2 | R2 |  % tmp perc fol  
+ R2 | R2 | % hpL hpR  
   q2~ | R2 | %vn vn2  
   R2 |<e'' gis'' b''>2\o | R2 | % va vc cb   
 
@@ -810,7 +890,8 @@
   \tag #'vocal {\times 2/3 {b b b} c8 b16 b b8 e,=8 } \tag #'pf {<<{\times 2/3 {b,8 b, b, } c4-- }\\b,,2>> r8 gis8-. } |\tag #'vocal { r2 r8 <e gis b>8 } \tag #'pf {\times 2/3 {r8 <b dis'>8 q } <c' dis' fis'>8-- \times 2/3 {<b dis' fis'>16 q q } r8  <e' gis b>8-. } |
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  c2 r4 | \cross g'2\mp r4 | R2. | R2. | % tmp perc harpL harpR  
+  c2 r4 | \cross g'2\mp r4 | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   q2~ q8 r  | R2. | %vn vn2  
   R2. | r2 r8 e8^"solo" | R2. | % va vc cb   
 
@@ -820,7 +901,8 @@
   \tag #'vocal {a4 f g8 } \tag #'pf {a4( f8 f g-.) } |\tag #'vocal {<e a c>4 <f a d~> <g b d>8 } \tag #'pf {<<{c''8( b'16 a' d''8 c''16 b' g'8-.)}\\{<e' a'>4 f' g'8}>> } | 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 | r4. r4 | % hn tn   
-  r4. r4 | r4. r4 | r4. r4 | r4. r4 | % tmp perc harpL harpR  
+  r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
+  r4. r4 | r4. r4 | % hpL hpR  
   r4. r4 | r4. r4 | %vn vn2  
   r4. r4 | a4 f g8 | r4. r4 | % va vc cb   
 
@@ -830,7 +912,8 @@
   \tag #'vocal {ees16 f ees f g ees f g } \tag #'pf {dis4( g } |\tag #'vocal { R2 } \tag #'pf {  ees'16 f' ees' f' g' ees' f' g' } |
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | dis4 g| R2 | % va vc cb   
 
@@ -841,7 +924,8 @@
   \tag #'vocal {a4 bes r } \tag #'pf {a4 fis e) } |\tag #'vocal { R2. } \tag #'pf {  a'8 g'16 a' fis'8 e' r g'16 a' } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | a4 fis e | R2. | % va vc cb   
 
@@ -851,7 +935,8 @@
   \tag #'vocal {R2 } \tag #'pf {<a, a>4~( \times 2/3 {<a, a>8 gis4)} } |\tag #'vocal { R2 } \tag #'pf {  c''8 b'16 a' \times 2/3 {gis'8 r b'}  } |  
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r4 \times 2/3 {r8 gis4} |a,2 | R2 | % va vc cb   
 
@@ -861,7 +946,8 @@
   \tag #'vocal {\times 3/2 {ees,=16 f} \times 3/2 {g ees } \times 3/2{ a f } } \tag #'pf {  ees8 f16 g8 ees16 a8 f16 } |\tag #'vocal {  ees'8 f'16 g'8 ees'16 a'8 f'16 } \tag #'pf {  ees'8 f'16 g'8 ees'16 a'8 f'16 } |
   r8. r r  | r8. r r  | r8. r r  | r8. r r  |  % fl ob kl bn    
   r8. r r  | r8. r r  | % hn tn   
-  r8. r r  | r8. r r  | r8. r r  | r8. r r  | % tmp perc harpL harpR  
+  r8. r r  | r8. r r  | r8. r r |  % tmp perc fol  
+  r8. r r  | r8. r r  | % hpL hpR  
   r8. r r  | r8. r r  | %vn vn2  
   r8 f16 g16 r ees a r f16 | \tuplet 2/3 8. {ees16 f g ees a f} | r8. r r  | % va vc cb   
 
@@ -871,7 +957,8 @@
   \tag #'vocal {R2 } \tag #'pf {b8 r4. } |\tag #'vocal { R2 } \tag #'pf {  b'8 ees'16 f' g' a' b' g' } |  
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r8. f16 g a b g~  |  r8 ees,16 f, g, a, b, g, |  r8 ees,,16 f,, g,, a,, b,, g,, | % va vc cb   
 
@@ -881,7 +968,8 @@
   \tag #'vocal {<g a cis>4  e16 e e e   gis8   gis16 gis } \tag #'pf {r4 <e, e>4--\f <gis, gis>-- } |\tag #'vocal { <ees g a cis>4 r2 } \tag #'pf {<a' cis''>8 r8 r2 } |
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   r4 <e,, e,>8\f r <gis,, gis,> r| R2. | % hn tn   
- r4 e, gis, | r4 \cross b'2 | R2. | R2. | % tmp perc harpL harpR  
+ r4 e, gis, | r4 \cross b'2 | R2. |  % tmp perc fol  
+ R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   <g cis'>8 r r2 | \clef bass r4 e,16 e, e, e, gis,8-> gis,16 gis, |  cis4 r16 e e e r8 gis16 gis | % va vc cb   
 
@@ -892,7 +980,8 @@
   \tag #'vocal {r8 <e, e'>-> r4 <e e'>8-> } \tag #'pf {<b, b>8-- r8 <aes c e>4--  r8 } |\tag #'vocal { <e gis b>8 r <e gis c> <e gis> r } \tag #'pf {r4 <aes c'> r8 } |
   r4 r4. | r4 r4. | r4 r4. | r4 r4. |  % fl ob kl bn    
   <b,, b,>8 r <gis,, gis,>4 r8 | r4 <e c'>8 <c gis> r| % hn tn   
-  e,8 r4 r4 | r8  << \cross d''\mf \\ f'\mf>> r4  << \cross d''8\f \\ f'\f>> | r4 r4. | r4 r4. | % tmp perc harpL harpR  
+  e,8 r4 r4 | r8  << \cross d''\mf \\ f'\mf>> r4  << \cross d''8\f \\ f'\f>> | r4. r4 |  % tmp perc fol  
+  r4 r4. | r4 r4. | % hpL hpR  
   r4 r4. | r4 r4. | %vn vn2  
   r4 e''4 r8 |  b,8 r  << <e c' gis'>8 \\ { <e, gis,>4}>> r8 | r4 r4. | % va vc cb   
 
@@ -903,7 +992,8 @@
   \tag #'vocal {<ees aes c>8.--  \times 3/5 {fes16-- ees fes ges aes } } \tag #'pf {<ees aes c'>8.-> \times 3/5 {fes16-- ees fes ges aes }} |\tag #'vocal { <ees aes c>8.-^ r8. } \tag #'pf {<ees' aes' c''>8.-> \times 3/5 {fes'16-- ees' fes' ges' aes' }} |
   r8. r  | r8. r  | r8. r  | r8. r  |  % fl ob kl bn    
   <ees,, ees,>8. e,16 r8  | r8. r  | % hn tn   
-  r8. r  | r8. r  | r8. r  | r8. r  | % tmp perc harpL harpR  
+  r8. r  | r8. r  | r8. r |  % tmp perc fol  
+  r8. r  | r8. r  | % hpL hpR  
   r8. r  | r8. r  | %vn vn2  
   ees'8. r  | <ees, aes,>8-> r16 \times 3/5 {fes,16-- ees, fes, ges, aes, }| r8. r  | % va vc cb   
 
@@ -912,7 +1002,8 @@
   \tag #'vocal {\times 3/5 {bes16. ges c8} f8( ges16) } \tag #'pf {  \times 3/5 {bes8 ges16 c'8} <cis cis'>8. } |\tag #'vocal { r8. << des16.\\ {aes16( a8)}>> } \tag #'pf {  \times 3/5 {bes'8 ges'16 c''8} cis''8.    } |
   r8. r  | r8. r  | r8. r  | r8. r  |  % fl ob kl bn    
   r8. r  | r8. r  | % hn tn   
-  r8. r  | r8. r  | r8. r  | r8. r  | % tmp perc harpL harpR  
+  r8. r  | r8. r  | r8. r |  % tmp perc fol  
+  r8. r  | r8. r  | % hpL hpR  
   r8. r  | r8. r  | %vn vn2  
   r8. cis''16~ <cis''~ a'~> <cis'' a' fis'>  |\times 3/5 {bes,8 ges,16 c8 } cis8.~  | r8. r  | % va vc cb   
 
@@ -923,7 +1014,8 @@
   \tag #'vocal {<<{e8 dis r}\\{b c r}\\ {gis4 a8}>> } \tag #'pf {R4. } |\tag #'vocal { R4. } \tag #'pf {R4. } |
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   e'8 dis' e'16 fis'  | cis4 r8 | R4. | % va vc cb   
 
@@ -932,7 +1024,8 @@
   \tag #'vocal {R4. } \tag #'pf {R4. } |\tag #'vocal { R4. } \tag #'pf {R4. } |  
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   << { \grace {e'16} \stemUp g'16 fis' e' dis' e' fis' \stemNeutral} \new Voice {\voiceFour <e g>4.} >>  | R4. | R4. | % va vc cb   
 
@@ -941,7 +1034,8 @@
   \tag #'vocal {R4. } \tag #'pf {R4. } |\tag #'vocal { R4. } \tag #'pf {R4. } |  
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   R4. | R4. | R4. | % va vc cb   
 
@@ -952,7 +1046,8 @@
   \tag #'vocal {R2 } \tag #'pf {R2 } |\tag #'vocal { <c e f a>4:32 <c e g b>4:32 } \tag #'pf {R2 } | 
   <f' f''>4 <g' g''> | <e' e''>2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | <c, e, f, a, c e f a>4\arpeggio^"* up down"  <c, e, g, b, c e g b>4\arpeggio | <c' e' f' a'>4\arpeggio  <c' e' g' b'>4\arpeggio | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  <c, e, f, a, c e f a>4\arpeggio^"* up down"  <c, e, g, b, c e g b>4\arpeggio | <c' e' f' a'>4\arpeggio  <c' e' g' b'>4\arpeggio | % hpL hpR  
   R2 | R2 | %vn vn2  
   <c~ e~ f a c'~ e'~ f' a'>4 <c e g b c' e' g' b'~>  | << {< f a>4 <g b~>}\\<c~ e>2>> | R2 | % va vc cb   
 
@@ -961,7 +1056,8 @@
   \tag #'vocal {gis'=8 fis e dis  } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } | 
   <gis' gis''>2~ |<ees' ees''>2 | R2 | R2 |  % fl ob kl bn    
   << {aes8 ges fes ees}\\{aes, ges fes ees}>>   | R2 | % hn tn   
-  R2 | R2 |<dis, gis, c,  g dis gis b>2\arpeggio |<g' dis' gis' b'>2\arpeggio | % tmp perc harpL harpR  
+  R2 | R2 | R2 | % tmp perc fol  
+  <dis, gis, c,  g dis gis b>2\arpeggio |<g' dis' gis' b'>2\arpeggio | % hpL hpR  
   R2 | R2 | %vn vn2  
   << <gis e' b>4 \\ {gis'8 a'}>> <<{gis'8 fis'}\\gis,4>> |<< <gis b>2 \\ <c ees> >>| gis8 fis e d | % va vc cb   
 
@@ -970,7 +1066,8 @@
   \tag #'vocal {d4\> dis } \tag #'pf {R2 } |\tag #'vocal { <dis f aes c>4 <dis~ fis a c> } \tag #'pf {R2 } |
   <gis' gis''>4 <a' a''> |<d' d''>2| R2 | R2 |  % fl ob kl bn    R2 
   R2 | R2 | % hn tn   
-  R2 | R2 |<d, f, gis, d f gis cis'>4\arpeggio <ees, g, b, ees ges a d'>\arpeggio |<d' f' gis' cis''>4\arpeggio <ees' ges' a' d''>\arpeggio| % tmp perc harpL harpR  
+  R2 | R2 | R2 | % tmp perc fol  
+  <d, f, gis, d f gis cis'>4\arpeggio <ees, g, b, ees ges a d'>\arpeggio |<d' f' gis' cis''>4\arpeggio <ees' ges' a' d''>\arpeggio| % hpL hpR  
   <f' gis' cis''>4:32 <fis' a' d''>4:32 | R2 | %vn vn2  
   <<{<cis' f' gis'>4 <d' f' a'>}\\  {<f cis'>4:32 <fis d'>4:32} >> | <cis eis>4 <d fis>| <d,, d>4 dis | % va vc cb   
 
@@ -980,7 +1077,8 @@
   \tag #'vocal {e4.~\! e4 } \tag #'pf {r4. r4 } |\tag #'vocal { << <g bes d>4.\\{dis16 e fis g a b}>> <e, a>4 } \tag #'pf {r4. r4 } |
   r4. r4 | r4. d''16( c'') g' a' | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 | r4. r4 | % hn tn   
-  r4. r4 | r4. r4 | <dis' dis''>4.\lv r4 | r4. r4 | % tmp perc harpL harpR  
+  r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
+  <dis' dis''>4.\lv r4 | r4. r4 | % hpL hpR  
   dis''4.:32 r4 | r4. r4 | %vn vn2  
   << {dis'16 e' fis' g' a' b'}\\ {g8:32 r4  } >> <e' a'>4 |dis16 e fis g a b c'4 | e4.~ e4 | % va vc cb   
 
@@ -990,7 +1088,8 @@
   \tag #'vocal {d4 c8  } \tag #'pf {R4. } |\tag #'vocal {<d g b>4 <c e g b>8} \tag #'pf {R4. } |   
   R4. |  b'8 \times 2/3 {fis'8 b'16} b'16( a') | R4. | R4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   <d' g'>4 <c' e'>8  | R4. | d4 c8 | % va vc cb   
 
@@ -1000,7 +1099,8 @@
   \tag #'vocal {b2. r8  } \tag #'pf {r2 r4. } |\tag #'vocal {r2. r8 } \tag #'pf {r2 r4 c'''8\f} | 
   r4.. b''16-.  b''4 r8 | r2 r4. | \times 2/3 {g'8( fis' e')} dis'8( cis'16 e') e'8( dis') r8 | r2 r4. |  % fl ob kl bn    
   r2 r4. | r2 r4. | % hn tn   
-  r2 r4. | r2 r4 f'8-> | r2 r4. | r2 r4. | % tmp perc harpL harpR  
+  r2 r4. | r2 r4 f'8-> | r2 r4. |  % tmp perc fol  
+  r2 r4. | r2 r4. | % hpL hpR  
   r2 r4. | r2 r4. | %vn vn2  
   b2.\> r8\! | r2 r4. | b,2. r8  | % va vc cb   
 
@@ -1012,7 +1112,8 @@
   \tag #'vocal {bes4 f \times 2/3 {des4 bes8}} \tag #'pf {<<{bes4 bes bes}\\{bes,2 bes,4 }>>} |\tag #'vocal { R2. } \tag #'pf {<bes' des'' f''>8( des'' bes' f'8) \times 2/3 {r4 f'8} } |  
   R2.  | R2. | R2. | R2. |  % fl ob kl bn    
   <bes bes'>4 <f f'> \times 2/3 {<des des'>4 <bes, bes>8-. }  | r2 \times 2/3 {r4 <cis ais>8-.} | % hn tn   
-  bes,4 f, d, | <<{\cross d''2.\lv}\\{d'2:32~ \times 2/3 {d'4:32 d'8}}>>| R2. | R2. | % tmp perc harpL harpR  
+  bes,4 f, d, | <<{\cross d''2.\lv}\\{d'2:32~ \times 2/3 {d'4:32 d'8}}>>| R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | \clef treble <f' bes' des''>4 <f' bes'> \times 2/3 {<des' bes'>4 r8} |r2 \times 2/3 {r4 bes,16 r}| % va vc cb   
 
@@ -1023,7 +1124,8 @@
   \tag #'vocal {bes2 } \tag #'pf {<bes, bes>2 } |\tag #'vocal { a'='8 g f ees } \tag #'pf {f'2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \clef treble a''8 g'' f'' e'' | <cis ais>2| % hn tn   
-  R2 |<<{\cross d''2\lv^"crash"}\\d'2>> |a8 g f e |<a' a''>8 <g' g''> <f' f''> <e' e''> | % tmp perc harpL harpR  
+  R2 |<<{\cross d''2\lv^"crash"}\\d'2>> | R2 | % tmp perc fol  
+  a8 g f e |<a' a''>8 <g' g''> <f' f''> <e' e''> | % hpL hpR  
   a'8 g' fis' e' | R2 | %vn vn2  
   R2 |<< {a'8( g'8 f'8 e'8)}\\{<bes des' f'>2} >>| bes,2 | % va vc cb   
 
@@ -1033,7 +1135,8 @@
   \tag #'vocal {<a=, a'>4 <g g'> } \tag #'pf {<< {a4 g}\\<a, e>2>>} |\tag #'vocal { R2 } \tag #'pf {  \times 2/3 {<e' a'c''>4\arpeggio b' a'8 g'} } |
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \clef bass a4\f g | R2 | % hn tn   
-  R2 | R2 | <a c'>2\arpeggio|<e' a' c''>2\arpeggio| % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  <a c'>2\arpeggio|<e' a' c''>2\arpeggio| % hpL hpR  
   R2 | R2 | %vn vn2  
   \ottava #2 bes'''2 | <e' gis''>4\o <d' fis''>\o | a,4 g, | % va vc cb   
 
@@ -1043,7 +1146,8 @@
   \tag #'vocal {<fis fis'>4 <e e'>2 } \tag #'pf {<fis, fis>4 <e, e>2 } |\tag #'vocal { R2. } \tag #'pf {  fis'8 g'4 e'8 fis' g'} | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   fis4 e2~ | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   g'''4 f'''\ottava #0 r |<cis' f''>\o <b dis''>2\o|fis,4 e,2~ | % va vc cb   
 
@@ -1054,7 +1158,8 @@
   \tag #'vocal {<e' g a cis>2 } \tag #'pf {<e g a cis'>2\arpeggio} |\tag #'vocal { R2 } \tag #'pf {<<{<e' g' a' cis''>2\arpeggio}\\{a'8 b'\lv a'\lv g'}>>} | 
   cis'''8 b'' a'' g'' | R2 | R2 | R2 |  % fl ob kl bn    
   e2~ | R2 | % hn tn   
-  R2 | R2 |  <cis' cis''>8 <b b'> <a a'> <g g'> | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  <cis' cis''>8 <b b'> <a a'> <g g'> | R2 | % hpL hpR  
   cis''8 b' a' g' | R2 | %vn vn2  
   R2 | R2 |e,2 | % va vc cb   
 
@@ -1063,7 +1168,8 @@
   \tag #'vocal {f8 f4-^-- fis8~ } \tag #'pf {<f a c' ees'>8 q4 fis8~ } |\tag #'vocal {R2 } \tag #'pf {  <<{dis''8 dis'' c'' fis'~}\\{<f' a' c'' ees''>2\arpeggio}>>  } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   f8-. f4 fis8~ | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 |  f8-. f4 fis8~ | % va vc cb   
 
@@ -1073,7 +1179,8 @@
   \tag #'vocal {fis2 } \tag #'pf {R2 } |\tag #'vocal { R2 } \tag #'pf {R2 } | 
   \times 2/3 {e'''4( c'') a''8 fis'' }| R2 | R2 | R2 |  % fl ob kl bn    
   fis2~\> | R2 | % hn tn   
-  R2 | R2 |  \times 2/3 {<e' e''>4 <c' c''>4 <a a'>8 <fis fis'> }| R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |   % tmp perc fol  
+  \times 2/3 {<e' e''>4 <c' c''>4 <a a'>8 <fis fis'> }| R2 | % hpL hpR  
   \times 2/3 {e''4( c'') a'8 fis' }| R2 | %vn vn2  
   R2 | R2 |  fis2 | % va vc cb   
 
@@ -1083,7 +1190,8 @@
   \tag #'vocal {R2. } \tag #'pf {R2. } |\tag #'vocal { R2. } \tag #'pf {R2. } |  
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   <<{  fis4.\! r }\\{r8 e,8_"stopped" r8 r e,8 r8}>>| R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. |  dis,4(^"solo"\< f,16)\! r  dis,4(\< f,16)\! r  | r8 \grace dis,16( e,8.) r16 r8 e,8. r16  | % va vc cb   
 
@@ -1093,7 +1201,8 @@
   \tag #'vocal {s2                            } \tag #'pf {R2 } |\tag #'vocal { s2                                       } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   << r2\\{r8 e,8 r4 }>>| R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 |<<{<e gis>2\p}\\{dis,4(\< f,8.)\! r16 }>>|r8 e,8~ e,8. r16 | % va vc cb   
 
@@ -1103,7 +1212,8 @@
   \tag #'vocal {s8. s8. s8.           } \tag #'pf {r8. r r } |\tag #'vocal { s8. s8. s8.                   } \tag #'pf {r8. r r } | 
   r8. r r  | r8. r r  | r8. r r  | r8. r r  |  % fl ob kl bn    
   r8. r r  | r8. r r  | % hn tn   
-  r8. r r  | r8. r r  | r8. r r  | r8. r r  | % tmp perc harpL harpR  
+  r8. r r  | r8. r r  | r8. r r |  % tmp perc fol  
+  r8. r r  | r8. r r  | % hpL hpR  
   r8. r r  | r8. r r  | %vn vn2  
   r8. r r  | r8. r r  | r8. r r  | % va vc cb   
 
@@ -1113,7 +1223,8 @@
   \tag #'vocal {\grace {f'16 g a} d,4. \grace {g16 a b} d,4. } \tag #'pf {R2. } |\tag #'vocal { <d f a cis>4. <d f g b cis> } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | f'2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   <cis' f' a' cis''>8-.\arpeggio r4 <dis' g' b' dis''>8-.\arpeggio r4| R2. | %vn vn2  
   <f a>4-- r8 <g b>4-- r8 |\clef bass \grace <f a>16( <cis' f'>4) r8 \grace <g b>16( <ees' b'>4) r8 | <f, a, cis f~>4\arpeggio r8 <g, b, dis g>4\arpeggio r8  | % va vc cb   
 
@@ -1123,7 +1234,8 @@
   \tag #'vocal {\clef bass \repeat tremolo 8 {cis,16 cis'}               } \tag #'pf {<cis, cis>1:32~ } |\tag #'vocal { R1                           } \tag #'pf {r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  } | 
   R1 | R1 | R1 | R1 |  % fl ob kl bn    
   R1 | R1 | % hn tn   
-  R1 | d'1:32 | R1 | R1 | % tmp perc harpL harpR  
+  R1 | R1 |  % tmp perc fol  
+  d'1:32 | R1 | R1 | % hpL hpR  
   R1 | R1 | %vn vn2  
   R1 | cis,1:32 | cis,,1:32 | % va vc cb   
 
@@ -1132,7 +1244,8 @@
   \tag #'vocal {< cis dis fis a c>4 <d e g bes des>           } \tag #'pf {<cis, cis>4 r } |\tag #'vocal { R2                   } \tag #'pf {c''4 r } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | \cross d''2\lv^"crash"| R2 | R2 | % tmp perc harpL harpR  
+  R2 | \cross d''2\lv^"crash"| R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   a'8:32^"sul pont" b'4:32 bes'8:32 | R2 | %vn vn2  
   <a dis>4 <ais e> | <cis, fis,>8 r4. |cis,4 d, | % va vc cb   
 
@@ -1143,7 +1256,8 @@
   \tag #'vocal {fis,4. e8~   } \tag #'pf {R2 } |\tag #'vocal { R2                       } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   fis4\f e~ | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r4. e8-> |  fis,8. g'16 e,4~ |fis,,8-- r e,,4~ | % va vc cb   
 
@@ -1153,7 +1267,8 @@
   \tag #'vocal {R4.                               } \tag #'pf {R4. } |\tag #'vocal { R4.                                            } \tag #'pf {R4. } | 
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   e4 r8 | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   \times 3/4 {<<fis'2\\{r4 a'}>>} | e,4. | e,,4. | % va vc cb   
 
@@ -1163,7 +1278,8 @@
   \tag #'vocal {gis4 fis                 } \tag #'pf {R2 } |\tag #'vocal { R2                          } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis8. r16 fis4 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r4 fis8-- r | gis,8( a'16) r fis,4 | R2 | % va vc cb   
 
@@ -1173,7 +1289,8 @@
   \tag #'vocal {bes4( aes4.~        } \tag #'pf {r4. r4 } |\tag #'vocal { r4 r4.                      } \tag #'pf {r4. r4 } | 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   ais8 r gis4.~\>  | r4. r4 | % hn tn   
-  r4. r4 | r4. r4 | r4. r4 | r4. r4 | % tmp perc harpL harpR  
+  r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
+  r4. r4 | r4. r4 | % hpL hpR  
   r4. r4 | r4. r4 | %vn vn2  
   bes'4-- r8 b'( g)| bes,16 r  << b'2~\\ aes,2~>> | r4. r4 | % va vc cb   
 
@@ -1183,7 +1300,8 @@
   \tag #'vocal {aes4 f   } \tag #'pf {R2 } |\tag #'vocal { R2   } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis2~ | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   g'8( fis'4 e'8)\< |<<b'2\\{aes4 f}>> | R2 | % va vc cb   
 
@@ -1194,7 +1312,8 @@
   \tag #'vocal {e4 f8) r        } \tag #'pf {R2 } |\tag #'vocal { R2                    } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis8\! r4. | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   e'8(\f ees'4) r8 | << b'4. \\ {e4(\f ees8-.) r8 }>> | R2 | % va vc cb   
 
@@ -1205,7 +1324,8 @@
   \tag #'vocal {<a, a' c e a>1 r4                                   } \tag #'pf {r2. r2 } |\tag #'vocal { r2 r2.                        } \tag #'pf {r2. r2 } | 
   r2. r2 | r2. r2 | r2. r2 | r2. r2 |  % fl ob kl bn    
   \clef treble <a a' e''>4 <e e' c'> \clef bass <c c' a'> <a, a e'> <e, e c'>-- | r2. r2 | % hn tn   
-  r2. r2 | r2. r2 | r2. r2 | r2. r2 | % tmp perc harpL harpR  
+  r2. r2 | r2. r2 | r2. r2 |  % tmp perc fol  
+  r2. r2 | r2. r2 | % hpL hpR  
   <a' a''>2:32^"ord." <e' e''>2:32 <c' c''>4:32~ | r2. r2 | %vn vn2  
   r2. r2 | a'8:32 r e':32 r c':32 r a:32 r e:32 r | a,4 e,^"det." c, a,, e,, | % va vc cb   
 
@@ -1215,7 +1335,8 @@
   \tag #'vocal {\times 3/2 {r8 < d, d'>8 } < cis cis'>4.   } \tag #'pf {R2. } |\tag #'vocal { \times 3/2 {r8 <d fis>8 } <cis fis>4. } \tag #'pf {R2. } | %should rhythms double here?
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   <<{\times 3/2 {r8 fis\mp} fis8 e8}\\ {\times 3/2 {r8 d} cis4 r8}>>  | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   <c' c''>8:32 r4 r4. | R2. | %vn vn2  
   R2. | c4:32 r8 r4. | R2. | % va vc cb   
 
@@ -1225,7 +1346,8 @@
   \tag #'vocal {r4.                           } \tag #'pf {R4. } |\tag #'vocal { r4.             } \tag #'pf {R4. } | 
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   R4. | R4. | R4. | % va vc cb   
 
@@ -1235,7 +1357,8 @@
   \tag #'vocal {dis'4 d des                   } \tag #'pf {R2. } |\tag #'vocal { dis4 e <f ees>           } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   dis'4--^"cresc." e'-- f'-- | R2. | %vn vn2  
   ees'4 e' ees' |  ees4 d des |  ees4 e ees | % va vc cb   
 
@@ -1244,7 +1367,8 @@
   \tag #'vocal {c4 b                                               } \tag #'pf {R2 } |\tag #'vocal { <fis dis>4 <g d>                                   } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   fis'4-- g'-- | R2 | %vn vn2  
   ees'4 d' | c4 b,|  ees4 d | % va vc cb   
 
@@ -1253,7 +1377,8 @@
   \tag #'vocal {bes4 a4                                            } \tag #'pf {R2 } |\tag #'vocal { <bes, des f gis>4 << <cis e g > \\{ bes8 a16 g }>> } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   gis'8-- f'16 e' bes'8-- a'16 g' | R2 | %vn vn2  
   bes4 b8 a16 g | bes,4 a, | bes,4 a, | % va vc cb   
 
@@ -1263,7 +1388,8 @@
   \tag #'vocal {r4 << b4 \\ {\times 4/5 {r8 gis8.}}>>              } \tag #'pf {R2 } |\tag #'vocal { fis2                                               } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   b2 | r4 \times 4/5 {gis8 r8.} | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   fis'8 g' \times 4/5 { b'16-- c''  gis'16 a' b'}| R2 | %vn vn2  
   fis2 | r4 b8 aes | R2 | % va vc cb   
 
@@ -1274,7 +1400,8 @@
   \tag #'vocal {<f a d >2\arpeggio                                 } \tag #'pf {R2 } |\tag #'vocal { <f a d >2\arpeggio                                 } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   \times 2/3 {d''8-- c'' b' } a'8 b'                        | R2 | %vn vn2  
   f4 r | <a e'>2~ |f,2 | % va vc cb   
 
@@ -1283,7 +1410,8 @@
   \tag #'vocal {r8. <gis gis'>8->                                  } \tag #'pf {r8. r8 } |\tag #'vocal { r8. r8                                             } \tag #'pf {r8. r8 } | 
   r8. r8  | r8. r8  | r8. r8  | r8. r8  |  % fl ob kl bn    
   r8. gis,16 r  | r8. r8  | % hn tn   
-  r8. r8  | r8. r8  | r8. r8  | r8. r8  | % tmp perc harpL harpR  
+  r8. r8  | r8. r8  | r8. r8  |  % tmp perc fol  
+  r8. r8  | r8. r8  | % hpL hpR  
   c''8 r16 fis''16--\ff r | r8. r8  | %vn vn2  
   r8. r8  | q8 r16 aes,8-. |  r8. gis,16 r  | % va vc cb   
 
@@ -1292,7 +1420,8 @@
   \tag #'vocal {<gis gis'>4-> <g g'>8 <gis gis'>~                 } \tag #'pf {R2 } |\tag #'vocal { R2                                                 } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis,4 g,8 gis,  | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   fis''8-- cis'' fis'' f'' | R2 | %vn vn2  
   R2 | aes,4 r |  gis,4 g,8 gis,  | % va vc cb   
 
@@ -1302,7 +1431,8 @@
   \tag #'vocal {<gis gis'>8 <dis' dis'>4 <a a'>8~  } \tag #'pf {R2 } |\tag #'vocal { R2  } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn 
   gis,8 ees4 a,8~ | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   a'4 d''8. aes'16   | R2 | %vn vn2  
   R2 | R2 |  gis,8 ees4 a,8~ | % va vc cb   
 
@@ -1311,7 +1441,8 @@
   \tag #'vocal {\times 3/2 {<a a'>16 <bes bes'>~} <bes bes'>8.  } \tag #'pf {r8. r } |\tag #'vocal { R4. } \tag #'pf {r8. r } | 
   r8. r8.  | r8. r8.  | r8. r8.  | r8. r8.  |  % fl ob kl bn 
   \times 3/2 {a,16 bes,~} bes,8.| r8. r8.  | % hn tn   
-  r8. r8.  | r8. r8.  | r8. r8.  | r8. r8.  | % tmp perc harpL harpR  
+  r8. r8.  | r8. r8.  | r8. r |  % tmp perc fol  
+  r8. r8.  | r8. r8.  | % hpL hpR  
   c''8 aes'16 bes'8 d'16  | r8. r8.  | %vn vn2  
   r8. r8.  | r8. r8.  |  \times 3/2 {a,16 bes,~} bes,8.| % va vc cb   
 
@@ -1320,7 +1451,8 @@
   \tag #'vocal {<ees ees'>8 r4 } \tag #'pf {R4. } |\tag #'vocal { R4. } \tag #'pf {R4. } | 
   R4. | R4. | R4. | R4. |  % fl ob kl bn 
   ees4\mp r8 | <c' gis' b'>8\arpeggio r4 | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   b'8. r8. | R4. | %vn vn2  
   <ees b>8 r4 | R4. |  ees4\mp r8 | % va vc cb   
 
@@ -1330,7 +1462,8 @@
   \tag #'vocal {d8 d d d } \tag #'pf {R2 } |\tag #'vocal { <fis a>8 q q q  } \tag #'pf {R2 } | 
    fis'8-. fis'-. fis'-. fis'-. |a'8-. a'-. a'-. a'16 b' | R2 | d,8-. d, d, d,  |  % fl ob kl bn    
   R2 | <d' fis'>8-. q-. q-. q-.  | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -1340,7 +1473,8 @@
   g4 g'8-.     | r4 <g' bes d>8-.   | 
   g'8. r16 <d' g'>8\fermata | \times 2/3 {a'4 g'8-.} r8 | r4  <bes' d'' g''>8\fermata |g,4 r8 |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | r4 <g bes d'>8\arpeggio| r4 <g' bes' d'' g''>8\arpeggio| % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  r4 <g bes d'>8\arpeggio| r4 <g' bes' d'' g''>8\arpeggio| % hpL hpR  
   R4. | R4. | %vn vn2  
   R4. | r4 <bes, d g>8\mp\fermata | R4. | % va vc cb   
 
@@ -1350,7 +1484,8 @@
   \tag #'vocal {g,2.    } \tag #'pf {R2. } |\tag #'vocal { <g bes des fes>2.    } \tag #'pf {R2. } | 
   R2. | e''2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   e''4 des'8 bes' a' g' | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -1360,7 +1495,8 @@
   \tag #'vocal {s2 } \tag #'pf {<fis c'>4 q } |\tag #'vocal { <f' aes c>4 <f aes c>  } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -1370,7 +1506,8 @@
   \tag #'vocal {e2.  } \tag #'pf {R2. } |\tag #'vocal { <e, gis>2.  } \tag #'pf {R2. } | 
   R2. |<e' gis'>8 r q r q q|R2. | R2. |  % fl ob kl bn    
   R2. | r4. << {<b' e''>\sfp} {s4\< s8\!}>> | % hn tn   
-  R2. | R2. |<e, e>4. <gis,, gis,> | << {c''4 b' a'8 gis'}\\{<e' gis'>4 <e' gis'> e'}>>| % tmp perc harpL harpR  
+  R2. | R2. | R2. | % tmp perc fol  
+  <e, e>4. <gis,, gis,> | << {c''4 b' a'8 gis'}\\{<e' gis'>4 <e' gis'> e'}>>| % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -1381,7 +1518,8 @@
   \tag #'vocal {<<{e,4. e}\\{d8 e4 d8 e4}>> } \tag #'pf {<gis, gis>8 a r<gis, gis> a r } |\tag #'vocal { \clef bass r4 f,8~ f4 f8     } \tag #'pf {r4 a'8 r4 a'8 } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -1391,7 +1529,8 @@
   \tag #'vocal {<<{e4. e}\\{d8 e4 d8 e4}>> } \tag #'pf {<gis, gis>8 a r<gis, gis> a r } | \tag #'vocal {r4 f8~ f4 f8} \tag #'pf {\times 3/4 {r4 c''8 b'} \times 3/4 {a'4 gis'8 a'}} | 
   R2.| R2.| R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -1400,7 +1539,8 @@
   \tag #'vocal {r4 f8~ f4 f8\glissando\< } \tag #'pf {<gis, gis>8 a r<gis, gis> a r } |\tag #'vocal { <<{e4. e}\\{d8 e4 d8 e4}>> } \tag #'pf {r4 a'8 r4 a'8 } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | \key a \major r2 r8 a,8\glissando \change Staff = "harpR" | \key a \major R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  \key a \major r2 r8 a,8\glissando \change Staff = "harpR" | \key a \major R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -1409,7 +1549,8 @@
   \tag #'vocal { <a a'>2 } \tag #'pf {<a,, e, a,>2:32} | \tag #'vocal {\clef treble a'''2\!} \tag #'pf {<a' cis'' e'' a''>4:32~ \times 2/3 {<a' cis'' e'' a''>8:32 <b' gis''> <d'' fis''>16 <cis'' e''> }  }  | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | \repeat tremolo 4 {a'32 e'} \repeat tremolo 4 {a' e''} |\change Staff = "harpL" <a, e a>2\arpeggio | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  \repeat tremolo 4 {a'32 e'} \repeat tremolo 4 {a' e''} |\change Staff = "harpL" <a, e a>2\arpeggio | % hpL hpR  
   \repeat tremolo 8 { e''32 a''} | R2 | %vn vn2  
   a4~ \times 2/3 {a8 b d'} | a'4~ \times 2/3 {gis'8 fis' e'} |a,,4 a,4~ | % va vc cb   
 
@@ -1419,7 +1560,8 @@
   \tag #'vocal {<fis fis'>2     } \tag #'pf {<fis,, fis,>2:32 } |\tag #'vocal { r2    } \tag #'pf {<a' cis'' e''>4:32~ \times 2/3 {q8 <b' d''> <a' cis''>} } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |\change Staff = "harpL" <fis, cis fis>\arpeggio |\change Staff = "harpR" \repeat tremolo 8 {a'32 e''}| % tmp perc harpL harpR  
+  R2 | R2 | R2 | % tmp perc fol  
+  \change Staff = "harpL" <fis, cis fis>\arpeggio |\change Staff = "harpR" \repeat tremolo 8 {a'32 e''}| % hpL hpR  
   \repeat tremolo 8 { fis''32 a''} | R2 | %vn vn2  
   cis'4~ \times 2/3 {cis'8 d' a'~} | e'4~ \times 2/3 {e'8 d' cis'}| fis,2 | % va vc cb   
 
@@ -1429,7 +1571,8 @@
   \tag #'vocal {<d d'>4 <cis cis'>   } \tag #'pf {<d, d>4 <cis, cis> } |\tag #'vocal { r2    } \tag #'pf { b'8 a' cis'' d''16 fis'' } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 | <d, a, d>4\arpeggio <cis, cis> |\repeat tremolo 8 {a'32 e''}| % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  <d, a, d>4\arpeggio <cis, cis> |\repeat tremolo 8 {a'32 e''}| % hpL hpR  
   \repeat tremolo 4 {b'32 e''} \repeat tremolo 4 {cis'' e''} | R2 | %vn vn2  
   a'8 fis' e'4~  | b4 a | d,4 cis, | % va vc cb   
 
@@ -1439,7 +1582,8 @@
   \tag #'vocal {<b b'>4.. <e e'>16} \tag #'pf {<b,, b,>2:32 } |\tag #'vocal { r2} \tag #'pf {<a' d'' fis''>2:32 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  r4.. e16  | R2 | <b,, fis, b,>2\arpeggio |\repeat tremolo 8 {a'32 e''}| % tmp perc harpL harpR  
+  r4.. e16  | R2 | R2 |  % tmp perc fol  
+  <b,, fis, b,>2\arpeggio |\repeat tremolo 8 {a'32 e''}| % hpL hpR  
   \repeat tremolo 2 {d''32 gis''} \repeat tremolo 2 {d'' a''} \repeat tremolo 4 {d'' b''} | R2 | %vn vn2  
   e4 r | gis8 r8 r8. e16-.  | b,,2 | % va vc cb   
 
@@ -1449,7 +1593,8 @@
   \tag #'vocal {<e e'>4 <f f'>  } \tag #'pf {R2 } |\tag #'vocal { r2} \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
- e8.-- f,16 f,8.--\lv fis16 | R2 |<e, e>2 |\repeat tremolo 4 {a'32 e''} r4 | % tmp perc harpL harpR  
+ e8.-- f,16 f,8.--\lv fis16 | R2 | R2 | % tmp perc fol  
+ <e, e>2 |\repeat tremolo 4 {a'32 e''} r4 | % hpL hpR  
   \repeat tremolo 4 {a''32 cis'''} \repeat tremolo 4 {gis'' cis'''} | R2 | %vn vn2  
   r8. d''16 \times 2/3 {d''8( cis'') b' } | e4 f | e,4 f, | % va vc cb   
 
@@ -1459,7 +1604,8 @@
   \tag #'vocal {fis'8 eis fis8 e } \tag #'pf {R2 } |\tag #'vocal { r2 } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  fis8 r4.| R2 | R2 | R2 | % tmp perc harpL harpR  
+  fis8 r4.| R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   <gis'' d'''>32 r4... | R2 | %vn vn2  
   b'16. a' cis''16 ais'16 b' cis' e'     | fis8 f fis e | fis,8 f, fis, e, | % va vc cb   
 
@@ -1469,7 +1615,8 @@
   \tag #'vocal {g8 ees} \tag #'pf {R4 } |\tag #'vocal { r4 } \tag #'pf {R4 } | 
   R4 | R4 | R4 | R4 |  % fl ob kl bn    
   R4 | R4 | % hn tn   
-  R4 | R4 | R4 | R4 | % tmp perc harpL harpR  
+  R4 | R4 | R4 |  % tmp perc fol  
+  R4 | R4 | % hpL hpR  
   R4 | R4 | %vn vn2  
   d''16 cis'' b' a'  | g8 ees | r8 ees, | % va vc cb   
 
@@ -1479,7 +1626,8 @@
   \tag #'vocal {d4 r16     } \tag #'pf {r8 r8. } |\tag #'vocal { r4 r16     } \tag #'pf {r8 r8. } | 
   r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  |  % fl ob kl bn    
   r8 r8.  | r8 r8.  | % hn tn   
-  r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  | % tmp perc harpL harpR  
+  r8 r8.  | r8 r8.  | r8 r8.  |  % tmp perc fol  
+  r8 r8.  | r8 r8.  | % hpL hpR  
   r8 r8.  | r8 r8.  | %vn vn2  
   ees''8 c''16 aes' g'  | d8 r8. | d,8 r8. | % va vc cb   
 
@@ -1489,7 +1637,8 @@
   \tag #'vocal {cis8 r16   } \tag #'pf {r8. } |\tag #'vocal { r8.   } \tag #'pf {r8. } | 
   r8.  | r8.  | r8.  | r8.  |  % fl ob kl bn    
   r8.  | r8.  | % hn tn   
-  r8.  | r8.  | r8.  | r8.  | % tmp perc harpL harpR  
+  r8.  | r8.  | r8.  |  % tmp perc fol  
+  r8.  | r8.  | % hpL hpR  
   r8.  | r8.  | %vn vn2  
   e''8 c''16   |cis8 r16 |cis,8 r16 | % va vc cb   
 
@@ -1498,7 +1647,8 @@
   \tag #'vocal {b4 r8  } \tag #'pf {R4. } |\tag #'vocal { r4. } \tag #'pf {R4. } |
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. | R4. | % hn tn   
-  R4. | R4. | R4. | R4. | % tmp perc harpL harpR  
+  R4. | R4. | R4. |  % tmp perc fol  
+  R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   f''16 e'' cis'' a' r g''  | b,4 r8 | b,,4 r8 | % va vc cb   
 
@@ -1507,7 +1657,8 @@
   \tag #'vocal {<< {bes4 d f aes \times 2/3 {c8 e d~ }}  \\ {<bes,, bes'>1~ <bes bes'>4} >> } \tag #'pf {r2. r2 } |\tag #'vocal { s1 s4 } \tag #'pf {r2. r2 } | 
   r2. r2 | r2. r2 | r2. r2 | r2. r2 |  % fl ob kl bn    
   r2. r2 | r2. r2 | % hn tn   
-  r2. r2 | \cross d''2\p\lv r2.| <<{s2 f2\lv-> c'4->}\\ {bes,2.~\< bes,2} >>|<bes bes'>4\lv <a a'>\lv f'\lv  <e e'>~ \times 2/3 {<e e'>4\lv <d d'>8}| % tmp perc harpL harpR  
+  r2. r2 | \cross d''2\p\lv r2.| r2. r2 |  % tmp perc fol  
+  <<{s2 f2\lv-> c'4->}\\ {bes,2.~\< bes,2} >>|<bes bes'>4\lv <a a'>\lv f'\lv  <e e'>~ \times 2/3 {<e e'>4\lv <d d'>8}| % hpL hpR  
   r2. r2 | r2. r2 | %vn vn2  
   g''4.( f''4) f'' f''4 r8| << {bes,4 d f a \times 2/3 {c'8 e' d'}}\\{bes,2^"mutes *?" r2.}>> |bes,4 d f a c' | % va vc cb   
 
@@ -1516,7 +1667,8 @@
   \tag #'vocal {<d'' aes c>2.   } \tag #'pf {R2. } |\tag #'vocal { <f,, aes>2. } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | <c e gis>2.\arpeggio| <c' e' gis'>2.\arpeggio | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  <c e gis>2.\arpeggio| <c' e' gis'>2.\arpeggio | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -1526,7 +1678,8 @@
   \tag #'vocal {s4 s4.     } \tag #'pf {r4. r4 } |\tag #'vocal { s4 s4.     } \tag #'pf {r4. r4 } | 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 | r4. r4 | % hn tn   
-  r4. r4 | r4. r4 | <c e gis>4.\arpeggio r4| <c' e' gis'>4.\arpeggio  r4 | % tmp perc harpL harpR  
+  r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
+  <c e gis>4.\arpeggio r4| <c' e' gis'>4.\arpeggio  r4 | % hpL hpR  
   r4. r4 | r4. r4 | %vn vn2  
   r4. r4 | r4. r4 | r4. r4 | % va vc cb   
 
@@ -1537,7 +1690,8 @@
   \tag #'vocal {<g, g'>4 <g g'> <f f'>    } \tag #'pf {R2. } |\tag #'vocal { <g, c >4 g8 c a c     } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   c,8 r c,8. r16 f,8. r16  | R2. | % hn tn   
-  R2. | R2. | <e c'>4 e8 c' fis c' |<e' c''>2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  <e c'>4 e8 c' fis c' |<e' c''>2. | % hpL hpR  
   g8 r g c' a c' | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
@@ -1547,7 +1701,8 @@
   \tag #'vocal {  <g g'>4 e8 f[ g] f[ g]    }\tag #'pf {r2 r4. } |\tag #'vocal { g4 c8 d[ e] d[ e]   }\tag #'pf {r2 r4. } | 
   r2 r4. |r2 r4. | r2 r4. | r2 r4. |  % fl ob kl bn    
   g,8 r4. r  | r2 r4. | % hn tn   
-  r2 r4. | r2 r4. | g4 e8 f g f g | r2 r4. | % tmp perc harpL harpR  
+  r2 r4. | r2 r4. | r2 r4. |  % tmp perc fol  
+  g4 e8 f g f g | r2 r4. | % hpL hpR  
   b4 e8^"*out of range!" f g f g | r2 r4. | %vn vn2  
   r2 r4. | r2 r4. | r2 r4. | % va vc cb   
 
@@ -1557,7 +1712,8 @@
   \tag #'vocal {r2 d4 } \tag #'pf {R2. } |\tag #'vocal { <fes ges bes>4 <ees ges b> r   } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   \clef treble ais'4( b') r  |<< fis'2 \\ { e'4( dis')} >> r | % hn tn   
-  r2 a,4 | R2. | R2. | R2. | % tmp perc harpL harpR  
+  r2 a,4 | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. |e4 ees <b,, fis, b,>8-.^"*" r| R2. | % va vc cb   
 
@@ -1567,7 +1723,8 @@
   \tag #'vocal {r2    } \tag #'pf {R2 } |\tag #'vocal { \times 4/5 {<ges aes c>4 <fes ges bes> <ees ges b>8}    } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \times 4/5 {c''8 r ais'4( b'8) } |\clef treble << {\times 4/5 {gis'4-- fis'4.}} \\ \times 4/5 { fis'4-- e'4( dis'8)} >>  | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | \times 4/5 { r4 e4 ees8 } | R2 | % va vc cb   
 
@@ -1577,7 +1734,8 @@
   \tag #'vocal { d4 r2 }\tag #'pf {R2. } | R2. | \tQQ
   R2. |R2. | R2. | R2. |  % fl ob kl bn    
   r4 \times 2/3 {b'4 b' b'} | R2. | % hn tn   
-  a,4 r2 | R2. | R2. | R2. | % tmp perc harpL harpR  
+  a,4 r2 | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | <b,, fis, b,>8-. r r2 | R2. | % va vc cb   
 
@@ -1587,7 +1745,8 @@
   \tag #'vocal {<e, e'>4 r4     } \tag #'pf {R2 } |\tag #'vocal { <e gis b e>4 r4 } \tag #'pf {R2 } | 
   R2 | gis'4. r8 | \pitchedTrill <gis' b'>4. \startTrillSpan <ais' cis''> r8\stopTrillSpan | R2 |  % fl ob kl bn    
   s64 \grace {e'16( gis' b'}  e''4*15/16) b'8) gis' | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -1597,7 +1756,8 @@
   <fes' aes c>4 <fes ges bes> <ees ges b>8 | <fes aes c>4 <fes ges bes> <ees ges b>8 | 
   r4 r4. | r4 gis'8 r4 | r4 r4. | r4 r4. |  % fl ob kl bn    
    c''4 bes'4  b'8 |<< { {gis'4-- fis'4.}} \\ { fis'4-- e'4( dis'8)} >>  | % hn tn   
-  r4. r4 | r4 r4. | r4 r4. | r4 r4. | % tmp perc harpL harpR  
+  r4. r4 | r4 r4. | r4. r4 |  % tmp perc fol  
+  r4 r4. | r4 r4. | % hpL hpR  
   r4 r4. | r4 r4. | %vn vn2  
   r4 r4. | r4 e4 ees8 | r4 r4. | % va vc cb   
 
@@ -1607,7 +1767,8 @@
   \tag #'vocal {  des4.~ des4. a4.   }\tag #'pf {r4. r r } |\tag #'vocal { des4. s4. s4.  } \tag #'pf {r4. r r } | 
   \pitchedTrill cis'''4.\p \startTrillSpan dis''' r\stopTrillSpan r | r4. r r  | r4. r r  | cis2. b,4. |  % fl ob kl bn    
   cis''8( dis'' cis'') r4. r  | << gis'4. \\ eis'4. >> r r  | % hn tn   
-  b,4. r r  | r4. r r  | r4. r r  | r4. r r  | % tmp perc harpL harpR  
+  b,4. r r  | r4. r r  | r4. r r |  % tmp perc fol  
+  r4. r r  | r4. r r  | % hpL hpR  
   r4. r r  | r4. r r  | %vn vn2  
   r4. r r  | <aes, f>4. r r  | <des, aes,>4. r r  | % va vc cb   
 
@@ -1617,7 +1778,8 @@
   \tag #'vocal {<cis, cis'>4 <cis cis'>   } \tag #'pf {R2 } |\tag #'vocal { <cis eis gis>4 <cis eis gis>   } \tag #'pf {R2 } | 
   R2 |<cis' f'>4-. q-. | R2 | cis8 r cis r |  % fl ob kl bn    
   R2 | \clef bass <cis gis>4-. q-. | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 | % va vc cb   
 
@@ -1626,7 +1788,8 @@
   \tag #'vocal {<fis fis'>4 r4  } \tag #'pf {R2 } |\tag #'vocal { s2    } \tag #'pf {R2 } | 
   R2 |<cis' fis'>2 | R2 | \times 2/3 {fis,2 fis8-- r} |  % fl ob kl bn    
   R2 | \times 2/3 {<fis ais>2 fis8-- r }| % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r4. <a, c>8 | R2 | R2 | % va vc cb   
 
@@ -1635,7 +1798,8 @@
   \tag #'vocal {  <dis dis'>2     }\tag #'pf {R2 } |\tag #'vocal { <fis a c fis>2  }\tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 | % fl ob kl bn    
   c''4( a'8 fis' | R2 | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   ees''16( c'' a' fis' ees' c' a) fis(  | R2 | %vn vn2  
   <dis fis>2~ | \grace {c,16( ees, ges,}  <a, c>2~ | R2 | % va vc cb   
 
@@ -1644,7 +1808,8 @@
   \tag #'vocal {r4. dis8~ dis4  } \tag #'pf {R2. } |\tag #'vocal { s2.   } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   dis'8.) r16 <<{\times 2/3 {r2 \clef treble a'8 r}}\\{\times 2/3 {r4 \clef bass fis,-. r}}>> | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   a16 c' ees' fis' a' c'') dis''( c'' a' fis' dis' c') | R2. | %vn vn2  
   q4 \times 2/3 {q2 q4} | q4 \times 2/3 {q4-. r q-. }| R2. | % va vc cb   
 
@@ -1653,7 +1818,8 @@
   \tag #'vocal {s2.   } \tag #'pf {R2. } |\tag #'vocal { s2.   } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   \times 2/3 {e''2( cis''4) } gis'~ | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   \times 8/9 {e''16( cis'' bes' g' e' cis' bes g bes)} r4 | R2. | %vn vn2  
   <gis ais>2 r4 |<bes, des>2 r4 | R2. | % va vc cb   
 
@@ -1663,7 +1829,8 @@
   \tag #'vocal {r8 gis4.~  } \tag #'pf {R2 } |\tag #'vocal { s2    } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis'2 |\clef bass r8  <aes, aes>4. | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   <cis' cis''>~ |<< aes2\\ {r8 aes,4.~}>> | R2 | % va vc cb   
 
@@ -1672,7 +1839,8 @@
   \tag #'vocal {gis8 ais4. } \tag #'pf {R2 } |\tag #'vocal { s2    } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | r8 <bes, bes>4. | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   q2 |<<des'2\\{aes,8 bes,4.~}>> | R2 | % va vc cb   
 
@@ -1681,7 +1849,8 @@
   \tag #'vocal {  bis2   }\tag #'pf {R2 } | R2     | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | r8 <c c'>4. | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   <dis' dis''>~ | <<aes2~\\{bes,8 c4.~}>> | R2 | % va vc cb   
 
@@ -1690,7 +1859,8 @@
   \tag #'vocal {  cis4.    <dis fis>4   }\tag #'pf {r4. r4} | r4. r4 | 
   r4. r4 |r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 | r8 <cis cis'>4 r4 | % hn tn   
-  r4. r4 | r4. r4 | r4. r4 | r4. r4 | % tmp perc harpL harpR  
+  r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
+  r4. r4 | r4. r4 | % hpL hpR  
   r4. r4 | r4. r4 | %vn vn2  
   q4. <eis' eis''>4 | <<aes2~\\{c8 des4.~}>> r8 | r4. r4 | % va vc cb   
 
@@ -1699,7 +1869,8 @@
   \tag #'vocal {R2} \tag #'pf {R2 } |\tag #'vocal { r8 <dis fis b> <dis fis ais> g } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | \clef treble  <dis' fis' b'>8-. r <dis' fis' ais'>8-. r | % hn tn   
-  R2 | R2 | R2 | R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   r8 fis''8^"pizz" r4 | R2 | %vn vn2  
   r8 dis''^"pizz" r4 |<dis' fis' b'>8-. r <dis' fis' ais'>8-. r | R2 | % va vc cb   
 
@@ -1708,7 +1879,8 @@
   \tag #'vocal {r2 g4 } \tag #'pf {R2. } |\tag #'vocal { r2 <<{b,8 c}\\{<f, g>4}>> } \tag #'pf {R2. } | 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   r2 f4 | R2. | r2 g,4 | % va vc cb   
 
@@ -1717,7 +1889,8 @@
   \tag #'vocal {c,8 g' e'4 } \tag #'pf {R2 } |\tag #'vocal { r2    } \tag #'pf {R2 } | 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 | R2 | % hn tn   
-  R2 | R2 |r8 g(\lv <c c'>4\lv)| R2 | % tmp perc harpL harpR  
+  R2 | R2 | R2 | % tmp perc fol  
+  r8 g(\lv <c c'>4\lv)| R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   c8 g e'4~ |  c8^"div pz arc" g e'4~ | c4 r | % va vc cb   
 
@@ -1726,7 +1899,8 @@
   \tag #'vocal {r4    } \tag #'pf {R4 } |\tag #'vocal { r4    } \tag #'pf {R4 } | 
   R4 | R4 | R4 | R4 |  % fl ob kl bn    
   R4 | R4 | % hn tn   
-  R4 | R4 | R4 | R4 | % tmp perc harpL harpR  
+  R4 | R4 | R4 |  % tmp perc fol  
+  R4 | R4 | % hpL hpR  
   R4 | R4 | %vn vn2  
   e'4 | e'4 | R4 | % va vc cb   
 
@@ -1736,7 +1910,8 @@
   \tag #'vocal {r16. r r   } \tag #'pf {r16. r r   } |\tag #'vocal { c'8. b16.  } \tag #'pf {r16. r r } | 
    <c''' a'''>8. <b'' g'''>16. | r16. r r  | r16. r r  | r16. r r  |  % fl ob kl bn    
    r16. r r  | r16. r r  | % hn tn   
-   r16. r r  | r16. r r  | r16. r r  | r16. r r  | % tmp perc harpL harpR  
+   r16. r r  | r16. r r  | r16. r r  |  % tmp perc fol  
+   r16. r r  | r16. r r  | % hpL hpR  
   c'8.^"mutes" c'16. |  r16. r r  | %vn vn2  
   c'8. b16. |  c'8. b16. | r16. r r  | % va vc cb   
 
@@ -1745,7 +1920,8 @@
   \tag #'vocal {  d4 g2  }\tag #'pf {R2. } |\tag #'vocal { a4 g2     }\tag #'pf {R2. } | 
 <a'' f'''>4 <g'' e'''> r| R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
-  R2. | R2. | R2. | R2. | % tmp perc harpL harpR  
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   c'4 c'2 | R2. | %vn vn2  
   a4 r2 | a4 g2 | R2. | % va vc cb   
 
@@ -1754,7 +1930,8 @@
   \tag #'vocal {  g2 r4 }\tag #'pf {R2. } |\tag #'vocal { g2 r4 }\tag #'pf {R2. } | 
   r8 <e'' e'''>4.\fermata r4 | R2. | R2.     | R2. | % fl ob kl bn
   R2.|R2. | % hn tn
-  R2. | R2. | g,4 <c, g, e>2\arpeggio\fermata | R2.     | % tmp perc harpL harpR
+  R2. | R2. | R2. |  % tmp perc fol  
+  g,4 <c, g, e>2\arpeggio\fermata | R2.     | % hpL hpR
   R2. | R2. | %vn vn2
   R2. | g,4~ <c, g, c>2\fermata | r4 c2\p\fermata | % va vc cb
 
@@ -1791,6 +1968,7 @@
     \new StaffGroup <<
       \new Staff {\set Staff.instrumentName = #"Timpani" \set Staff.shortInstrumentName = #"timp" \clef bass \tmp}
       \new Staff {\set Staff.instrumentName = #"Percussion" \set Staff.shortInstrumentName = #"perc" \perc}
+      \new RhythmicStaff {\set Staff.instrumentName = #"foley" \set Staff.shortInstrumentName = #"fol" \fol}
     \new GrandStaff \with { connectArpeggios = ##t instrumentName = #"Harp" shortInstrumentName = #"hp"} <<
       \new Staff = "harpR" {\hpR}
       \new Staff = "harpL" {\clef bass \hpL}
