@@ -19,4 +19,13 @@ cross = \once \override NoteHead.style = #'cross
 
 doubleBar = \bar "||"
 finalBar = \bar "|."
+ 
+gliss = \glissando
+
+ossia = #(define-music-function (parser location staffname music) (string? ly:music?)
+		#{
+		\new Staff = "ossia" \with {alignAboveContext = $staffname } % firstClef = ##f }
+				{ $music }
+		#}
+		)
 

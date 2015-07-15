@@ -1917,7 +1917,7 @@
 
 %bn178  
   \time 3/4 \times 2/3 {f8( g f)} e4 d8( c~ | \lyricmode{ bur -- num a -- } | 
-  \tag #'vocal {  d4 g2  }\tag #'pf {R2. } |\tag #'vocal { a4 g2     }\tag #'pf {R2. } | 
+  \tag #'vocal { d4 g2 }\tag #'pf {R2. } |\tag #'vocal { a4 g2     }\tag #'pf {R2. } | 
 <a'' f'''>4 <g'' e'''> r| R2. | R2. | R2. |  % fl ob kl bn    
   R2. | R2. | % hn tn   
   R2. | R2. | R2. |  % tmp perc fol  
