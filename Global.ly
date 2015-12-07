@@ -1,3 +1,5 @@
+#(ly:set-option 'midi-extension "mid")
+
 rit =           \override
 
 TextSpanner #'(bound-details left text) = "rit."
@@ -29,3 +31,19 @@ ossia = #(define-music-function (parser location staffname music) (string? ly:mu
 		#}
 		)
 
+inst = #(define-music-function (parser location staffname music) (string? ly:music?)
+		#{
+		\context Staff = $staffname 
+				{ $music }
+		#}
+		)
+caesura =  {\override BreathingSign.text = \markup {
+    \override #'(direction . 1)
+    \override #'(baseline-skip . 1.8)
+    \dir-column {
+      \translate #'(0.155 . 0)
+        \center-align \musicglyph #"scripts.caesura.curved"
+      \center-align \musicglyph #"scripts.ufermata"
+    }
+  }
+  \breathe }

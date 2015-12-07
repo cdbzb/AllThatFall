@@ -38,7 +38,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
  %bn4
-\time 6/8 R2. | \lyricmode { } |
+\dQQ \time 6/8 R2. | \lyricmode { } |
 aes4 a8 bes4 b8 | << {g'8 a4~ a8 b4 }\\{d,4 e8~ e4 r8} \\{aes,4. bes} >> |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
@@ -134,7 +134,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
  %bn14
 \time 2/4 \instrumentSwitch "Rooney" b=8 fis \times 2/3 {dis e dis} | \lyricmode {Jer -- ry would -- n't mind } |
-R2 |\absolute b2 |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -143,7 +143,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn15
 a'8 fis dis b | \lyricmode {would you Jer -- ry? } |
-R2 |\absolute a2 |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -323,7 +323,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
  %bn35
 \time 2/4 \dQQ cis8 cis, \instrumentSwitch "Dan" d8 cis16 b | \lyricmode {bath -- room I did -- n't } |
-\absolute { <eis' gis' cis''>8\lv \arpeggio <eis' gis'>\lv d'8 cis'16 b } |r4 d=8 cis16 b |  R2 |  R2 |   % rh lh kbR kbL 
+R2| R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -332,7 +332,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn36
 \time 2/2 \tEE bes8 e,  \instrumentSwitch "Rooney" des=[ bes] g'4 des8 g | \lyricmode {hear you But I gave you a } |
-bes8 e, r2. |bes8 e,\lv r2. |  R1 |  R1 |   % rh lh kbR kbL 
+R1| R1|  R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -341,7 +341,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 
  %bn37
 bes4 r \times 2/3 {r4 f8} \times 2/3 {e4 f8 } | \lyricmode {tie! you have it } |
-\absolute {<cis' g' ais'>4\arpeggio r \times 2/3 {r4 f'8} \times 2/3 {e'4 f'8~ } } |\absolute { <cis e ais>4 } r2.|  R1 |  R1 |   % rh lh kbR kbL 
+R1 | R1  |  R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -350,7 +350,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 
  %bn38
 \time 2/4 d'4 \instrumentSwitch "Dan" c= | \lyricmode {on! What } |
-\absolute {<f' aes' d''>4\arpeggio} <ees g c>( | \absolute{<d f b>4\arpeggio } ees=,  |  R2 |  R2 |   % rh lh kbR kbL 
+r4 <ees g c>( | r ees=,  |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -548,7 +548,7 @@ r8 r8. | r8 r8. | % hpL hpR
 r8 r8. | r8 r8. | r8 r8. | r8 r8. | r8 r8. | % vn vII va vc cb 
 
  %bn60
-\time 2/4 \tEE \instrumentSwitch "Dan" f8 g a f | \lyricmode {come for me on } |
+\time 2/4 \tEE \instrumentSwitch "Dan" f8 g a f | \lyricmode {come for me } |
 c8  b a g | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
@@ -594,18 +594,18 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bnEND
 }
-%\include "./score_14_instruments.ly"
+\include "./score_14_instruments.ly"
 
-:score {
+%\score {
 
-  <<
-    <<\new Staff \relative c'' {
-      \new Voice = "tune" \melody
-    }
-    \new Lyrics \lyricsto "tune" \lyrix
-  >>
-  \new Staff \relative c'' \rh
-  \new Staff \relative c {\clef bass \lh}
->>
- % \midi{}
-}
+%  <<
+%    <<\new Staff \relative c'' {
+%      \new Voice = "tune" \melody
+%    }
+%    \new Lyrics \lyricsto "tune" \lyrix
+%  >>
+%  \new Staff \relative c'' \rh
+%  \new Staff \relative c {\clef bass \lh}
+%>>
+% % \midi{}
+%}
