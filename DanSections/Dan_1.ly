@@ -160,7 +160,7 @@ r4. r4 | r4. r4 | % hpL hpR
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII va vc cb 
 
  %bn17
-\time 3/8 a4~ a16 e | \lyricmode {fa -- ther } |
+\time 3/8 \grace s4 a4~ a16 e | \lyricmode {fa -- ther } |
 << { r8 <cis e>8 <cis e> } \\ { \grace{ e,16( f g gis } a4.) } >>  | a4. |  R4. |  R4. |   % rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
