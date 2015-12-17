@@ -2,5 +2,5 @@
 
 cat $1 '/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/score_14_instruments.ly' > /tmp/cat
 
-lilypond -o "/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/CatTest.pdf" /tmp/cat
+lilypond -o "/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/CatTest" /tmp/cat
 

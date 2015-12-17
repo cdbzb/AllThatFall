@@ -1,6 +1,8 @@
 #! /bin/bash
+output=$(basename $1 ".ly")
+echo "output "$output
 
 cat $1 '/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/vocalScore.ly' > /tmp/cat
 
-lilypond -o "/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/CatTest.pdf" /tmp/cat
+lilypond -o "/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/""$output"-Vocal /tmp/cat
 

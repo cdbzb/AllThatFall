@@ -7,8 +7,8 @@
     }
     \new Lyrics \lyricsto "tune" \lyrix
   >>
-  \new Staff = "rh" \relative c'' \rh
-  \new Staff = "lh" \relative c {\clef bass \lh}
+  \new Staff = "rh" \relative c'' { \removeWithTag #'pf \rh }
+  \new Staff = "lh" \relative c {\clef bass \removeWithTag #'pf \lh}
 >>
  % \midi{}
 }
