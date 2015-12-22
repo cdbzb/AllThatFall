@@ -17,8 +17,7 @@
 
 %bn1  
   \tempo 4 = 70 %dummy
-  \time 2/4
-  r4 g='8 g | \lyricmode {is that } |
+  \time 2/4 r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |     % lh rh kbR kbL 
   R2 | R2 | R2  |  R2 | % fl ob kl bn   
   R2 |  R2 |  R2 | % hn tpt  tn   
@@ -100,7 +99,7 @@
 
 %bn9  
   b8.^"rit" a16 e8 \instrumentSwitch "Christy" b8\noBeam |\lyricmode { daugh -- ter then? no }|
- R2 |  \tag #'vocal {r4. <f g b>8} \tag #'pf {R2}  |  R2 |  R2 |     % lh rh kbR kbL 
+ R2 | r4. <f g b>8 |  R2 |  R2 |     % lh rh kbR kbL 
   R2 |R2 | r8 <e b>8 q q  |   R2 | % fl ob kl bn   
   r4. a8~ |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -110,7 +109,7 @@
 
 %bn10  
   c4 c, |\lyricmode{ worse, ma'am }|
- R2 |  \tag #'vocal {<ees g c>2} \tag #'pf {R2} |  R2 |  R2 |    % lh rh kbR kbL 
+ R2 |<ees g c>2 |  R2 |  R2 |    % lh rh kbR kbL 
   R2 |R2 | R2  |   R2 | % fl ob kl bn   
   a4 r |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -131,7 +130,7 @@
 %bn12  
   \time 3/4
   gis4\fermata^"rural sounds" r8 e fis gis|\lyricmode{ halt?  but why do }|
-\tag #'vocal {<gis b e>2.\arpeggio} \tag #'pf {R2.} |  R2. |  R2. |  R2. |    % lh rh kbR kbL 
+<gis b e>2.\arpeggio|  R2. |  R2. |  R2. |    % lh rh kbR kbL 
   R2. |R2. | R2.  |   R2. | % fl ob kl bn   
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | r4  r4. e'8(\p^"vibes"\laissezVibrer  |\cross b4\fermata^"wind" r2 |  % tmp perc fol  
@@ -153,7 +152,7 @@
 %bn14  
   \time 11/16 \set Timing.beatStructure = #'(4 4 3) 
   f8. c16 r4 r8.|\lyricmode{ra -- ces }|
- \tag #'vocal {\clef bass <f, a c>8 r16 <f a c> <f a c>8 r16 <f a c> <f a c>8 r16 } \tag #'pf {r4 r4 r8. } |  \tag #'vocal {f,=,8 g a bes c d16~ }\tag #'pf {r4 r4 r8.} |  r4 r4 r8. |  r4 r4 r8. |  % lh rh kbR kbL 
+\clef bass <f, a c>8 r16 <f a c> <f a c>8 r16 <f a c> <f a c>8 r16 |f,=,8 g a bes c d16~ |  r4 r4 r8. |  r4 r4 r8. |  % lh rh kbR kbL 
   <f'' a''>8^"* dbl tpt" r16 q16 q8 r16 q16 q8 r16 |r4 r4 r8. |r8 \tuplet 12/9  {r16 f'( g' a' bes' c'' d'' e'' f'' g'' a'' bes''}  |   f,16[ r g, r a, r bes,] r c[ r d | % fl ob kl bn   
   r4 r4 r8. |  r4 r4 r8. |  <f' c''>8^"*range!" r16 q16 q8 r16 q16 q8 r16 | % hn tpt  tn   
   f8 r16 f16 f8 r16 f16 f8 r16|  \cross d''2~ \cross d''8. | r4 r4 r8. |  % tmp perc fol  
@@ -164,7 +163,7 @@
 %bn15  
   \time 4/4
   \instrumentSwitch "Rooney" fis8. fis fis8   fis4. fis8 |\lyricmode{ per -- haps it is, but  }|
- \tag #'vocal {<b, dis fis>8. <b dis fis> <b dis fis>8  <b dis fis>4. <b dis fis>8} \tag #'pf {<b dis' fis'>8. q q8  q4. q8 }  |  \tag #'vocal {d16 e8 f g a16   r2} \tag #'pf {<b, b>8. q q8 q2 }  |  R1 |  R1 |  % lh rh kbR kbL 
+ <b, dis fis>8. <b dis fis> <b dis fis>8  <b dis fis>4. <b dis fis>8  | d16 e8 f g a16   r2  |<b dis' fis'>8. q q8  q4. q8 |<b, b>8. q q8 q2 |  % lh rh kbR kbL 
   <f'' a''>16\> q8 r16 q16 q8 r16 q16 q8\! r16  r4 | dis'8. dis' dis'8 dis'2 | c'''8) r4. b2~  | r16 e16 r f] r g[ r a16]   r2  | % fl ob kl bn   
   R1 |  R1 | <f' c''>16\> q8 r16 q16 q8 r16 q16 q8\! r16  r4 | % hn tpt  tn   
   f16 f8 r16 f16 f8 r16 f16 f8 r16 r4 | <<{\once \override Voice.NoteHead.style = #'triangle f''2}\\{\once \override Voice.NoteHead.style = #'cross b'2_"lg. gong"}>> r2| R1 |  % tmp perc fol  
@@ -184,7 +183,7 @@
 
 %bn17  
   \times 2/3 {g4^"molt rit" fis g(}   \times 2/3 {b4) b^"a tempo" r } |\lyricmode{ will it hold  up?  }|
-<b e g>2  \times 2/3 { r4 <c e g b>2 }|  \tag #'vocal {\tuplet 3/2 4 {e2 d4~d4 c2 }} \tag #'pf {R1} |  R1 |  R1 |    % lh rh kbR kbL 
+<b e g>2  \times 2/3 { r4 <c e g b>2 }| \tuplet 3/2 4 {e2 d4~d4 c2 }|  R1 |  R1 |    % lh rh kbR kbL 
   \tuplet 3/2 2 { g'4 fis' g' b') b'2}  | \times 2/3 {e'2 d' c'}  |\tuplet 3/2  {b2 a g}   | R1 |  % fl ob kl bn    
   \times 2/3 {a1( e'2)} \breathe |  R1 |  R1 | % hn tpt  tn   
   R1 | R1 | R1 |  % tmp perc fol  
@@ -230,7 +229,7 @@ R4. |  <cis, cis'>4.:16\< |  R4. |  R4. |  %lh rh% kbR kbL lh rh
 %bn21  
   \time 2/4 \tEE
   e8 f \times 2/3 { g8 r g } | \lyricmode{ could -- n't be the } |
-\tag #'vocal {R2} \tag #'pf {e'8 f' \times 2/3 { g'8 r g' }} |  \tag #'vocal {<e e'>8-. <f f'>-. <g g'>-. <e e'>-.} \tag #'pf {g8 r bes g }  |  R2 |  R2 |  %lh rh kbR kbL
+  R2 | <e e'>8-. <f f'>-. <g g'>-. <e e'>-. |e'8 f' \times 2/3 { g'8 r g' } |g8 r bes g |  %lh rh kbR kbL
   R2 | R2 | R2 |  g,8-. aes,-. bes,-. g,-. |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -241,7 +240,7 @@ R4. |  <cis, cis'>4.:16\< |  R4. |  R4. |  %lh rh% kbR kbL lh rh
 %bn22  
   %\time 3/4 %\tQQ
   \time 2/4 r2 | |
-\tag #'vocal {<e'' a c>4 <e a c>} \tag #'pf {R2 }   |  R2 |  R2 |  R2 |  %lh rh kbR kbL
+  <e'' a c>4 <e a c>|  R2 |  R2 |  R2 |  %lh rh kbR kbL
   R2 | R2 | <a c'>8-. r <a c'>4~ | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | b'4->^"bell" b'-> | R2 |  % tmp perc fol  
@@ -275,7 +274,7 @@ r4. r4.  |  r4. r4.  |  R2. |  R2. |  %lh rh kbR kbL
   \time 5/8 \dQQ
   \instrumentSwitch"Christy"
   c='4 fis,8 fis4 |\lyricmode{ damn the mail }|
-r4. r4 |  \tag #'vocal {\times 2/3 {r4 <c, c'>8~} <c c'>4.~} \tag #'pf {r4. r4} |  r4. r4 |  r4. r4 |  %lh rh kbR kbL ###not sure about this
+r4. r4 | \times 2/3 {r4 <c, c'>8~} <c c'>4.~|  r4. r4 |  r4. r4 |  %lh rh kbR kbL ###not sure about this
   r4. r4 | r4. r4 | r4. fis4~ | c4-- r8 fis,4--|  % fl ob kl bn    
   c4--(\f fis,8->) fis,4~-- |  r4. r4 |  r4. r4 | % hn tpt  tn   
   r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
@@ -287,7 +286,7 @@ r4. r4 |  \tag #'vocal {\times 2/3 {r4 <c, c'>8~} <c c'>4.~} \tag #'pf {r4. r4} 
   \instrumentSwitch"Rooney"
   \time 2/4
   b4 r8 c |\lyricmode{oh thank }|
- R2 |  \tag #'vocal {<c c'>4 r } \tag #'pf {R2 } |  R2 |  R2 |  % lh rh kbR kbL 
+ R2 |<c c'>4 r |  R2 |  R2 |  % lh rh kbR kbL 
   R2 | R2 | fis2~\> | R2 |  % fl ob kl bn    
   fis,4. r8  |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 | % tmp perc fol  
@@ -334,7 +333,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
  r4 r8.  | r4 r8.  | r4 r8.  |  % tmp perc fol  
  <ees c'>4..\arpeggio | <ees' c''>4..\arpeggio | % hpL hpR  
   r4 r8.  | r4 r8.  | %vn vn2  
-  <<{fis4~ fis8.~}\\{dis4) \times 3/2 {r16 e(}}>> |c'8^"mutes" b16 a \times 3/2 {fis16 g~} | r4 r8.  | % va vc cb   
+  <<{fis4~ fis8.~}\\{dis4) \times 3/2 {r16 e(}}>> | c'8^"mutes" b16 a \times 3/2 {fis16 g~} | r4 r8.  | % va vc cb   
 
 %bn31  
   \time 2/4
@@ -361,7 +360,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
 %bn33  
   \instrumentSwitch "Christy"
   \tQQ fis,8. a16 e8. fis16 | \lyricmode {I sup -- pose you } |
-R2 |  \tag #'vocal {fis'=4 e} \tag #'pf {R2 }  |  R2 |  R2 |  %lh rh kbR kbL
+  R2 |fis'=4 e|  R2 |  R2 |  %lh rh kbR kbL
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \clef bass fis,4 e, |  R2 |  r8. a16 r8. fis16 | % hn tpt  tn     
   fis4 e | R2 | R2 |  % tmp perc fol  
@@ -371,7 +370,7 @@ R2 |  \tag #'vocal {fis'=4 e} \tag #'pf {R2 }  |  R2 |  R2 |  %lh rh kbR kbL
 
 %bn34  
   dis16 cis dis e  fis8^"rit" e16 fis | \lyricmode {would -- n't be in need of a } |
-R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |  R2 |  R2 |  %lh rh kbR kbL
+  R2 |<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~|  R2 |  R2 |  %lh rh kbR kbL
   r4 fis'^"tpt :(" | R2 | R2 | R2 |  % fl ob kl bn    
   cis,2~ |  R2 |  dis2 | % hn tpt  tn   
   R2 | d'2~:32\< | R2 |  % tmp perc fol  
@@ -382,7 +381,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn35  
   \time 7/8 \set Timing.beatStructure = #'(2 3) 
   g4 a r4 d8 | \lyricmode{small load... of }|
-  \tag #'vocal {r2 r4. } \tag #'pf {r2 r4 d''8 }|  \tag #'vocal {<cis cis'>2 r4.} \tag #'pf {r2 r4.  }  |  r2 r4. |  r2 r4. |     % lh rh kbR kbL 
+  r2 r4. |<cis cis'>2 r4.|r2 r4 d''8 |  r2 r4. |     % lh rh kbR kbL 
   g'2 r4 <e'' a''>8^"tpt"| r2 r4. | r2 r4. | r2 r4. |  % fl ob kl bn    
   cis,2 r4. |  r2 r4. |  e2 r4. | % hn tpt  tn   
   r2 r4. | d'2:32\! r4. | r2 r4. |  % tmp perc fol  
@@ -393,7 +392,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn36   
   \time 1/4 
   d4 |\lyricmode{dung! }|
- \absolute <d' fis' a' d''>4 |  <d, d>4 |  R4 |  R4 |    % lh rh kbR kbL 
+  \absolute <d' fis' a' d''>4 |  <d, d>4 |  R4 |  R4 |    % lh rh kbR kbL 
   <d'' a''>4 | R4 | R4 | R4 |  % fl ob kl bn    
   R4 |  R4 |  R4 | % hn tpt  tn   
   R4 |\cross d''4| R4 |  % tmp perc fol  
@@ -404,7 +403,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn37  
   \time 6/8
   \instrumentSwitch"Rooney" b=4 b8 d8. b16 gis8 |\lyricmode{dung?! what class of dung? } |
- \tag #'vocal {<f=' gis b>4.->-. <f=' gis b>8\arpeggio <f=' gis b> <f=' gis b> }\tag #'pf {R2. }  |  R2. |  R2. |  R2. |    % lh rh kbR kbL 
+   <f=' gis b>4.->-. <f=' gis b>8\arpeggio <f=' gis b> <f=' gis b> |  R2. |  R2. |  R2. |    % lh rh kbR kbL 
   R2. | R2. | <f gis b>4 r8 q q q | r4. d'8. b16 gis8 | % fl ob kl bn    
   \clef treble <f' gis' b'>4.^"stopped" <b d' f'>8^"norm" q q |  R2. |  R2. | % hn tpt  tn   
   R2. | \cross d''4 << \cross d''2->\lv \\ f'_"snares off">>  | R2. | % tmp perc fol  
@@ -414,18 +413,18 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn38  
   \instrumentSwitch"Christy" \times 3/2 { fis8 fis } \instrumentSwitch"Rooney" \times 3/2 {c'='8 b } | \lyricmode{sty -- dung sty -- dung? } |
- \tag #'vocal {r4. \times 3/2{ <e gis c>8 <e gis b> }}\tag #'pf {R2. }  |  \tag #'vocal {\times 3/2 { <fis fis'>8 <fis fis'>} r4.} \tag #'pf {R2.} |  R2. |  R2. |    % lh rh kbR kbL 
- r4. \times 3/2 {c'''8 b''}  | r4. \times 3/2 {gis''8 gis''} | R2. |\times 3/2 {fis8-. fis} r4. | % fl ob kl bn    
+  r4. \times 3/2{ <e gis c>8 <e gis b> }|\times 3/2 { <fis fis'>8 <fis fis'>} r4.|  R2. |  R2. |    % lh rh kbR kbL 
+  r4. \times 3/2 {c'''8 b''}  | r4. \times 3/2 {gis''8 gis''} | R2. |\times 3/2 {fis8-. fis} r4. | % fl ob kl bn    
   \clef bass \times 3/2 {fis,8-. fis,~} fis,4. |  R2. |  R2. | % hn tpt  tn   
- \times 3/2 {fis,8 fis,\lv} r4. | R2. | R2. |  % tmp perc fol  
- R2. | R2. | % hpL hpR  
+  \times 3/2 {fis,8 fis,\lv} r4. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   \times 3/2 {fis8-. fis8~} fis4 r8 | \times 3/2 {fis,8-. fis,~} fis,4.\glissando | R2. | % va vc cb   
 
 %bn39  
   \time 4/4 %%%%%%%%%%%%%% FIX div pizz in VA
   r8 e= \times 2/3 {fis4 gis8 }   \times 2/3 {b4 a8} \times 2/3 {gis4 a8 } |\lyricmode{I like your frank -- ness Chris -- ty  }|
-\tag #'vocal { r1} \tag #'pf {R1 } |  \tag #'vocal {<e, e'>2   a''=,8( e' cis' gis} \tag #'pf {R1 } |  R1 |  R1 |     % lh rh kbR kbL 
+  R1  | <e, e'>2   a''=,8( e' cis' gis |  R1 |  R1 |     % lh rh kbR kbL 
    r8 e'' \times 2/3 {fis''4 gis''8 }   \times 2/3 {b''4 a''8} \times 2/3 {gis''4 a''8 } | R1 | R1 | r4 \times 2/3 {r4 d8( } <a, cis>4)\p r |  % fl ob kl bn    
   R1 |  R1 |  R1 | % hn tpt  tn   
   e4 r2. | R1 | R1 |  % tmp perc fol  
@@ -435,7 +434,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn41  
   \time 3/4 r8 e\rit \times 2/3 {fis4\start gis8 } \times 2/3 {b4 a8\stop} |\lyricmode{ I'll ask the mas -- ter. } |
-\tag #'vocal { R2.} \tag #'pf {R2. } |  \tag #'vocal {fis8  e  gis d) r4} \tag #'pf {R2. } |  R2. |  R2. |     % lh rh kbR kbL 
+  R2. |fis8  e  gis d) r4 |  R2. |  R2. |     % lh rh kbR kbL 
   r8 e'' \times 2/3 {fis''4 gis''8 } \times 2/3 {b''4 a''8}  | R2. | fis'8 e' gis' d' r4 | r2 a4   |% fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. | % tmp perc fol  
@@ -446,7 +445,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn42  
   \time 2/4
   a8 c8 r4    | \lyricmode{ Chri -- sty? } | 
-\tag #'vocal { a8 c fis a} \tag #'pf {R2 } |  \tag #'vocal {R2} \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  a8 c fis a | R2 |  R2 |  R2 |   % lh rh kbR kbL 
   r4 fis''8( a'') | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -456,7 +455,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn43  
   \instrumentSwitch "Christy" e,,=8. b r8 | \lyricmode{yes ma'am } | 
-  \tag #'vocal {R2}  \tag #'pf {R2 } |  \tag #'vocal {b'8 gis d b} \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2   | b'8 gis d b |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | r4 d8( b,) |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -466,7 +465,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn44  
   r8^"piu mosso" \instrumentSwitch "Rooney" g'= e g  | \lyricmode{do you find } | 
- \tag #'vocal {R2} \tag #'pf {R2 } |  \tag #'vocal {e,2} \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2 | e,2 |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | <e' g' b'>2~ | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -476,7 +475,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn45  
   \times 2/3 {bes8 a g^"rit" } \times 2/3 {r4 cis8--^"tempo 4:5" } | \lyricmode{an -- y -- thing bi -- }  | 
- \tag #'vocal {r4 \times 2/3 {r4 <f,=' a cis>8} }\tag #'pf {R2 } |  \tag #'vocal {R2} \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  r4 \times 2/3 {r4 <f,=' a cis>8} | R2 |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | <e' g' b'>2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -486,7 +485,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn46  
   cis8 b16 a g8 a16 b | \lyricmode{zarre a -- bout my way of } | 
-\tag #'vocal { <f a cis>4\> g } \tag #'pf {R2 } |  \tag #'vocal {cis4 g } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  <f a cis>4\> g |cis4 g |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -496,7 +495,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn47  
   cis8 g r4 | \lyricmode{spea -- king }|
-\tag #'vocal {<f a cis>4 g } \tag #'pf {R2 } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |     % lh rh kbR kbL 
+  <f a cis>4 g |  R2  |  R2 |  R2 |     % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -506,7 +505,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn48  
   r4. ees8 |\lyricmode{I }|
-\tag #'vocal { <f a cis>4 g\! } \tag #'pf {R2 } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+ <f a cis>4 g\! | R2 |  R2 |  R2 |    % lh rh kbR kbL 
   r4. ees8~ | R2 | R2 |   r4. ees8  |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -516,7 +515,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn49  
   f8 g bes8. a16 |\lyricmode{ do not mean the }|
-\tag #'vocal {R2 } \tag #'pf {R2 } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2  | R2  |  R2 |  R2 |    % lh rh kbR kbL 
   ees4 bes4 | R2 |r4 bes8. a16 | f8 g bes8. r16 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -526,7 +525,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn50  
   e'4 a,8  r |\lyricmode{ voice no! }|%check note for "no"
-\tag #'vocal { <aes c e>4 <a c ees> } \tag #'pf {R2 } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+ <aes c e>4 <a c ees> | R2 |  R2 |  R2 |    % lh rh kbR kbL 
   c'4 r | R2 | fis4 r | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -536,7 +535,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn51  
   r8^"rit." fis fis8. b16 |\lyricmode{ I mean the }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {fis'=4( e } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+R2  |fis'=4( e |  R2 |  R2 |    % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -546,7 +545,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn52  
   b4 r8 a16 b |\lyricmode{ words... I use }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {d2) } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2  |d2) |  R2 |  R2 |    % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -557,7 +556,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn53  
   
   c8 b16 a  \times 2/3{gis4 b8 }|\lyricmode{ none but the sim -- plest }|
-\tag #'vocal {R2 } \tag #'pf {R2 } |  \tag #'vocal {a,4\laissezVibrer\p \times 2/3 {r8 gis'=4 }} \tag #'pf {R2 } |  R2 |  R2 |  % lh rh kbR kbL 
+  R2  |a,4\laissezVibrer\p \times 2/3 {r8 gis'=4 } |  R2 |  R2 |  % lh rh kbR kbL 
   R2 | R2 |r4 \times 2/3 {r8 gis'4~} | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -568,7 +567,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn54  
   \QdQ \time 6/8
   fis4 a8 e4 gis8 |\lyricmode{ words I think and }|
-\tag #'vocal { R2.} \tag #'pf {R2. } |  \tag #'vocal {r8 fis4 r8 e4 } \tag #'pf {R2. } |  R2. |  R2. |  % lh rh kbR kbL 
+  R2.  | r8 fis4 r8 e4 |  R2. |  R2. |  % lh rh kbR kbL 
   R2. | R2. |gis'8 fis'4~ fis'8 e'4~ | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |   % tmp perc fol  
@@ -579,7 +578,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn55  
   \EE \time 2/4
   r8 dis8 r e |\lyricmode{ yet I }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {r8 dis r e } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |r8 dis r e |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | ees'8 r e'8 r8 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -589,7 +588,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn56  
   r4 dis8 e |\lyricmode{ some -- times }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {r4 dis8 e } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL 
   e''8( dis'' b'8 gis'  | R2 | ees'8 e' r4 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -599,7 +598,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn57  
   r8 dis8 r e  |\lyricmode{find my }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {r8 dis r e } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2  | r8 dis r e |  R2 |  R2 |    % lh rh kbR kbL 
   e'8 dis') r4 | R2 |ees'8 r e'8 r8  | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -610,7 +609,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn58  
   \QdQ \time 6/8
   dis8 e fis gis fis gis | \lyricmode {way of speak -- ing ve -- ry } |
-\tag #'vocal { R2. } \tag #'pf {R2. } |  \tag #'vocal {fis8 gis a b a b } \tag #'pf {R2. } |  R2. |  R2. |  % lh rh kbR kbL 
+  R2.  | fis8 gis a b a b  |  R2. |  R2. |  % lh rh kbR kbL 
   dis'8( e' fis' gis' fis' gis') | R2. | dis'8 e' fis' gis' fis' gis'   | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |   % tmp perc fol  
@@ -621,7 +620,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn59  
   \dQQ \time 3/8
   r4 a8 | \lyricmode {bi --  } |%check rhythm here and in previous "Bizarre"
-\tag #'vocal { r4 <f a cis>8 } \tag #'pf {R4. } |  \tag #'vocal {R4. } \tag #'pf {R4. } |  R4. |  R4. |    % lh rh kbR kbL 
+  r4 <f a cis>8 | R4.  |  R4. |  R4. |    % lh rh kbR kbL 
   r4 f''8-.  | R4. | R4. | r4 a8-. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -632,7 +631,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn60  
   \time 3/4
   a4 \times 2/3 {d4 bes8} \times 2/3 {r8 ges bes} | \lyricmode {zarre mer -- cy what was } |
-\tag #'vocal { <f a cis>2 <ges bes d>4 } \tag #'pf {R2. } |  \tag #'vocal {r4 <ges,=, ges'>2 } \tag #'pf {R2. } |  R2. |  R2. |  % lh rh kbR kbL 
+ <f a cis>2 <ges bes d>4 | r4 <ges,=, ges'>2 |  R2. |  R2. |  % lh rh kbR kbL 
   f''4 fis'' r | R2. |cis''4 \times 2/3 {d''4 r8} r4 | a4( bes8) r4. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -644,7 +643,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn61  
   \time 2/4
   d8 r \instrumentSwitch "Christy" gis=16 ais gis r |\lyricmode{that?! Ne -- ver mind } |
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {<g g'>4 <aes aes'> } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |<g g'>4 <aes aes'> |  R2 |  R2 |   % lh rh kbR kbL 
   g''4 r | R2 |ees''4 r| R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -655,7 +654,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn62  
   \time 3/4
   cis8 gis \times 2/3 {r8 cis r } \times 2/3 {bis cis r } | \lyricmode{ her maam, she's ve -- ry } |
-\tag #'vocal { R2. } \tag #'pf {R2. } |  \tag #'vocal {<des des'>4 \times 2/3 {<aes aes'>8 r8 <des des'> } \times 2/3 {r4 <aes aes'>8} } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+  R2.  |<des des'>4 \times 2/3 {<aes aes'>8 r8 <des des'> } \times 2/3 {r4 <aes aes'>8} |  R2. |  R2. |   % lh rh kbR kbL 
   gis''8 r \times 2/3 {r gis'' r} r4 | R2. |e''8 r \times 2/3 {r e''4} \times 2/3 {r4 cis''8} |  R2. |  % fl ob kl bn    
   des8 r \times 2/3{ aes,8 r des } \times 2/3 {r4 aes,8~}  |  R2. |  R2. | % hn tpt  tn   
   des8 r \times 2/3{ aes,8 r des } \times 2/3 {r4 aes,8~}  | R2. | R2. |  % tmp perc fol  
@@ -666,7 +665,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn63  
   \time 2/4
   dis16 cis bis \grace { ais16( bis } ais~) \times 2/3 {ais8 gis e } |\lyricmode{ fresh in ner -- self to -- day }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {r4 \times 2/3 {r4 <e=, e'>8 } } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |r4 \times 2/3 {r4 <e=, e'>8 } |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   aes,2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -677,7 +676,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn64  
   \instrumentSwitch "Rooney" 
   c='4 \times 2/3 {f,8 a d,} |\lyricmode{ dung! what would we } |
-\tag #'vocal { <a=' c e>4 \times 2/3 {r8 <f a c>4 }} \tag #'pf { r4 \times 2/3 {r8 <f' a' c''>4 }} |  \tag #'vocal {r4 \times 2/3 {<f= a c>8 r <d f a>} } \tag #'pf {r4 \times 2/3 {<f= a c'>8 r <d f a>} } |  R2 |  R2 |   % lh rh kbR kbL 
+ <a=' c e>4 \times 2/3 {r8 <f a c>4 }  | r4 \times 2/3 {<f= a c>8 r <d f a>}  | r4 \times 2/3 {r8 <f' a' c''>4 }|r4 \times 2/3 {<f= a c'>8 r <d f a>} |   % lh rh kbR kbL 
   R2 | R2 |<a' c'' e''>8 r \times 2/3 {a' <f' a' c''> f'}  | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -688,7 +687,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn65  
   \time 7/16 \set Timing.beatStructure = #'(3 4)
   a'8 f16 \times 2/3 {c'4 d8} |\lyricmode{ want with dung. at }|
-\tag #'vocal { <f a c>8. \times 2/3 {<a c e>4 <f a c>8 } } \tag #'pf { <f' a' c''>8. \times 2/3 {<a' c'' e''>4 <f' a' c''>8 } } |  \tag #'vocal {r8 <d f a>16~ <d f a>8 <f a c> } \tag #'pf {r8 <d f a>16~ <d f a>8 <f a c'> } |  r8. r4 |  r8. r4 |  % lh rh kbR kbL 
+ <f a c>8. \times 2/3 {<a c e>4 <f a c>8 } |r8 <d f a>16~ <d f a>8 <f a c>  | <f' a' c''>8. \times 2/3 {<a' c'' e''>4 <f' a' c''>8 } |r8 <d f a>16~ <d f a>8 <f a c'> |  % lh rh kbR kbL 
   r8. r4  | r8. r4  |<f' a' c''>8 a'16 \times 2/3 {<a' c'' e''>4-. <f' a' c''>8} | r8. r4  |  % fl ob kl bn    
   r8. r4  |  r8. r4 |  r8. r4  | % hn tpt  tn   
  r8. r4  | r8. r4  | r8. r4  |  % tmp perc fol  
@@ -700,7 +699,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   \tEE
   \time 2/4
   c4 b8 f | \lyricmode{our time of }|
-\tag #'vocal { r4. f8~ } \tag #'pf {  c''4( b'8 f' } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |  % lh rh kbR kbL 
+ r4. f8~  | R2 |  c''4( b'8 f' |  R2 |  % lh rh kbR kbL 
   R2 | R2 | c''4( b'8 f' | g2~ |  % fl ob kl bn    
   R2 |  R2 | r4 <d a>~\pp\< | % hn tpt  tn   
   R2  | R2 | R2 |  % tmp perc fol  
@@ -710,7 +709,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn67  
   a4^"poco rit." r | \lyricmode{life }|
-\tag #'vocal { f4( e8 a, } \tag #'pf {a'4) } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |  % lh rh kbR kbL 
+   f4( e8 a,  | R2 |a'4) |  R2 |  % lh rh kbR kbL 
   R2 | R2 | a'2) | g4 r |  % fl ob kl bn    
   \clef treble f'4( e'8 a  |  R2 |  <d a>2~ | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -721,18 +720,18 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn68  
   \time 3/4
   r8^"a tempo" e d cis d e | \lyricmode{ why are you on your }|
-\tag #'vocal { d4) r2 } \tag #'pf {R2. } |  \tag #'vocal {R2. } \tag #'pf {R2. } |  R2. |  R2. |  % lh rh kbR kbL 
+  d4) r2 | R2. |  R2. |  R2. |  % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   d'4) r2  |  R2. |  <d a>4.\> r\!| % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
-  R2. | g,2. | R2. | % va vc cb   
+  R2. | g,2. | R2. | % va vc cb    
 
 %bn69  
   \time 11/8 \set Timing.beatStructure = #'(3 2 2) 
   g4( f8) f4 e8 f e2 | \lyricmode{feet down on the road } |
-\tag #'vocal { r4. r2 r2 } \tag #'pf {r4. r2 r2 } |  \tag #'vocal {d4.~ d2 r2 } \tag #'pf {r4. r2 r2 } |  r4. r2 r2 |  r4. r2 r2 |  % lh rh kbR kbL 
+  r4. r2 r2  | d4.~ d2 r2 |  r4. r2 r2 |  r4. r2 r2 |  % lh rh kbR kbL 
   r4. r2 r2  | r4. r2 r2  | r4. r2 r2  | r4. r2 r2  |  % fl ob kl bn    
   r4. r2 r2  |  r4. r2 r2 |  r4. r2 r2  | % hn tpt  tn   
   r4. r2 r2  | r4. r2 r2  | r4. r2 r2  |  % tmp perc fol  
@@ -742,7 +741,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn70  
   \time 2/2 a8 g fis e fis8 g a fis |\lyricmode{ why do you not climb up on the }|
-\tag #'vocal { R1 } \tag #'pf {R1 } |  \tag #'vocal {R1 } \tag #'pf {R1 } |  R1 |  R1 |     % lh rh kbR kbL 
+  R1  | R1 |  R1 |  R1 |     % lh rh kbR kbL 
   R1 | R1 | R1 | R1 |  % fl ob kl bn    
   R1 |  R1 |  R1 | % hn tpt  tn   
   R1 | R1 | R1 |  % tmp perc fol  
@@ -753,7 +752,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn71  
   \tQQ \time 2/4
   b8 g^"rit..." a b| \lyricmode{ crest of your ma -- } |
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2 | R2 |  R2 |  R2 |    % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -764,7 +763,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn72  
   \tQQ \time 4/4
   d8( e4) d8 d c g c | \lyricmode {nure, and let your -- self be } |
-\tag #'vocal { <f a>2 r } \tag #'pf {R1 } |  \tag #'vocal {<f c' f>2 c8 d e f } \tag #'pf {R1 } |  R1 |  R1 |  % lh rh kbR kbL 
+ <f a>2 r |<f c' f>2 c8 d e f |  R1 |  R1 |  % lh rh kbR kbL 
   R1 | R1 | R1 | f,,8 g,, a,, b,, c, d, e, f, |  % fl ob kl bn    
   R1 |  R1 |  R1 | % hn tpt  tn   
   R1 | R1 | R1 |  % tmp perc fol  
@@ -775,7 +774,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn73  
   \tEE \time 2/4
   c8( b) a g |\lyricmode{car -- ried a -- } |
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {g2 } \tag #'pf {R2 } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2  |g2 |  R2 |  R2 |    % lh rh kbR kbL 
   R2 | R2 | R2 | g,2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -786,7 +785,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn74  
   \time 3/8
   fis4( e8) | \lyricmode{way }|
-\tag #'vocal { R4. } \tag #'pf {R4. } |  \tag #'vocal {cis4. } \tag #'pf {R4. } |  R4. |  R4. |  % lh rh kbR kbL 
+  R4.  |cis4. |  R4. |  R4. |  % lh rh kbR kbL 
   R4. | R4. | R4. | cis4. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -797,7 +796,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn75  
   \time 2/4
   dis8 e fis gis | \lyricmode{ is it that you }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |     % lh rh kbR kbL 
+  R2  | R2  |  R2 |  R2 |     % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -807,7 +806,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn76  
   ais8 fis bis8. gis16 | \lyricmode{ have no head for }|
-\tag #'vocal { ais8 fis e d } \tag #'pf {ais'8( fis' c'' gis'} |  \tag #'vocal {R2 } \tag #'pf {ais8( fis c' gis)} |  R2 |  R2 |    % lh rh kbR kbL 
+   ais8 fis e d  |R2  |ais'8( fis' c'' gis'|ais8( fis c' gis)|    % lh rh kbR kbL 
   R2 |  ais'8 fis' e' d'  | ais'4 c''  |   ais'8 fis' e' d'  |  % fl ob kl bn    
   r4 \clef bass e,8. d,16 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |    % tmp perc fol  
@@ -817,7 +816,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn77  
   cisis4 r4 |\lyricmode{heights? }|
-\tag #'vocal { <c e gis ais>2 } \tag #'pf {d'4) \times 2/3 {<b' dis' fis'>8 q q} } |  \tag #'vocal {R2 } \tag #'pf {r4 <b,, fis, b,> } |  R2 |  R2 |  % lh rh kbR kbL 
+ <c e gis ais>2  |R2  |d'4) \times 2/3 {<b' dis' fis'>8 q q} |r4 <b,, fis, b,> |  % lh rh kbR kbL 
   R2 | c'4 r | d''4 r| c'4 r |  % fl ob kl bn    
   c,4 r |  R2 |  R2 | % hn tpt  tn   
   r4 \times 2/3 {b,8 b, b, }  | r4 <<\cross g'4~\\\cross e'4\lv>> | R2 |  % tmp perc fol  
@@ -827,17 +826,17 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn78  
   r4 \instrumentSwitch "Christy" \times 2/3 {b,=,8 b b }  | \lyricmode{ Wiy -- ya ta }|
-\tag #'vocal { R2 } \tag #'pf {<c' dis' fis'>8-- \times 2/3 {<b dis' fis'>16 q q}r4 } |  \tag #'vocal {R2 } \tag #'pf {<b,, fis, c>4-- <b,, b,>~\sustainOn } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2  |R2  |<c' dis' fis'>8-- \times 2/3 {<b dis' fis'>16 q q}r4 |<b,, fis, c>4-- <b,, b,>~\sustainOn |    % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
- c8 \times 2/3 {b,16 b, b, } r4| <<\cross g'2\\s2>> | R2 |  % tmp perc fol  
- R2 | R2 | % hpL hpR  
+  c8 \times 2/3 {b,16 b, b, } r4| <<\cross g'2\\s2>> | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   <a' b'>2~^"mutes" | R2 | %vn vn2  
   R2 | R2 |b,2| % va vc cb   
 
 %bn79  %%%%%%%%%%% christys rhythm??
- \time 3/4 c8 \times 2/3 {b16 b b } r2|  \lyricmode {hell out of that! } |
-\tag #'vocal { R2. } \tag #'pf {R2. } | \tag #'vocal {R2. } \tag #'pf {<b,, b,>2.~ } |  R2. |  R2. |    % lh rh kbR kbL 
+  \time 3/4 c8 \times 2/3 {b16 b b } r2|  \lyricmode {hell out of that! } |
+  R2.  |R2.  |  R2. |<b,, b,>2.~ |    % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   r4 \times 2/3 {r8 b, b, }  c8 \times 2/3 {b,16 b, b, }  |\cross g'2. | R2. |  % tmp perc fol  
@@ -849,7 +848,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   \time 3/4
   \instrumentSwitch "Rooney" 
   r8^"poco piu (6:5)" e e e \times 2/3 {gis8 r gis} | \lyricmode{ she does -- n't move a } |
-\tag #'vocal { R2. } \tag #'pf {r4 e' gis'} |  \tag #'vocal {R2. } \tag #'pf {<b,, b,>2. } |  R2. |  R2. |  % lh rh kbR kbL 
+  R2.  |R2.  |r4 e' gis'|<b,, b,>2. |  % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -860,18 +859,18 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn81  
   \time 2/4
   b8^"a tempo" e, r4 |\lyricmode{mus -- cle... } |
-\tag #'vocal { r2 } \tag #'pf { R2  } |  \tag #'vocal {r4 \times 2/3 {b8 b b }} \tag #'pf {<b,, b,>2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  | r4 \times 2/3 {b8 b b } |  R2 |<b,, b,>2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
- r4 \times 2/3 {b,8\mp b, b,} |R2 | R2 |  % tmp perc fol  
- R2 | R2 | % hpL hpR  
+  r4 \times 2/3 {b,8\mp b, b,} |R2 | R2 |  % tmp perc fol  
+  R2 | R2 | % hpL hpR  
   q2~ | R2 | %vn vn2  
   R2 |<e'' gis'' b''>2\o | R2 | % va vc cb   
 
 %bn82  
   \time 3/4
   r2 r8 b' |\lyricmode{ I }|
-\tag #'vocal { r2 r8 <e gis b>8 } \tag #'pf {\times 2/3 {r8 <b dis'>8 q } <c' dis' fis'>8-- \times 2/3 {<b dis' fis'>16 q q } r8  <e' gis b>8-. } |  \tag #'vocal {\times 2/3 {b b b} c8 b16 b b8 e,=8 } \tag #'pf {<<{\times 2/3 {b,8 b, b, } c4-- }\\b,,2>> r8 gis8-. } |  R2. |  R2. |  % lh rh kbR kbL 
+  r2 r8 <e gis b>8  |\times 2/3 {b b b} c8 b16 b b8 e,=8  |\times 2/3 {r8 <b dis'>8 q } <c' dis' fis'>8-- \times 2/3 {<b dis' fis'>16 q q } r8  <e' gis b>8-. |<<{\times 2/3 {b,8 b, b, } c4-- }\\b,,2>> r8 gis8-. |  % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   c2 r4 | \cross g'2\mp r4 | R2. |  % tmp perc fol  
@@ -882,7 +881,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn83  
   \time 5/8 \set Timing.beatStructure = #'(2 2 1) 
   c8^"poco piu (6:5)" b16 a \times 4/5 {r16 d8 c16 b} g8 |\lyricmode{ too should be get -- ting a -- long }|
-\tag #'vocal {<e a c>4 <f a d~> <g b d>8 } \tag #'pf {<<{c''8( b'16 a' d''8 c''16 b' g'8-.)}\\{<e' a'>4 f' g'8}>> } |  \tag #'vocal {a4 f g8 } \tag #'pf {a4( f8 f g-.) } |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
+  <e a c>4 <f a d~> <g b d>8  |a4 f g8  |<<{c''8( b'16 a' d''8 c''16 b' g'8-.)}\\{<e' a'>4 f' g'8}>> |a4( f8 f g-.) |   % lh rh kbR kbL 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn   
   r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
@@ -893,7 +892,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn84  
   \time 2/4
   ees16 f ees f g ees f g |\lyricmode{if I do not wish to ar -- rive }|
-\tag #'vocal { R2 } \tag #'pf {  ees'16 f' ees' f' g' ees' f' g' } |  \tag #'vocal {ees16 f ees f g ees f g } \tag #'pf {dis4( g } |  R2 |  R2 |  % lh rh kbR kbL 
+  R2  |ees16 f ees f g ees f g  |  ees'16 f' ees' f' g' ees' f' g' |dis4( g |  % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -905,7 +904,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   \dEQ
   \time 3/4
   a8^"poco rit" g16 a fis8 e r g16 a |\lyricmode{late at the sta -- tion. But a } |
-\tag #'vocal { R2. } \tag #'pf {  a'8 g'16 a' fis'8 e' r g'16 a' } |  \tag #'vocal {a4 bes r } \tag #'pf {a4 fis e) } |  R2. |  R2. |   % lh rh kbR kbL 
+  R2.  | a4 bes r  |  a'8 g'16 a' fis'8 e' r g'16 a' |a4 fis e) |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -916,7 +915,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn86  
   \time 2/4
   c8 b16 a \times 2/3 {gis8 r b} |\lyricmode{mo -- ment a  -- go she } |
-\tag #'vocal { R2 } \tag #'pf {  c''8 b'16 a' \times 2/3 {gis'8 r b'}  } |  \tag #'vocal {R2 } \tag #'pf {<a, a>4~( \times 2/3 {<a, a>8 gis4)} } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2 | R2 |  c''8 b'16 a' \times 2/3 {gis'8 r b'}  |<a, a>4~( \times 2/3 {<a, a>8 gis4)} |    % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -927,7 +926,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn87  
   \time 9/16 \EE
   ees,8 f16 g8 ees16 a8 f16 |\lyricmode{neighed and pawed the ground and now }|
-\tag #'vocal {  ees8 f16 g8 ees16 a8 f16 } \tag #'pf {  ees'8 f'16 g'8 ees'16 a'8 f'16 } |  \tag #'vocal {\times 3/2 {ees,=16 f} \times 3/2 {g ees } \times 3/2{ a f } } \tag #'pf {  ees'8 f'16 g'8 ees'16 a'8 f'16 } |  r8. r r |  r8. r r |  % lh rh kbR kbL 
+  ees8 f16 g8 ees16 a8 f16  |\times 3/2 {ees,=16 f} \times 3/2 {g ees } \times 3/2{ a f }  |  ees'8 f'16 g'8 ees'16 a'8 f'16 |  ees'8 f'16 g'8 ees'16 a'8 f'16 |  % lh rh kbR kbL 
   r8. r r  | r8. r r  | r8. r r  | r8. r r  |  % fl ob kl bn    
   r8. r r  |  r8. r r |  r8. r r  | % hn tpt  tn   
   r8. r r  | r8. r r  | r8. r r |  % tmp perc fol  
@@ -938,7 +937,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn88  
   \time 2/4
   b8 ees,16 f g a b g | \lyricmode{ she re -- fu -- ses to ad -- }|
-\tag #'vocal { R2 } \tag #'pf {  b'8 ees'16 f' g' a' b' g' } |  \tag #'vocal {R2 } \tag #'pf {b8 r4. } |  R2 |  R2 |    % lh rh kbR kbL 
+  R2 | R2 |  b'8 ees'16 f' g' a' b' g' |b8 r4. |    % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -949,11 +948,11 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn89  
   \time 3/4
   cis8 r e,16 e e e-> gis8-> gis16 gis | \lyricmode{vance! give her a good welt on the }|
-\tag #'vocal { <ees g a cis>4 r2 } \tag #'pf {<a' cis''>8 r8 r2 } |  \tag #'vocal {<g a cis>4  e16 e e e   gis8   gis16 gis } \tag #'pf {r4 <e, e>4--\f <gis, gis>-- } |  R2. |  R2. |  % lh rh kbR kbL 
+  <ees g a cis>4 r2  |<g a cis>4  e16 e e e   gis8   gis16 gis  |<a' cis''>8 r8 r2 |r4 <e, e>4--\f <gis, gis>-- |  % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   r4 <e,, e,>8\f r <gis,, gis,> r|  R2. |  R2. | % hn tpt  tn   
- r4 e, gis, | r4 \cross b'2 | R2. |  % tmp perc fol  
- R2. | R2. | % hpL hpR  
+  r4 e, gis, | r4 \cross b'2 | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   <g cis'>8 r r2 | \clef bass r4 e,16 e, e, e, gis,8-> gis,16 gis, |  cis4 r16 e e e r8 gis16 gis | % va vc cb   
 
@@ -961,7 +960,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   \dQQ     %check this!
   \time 5/8 \set Timing.beatStructure = #'(2 3) 
   b8^"roll r" r c gis r |\lyricmode{ rump! har -- der }|
-\tag #'vocal { <e gis b>8 r <e gis c> <e gis> r } \tag #'pf {r4 <aes c'> r8 } |  \tag #'vocal {r8 <e, e'>-> r4 <e e'>8-> } \tag #'pf {<b, b>8-- r8 <aes c e>4--  r8 } |  r4. r4 |  r4. r4 |  % lh rh kbR kbL 
+  <e gis b>8 r <e gis c> <e gis> r  |r8 <e, e'>-> r4 <e e'>8->  |r4 <aes c'> r8 |<b, b>8-- r8 <aes c e>4--  r8 |  % lh rh kbR kbL 
   r4 r4. | r4 r4. | r4 r4. | r4 r4. |  % fl ob kl bn    
   <b,, b,>8 r <gis,, gis,>4 r8 |  r4. r4 |  r4 <e c'>8 <c gis> r| % hn tpt  tn   
   e,8 r4 r4 | r8  << \cross d''\mf \\ f'\mf>> r4  << \cross d''8\f \\ f'\f>> | r4. r4 |  % tmp perc fol  
@@ -970,10 +969,9 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   r4 e''4 r8 |  b,8 r  << <e c' gis'>8 \\ { <e, gis,>4}>> r8 | r4 r4. | % va vc cb   
 
 %bn91  
-  \EE
-  \time 6/16
+  \EE \time 6/16
   c8-> aes16 \times 3/5 {fes-- ees fes ges aes }|\lyricmode{ well! if some -- one were to do } |
-\tag #'vocal { <ees aes c>8.-^ r8. } \tag #'pf {<ees' aes' c''>8.-> \times 3/5 {fes'16-- ees' fes' ges' aes' }} |  \tag #'vocal {<ees aes c>8.--  \times 3/5 {fes16-- ees fes ges aes } } \tag #'pf {<ees aes c'>8.-> \times 3/5 {fes16-- ees fes ges aes }} |  r8. r |  r8. r |  % lh rh kbR kbL 
+  <ees aes c>8.-^ r8.  |<ees aes c>8.--  \times 3/5 {fes16-- ees fes ges aes } |<ees' aes' c''>8.-> \times 3/5 {fes'16-- ees' fes' ges' aes' }|<ees aes c'>8.-> \times 3/5 {fes16-- ees fes ges aes }|  % lh rh kbR kbL 
   r8. r  | r8. r  | r8. r  | r8. r  |  % fl ob kl bn    
   <ees,, ees,>8. e,16 r8  |  r8. r |  r8. r  | % hn tpt  tn   
   r8. r  | r8. r  | r8. r |  % tmp perc fol  
@@ -983,7 +981,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn92  
   \times 3/5 {bes8 ges16 c8} cis16 a fis |\lyricmode{ that to me, I would -- n't }|
-\tag #'vocal { r8. << des16.\\ {aes16( a8)}>> } \tag #'pf {  \times 3/5 {bes'8 ges'16 c''8} cis''8.    } |  \tag #'vocal {\times 3/5 {bes16. ges c8} f8( ges16) } \tag #'pf {  \times 3/5 {bes8 ges16 c'8} <cis cis'>8. } |  r8. r |  r8. r |  % lh rh kbR kbL 
+  r8. << des16.\\ {aes16( a8)}>>  |\times 3/5 {bes16. ges c8} f8( ges16)  |  \times 3/5 {bes'8 ges'16 c''8} cis''8.    |   \times 3/5 {bes8 ges16 c'8} <cis cis'>8.|  % lh rh kbR kbL 
   r8. r  | r8. r  | r8. r  | r8. r  |  % fl ob kl bn    
   r8. r  |  r8. r |  r8. r  | % hn tpt  tn   
   r8. r  | r8. r  | r8. r |  % tmp perc fol  
@@ -995,7 +993,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   \dEQ
   \time 3/8
   e8 dis \breathe e16 fis |\lyricmode{tar -- ry... how she }| %more space here???
-\tag #'vocal { R4. } \tag #'pf {R4. } |  \tag #'vocal {<<{e8 dis r}\\{b c r}\\ {gis4 a8}>> } \tag #'pf {R4. } |  R4. |  R4. |  % lh rh kbR kbL 
+  R4.  |<<{e8 dis r}\\{b c r}\\ {gis4 a8}>> |  R4. |  R4. |  % lh rh kbR kbL 
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -1012,10 +1010,10 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn2  
   << { \grace {e'16} \stemUp g'16 fis' e' dis' e' fis' \stemNeutral} \new Voice {\voiceFour <e g>4.} >>  | R4. | R4. | % va vc cb   
-
+  
 %bn95  
   g8 \times 2/3 {r8 fis g } |\lyricmode{sure with her }|
-\tag #'vocal { R4. } \tag #'pf {R4. } |  \tag #'vocal {R4. } \tag #'pf {R4. } |  R4. |  R4. |    % lh rh kbR kbL 
+  R4.  | R4.  |  R4. |  R4. |    % lh rh kbR kbL 
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -1027,7 +1025,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   \time 2/4
   \dEQ
   a4^"poco rit" b |\lyricmode{great, moist, }|  %%%%%%%%%%%%% FIX VA WRITING!!!!!
-\tag #'vocal { <c e f a>4:32 <c e g b>4:32 } \tag #'pf {R2 } |  \tag #'vocal {R2 } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  <c e f a>4:32 <c e g b>4:32 | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   <f' f''>4 <g' g''> | <e' e''>2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1037,7 +1035,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn97  
   \times 2/3 {b8 r ais4 gis8 fis} | \lyricmode{cleg tor -- men -- ted }| %%%%%%%%%FIX VA!!!!!
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {gis'=8 fis e dis  } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |gis'=8 fis e dis  |  R2 |  R2 |   % lh rh kbR kbL 
   <gis' gis''>2~ |<ees' ees''>2 | R2 | R2 |  % fl ob kl bn    
   << {aes8 ges fes ees}\\{aes, ges fes ees}>>   |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 | % tmp perc fol  
@@ -1047,7 +1045,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn98  %%%%%%%%%%%Check harp part for playability
   cis'4^"rit." d |\lyricmode{eyes! Per -- }|
-\tag #'vocal { <dis f aes c>4 <dis~ fis a c> } \tag #'pf {R2 } |  \tag #'vocal {d4\> dis } \tag #'pf {R2 } |  R2 |  R2 |  % lh rh kbR kbL 
+  <dis f aes c>4 <dis~ fis a c> |d4\> dis |  R2 |  R2 |  % lh rh kbR kbL 
   <gis' gis''>4 <a' a''> |<d' d''>2| R2 | R2 |  % fl ob kl bn    R2 
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 | % tmp perc fol  
@@ -1058,7 +1056,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn99  
   \time 5/8
   ees8 r a,16 b d( c) g16 a | \lyricmode{haps if I were to move }|   %%%% meh. reworkme!
-\tag #'vocal { << <g bes d>4.\\{dis16 e fis g a b}>> <e, a>4 } \tag #'pf {r4. r4 } |  \tag #'vocal {e4.~\! e4 } \tag #'pf {r4. r4 } |  r4. r4 |  r4. r4 |  % lh rh kbR kbL 
+  << <g bes d>4.\\{dis16 e fis g a b}>> <e, a>4 |e4.~\! e4 |  r4. r4 |  r4. r4 |  % lh rh kbR kbL 
   r4. r4 | r4. d''16( c'') g' a' | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn   
   r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
@@ -1069,7 +1067,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn100  
   \time 3/8
   b8 \times 2/3 {fis8 b16} b16( a)|\lyricmode{on, down the road }|
-\tag #'vocal {<d g b>4 <c e g b>8} \tag #'pf {R4. } |  \tag #'vocal {d4 c8  } \tag #'pf {R4. } |  R4. |  R4. |     % lh rh kbR kbL 
+  <d g b>4 <c e g b>8|d4 c8  |  R4. |  R4. |     % lh rh kbR kbL 
   R4. |  b'8 \times 2/3 {fis'8 b'16} b'16( a') | R4. | R4. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -1080,7 +1078,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn101  
   \time 7/8 \set Timing.beatStructure = #'(2 2 2 3) 
   \times 2/3 {g8 fis e} dis8( cis16) e e8 dis r8^"crack!"|\lyricmode{out of her field of vi -- sion }|
-\tag #'vocal {r2. r8 } \tag #'pf {r2 r4 c'''8\f} |  \tag #'vocal {b2. r8  } \tag #'pf {r2 r4. } |  r2 r4. |  r2 r4. |   % lh rh kbR kbL 
+  r2 r4. |b2. r8  |r2 r4 c'''8\f|  r2 r4. |   % lh rh kbR kbL 
   r4.. b''16-.  b''4 r8 | r2 r4. | \times 2/3 {g'8( fis' e')} dis'8( cis'16 e') e'8( dis') r8 | r2 r4. |  % fl ob kl bn    
   r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn   
   r2 r4. | r2 r4 f'8-> | r2 r4. |  % tmp perc fol  
@@ -1093,7 +1091,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn102  
   \time 3/4
   f'8(\f des) des( bes) \times 2/3 {r4 a8->} |\lyricmode{no! no! e -- }|
-\tag #'vocal { R2. } \tag #'pf {<bes' des'' f''>8( des'' bes' f'8) \times 2/3 {r4 f'8} } |  \tag #'vocal {bes4 f \times 2/3 {des4 bes8}} \tag #'pf {<<{bes4 bes bes}\\{bes,2 bes,4 }>>} |  R2. |  R2. |    % lh rh kbR kbL 
+  R2. |bes4 f \times 2/3 {des4 bes8} |<bes' des'' f''>8( des'' bes' f'8) \times 2/3 {r4 f'8} |<<{bes4 bes bes}\\{bes,2 bes,4 }>>|    % lh rh kbR kbL 
   R2.  | R2. | R2. | R2. |  % fl ob kl bn    
   <bes bes'>4 <f f'> \times 2/3 {<des des'>4 <bes, bes>8-. }  |  R2. |  r2 \times 2/3 {r4 <cis ais>8-.} | % hn tpt  tn   
   bes,4 f, d, | <<{\cross d''2.\lv}\\{d'2:32~ \times 2/3 {d'4:32 d'8}}>>| R2. |  % tmp perc fol  
@@ -1102,10 +1100,9 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   R2. | \clef treble <f' bes' des''>4 <f' bes'> \times 2/3 {<des' bes'>4 r8} |r2 \times 2/3 {r4 bes,16 r}| % va vc cb   
 
 %bn103  
-  \tEE
-  \time 2/4
+  \tEE \time 2/4
   a4-> r |\lyricmode{ nough. }|
-\tag #'vocal { a'='8 g f ees } \tag #'pf {f'2 } |  \tag #'vocal {bes2 } \tag #'pf {<bes, bes>2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  a'='8 g f ees  |bes2  |f'2 |<bes, bes>2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \clef treble a''8 g'' f'' e'' |  R2 |  <cis ais>2| % hn tpt  tn   
   R2 |<<{\cross d''2\lv^"crash"}\\d'2>> | R2 | % tmp perc fol  
@@ -1116,7 +1113,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn104  
   \dQQ % could be clearer that we're just going back here
   \times 2/3 {c4 b a8 g} |\lyricmode{take her by the }|
-\tag #'vocal { R2 } \tag #'pf {  \times 2/3 {<e' a'c''>4\arpeggio b' a'8 g'} } |  \tag #'vocal {<a=, a'>4 <g g'> } \tag #'pf {<< {a4 g}\\<a, e>2>>} |  R2 |  R2 |  % lh rh kbR kbL 
+  R2 |<a=, a'>4 <g g'>  |  \times 2/3 {<e' a'c''>4\arpeggio b' a'8 g'} |<< {a4 g}\\<a, e>2>>|  % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \clef bass a4\f g |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1127,7 +1124,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn105  
   \time 3/4
   fis8 g4 e8 fis^"rit" g|\lyricmode{ snaf -- fle and take her }|
-\tag #'vocal { R2. } \tag #'pf {  fis'8 g'4 e'8 fis' g'} |  \tag #'vocal {<fis fis'>4 <e e'>2 } \tag #'pf {<fis, fis>4 <e, e>2 } |  R2. |  R2. |   % lh rh kbR kbL 
+  R2. |<fis fis'>4 <e e'>2  |  fis'8 g'4 e'8 fis' g'|<fis, fis>4 <e, e>2 |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   fis4 e2~ |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1139,7 +1136,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   \tEE
   \time 2/4 
   cis8( b a g) |\lyricmode{ eyes }|
-\tag #'vocal { R2 } \tag #'pf {<<{<e' g' a' cis''>2\arpeggio}\\{a'8 b'\lv a'\lv g'}>>} |  \tag #'vocal {<e' g a cis>2 } \tag #'pf {<e g a cis'>2\arpeggio} |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |<e' g a cis>2  |<<{<e' g' a' cis''>2\arpeggio}\\{a'8 b'\lv a'\lv g'}>>|<e g a cis'>2\arpeggio|   % lh rh kbR kbL 
   cis'''8 b'' a'' g'' | R2 | R2 | R2 |  % fl ob kl bn    
   e2~ |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -1149,7 +1146,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn107  
   dis'8 dis c <fis, a>|\lyricmode{ a -- way from me }|
-\tag #'vocal {R2 } \tag #'pf {  <<{dis''8 dis'' c'' fis'~}\\{<f' a' c'' ees''>2\arpeggio}>>  } |  \tag #'vocal {f8 f4-^-- fis8~ } \tag #'pf {<f a c' ees'>8 q4 fis8~ } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2 |f8 f4-^-- fis8~  |  <<{dis''8 dis'' c'' fis'~}\\{<f' a' c'' ees''>2\arpeggio}>>  |<f a c' ees'>8 q4 fis8~ |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   f8-. f4 fis8~ |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1160,7 +1157,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn108  
   \dQQ %not: as above
   \times 2/3 {e'4( c) a8 fis }|\lyricmode{oh this is }|
-\tag #'vocal { R2 } \tag #'pf {R2 } |  \tag #'vocal {fis2 } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |fis2 |  R2 |  R2 |   % lh rh kbR kbL 
   \times 2/3 {e'''4( c'') a''8 fis'' }| R2 | R2 | R2 |  % fl ob kl bn    
   fis2~\> |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |   % tmp perc fol  
@@ -1171,7 +1168,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn109  
   \time 6/8
   e'8 gis, r r4. |\lyricmode{aw -- ful }|
-\tag #'vocal { R2. } \tag #'pf {R2. } |  \tag #'vocal {R2. } \tag #'pf {R2. } |  R2. |  R2. |    % lh rh kbR kbL 
+  R2.  | R2.  |  R2. |  R2. |    % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   <<{  fis4.\! r }\\{r8 e,8_"stopped" r8 r e,8 r8}>>|  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1182,7 +1179,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn110  
   \time 2/4 gis8 a16 b c8 b16 a | \lyricmode { What have I done to de -- } | 
-\tag #'vocal { s2                                       } \tag #'pf {R2 } |  \tag #'vocal {s2                            } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   << r2\\{r8 e,8 r4 }>>|  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1190,10 +1187,9 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   R2 | R2 | %vn vn2  
   R2 |<<{<e gis>2\p}\\{dis,4(\< f,8.)\! r16 }>>|r8 e,8~ e,8. r16 | % va vc cb   
 
-
 %bn111  
   \time 9/16 gis8. b d, | \lyricmode {serve all this? } | 
-\tag #'vocal { s8. s8. s8.                   } \tag #'pf {r8. r r } |  \tag #'vocal {s8. s8. s8.           } \tag #'pf {r8. r r } |  r8. r r |  r8. r r |   % lh rh kbR kbL 
+  r8. r r  | r8. r r  |  r8. r r |  r8. r r |   % lh rh kbR kbL 
   r8. r r  | r8. r r  | r8. r r  | r8. r r  |  % fl ob kl bn    
   r8. r r  |  r8. r r |  r8. r r  | % hn tpt  tn   
   r8. r r  | r8. r r  | r8. r r |  % tmp perc fol  
@@ -1204,7 +1200,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn112  %%%%%%%%% grace notes instead of arpeggios????? 
   \time 6/8 \grace {s8.} cis'4. dis4.          | \lyricmode{ what? what? }   | 
-\tag #'vocal { <d f a cis>4. <d f g b cis> } \tag #'pf {R2. } |  \tag #'vocal {\grace {f'16 g a} d,4. \grace {g16 a b} d,4. } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ <d f a cis>4. <d f g b cis> | \grace {f'16 g a} d,4. \grace {g16 a b} d,4. |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  f'2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1215,7 +1211,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn113  
   %%%%%%%%% check relationship here!                  | add rest to top of next bar?
   \dQQ \time 4/4 r4 e,8( dis) \times 2/3 {g4 dis8} cis( c) | \lyricmode{so long a -- go } |
-  \tag #'vocal {\clef bass \repeat tremolo 8 {cis,16 cis'}   } \tag #'pf {<cis, cis>1:32~ }   \tag #'vocal { R1   } \tag #'pf {r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  } |  R1 |  R1 |  % lh rh kbR kbL
+  \clef bass \repeat tremolo 8 {cis,16 cis'}     | R1 |<cis, cis>1:32~ |r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  |  % lh rh kbR kbL
   R1 | R1 | R1 | R1 |  R1 |   % fl ob kl bn    
   R1 | R1 | % hn tpt  tn   
   R1 | R1 |  % tmp perc fol  
@@ -1225,7 +1221,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn114  
   \time 2/4 a'8( gis) \breathe gis( g) \breathe | \lyricmode{no! no! } | 
-\tag #'vocal { R2   } \tag #'pf {c''4 r } |  \tag #'vocal {< cis dis fis a c>4 <d e g bes des>   } \tag #'pf {<cis, cis>4 r } |  R2 |  R2 |  % lh rh kbR kbL 
+  R2 |< cis dis fis a c>4 <d e g bes des>    |c''4 r |<cis, cis>4 r |  % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | \cross d''2\lv^"crash"| R2 |  % tmp perc fol  
@@ -1233,11 +1229,10 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   a'8:32^"sul pont" b'4:32 bes'8:32 | R2 | %vn vn2  
   <a dis>4 <ais e> | <cis, fis,>8 r4. |cis,4 d, | % va vc cb   
 
-
 %bn115  
   \EQ
   fis8.\p g e8 | \lyricmode{ sigh out a } | 
-\tag #'vocal { R2                       } \tag #'pf {R2 } |  \tag #'vocal {fis,4. e8~   } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |fis,4. e8~   |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   fis4\f e~ |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1247,19 +1242,19 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 
 %bn116  
-  \time 3/8 \times 3/4 {fis8 g a b} | \lyricmode{"(some" -- thing some -- "thing)" } | 
-\tag #'vocal { R4.                                            } \tag #'pf {R4. } |  \tag #'vocal {R4.                               } \tag #'pf {R4. } |  R4. |  R4. |   % lh rh kbR kbL 
-  R4. | R4. | R4. | R4. |  % fl ob kl bn    
-  e4 r8 |  R4. |  R4. | % hn tpt  tn   
-  R4. | R4. | R4. |  % tmp perc fol  
-  R4. | R4. | % hpL hpR  
-  R4. | R4. | %vn vn2  
-  \times 3/4 {<<fis'2\\{r4 a'}>>} | e,4. | e,,4. | % va vc cb   
+\time 3/8 \times 3/4 {fis8 g a b} | \lyricmode{"(some" -- thing some -- "thing)" } | 
+R4.  | R4.  |  R4. |  R4. |   % lh rh kbR kbL 
+R4. | R4. | R4. | R4. |  % fl ob kl bn    
+e4 r8 |  R4. |  R4. | % hn tpt  tn   
+R4. | R4. | R4. |  % tmp perc fol  
+R4. | R4. | % hpL hpR  
+R4. | R4. | %vn vn2  
+\times 3/4 {<<fis'2\\{r4 a'}>>} | e,4. | e,,4. | % va vc cb   
 
 
 %bn117  
   \time 2/4 gis8( a) fis a | \lyricmode{tale of things } | 
-\tag #'vocal { R2                          } \tag #'pf {R2 } |  \tag #'vocal {gis4 fis                 } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |gis4 fis |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis8. r16 fis4 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1270,7 +1265,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn118  
   \time 5/8 bes4 b g8 | \lyricmode{done long a -- } | 
-\tag #'vocal { r4 r4.                      } \tag #'pf {r4. r4 } |  \tag #'vocal {bes4( aes4.~        } \tag #'pf {r4. r4 } |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
+  r4. r4  |bes4( aes4.~  |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   ais8 r gis4.~\>  |  r4. r4 |  r4. r4 | % hn tpt  tn   
   r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
@@ -1281,7 +1276,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn119  
   \time 2/4 \rit g8(\start fis) r e | \lyricmode{go and } | 
-\tag #'vocal { R2   } \tag #'pf {R2 } |  \tag #'vocal {aes4 f   } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |aes4 f   |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis2~ |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1293,7 +1288,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn120  
   %%%% shave a beat off?
   e8 ees4 r8\stop | \lyricmode{ill done } | 
-\tag #'vocal { R2                    } \tag #'pf {R2 } |  \tag #'vocal {e4 f8) r        } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |e4 f8) r  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis8\! r4. |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1305,7 +1300,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn121  
   \time 5/4 e'4\f c a e c | \lyricmode {how can I go on? } |
-\tag #'vocal { r2 r2.                        } \tag #'pf {r2. r2 } |  \tag #'vocal {<a, a' c e a>1 r4                                   } \tag #'pf {r2. r2 } |  r2. r2 |  r2. r2 |   % lh rh kbR kbL 
+  r2. r2  |<a, a' c e a>1 r4  |  r2. r2 |  r2. r2 |   % lh rh kbR kbL 
   r2. r2 | r2. r2 | r2. r2 | r2. r2 |  % fl ob kl bn    
   \clef treble <a a' e''>4 <e e' c'> \clef bass <c c' a'> <a, a e'> <e, e c'>-- |  r2. r2 |  r2. r2 | % hn tpt  tn   
   r2. r2 | r2. r2 | r2. r2 |  % tmp perc fol  
@@ -1316,7 +1311,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn122
   \time 6/8 \times 3/2 {r8 fis\mp} fis8 e8 r | \lyricmode{I can -- not }             | 
-\tag #'vocal { \times 3/2 {r8 <d fis>8 } <cis fis>4. } \tag #'pf {R2. } |  \tag #'vocal {\times 3/2 {r8 < d, d'>8 } < cis cis'>4.   } \tag #'pf {R2. } |  R2. |  R2. |   %should rhythms kbR kbL double here?% lh rh 
+ \times 3/2 {r8 <d fis>8 } <cis fis>4. |\times 3/2 {r8 < d, d'>8 } < cis cis'>4.   |  R2. |  R2. |   %should rhythms kbR kbL double here?% lh rh 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   <<{\times 3/2 {r8 fis\mp} fis8 e8}\\ {\times 3/2 {r8 d} cis4 r8}>>  |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1327,7 +1322,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn123
   \dQQ      \time 3/8 a4( gis8) | \lyricmode{oh } | 
-\tag #'vocal { r4.             } \tag #'pf {R4. } |  \tag #'vocal {r4.                           } \tag #'pf {R4. } |  R4. |  R4. |   % lh rh kbR kbL 
+  R4.  | R4.  |  R4. |  R4. |   % lh rh kbR kbL 
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -1338,7 +1333,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn124
   \time 3/4 \rit dis4\start e f | \lyricmode{let me just } | 
-\tag #'vocal { dis4 e <f ees>           } \tag #'pf {R2. } |  \tag #'vocal {dis'4 d des                   } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+  dis4 e <f ees> |dis'4 d des|  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1348,7 +1343,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn125  
   \time 2/4 fis4 g                                    | \lyricmode{flop down }                  | 
-\tag #'vocal { <fis dis>4 <g d>                                   } \tag #'pf {R2 } |  \tag #'vocal {c4 b                                               } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+ <fis dis>4 <g d>  |c4 b |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1358,7 +1353,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn126 %%%%%check MM 
   \dQQ gis8\stop f16 e bes'8 a16 g                        | \lyricmode{flat on the road like a }    | 
-\tag #'vocal { <bes, des f gis>4 << <cis e g > \\{ bes8 a16 g }>> } \tag #'pf {R2 } |  \tag #'vocal {bes4 a4                                            } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+ <bes, des f gis>4 << <cis e g > \\{ bes8 a16 g }>> | bes4 a4 |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1369,7 +1364,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn127  
   fis8 g \times 4/5 { b16 c  gis16 a b}              | \lyricmode{big fat jel -- ly out of a } | 
-\tag #'vocal { fis2                                               } \tag #'pf {R2 } |  \tag #'vocal {r4 << b4 \\ {\times 4/5 {r8 gis8.}}>>              } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  fis2                                               | r4 << b4 \\ {\times 4/5 {r8 gis8.}}>> |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   b2 |  R2 |  r4 \times 4/5 {gis8 r8.} | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1381,7 +1376,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
   %this time sig must go!
   \times 2/3 {d8( c) b } a8 b                        | \lyricmode{bowl and ne -- ver }         | 
-\tag #'vocal { <f a d >2\arpeggio                                 } \tag #'pf {R2 } |  \tag #'vocal {<f a d >2\arpeggio                                 } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+ <f a d >2\arpeggio                                 |<f a d >2\arpeggio                                 |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1391,7 +1386,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn129  
   \time 5/16 c8 r16 fis8                             | \lyricmode{move a -- }                  | 
-\tag #'vocal { r8. r8                                             } \tag #'pf {r8. r8 } |  \tag #'vocal {r8. <gis gis'>8->                                  } \tag #'pf {r8. r8 } |  r8. r8 |  r8. r8 |   % lh rh kbR kbL 
+  r8. r8  |r8. <gis gis'>8->                                  |  r8. r8 |  r8. r8 |   % lh rh kbR kbL 
   r8. r8  | r8. r8  | r8. r8  | r8. r8  |  % fl ob kl bn    
   r8. gis,16 r  |  r8. r8 |  r8. r8  | % hn tpt  tn   
   r8. r8  | r8. r8  | r8. r8  |  % tmp perc fol  
@@ -1401,7 +1396,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn130  
   \time 2/4 fis8 cis fis f                           | \lyricmode{ gain! a great big }         | 
-\tag #'vocal { R2                                                 } \tag #'pf {R2 } |  \tag #'vocal {<gis gis'>4-> <g g'>8 <gis gis'>~                 } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+R2  |<gis gis'>4-> <g g'>8 <gis gis'>~                 |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis,4 g,8 gis,  |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1412,7 +1407,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn131  
 %(or shouild be 'a' for more dissonance
   a,4 d8. aes16   | \lyricmode{ slop, thick with }  | 
-\tag #'vocal { R2  } \tag #'pf {R2 } |  \tag #'vocal {<gis gis'>8 <dis' dis'>4 <a a'>8~  } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |<gis gis'>8 <dis' dis'>4 <a a'>8~  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn 
   gis,8 ees4 a,8~ |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1422,7 +1417,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn132  
   \time 6/16 c8 aes16 bes8 d,16  | \lyricmode{grit and dust and }  | 
-\tag #'vocal { R4. } \tag #'pf {r8. r } |  \tag #'vocal {\times 3/2 {<a a'>16 <bes bes'>~} <bes bes'>8.  } \tag #'pf {r8. r } |  r8. r |  r8. r |   % lh rh kbR kbL 
+  r8. r  |  \times 3/2 {<a a'>16 <bes bes'>~} <bes bes'>8.  |  r8. r |  r8. r |   % lh rh kbR kbL 
   r8. r8.  | r8. r8.  | r8. r8.  | r8. r8.  |  % fl ob kl bn 
   \times 3/2 {a,16 bes,~} bes,8.|  r8. r |  r8. r8.  | % hn tpt  tn   
   r8. r8.  | r8. r8.  | r8. r |  % tmp perc fol  
@@ -1432,7 +1427,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn133  
   \time 3/8 b'8 d,16 e fis g   | \lyricmode{flies, they would have to }  | 
-\tag #'vocal { R4. } \tag #'pf {R4. } |  \tag #'vocal {<ees ees'>8 r4 } \tag #'pf {R4. } |  R4. |  R4. |   % lh rh kbR kbL 
+  R4.  |<ees ees'>8 r4 |  R4. |  R4. |   % lh rh kbR kbL 
   R4. | R4. | R4. | R4. |  % fl ob kl bn 
   ees4\mp r8 |  R4. |  <c' gis' b'>8\arpeggio r4 | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -1442,8 +1437,8 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 
 %bn134  
-  \time 2/4 a8 a a a16 b   | \lyricmode{scoop me up with a }   | 
-\tag #'vocal { <fis a>8 q q q  } \tag #'pf {R2 } |  \tag #'vocal {d8 d d d } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+   \time 2/4 a8 a a a16 b   | \lyricmode{scoop me up with a }   | 
+   <fis a>8 q q q  |d8 d d d |  R2 |  R2 |   % lh rh kbR kbL 
    fis'8-. fis'-. fis'-. fis'-. |a'8-. a'-. a'-. a'16 b' | R2 | d,8-. d, d, d,  |  % fl ob kl bn    
   R2 |  R2 |  <d' fis'>8-. q-. q-. q-.  | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1465,7 +1460,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn136  
   \time 6/8 e'4 des8 bes a g    | \lyricmode{Hea -- vens there is that... }  | 
-\tag #'vocal { <g bes des fes>2.    } \tag #'pf {R2. } |  \tag #'vocal {g,2.    } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ <g bes des fes>2.  |g,2.  |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | e''2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1476,7 +1471,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn137  
   \time 2/4 R2 |  | 
-\tag #'vocal { <f' aes c>4 <f aes c>  } \tag #'pf {R2 } |  \tag #'vocal {s2 } \tag #'pf {<fis c'>4 q } |  R2 |  R2 |   % lh rh kbR kbL 
+ <f' aes c>4 <f aes c>  | R2 |c''4 r |<fis c'>4 q |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1487,7 +1482,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn138  
   \time 6/8 c4 b8~ b a gis    | \lyricmode{'up mail' a -- gain. }  | 
-\tag #'vocal { <e, gis>2.  } \tag #'pf {R2. } |  \tag #'vocal {e2.  } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ <e, gis>2.  |e2.  |  R2. |  R2. |   % lh rh kbR kbL 
   R2. |<e' gis'>8 r q r q q|R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  r4. << {<b' e''>\sfp} {s4\< s8\!}>> | % hn tpt  tn   
   R2. | R2. | R2. | % tmp perc fol  
@@ -1499,7 +1494,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn139  
   \dQQ
   \time 6/8 R2.    | | 
-\tag #'vocal { \clef bass r4 f,8~ f4 f8     } \tag #'pf {r4 a'8 r4 a'8 } |  \tag #'vocal {<<{e,4. e}\\{d8 e4 d8 e4}>> } \tag #'pf {<gis, gis>8 a r<gis, gis> a r } |  R2. |  R2. |   % lh rh kbR kbL 
+ \clef bass r4 f,8~ f4 f8     |<<{e,4. e}\\{d8 e4 d8 e4}>>  |r4 a'8 r4 a'8 |<gis, gis>8 a r<gis, gis> a r |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1510,7 +1505,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn140  
   \times 3/4 {c4 b8 a} \times 3/4{a4 gis8 a}     | \lyricmode{What will be -- come of me? } | 
- \tag #'vocal {r4 f8~ f4 f8} \tag #'pf {\times 3/4 {r4 c''8 b'} \times 3/4 {a'4 gis'8 a'}} |  \tag #'vocal {<<{e4. e}\\{d8 e4 d8 e4}>> } \tag #'pf {<gis, gis>8 a r<gis, gis> a r } |  R2. |  R2. |   % lh rh kbR kbL 
+  r4 f8~ f4 f8 |<<{e4. e}\\{d8 e4 d8 e4}>>  |\times 3/4 {r4 c''8 b'} \times 3/4 {a'4 gis'8 a'}|<gis, gis>8 a r<gis, gis> a r |   % lh rh kbR kbL 
   R2.| R2.| R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1520,7 +1515,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn141  
   r4. r  |  | 
-\tag #'vocal { <<{e4. e}\\{d8 e4 d8 e4}>> } \tag #'pf {r4 a'8 r4 a'8 } |  \tag #'vocal {r4 f8~ f4 f8\glissando\< } \tag #'pf {<gis, gis>8 a r<gis, gis> a r } |  R2. |  R2. |   % lh rh kbR kbL 
+ <<{e4. e}\\{d8 e4 d8 e4}>>  |r4 f8~ f4 f8\glissando\<  |r4 a'8 r4 a'8 |<gis, gis>8 a r<gis, gis> a r |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1528,9 +1523,9 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. | % va vc cb   
 
-%bn142  %%%%%%%%%%%%%%examine these shakes in the hurp ! more notes?
+%bn142  %%%%%%%%%%%%%%examine these shakes in the harp ! more notes?
   \time 2/4 a'4~\f \times 2/3 {a8 gis fis16( e)} | \lyricmode{ oh I am } | 
- \tag #'vocal {\clef treble a'''2\!} \tag #'pf {<a' cis'' e'' a''>4:32~ \times 2/3 {<a' cis'' e'' a''>8:32 <b' gis''> <d'' fis''>16 <cis'' e''> }  }  |  \tag #'vocal { <a a'>2 } \tag #'pf {<a,, e, a,>2:32} |  R2 |  R2 |   % lh rh kbR kbL 
+  \clef treble a'''2\!  | <a a'>2\!  |<a' cis'' e'' a''>4:32~ \times 2/3 {<a' cis'' e'' a''>8:32 <b' gis''> <d'' fis''>16 <cis'' e''> }  |<a,, e, a,>2:32 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1541,7 +1536,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn143  
   e4~ \times 2/3 { e8 d cis }    | \lyricmode{just a hys -- }    | 
-\tag #'vocal { r2    } \tag #'pf {<a' cis'' e''>4:32~ \times 2/3 {q8 <b' d''> <a' cis''>} } |  \tag #'vocal {<fis fis'>2     } \tag #'pf {<fis,, fis,>2:32 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |<fis fis'>2  |<a' cis'' e''>4:32~ \times 2/3 {q8 <b' d''> <a' cis''>} |<fis,, fis,>2:32 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 | % tmp perc fol  
@@ -1552,7 +1547,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn144  
   b8 a cis d16( fis)   | \lyricmode{ter -- i -- cal old }   | 
-\tag #'vocal { r2    } \tag #'pf { b'8 a' cis'' d''16 fis'' } |  \tag #'vocal {<d d'>4 <cis cis'>   } \tag #'pf {<d, d>4 <cis, cis> } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2 |<d d'>4 <cis cis'>    | b'8 a' cis'' d''16 fis'' |<d, d>4 <cis, cis> |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1563,7 +1558,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn145  
   fis8. e16 e4| \lyricmode{hag, I know } | 
-\tag #'vocal { r2} \tag #'pf {<a' d'' fis''>2:32 } |  \tag #'vocal {<b b'>4.. <e e'>16} \tag #'pf {<b,, b,>2:32 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  | <b b'>4.. <e e'>16 |<a' d'' fis''>2:32 |<b,, b,>2:32 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   r4.. e16  | R2 | R2 |  % tmp perc fol  
@@ -1574,7 +1569,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn146  
   r8. d16 \times 2/3 {d8( cis) b }| \lyricmode{des -- troyed with }| 
-\tag #'vocal { r2} \tag #'pf {R2 } |  \tag #'vocal {<e e'>4 <f f'>  } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |<e e'>4 <f f'>  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
  e8.-- f,16 f,8.--\lv fis16 | R2 | R2 | % tmp perc fol  
@@ -1585,7 +1580,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn147  
   %%%%% Pitches and rhythms these 5 bars
   \time 2/4 b16. a cis16 ais16 b cis e  | \lyricmode{sor -- row and pi -- ning and gen -- } | 
-\tag #'vocal { r2 } \tag #'pf {R2 } |  \tag #'vocal {fis'8 eis fis8 e } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |fis'8 eis fis8 e |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   fis8 r4.| R2 | R2 |  % tmp perc fol  
@@ -1596,7 +1591,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn148  
   \time 2/8 d16 cis b a| \lyricmode{til -- i -- ty and }| 
-\tag #'vocal { r4 } \tag #'pf {R4 } |  \tag #'vocal {g8 ees} \tag #'pf {R4 } |  R4 |  R4 |   % lh rh kbR kbL 
+  R4  |g8 ees|  R4 |  R4 |   % lh rh kbR kbL 
   R4 | R4 | R4 | R4 |  % fl ob kl bn    
   R4 |  R4 |  R4 | % hn tpt  tn   
   R4 | R4 | R4 |  % tmp perc fol  
@@ -1607,7 +1602,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn149  
   \time 5/16 ees'8 c16 aes g     | \lyricmode{church go -- ing and }  | 
-\tag #'vocal { r4 r16     } \tag #'pf {r8 r8. } |  \tag #'vocal {d4 r16     } \tag #'pf {r8 r8. } |  r8. r8 |  r8. r8 |   % lh rh kbR kbL 
+  r4 r16     |d4 r16     |  r8. r8 |  r8. r8 |   % lh rh kbR kbL 
   r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  |  % fl ob kl bn    
   r8 r8.  |  r8. r8 |  r8 r8.  | % hn tpt  tn   
   r8 r8.  | r8 r8.  | r8 r8.  |  % tmp perc fol  
@@ -1618,17 +1613,17 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn150  
   \time 3/16 e'8 c16   | \lyricmode{ fat and }    | 
-\tag #'vocal { r8.   } \tag #'pf {r8. } |  \tag #'vocal {cis8 r16   } \tag #'pf {r8. } |  R8. |  R8. |   % lh rh kbR kbL 
-  r8.  | r8.  | r8.  | r8.  |  % fl ob kl bn    
-  r8.  |  R8. |  r8.  | % hn tpt  tn   
-  r8.  | r8.  | r8.  |  % tmp perc fol  
-  r8.  | r8.  | % hpL hpR  
-  r8.  | r8.  | %vn vn2  
+  R8.  | cis8 r16   |  R8. |  R8. |   % lh rh kbR kbL 
+  R8.  | R8.  | R8.  | R8.  |  % fl ob kl bn    
+  R8.  |  R8. |  R8.  | % hn tpt  tn   
+  R8.  | R8.  | R8.  |  % tmp perc fol  
+  R8.  | R8.  | % hpL hpR  
+  R8.  | R8.  | %vn vn2  
   e''8 c''16   |cis8 r16 |cis,8 r16 | % va vc cb   
 
 %bn151  
   \time 3/8 f16 e cis a r g'  | \lyricmode{rheu -- ma -- ti -- sm and }          | 
-\tag #'vocal { r4. } \tag #'pf {R4. } |  \tag #'vocal {b4 r8  } \tag #'pf {R4. } |  R4. |  R4. |  % lh rh kbR kbL 
+  R4.  | R4.  |  R4. |  R4. |  % lh rh kbR kbL 
   R4. | R4. | R4. | R4. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
   R4. | R4. | R4. |  % tmp perc fol  
@@ -1638,7 +1633,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn152  
   \time 5/4 g4.( f4) f f4 r8     | \lyricmode{child -- less -- ness } | 
-\tag #'vocal { s1 s4 } \tag #'pf {r2. r2 } |  \tag #'vocal {<< {bes4 d f aes \times 2/3 {c8 e d~ }}  \\ {<bes,, bes'>1~ <bes bes'>4} >> } \tag #'pf {r2. r2 } |  r2. r2 |  r2. r2 |   % lh rh kbR kbL 
+r2. r2  | << {bes4 d f aes \times 2/3 {c8 e d~ }}  \\ {<bes,, bes'>1~ <bes bes'>4} >> |  r2. r2 |  r2. r2 |   % lh rh kbR kbL 
   r2. r2 | r2. r2 | r2. r2 | r2. r2 |  % fl ob kl bn    
   r2. r2 |  r2. r2 |  r2. r2 | % hn tpt  tn   
   r2. r2 | \cross d''2\p\lv r2.| r2. r2 |  % tmp perc fol  
@@ -1648,7 +1643,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn153  
   \time 6/8 e4 d8~ \times 3/4 {d8 r f e}   | \lyricmode{Min -- nie lit -- le }  | 
-\tag #'vocal { <f,, aes>2. } \tag #'pf {R2. } |  \tag #'vocal {<d'' aes c>2.   } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ <f,, aes>2. |<d'' aes c>2.   |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1659,7 +1654,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn154  
   \time 5/8 e4 g,8 r4  | \lyricmode{Min -- nie }  | 
-\tag #'vocal { s4 s4.     } \tag #'pf {r4. r4 } |  \tag #'vocal {s4 s4.     } \tag #'pf {r4. r4 } |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
+r4. r4  | r4. r4  |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn   
   r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
@@ -1671,7 +1666,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn155  
 %%%%%%%%%%%%% Love LOVE IS ALL I ASKED
   \time 3/4 e4 \breathe e8 d f e | \lyricmode{ love, love is all I }  | 
-\tag #'vocal { <g, c >4 g8 c a c     } \tag #'pf {R2. } |  \tag #'vocal {<g, g'>4 <g g'> <f f'>    } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ <g, c >4 g8 c a c     |<g, g'>4 <g g'> <f f'>    |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   c,8 r c,8. r16 f,8. r16  |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1682,7 +1677,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn156  
   \time 7/8 \set Timing.beatStructure = #'(3 4)  e4 c8 d e d( e)| \lyricmode{asked, a lit -- tle love } | 
-\tag #'vocal { g4 c8 d[ e] d[ e]   }\tag #'pf {r2 r4. } |  \tag #'vocal {  <g g'>4 e8 f[ g] f[ g]    }\tag #'pf {r2 r4. } |  r2 r4. |  r2 r4. |   % lh rh kbR kbL 
+ g4 c8 d[ e] d[ e]   |  <g g'>4 e8 f[ g] f[ g]    |  r2 r4. |  r2 r4. |   % lh rh kbR kbL 
   r2 r4. |r2 r4. | r2 r4. | r2 r4. |  % fl ob kl bn    
   g,8 r4. r  |  r2 r4. |  r2 r4. | % hn tpt  tn   
   r2 r4. | r2 r4. | r2 r4. |  % tmp perc fol  
@@ -1693,7 +1688,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn157  
   \time 3/4 bes'4 b r  | \lyricmode{dai -- ly }   | 
-\tag #'vocal { <fes ges bes>4 <ees ges b> r   } \tag #'pf {R2. } |  \tag #'vocal {r2 d4 } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ <fes ges bes>4 <ees ges b> r   |r2 d4 |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   \clef treble ais'4( b') r  |  R2. | << fis'2 \\ { e'4( dis')} >> r | % hn tpt  tn   
   r2 a,4 | R2. | R2. |  % tmp perc fol  
@@ -1704,7 +1699,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn158  
   \time 2/4 \times 4/5 {c4 bes b8 }   | \lyricmode{twice dai -- ly }  | 
-\tag #'vocal { \times 4/5 {<ges aes c>4 <fes ges bes> <ees ges b>8}    } \tag #'pf {R2 } |  \tag #'vocal {r2    } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+ \times 4/5 {<ges aes c>4 <fes ges bes> <ees ges b>8}    | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \times 4/5 {c''8 r ais'4( b'8) } |  R2 | \clef treble << {\times 4/5 {gis'4-- fis'4.}} \\ \times 4/5 { fis'4-- e'4( dis'8)} >>  | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1715,7 +1710,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn159  
   \time 3/4 r4 \times 2/3 {b4 b b( } | \lyricmode{fif -- ty years } | 
- R2. |  \tag #'vocal { d4 r2 }\tag #'pf {R2. } |  R2. |  R2. |   \tQQ% lh rh kbR kbL 
+  R2. |  d4 r2 |  R2. |  R2. |   \tQQ% lh rh kbR kbL 
   R2. |R2. | R2. | R2. |  % fl ob kl bn    
   r4 \times 2/3 {b'4 b' b'} |  R2. |  R2. | % hn tpt  tn   
   a,4 r2 | R2. | R2. |  % tmp perc fol  
@@ -1726,7 +1721,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn160  
   \time 2/4 e4 b8) gis | \lyricmode{of }     | 
-\tag #'vocal { <e gis b e>4 r4 } \tag #'pf {R2 } |  \tag #'vocal {<e, e'>4 r4     } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  <e gis b e>4 r4 |<e, e'>4 r4     |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | gis'4. r8 | \pitchedTrill <gis' b'>4. \startTrillSpan <ais' cis''> r8\stopTrillSpan | R2 |  % fl ob kl bn    
   s64 \grace {e'16( gis' b'}  e''4*15/16) b'8) gis' |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1748,7 +1743,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn162  
   \time 9/8 cis8( dis cis) cis,4 dis8 r eis fis | \lyricmode{love like a Pa -- ris } | 
-\tag #'vocal { des4. s4. s4.  } \tag #'pf {r4. r r } |  \tag #'vocal {  des4.~ des4. a4.   }\tag #'pf {r4. r r } |  r4. r r |  r4. r r |   % lh rh kbR kbL 
+  des4. r4. r4.  |  des4.~ des4. a4.   |  r4. r r |  r4. r r |   % lh rh kbR kbL 
   \pitchedTrill cis'''4.\p \startTrillSpan dis''' r\stopTrillSpan r | r4. r r  | r4. r r  | cis2. b,4. |  % fl ob kl bn    
   cis''8( dis'' cis'') r4. r  |  r4. r r |  << gis'4. \\ eis'4. >> r r  | % hn tpt  tn   
   b,4. r r  | r4. r r  | r4. r r |  % tmp perc fol  
@@ -1759,7 +1754,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn163  
   \time 2/4 gis4 gis8 a     | \lyricmode{ horse butch -- ers }   | 
-\tag #'vocal { <cis eis gis>4 <cis eis gis>   } \tag #'pf {R2 } |  \tag #'vocal {<cis, cis'>4 <cis cis'>   } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+ <cis eis gis>4 <cis eis gis>   |<cis, cis'>4 <cis cis'>   |  R2 |  R2 |   % lh rh kbR kbL 
   R2 |<cis' f'>4-. q-. | R2 | cis8 r cis r |  % fl ob kl bn    
   R2 |  R2 |  \clef bass <cis gis>4-. q-. | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1769,7 +1764,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn164  
   \grace {g8[( a]} \times 2/3 {gis4) eis8 fis r fis} | \lyricmode{reg -- u --lar what }   | 
-\tag #'vocal { s2    } \tag #'pf {R2 } |  \tag #'vocal {<fis fis'>4 r4  } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 |<cis' fis'>2 | R2 | \times 2/3 {fis,2 fis8-- r} |  % fl ob kl bn    
   R2 |  R2 |  \times 2/3 {<fis ais>2 fis8-- r }| % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1779,7 +1774,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn165  %%%%%%%%%%%% RHYTHM WONKEY!!!!
   c'4( a8) fis    | \lyricmode{nor -- mal }| 
-\tag #'vocal { <fis a c fis>2  }\tag #'pf {R2 } |  \tag #'vocal {  <dis dis'>2     }\tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+ <fis a c fis>2  |  <dis dis'>2     |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 | % fl ob kl bn    
   c''4( a'8 fis' |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1789,7 +1784,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn167  %%%%%%%%%check rhythm  - maybe not trips?
   \time 3/4 dis8 fis \times 2/3 {a4 r a}   | \lyricmode{wom -- an wants a -- }  | 
-\tag #'vocal { s2.   } \tag #'pf {R2. } |  \tag #'vocal {r4. dis8~ dis4  } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   dis'8.) r16 <<{\times 2/3 {r2 \clef treble a'8 r}}\\{\times 2/3 {r4 \clef bass fis,-. r}}>> |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1799,7 +1794,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn168  
   \times 2/3 {e'2 cis4} gis | \lyricmode{ffec -- tion a }   | 
-\tag #'vocal { s2.   } \tag #'pf {R2. } |  \tag #'vocal {s2.   } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+  R2.  | R2.  |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   \times 2/3 {e''2( cis''4) } gis'~ |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1810,7 +1805,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 %bn169  
   %C#Maj Time Sig here
   \time 2/4 eis'4 fis8 g    | \lyricmode{ kiss in the }     | 
-\tag #'vocal { s2    } \tag #'pf {R2 } |  \tag #'vocal {r8 gis4.~  } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis'2 |  R2 | \clef bass r8  <aes, aes>4. | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1820,7 +1815,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn170  
   \grace {eis16( fes16} \times 2/3 {eis4) dis cis8 bis}   | \lyricmode{ eve -- ning by the }   | 
-\tag #'vocal { s2    } \tag #'pf {R2 } |  \tag #'vocal {gis8 ais4. } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  | gis8 ais4. |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  r8 <bes, bes>4. | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1830,7 +1825,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn171  
   \time 2/4 cis8 bis cis dis | \lyricmode{ ear and a -- no } | 
- R2     |  \tag #'vocal {  bis2   }\tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2     |    bis2   |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  r8 <c c'>4. | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1840,7 +1835,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn172  
   \time 5/8 cis8 dis eis cis bis | \lyricmode{ ther one at mor -- ning, } | 
- r4. r4 |  \tag #'vocal {  cis4.    <dis fis>4   }\tag #'pf {r4. r4} |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
+  r4. r4 |    cis4.    <dis fis>4   |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
   r4. r4 |r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 |  r4. r4 |  r8 <cis cis'>4 r4 | % hn tpt  tn   
   r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
@@ -1850,7 +1845,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn173  
   \time 2/4 b8 r bes g  | \lyricmode{ peck, peck, 'till }   | 
-\tag #'vocal { r8 <dis fis b> <dis fis ais> g } \tag #'pf {R2 } |  \tag #'vocal {R2} \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  r8 <dis fis b> <dis fis ais> g | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  \clef treble  <dis' fis' b'>8-. r <dis' fis' ais'>8-. r | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -1860,7 +1855,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn174  
   \time 3/4 a8 b d c b c~   | \lyricmode{ you grow whis -- kers on you. }  | 
-\tag #'vocal { r2 <<{b,8 c}\\{<f, g>4}>> } \tag #'pf {R2. } |  \tag #'vocal {r2 g4 } \tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+  r2 <<{b,8 c}\\{<f, g>4}>> |r2 g4 |  R2. |  R2. |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1870,7 +1865,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn175  
   \time 2/4 c4 r8\mp c8     | \lyricmode{ There } | 
-\tag #'vocal { r2    } \tag #'pf {R2 } |  \tag #'vocal {c,8 g' e'4 } \tag #'pf {R2 } |  R2 |  R2 |   % lh rh kbR kbL 
+  R2  |c,8 g' e'4 |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 | % tmp perc fol  
@@ -1880,7 +1875,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn176  
   \time 1/4 b8 c  | \lyricmode{ is that }    | 
-\tag #'vocal { r4    } \tag #'pf {R4 } |  \tag #'vocal {r4    } \tag #'pf {R4 } |  R4 |  R4 |   % lh rh kbR kbL 
+  R4  | R4  |  R4 |  R4 |   % lh rh kbR kbL 
   R4 | R4 | R4 | R4 |  % fl ob kl bn    
   R4 |  R4 |  R4 | % hn tpt  tn   
   R4 | R4 | R4 |  % tmp perc fol  
@@ -1891,7 +1886,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   %bn177  
   %fix this time sig! + check timing
   \time 9/32 a16. c g  | \lyricmode{love -- ly la -- } | 
-\tag #'vocal { c'8. b16.  } \tag #'pf {r16. r r } |  \tag #'vocal {r16. r r   } \tag #'pf {r16. r r   } |  r16. r r  |  r16. r r  |   % lh rh kbR kbL 
+ c'8. b16.  |r16. r r |  r16. r r  |  r16. r r  |   % lh rh kbR kbL 
    <c''' a'''>8. <b'' g'''>16. | r16. r r  | r16. r r  | r16. r r  |  % fl ob kl bn    
    r16. r r  |  r16. r r  |  r16. r r  | % hn tpt  tn   
    r16. r r  | r16. r r  | r16. r r  |  % tmp perc fol  
@@ -1901,7 +1896,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn178  
   \time 3/4 \times 2/3 {f8( g f)} e4 d8( c~ | \lyricmode{ bur -- num a -- } | 
-\tag #'vocal { a4 g2     }\tag #'pf {R2. } |  \tag #'vocal { d=4 g2 }\tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ a4 g2     | d=4 g2 |  R2. |  R2. |   % lh rh kbR kbL 
 <a'' f'''>4 <g'' e'''> r| R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1911,7 +1906,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn179  
   c8) c~ c4 \fermata r4 | \lyricmode{ gain } | 
-\tag #'vocal { g2 r4 }\tag #'pf {R2. } |  \tag #'vocal {  g2 r4 }\tag #'pf {R2. } |  R2. |  R2. |   % lh rh kbR kbL 
+ g2 r4 |    g2 r4  |  R2. |  R2. |   % lh rh kbR kbL 
   r8 <e'' e'''>4.\fermata r4 | R2. | R2.     | R2. | % fl ob kl bn
   R2.|  R2. | R2. | % hn tpt  tn
   R2. | R2. | R2. |  % tmp perc fol  
@@ -1920,9 +1915,8 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   R2. | g,4~ <c, g, c>2\fermata | r4 c2\p\fermata | % va vc cb
 
 
-
   %bn1 
-  \time 9/16 \tempo 8. = 60 %dummy
+  \mark \default \time 9/16 \tempo 8. = 60 %dummy
   r8. r8. r8. |    | %
   e''8 dis16 cis8 b16 cis8 a16   | r8. r8. r8. |  r8. r r |  r8. r r |   % rh lh kbR kbL 
  { e'''8 dis'''16 cis'''8 b''16 cis'''8 a''16  }| r8. r8. r8. | \tuplet 2/3 8. { e''16 dis''16 cis''16 b'16 cis''16 a'16  }| r8. r r | % fl ob kl bn 
@@ -1950,8 +1944,8 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % vn vII va vc cb 
 
   %bn4
-  \time 3/4 r2.   |    | %
-  e'8 dis16 cis b8 cis16 a gis8 a16 fis | r2. |  R2. |  R2. |   % rh lh kbR kbL 
+  \time 3/4 R2.   |    | %
+  e'8 dis16 cis b8 cis16 a gis8 a16 fis | R2. |  R2. |  R2. |   % rh lh kbR kbL 
   R2. | R2. | < gis b >2.~ |e2.~\p | % fl ob kl bn 
   R2. |  R2. | e2.~\p | % hn tpt  tn 
   R2. | R2. | R2. | % tym perc fol 
@@ -1959,8 +1953,8 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
   e'''2.~\p | e''8 dis''16 cis'' b'8 cis''16 a' gis'8 a'16 fis'| \ottava #1 e'''8 dis'''16 cis''' b''8 cis'''16 a'' gis''8 a''16 fis''| \tuplet 6/4 4 { e4^"div piz" dis16 cis b,4 cis16 a, gis,4 a,16 fis,} | R2. | % vn vII va vc cb 
 
   %bn5
-  r2.    |    | %
-  gis'8 a16 b a8 gis16 fis e8 fis16 dis  |R2.  r2. |  R2. |  R2. |   % rh lh kbR kbL 
+  R2.    |    | %
+  gis'8 a16 b a8 gis16 fis e8 fis16 dis  |R2.  |  R2. |  R2. |   % rh lh kbR kbL 
   R2. | R2. | < gis b>2.~ | e2.~ | % fl ob kl bn 
   R2. |  R2. |  e2.~ | % hn tpt  tn 
   R2. | R2. | R2. | % tym perc fol 
@@ -1969,7 +1963,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
   %bn6
   \QdQ \time 3/8 e8 dis cis  | \lyricmode{Par -- don me } | %
- \tag #'pf {< gis b e'>4.~\arpeggio^"harps." } |  \tag #'pf {< e, b, e>4.~\arpeggio }|< gis b e'>4.~\arpeggio^"harps." |< e, b, e>4.~\arpeggio |   % rh lh kbR kbL 
+  \absolute {< gis b e'>4.~\arpeggio^"harps." } | \absolute  {< e, b, e>4.~\arpeggio }|< gis b e'>4.~\arpeggio^"harps." |< e, b, e>4.~\arpeggio |   % rh lh kbR kbL 
   R4. | R4. | < gis b>8 r4| e8 r4 | % fl ob kl bn 
   R4. |  R4. |  e8 r4 | % hn tpt  tn 
   R4. | R4. | R4. | % tym perc fol 
@@ -1978,7 +1972,7 @@ R2 |  \tag #'vocal {<cis, cis'>4~ <cis cis'>16 <cis cis'>8.~} \tag #'pf {R2 }  |
 
 %bn7
 \time 3/4 b8 cis a b \times 2/3 {gis4 a8} | \lyricmode{ if I do not doff my }   | %
-< gis b e'>4. r8 r4 |< e, b, e>4. r8 r4 |< gis b e'>4. r8 r4 |< e, b, e>4. r8 r4 |   % rh lh kbR kbL 
+\absolute < gis b e'>4. r8 r4 |\absolute < e, b, e>4. r8 r4 |< gis b e'>4. r8 r4 |< e, b, e>4. r8 r4 |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -1987,7 +1981,7 @@ R2. | R2. | R2. | << < e, b,>4.\\s4.>> r8 gis, a,  | R2. | % vn vII va vc cb
 
 %bn8
 \dQQ \time 4/4 fis2 b4 b   | \lyricmode{cap,  I'd fall } | %
-r4 b8-. r  r2 |r4 < b,, b,>8-. r r2 |r4 b8-. r  r2 |r4 < b,, b,>8-. r r2 |   % rh lh kbR kbL 
+\absolute r4 b8-. r  r2 |\absolute r4 < b,, b,>8-. r r2 |r4 b8-. r  r2 |r4 < b,, b,>8-. r r2 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -1996,7 +1990,7 @@ R1 | R1 | R1 | b,4 b,,8-.-> r r2 | R1 | % vn vII va vc cb
 
 %bn9
 \time 3/8 dis8 r b | \lyricmode{ off. De -- }   | %
-r4.  | r4.  |  R4. |  R4. |   % rh lh kbR kbL 
+R4.  | R4. |  R4. |  R4. |   % rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
@@ -2005,7 +1999,7 @@ R4. | R4. | R4. | R4. | R4. | % vn vII va vc cb
 
 %bn10
 \time 3/4 fis'8( dis) b cis16 dis fis8 b,    | \lyricmode{ vine day for the meet -- ing }   | %
-<dis' fis' b>4\arpeggio r2 | <dis fis b>4\arpeggio r2 |  R2. |  R2. |   % rh lh kbR kbL 
+\absolute <dis' fis' b>4\arpeggio r2 |\absolute <dis fis b>4\arpeggio r2 |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -2158,7 +2152,7 @@ r8 e' <gis d'> e'  <a cis'> r | R2. | R2. |  | R2. | % vn vII va vc cb
 
 %bn27
   \time 3/8 \times 3/4 {a8 a a a}  | \lyricmode{  what  news of your } | %
-  r4.   | r4.  |  R4. |  R4. |   % rh lh kbR kbL 
+  R4.   | R4.  |  R4. |  R4. |   % rh lh kbR kbL 
   R4. | R4. | R4. | R4. | % fl ob kl bn 
   R4. |  R4. |  \times 3/4 {a'8-.^"tpt" a'-. a'-. a'-.} | % hn tpt  tn 
   R4. | R4. | R4. | % tym perc fol 
@@ -2167,7 +2161,7 @@ r8 e' <gis d'> e'  <a cis'> r | R2. | R2. |  | R2. | % vn vII va vc cb
 
   %bn28
   \time 2/4 d4. a8   | \lyricmode{ dau -- ghter }  | %
-  r2    | r8 <fis= a>8 <fis a> <fis a>  |  R2 |  R2 |   % rh lh kbR kbL 
+  R2    | r8 <fis= a>8 <fis a> <fis a>  |  R2 |  R2 |   % rh lh kbR kbL 
   R2 | R2 | R2 | R2 | % fl ob kl bn 
   R2 |  R2 |  R2 | % hn tpt  tn 
   R2 | R2 | R2 | % tym perc fol 
@@ -2203,7 +2197,7 @@ r8 e' <gis d'> e'  <a cis'> r | R2. | R2. |  | R2. | % vn vII va vc cb
 
   %bn32
    r16 g8 e16 cis8 e16 g,~ |\lyricmode{ ev -- ery -- thing the whole }|%
-  r2 |<g bes>8 <g, g'>8. g |  R2 |  R2 |   % rh lh kbR kbL 
+  R2 |<g bes>8 <g, g'>8. g |  R2 |  R2 |   % rh lh kbR kbL 
   r16 bes'8 g'16 e'8 g'16 cis'~ | R2 | \relative c'' { r16 g8 e16 cis8  e16 bes~ }| R2 | % fl ob kl bn 
   R2 |  R2 |  R2 | % hn tpt  tn 
   R2 | R2 | R2 | % tym perc fol 
@@ -2212,7 +2206,7 @@ r8 e' <gis d'> e'  <a cis'> r | R2. | R2. |  | R2. | % vn vII va vc cb
 
   %bn33
   r8 bes r \times 2/3 {bes16 r bes} |\lyricmode{er... bag of }|%
-  r2 |<gis b>2 |  R2 |  R2 |   % rh lh kbR kbL 
+  R2 |<gis b>2 |  R2 |  R2 |   % rh lh kbR kbL 
   r8 bes^"range?" r \times 2/3{bes16 r bes} | R2 | r8 bes r \times 2/3{bes16 r bes} | R2 | % fl ob kl bn 
   R2 |  R2 |  R2 | % hn tpt  tn 
   R2 | R2 | R2 | % tym perc fol 
@@ -2221,7 +2215,7 @@ r8 e' <gis d'> e'  <a cis'> r | R2. | R2. |  | R2. | % vn vII va vc cb
 
   %bn34
   \times 2/3 { ees4 d c8 bes} |\lyricmode{ tricks now I am }|%
- r2 | r2 |  R2 |  R2 |   % rh lh kbR kbL 
+ R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
  g'2  | R2 | ees'2  | R2 | % fl ob kl bn 
  R2 |  R2 | g,4 g~ | % hn tpt  tn 
  R2 | R2 | R2 | % tym perc fol 
@@ -2276,7 +2270,7 @@ s2. <g'' b'' d'''>4\! | R1 | r4. << {s8 s2} \\ {<ees g bes>8\glissando\< s2}>> |
 
   %bn40
   \time 2/4 \dQQ r8 gis4 gis8|\lyricmode{  or ride }|%
-  r2 | r4 <gis gis'>4 |  R2 | <gis, gis>8. r16 <gis, gis>8. r16 |   % rh lh kbR kbL 
+  R2 | r4 <gis gis'>4 |  R2 | <gis, gis>8. r16 <gis, gis>8. r16 |   % rh lh kbR kbL 
   R2 | R2 | R2 | R2 | % fl ob kl bn 
   R2 |  R2 |  << {<cis cis'>8 r q r} \\ { <dis gis> r q r} >> | % hn tpt  tn 
   gis4 gis  | R2 | R2 | % tym perc fol 
@@ -2285,7 +2279,7 @@ s2. <g'' b'' d'''>4\! | R1 | r4. << {s8 s2} \\ {<ees g bes>8\glissando\< s2}>> |
 
   %bn41
   cis8 r4 \instrumentSwitch "Tyler" gis8 |\lyricmode{ on. per -- }|%
-  r2 | <cis, cis'>2 | r4. gis'8 | <cis, cis>2\lv |   % rh lh kbR kbL 
+  R2 | <cis, cis'>2 | r4. gis'8 | <cis, cis>2\lv |   % rh lh kbR kbL 
   R2 | R2 |<gis' cis''>4 r8 gis'-. | R2 | % fl ob kl bn 
   R2 |  R2 | <gis cis'>2~\>  | % hn tpt  tn 
   cis'2 | \cross f''2\laissezVibrer | R2 | % tym perc fol 
@@ -2459,7 +2453,7 @@ r4 < c ees fis' a>4^"range" |\ottava #1 d'''2\o | R2 | <<{d'2^"sul pont" }\\{b2 
 %bn60
 
 \time 3/4 ees8 c \times 2/3 {e8 cis ais } f'4  |\lyricmode{here comes Con -- ne -- ly's van! }|%
-R2. |q4 bes4( \grace {b16 c cis d dis} \repeat unfold 8 {e32 fis} | R2. | R2. |   % rh lh kbR kbL 
+R2. |q2  r4 | R2. | R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 q2  R4 | R2. | R2. | % hn tpt  tn 
 R2. | <<{dis''4 e''4 f''4)}\\s>>  | R2. | % tym perc fol 
@@ -2468,7 +2462,7 @@ R2. |ees'''4\o e'''\o  f'''4\o \ottava #0 |<fis' a'>2^"sul pont" <e' g'>4 | <<{e
 
 %bn61
 \time 2/4 R2 | |%
-R2 | \repeat unfold 7 {ees32 f} ees~ f~) |  R2 | s128 \grace{d,16 dis, e, f,} \pitchedTrill fis,2*63/64~ \startTrillSpan gis, |   % rh lh kbR kbL 
+R2 | \absolute { s128 \grace{d,16 dis, e, f,} \pitchedTrill fis,2*63/64~ \startTrillSpan gis, } |  R2 | s128 \grace{d,16 dis, e, f,} \pitchedTrill fis,2*63/64~ \startTrillSpan gis, |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | d'2:32~\pp| R2 | % tym perc fol 
@@ -2478,7 +2472,7 @@ R2 | R2 | R2 | s128 \grace {d16( dis} <e fis>2*63/64:32~) | s128 \grace {d,16( d
 
 %bn62
 R2 | |%
-R2 | \repeat unfold 7 {ees32 f} ees~ f~) |  R2 | \afterGrace fis,4.  {f,16 g,\stopTrillSpan} r8 |   % rh lh kbR kbL 
+R2 |\absolute{ \afterGrace fis,4.  {f,16 g,\stopTrillSpan} r8 } |  R2 | \afterGrace fis,4.  {f,16 g,\stopTrillSpan} r8 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 |d'2:32~| R2 | % tym perc fol 
@@ -2700,7 +2694,7 @@ R2 | R2 | <<{b4.^"mutes" r8}\\{gis4._"(norm)" r8}>> | <<{gis2~^"mutes" } \\ {e4.
 
 %bn80
 \time 3/4 \times 2/3 {ais4 b8} \times 2/3 {ees,4 f r} |\lyricmode{dis --  so -- lu -- tion. }|%
-r2. | r2. |  R2. |  R2. |   % rh lh kbR kbL 
+R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 <<\context Staff = "ossia" {g'8. r16 b4 r} R2. >> | R2. | R2. | % tym perc fol 
@@ -3380,7 +3374,7 @@ r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 
 %bn153
 \time 3/4 \times 2/3 {d4 b8} \times 2/3 {fis4 g8 } \times 2/3 {a4 b8} | \lyricmode{ bless -- ed  thing to be a -- } | %
-<e g b d>4 <d fis b d> r | r2. |\times 2/3 {<fis' b'\lv d''\lv>4\arpeggio b'8} \times 2/3 {fis'4 g'8 } \times 2/3 {a'4 b'8} |<<{d,4. r8 d,4}\\ { <d,, a,,~>2~ <d,, a,,~>4 }>>|   % rh lh kbR kbL 
+<e g b d>4 <d fis b d> r | R2. |\times 2/3 {<fis' b'\lv d''\lv>4\arpeggio b'8} \times 2/3 {fis'4 g'8 } \times 2/3 {a'4 b'8} |<<{d,4. r8 d,4}\\ { <d,, a,,~>2~ <d,, a,,~>4 }>>|   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 <fis b d'>2. | gis''2.~ |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -3480,7 +3474,7 @@ R2. | R2. | R2. | R2. | <e''\o f'' g'' a'' b''>2.:32^"norm" | % vn vII va vc cb
 
 %bn164
 \time 2/4 e8( f4) e8    | \lyricmode{in our } | %
-c4 d  | r2 |  R2 |  R2 |   % rh lh kbR kbL 
+c4 d  | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | c'4 d' | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3553,945 +3547,951 @@ r8. r | r8. r | r8. r | r8. r | r8. r | % vn vII va vc cb
 
 %bn172
 \time 3/4 f8 d b f \instrumentSwitch"Rooney" cis='\noBeam r   | \lyricmode{ long in that case? No. }  | %
-r2.   | r2.    |  R2. |  R2. |   % rh lh kbR kbL 
+R2.   | R2.    |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. |\octaves {\grace {a16 b c} d8-.) b-. g-. b-.} r4 |\relative c {f8 d b f} r4 | % fl ob kl bn 
 R2. | <b d f>8->-. r r4. <f' a' cis''>8->-. |  R2. | % hn tpt  tn 
 R2. | r2 r8 \cross d''8-! | R2. | % tym perc fol 
 R2. | R2. | % hpR hpL 
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb    
 
-  %bn1
-
-  \time 3/4 \instrumentSwitch "Tyler" f='4 \times 2/3 {r8 f f} \times 2/3 {f( e) c}|\lyricmode{Come Miss --es Roo -- ney... }|s2.| % or a4  \times 2/3 {r8 a a} etc.
+%bn1
+\mark \default   \time 3/4 \instrumentSwitch "Tyler" f='4 \times 2/3 {r8 f f} \times 2/3 {f( e) c}|\lyricmode{Come Miss --es Roo -- ney... }| % or a4  \times 2/3 {r8 a a} etc.
   <c='' f a>2 <c e a>4 | <f= f'>2 <e e'>4 |  R2. |  R2. |   %rh lh kbR kbL 
   R2. | R2. | R2. | R2. | % fl ob kl bn 
   R2. |  R2. |  R2. | % hn tpt  tn 
   R2. | R2. | R2. | % tym perc fol 
   R2. | R2. | % hpL hpR 
-  R2. | R2. | R2. | R2. | % vn vII vc vb 
+  R2. |   R2. | R2. | R2. | R2. | % vn vII va vc vb 
 
-  %bn2
-\time 2/4 \instrumentSwitch "Rooney" c='4~ \times 2/3 {c8 c c} |\lyricmode{ go, Mis -- ter }|s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
+%bn2
+\time 2/4 \instrumentSwitch "Rooney" c='4~ \times 2/3 {c8 c c} |\lyricmode{ go, Mis -- ter }|
 <ees aes c>4 r|<aes aes'>2|  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb 
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb 
 
 %bn3
-\time 3/4 c8 bes \times 2/3 {aes bes c} \times 2/3 {r8 f ees}|\lyricmode{ Ty -- ler, go on and  leave me }||
+\time 3/4 c8 bes \times 2/3 {aes bes c} \times 2/3 {r8 f ees}|\lyricmode{ Ty -- ler, go on and  leave me }|
 <ees aes>2. |<ees ees'>2 <f f'>4|  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb 
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb 
 
 %bn4
-\time 6/16 c16 bes aes r ees c' |\lyricmode{ lis -- ten -- ing to the }||
+\time 6/16 c16 bes aes r ees c' |\lyricmode{ lis -- ten -- ing to the }|
 <f aes>8. r |<des des'>4.|  r8. r |  r8. r |   %rh lh kbR kbL 
 r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
 r8. r |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
 r8. r | r8. r | % hpL hpR 
-r8. r | r8. r | r8. r | r8. r | % vn vII vc vb 
+  r8. r | r8. r | r8. r | r8. r | r8. r | % vn vII va vc vb 
 
 %bn5
-\time 3/4 bes8 aes \rit g8.\start bes16 \times 2/3 {g8 f r\stop }|\lyricmode{ coo -- ing of the  ring -- doves }||
+\time 3/4 bes8 aes \rit g8.\start bes16 \times 2/3 {g8 f r\stop }|\lyricmode{ coo -- ing of the  ring -- doves }|
 r2  \times 2/3 {r4 d8}                                       | <ees ees'>2 r4       |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn6
-\time 4/4 r1                                                 |                      || 
-g,16( fis8.) g16( fis8.) g16( fis8) r16\fermata r8. d'16-.   | r1                   |  R1 |  R1 |   %rh lh kbR kbL 
+\time 4/4 r1                                                 |                      | 
+g,16( fis8.) g16( fis8.) g16( fis8) r16\fermata r8. d'16-.   | R1                   |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb  
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb  
 
 %bn7
-\time 3/4 r2  \tempo 4 = 60 \instrumentSwitch "Rooney"  d8 e | \lyricmode{if you  } || %tempo is placeholder
-g,16( fis8.) g16( fis8.) g16( fis8.)                          | r2.                  |  R2. |  R2. |   %rh lh kbR kbL 
+\time 3/4 r2  \tempo 4 = 60 \instrumentSwitch "Rooney"  d8 e | \lyricmode{if you  } | %tempo is placeholder
+g,16( fis8.) g16( fis8.) g16( fis8.)                          | R2.                  |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn8
 %if you see my old blind dan
-\time 3/4 fis2~ fis8 a                      | \lyricmode{see my  }                || 
+\time 3/4 fis2~ fis8 a                      | \lyricmode{see my  }                | 
 r2.                                         | d8 fis a d, g4                     |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  \QdE
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  \QdE
 
 %bn9
-\time 2/4 a8 g16( fis) fis4                 | \lyricmode{old blind Dan }          ||     
-r2                                          | r2                                  |  R2 |  R2 |   %rh lh kbR kbL 
+\time 2/4 a8 g16( fis) fis4                 | \lyricmode{old blind Dan }          |     
+r2                                          | R2                                  |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb 
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb 
 
 %bn10
-\dEQ \time 2/4 e8 d bes' a16( g16)               | \lyricmode{tell him I was  }        ||     
+\dEQ \time 2/4 e8 d bes' a16( g16)               | \lyricmode{tell him I was  }        |     
 r2                                          | <d e g bes>2~                       |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb      
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb      
 
 %bn11
-\time 3/4 g8 bes16( a) a8. g16  g8 fis      | \lyricmode{on my way to meet him }  ||     
+\time 3/4 g8 bes16( a) a8. g16  g8 fis      | \lyricmode{on my way to meet him }  |     
 r2.                                         | <d e g bes>2 <b b'>4~               |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb      
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb      
 
 %bn12
-\time 2/4 b8 fis g b                        | \lyricmode{when it all came   }     ||     
+\time 2/4 b8 fis g b                        | \lyricmode{when it all came   }     |     
 r2                                          | <b b'>2~                            |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb      
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb      
 
 %bn13
-c8 b a8. g16                                | \lyricmode{ov -- er me a -- }       ||     
+c8 b a8. g16                                | \lyricmode{ov -- er me a -- }       |     
 <a c>8 <g b> < fis a> <e g>               | <b b'>2                             |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb   
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb   
 
 %bn14
-\time 9/16 d'4. d8 d16                             | \lyricmode{gain like a }                   ||     
+\time 9/16 d'4. d8 d16                             | \lyricmode{gain like a }                   |     
 <g b>8 <fis a> <e g> <e g>8 <e g>16                | <d d'>4. <d d'>8 <d d'>16                 |  r8. r r |  r8. r r |   %rh lh kbR kbL 
 r8. r r | r8. r r | r8. r r | r8. r r | % fl ob kl bn 
 r8. r r |  r8. r r |  r8. r r | % hn tpt  tn 
 r8. r r | r8. r r | r8. r r | % tym perc fol 
 r8. r r | r8. r r | % hpL hpR 
-r8. r r | r8. r r | r8. r r | r8. r r | % vn vII vc vb 
+  r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % vn vII va vc vb 
 
 %bn15
-\dEQ \time 6/8 e4. d8. c16 b8                    | \lyricmode{flood! Say to him }      || 
+\dEQ \time 6/8 e4. d8. c16 b8                    | \lyricmode{flood! Say to him }      | 
 <e g b e>2.                                 | << { <c c'>2.} \\ {c8 d e f g a} >> |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn16
 
 %%%%%%%%%% your poor wife
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \tempo 4 = 100
-r8 b, b b4 b8                                     | \lyricmode{your poor wife, she  }           |       | 
+r8 b, b b4 b8                                     | \lyricmode{your poor wife, she  }           | 
 r8 <d fis> b <e g>4 g8                            | b,4. e                                      |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  %\tEE
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  %\tEE
 
 %bn17
-\time 5/16  b8~ b8.                               | \lyricmode{told  }                          |       | 
+\time 5/16  b8~ b8.                               | \lyricmode{told  }                          | 
 g8( a16 g fis)                                           | cis8~ cis8.~                                |  r8 r8. |  r8 r8. |   %rh lh kbR kbL 
 r8 r8. | r8 r8. | r8 r8. | r8 r8. | % fl ob kl bn 
 r8 r8. |  r8 r8. |  r8 r8. | % hn tpt  tn 
 r8 r8. | r8 r8. | r8 r8. | % tym perc fol 
 r8 r8. | r8 r8. | % hpL hpR 
-r8 r8. | r8 r8. | r8 r8. | r8 r8. | % vn vII vc vb  
+ r8 r8. | r8 r8. | r8 r8. | r8 r8. | r8 r8. | % vn vII va vc vb  
 
 %bn18
-\time 6/16 b8. b8.                                 | \lyricmode{me to  }                         |       | 
+\time 6/16 b8. b8.                                 | \lyricmode{me to  }                         | 
 g8. b8.                                           | cis8 cis4                                   |  r8. r |  r8. r |   %rh lh kbR kbL 
 r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
 r8. r |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
 r8. r | r8. r | % hpL hpR 
-r8. r | r8. r | r8. r | r8. r | % vn vII vc vb  
+  r8. r | r8. r | r8. r | r8. r | r8. r | % vn vII va vc vb  
 
 %bn19
-b8 d g                                            | \lyricmode{tell you it }                    |       | 
+b8 d g                                            | \lyricmode{tell you it }                    | 
 b8 a g                                            | d4.~                                        |  r8. r |  r8. r |   %rh lh kbR kbL 
 r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
 r8. r |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
 r8. r | r8. r | % hpL hpR 
-r8. r | r8. r | r8. r | r8. r | % vn vII vc vb  %\QdQ
+  r8. r | r8. r | r8. r | r8. r | r8. r | % vn vII va vc vb  %\QdQ
 
 %bn20
-\time 3/4 fis8 g c b a g                          | \lyricmode{all came flood -- ing o -- ver } |       | 
+\time 3/4 fis8 g c b a g                          | \lyricmode{all came flood -- ing o -- ver } | 
 fis8 g c b a g                                    | d2.                                         |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn21
                                                                                        
-\dEQ \time 2/4 fis4. a8                                | \lyricmode{her a --  }                      |       | 
+\dEQ \time 2/4 fis4. a8                                | \lyricmode{her a --  }                      | 
 fis8( g d4)                                       | d2                                          |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn22
-\QdE a8( b8) a8 g                                      | \lyricmode{gain and she  }                  |       | 
+\QdE a8( b8) a8 g                                      | \lyricmode{gain and she  }                  | 
 <c e>2                                            | c2                                          |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn23
-fis8 g a dis                                      | \lyricmode{sim -- ply went back  }          |       | 
-r2                                                | r2                                          |  R2 |  R2 |   %rh lh kbR kbL 
+fis8 g a dis                                      | \lyricmode{sim -- ply went back  }          | 
+R2                                                | R2                                          |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn24
-\dQQ \time 5/8 e4. a,8-. dis-.                         | \lyricmode{home straight back }             |       | 
+\dQQ \time 5/8 e4. a,8-. dis-.                         | \lyricmode{home straight back }             | 
 gis'8 b fis4.                                     | b4.~ b4~                                    |  r4. r4 |  r4. r4 |   %rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII vc vb  
+  r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII va vc vb  
 
 %bn25
-\time 2/4 dis4. r8                                | \lyricmode{home.  }                         |       | 
+\time 2/4 dis4. r8                                | \lyricmode{home.  }                         | 
 gis8 r4.                                          | b8  r4.                                     |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn26
 
 
-%Come, Mrd Rooney I
-\instrumentSwitch "Tyler" \tempo 4 = 60 \time 2/4 a4~ \times 2/3 {a='8 a a} | \lyricmode{Come, Miss -- es  }              |       | 
+%Come, Mrs Rooney I
+\instrumentSwitch "Tyler" \tempo 4 = 60 \time 2/4 a4~ \times 2/3 {a='8 a a} | \lyricmode{Come, Miss -- es  }              | 
 < c, f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>} | \clef bass <f f'>2                          |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn27
-a8( g4) \rt \rit f16(\start e)                    | \lyricmode{Roo -- ney  }                    |       | 
+a8( g4) \rt \rit f16(\start e)                    | \lyricmode{Roo -- ney  }                    | 
 <c e a>4 r4                                       | <e e'>4 <d d'>                              |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn28
-e4\stop r8. e16                                   | \lyricmode{come. The }                      |       | 
+e4\stop r8. e16                                   | \lyricmode{come. The }                      | 
 r8 <c e> <c e>  <c e>                             | <c c'>2                                     |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn29
-\time 3/4 d8. e16 \times 2/3{f4 f e8( d)}         | \lyricmode{mail has not yet gone   }        |       | 
+\time 3/4 d8. e16 \times 2/3{f4 f e8( d)}         | \lyricmode{mail has not yet gone   }        | 
 r2.                                               | <b b'>4  \ottava #-1 <a a'>2                |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn30
-\time 2/4 d8 b \rt d a'16( g)                     | \lyricmode{up, just take my }               |  s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1      | 
+\time 2/4 d8 b \rt d a'16( g)                     | \lyricmode{up, just take my }               | 
 r2                                                | <g g'>4 <f f'>                              |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn31
-g8 e4 a,16 f'16                                   | \lyricmode{free arm, and we'll  }           |       | 
+g8 e4 a,16 f'16                                   | \lyricmode{free arm, and we'll  }           | 
 r2                                                | <e e'>4 <d d'>                              |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn32
-e8 d16 g, \rt \rit e'8\start d16 c32( b)          | \lyricmode{be there with time and to }      |       | 
+e8 d16 g, \rt \rit e'8\start d16 c32( b)          | \lyricmode{be there with time and to }      | 
 r2                                                | <c c'>8 <b b'>4~ <b b'>16 <a a'>            |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn33
-b8\stop r4.                                       | \lyricmode{spare. }                         |       | 
+b8\stop r4.                                       | \lyricmode{spare. }                         | 
 r2                                                | <g g'>2     \ottava #0                      |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn34
 
 
-\time 1/4 \instrumentSwitch "Rooney" cis='8 r8\fermata | \lyricmode{What?  }                                     || 
-r4                                                     | r4                                                      |  R4 |  R4 |   %rh lh kbR kbL 
+\time 1/4 \instrumentSwitch "Rooney" cis='8 r8\fermata | \lyricmode{What?  }                                     | 
+r4                                                     | R4                                                      |  R4 |  R4 |   %rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
 R4 |  R4 |  R4 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
 R4 | R4 | % hpL hpR 
-R4 | R4 | R4 | R4 | % vn vII vc vb  
+  R4 | R4 | R4 | R4 | R4 | % vn vII va vc vb  
 
 %bn35
-\time 2/4 d8 b b gis                                   | \lyricmode{whats all this then?  }                      || 
+\time 2/4 d8 b b gis                                   | \lyricmode{whats all this then?  }                      | 
 R2                                                     | R2                                                      |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn36
-\time 9/16 r16 b a \times 3/4{gis8 a16 b} \times 3/2 {b16 a}               | \lyricmode{can't you see I'm in  trou -- ble? }                      || 
+\time 9/16 r16 b a \times 3/4{gis8 a16 b} \times 3/2 {b16 a}               | \lyricmode{can't you see I'm in  trou -- ble? }                      | 
 r8. r r                            | r8. r r                                       |  r8. r r |  r8. r r |   %rh lh kbR kbL 
 r8. r r | r8. r r | r8. r r | r8. r r | % fl ob kl bn 
 r8. r r |  r8. r r |  r8. r r | % hn tpt  tn 
 r8. r r | r8. r r | r8. r r | % tym perc fol 
 r8. r r | r8. r r | % hpL hpR 
-r8. r r | r8. r r | r8. r r | r8. r r | % vn vII vc vb  
+  r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % vn vII va vc vb  
 
 %bn37
-\time 3/4 r4 gis8 a fis8 gis | \lyricmode{ have you no res --  }||
+\time 3/4 r4 gis8 a fis8 gis | \lyricmode{ have you no res --  }|
 R2. | R2. |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb 
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb 
 
 %bn38
-\time 3/8 a8 r8 a     | \lyricmode{pect for }          || 
+\time 3/8 a8 r8 a     | \lyricmode{pect for }          | 
 R4.                        | R4.                                   |  R4. |  R4. |   %rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | % vn vII vc vb  
+  R4. | R4. | R4. | R4. | R4. | % vn vII va vc vb  
 
 %bn39
-\time 3/4 dis4 c a            | \lyricmode{mi --se --ry? }               || 
+\time 3/4 dis4 c a            | \lyricmode{mi --se --ry? }               | 
 R2.                           | R2.                                      |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn40
-\time 4/4 \times 2/3 {e'2 d4} r2 | \lyricmode{Min -- nie  }                 || 
+\time 4/4 \times 2/3 {e'2 d4} r2 | \lyricmode{Min -- nie  }                 | 
 R1                            | <g= g'>2 <aes  aes'>4  <g g'>8 <fis fis'> |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb  
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb  
 
 %bn41
-r4 f8 e \times 2/3{ e2 d4}    | \lyricmode{ lit -- le Min -- nie  }      || 
+r4 f8 e \times 2/3{ e2 d4}    | \lyricmode{ lit -- le Min -- nie  }      | 
 R1                            | <fis fis'>8 ( <g g'>4.) <aes aes'>2      |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb  
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb  
 
 %bn42
 %Come Mrs Rooney II
-\time 2/4 \instrumentSwitch"Tyler" a='4~ \times 2/3 {a8 a a}      | \lyricmode{Come, Miss -- es  }                        || 
+\time 2/4 \instrumentSwitch"Tyler" a='4~ \times 2/3 {a8 a a}      | \lyricmode{Come, Miss -- es  }                        | 
 < c f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>}    | \clef bass <f f'>2                                    |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn43
-a8( g4) \rt \rit f16(\start e)                       | \lyricmode{Roo -- ney  }                              || 
+a8( g4) \rt \rit f16(\start e)                       | \lyricmode{Roo -- ney  }                              | 
 <c e a>4 r4                                          | <e e'>4 <d d'>                                        |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn44
-e4\stop r8. e16                                      | \lyricmode{come. The }                                || 
+e4\stop r8. e16                                      | \lyricmode{come. The }                                | 
 r8 <c e> <c e>  <c e>                                | <c c'>2                                               |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn45
-\time 3/4 d8. e16 \times 2/3{f4 f e8( d)}                                   | \lyricmode{mail has not yet gone   }                                || 
-r2.                                                   | <b b'>4  \ottava #-1 <a a'>2                                             |  R2. |  R2. |   %rh lh kbR kbL 
+\time 3/4 d8. e16 \times 2/3{f4 f e8( d)}                                   | \lyricmode{mail has not yet gone   }                                | 
+R2.                                                   | <b b'>4  \ottava #-1 <a a'>2                                             |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn46
-\time 2/4 d8 b \rt d a'16( g)                                  | \lyricmode{up, just take my }                         || 
+\time 2/4 d8 b \rt d a'16( g)                                  | \lyricmode{up, just take my }                         | 
 r2                                                   | <g g'>4 <f f'>                                        |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn47
-g8 e4 a,16 f'16                                      | \lyricmode{free arm, and we'll  }                     || 
+g8 e4 a,16 f'16                                      | \lyricmode{free arm, and we'll  }                     | 
 r2                                                   | <e e'>4 <d d'>                                        |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn48
-e8 d16 g, \rt \rit e'8\start d16 c32( b)             | \lyricmode{be there with time and to }                || 
+e8 d16 g, \rt \rit e'8\start d16 c32( b)             | \lyricmode{be there with time and to }                | 
 r2                                                   | <c c'>8 <b b'>4~ <b b'>16 <a a'>                      |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn49
-\time 6/8 b8(\stop c16 b a b c d e f g a~                | \lyricmode{spare }                                   |s4| 
+\time 6/8 b8(\stop c16 b a b c d e f g a~                | \lyricmode{spare }                                   | 
 r4. r4. | r4. r4. |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb 
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb 
 
 %bn50
 %duet
-\time 2/4 a4~ \times 2/3 {a='8) \breathe a a}      | \lyricmode{Miss -- es  }                        |s4 s16| 
+\time 2/4 a4~ \times 2/3 {a='8) \breathe a a}      | \lyricmode{Miss -- es  }                        | 
 < c f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>}    | \clef bass <f f'>2                                    |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
+
 
 %bn51
-a8( g4) \rt \rit f16(\start e)                       | \lyricmode{Roo -- ney  }                              |s4 \times 2/3 {r8 b c}| 
-<c e a>4 r4                                          | <e e'>4 <d d'>                                        |  R2 |  R2 |   %rh lh kbR kbL 
+ a8( g4) \rt \rit f16(\start e) | \lyricmode{Roo -- ney  } | 
+ <<{\ossia "rh"{ r4 \times 2/3 {r8 b c}}} \\{ <c e a>4 r4 } >>| <e e'>4 <d d'> |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
+
 
 %bn52
-e4\stop r8. e16                                      | \lyricmode{come. The }                                |\times 2/3 {f8 e c} \times 2/3 {g8 e4}| 
-r8 <c= e> <c e>  <c e>                                | <c c'>2                                               |  R2 |  R2 |   %rh lh kbR kbL 
+e4\stop r8. e16        | \lyricmode{come. The }  | 
+<< {\inst "ossia" {\times 2/3 {f8 e c} \times 2/3 {g8 e4}}}  { r8 <c= e> <c e>  <c e> } >>  | <c c'>2  |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
+
 
 %bn53
-\time 3/4 d8. e16 \times 2/3{f4 f e8( d)}                                   | \lyricmode{mail has not yet gone   }                                |r4 \times 2/3 {r4 b'8 a16 gis d'8 gis,}| 
-r2.                                                   | <b b'>4  \ottava #-1 <a a'>2                                             |  R2. |  R2. |   %rh lh kbR kbL 
+\time 3/4 d8. e16 \times 2/3{f4 f e8( d)} | \lyricmode{mail has not yet gone   }  | 
+<<{\inst "ossia"{ r4 \times 2/3 {r4 b'8 a16 gis d'8 gis, }}}{R2.}>>| <b b'>4  \ottava #-1 <a a'>2 |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
+
 
 %bn54
-\time 2/4 d8 b \rt d a'16( g)                                  | \lyricmode{up, just take my }                         |r2| 
-r2                                                   | <g g'>4 <f f'>                                        |  R2 |  R2 |   %rh lh kbR kbL 
+\time 2/4 d8 b \rt d a'16( g) | \lyricmode{up, just take my } |
+<<{\inst "ossia" {R2}}{R2}>>   | <g g'>4 <f f'>    |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn55
-g8 e4 a,16 f'16                                      | \lyricmode{free arm, and we'll  }                     | ais16 b gis a b c a b | 
-r2                                                   | <e e'>4 <d d'>                                        |  R2 |  R2 |   %rh lh kbR kbL 
+g8 e4 a,16 f'16  | \lyricmode{free arm, and we'll  }   | 
+<< {\inst "ossia"{  ais16 b gis a b c a b }}{ R2 }>>   | <e e'>4 <d d'>    |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn56
-e8 d16 g, \rt \rit e'8\start d16 c32( b)             | \lyricmode{be there with time and to }                |cis8~ \times 2/3 {cis16 b a } g16 a~ \times 2/3 {a fis16 g }| 
-r2                                                   | <c c'>8 <b b'>4~ <b b'>16 <a a'>                      |  R2 |  R2 |   %rh lh kbR kbL 
+e8 d16 g, \rt \rit e'8\start d16 c32( b)    | \lyricmode{be there with time and to }       | 
+<<{\inst "ossia" {cis8~ \times 2/3 {cis16 b a } g16 a~ \times 2/3 {a fis16 g }}}{ R2 }>> | <c c'>8 <b b'>4~ <b b'>16 <a a'>    |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn57
-\time 2/8 b8\stop r                                       | \lyricmode{spare. }                         |  gis4     | 
-r4                                                | <g g'>4     \ottava #0                      |  R4 |  R4 |   %rh lh kbR kbL 
+\time 2/8 b8\stop r   | \lyricmode{spare. }       |
+<<{\inst "ossia"{gis4}}{ R4 }>> | <g g'>4     \ottava #0    |  R4 |  R4 |   %rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
 R4 |  R4 |  R4 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
 R4 | R4 | % hpL hpR 
-R4 | R4 | R4 | R4 | % vn vII vc vb  
+  R4 | R4 | R4 | R4 | R4 | % vn vII va vc vb  
 
 %bn58
 
- % will you get along you now Mr. Rooney? will you get along with you now cease molesting me
-\time 2/4 a4~ \times 2/3 {a8 a a}      | \lyricmode{Come, Miss -- es  }    |r2| 
-< c f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>}    | \clef bass <f=, f'>2                                    |  R2 |  R2 |   %rh lh kbR kbL 
+\time 2/4 a4~ \times 2/3 {a8 a a}      | \lyricmode{Come, Miss -- es  }    | 
+<<{\inst "ossia" {R2}}{< c f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>}}>>    | \clef bass <f=, f'>2                                    |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn59
-a8( g4) \rt \rit f16(\start e)                       | \lyricmode{Roo -- ney  }                              | r4. \times 2/3 {r16 a16 b }| 
-<c e a>4 r4                                          | <e e'>4 <d d'>                                        |  R2 |  R2 |   %rh lh kbR kbL 
+a8( g4) \rt \rit f16(\start e)     | \lyricmode{Roo -- ney  }   | 
+<<{\inst "ossia" { r4. \times 2/3 {r16 a16 b }}} { <c e a>4 r4 }>> | <e e'>4 <d d'>    |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
+
 
 %bn60
-e4\stop r8. e16                                      | \lyricmode{come. The }                                |cis4 r \break| 
-r8 <c e> <c e>  <c e>                                | <c c'>2                                               |  R2 |  R2 |   %rh lh kbR kbL 
+e4\stop r8. e16  | \lyricmode{come. The }     | 
+<<{\inst "ossia" { cis4 r \break }}{ r8 <c e> <c e>  <c e> } >>| <c c'>2  |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn61
-\time 3/8 b8\noBeam  \instrumentSwitch "Rooney" gis'16\< ais b cis |\lyricmode{ mail... Will you get a -- }||
+\time 3/8 b8\noBeam  \instrumentSwitch "Rooney" gis'16\< ais b cis |\lyricmode{ mail... Will you get a -- }|
 r4. |g8 d'16 f gis b |  R4. |  R4. |   %rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | % vn vII vc vb 
+  R4. | R4. | R4. | R4. | R4. | % vn vII va vc vb 
 
 %bn62
-\time 4/4 \times 2/3 {dis4\f ais fis} r \times 2/3 {c'4 c8} |\lyricmode{ long with you Mis -- ter }||
+\time 4/4 \times 2/3 {dis4\f ais fis} r \times 2/3 {c'4 c8} |\lyricmode{ long with you Mis -- ter }|
 <dis' fis ais dis>2. r4 | r2 <dis, dis'> |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb 
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb 
 
 %bn63
-\times 4/5 { des4 c8 bes a } \times 4/5 { c a fis dis r }| \lyricmode{  Roo -- ney Mis -- ter Tyl -- er I mean }||
-r1 | r1 |  R1 |  R1 |   %rh lh kbR kbL 
+\times 4/5 { des4 c8 bes a } \times 4/5 { c a fis dis r }| \lyricmode{  Roo -- ney Mis -- ter Tyl -- er I mean }|
+R1 | R1 |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb 
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb 
 
 %bn64
-\time 2/4 des'16 ces bes aes g8 aes16 bes|\lyricmode{will you get a -- long with you }||
+\time 2/4 des'16 ces bes aes g8 aes16 bes|\lyricmode{will you get a -- long with you }|
 r2 | e16 g bes des e4 |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb 
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb 
 
 %bn65
-\time 6/16 ees,8 g16 f8 g16 |\lyricmode{now and cease mo -- }||
+\time 6/16 ees,8 g16 f8 g16 |\lyricmode{now and cease mo -- }|
 r4. | \times 3/2{ r16 ees~} ees8. |  r8. r |  r8. r |   %rh lh kbR kbL 
 r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
 r8. r |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
 r8. r | r8. r | % hpL hpR 
-r8. r | r8. r | r8. r | r8. r | % vn vII vc vb 
+  r8. r | r8. r | r8. r | r8. r | r8. r | % vn vII va vc vb 
 
 %bn66
 \dEQ
-\time 2/4 bes8 aes aes r  |\lyricmode{ lest -- ing me }||
+\time 2/4 bes8 aes aes r  |\lyricmode{ lest -- ing me }|
 r2 | aes2 |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb 
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb 
 
 %bn67
- \time 10/16 \set Timing.beatStructure = #'(3 3 4) r8 c='16 b a g fis8 g | \lyricmode{ what kind of a count -- ry }               || 
+ \time 10/16 \set Timing.beatStructure = #'(3 3 4) r8 c='16 b a g fis8 g | \lyricmode{ what kind of a count -- ry }               | 
  r4. r4                                                                | <g g'>4. <fis fis'>4                                   |  r4 r4. |  r4 r4. |   %rh lh kbR kbL 
  r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn 
  r4 r4. |  r4 r4. |  r4 r4. | % hn tpt  tn 
  r4 r4. | r4 r4. | r4 r4. | % tym perc fol 
  r4 r4. | r4 r4. | % hpL hpR 
- r4 r4. | r4 r4. | r4 r4. | r4 r4. | % vn vII vc vb  
+  r4 r4.  |  r4 r4. | r4 r4. | r4 r4. | r4 r4. | % vn vII va vc vb  
 
  %bn68
- \time 6/8  \times 3/4 {e8 fis g a} dis8 b fis                           | \lyricmode{  is it where a wo -- man can't }           || 
+ \time 6/8  \times 3/4 {e8 fis g a} dis8 b fis                           | \lyricmode{  is it where a wo -- man can't }           | 
  r4. r                                                                   | <e e'>4. r                                                  |  R2. |  R2. |   %rh lh kbR kbL 
  R2. | R2. | R2. | R2. | % fl ob kl bn 
  R2. |  R2. |  R2. | % hn tpt  tn 
  R2. | R2. | R2. | % tym perc fol 
  R2. | R2. | % hpL hpR 
- R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. |  R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
  %bn69
- \dQQ  \time 9/16 e'16( f) e e8 d c16 d                                  | \lyricmode{ cry her eyes out in the }                  || 
+ \dQQ  \time 9/16 e'16( f) e e8 d c16 d                                  | \lyricmode{ cry her eyes out in the }                  | 
  <g c>8. <g b>4.                                                                 | r8. r r                                                |  r8. r r |  r8. r r |   %rh lh kbR kbL 
  r8. r r | r8. r r | r8. r r | r8. r r | % fl ob kl bn 
  r8. r r |  r8. r r |  r8. r r | % hn tpt  tn 
  r8. r r | r8. r r | r8. r r | % tym perc fol 
  r8. r r | r8. r r | % hpL hpR 
- r8. r r | r8. r r | r8. r r | r8. r r | % vn vII vc vb  
+  r8. r r |  r8. r r | r8. r r | r8. r r | r8. r r | % vn vII va vc vb  
 
  %bn70
- \time 6/16 ees16 d bes \times 3/4{d16 c b a}                                 | \lyricmode{  high -- ways and by -- ways with -- out } ||
+ \time 6/16 ees16 d bes \times 3/4{d16 c b a}                                 | \lyricmode{  high -- ways and by -- ways with -- out } |
  <f bes>8. <f a>                                                                   | r8. r                                                  |  r8. r |  r8. r |   %rh lh kbR kbL 
  r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
  r8. r |  r8. r |  r8. r | % hn tpt  tn 
  r8. r | r8. r | r8. r | % tym perc fol 
  r8. r | r8. r | % hpL hpR 
- r8. r | r8. r | r8. r | r8. r | % vn vII vc vb  
+  r8. r |  r8. r | r8. r | r8. r | r8. r | % vn vII va vc vb  
 
  %bn71
- \dEQ \time 3/8 fis8 g a                                                 | \lyricmode{be -- ing mo -- }                           || 
- r4.                                                                     | <fis fis'>4.                                                    |  R4. |  R4. |   %rh lh kbR kbL 
+ \dEQ \time 3/8 fis8 g a                                                 | \lyricmode{be -- ing mo -- }                           | 
+ R4.                                                                     | <fis fis'>4.                                                    |  R4. |  R4. |   %rh lh kbR kbL 
  R4. | R4. | R4. | R4. | % fl ob kl bn 
  R4. |  R4. |  R4. | % hn tpt  tn 
  R4. | R4. | R4. | % tym perc fol 
  R4. | R4. | % hpL hpR 
- R4. | R4. | R4. | R4. | % vn vII vc vb  
+  R4. |  R4. | R4. | R4. | R4. | % vn vII va vc vb  
 
  %bn72
- \time 3/4 b8 g a b cis a                                                 | \lyricmode{lest -- ed by re --  ti -- red }            || 
- r2.                                                                     | <g g'>2 <a a'>4                                                    |  R2. |  R2. |   %rh lh kbR kbL 
+ \time 3/4 b8 g a b cis a                                                 | \lyricmode{lest -- ed by re --  ti -- red }            | 
+ R2.                                                                     | <g g'>2 <a a'>4                                                    |  R2. |  R2. |   %rh lh kbR kbL 
  R2. | R2. | R2. | R2. | % fl ob kl bn 
  R2. |  R2. |  R2. | % hn tpt  tn 
  R2. | R2. | R2. | % tym perc fol 
  R2. | R2. | % hpL hpR 
- R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. |  R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
  %bn73
- \dQQ \time 2/4 d4 a8 fis                                                | \lyricmode{ bill bro -- kers! }                        || 
- r2                                                                      | <d d'>2                                                     |  R2 |  R2 |   %rh lh kbR kbL 
+ \dQQ \time 2/4 d4 a8 fis                                                | \lyricmode{ bill bro -- kers! }                        | 
+ R2                                                                      | <d d'>2                                                     |  R2 |  R2 |   %rh lh kbR kbL 
  R2 | R2 | R2 | R2 | % fl ob kl bn 
  R2 |  R2 |  R2 | % hn tpt  tn 
  R2 | R2 | R2 | % tym perc fol 
  R2 | R2 | % hpL hpR 
- R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 |  R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
  %bn74
 
-\time 1/4 r4|||
-r8. d=''16-. | r4 |  R4 |  R4 |   %rh lh kbR kbL 
+\time 1/4 r4||
+r8. d=''16-. | R4 |  R4 |  R4 |   %rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
 R4 |  R4 |  R4 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
 R4 | R4 | % hpL hpR 
-R4 | R4 | R4 | R4 | % vn vII vc vb 
+  R4 | R4 | R4 | R4 | R4 | % vn vII va vc vb 
 
 %bn75
 
-\time 4/4 R1                                               |                                                      || 
+\time 4/4 R1                                               |                                                      | 
 g,16( fis8.) g16( fis8.) g16( fis8) r16\fermata r8. d'16-. | R1                                                         |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb  
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb  
 
 %bn76
 
-R1                                                         |                                                      || 
+R1                                                         |                                                      | 
 g,16( fis8.) g16( fis8.) g16( fis8) r16\fermata r4         | R1                                                         |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb  
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb  
 
 %bn77
 
 
-\tempo 4 = 60 \time 4/4 b=4.\p a8 a4. r8                    | \lyricmode{ve -- nus birds, }                        || 
+\tempo 4 = 60 \time 4/4 b=4.\p a8 a4. r8                    | \lyricmode{ve -- nus birds, }                        | 
 R1                                                         | \clef bass <g= cis e>1                                     |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb  
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb  
 
 %bn78
-g8 fis e d fis(\> g) e fis                                 | \lyricmode{coo -- ing in the night all the }         || 
+g8 fis e d fis(\> g) e fis                                 | \lyricmode{coo -- ing in the night all the }         | 
 R1                                                         | <fis a d>2 e4.  d8                                         |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | % vn vII vc vb  
+  R1 | R1 | R1 | R1 | R1 | % vn vII va vc vb  
 
 %bn79
-\time 3/4 gis8( a)  fis gis a4\!\fermata \breathe          | \lyricmode{long sum -- mer long }                    || %  or should this last note be A#?
+\time 3/4 gis8( a)  fis gis a4\!\fermata \breathe          | \lyricmode{long sum -- mer long }                    | %  or should this last note be A#?
 R2.                                                        | d2 c4                                                      |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn80
-\time 7/8 bes4-> f8 ges f4 des8                            | \lyricmode{O! cur -- sed cor -- set }                || 
+\time 7/8 bes4-> f8 ges f4 des8                            | \lyricmode{O! cur -- sed cor -- set }                | 
 r2 r4.                                                     | r2 r4.                                                     |  r2 r4. |  r2 r4. |   %rh lh kbR kbL 
 r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
 r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn 
 r2 r4. | r2 r4. | r2 r4. | % tym perc fol 
 r2 r4. | r2 r4. | % hpL hpR 
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | % vn vII vc vb  
+  r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. | % vn vII va vc vb  
 
 %bn81
-\time 3/4 r8 e dis cis dis e                               | \lyricmode{if I could on -- ly }                     || 
+\time 3/4 r8 e dis cis dis e                               | \lyricmode{if I could on -- ly }                     | 
 R2.                                                        | <bes bes'>8 r r2                                           |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn82
-\time 3/8 fis4 gis8                                        | \lyricmode{let it }                                  || 
+\time 3/8 fis4 gis8                                        | \lyricmode{let it }                                  | 
 R4.                                                        | \times 3/2 {gis8 fis}                                      |  R4. |  R4. |   %rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | % vn vII vc vb  
+  R4. | R4. | R4. | R4. | R4. | % vn vII va vc vb  
 
 %bn83
-\time 3/4 cis4~ cis16 b cis a gis8 a16 b                   | \lyricmode{out, with -- out in -- dec -- ent ex -- } || 
+\time 3/4 cis4~ cis16 b cis a gis8 a16 b                   | \lyricmode{out, with -- out in -- dec -- ent ex -- } | 
 R2.                                                        | e2  r4                                                     |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn84
 % check metMod here
-\time 2/4  d8 d, r8 b'16 b                                 | \lyricmode{po -- sure. Mis -- ter }                  || 
-r2                                                         | r2                                                         |  R2 |  R2 |   %rh lh kbR kbL 
+\time 2/4  d8 d, r8 b'16 b                                 | \lyricmode{po -- sure. Mis -- ter }                  | 
+R2                                                         | R2                                                         |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn85
-\time 2/4 \times 2/3 { dis4 b8 } r8 b16 b                  | \lyricmode{Ty -- ler, }                              || 
+\time 2/4 \times 2/3 { dis4 b8 } r8 b16 b                  | \lyricmode{Ty -- ler, }                              | 
 R2                                                         | < fis b >4 r4                                              |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn86
-\times 2/3 {e4 b8} r8 e16( a)                              | \lyricmode{Mis -- ter Ty -- ler! come  }             || 
+\times 2/3 {e4 b8} r8 e16( a)                              | \lyricmode{Mis -- ter Ty -- ler! come  }             | 
 R2                                                         | <fis b>4 r                                                 |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn87
 \time 13/16 \set Timing.beatStructure = #'(5 4 3)
-a8.\f g16 f \times 2/3{e8 d c} \times 2/3{b4 a8}           | \lyricmode{back and un -- lace me be hind the }      || 
+a8.\f g16 f \times 2/3{e8 d c} \times 2/3{b4 a8} | \lyricmode{back and un -- lace me be hind the } | 
 
 << {a'8.\f g16 f \times 2/3{e8 d c} \times 2/3{b4 a8}} \\ {f'8. e16 d \times 2/3{c8 b a} \times 2/3{g4 f8}}>>       | <f, f'>16 <e e'>  < f f'> <g g'> <a a'> <b b'> <c c'> <d d'> <e e'> \times 2/3 {<f f'>8 <g g'> <a a'>}   |  r8. r8 r4 r8. |  r8. r8 r4 r8. |   %rh lh kbR kbL 
 r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | % fl ob kl bn 
 r8. r8 r4 r8. |  r8. r8 r4 r8. |  r8. r8 r4 r8. | % hn tpt  tn 
 r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | % tym perc fol 
 r8. r8 r4 r8. | r8. r8 r4 r8. | % hpL hpR 
-r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | % vn vII vc vb  
+ r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | r8. r8 r4 r8. | % vn vII va vc vb  
 
 %bn88
 
-\QdQ \time 6/8 d4. r4 g,8                                 | \lyricmode{hedge! What's }                           || 
+\QdQ \time 6/8 d4. r4 g,8                                 | \lyricmode{hedge! What's }                           | 
 < f aes bes d >2.                                         | aes'8 g f ees d r                                         |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn89
 
 %%%%%%%%% What's Wrong with ME
 % \tempo 8 = 180
-g8. fis16 fis8 r4 fis8                               | \lyricmode{wrong with me? what's }                || 
+g8. fis16 fis8 r4 fis8                               | \lyricmode{wrong with me? what's }                | 
 r4. r4.                                              | < e g b >8 q q q q q                              |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+  R2. | R2. | R2. | R2. | R2. | % vn vII va vc vb  
 
 %bn90
-fis8. g16 g4 c8 b                                    | \lyricmode{wrong with me? Ne -- ver }             || 
-r4. r                                                | < e g cis >8 q q < ees g ees' > q q               |  R2. |  R2. |   %rh lh kbR kbL 
+fis8. g16 g4 c8 b  | \lyricmode{wrong with me? Ne -- ver } | 
+r4. r  | < e g cis >8 q q < ees g ees' > q q    |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | % vn vII vc vb  
+R2. | R2. | R2. | R2. |  R2. |  % vn vII va vc vb  
 
 %bn91
-\dEQ \time 2/4 b4. a8                                | \lyricmode{tran -- quil, }                        || 
+\dEQ \time 2/4 b4. a8                                | \lyricmode{tran -- quil, }                        | 
 R2                                                   | <d a' d>8 q q q                                   |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn92
 \time 9/8 \set Timing.beatStructure = #'(2 3 2 2)
-gis a fis gis a b c a( b)                            | \lyricmode{see -- thing out of my dir -- ty old } || 
+gis8 a fis gis a b c a( b)                            | \lyricmode{see -- thing out of my dir -- ty old } | 
 r4 r4. r2                                            | aes'8 g fis f e dis d cis c                       |  r4. r r |  r4. r r |   %rh lh kbR kbL 
 r4. r r | r4. r r | r4. r r | r4. r r | % fl ob kl bn 
 r4. r r |  r4. r r |  r4. r r | % hn tpt  tn 
 r4. r r | r4. r r | r4. r r | % tym perc fol 
 r4. r r | r4. r r | % hpL hpR 
-r4. r r | r4. r r | r4. r r | r4. r r | % vn vII vc vb  
+  r4. r r | r4. r r | r4. r r | r4. r r | r4. r r | % vn vII va vc vb  
 
 %bn93
-\time 2/4 \QdE \times 2/3 { cis8( d cis) } cis c16 b | \lyricmode{pelt, out of my }                      || 
+\time 2/4 \QdE \times 2/3 { cis8( d cis) } cis c16 b | \lyricmode{pelt, out of my }                      | 
 R2                                                   | b4 \times 2/3 {cis8 c b}                          |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb  
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb  
 
 %bn94
-\QdQ  \time 3/8 e4.                                  | \lyricmode{skull! }                               || %rh lh
-<g bes des fes >4.\arpeggio                          | bes8 a aes                                        |  R4. |  R4. |   R4. | R4. | R4. | R4. | R4. |  R4. |  R4. | R4. | R4. | R4. | R4. | R4. | R4. | R4. | R4. | R4. |                
+\QdQ  \time 3/8 e4.       | \lyricmode{skull! }    | %rh lh
+<g bes des fes >4.\arpeggio        | bes8 a aes    |  R4. |  R4. |% rh lh kbR kbL
+R4. |  R4. |  R4. |  R4. |  % fl ob kl bn
+R4. |  R4. |  R4. | % hn tpt tn
+R4. | R4. | R4. | % tym perc fol
+R4. | R4. | % hpL hpR
+R4. | R4. | R4. | R4. |  R4. |  % vn vII va vc vb
 
 %bn95
-
-R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | % \QdE \time 2/4  e8. e16 e8. e16                      | \lyricmode{Oh to be in }                          || 
-R2                                                   | g8 ges f e                                        | %rh lh kbR kbL 
-R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | % fl ob kl bn hn tpt  tn 
-R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | R2 | R2 | R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb
+\QdE \time 2/4  e8. e16 e8. e16 | \lyricmode{Oh to be in } | 
+R2 | g8 ges f e | R2 |  R2 | % rh lh kbR kbL 
+R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | R2 | %hn tpt  tn 
+R2 | R2 | R2 | % tym perc fol 
+R2 | R2 | % hpL hpR 
+R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb
 
 %bn96
-\dQQ \time 5/8   gis8 e r16 e gis8 e                 | \lyricmode{at -- omt in at -- oms }              || 
-R2 r8                                                | ees2 r8                                           |  r4. r4 |  r4. r4 |   %rh lh kbR kbL 
+\dQQ \time 5/8   gis8 e r16 e gis8 e        | \lyricmode{at -- omt in at -- oms }     | 
+R2 r8   | ees2 r8       |  r4. r4 |  r4. r4 |   %rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII vc vb
+  r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII va vc vb
 
 %bn97
-\time 2/4 bes'4 \times 2/3 {bes4 r8 }                | \lyricmode{AT -- OMS! }                           || 
-r4 \times 2/3{r4 d'8-.\p }                           | R2                                                |  R2 |  R2 |   %rh lh kbR kbL 
+\time 2/4 bes'4 \times 2/3 {bes4 r8 }       | \lyricmode{AT -- OMS! }| 
+r4 \times 2/3{r4 d'8-.\p }| R2   |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb
 
 %bn98
-\QdQ \time 9/8 r4. r r                               |                                                   || 
-g,8( fis8) r g8( fis8) r g8( fis8) r                 | r4. r  r                                          |  r4. r r |  r4. r r |   %rh lh kbR kbL 
+\QdQ \time 9/8 r4. r r    |      | 
+g,8( fis8) r g8( fis8) r g8( fis8) r        | r4. r  r      |  r4. r r |  r4. r r |   %rh lh kbR kbL 
 r4. r r | r4. r r | r4. r r | r4. r r | % fl ob kl bn 
 r4. r r |  r4. r r |  r4. r r | % hn tpt  tn 
 r4. r r | r4. r r | r4. r r | % tym perc fol 
 r4. r r | r4. r r | % hpL hpR 
-r4. r r | r4. r r | r4. r r | r4. r r | % vn vII vc vb
+  r4. r r | r4. r r | r4. r r | r4. r r | r4. r r | % vn vII va vc vb
 
 %bn99
-\time 2/4 b,,4\p b8 r                                | \lyricmode{je -- sus... }                         || 
-R2                                                   | r4. <g, g'>8~                                     |  R2 |  R2 |   %rh lh kbR kbL 
+\time 2/4 b,,4\p b8 r     | \lyricmode{je -- sus... }       | 
+R2      | r4. <g, g'>8~ |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb
+  R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb
 
 %bn100
-b4 b8 r | \lyricmode{je -- sus... } |              | 
-R2      | <g g'>4. <g g'>8~         |  R2 |  R2 |   %rh lh kbR kbL
+b4 b8 r | \lyricmode{je -- sus... } |
+R2      | <g g'>4. <g g'>8~  |  R2 |  R2 |   %rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | % vn vII vc vb
+R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb
 
 
 
 %bn1
-\instrumentSwitch  "Slocum"
-\tempo 4 = 70 % check this
-\time 4/4
-R1 | | 
+\mark \default \instrumentSwitch  "Slocum" \tempo 4 = 70 % check this
+\time 4/4 R1 | | 
 \clef bass a=1:32^"motor tempo ad lib" |\clef bass <a=,g d'>1:32 |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
@@ -4664,7 +4664,7 @@ R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb
 
 %bn19
 \time 6/16 cis16 b a cis8 cis16                        | \lyricmode { go -- ing in my di -- }               | 
-r4.                                                    | r4.                                                |  r8. r |  r8. r |   % rh lh kbR kbL 
+r4.                                                    | R4.                                                |  r8. r |  r8. r |   % rh lh kbR kbL 
 r8. r |  r8. r |  r8. r |  r8. r | % fl ob kl bn 
 r8. r |  r8. r |   r8. r | % hn tpt  tn 
 r8. r |  r8. r |  r8. r | % tym perc fol 
@@ -4894,7 +4894,7 @@ R1 |  R1 |  R1 |  R1 |  R1 | % vn vII va vc cb
 
 %bn44
 \time 3/8 a8. b16 c8                                       | \lyricmode {e -- ver get }                   | 
-r4.                                                        | r4.                                          |  R4. |  R4. |   % rh lh kbR kbL 
+r4.                                                        | R4.                                          |  R4. |  R4. |   % rh lh kbR kbL 
 R4. |  R4. |  R4. |  R4. | % fl ob kl bn 
 R4. |  R4. |   R4. | % hn tpt  tn 
 R4. |  R4. |  R4. | % tym perc fol 
@@ -5075,7 +5075,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
 %bn64
 \tempo \markup {\null} \tQQ \time 4/4 ais4 bis8 ais gis4 ais8 dis |\lyricmode{time, I'm as stiff as your -- }| %generalize this tempo thing
- ais='4 bis8 ais gis4 ais8 fis |  r1 |  R1 |  R1 |   % rh lh kbR kbL 
+ ais='4 bis8 ais gis4 ais8 fis |  R1 |  R1 |  R1 |   % rh lh kbR kbL 
  R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
  R1 |  R1 |   R1 | % hn tpt  tn 
  R1 |  R1 |  R1 | % tym perc fol 
@@ -5105,7 +5105,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
 %bn67
 \time 3/8 r8. b16 e8 |\lyricmode{ and me }|
-r4. | r4. |  R4. |  R4. |   % rh lh kbR kbL 
+r4. | R4. |  R4. |  R4. |   % rh lh kbR kbL 
 R4. |  R4. |  R4. |  R4. | % fl ob kl bn 
 R4. |  R4. |   R4. | % hn tpt  tn 
 R4. |  R4. |  R4. | % tym perc fol 
@@ -5114,7 +5114,7 @@ R4. |  R4. |  R4. |  R4. |  R4. | % vn vII va vc cb
 
 %bn68
 \time 2/8 dis8 cis16 b |\lyricmode{hea -- ving all }|
-r4 | r4 |  R4 |  R4 |   % rh lh kbR kbL 
+R4 | R4 |  R4 |  R4 |   % rh lh kbR kbL 
 R4 |  R4 |  R4 |  R4 | % fl ob kl bn 
 R4 |  R4 |   R4 | % hn tpt  tn 
 R4 |  R4 |  R4 | % tym perc fol 
@@ -5747,7 +5747,7 @@ r8. r4 |  r8. r4 | % hpL hpR
 r8. r4 |  r8. r4 |  r8. r4 |  r8. r4 |  r8. r4 | % vn vII va vc cb 
 
 %bn137
-\time 2/4 R2 ||
+\time 2/4 R2 | | 
 b2:16^starter |  R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -5966,7 +5966,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
  %bn159
  \time 3/8
  r8 e a | \lyricmode{ all the }|
- r4. | g4.\glissando |  R4. |  R4. |   % rh lh kbR kbL 
+ R4. | g4.\glissando |  R4. |  R4. |   % rh lh kbR kbL 
  R4. |  R4. |  R4. |  R4. | % fl ob kl bn 
  R4. |  R4. |   R4. | % hn tpt  tn 
  R4. |  R4. |  R4. | % tym perc fol 
@@ -6209,7 +6209,7 @@ R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb
 
 %bn183
 \time 4/4 \instrumentSwitch"Tommy" c8 g16 e c4 r8 c c c16 c                | \lyricmode{ cer -- tain -- ly Sir. Nice day for the } | 
-r4 \times 2/3 {c='16 d c} b c c,8 r4.                                      | r1                                                    |  R1 |  R1 |   % rh lh kbR kbL 
+r4 \times 2/3 {c='16 d c} b c c,8 r4.                                      | R1                                                    |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
@@ -6246,7 +6246,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
 %bn187
 \QdQ \time 4/4 \set Timing.beatStructure = #'(3 2 3)  d4. bes4 g8 bes des  | \lyricmode{ me! Don't take a -- ny }                  | 
-r1                                                                         | r1                                                    |  R1 |  R1 |   % rh lh kbR kbL 
+R1                                                                         | R1                                                    |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
@@ -6442,7 +6442,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
  %bn208
  \times 2/3 {fis8 a c}                                              | \lyricmode{have me be -- }                        | 
- r4                                                                           | ees4                                              |  R2 |  R2 |   % rh lh kbR kbL 
+ R4                                                                           | ees4                                              |  R2 |  R2 |   % rh lh kbR kbL 
  R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
  R2 |  R2 |   R2 | % hn tpt  tn 
  R2 |  R2 |  R2 | % tym perc fol 
@@ -6514,7 +6514,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
  %bn216
  \time 3/8 d16 r d'8 d                                                        | \lyricmode{this is }                              | 
- r4.                                                                          | dis4  r16 d                                       |  R4. |  R4. |   % rh lh kbR kbL 
+ R4.                                                                          | dis4  r16 d                                       |  R4. |  R4. |   % rh lh kbR kbL 
  R4. |  R4. |  R4. |  R4. | % fl ob kl bn 
  R4. |  R4. |   R4. | % hn tpt  tn 
  R4. |  R4. |  R4. | % tym perc fol 
@@ -6687,7 +6687,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
 %bn235
 \time 3/8 \times 3/4 {gis8 g g fis}                                                   | \lyricmode{blee -- ding blood -- y }              | 
-r4.                                                                                   | r4.                                               |  R4. |  R4. |   % rh lh kbR kbL 
+r4.                                                                                   | R4.                                               |  R4. |  R4. |   % rh lh kbR kbL 
 R4. |  R4. |  R4. |  R4. | % fl ob kl bn 
 R4. |  R4. |   R4. | % hn tpt  tn 
 R4. |  R4. |  R4. | % tym perc fol 
@@ -6955,8 +6955,8 @@ R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb
 %bn263
 %%%%%%%%alternate: ees4.( d8) d8 r !!!!! 
 
-%r4. des4 c8 |\lyricmode{ pain less -- }|
-%\clef bass des='4 c8 aes4.~ | <f aes>2. |  R2. |  R2. |   % rh lh kbR kbL 
+r4. des4 c8 |\lyricmode{ pain less -- }|
+\clef bass des='4 c8 aes4.~ | <f aes>2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
@@ -6964,8 +6964,8 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
 %bn264
-%aes4.~ aes~ |\lyricmode{ly }|
-%aes4.~ aes4 g8 |r4. r4. |  R2. |  R2. |   % rh lh kbR kbL 
+aes4.~ aes~ |\lyricmode{ly }|
+aes4.~ aes4 g8 |r4. r4. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
@@ -6973,8 +6973,8 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
 %bn265
-%aes4 g8 bes4. \breathe |\lyricmode{a -- way }|
-%<< {b4 c8 d4 e8} \\ {ees,4. r} >> |r4. r |  R2. |  R2. |   % rh lh kbR kbL 
+aes4 g8 bes4. \breathe |\lyricmode{a -- way }|
+<< {b4 c8 d4 e8} \\ {ees,4. r} >> |r4. r |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
@@ -7170,7 +7170,7 @@ r8. r r |  r8. r r | % hpL hpR
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r | % vn vII va vc cb 
 
 %bn286
-\time 5/8 f8 g a( b) c  | \lyricmode{it had ne -- ver }| %check durationss here
+\time 5/8 f8\! g a( b) c  | \lyricmode{it had ne -- ver }| %check durationss here
 <a c d f>2~ <a c d f>8 | d2~ d8  |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |   r4. r4 | % hn tpt  tn 
@@ -7208,7 +7208,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
 %bn290
 \time 2/8 \grace{ a8( b} \times 2/3 {a4) g8 }                                        | \lyricmode{ sta -- tion  }                       | 
-r4                                                                                   | r4                                               |  R4 |  R4 |   % rh lh kbR kbL 
+r4                                                                                   | R4                                               |  R4 |  R4 |   % rh lh kbR kbL 
 R4 |  R4 |  R4 |  R4 | % fl ob kl bn 
 R4 |  R4 |   R4 | % hn tpt  tn 
 R4 |  R4 |  R4 | % tym perc fol 
@@ -7487,7 +7487,7 @@ R2 |  R2 |  R2 |  R2 |  R2 | % vn vII va vc cb
 
 %bn320
 \time 1/4 \times 2/3 { b4 gis8} |\lyricmode{ right, or }|
-r4 | r4 |  R4 |  R4 |   % rh lh kbR kbL 
+R4 | R4 |  R4 |  R4 |   % rh lh kbR kbL 
 R4 |  R4 |  R4 |  R4 | % fl ob kl bn 
 R4 |  R4 |   R4 | % hn tpt  tn 
 R4 |  R4 |  R4 | % tym perc fol 
@@ -7540,7 +7540,7 @@ r4. r4 |  r4. r4 | % hpL hpR
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 | % vn vII va vc cb 
 
 %bn326
-\time 3/4 \times 2/3 {bes4 b8} ees4 ees |\lyricmode{thir -- ty six! and yet,  }|
+\time 3/4 \times 2/3 {bes4 b8} ees4 ees |\lyricmode{thir -- ty six! and  }|
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
@@ -7548,17 +7548,9 @@ R2. |  R2. |  R2. | % tym perc fol
 R2. |  R2. | % hpL hpR 
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
-%bn327
-%ees4. ees |\lyricmode{six! and yet, }|
-%r4. r4. | r4.  r4.|  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
-R2. |  R2. |   R2. | % hn tpt  tn 
-R2. |  R2. |  R2. | % tym perc fol 
-R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
 %bn328
-\time 2/4 d8. bes16 a bes fis g|\lyricmode{u -- pon the o -- ther }|
+\time 2/4 d8. bes16 a bes fis g|\lyricmode{yet u -- pon the o -- ther }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -7630,8 +7622,8 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
 %bn336
-%ais8. gis16~| \lyricmode{for there }|
-%r4 | ais8 fis |  R2. |  R2. |   % rh lh kbR kbL 
+ais8. gis16~| \lyricmode{for there }|
+r4 | ais8 fis |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
@@ -7639,8 +7631,8 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
 %bn337
-%gis16 fis~ \times 2/3 {fis16 eis( fis)} |\lyricmode{was a }|
-%r4 | d8 b |  R2. |  R2. |   % rh lh kbR kbL 
+gis16 fis~ \times 2/3 {fis16 eis( fis)} |\lyricmode{was a }|
+r4 | d8 b |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
@@ -7666,8 +7658,8 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
 %bn340
-%g8 a \times 2/3 {b( c) d} | \lyricmode{ was so plunged in }           | 
-%%<<{e8  f \times 2/3 {g( a) b}}\\c2>>  | <d d'>2                                        |  R2. |  R2. |   % rh lh kbR kbL 
+g8 a \times 2/3 {b( c) d} | \lyricmode{ was so plunged in }           | 
+<<{e8  f \times 2/3 {g( a) b}}\\c2>>  | <d d'>2                                        |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
@@ -7781,7 +7773,7 @@ R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb
 
 %bn352
 \time 4/4 \tempo "still" e'2~e8 d \times 2/3 {c b a~}|\lyricmode{ wind is get -- ting up }|
-e=''4 c a fis | r1 |  R1 |  R1 |   % rh lh kbR kbL 
+e=''4 c a fis | R1 |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
@@ -8127,8 +8119,7 @@ R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb
 
  %bn1
 \tempo 4. = 60  % default - check this tempo
-
-\time 2/4
+\mark \default \time 2/4
 r4. b='8 | \lyricmode {Miss } |
  R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL   
  R2 | R2 | R2 | R2 | % fl ob kl bn 
@@ -9494,7 +9485,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
  %bn116
 \time 3/8 b8 b b                                | \lyricmode{give me his }                         | 
-\times 3/2 {<f aes>8 <f aes>}                   | r4.                                              |  R4. |  R4. |   % rh lh kbR kbL   
+\times 3/2 {<f aes>8 <f aes>}                   | R4.                                              |  R4. |  R4. |   % rh lh kbR kbL   
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
@@ -9504,7 +9495,7 @@ R4. | R4. | R4. | R4. | R4. | % vn vII va vc cb
 
  %bn117
 \time 2/8 ces8. d16                             | \lyricmode{arm, just }                           | %is a mm nec. at the top of this bar?
-<f aes>8 <f aes>                                | r4                                               |  R4 |  R4 |   % rh lh kbR kbL   
+<f aes>8 <f aes>                                | R4                                               |  R4 |  R4 |   % rh lh kbR kbL   
 R4 | R4 | R4 | R4 | % fl ob kl bn 
 R4 |  R4 |  R4 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
@@ -9545,7 +9536,7 @@ r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % vn vII va vc cb
 
  %bn121
 \time 2/8  g8 e                       | \lyricmode{want then? }                  | 
-<f bes des>4                     | r4                                           |  R4 |  R4 |   % rh lh kbR kbL   
+<f bes des>4                     | R4                                           |  R4 |  R4 |   % rh lh kbR kbL   
 R4 | R4 | R4 | R4 | % fl ob kl bn 
 R4 |  R4 |  R4 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
@@ -9555,12 +9546,12 @@ R4 | R4 | R4 | R4 | R4 | % vn vII va vc cb
 
  %bn122
 \time 12/16 \times 3/2{ r16 fis }\times 3/2{ g a}  cis8 g16 g f16 cis'                           | \lyricmode{is it my arm you want? or what }  | 
-r2.                                             | r2.                                              |R2.|R2.|   % rh lh kbR kbL   
-r2.                                              | r2.                                              | r2.                                              | r2.                                              | % fl ob kl bn 
-r2.                                              |R2.|  r2.                                              | % hn tpt  tn 
-r2.                                              | r2.                                              | r2.                                              | % tym perc fol 
-r2.                                              | r2.                                              | % hpL hpR 
-r2.                                              | r2.                                              | r2.                                              | r2.                                              | r2.                                              | % vn vII va vc cb 
+R2.                                             | R2.                                              |R2.|R2.|   % rh lh kbR kbL   
+R2.                                              | R2.                                              | R2.                                              | R2.                                              | % fl ob kl bn 
+R2.                                              |R2.|  R2.                                              | % hn tpt  tn 
+R2.                                              | R2.                                              | R2.                                              | % tym perc fol 
+R2.                                              | R2.                                              | % hpL hpR 
+R2.                                              | R2.                                              | R2.                                              | R2.                                              | R2.                                              | % vn vII va vc cb 
 
 
 
@@ -9628,7 +9619,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
  %bn129
 \time 2/4 dis16 r a g fis8 c                             | \lyricmode{Christ, what a pla -- net.. }           | 
-dis16 b a g fis8 c                                       | r2                                                 |  R2 |  R2 |   % rh lh kbR kbL   
+dis16 b a g fis8 c                                       | R2                                                 |  R2 |  R2 |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -9789,7 +9780,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn145
 \tEE c8 b16 a fis8. a16                                 | \lyricmode{pro -- tes -- tant thing to }   | 
-r2                                                      | r2                                         |  R2 |  R2 |   % rh lh kbR kbL   
+r2                                                      | R2                                         |  R2 |  R2 |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -10319,9 +10310,9 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn193
  % % % % % % 3 bars in one + ossia % % % % % % % %
-<<{\new Staff \with {alignAboveContext = #'"voice"} 
+<<\ossia "voice"
     {\instrumentSwitch "Fitt" r8 g=8(^"(hums)" c8 d e4 d8  c a8 c) r4  }
-  }
+  
   {R2 r4 bes=8\p aes f aes f4 } 
 >> |\lyricmode{  the en -- cir -- cle -- ing }|
 \repeat unfold 3 R2 |\repeat unfold 3 <<f2~ \\ d2~>> |  R2*3 |  R2*3 |   % rh lh kbR kbL   
@@ -10445,3 +10436,6 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 %bnEND
 }
+%}
+
+

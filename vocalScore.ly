@@ -2,7 +2,7 @@
 \score {
 
   <<
-    <<\new Staff \relative c'' {
+    <<\new Staff = "voice" \relative c'' {
       \new Voice = "tune" \melody
     }
     \new Lyrics \lyricsto "tune" \lyrix
