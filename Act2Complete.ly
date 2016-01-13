@@ -13,7 +13,7 @@
 
  %bn1
 \mark \default \time 5/8 b4 c4 r8 | \lyricmode {Oh Dan } |
-<e gis b>4 <e gis c> r8 | r4. r4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
+<e=' gis b>4 <e gis c> r8 | r4. r4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
@@ -22,7 +22,7 @@ r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII va vc cb
 
  %bn2
 \time 3/8 \times 2/3 {c4 b8 } gis | \lyricmode {there you are } |
-<<{\times 2/3 {c4 b8~} b}\\{a4 gis8}\\e4.>>|R4. |  R4. |  R4. |   % rh lh kbR kbL 
+<<{\times 2/3 {c'=''4 b8~} b}\\{a4 gis8}\\e4.>>|R4. |  R4. |  R4. |   % rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
@@ -179,7 +179,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
  %bn19
-\time 8/8 \set Timing.beatStructure = #'(3 3 2) c4. des4. c8 des  | \lyricmode {way then you are } |
+\time 8/8 \set Timing.beatStructure = #'(3 3 2) c4. \instrumentSwitch "Rooney" des4. c8 des  | \lyricmode {way then you are } |
 <cis e>4.\! r4. r4 | <f aes c>4. r4. r4 |  R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
@@ -198,7 +198,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
  %bn21
 \time 2/4 \EE \instrumentSwitch "Jerry" ees4 ees | \lyricmode {yes ma'am } |
-<ees= ges bes>4 <ees ges bes> | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+R2 |<ees= ges bes>4 <ees ges bes> |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -215,7 +215,7 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 
  %bn23
-\time 2/4 \dEQ b8\! ais gis ais | \lyricmode {here? you did not } |
+\time 2/4 \dEQ b8\! bes aes bes | \lyricmode {here? you did not } |
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
@@ -224,7 +224,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
 
  %bn24
-\time 5/8 cis8 ais fis eis \instrumentSwitch "Rooney" fis\noBeam | \lyricmode {no -- ti -- fy me  I } | %or quint? check Roony note
+\time 5/8 des8 bes ges des \instrumentSwitch "Rooney" ges\noBeam | \lyricmode {no -- ti -- fy me  I } | %or quint? check Roony note
 r4 r4. | r4 r4. |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
@@ -342,7 +342,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 
  %bn37
 bes4 r \times 2/3 {r4 f8} \times 2/3 {e4 f8 } | \lyricmode {tie! you have it } |
-\absolute {<cis' g' ais'>4\arpeggio r \times 2/3 {r4 f'8} \times 2/3 {e'4 f'8~ } } |\absolute { <cis e ais>4 } r2.|  R1 |  R1 |   % rh lh kbR kbL 
+\absolute {<des' g' bes'>4\arpeggio r \times 2/3 {r4 f'8} \times 2/3 {e'4 f'8~ } } |\absolute { <des e bes>4 } r2.|  R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -387,7 +387,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
  %bn42
 \time 2/2 \instrumentSwitch "Dan" c4 \times 2/3 {b8 a g }fis8 g e a | \lyricmode {why did you not can -- el the boy? } |
-R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL 
+<< {c=''4( \times 2/3 {b8 a g }fis8 g e a) }\\< e=' g c>1-> >>|<< {c='4( \times 2/3 {b8 a g }fis8 g e a) }\\<c= e g c>1-> >>| R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -396,16 +396,16 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 
  %bn43
 bes4 a16 g f e d8 e r cis | \lyricmode {now we shall have to give him a } |
-R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL 
+<< {bes='4( a16 g f e d8 e) r cis }\\<d=' f bes>1-> >> |<< {bes=4( a16 g f e d8 e) r cis }\\<bes=, d f bes>1-> >> |  R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
-R1 | R1 | % hpL hpR 
+R1 | R1 | % hpL hpR-> 
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 
  %bn44
 \tQQ fis4 ais, \instrumentSwitch "Rooney" e='4. e8 | \lyricmode {pen -- ny I for -- } |
-R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL 
+fis='4 r <e=' g b e>4.-> q8  |fis=4 <fis=,, fis'>4 r2 |  R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -415,7 +415,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
  
  %bn45
 \time 6/8 e4. r8 e e | \lyricmode {got. I had } |
-<e g b e>2.\arpeggio | e8 g b e b g |  R2. |  R2. |   % rh lh kbR kbL 
+<e g b e>2.\arpeggio | << { e=8 g b e b g }\\ <e=,, b' e>2. >> |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -424,7 +424,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
  %bn46
 \times 3/2 {f8 ees} \times 3/2 { d8( c)} | \lyricmode {such a time } |
-R2. | ees2. |  R2. |  R2. |   % rh lh kbR kbL 
+R2. | ees=2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -442,7 +442,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn48
 b8 bes e8. bes16 | \lyricmode {hor -- rid nas -- } |
-f=8 ges g aes | <cis=, cis'>8.  <c c'> <b b'>8 |  R2 |  R2 |   % rh lh kbR kbL 
+R2  |<< { f=8(^"R.H." ges g aes }\\ {<cis=, cis'>8.  <c c'> <b b'>8 }>> |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -451,7 +451,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn49
 aes8 g r fis' | \lyricmode {ty peo -- ple be } |
-e4 r | <bes bes'> r |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | << e=4)\\ <bes=,, bes'> >> r |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -595,7 +595,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
 
  %bn1
-\mark \default \mark \default \instrumentSwitch "Rooney" \time 5/8 e='8 c e bes'4 | \lyricmode {are you not well? } | 
+\mark \default \instrumentSwitch "Rooney" \time 5/8 e='8 c e bes'4 | \lyricmode {are you not well? } | 
 \clef treble  r4. r4 | r4. r4 | r4. r4 | r4. r4 | % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 | r4. r4 | r4. r4 | % hn tpt tn 
