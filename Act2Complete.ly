@@ -312,34 +312,34 @@
 %x%R2 | R2 | R2 | % tym perc fol 
 %x%R2 | R2 | % hpL hpR 
 %x%gis'4 fis'8 e' | R2 |e2| R2 | R2 | % vn vII va vc cb 
-
- %bn34
-\time 3/4 ais4 r8. aes16~ aes8 aes | \lyricmode {turns in the } |
-R2. | r4 <aes aes'>4~ \times 2/3{ <aes aes'>8 <aes aes'>4 }|  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-ais'4 r8. gis'16~ gis'8 gis' |r4 gis~ \times 2/3 {gis8 gis4}|fis4 r2 | r4 gis,~ \times 2/3 {gis,8 gis,4}| R2. | % vn vII va vc cb 
-
- %bn35
-\time 2/4 \dQQ cis8 cis, \instrumentSwitch "Dan" d8 cis16 b | \lyricmode {bath -- room I did -- n't } |
-\absolute { <eis' gis' cis''>8\lv \arpeggio <eis' gis'>\lv d'8 cis'16 b } |r4 d=8 cis16 b |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-cis''8-> cis'~-- cis'16 r8. |gis8-> r4. | f,8-> r8 d'8( cis'16 b)  |cis,8 r  d8( cis16 b,)  | R2 | % vn vII va vc cb 
-
- %bn36
-\time 2/2 \tEE bes8 e,  \instrumentSwitch "Rooney" des=[ bes] g'4 des8 g | \lyricmode {hear you But I gave you a } |
-bes8 e, r2. |bes8 e,\lv r2. |  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | R1 | R1 | % fl ob kl bn 
-R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
-R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
-
+%x%
+%x% %bn34
+%x%\time 3/4 ais4 r8. aes16~ aes8 aes | \lyricmode {turns in the } |
+%x%R2. | r4 <aes aes'>4~ \times 2/3{ <aes aes'>8 <aes aes'>4 }|  R2. |  R2. |   % rh lh kbR kbL 
+%x%R2. | R2. | R2. | R2. | % fl ob kl bn 
+%x%R2. |  R2. |  R2. | % hn tpt  tn 
+%x%R2. | R2. | R2. | % tym perc fol 
+%x%R2. | R2. | % hpL hpR 
+%x%ais'4 r8. gis'16~ gis'8 gis' |r4 gis~ \times 2/3 {gis8 gis4}|fis4 r2 | r4 gis,~ \times 2/3 {gis,8 gis,4}| R2. | % vn vII va vc cb 
+%x%
+%x% %bn35
+%x%\time 2/4 \dQQ cis8 cis, \instrumentSwitch "Dan" d8 cis16 b | \lyricmode {bath -- room I did -- n't } |
+%x%\absolute { <eis' gis' cis''>8\lv \arpeggio <eis' gis'>\lv d'8 cis'16 b } |r4 d=8 cis16 b |  R2 |  R2 |   % rh lh kbR kbL 
+%x%R2 | R2 | R2 | R2 | % fl ob kl bn 
+%x%R2 |  R2 |  R2 | % hn tpt  tn 
+%x%R2 | R2 | R2 | % tym perc fol 
+%x%R2 | R2 | % hpL hpR 
+%x%cis''8-> cis'~-- cis'16 r8. |gis8-> r4. | f,8-> r8 d'8( cis'16 b)  |cis,8 r  d8( cis16 b,)  | R2 | % vn vII va vc cb 
+%x%
+%x% %bn36
+%x%\time 2/2 \tEE bes8 e,  \instrumentSwitch "Rooney" des=[ bes] g'4^"faster?" des8 g | \lyricmode {hear you But I gave you a } |
+%x%bes8 e, r2. |bes8 e,\lv r2. |  R1 |  R1 |   % rh lh kbR kbL 
+%x%R1 | R1 | R1 | R1 | % fl ob kl bn 
+%x%R1 |  R1 |  R1 | % hn tpt  tn 
+%x%R1 | R1 | R1 | % tym perc fol 
+%x%R1 | R1 | % hpL hpR 
+%x%r4 des'8 bes g'4 des'8 g' | R1 |aes8 e~ e4 r2 |aes,8 e,~ e,4 r2 | R1 | % vn vII va vc cb 
+%x%
 %x% %bn37
 %x%bes4 r \times 2/3 {r4 f8} \times 2/3 {e4 f8 } | \lyricmode {tie! you have it } |
 %x%\absolute {<des' g' bes'>4\arpeggio r \times 2/3 {r4 f'8} \times 2/3 {e'4 f'8~ } } |\absolute { <des e bes>4 } r2.|  R1 |  R1 |   % rh lh kbR kbL 
@@ -347,7 +347,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 %x%R1 |  R1 |  R1 | % hn tpt  tn 
 %x%R1 | R1 | R1 | % tym perc fol 
 %x%R1 | R1 | % hpL hpR 
-%x%R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
+%x%bes'4 r \tuplet 3/2 4 {r4 f'8 e'4 f'8} |g'4 r  \tuplet 3/2 4 {r4 f'8 e'4 f'8} |e'4 r2. |des4 r2.| R1 | % vn vII va vc cb 
 %x%
 %x% %bn38
 %x%\time 2/4 d'4 \instrumentSwitch "Dan" c= | \lyricmode {on! What } |
@@ -356,7 +356,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 %x%R2 |  R2 |  R2 | % hn tpt  tn 
 %x%R2 | R2 | R2 | % tym perc fol 
 %x%R2 | R2 | % hpL hpR 
-%x%R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
+%x%d''4 g|<f' aes'>4 c'  |<d b>4 c|r4  ees,4| R2 | % vn vII va vc cb 
 %x%
 %x% %bn39
 %x%\time 2/2 c2 c4. c8 | \lyricmode {age am I } |
@@ -365,7 +365,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 %x%R1 |  R1 |  R1 | % hn tpt  tn 
 %x%R1 | R1 | R1 | % tym perc fol 
 %x%R1 | R1 | % hpL hpR 
-%x%R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
+%x%<<g1 {s8\> s2. s8\!}>>|c'2 c'4. c'8 |c2 c4. c8 | ees,2 ees,4. ees,8 | R1 | % vn vII va vees, ees,b 
 %x%
 %x% %bn40
 %x%c2 \instrumentSwitch "Rooney" cis8 dis4 eis8 | \lyricmode {now? Ne -- ver mind } |
@@ -374,7 +374,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 %x%R1 |  R1 |  R1 | % hn tpt  tn 
 %x%R1 | R1 | R1 | % tym perc fol 
 %x%R1 | R1 | % hpL hpR 
-%x%R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
+%x%r2 cis'8( dis'4 eis'8  |c'2 cis'4.( b8) | c2 ais4.( gis8) |des,1~\>  | R1 | % vn vII va vc cb 
 %x%
 %x% %bn41
 %x%\time 3/4 fis4 r  b4 | \lyricmode {that come! } |
@@ -383,45 +383,45 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 %x%R2. |  R2. |  R2. | % hn tpt  tn 
 %x%R2. | R2. | R2. | % tym perc fol 
 %x%R2. | R2. | % hpL hpR 
-%x%R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
-%x%
-%x% %bn42
-%x%\time 2/2 \instrumentSwitch "Dan" c4 \times 2/3 {b8 a g }fis8 g e a | \lyricmode {why did you not can -- el the boy? } |
-%x%<< {c=''4( \times 2/3 {b8 a g }fis8 g e a) }\\< e=' g c>1-> >>|<< {c='4( \times 2/3 {b8 a g }fis8 g e a) }\\<c= e g c>1-> >>| R1 |  R1 |   % rh lh kbR kbL 
-%x%R1 | R1 | R1 | R1 | % fl ob kl bn 
-%x%R1 |  R1 |  R1 | % hn tpt  tn 
-%x%R1 | R1 | R1 | % tym perc fol 
-%x%R1 | R1 | % hpL hpR 
-%x%R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
-%x%
-%x% %bn43
-%x%bes4 a16 g f e d8 e r cis | \lyricmode {now we shall have to give him a } |
-%x%<< {bes='4( a16 g f e d8 e) r cis }\\<d=' f bes>1-> >> |<< {bes=4( a16 g f e d8 e) r cis }\\<bes=, d f bes>1-> >> |  R1 |  R1 |   % rh lh kbR kbL 
-%x%R1 | R1 | R1 | R1 | % fl ob kl bn 
-%x%R1 |  R1 |  R1 | % hn tpt  tn 
-%x%R1 | R1 | R1 | % tym perc fol 
-%x%R1 | R1 | % hpL hpR-> 
-%x%R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
-%x%
-%x% %bn44
-%x%\tQQ fis4 ais, \instrumentSwitch "Rooney" e='4. e8 | \lyricmode {pen -- ny I for -- } |
-%x%fis='4 r <e=' g b e>4.-> q8  |fis=4 <fis=,, fis'>4 r2 |  R1 |  R1 |   % rh lh kbR kbL 
-%x%R1 | R1 | R1 | R1 | % fl ob kl bn 
-%x%R1 |  R1 |  R1 | % hn tpt  tn 
-%x%R1 | R1 | R1 | % tym perc fol 
-%x%R1 | R1 | % hpL hpR 
-%x%R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
-%x%
-%x% 
-%x% %bn45
-%x%\time 6/8 e4. r8 e e | \lyricmode {got. I had } |
-%x%<e g b e>2.\arpeggio | << { e=8 g b e b g }\\ <e=,, b' e>2. >> |  R2. |  R2. |   % rh lh kbR kbL 
-%x%R2. | R2. | R2. | R2. | % fl ob kl bn 
-%x%R2. |  R2. |  R2. | % hn tpt  tn 
-%x%R2. | R2. | R2. | % tym perc fol 
-%x%R2. | R2. | % hpL hpR 
-%x%R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
-%x%
+%x%fis'4) r b'-. |ais4( g8 ais b4-.) |fis4.( eis8 <dis fis>4-.) |des,2\! r4 | R2. | % vn vII va vc cb 
+
+ %bn42
+\time 2/2 \instrumentSwitch "Dan" c4 \times 2/3 {b8 a g }fis8 g e a | \lyricmode {why did you not can -- el the boy? } |
+<< {c=''4( \times 2/3 {b8 a g }fis8 g e a) }\\< e=' g c>1-> >>|<< {c='4( \times 2/3 {b8 a g }fis8 g e a) }\\<c= e g c>1-> >>| R1 |  R1 |   % rh lh kbR kbL 
+R1 | R1 | R1 | R1 | % fl ob kl bn 
+R1 |  R1 |  R1 | % hn tpt  tn 
+R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | % hpL hpR 
+c''4->\f \times 2/3 {b'8 a' g'} fis' g' e' a' |c'4->\f \times 2/3 {b8 a g} fis' g' e' a' |c1 |c4->\f \times 2/3 {b,8 a, g,} fis, g, e, a, | R1 | % vn vII va vc cb 
+
+ %bn43
+bes4 a16 g f e d8 e r cis | \lyricmode {now we shall have to give him a } |
+<< {bes='4( a16 g f e d8 e) r cis }\\<d=' f bes>1-> >> |<< {bes=4( a16 g f e d8 e) r cis }\\<bes=, d f bes>1-> >> |  R1 |  R1 |   % rh lh kbR kbL 
+R1 | R1 | R1 | R1 | % fl ob kl bn 
+R1 |  R1 |  R1 | % hn tpt  tn 
+R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | % hpL hpR-> 
+bes'4 a'16 g' f' e' d'8 e' r8 cis' |bes'4 a'16 g' f' e' d'8 e' r8 ais |bes4 a16 g f e d8 e~ e4 |bes2. bes4 | R1 | % vn vII va vc cb TODO Check bar end arrangement
+
+ %bn44
+\tQQ fis4 ais, \instrumentSwitch "Rooney" e='4. e8 | \lyricmode {pen -- ny I for -- } |
+fis='4 r <e=' g b e>4.-> q8  |fis=4 <fis=,, fis'>4 r2 |  R1 |  R1 |   % rh lh kbR kbL 
+R1 | R1 | R1 | R1 | % fl ob kl bn 
+R1 |  R1 |  R1 | % hn tpt  tn 
+R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | % hpL hpR 
+ais4. r8 e'4.\f e'8 |fis'4 ais r2  | R1 | R1 | R1 | % vn vII va vc cb TODO check cutoffs
+
+ 
+ %bn45
+\time 6/8 e4. r8 e e | \lyricmode {got. I had } |
+<e g b e>2.\arpeggio | << { e=8 g b e b g }\\ <e=,, b' e>2. >> |  R2. |  R2. |   % rh lh kbR kbL 
+R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | % hpL hpR 
+R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
+
 %x% %bn46
 %x%\times 3/2 {f8 ees} \times 3/2 { d8( c)} | \lyricmode {such a time } |
 %x%R2. | ees=2. |  R2. |  R2. |   % rh lh kbR kbL 
