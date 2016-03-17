@@ -19,4 +19,6 @@
   \new Staff = "vc" \with {instrumentName = #"'cello" shortInstrumentName = #"vc"}{\clef bass \vc}
     >>
   >>
+ \layout{}
+  \midi{}
 }

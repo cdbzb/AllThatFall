@@ -1,0 +1,6 @@
+output=$(basename $1 ".ly")
+echo "output "$output
+
+cat $1 "$PWD"'/score-vocal-midi' > /tmp/cat
+
+lilypond -o /tmp/Quartet /tmp/cat

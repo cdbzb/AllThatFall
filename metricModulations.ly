@@ -194,22 +194,22 @@ tripQuarterEualsEighth = {\once \override TextScript #'padding = #1
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % some definitions
 
-dottedEighthEqualsQuarter = { \metMod #"8." #"4" } %\modTempo #3 #4 }
-quarterEqualsDottedEighth = { \metMod #"4" #"8." } %\modTempo #4 #3 }
+dottedEighthEqualsQuarter = { \metMod #"8." #"4" \modTempo #3 #4 }
+quarterEqualsDottedEighth = { \metMod #"4" #"8." \modTempo #4 #3 }
 
-tripletTest = { \metMod #"3" #"8." } %\modTempo #4 #3 }
+tripletTest = { \metMod #"3" #"8." \modTempo #4 #3 }
 
-eighthEqualsDottedEighth = { \metMod #"8" #"8." } %\modTempo #2 #3 }
-dottedEighthEqualsEighth = { \metMod #"8." #"8" } %\modTempo #3 #2 }
+eighthEqualsDottedEighth = { \metMod #"8" #"8." \modTempo #2 #3 }
+dottedEighthEqualsEighth = { \metMod #"8." #"8" \modTempo #3 #2 }
 
-quarterEqualsEighth = { \metMod #"4" #"8" } %\modTempo #2 #1 }
-eighthEqualsQuarter = { \metMod #"8" #"4" } %\modTempo #1 #2 }
+quarterEqualsEighth = { \metMod #"4" #"8" \modTempo #2 #1 }
+eighthEqualsQuarter = { \metMod #"8" #"4" \modTempo #1 #2 }
 
-quarterEqualsDottedQuarter = { \metMod #"4" #"4." } %\modTempo #2 #3 }
-dottedQuarterEqualsQuarter = { \metMod #"4." #"4" } %\modTempo #3 #2 }
-dottedQuarterEqualsHalf = { \metMod #"4." #"2" } %\modTempo #3 #2 }
+quarterEqualsDottedQuarter = { \metMod #"4" #"4." \modTempo #2 #3 }
+dottedQuarterEqualsQuarter = { \metMod #"4." #"4" \modTempo #3 #2 }
+dottedQuarterEqualsHalf = { \metMod #"4." #"2" \modTempo #3 #2 }
 
-dottedHalfEqualsHalf = { \metMod #"2." #"2" } %\modTempo #3 #2 }
+dottedHalfEqualsHalf = { \metMod #"2." #"2" \modTempo #3 #2 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % BPM versions (todo)
 
@@ -237,9 +237,9 @@ QdQ = \quarterEqualsDottedQuarter
 dQQ = \dottedQuarterEqualsQuarter
 dQH = \dottedQuarterEqualsHalf
 
-tEE = { \tripEighthEqualsEighth } %\modTempo #2 #3 }
-tQQ = { \tripQuarterEqualsQuarter } % \modTempo #2 #3 }
-tQE = { \tripQuarterEualsEighth } %\modTempo #4 #3 }
+tEE = { \tripEighthEqualsEighth \modTempo #2 #3 }
+tQQ = { \tripQuarterEqualsQuarter  \modTempo #2 #3 }
+tQE = { \tripQuarterEualsEighth \modTempo #4 #3 }
 
 EE = {\metMod #"8" #"8"}
 QQ = {\metMod #"4" #"4"}
