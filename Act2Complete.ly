@@ -785,8 +785,8 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
 
  %bn84
-\time 3/8 d32( e) d( cis) d16 f aes b | \lyricmode{ qui -- ve -- ring like a blanc -- } | 
-d32( e) d( cis) d16 f aes b |d32( e) d( cis) d16 f aes b | R4. | R4. | % rh lh kbR kbL 
+\time 6/16 d32( e) d( cis) d16 f aes b | \lyricmode{ qui -- ve -- ring like a blanc -- } |  % was 3/8
+\times 3/5 {d16( e d) cis d} f16 aes b |d32( e) d( cis) d16 f aes b | R4. | R4. | % rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
 R4. | R4. | R4. | % hn tpt tn 
 R4. | R4. | R4. | % tym perc fol 
@@ -794,7 +794,7 @@ R4. | R4. | % hpL hpR
 R4. | R4. | R4. | R4. | R4. | % vn vII va vc cb 
 
  %bn85
-\dEQ \time 3/4 d8 c16 b \times2/3 {a8 gis fis} f8 fis16 dis | \lyricmode{mange! are you in a con -- di -- tion to } | 
+\time 3/4 d8 c16 b \times2/3 {a8 gis fis} f8 fis16 dis | \lyricmode{mange! are you in a con -- di -- tion to } |  %was dEQ
 <b d f>8\arpeggio r <c, e a>2\arpeggio |<b d f>4\arpeggio <<{c='4( cis)}\\a=,2>>| R2. | R2. | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
@@ -858,6 +858,7 @@ R2 | R2 | R2 | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
+
 
  %bn92
 \EE \time 9/8 ais4. b8. ais16 gis fis eis8 fis dis | \lyricmode {cab. then in -- stead of ha -- ving saved } |
@@ -984,7 +985,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 
  %bn105
 \instrumentSwitch "Rooney"
- \time 2/4 \tempo "slow" r4 c='8 b\fermata | \lyricmode{shrou -- ding } | 
+ \time 2/4 \tempo "slow" \once \set Score.tempoHideNote = ##t \tempo 4 = 40   r4 c='8 b\fermata | \lyricmode{shrou -- ding } | 
  r4 gis='4\fermata | ees=8 e4.\fermata | R2 | R2 | % rh lh kbR kbL 
  R2 | R2 | R2 | R2 | % fl ob kl bn 
  R2 | R2 | R2 | % hn tpt tn 
@@ -1019,6 +1020,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
  R2. | R2. | % hpL hpR 
  R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
+%%%proofed to here
  %bn109
 \dQQ \time 2/4 d2 | \lyricmode{ soon } | 
  R2 | r4 <c' ees>8. <bes d>16 | R2 | R2 | % rh lh kbR kbL 
@@ -1074,7 +1076,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
 
  %bn115
-\time 3/4 \times 2/3 {g4 a8} \times 2/3 {b8( a) g} \rit  cis8 \startTextSpan r| \lyricmode{ yet the glass was full... }|
+\time 3/4 \tempo "romantic" 4 = 50 \times 2/3 {g4 a8} \times 2/3 {b8( a) g} \rit  cis8 \startTextSpan r| \lyricmode{ yet the glass was full... }|
 \times 2/3 {g4 a8} \times 2/3 {b8( a) g} \times 2/3 {<g a cis>( d' cis)} | R2. | R2. | R2. | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
@@ -1084,7 +1086,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 
  %bn116
-\QdQ \time 6/8 \times 3/2 {d=8 \stopTextSpan  e} \tempo 4 = 75 r4. | \lyricmode { let us... } | 
+\QdQ \time 6/8 \times 3/2 {d=8 \stopTextSpan  e} r4. | \lyricmode { let us... } | %%% rit here? second half slower at least
 r2. | r4. d=,8 a' fis'  | R2. | R2. | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
@@ -1213,7 +1215,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
 
  %bn130
-b'8-> g a b | \lyricmode{ wait! I have been } | 
+\tempo "lively" 4=112 b'8-> g a b | \lyricmode{ wait! I have been } | 
 <d=' f aes b>8 <g c> <g c> <g c> |<d= f aes b> g a b | R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
@@ -1312,7 +1314,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
  %bn141
-\time 2/4 \EE f8 e4 dis8 | \lyricmode{ se -- ven or } | 
+\time 2/4 \EE \rit f8 \start e4 dis8 | \lyricmode{ se -- ven or } | 
 R2 | R2 | R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
@@ -1321,7 +1323,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
 
  %bn142
-\time 7/8 \set Timing.beatStructure = #'(3 2 2) fis4 eis8 dis8[ \times 2/3 {b8 dis16]} \times 2/3 {cis8 dis16} \times 2/3 {ees8 cis16} | \lyricmode {eight and when I re -- mem -- ber there are } |
+\time 7/8 \set Timing.beatStructure = #'(3 2 2) fis4 eis8 dis8[ \times 2/3 {b8 \stop \tempo "" 4 = 85 dis16]} \times 2/3 {cis8 dis16} \times 2/3 {ees8 cis16} | \lyricmode {eight and when I re -- mem -- ber there are } |
 r4. r4 r4 |r4. r4 r4 | r2 r4. | r2 r4. | % rh lh kbR kbL 
 r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
 r2 r4. | r2 r4. | r2 r4. | % hn tpt tn 
@@ -1357,7 +1359,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
  %bn146
-\time 3/4 d8 c bes16 aes ges aes bes c d e | \lyricmode{ when I fin -- al -- ly re -- mem -- ber there are } | 
+\rt \time 3/4 d8 c bes16 aes ges aes bes c d e | \lyricmode{ when I fin -- al -- ly re -- mem -- ber there are } | 
 R2. | R2. | R2. | R2. | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
@@ -1384,7 +1386,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
  %bn149
-\time 3/4 \dQQ r8 f16 ges16~ ges f16 aes8 \times 2/3 {a=8 g f}| \lyricmode{ or eight or nine! some -- times I } |
+\time 3/4 \QE r8 f16 ges16~ ges f16 aes8 \times 2/3 {a=8 g f}| \lyricmode{ or eight or nine! some -- times I } |
 r2 \times 2/3{a='8 g f}| r2 g=,4~ | R2. | R2. | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
@@ -1465,7 +1467,7 @@ r4 r8. | r4 r8. | % hpL hpR
 r4 r8. | r4 r8. | r4 r8. | r4 r8. | r4 r8. | % vn vII va vc cb 
 
  %bn158
-\time 5/8 c'8 c gis16 e c8 \instrumentSwitch "Rooney" f='8\noBeam |\lyricmode{great plea -- sures of life. Not }|
+\time 5/8 c'8 c gis16 e \tempo "Andante" 4 = 80 c8 \instrumentSwitch "Rooney" f='8\noBeam |\lyricmode{great plea -- sures of life. Not }|
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 | r4. r4 | r4. r4 | % hn tpt tn 
@@ -1493,7 +1495,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
 
  %bn161
-fis8 e \rit d\startTextSpan cis16 g'(\stopTextSpan | \lyricmode{ al -- ways get them }|
+\rit fis8\startTextSpan e \rt d cis16 \rt g'(\stopTextSpan | \lyricmode{ al -- ways get them }|
 R2 |<<{ fis=8 e d cis }\\{b=,4 fis~}>> | R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 

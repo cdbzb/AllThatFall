@@ -1,8 +1,0 @@
-#! /bin/bash
-output=$(basename $1 ".ly")
-echo "output "$output
-
-cat $1 '/Volumes/Zippy/puddle/All That Fall Lilypond Scores/quartet_score.ly' > /tmp/cat
-
-lilypond -o "/Volumes/Zippy/puddle/All That Fall Lilypond Scores/""$output"-Quartet /tmp/cat
-

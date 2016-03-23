@@ -1,10 +1,6 @@
 #! /bin/bash
 output=$(basename $1 ".ly")
-echo PWD "$PWD"
 
-echo "output "$output
-
-#cat $1 '/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/quartet_score.ly' > /tmp/cat
 cat $1 "$PWD"'/quartet_score.ly' > /tmp/cat
 
 

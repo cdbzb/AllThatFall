@@ -2,7 +2,7 @@
 output=$(basename $1 ".ly")
 echo "output "$output
 
-cat $1 '/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/score_14_instruments.ly' > /tmp/cat
+cat $1 "$PWD"/score-14-instruments.ly > /tmp/cat
 
-lilypond -o "/home/michael/myhack/Volumes/Zippy/puddle/All That Fall Lilypond Scores/""$output"-Full /tmp/cat
+lilypond -o "$PWD"/"$output"-Full /tmp/cat
 

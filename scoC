@@ -1,0 +1,8 @@
+#! /bin/bash
+output=$(basename $1 ".ly")
+echo "output "$output
+
+cat $1 "$PWD"/score-conductor.ly > /tmp/cat
+
+lilypond -o "$PWD"/"$output"-Conductor /tmp/cat
+
