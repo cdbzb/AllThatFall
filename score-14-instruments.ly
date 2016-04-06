@@ -1,3 +1,5 @@
+\layout {\context { \Score { \override Rest #'transparent = ##t 
+			     \override MultiMeasureRest #'transparent = ##t	}}}
 
 \score {
   <<
