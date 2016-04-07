@@ -2565,7 +2565,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
  
  
  %bn258
- \time 3/4 \instrumentSwitch "Rooney" b=8 gis d' b \times 2/3 { c d e( } | \lyricmode {but you must know you were } |
+ \tempo "slower" 4 = 100 \time 3/4 \instrumentSwitch "Rooney" b=8 gis d' b \times 2/3 { c d e( } | \lyricmode {but you must know you were } |
  <f gis b>2. | d2. \ottava #0 |  R2. |  R2. |   % rh lh kbR kbL   
  R2. | R2. | R2. | R2. | % fl ob kl bn 
  R2. |  R2. |  R2. | % hn tpt  tn 
@@ -2595,34 +2595,34 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
  
 
 %bn261
- \time 3/4 ces16 bes aes8 r aes16 bes des8 bes | \lyricmode {ter -- mi -- nus? did you leave on } |
- <d f aes ces>2\arpeggio <des des'>4~ | d=2 des'4 |  R2. |  R2. |   % rh lh kbR kbL   
- R2. | R2. | R2. | R2. | % fl ob kl bn 
- R2. |  R2. |  R2. | % hn tpt  tn 
- R2. | R2. | R2. | % tym perc fol 
- R2. | R2. | % hpL hpR 
- R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
- 
- 
- %bn262
- \time 3/4 e,8^"slower" r16 g16 des' bes e des g4 | \lyricmode {time or was it on the line? } |
- R2. | <e,, e'>2 <gis' a>4:32~ |  R2. |  R2. |   % rh lh kbR kbL   
- R2. | R2. | R2. | R2. | % fl ob kl bn 
- R2. |  R2. |  R2. | % hn tpt  tn 
- R2. | R2. | R2. | % tym perc fol 
- R2. | R2. | % hpL hpR 
- R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
- 
- 
- %bn263
- \time 2/4 r16 f, b aes d b f' d | \lyricmode {did some -- thing hap -- pen on the } |
+\time 3/4 ces16 bes aes8 r aes16 bes des8 bes | \lyricmode {ter -- mi -- nus? did you leave on } |
+<d f aes ces>2\arpeggio <des des'>4~ | d=2 des'4 |  R2. |  R2. |   % rh lh kbR kbL   
+R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | % hpL hpR 
+R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
+
+
+%bn262
+\time 3/4 e,8^"slower" r16 g16 des' bes e des g4 | \lyricmode {time or was it on the line? } |
+R2. | <e,, e'>2 <gis' a>4:32~ |  R2. |  R2. |   % rh lh kbR kbL   
+R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | % hpL hpR 
+R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
+
+
+%bn263
+\time 2/4 r16 f, b aes d b f' d | \lyricmode {did some -- thing hap -- pen on the } |
 R2 | <gis a>2:32  |  R2 |  R2 |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
- 
+
 
 %bn264
 gis4 gis | \lyricmode {line? Dan! } |
