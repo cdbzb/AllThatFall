@@ -1,8 +1,0 @@
-#! /bin/bash
-output=$(basename $1 ".ly")
-
-cat $1 "$PWD"'/quartet_score.ly' > /tmp/cat
-
-
-lilypond -o "$PWD""/$output"-Quartet /tmp/cat
-

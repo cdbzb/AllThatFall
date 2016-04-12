@@ -1,9 +1,0 @@
-
-\score { << 
-    \new Staff {\relative c'' \melody}
-    \new Staff { \relative c'' \rh }
-    \new Staff { \relative c \lh }
-  >>
-
-  \midi {}
-}

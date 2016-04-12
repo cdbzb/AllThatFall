@@ -1,8 +1,0 @@
-#! /bin/bash
-output=$(basename $1 ".ly")
-echo "output "$output
-
-cat $1 "$PWD"/vocalScore.ly > /tmp/cat
-
-lilypond -o "$PWD"/"$output"-Vocal /tmp/cat
-
