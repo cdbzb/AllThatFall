@@ -2205,7 +2205,6 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
 
 
-%}
 
 \tempo 4 = 80 %dummy
 
@@ -2643,7 +2642,6 @@ R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR 
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
  
-%{
 %bn266
 \time 3/4 \EE R2. | |
 \clef bass fis,,2( g4) | << {fis,4( g2)} \\ <g, d>2. >> |  R2. |  R2. |   % rh lh kbR kbL   
@@ -2841,11 +2839,9 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 
 
+%}
 
-
-
-\EQ %%%% double durations below would be better
-  \time 3/4  cis16 dis e fis \times 2/3 {aes4 fis8} \times 2/3 {a4 fis8}| \lyricmode {do you ev -- er wish to kill a } | % longer kill??
+  \tempo "slow" 4 = 50 \time 3/4  cis16 dis e fis \times 2/3 {bes4 fis8} \times 2/3 {a4\fermata^"poco" fis8}| \lyricmode {do you ev -- er wish to kill a } | % longer kill??
   R2. | cis16\<\pp dis e fis aes8-.\! fis-. <a b>-. fis-. |  R2. |  R2. |   % rh lh kbR kbL   
   R2. |R2. |R2. |R2. | % fl ob kl bn 
   R2. |  R2. | R2. | % hn tpt  tn 
@@ -2892,7 +2888,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
   R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb 
 
   %bn291
-  e8 d e fis | \lyricmode {win -- ter on the } |
+  e8 d e \rit fis \start | \lyricmode {win -- ter on the } |
   R2 | d2 |  R2 |  R2 |   % rh lh kbR kbL   
   R2 |R2 |R2 |R2 | % fl ob kl bn 
   R2 |  R2 | R2 | % hn tpt  tn 
@@ -2901,7 +2897,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
   R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb 
 
   %bn292
-  b,4 b | \lyricmode {long road } |
+  b,4 b \stop | \lyricmode {long road } |
   R2 | gis8( d') fis,( d') |  R2 |  R2 |   % rh lh kbR kbL   
   R2 |R2 |R2 |R2 | % fl ob kl bn 
   R2 |  R2 | R2 | % hn tpt  tn 
@@ -2910,7 +2906,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
   R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb 
 
   %bn293
-  \times 2/3 {bes4 aes8} \times 2/3 {bes ces d} | \lyricmode {home I near -- ly a -- } |
+  \tempo "a tempo" \times 2/3 {bes4 aes8} \times 2/3 {bes ces d} | \lyricmode {home I near -- ly a -- } |
   R2 | f,2 |  R2 |  R2 |   % rh lh kbR kbL   
   R2 |R2 |R2 |R2 | % fl ob kl bn 
   R2 |  R2 | R2 | % hn tpt  tn 
@@ -2929,7 +2925,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 
   %bn295
-  \time 2/4 \dQQ fis'8( d) b ais | \lyricmode {poor Jer -- ry! } | %%%%CHECK METMOD
+  \time 2/4 \tempo "slower" 4 = 33 fis'8( d) b ais | \lyricmode {poor Jer -- ry! } | %%%%CHECK METMOD
   <<{fis'=''8( d b bes} \\ <g b d fis>2>> | << {r4 ees~( }\\ g,2 >> |  R2 |  R2 |   % rh lh kbR kbL   
   R2 |R2 |R2 |R2 | % fl ob kl bn 
   R2 |  R2 | R2 | % hn tpt  tn 
@@ -2945,6 +2941,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
   R2 |R2 |R2 | % tym perc fol 
   R2 |R2 | % hpL hpR 
   R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb 
+
 
   %bn297
   \time 3/4 c4 r8 cis8 cis8. cis16 | \lyricmode {then? not fear of } |
@@ -2964,6 +2961,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
   R2 |R2 | % hpL hpR 
   R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb 
 
+  %{
 
   %bn299
   b8. e16 fis8 dis | \lyricmode {shall we go on } |
