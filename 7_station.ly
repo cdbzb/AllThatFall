@@ -15,6 +15,7 @@
 \override Score.RehearsalMark #`break-visibility = #begin-of-line-invisible
 
  %bn1
+ \tempo 4 = 60 %dummy
 \tempo "sempre rit" \instrumentSwitch "Rooney"
 \time 2/2 a=2~ a8 g e c | \lyricmode {Thank you miss Fitt } |
 <f=' a>2~ <f a>8 <e g> <c e> <g c>) | <c c'>1 |  R1 |  R1 |   % rh lh kbR kbL 
