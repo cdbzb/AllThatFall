@@ -17,7 +17,6 @@ tag = \date
 %{
 
 
-%}
 %bn1
 \tempo 4 = 80 \mark \default \time 5/8 b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
@@ -63,6 +62,7 @@ r2. r2. r2 | r2. r2. r2 | r2. r2. r2 | % tym perc fol
 r2. r2. r2 | r2. r2. r2 | % hpL hpR
 fis'2 g'4 gis'2 g'4 gis'2 | b'2. c'' c''2 | fis4--(  g2) gis4--( a2) a | <fis, cis>2. <gis, dis> q2 | r2. r2. r2 | % vn vII va vc cb
 
+%}
 %bn6
 \dQQ \time 2/4 b16 a  gis fis c'8 dis, | \lyricmode {where in the world were you } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -99,6 +99,7 @@ R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
 r4 d'''8-- d' |r4 <a' fis''>4->  |<d bes>4 r4 |bes,4 d'\trill    | R2 | % vn vII va vc cb
 
+%{
 %bn10
 \instrumentSwitch "Dan"
 \times 2/3 {dis4 fis,8 r d' dis } | \lyricmode {kiss you? in the } |
@@ -8199,7 +8200,6 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn896
 
-%{
 %}
 }
 

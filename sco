@@ -32,8 +32,8 @@ case $players in
 		cat <<EOF >> /tmp/cat 
 \score {
 <<
-    <<\new Staff = "voice" \relative c'' { \hiddenTempo 60
-      \new Voice = "tune" \melody
+    <<\new Staff = "voice" \relative c'' { 
+      \new Voice = "tune" \hiddenTempo 60 \melody
     }
     \new Lyrics \lyricsto "tune" \lyrix
   >>
