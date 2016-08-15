@@ -145,12 +145,12 @@ case $format in
 	m) 
 		echo '\midi{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
-		lilypond -o /tmp/Quartet /tmp/cat
+		lilypond -o /tmp/Quartet /tmp/cat ## TODO change name in relevant reaperscript or even do command line call to reaper..... YES!
 	;;
 	s) 
 		echo '\layout{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
-		lilypond -o "$PWD"/"$output"-"$suffix"_"$stamp" /tmp/cat
+		lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
 	;;
 esac
 
