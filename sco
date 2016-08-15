@@ -1,7 +1,24 @@
 #! /bin/bash
 
-getopts "ms" format
+#############
+# USAGE: sco -[qvfc][ms]
+# score types
+# q quartet
+# v vocal
+# f full
+# c conductor
+
+# options
+# m midi
+# s score
+# d date stamp
+
+#############
+
 getopts "qvfc" players
+getopts "ms" format
+getopts "d" datestamp
+
 echo "$players"
 
 output=$(basename $2 ".ly")
@@ -15,7 +32,7 @@ case $players in
 		cat <<EOF >> /tmp/cat 
 \score {
 <<
-    <<\new Staff = "voice" \relative c'' {
+    <<\new Staff = "voice" \relative c'' { \hiddenTempo 60
       \new Voice = "tune" \melody
     }
     \new Lyrics \lyricsto "tune" \lyrix
@@ -49,8 +66,9 @@ EOF
 	f)   ##### FULL
 		suffix="Full"
 		cat <<EOF >> /tmp/cat 
-\layout {\context { \Score { \override Rest #'transparent = ##t 
-			     \override MultiMeasureRest #'transparent = ##t	}}}
+\layout {\context { \Staff \RemoveEmptyStaves }
+	 \context { \RhythmicStaff \RemoveEmptyStaves }
+}
 
 \score {
   <<
@@ -111,6 +129,17 @@ EOF
 		;;
 esac
 
+### add optional datestamp
+case $datestamp in
+	d)
+		stamp=`date "+%y%m%d"` 
+		# should this be padded ?
+	;;
+	*)
+		stamp=""
+	;;
+esac
+
 ### select MIDI or layout
 case $format in
 	m) 
@@ -121,7 +150,10 @@ case $format in
 	s) 
 		echo '\layout{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
-		lilypond -o "$PWD"/"$output"-"$suffix" /tmp/cat
+		lilypond -o "$PWD"/"$output"-"$suffix"_"$stamp" /tmp/cat
 	;;
 esac
+
+
+
 

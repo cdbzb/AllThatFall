@@ -4,9 +4,16 @@
 \include "Global.ly"
 \include "./metricModulations.ly"
 \include "./voiceDefinitions.ly"
+\include "./layoutFile.ly"
+\include "./AddNote.ly"
+
+date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 
 \header {
-  tagline = "" 
+subtitle = \date
+tag = \date
+}
+
 }
 
 \parallelMusic #'( melody lyrix rh lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR vn vII va vc cb) {

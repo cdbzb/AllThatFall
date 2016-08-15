@@ -17,7 +17,7 @@
 %{
 
 %}
-%bn1  
+%bn1 %sec1
   \tempo 4 = 70 %dummy
   \time 2/4 r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |     % lh rh kbR kbL 
@@ -1917,7 +1917,7 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
   R2. | g,4~ <c, g, c>2\fermata | r4 c2\p\fermata | % va vc cb
 
 
-  %bn178 
+  %bn178 %sec2
   \mark \default \time 9/16 \tempo 8. = 60 %dummy
   r8. r8. r8. |    | %
   e''8 dis16 cis8 b16 cis8 a16   | r8. r8. r8. |  r8. r r |  r8. r r |   % rh lh kbR kbL 
@@ -3559,7 +3559,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 %{
 
-%bn352
+%bn352 %sec3
 \mark \default   \time 3/4 \instrumentSwitch "Tyler" f='4 \times 2/3 {r8 f f} \times 2/3 {f( e) c}|\lyricmode{Come Miss --es Roo -- ney... }| % or a4  \times 2/3 {r8 a a} etc.
   <c='' f a>2 <c e a>4 | <f= f'>2 <e e'>4 |  R2. |  R2. |   %rh lh kbR kbL 
   R2. | R2. | R2. | R2. | % fl ob kl bn 
@@ -4494,7 +4494,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc vb
 
 
 
-%bn452
+%bn452 %sec4
 \mark \default \instrumentSwitch  "Slocum" \tempo 4 = 70 % check this
 \time 4/4 R1 | | 
 \clef bass a=1:32^"motor tempo ad lib" |\clef bass <a=,g d'>1:32 |  R1 |  R1 |   % rh lh kbR kbL 
@@ -5632,7 +5632,7 @@ R2. |  R2. |  R2. | % tym perc fol
 R2. |  R2. | % hpL hpR 
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
-%bn575
+%bn575 
 \mark \markup { \musicglyph #"scripts.ufermata" } \times 2/3 {fis,4 gis8} gis4 ais | \lyricmode {through the wind -- shield } |
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
@@ -8122,7 +8122,7 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. | % vn vII va vc cb 
 
 
- %bn840
+ %bn840 %sec5
 \tempo 4. = 60  % default - check this tempo
 \mark \default \time 2/4
 r4. b='8 | \lyricmode {Miss } |

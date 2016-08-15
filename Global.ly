@@ -24,6 +24,12 @@ finalBar = \bar "|."
  
 gliss = \glissando
 
+hiddenTempo = #(define-music-function (parser location bpm) (number?)
+	#{
+	\once \set Score.tempoHideNote = ##t \tempo 4 = #bpm
+	#}
+	)
+
 ossia = #(define-music-function (parser location staffname music) (string? ly:music?)
 		#{
 		\new Staff = "ossia" \with {alignAboveContext = $staffname } % firstClef = ##f }

@@ -134,6 +134,27 @@ quarterTriplet = \markup {
     }
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% markup writes a quarter tied to a dotted quarter
+%%%%%%%%%%%%%%%%%%%%%%%%%
+dottedQuarterTiedToQuarter = \markup {
+    \score {
+        \new RhythmicStaff \with {
+            \remove Time_signature_engraver 
+            \remove Staff_symbol_engraver
+            fontSize = #1
+        }
+        {
+             { %r4
+	    b4.^~  b4 }  %unfortunately, the alignment suffers if the slur is down 
+        }
+        \layout { 
+            ragged-right = ##t
+            indent = #0
+        }
+    }
+}
+
 eighth = \markup {
     \score {
         \new RhythmicStaff \with {
@@ -168,6 +189,23 @@ quarter = \markup {
     }
 }
 
+dottedQuarter = \markup {
+    \score {
+        \new RhythmicStaff \with {
+            \remove Time_signature_engraver 
+            \remove Staff_symbol_engraver
+            fontSize = #1
+        }
+        {
+            b4.   %unfortunately, the alignment suffers if the slur is down 
+        }
+        \layout { 
+            ragged-right = ##t
+            indent = #0
+        }
+    }
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % definition from lsr
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -189,6 +227,10 @@ tripQuarterEualsEighth = {\once \override TextScript #'padding = #1
 	      	\general-align #Y #down \eighth
 	      } }
 		
+dottedQuarterTiedToQuarterEqualsDottedQuarter = { \once \override TextScript #'padding = #1 
+		\tempo \markup { \general-align #Y #down \dottedQuarterTiedToQuarter  = %\small \general-align #Y #down \note #"8" #1 
+	      	\general-align #Y #down \dottedQuarter
+	      } }
         
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
