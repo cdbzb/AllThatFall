@@ -14,13 +14,12 @@ subtitle = \date
 tag = \date
 }
 
-}
+
 
 \parallelMusic #'( melody lyrix rh lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR vn vII va vc cb) {
 
-
 \override Score.RehearsalMark #`break-visibility = #begin-of-line-invisible
-
+%{
  %bn1
  \tempo 4 = 60 %dummy
 \tempo "sempre rit" \instrumentSwitch "Rooney"
@@ -43,7 +42,7 @@ R1  | R1  | R1  | R1  | R1  | % vn vII va vc cb
 
  %bn3
 r2 d4 e8 c | \lyricmode {that will do } |
-r2 <f aes d>2 | <g g'>2)  aes'( |  R1 |  R1 |   % rh lh kbR kbL 
+r2 <f aes~ d>2 | <g g'>2)  aes'( |  R1 |  R1 |   % rh lh kbR kbL 
 R1  | R1  | R1  | R1  | % fl ob kl bn 
 R1  |  R1 |  R1  | % hn tpt  tn 
 R1  | R1  | R1  | % tym perc fol 
@@ -53,7 +52,7 @@ R1  | R1  | R1  | R1  | R1  | % vn vII va vc cb
 
  %bn4
 \time 2/4 r8 b cis d | \lyricmode {just prop me } |
-R2 | <fes, fes'>2) |  R2 |  R2 |   % rh lh kbR kbL 
+aes2 | <fis, fis'>2~ |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -62,7 +61,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn5
 fis8 d e fis | \lyricmode {up a -- gainst the } |
-R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | <fis fis'>~ |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -71,7 +70,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn6
 \dQQ a8 gis16  a fis16-- gis16  a b(  | \lyricmode {wall like a load of tar -- paul -- } |
-R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | <fis fis'>2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -80,7 +79,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn7
 \rit cis8)\start  b16 cis  a8 b16 cis | \lyricmode {lin and that wil be } |
-R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | e2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -89,7 +88,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn8
 \time 3/4 cis4 \times 2/3 {d8 a16 } \times 2/3 {f8 e16 } r8\stop  f| \lyricmode {all for the mo -- ment I } |
-R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
+R2. |d2.) |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -215,8 +214,8 @@ d4.)\stop c8 |  \lyricmode {you } |
   r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. | % vn vII va vc cb 
 
  %bn22
-  \time 2/4 \EE e'='8 c bes ges | \lyricmode {fist class smo -- kers } |
-  R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+  \time 2/4 \EE e'='8 c bes ges | \lyricmode {first class smo -- kers } |
+e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL 
   R2 | R2 | R2 | R2 | % fl ob kl bn 
   R2 |  R2 |  R2 | % hn tpt  tn 
   R2 | R2 | R2 | % tym perc fol 
@@ -377,6 +376,7 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
+%}
  %bn40
    \instrumentSwitch "Rooney" \time 5/8 bes=4\noBeam aes ges8 | \lyricmode {do not im -- } |
    r4. r4 | bes4~ bes4.~ |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
@@ -406,7 +406,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn43
    \time 2/4 \EE ees8 f g ees | \lyricmode {that I am not } |
-   R2 | bes2 |  R2 |  R2 |   % rh lh kbR kbL 
+   r4. ees='8~ | bes2 |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
@@ -415,7 +415,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn44
    \dEE a8 f \times 2/3 {f4 f8 } | \lyricmode {pre -- sent and a -- } |
-   r4. f8~( | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+   <ees f a>4 r8 f8~( | R2 |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
@@ -424,7 +424,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn45
    c'4. b8 | \lyricmode {live to } |
-   <f aes c>2) | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+   <f aes c>2) | <f=~ aes~ c>2 |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
@@ -433,7 +433,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn46
    \time 3/4 \tEE b4 aes8 ges f ees | \lyricmode {all that is go -- ing } |
-   R2.  | R2. |  R2. |  R2. |   % rh lh kbR kbL 
+   <f aes b>2\>( ees4) | <f aes b~>2.\> |  R2. |  R2. |   % rh lh kbR kbL 
    R2. | R2. | R2. | R2. | % fl ob kl bn 
    R2. |  R2. |  R2. | % hn tpt  tn 
    R2. | R2. | R2. | % tym perc fol 
@@ -442,7 +442,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn47
    \time 2/4 a8 r4 \instrumentSwitch "Tyler" f16\noBeam g  | \lyricmode {on When you } |
-   R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+   R2 | b4\! r |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
@@ -478,7 +478,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn51
    \time 2/4 g4 \times 2/3 {g,4 aes8 } | \lyricmode {mo -- ment be -- } |
-   R2 | g4~ \times 2/3 {g4 aes8} |  R2 |  R2 |   % rh lh kbR kbL 
+   R2 | g4~ \times 2/3 {g4 aes8\lv} |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
@@ -487,7 +487,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn52
    \times 2/3 {bes4 c8}   \times 2/3 {d4 bes8} | \lyricmode {cause I hold a -- } |
-   R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+   r4 \times 2/3 {r4 bes=8~}| R2 |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
@@ -496,7 +496,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 
  %bn53
    e4 b8 c | \lyricmode {loof that my } |
-R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+  bes=4 r | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -505,7 +505,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn54
 \time 3/4 \times 2/3 {b8 c b~ } b a ees'4 | \lyricmode {suf -- fer -- ings have ceased } | %NOTES HERE???? 
-R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
+r4. a | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -521,6 +521,7 @@ R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR 
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb   
 
+%{
  %bn56
 r4. \times 3/4 { b8 cis dis e } | \lyricmode {the en -- ti -- re } |
 R2. | e4. r |  R2. |  R2. |   % rh lh kbR kbL 
@@ -2395,6 +2396,7 @@ R8 | R8 | R8 | R8 | R8 | % vn vII va vc cb
 
 
  %bnEND
+
 }
 
 
@@ -2403,11 +2405,9 @@ R8 | R8 | R8 | R8 | R8 | % vn vII va vc cb
 %   \Score %\consists "Measure_grouping_engraver"
 %    \override Score.RehearsalMark.break-visibility = ##( #t #t #f)
 % }
-%}
 % %
 %
 
-%{
 \score {
   <<
     <<\new Staff = "voice" \relative c'' {
@@ -2421,5 +2421,5 @@ R8 | R8 | R8 | R8 | R8 | % vn vII va vc cb
   \new Staff \relative c {\clef bass \lh}
 >>
 >>
-}
 %}
+}
