@@ -20,6 +20,7 @@ tag = \date
 
 \override Score.RehearsalMark #`break-visibility = #begin-of-line-invisible
 %{
+%}
  %bn1
  \tempo 4 = 60 %dummy
 \tempo "sempre rit" \instrumentSwitch "Rooney"
@@ -1535,7 +1536,6 @@ R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR 
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
-%}
  %bn167
 \time 2/4 fis4 d'8 cis | \lyricmode {gree we are } |
 R2 |d=4\mp fis,|  R2 |  R2 |   % rh lh kbR kbL 
@@ -1572,7 +1572,6 @@ R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR 
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 
-%{
  %bn171
 \time 7/8 \dQQ r4 \instrumentSwitch "Barrell" e=8\noBeam fis4 cis8 ais | \lyricmode {Ex -- cuse me a } | % % check rhythm!!
 <fis a c dis>4.-> r2 | r4. r2 |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
@@ -2078,7 +2077,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
 
  %bn226
-\time 2/4 \instrumentSwitch "Rooney" \times 2/3 {r4 c='8} f'8 aes, | \lyricmode {the up train! } |
+\time 2/4 \instrumentSwitch "Rooney" \times 2/3 {r4 c=8} f'8 aes, | \lyricmode {the up train! } |
 R2 | << {d=2:32\glissando\fermata(} \\ {<bes aes>:32\glissando(} >> |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
@@ -2143,7 +2142,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
  %bn233
 \time 11/16 r2 r8. | |
-f,=16 f' e, e' c, c' b, b' d, d' a,_"etc." | r2 r8. |  r2 r8. |  r2 r8. |   % rh lh kbR kbL 
+  r2 r8. |f,=16 f' e, e' c, c' b, b' d, d' a,_"etc." |  r2 r8. |  r2 r8. |   % rh lh kbR kbL 
  r2 r8.  |  r2 r8.  |  r2 r8.  |  r2 r8.  | % fl ob kl bn 
  r2 r8.  |  r2 r8. |   r2 r8.  | % hn tpt  tn 
  r2 r8.  |  r2 r8.  |  r2 r8.  | % tym perc fol 
@@ -2152,7 +2151,7 @@ f,=16 f' e, e' c, c' b, b' d, d' a,_"etc." | r2 r8. |  r2 r8. |  r2 r8. |   % rh
 
 
  %bn234
-\time 2/4 g='2 | \lyricmode {Dan! } |
+\time 2/4 \instrumentSwitch "Rooney" g='2 | \lyricmode {Dan! } |
 <aes'=' c ees g>2\arpeggio | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
@@ -2368,7 +2367,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb  
 
  %bn258
-\time 5/8 b4 c4 r8\fermata | \lyricmode {Oh Dan } | % % % %CHECK RHYTHM
+\time 5/8 \instrumentSwitch "Rooney" b=4 c4 r8\fermata | \lyricmode {Oh Dan } | % % % %CHECK RHYTHM
 <e gis b>4 <e gis c> r8 | <b~ b'~>4:32 <b~ b'~>4.:32 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
@@ -2396,6 +2395,7 @@ R8 | R8 | R8 | R8 | R8 | % vn vII va vc cb
 
 
   %bnEND
+%{
 
 
 %\layout {
