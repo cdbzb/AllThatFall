@@ -249,7 +249,7 @@ eighthEqualsQuarter = { \metMod #"8" #"4" \modTempo #1 #2 }
 
 quarterEqualsDottedQuarter = { \metMod #"4" #"4." \modTempo #2 #3 }
 dottedQuarterEqualsQuarter = { \metMod #"4." #"4" \modTempo #3 #2 }
-dottedQuarterEqualsHalf = { \metMod #"4." #"2" \modTempo #3 #2 }
+dottedQuarterEqualsHalf = { \metMod #"4." #"2" \modTempo #3 #4 }
 
 dottedHalfEqualsHalf = { \metMod #"2." #"2" \modTempo #3 #2 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%

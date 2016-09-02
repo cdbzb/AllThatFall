@@ -185,7 +185,7 @@
 
 %bn17  
   \times 2/3 {g4^"molt rit" fis g(}   \times 2/3 {b4) b^"a tempo" r } |\lyricmode{ will it hold  up?  }|
-<b e g>2  \times 2/3 { r4 <c e g b>2 }| \tuplet 3/2 4 {e2 d4~d4 c2 }|  R1 |  R1 |    % lh rh kbR kbL 
+<b e g>2  \times 2/3 { r4 <c e g b>2 }| \tuplet 3/2 2 {e2 d4~d4 c2 }|  R1 |  R1 |    % lh rh kbR kbL 
   \tuplet 3/2 2 { g'4 fis' g' b') b'2}  | \times 2/3 {e'2 d' c'}  |\tuplet 3/2  {b2 a g}   | R1 |  % fl ob kl bn    
   \times 2/3 {a1( e'2)} \breathe |  R1 |  R1 | % hn tpt  tn   
   R1 | R1 | R1 |  % tmp perc fol  
@@ -394,7 +394,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
 %bn36   
   \time 1/4 
   d4 |\lyricmode{dung! }|
-  \absolute <d' fis' a' d''>4 |  <d, d>4 |  R4 |  R4 |    % lh rh kbR kbL 
+  \absolute <d' fis' a' d''>4 |  <d, d'>4 |  R4 |  R4 |    % lh rh kbR kbL 
   <d'' a''>4 | R4 | R4 | R4 |  % fl ob kl bn    
   R4 |  R4 |  R4 | % hn tpt  tn   
   R4 |\cross d''4| R4 |  % tmp perc fol  
@@ -426,7 +426,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
 %bn39  
   \time 4/4 %%%%%%%%%%%%%% FIX div pizz in VA
   r8 e= \times 2/3 {fis4 gis8 }   \times 2/3 {b4 a8} \times 2/3 {gis4 a8 } |\lyricmode{I like your frank -- ness Chris -- ty  }|
-  R1  | <e, e'>2   a''=,8( e' cis' gis |  R1 |  R1 |     % lh rh kbR kbL 
+  R1  | \ottava #-1 <e, e'>2  \ottava #0  a''=,8( e' cis' gis |  R1 |  R1 |     % lh rh kbR kbL 
    r8 e'' \times 2/3 {fis''4 gis''8 }   \times 2/3 {b''4 a''8} \times 2/3 {gis''4 a''8 } | R1 | R1 | r4 \times 2/3 {r4 d8( } <a, cis>4)\p r |  % fl ob kl bn    
   R1 |  R1 |  R1 | % hn tpt  tn   
   e4 r2. | R1 | R1 |  % tmp perc fol  
@@ -1213,7 +1213,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
 %bn112  
   %%%%%%%%% check relationship here!                  | add rest to top of next bar?
   \dQQ \time 4/4 r4 e,8( dis) \times 2/3 {g4 dis8} cis( c) | \lyricmode{so long a -- go } |
-  \clef bass \repeat tremolo 8 {cis,16 cis'}     | R1 |<cis, cis>1:32~ |r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  |  % lh rh kbR kbL
+R1  |  \clef bass \repeat tremolo 8 {cis,16 cis'}     |<cis, cis>1:32~ |r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  |  % lh rh kbR kbL
   R1 | R1 | R1 | R1 |  R1 |   % fl ob kl bn    
   R1 | R1 | % hn tpt  tn   
   R1 | R1 |  % tmp perc fol  
@@ -1223,7 +1223,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
 
 %bn113  
   \time 2/4 a'8( gis) \breathe gis( g) \breathe | \lyricmode{no! no! } | 
-  R2 |< cis dis fis a c>4 <d e g bes des>    |c''4 r |<cis, cis>4 r |  % lh rh kbR kbL 
+  < cis dis fis a c>4 <d e g bes des>     |  R2  |c''4 r |<cis, cis>4 r |  % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | \cross d''2\lv^"crash"| R2 |  % tmp perc fol  
@@ -2687,7 +2687,7 @@ R2 | R2 | a4. r8 | f4.( r8 | R2 | % vn vII va vc cb    rh lh
 
 %bn259
 dis'4 e8 gis, |\lyricmode{lin -- ger -- ing }|%
-r2 |r2 |  R2 | e2 |   % rh lh kbR kbL 
+R2 |R2 |  R2 | e2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 <<\new Staff="ossia" \with {alignAboveContext="vc"} {\clef treble gis''4^"solo" r } R2>> | R2 | R2 | % tym perc fol 
@@ -3557,7 +3557,6 @@ R2. | R2. | % hpR hpL
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb    
 
 
-%{
 
 %bn352 %sec3
 \mark \default   \time 3/4 \instrumentSwitch "Tyler" f='4 \times 2/3 {r8 f f} \times 2/3 {f( e) c}|\lyricmode{Come Miss --es Roo -- ney... }| % or a4  \times 2/3 {r8 a a} etc.
@@ -10429,6 +10428,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 %bn1053
 
+%{
 %}
 
 }

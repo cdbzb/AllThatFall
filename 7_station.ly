@@ -79,7 +79,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
 
  %bn7
-\rit cis8)\start  b16 cis  a8 b16 cis | \lyricmode {lin and that wil be } |
+\rit cis8)\start  b16 cis \rt  a8 b16 cis \rt | \lyricmode {lin and that wil be } |
 R2 | e2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
@@ -548,6 +548,7 @@ R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb  
 
+%{
  %bn59
 b4 r8 b | \lyricmode {plain the } |
 R2 | <e b' d>2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -891,8 +892,8 @@ r2 r4. | r2 r4. | % hpL hpR
 r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. | % vn vII va vc cb 
 
  %bn96
-g8 e cis ais \times 2/3 {<gis' b>4 <f gis> <d f>} | \lyricmode {else could I con -- ceive -- a -- bly } |
-\time 4/4 <ais cis e g>2 \times 2/3 {<gis' b>4 <f gis> <d f>} | <f f'>8( <e e'> <f f'> <fis fis'> <g g'> <gis gis'> <a a'> <ais ais'>) |  R1 |  R1 |   % rh lh kbR kbL 
+\time 4/4 g8 e cis ais \times 2/3 {<gis' b>4 <f gis> <d f>} | \lyricmode {else could I con -- ceive -- a -- bly } |
+<ais cis e g>2 \times 2/3 {<gis' b>4 <f gis> <d f>} | <f f'>8( <e e'> <f f'> <fis fis'> <g g'> <gis gis'> <a a'> <ais ais'>) |  R1 |  R1 |   % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -2395,29 +2396,8 @@ R8 | R8 | R8 | R8 | R8 | % vn vII va vc cb
 
 
   %bnEND
-%{
 
-
-%\layout {
-%  \context {
-%   \Score %\consists "Measure_grouping_engraver"
-%    \override Score.RehearsalMark.break-visibility = ##( #t #t #f)
-% }
-% %
-%
-
-\score {
-  <<
-    <<\new Staff = "voice" \relative c'' {
-      \new Voice = "tune" \melody
-    }
-    \new Lyrics \lyricsto "tune" \lyrix
-  >>
-  \new PianoStaff = "piano" <<
-    \set PianoStaff.connectArpeggios = ##t
-  \new Staff \relative c'' \rh
-  \new Staff \relative c {\clef bass \lh}
->>
->>
 %}
+
 }
+
