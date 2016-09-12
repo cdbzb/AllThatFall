@@ -1223,7 +1223,7 @@ R1  |  \clef bass \repeat tremolo 8 {cis,16 cis'}     |<cis, cis>1:32~ |r4 e'8( 
 
 %bn113  
   \time 2/4 a'8( gis) \breathe gis( g) \breathe | \lyricmode{no! no! } | 
-  < cis dis fis a c>4 <d e g bes des>     |  R2  |c''4 r |<cis, cis>4 r |  % lh rh kbR kbL 
+  < dis fis a c>4 <e g bes des>     |  cis4 d   |c''4 r |<cis, cis>4 r |  % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
   R2 | \cross d''2\lv^"crash"| R2 |  % tmp perc fol  
