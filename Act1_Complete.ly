@@ -5,8 +5,13 @@
 \include "./layoutFile.ly"
 \include "./AddNote.ly"
 
+
+date = #(strftime "%m-%d-%Y" (localtime (current-time)))
+
+
 \header{
-  tagline = ""
+  subtitle = \date
+  tagline = \date
   title = "Nice Day for the Races"
   composer = "Michael Webster"
   poet = "Samuel Beckett"
