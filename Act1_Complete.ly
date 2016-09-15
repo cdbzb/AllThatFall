@@ -55,7 +55,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
   cis'4-.^"*" a-. | a'4-. r | % harpR harpL  THIS CANT BE PEDALLED
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 |  % va vc cb 
-  R2 |\quoteDuring #"hn" {  s2} | R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI    
+  R2 |  R2  |\quoteDuring #"hn" {  s2} |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI    
 
 %bn4  
   \time 3/4 d'8 b g a b g |\lyricmode{ thought the hin -- ney was fa -- }|
@@ -683,7 +683,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   dis8 e fis gis fis gis   | R2. | % hpL hpR  
   R2. |  dis'8 e' fis' gis' fis' gis'   | %vn vn2  
   dis8 e fis gis fis gis   |   dis8 e fis gis fis gis | R2. |  % va vc cb 
-  \quoteDuring "kl" {s2 }|\quoteDuring "fl" {s2 }|\quoteDuring "vII" {s2 }|\quoteDuring "va" {s2 }|\quoteDuring "cb" {s2 }|\quoteDuring "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s2. }|\quoteDuring "fl" {s2. }|\quoteDuring "vII" {s2. }|\quoteDuring "va" {s2. }|\quoteDuring "cb" {s2. }|\quoteDuring "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn58  
   \dQQ \time 3/8
@@ -707,7 +707,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. |  % va vc cb 
-  \quoteDuring "kl" {s2. }|\quoteDuring "fl" {s2. }|\quoteDuring "vII" {s2. }|\quoteDuring "va" {s2. }|\instrumentSwitch "bn" \quoteDuring "bn" {s2. }|\quoteDuring "vc" {s2. }|  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s2. }|\quoteDuring "fl" {s2. }|\quoteDuring "vII" {s2. }|\quoteDuring "va" {s2. }|\quoteDuring "bn" {s2. }|\quoteDuring "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 
 %bn60  
@@ -720,7 +720,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 |  % va vc cb 
-  \quoteDuring "kl" {s2 }|\quoteDuring "fl" {s2 }|\quoteDuring "vII" {s2 }|\quoteDuring "va" {s2 }|\instrumentSwitch "bn" \quoteDuring "bn" {s2 }|\quoteDuring "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s2 }|\quoteDuring "fl" {s2 }|\quoteDuring "vII" {s2 }|\quoteDuring "va" {s2 }|\quoteDuring "bn" {s2 }|\quoteDuring "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn61  
   \time 3/4
@@ -732,7 +732,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. |  % va vc cb 
-  \quoteDuring "kl" {s2. }|\quoteDuring "fl" {s2. }|\instrumentSwitch "hn" \quoteDuring "hn" {s2. }|\quoteDuring "va" {s2. }|\instrumentSwitch "bn" \quoteDuring "bn" {s2. }|\quoteDuring "vc" {s2. }|  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s2. }|\quoteDuring "fl" {s2. }|\instrumentSwitch "hn" \instrumentSwitch "hn" \quoteDuring "hn" {s2. }|\quoteDuring "va" {s2. }|\instrumentSwitch "bn" \quoteDuring "bn" {s2. }|\quoteDuring "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn62  
   \time 2/4
@@ -756,7 +756,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | R2 | % hpL hpR  
  <c'' e''>8^"pizz" r \times 2/3 {r8 < a' c''> r }  |  r4 \times 2/3 {<f a c'>8^"pizz" r <d f a>^"*out of range!"}| %vn vn2  
   r4 \times 2/3 {<f a c'>8 r <d f a>}| R2 | R2 |  % va vc cb 
-  \quoteDuring "kl" {s2 }|\instrumentSwitch "vn" \quoteDuring "vII" {s2 }|\instrumentSwitch "vn" \quoteDuring "vn" {s2 }|\quoteDuring "va" {s2 }|\instrumentSwitch "bn" \quoteDuring "bn" {s2 }|\quoteDuring "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s2 }|\instrumentSwitch "vn" \quoteDuring "vII" {s2 }|\instrumentSwitch "vn" \quoteDuring "vn" {s2 }|\quoteDuring "va" {s2 }|\quoteDuring "bn" {s2 }|\quoteDuring "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn64  
   \time 7/16 \set Timing.beatStructure = #'(3 4)
@@ -768,7 +768,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
  r8. r4  | r8. r4  | % hpL hpR  
   <a' c''>8 r16 \times 2/3 {<c'' e''>4-. <a' c''>8} |  <f a c'>8 r16 \times 2/3 {q8 r q}| %vn vn2  
   <f a c'>8 r16 \times 2/3 {q8 r q}| r8. r4  | r8. r4  |  % va vc cb 
-  \quoteDuring "kl" {s8. s4 }|\instrumentSwitch "vn" \quoteDuring "vII" {s8. s4 }|\instrumentSwitch "vn" \quoteDuring "vn" {s8. s4 }|\quoteDuring "va" {s8. s4 }|\instrumentSwitch "bn" \quoteDuring "bn" {s8. s4 }|\quoteDuring "vc" {s8. s4 }|  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s4.. }|\instrumentSwitch "vn" \quoteDuring "vII" {s4.. }|\instrumentSwitch "vn" \quoteDuring "vn" {s4.. }|\quoteDuring "va" {s4.. }|\quoteDuring "bn" {s4.. }|\quoteDuring "vc" {s4.. }|  % I  II  III  IV  V  VI    
 
 %bn65  
   \tEE
@@ -781,7 +781,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   g,4\laissezVibrer <d g>\laissezVibrer | R2 | % hpL hpR  
   <a' c''>4 r | a4 r | %vn vn2  
   R2 | g,2~^"mutes - norm"| R2 |  % va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s2 }| \quoteDuring "vII" {s4} \instrumentSwitch "tn" \quoteDuring "tn" {s4 }|\quoteDuring "vn" {s2 }|  R2 |\quoteDuring "bn" {s2 }|\quoteDuring "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn66  
   a4^"poco rit." r | \lyricmode{life }|
@@ -792,7 +792,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | <d' g'>4\laissezVibrer r | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | g,2~ | R2 |  % va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI    
+  \quoteDuring "kl" {s2 }| \quoteDuring "tn" {s2 }|\quoteDuring "vn" {s2 }|  R2 |\quoteDuring "bn" {s2 }|\quoteDuring "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn67  
   \time 3/4
@@ -804,8 +804,9 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | g,2. | R2. |  % va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI     
+  \quoteDuring "kl" {s2. }| \quoteDuring "tn" {s2. }|\quoteDuring "vn" {s2. }|  R2. |\quoteDuring "bn" {s2. }|\quoteDuring "vc" {s2. }|  % I  II  III  IV  V  VI    
 
+%{
 %bn68  
   \time 11/8 \set Timing.beatStructure = #'(3 2 2) 
   g4( f8) f4 e8 f e2 | \lyricmode{feet down on the road } |
@@ -816,7 +817,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   r4. r2 r2  | r4. r2 r2  | % hpL hpR  
   r4. r2 r2  | r4. r2 r2  | %vn vn2  
   <<{d'4.~ d'4} \\ {g4. r4}>> r4 r2| a4.~ a2 <e gis> | \grace fis,,,8( <a,, d,>4.~ q2) a, |  % va vc cb 
-  0 |  0 |  0 |  0 |  0 |  0 |  % I  II  III  IV  V  VI    
+  r4. r2 r2 |  r4. r2 r2 |  r4. r2 r2 |  r4. r2 r2 |  r4. r2 r2 |  r4. r2 r2 |  % I  II  III  IV  V  VI    
 
 %bn69  
   \time 2/2 a8 g fis e fis8 g a fis |\lyricmode{ why do you not climb up on the }|
@@ -841,7 +842,6 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | <g d'>2 |g,,4. r8 |  % va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI    
 
-%{
 %bn71  
   \tQQ \time 4/4
   d8( e4) d8 d c g c | \lyricmode {nure, and let your -- self be } |

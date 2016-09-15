@@ -17,7 +17,7 @@
 
 
 \addInstrumentDefinition #"fl"
-  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "fl")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
@@ -28,17 +28,17 @@
 
 
 \addInstrumentDefinition #"kl"
-  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "kl")
      (clefGlyph . "clefs.G")
-     (clefTransposition . )
+     (clefTransposition . 0)
      (middleCPosition . -6)
      (clefPosition . 0)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "kl"))
      (midiInstrument . "voice oohs"))
 
 \addInstrumentDefinition #"tpt"
-  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "tpt")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
@@ -48,7 +48,7 @@
      (midiInstrument . "voice oohs"))
 
 \addInstrumentDefinition #"ob"
-  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "ob")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)

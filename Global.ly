@@ -10,7 +10,8 @@ o = #(let ((m (make-articulation "flageolet")))
 m)
 
 lv = \laissezVibrer
-qd = \quoteDuring
+
+% qd = \quoteDuring
 
 arpUp = \arpeggioArrowUp
 arpDown = \arpeggioArrowDown
