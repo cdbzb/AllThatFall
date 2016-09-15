@@ -15,6 +15,126 @@
 %  \set Staff.middleCPosition = #1
 %
 
+
+\addInstrumentDefinition #"fl"
+  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+     (shortInstrumentName . "fl")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "fl"))
+     (midiInstrument . "voice oohs"))
+
+
+\addInstrumentDefinition #"kl"
+  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+     (shortInstrumentName . "kl")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . )
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "kl"))
+     (midiInstrument . "voice oohs"))
+
+\addInstrumentDefinition #"tpt"
+  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+     (shortInstrumentName . "tpt")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "tpt"))
+     (midiInstrument . "voice oohs"))
+
+\addInstrumentDefinition #"ob"
+  #`((instrumentTransposition . (ly:make-pitch 0 0 0))
+     (shortInstrumentName . "ob")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "ob"))
+     (midiInstrument . "voice oohs"))
+
+\addInstrumentDefinition #"vn"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "vn")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "vn"))
+     (midiInstrument . "voice oohs"))
+
+
+\addInstrumentDefinition #"hn"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "hn")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "hn"))
+     (midiInstrument . "synth voice"))
+
+\addInstrumentDefinition #"vc"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "vc")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "vc"))
+     (midiInstrument . "synth voice"))
+
+
+\addInstrumentDefinition #"cb"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "cb")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "cb"))
+     (midiInstrument . "synth voice"))
+
+\addInstrumentDefinition #"bn"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "bn")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "bn"))
+     (midiInstrument . "synth voice"))
+
+\addInstrumentDefinition #"tn"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "tn")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "tn"))
+     (midiInstrument . "synth voice"))
+
+
+\addInstrumentDefinition #"va"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "va")
+     (clefGlyph . "clefs.C")
+     (clefTransposition . 0)
+     (middleCPosition . 0)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "va"))
+     (midiInstrument . "synth voice"))
+
+
+
+
+%%%%%%%%%%%%%%%%%%%% VOICES
+
 \addInstrumentDefinition #"Rooney"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "Rn")

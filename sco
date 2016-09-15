@@ -7,6 +7,7 @@
 # v vocal
 # f full
 # c conductor
+# x 6 keys
 
 # options
 # m midi
@@ -15,7 +16,7 @@
 
 #############
 
-getopts "qvfc" players
+getopts "qvfcx" players
 getopts "ms" format
 getopts "d" datestamp
 
@@ -62,6 +63,26 @@ EOF
   >>
 EOF
 		;;
+
+	x)   ##### 6 Keys
+		suffix="6-key"
+		cat <<EOF >> /tmp/cat
+\score {
+<<
+    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+  \new Voice = "tune" \melody }
+    \new Lyrics \lyricsto "tune" \lyrix
+  >>
+  \new Staff {\I}
+  \new Staff {\II}
+  \new Staff {\III}
+  \new Staff {\IV}
+  \new Staff {\V}
+  \new Staff {\VI}
+  >>
+  }
+EOF
+	;;
 
 	f)   ##### FULL
 		suffix="Full"
@@ -111,6 +132,7 @@ EOF
   \new Staff = "cb" \with {instrumentName = #"bass" shortInstrumentName = #"cb"}{\clef bass \cb}
     >>
   >>
+  }
 EOF
 		;;
 	c)

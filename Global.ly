@@ -1,8 +1,6 @@
 #(ly:set-option 'midi-extension "mid")
 
-rit =           \override
-
-TextSpanner #'(bound-details left text) = "rit."
+rit = \override TextSpanner #'(bound-details left text) = "rit."
 
 pocoRit = \tempo \markup{\small \italic "poco rit"}
 
@@ -12,6 +10,7 @@ o = #(let ((m (make-articulation "flageolet")))
 m)
 
 lv = \laissezVibrer
+qd = \quoteDuring
 
 arpUp = \arpeggioArrowUp
 arpDown = \arpeggioArrowDown
