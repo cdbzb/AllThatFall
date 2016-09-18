@@ -16,7 +16,7 @@
 
 #############
 
-getopts "qvfcx" players
+getopts "qvfcxp" players
 getopts "ms" format
 getopts "d" datestamp
 
@@ -42,6 +42,7 @@ case $players in
   \new Staff = "lh" \relative c {\clef bass \removeWithTag #'pf \lh}
 >>
 EOF
+echo 'sent ly file'
 		;;
 
 	q)   ##### QUARTET
@@ -80,9 +81,87 @@ EOF
   \new Staff {\V}
   \new Staff {\VI}
   >>
-  }
 EOF
-	;;
+		;;
+
+	p)   ##### 6 Keys Parts
+		suffix="6-key-parts"
+		cat <<EOF >> /tmp/cat
+\book{
+	\score {
+		<<
+%  \new Staff \with {\magnifyStaff #(magstep -3)}
+		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" \lyrix
+		  >>
+	  \new Staff \with {instrumentName = #"I"} {\I}
+	  >>
+	}
+}
+
+\book{
+	\score {
+		<<
+		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" \lyrix
+		  >>
+	  \new Staff \with {instrumentName = #"II"} {\II}
+	  >>
+	}
+}
+
+\book{
+	\score {
+		<<
+		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" \lyrix
+		  >>
+	  \new Staff \with {instrumentName = #"III"} {\III}
+	  >>
+	}
+}
+
+\book{
+	\score {
+		<<
+		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" \lyrix
+		  >>
+	  \new Staff \with {instrumentName = #"IV"} {\IV}
+	  >>
+	}
+}
+
+
+\book{
+	\score {
+		<<
+		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" \lyrix
+		  >>
+	  \new Staff \with {instrumentName = #"V"} {\V}
+	  >>
+	}
+}
+
+\book{
+	\score {
+		<<
+		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" \lyrix
+		  >>
+	  \new Staff \with {instrumentName = #"VI"} {\VI}
+	  >>
+	}
+}
+EOF
+		;;
 
 	f)   ##### FULL
 		suffix="Full"
@@ -172,6 +251,7 @@ case $format in
 	s) 
 		echo '\layout{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
+		echo lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
 		lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
 	;;
 esac

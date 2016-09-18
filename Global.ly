@@ -21,8 +21,23 @@ cross = \once \override NoteHead.style = #'cross
 
 doubleBar = \bar "||"
 finalBar = \bar "|."
- 
+
 gliss = \glissando
+
+%shortcut for quote during
+Q = #(define-music-function (parser location inst music) (string? ly:music?)
+	#{ 
+	\quoteDuring $inst { $music }
+	#}
+	)
+
+
+%quote during And switch instrument [NOT WORKING]
+QQ = #(define-music-function (parser location inst music) (string? ly:music?)
+	#{ 
+	\instrumentSwitch $inst \quoteDuring $inst { $music }
+	#}
+	)
 
 hiddenTempo = #(define-music-function (parser location bpm) (number?)
 	#{
