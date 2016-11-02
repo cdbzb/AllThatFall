@@ -16,6 +16,7 @@ tag = \date
 
 %{
 
+%}
 
 %bn1
 \tempo 4 = 80 \mark \default \time 5/8 b4 c4 r8 | \lyricmode {Oh Dan } |
@@ -46,7 +47,7 @@ r4 g8~g4.~ |fis'4. g' |cis2 d4~ |\clef bass  fis,2.| R2. | % vn vII va vc cb
 
 %bn4
 \time 6/4 \tempo "Forward" 4 = 100 R1. | \lyricmode { } |
-aes2 a4 bes2 b4 | << {g'4 a2~ a4 b2 }\\{d,2 e4~ e2 r4} \\{aes,2. bes} >> |  R1. |  R1. |  % rh lh kbR kbL
+gis2 a4 ais2 b4 | << {g'4 a2~ a4 b2 }\\{d,2 e4~ e2 r4} \\{gis,2. ais} >> |  R1. |  R1. |  % rh lh kbR kbL
 R1. | R1. | R1. | R1. | % fl ob kl bn
 R1. |  R1. |  R1. | % hn tpt  tn
 R1. | R1. | R1. | % tym perc fol
@@ -62,7 +63,6 @@ r2. r2. r2 | r2. r2. r2 | r2. r2. r2 | % tym perc fol
 r2. r2. r2 | r2. r2. r2 | % hpL hpR
 fis'2 g'4 gis'2 g'4 gis'2 | b'2. c'' c''2 | fis4--(  g2) gis4--( a2) a | <fis, cis>2. <gis, dis> q2 | r2. r2. r2 | % vn vII va vc cb
 
-%}
 %bn6
 \dQQ \time 2/4 b16 a  gis fis c'8 dis, | \lyricmode {where in the world were you } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -99,7 +99,6 @@ R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
 r4 d'''8-- d' |r4 <a' fis''>4->  |<d bes>4 r4 |bes,4 d'\trill    | R2 | % vn vII va vc cb
 
-%{
 %bn10
 \instrumentSwitch "Dan"
 \times 2/3 {dis4 fis,8 r d' dis } | \lyricmode {kiss you? in the } |
@@ -366,7 +365,7 @@ bes'4 r \tuplet 3/2 4 {r4 f'8 e'4 f'8} |g'4 r  \tuplet 3/2 4 {r4 f'8 e'4 f'8} |e
 
 %bn39
 \time 2/4 d'4 \instrumentSwitch "Dan" c= | \lyricmode {on! What } |
-\absolute {<f' aes' d''>4\arpeggio} <ees g c>( | \absolute{<d f b>4\arpeggio } ees=,  |  R2 |  R2 |  % rh lh kbR kbL
+\absolute {<f' aes' d''>4\arpeggio} \clef bass <ees g c>( | \absolute{<d f b>4\arpeggio } ees=,  |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
@@ -402,7 +401,7 @@ fis'4) r b'-. |ais4( gis8 ais b4-.) |fis4.( eis8 <dis fis>4-.) |des,2\! r4 | R2.
 
 %bn43
 \time 4/4 \instrumentSwitch "Dan" c4 \times 2/3 {b8 a g } \tQE fis8 g e a \breathe | \lyricmode {why did you not can -- el the boy? } |
-<< {c=''4( \times 2/3 {b8 a g }fis8 g e a) }\\< e=' g c>1-> >>|<< {c='4( \times 2/3 {b8 a g }fis8 g e a) }\\<c= e g c>1-> >>| R1 |  R1 |  % rh lh kbR kbL
+\clef treble << {c=''4( \times 2/3 {b8 a g }fis8 g e a) }\\< e=' g c>1-> >>|<< {c='4( \times 2/3 {b8 a g }fis8 g e a) }\\<c= e g c>1-> >>| R1 |  R1 |  % rh lh kbR kbL
 R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
 R1 | R1 | R1 | % tym perc fol
@@ -2168,7 +2167,7 @@ r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % vn vII va vc cb
 
 %bn235
 \time 2/4 c'8 aes16 e \times 2/3 {d8 r d} | \lyricmode {stop -- ping a -- gain is } |
-c='8 aes16 e \grace {d16( e} \times 2/3 {d8) c e } |R2 |  R2 |  R2 |  % rh lh kbR kbL
+c=''8 aes16 e \grace {d16( e} \times 2/3 {d8) c e } |R2 |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
@@ -8200,6 +8199,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn896
 
+%{
 %}
 }
 

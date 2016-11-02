@@ -16,7 +16,7 @@
 
 #############
 
-getopts "qvfcxp" players
+getopts "qvfcxpr" players
 getopts "ms" format
 getopts "d" datestamp
 
@@ -162,6 +162,33 @@ EOF
 }
 EOF
 		;;
+
+	r) 
+		suffix="percussion"
+		cat <<EOF >> /tmp/cat 
+\layout {\context { \Staff \RemoveEmptyStaves }
+	 \context { \RhythmicStaff \RemoveEmptyStaves }
+}
+
+\include "percussion-legend.ly"
+
+\score {
+<<
+    <<\new Staff = "voice" \relative c'' { 
+      \new Voice = "tune" \hiddenTempo 60 \melody
+    }
+    \new Lyrics \lyricsto "tune" \lyrix
+  >>
+  \new StaffGroup <<
+	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	 \new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
+	 >>
+>>
+EOF
+echo 'sent ly file'
+		;;
+
 
 	f)   ##### FULL
 		suffix="Full"

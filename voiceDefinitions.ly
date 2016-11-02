@@ -130,9 +130,28 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "va"))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"perc"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "perc")
+     (clefGlyph . "clefs.percussion")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "voice oohs"))
 
 
 
+
+\addInstrumentDefinition #"vibes"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "vb")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "vb"))
+     (midiInstrument . "voice oohs"))
 %%%%%%%%%%%%%%%%%%%% VOICES
 
 \addInstrumentDefinition #"Rooney"
