@@ -207,7 +207,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 \Q "kl" {s1 }|\Q "fl" {s1 }|  R1 |\Q "ob" {s1 }|  R1 |  R1 |  % I  II  III  IV  V  VI    
 
 %bn17  
-  \times 2/3 {g4^"molt rit" fis g(}   \times 2/3 {b4) b^"a tempo" r } |\lyricmode{ will it hold  up?  }|
+  \times 2/3 {g4^"molt rit" fis g(}   \times 2/3 {b4) b r } |\lyricmode{ will it hold  up?  }|
 <b e g>2  \times 2/3 { r4 <c e g b>2 }| \tuplet 3/2 2 {e2 d4~d4 c2 }|  R1 |  R1 |    % lh rh kbR kbL 
   \tuplet 3/2 2 { g'4 fis' g' b') b'2}  | \times 2/3 {e'2 d' c'}  |\tuplet 3/2  {b2 a g}   | R1 |  % fl ob kl bn    
   \times 2/3 {a1( e'2)} \breathe |  R1 |  R1 | % hn tpt  tn   
@@ -256,7 +256,7 @@ R4. |  <cis, cis'>4.:16\< |  R4. |  R4. |  %lh rh% kbR kbL lh rh
 \Q "kl" {s2. }|\Q "fl" {s2. }|  R2. |\Q "ob" {s2. }|  R2. |  R2. |  % I  II  III  IV  V  VI    
 
 %bn21  
-  \time 2/4 e8 f \times 2/3 { g8 r g } | \lyricmode{ could -- n't be the } | % was tEE ?
+  \time 2/4 e8^"* tEE?" f \times 2/3 { g8 r g } | \lyricmode{ could -- n't be the } | % was tEE here instead of next br!! 
   R2 | <e e'>8-. <f f'>-. <g g'>-. <e e'>-. |e'8 f' \times 2/3 { g'8 r g' } |g8 r bes g |  %lh rh kbR kbL
   R2 | R2 | R2 |  g,8-. aes,-. bes,-. g,-. |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
@@ -378,7 +378,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
 %bn31  
   \time 2/4
   b4 ais8 b | \lyricmode{track in the }|
- R2 |  R2 |  R2 |  R2 |  % lh rh kbR kbL 
+  R2 |  R2 |  R2 |  R2 |  % lh rh kbR kbL 
   R2 | R2 | R2 | b4( bes |  % fl ob kl bn    
   << b'2 \\ {d'4.)_"norm" r8}>> |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
@@ -388,20 +388,18 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
   R2 |  R2 |\Q "hn" {s2 }|\Q "va" {s2 }|  R2 |\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn32  
-  \dQQ
-  e4 e8 d | \lyricmode{far dis -- tance }|
- R2 |  R2 |  R2 |  R2 |  % lh rh kbR kbL 
-  R2 | R2 | R2 | a4 aes) |  % fl ob kl bn    
-  << e''2) \\ c'2\p >> |  R2 |  R2 | % hn tpt  tn   
-  R2 | R2 | R2 |  % tmp perc fol  
-  R2 | R2 | % hpL hpR  
-  e''4.(^"mutes" d''8) | c''2^"mutes" | %vn vn2  
-  f4 g | c'2 | R2 |  % va vc cb 
-  R2 |<< \Q "vn" {s2 } \\ \Q "vII" {s2 } >> |\Q "hn" {s2 }|\Q "va" {s2 }|\instrumentSwitch "bn" \Q "bn" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \time 6/8 e4. \times 3/2 {e8 d} | \lyricmode{far dis -- tance }|
+  R2. |  R2. |  R2. |  R2. |  % lh rh kbR kbL 
+  R2. | R2. | R2. | a4. aes) |  % fl ob kl bn    
+  << e''2.) \\ c'2.\p >> |  R2. |  R2. | % hn tpt  tn   
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
+  e''4.(^"mutes" \times 3/2{ e''8 d''8) } | c''2^"mutes" | %vn vn2  
+  f4 g | c'2 | R2. |  % va vc cb 
+  R2. |<< \Q "vn" {s2. } \\ \Q "vII" {s2. } >> |\Q "hn" {s2. }|\Q "va" {s2. }|\instrumentSwitch "bn" \Q "bn" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn33  
-  \instrumentSwitch "Christy"
-  \tQQ fis,8. a16 e8. fis16 | \lyricmode {I sup -- pose you } |
+  \instrumentSwitch "Christy" \time 2/4 fis,8. a16 e8. fis16 | \lyricmode {I sup -- pose you } |
   R2 |fis'=4 e|  R2 |  R2 |  %lh rh kbR kbL
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   \clef bass fis,4 e, |  R2 |  r8. a16 r8. fis16 | % hn tpt  tn     
@@ -673,8 +671,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s2 }|\Q "fl" {s2 }|\Q "vII" {s2 }|\Q "va" {s2 }|\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn57  
-  \QdQ \time 6/8
-  dis8 e fis gis fis gis | \lyricmode {way of speak -- ing ve -- ry } |
+  \QdQ \time 3/4 dis8 e fis gis fis gis | \lyricmode {way of speak -- ing ve -- ry } |
   R2.  | fis8 gis a b a b  |  R2. |  R2. |  % lh rh kbR kbL 
   dis'8( e' fis' gis' fis' gis') | R2. | dis'8 e' fis' gis' fis' gis'   | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
@@ -685,8 +682,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s2. }|\Q "fl" {s2. }|\Q "vII" {s2. }|\Q "va" {s2. }|\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn58  
-  \dQQ \time 3/8
-  r4 a8 | \lyricmode {bi --  } |%check rhythm here and in previous "Bizarre"
+  \dQQ \time 3/8 r4 a8 | \lyricmode {bi --  } |%check rhythm here and in previous "Bizarre"
   r4 <f a cis>8 | R4.  |  R4. |  R4. |    % lh rh kbR kbL 
   r4 f''8-.  | R4. | R4. | r4 a8-. |  % fl ob kl bn    
   R4. |  R4. |  R4. | % hn tpt  tn   
@@ -830,7 +826,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s2 }| \instrumentSwitch "bn" \Q "bn" {s2 }|\Q "vn" {s2 }|\Q "va" {s2 }|\instrumentSwitch "cb" \Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn70  
-  \tQQ \time 2/4 b8 g^"rit..." a b| \lyricmode{ crest of your ma -- } | 
+  \time 2/4 b8 g^"rit..." a b| \lyricmode{ crest of your ma -- } | 
   R2 | R2 |  R2 |  R2 |    % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
@@ -865,31 +861,18 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s2 }| \Q "bn" {s2 }|\Q "vn" {s2 }|\Q "va" {s2 }|\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn73  
-  \time 3/8
-  fis4( e8) | \lyricmode{way }|
-  R4.  |cis4. |  R4. |  R4. |  % lh rh kbR kbL 
-  R4. | R4. | R4. | cis4. |  % fl ob kl bn    
-  R4. |  R4. |  R4. | % hn tpt  tn   
-  R4. | R4. | R4. |  % tmp perc fol  
-  R4. | R4. | % hpL hpR  
-  fis'4 e'8 | R4. | %vn vn2  
-  <<cis''4.~ \\ {g'8 r4}>> | R4. | cis4.~ |  % va vc cb 
-  \Q "kl" {s4. }| \Q "bn" {s4. }|\Q "vn" {s4. }|\Q "va" {s4. }|\Q "cb" {s4. }|\Q "vc" {s4. }|  % I  II  III  IV  V  VI    
-
-%bn74  
-  \time 2/4
-  dis8 e fis gis | \lyricmode{ is it that you }|
-  R2  | R2  |  R2 |  R2 |% lh rh kbR kbL 
-  R2 | R2 | R2 | R2 |  % fl ob kl bn    
-  R2 |  R2 |  R2 | % hn tpt  tn   
-  R2 | R2 | R2 |  % tmp perc fol  
-  R2 | R2 | % hpL hpR  
-  dis'8 e' fis' gis' | R2 | %vn vn2  
-  <<cis''2 \\ s2>> | R2 | cis2 |  % va vc cb 
-  \Q "kl" {s2 }| \Q "bn" {s2 }|\Q "hn" {s2 }|<< \Q "va" {s2} \\ \Q "vn" {s2 } >>|\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \time 6/8 fis4( e8) \times 3/4 {   dis8 e fis gis } | \lyricmode{way  is it that you }|
+  R2.  |cis4. r |  R2. |  R2. |  % lh rh kbR kbL 
+  R2. | R2. | R2. | cis4. |  % fl ob kl bn    
+  R2. |  R2. |  R2. | % hn tpt  tn   
+  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | % hpL hpR  
+  fis'4 e'8 \times 3/4 {   dis'8 e' fis' gis' } | R2. | %vn vn2  
+  <<cis''2. \\ {g'8 r4 s2 }>> | R2. | cis2. |  % va vc cb 
+  \Q "kl" {s2. }| \Q "bn" {s2. }|\Q "vn" {s2. }|<< \Q "va" {s2. } \\ \Q "vn"{s2.} >> |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn75  
-  ais8 fis bis8. gis16 | \lyricmode{ have no head for }|
+  \time 2/4 ais8 fis bis8. gis16 | \lyricmode{ have no head for }|
    ais8 fis e d  |R2  |ais'8( fis' c'' gis'|ais8( fis c' gis)|    % lh rh kbR kbL 
   R2 |  ais'8 fis' e' d'  | ais'4 c''  |   ais'8 fis' e' d'  |  % fl ob kl bn    
   r4 \clef bass e,8. d,16 |  R2 |  R2 | % hn tpt  tn   
@@ -1294,6 +1277,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2. |  dis,4(^"solo"\< f,16)\! r  dis,4(\< f,16)\! r  | r8 \grace dis,16( e,8.) r16 r8 e,8. r16  |  % va vc cb 
   \Q "fl" {s2. }| \Q "vn" {s2. }|\Q "hn" {s2. }| \Q "tn" {s2. } |\Q "cb" {s2. }|\Q "vc" {\clef bass s2. }|  % I  II  III  IV  V  VI    
 
+%{
 
 %bn109  
   \time 2/4 gis8 a16 b c8 b16 a | \lyricmode { What have I done to de -- } | 
@@ -11484,7 +11468,6 @@ R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
-%{
 %}
 
 }
