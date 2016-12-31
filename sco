@@ -16,15 +16,41 @@
 
 #############
 
-getopts "qvfcxpr" players
-getopts "ms" format
-getopts "d" datestamp
+## TODO add optional range and output name (this done in vimscript :( 
+## TODO use while loop for getopts
+## TODO add dummy tempo
 
-echo "$players"
+#getopts "qvfcxpr" players
+#getopts "ms" format
+#getopts "d" datestamp
 
-output=$(basename $2 ".ly")
+while getopts "qvfcxprmsdn:" opts; do
+	case $opts in
+		[qvfcxpr]) 
+			players=$opts
+			;;
+		[ms])
+			format=$opts
+			;;
+		d)
+			datestamp=$opts
+			;;
+		n)
+			output=$OPTARG
+			;;
+	esac
+done
+input=${@:$OPTIND:1} # get first positional arg after opts
 
-cat $2 > /tmp/cat  ##### THE MUSIC
+if [ -z "$output" ] 
+then
+	output=$(basename $input ".ly")
+fi
+
+echo input is $input output is $output
+
+
+cat $input > /tmp/cat  ##### THE MUSIC
 
 ##### THE SCORE
 case $players in
@@ -68,19 +94,38 @@ EOF
 	x)   ##### 6 Keys
 		suffix="6-key"
 		cat <<EOF >> /tmp/cat
-\score {
+
+\layout {\context { \Staff \RemoveEmptyStaves }
+	 \context { \RhythmicStaff \RemoveEmptyStaves }
+}
+\score { 
 <<
-    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
-  \new Voice = "tune" \melody }
-    \new Lyrics \lyricsto "tune" \lyrix
+	<< 
+	\new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+	\new Voice = "tune" \melody }
+	\new Lyrics \lyricsto "tune" \lyrix
   >>
-  \new Staff {\I}
-  \new Staff {\II}
-  \new Staff {\III}
-  \new Staff {\IV}
-  \new Staff {\V}
-  \new Staff {\VI}
+  \new StaffGroup 
+	<< 	
+	\new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	\new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	\new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
   >>
+  \new StaffGroup 
+	<<
+	\new Staff {\I}
+	\new Staff {\II}
+	\new Staff {\III}
+	\new Staff {\IV}
+	\new Staff {\V}
+	\new Staff {\VI}
+  >>
+  \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}
+	<< \new Staff {\hpL}
+	\new Staff {\clef bass \hpR}
+  >>
+
+>>
 EOF
 		;;
 
