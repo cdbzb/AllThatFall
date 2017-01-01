@@ -244,3 +244,13 @@
      (clefPosition . 0)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "Jer"))
      (midiInstrument . "synth voice"))
+
+\addInstrumentDefinition #"blankvn"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "vn")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))

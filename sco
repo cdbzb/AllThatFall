@@ -135,10 +135,10 @@ EOF
 \book{
 	\score {
 		<<
-%  \new Staff \with {\magnifyStaff #(magstep -3)}
-		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+%  \new Staff \with {\magnifyStaff #(magstep -6)}
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" \lyrix
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
 		  >>
 	  \new Staff \with {instrumentName = #"I"} {\I}
 	  >>
@@ -148,9 +148,9 @@ EOF
 \book{
 	\score {
 		<<
-		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" \lyrix
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
 		  >>
 	  \new Staff \with {instrumentName = #"II"} {\II}
 	  >>
@@ -160,9 +160,9 @@ EOF
 \book{
 	\score {
 		<<
-		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" \lyrix
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
 		  >>
 	  \new Staff \with {instrumentName = #"III"} {\III}
 	  >>
@@ -172,9 +172,9 @@ EOF
 \book{
 	\score {
 		<<
-		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" \lyrix
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
 		  >>
 	  \new Staff \with {instrumentName = #"IV"} {\IV}
 	  >>
@@ -185,9 +185,9 @@ EOF
 \book{
 	\score {
 		<<
-		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" \lyrix
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
 		  >>
 	  \new Staff \with {instrumentName = #"V"} {\V}
 	  >>
@@ -197,9 +197,9 @@ EOF
 \book{
 	\score {
 		<<
-		    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" \lyrix
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
 		  >>
 	  \new Staff \with {instrumentName = #"VI"} {\VI}
 	  >>
@@ -219,9 +219,9 @@ EOF
 
 \score {
 <<
-    <<\new Staff = "voice" \relative c'' { 
-      \new Voice = "tune" \hiddenTempo 60 \melody
-    }
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
     \new Lyrics \lyricsto "tune" \lyrix
   >>
   \new StaffGroup <<
@@ -244,9 +244,9 @@ echo 'sent ly file'
 
 \score {
   <<
-    << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
-  \new Voice = "tune" \melody
-    }
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
     \new Lyrics \lyricsto "tune" \lyrix
   >>
   \new GrandStaff  \with {connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"} {

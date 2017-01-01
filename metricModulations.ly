@@ -257,8 +257,8 @@ dottedHalfEqualsHalf = { \metMod #"2." #"2" \modTempo #3 #2 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % rit and accel
-rt = { \modTempo #10 #9 }
-ac = { \modTempo #9 #10 }
+rt = { \modTempo #100 #98 }
+ac = { \modTempo #98 #100 }
 rit =	\override TextSpanner #'(bound-details left text) = "rit."
 pocoRit =	\override TextSpanner #'(bound-details left text) = "rit. poco a poco"
 moltoRit =	\override TextSpanner #'(bound-details left text) = "molto rit."
