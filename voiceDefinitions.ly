@@ -159,6 +159,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "va"))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"blankva"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "va")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"perc"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "perc")

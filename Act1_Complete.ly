@@ -739,7 +739,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 |  % va vc cb 
-  \Q "kl" {s2 }|\Q "fl" {s2 }|\instrumentSwitch "hn" \Q "hn" {s2 }|\Q "va" {s2 }|\Q "bn" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2 }|\Q "fl" {s2 }| \Q "hn" {s2 }|\Q "va" {s2 }|\Q "bn" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn63  
   \instrumentSwitch "Rooney" 
@@ -870,7 +870,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2. | R2. | % hpL hpR  
   fis'4 e'8 \times 3/4 {   dis'8 e' fis' gis' } | R2. | %vn vn2  
   <<cis''2. \\ {g'8 r8 r2 }>> | R2. | cis2. |  % va vc cb 
-  \Q "kl" {s2. }| \Q "bn" {s2. }|\Q "vn" {s2. }|<< \Q "va" {s2. } \\ \Q "vn"{s2.} >> |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2. }| \Q "bn" {s2. }|\Q "vn" {s2. }|\instrumentSwitch "blankva"<< \Q "va" {s2. } \\ \Q "vn"{s2.} >> |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn75  
   \dQQ \time 2/4 ais8 fis bis8. gis16 | \lyricmode{ have no head for }|

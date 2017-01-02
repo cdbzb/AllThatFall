@@ -16,8 +16,8 @@ tag = \date
 
 %{
 
-%}
 
+%}
 %bn1
 \tempo 4 = 80 \mark \default \time 5/8 b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
@@ -45,6 +45,7 @@ R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
 r4 g8~g4.~ |fis'4. g' |cis2 d4~ |\clef bass  fis,2.| R2. | % vn vII va vc cb
 
+%{
 %bn4
 \time 6/4 \tempo "Forward" 4 = 100 R1. | \lyricmode { } |
 gis2 a4 ais2 b4 | << {g'4 a2~ a4 b2 }\\{d,2 e4~ e2 r4} \\{gis,2. ais} >> |  R1. |  R1. |  % rh lh kbR kbL
@@ -7610,8 +7611,8 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 %bn831
 
 \mark \default \time 3/4  \instrumentSwitch "Rooney"
-r8 ais=16 gis fis8 gis16 ais c8 d, | \lyricmode {I hear some -- one be -- hind us } |
-\clef treble R2. |\clef bass R2. |  R2. |  R2. |  % rh lh kbR kbL
+r8 ais=16 gis fis8 gis16 ais c8 f, | \lyricmode {I hear some -- one be -- hind us } |
+\clef treble r2 <ges=' aes c>8( \arpeggio f)  |\clef bass r2 <ges= aes c>8( \arpeggio f) |  R2. |  R2. |  % rh lh kbR kbL
 R2. |R2. |R2. |R2. | % fl ob kl bn
 R2. |R2. | R2. | % hn tpt  tn
 R2. |R2. |R2. | % tym perc fol
@@ -7620,7 +7621,7 @@ R2. |R2. |R2. |R2. |R2. | % vn vII va vc cb
 
 %bn832
 \time 2/4 r8 g a b | \lyricmode {it looks like } |
-R2 | d=2 |R2 |  R2 |  % rh lh kbR kbL
+r8 g a b |r8 g a b |R2 |  R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
 R2 |R2 |R2 | % tym perc fol
@@ -7628,8 +7629,8 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn833
-cis8 a r d | \lyricmode {Jerr -- y it } |
-R2 |  \grace {d16~ f~ g~ a~ cis~} <d, f g a cis>4 r8 <aes' bes d> |R2 |R2 |  % rh lh kbR kbL
+cis8 gis r d' | \lyricmode {Jerr -- y it } |
+<g a cis>8( gis) r8 <aes bes d> |cis8 gis r <aes bes d>  |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
 R2 |R2 |R2 | % tym perc fol
@@ -7638,7 +7639,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn834
 ees4 bes8 e, | \lyricmode {is Jerr -- y } |
-R2 | <ees g bes ees>4 r|R2 |R2 |  % rh lh kbR kbL
+ < g ees' >4 bes8 e,| <ees g bes ees>4. e8--\lv |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
 R2 |R2 |R2 | % tym perc fol
@@ -8199,7 +8200,6 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn896
 
-%{
 %}
 }
 
