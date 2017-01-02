@@ -24,9 +24,9 @@
 #getopts "ms" format
 #getopts "d" datestamp
 
-while getopts "qvfcxprmsdn:" opts; do
+while getopts "qvfcxprmsdnh" opts; do
 	case $opts in
-		[qvfcxpr]) 
+		[qvfcxprh]) 
 			players=$opts
 			;;
 		[ms])
@@ -40,6 +40,7 @@ while getopts "qvfcxprmsdn:" opts; do
 			;;
 	esac
 done
+
 input=${@:$OPTIND:1} # get first positional arg after opts
 
 if [ -z "$output" ] 
@@ -128,84 +129,43 @@ EOF
 >>
 EOF
 		;;
+	h) ##### harp
+		suffix="harp"
+		cat <<EOF >> /tmp/cat
+	\score {
+		<<
+			<< \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+			  \new Voice = "tune" \melody }
+			    \new Lyrics \lyricsto "tune" {\set fontSize = #-4  \lyrix}
+			  >>
+			  \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}
+				<< \new Staff {\hpL}
+				\new Staff {\clef bass \hpR}
+				  >>
+	
+EOF
+		;;
+
 
 	p)   ##### 6 Keys Parts
 		suffix="6-key-parts"
+		names=( I II III IV V VI )
+		for i in "${names[@]}"; do
 		cat <<EOF >> /tmp/cat
 \book{
 	\score {
 		<<
-%  \new Staff \with {\magnifyStaff #(magstep -6)}
-		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
-		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-		  >>
-	  \new Staff \with {instrumentName = #"I"} {\I}
+			\new Staff \with {instrumentName = #"$i"} {\\$i}
+			<< \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+			  \new Voice = "tune" \melody }
+			    \new Lyrics \lyricsto "tune" {\set fontSize = #-4  \lyrix}
+			  >>
 	  >>
 	}
 }
 
-\book{
-	\score {
-		<<
-		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
-		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-		  >>
-	  \new Staff \with {instrumentName = #"II"} {\II}
-	  >>
-	}
-}
-
-\book{
-	\score {
-		<<
-		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
-		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-		  >>
-	  \new Staff \with {instrumentName = #"III"} {\III}
-	  >>
-	}
-}
-
-\book{
-	\score {
-		<<
-		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
-		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-		  >>
-	  \new Staff \with {instrumentName = #"IV"} {\IV}
-	  >>
-	}
-}
-
-
-\book{
-	\score {
-		<<
-		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
-		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-		  >>
-	  \new Staff \with {instrumentName = #"V"} {\V}
-	  >>
-	}
-}
-
-\book{
-	\score {
-		<<
-		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
-		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-		  >>
-	  \new Staff \with {instrumentName = #"VI"} {\VI}
-	  >>
-	}
-}
 EOF
+done
 		;;
 
 	r) 
