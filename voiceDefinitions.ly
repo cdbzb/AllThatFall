@@ -67,6 +67,15 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "vn"))
      (midiInstrument . "voice oohs"))
 
+\addInstrumentDefinition #"blankvn"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "vn")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
 
 \addInstrumentDefinition #"hn"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
@@ -119,6 +128,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "tn"))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"blanktn"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "tn")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
+
 
 \addInstrumentDefinition #"va"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
@@ -126,6 +145,16 @@
      (clefGlyph . "clefs.C")
      (clefTransposition . 0)
      (middleCPosition . 0)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "va"))
+     (midiInstrument . "synth voice"))
+
+\addInstrumentDefinition #"vatreble"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "va")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
      (clefPosition . 0)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "va"))
      (midiInstrument . "synth voice"))
@@ -245,12 +274,3 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "Jer"))
      (midiInstrument . "synth voice"))
 
-\addInstrumentDefinition #"blankvn"
-  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "vn")
-     (clefGlyph . "clefs.G")
-     (clefTransposition . 0)
-     (middleCPosition . -6)
-     (clefPosition . 0)
-     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
-     (midiInstrument . "synth voice"))

@@ -222,7 +222,6 @@ EOF
 		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
 		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-    \new Lyrics \lyricsto "tune" \lyrix
   >>
   \new StaffGroup <<
 	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
@@ -238,13 +237,14 @@ echo 'sent ly file'
 	f)   ##### FULL
 		suffix="Full"
 		cat <<EOF >> /tmp/cat 
-\layout {\context { \Staff \RemoveEmptyStaves }
-	 \context { \RhythmicStaff \RemoveEmptyStaves }
+\layout {
+	% \context { \Staff \RemoveEmptyStaves }
+	\context { \RhythmicStaff \RemoveEmptyStaves }
 }
 
 \score {
   <<
-		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+		    << \new Staff \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
 		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
     \new Lyrics \lyricsto "tune" \lyrix
