@@ -4,6 +4,7 @@ exe 'w'
 execute '!sco -xsd -n Scene1 %'
 execute '!sco -psd -n Scene1 %'
 execute '!sco -rsd -n Scene1 %'
+execute '!sco -asd -n Scene1 %'
 normal u
 
 " Drifting

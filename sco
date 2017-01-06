@@ -24,9 +24,9 @@
 #getopts "ms" format
 #getopts "d" datestamp
 
-while getopts "qvfcxprmsdn:" opts; do
+while getopts "qvfcxpramsdn:" opts; do
 	case $opts in
-		[qvfcxpr]) 
+		[qvfcxpra]) 
 			players=$opts
 			;;
 		[ms])
@@ -54,6 +54,25 @@ cat $input > /tmp/cat  ##### THE MUSIC
 
 ##### THE SCORE
 case $players in
+	a)   ##### HARP 
+		suffix="harp"
+		cat <<EOF >> /tmp/cat 
+\score {
+<<
+    <<\new Staff = "voice" \relative c'' { 
+      \new Voice = "tune" \melody
+    }
+    \new Lyrics \lyricsto "tune" \lyrix
+  >>
+   \new GrandStaff  <<
+  \new Staff  { \hpL }
+  \new Staff  {\clef bass \hpR }
+  >> 
+>>
+EOF
+
+		;;
+
 	v)   ##### VOCAL SCORE
 		suffix="Vocal"
 		cat <<EOF >> /tmp/cat 
