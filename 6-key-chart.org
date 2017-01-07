@@ -32,3 +32,31 @@
 | 161 | bn |    |     | fl |    |    |
 | 163 |    |    |     | va |    |    |
 | 164 | vn |    |     |    |    |    |
+
+
+Act 1 parts/players
+
+I fl kl tn va (bn vn!)
+II fl ob tn vn 
+III hn vn ob
+IV fl ob va tn vn
+V ob bn vn cb 
+VI tn vc 
+
+Players per instrument
+
+fl I II IV
+ob II IV V
+kl I
+bn V (I)
+--------
+hn III
+--------
+tpt
+tn I II IV VI
+---------
+vn I II III IV V
+va I IV 
+vc VI
+cb V
+
