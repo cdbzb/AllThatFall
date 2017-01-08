@@ -140,8 +140,8 @@ EOF
 	\new Staff {\VI}
   >>
   \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}
-	<< \new Staff {\hpL}
-	\new Staff {\clef bass \hpR}
+	<< \new Staff {\hpR}
+	\new Staff {\clef bass \hpL}
   >>
 
 >>
@@ -149,12 +149,13 @@ EOF
 		;;
 
 
-	p)   ##### 6 Keys Parts
+	p)   ##### 6 Keys Parts --- Part 3 includes "keyboard" part
 		suffix="6-key-parts"
-		names=( I II III IV V VI )
+		names=( I II IV V VI ) #note does not include III!
 		for i in "${names[@]}"; do
 		cat <<EOF >> /tmp/cat
 \book{
+	\bookOutputSuffix "$i"
 	\score {
 		<<
 			\new Staff \with {instrumentName = #"$i"} {\\$i}
@@ -165,9 +166,31 @@ EOF
 	  >>
 	}
 }
-
 EOF
 done
+
+		cat <<EOF >> /tmp/cat
+\book{
+	\bookOutputSuffix "III"
+	\score {
+		<<
+			<<
+			\new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { 
+				\set Staff.instrumentName = #"voice" \new Voice = "tune" \melody }
+			\new Lyrics \lyricsto "tune" {\set fontSize = #-4  \lyrix}
+			>>
+
+			\new Staff \with {instrumentName = #"III"} {\III}
+			\new GrandStaff  \with {connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"}  <<
+				\new Staff {\absolute \kbR}
+				\new Staff {\absolute \clef bass \kbL}
+			    	>>
+	 	>>
+	}
+}
+EOF
+
+
 		;;
 
 	r) 
