@@ -232,7 +232,7 @@ echo 'sent ly file'
 		    << \new Staff \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
 		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
-    \new Lyrics \lyricsto "tune" \lyrix
+    % \new Lyrics \lyricsto "tune" \lyrix
   >>
   \new GrandStaff  \with {connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"} {
     <<
@@ -242,14 +242,14 @@ echo 'sent ly file'
     }
     \new StaffGroup << 
   \new Staff = "fl" { \set Staff.instrumentName = #"Flute" \set Staff.shortInstrumentName = #"fl" \fl }
-  \new Staff = "ob" {\set Staff.instrumentName = #"Oboe" \set Staff.shortInstrumentName = #"ob" \ob }
-  \new Staff = "kl" {\set Staff.instrumentName = #"Clarinet" \set Staff.shortInstrumentName = #"kl" \kl }
-  \new Staff = "bn" {\set Staff.instrumentName = #"bassoon" \set Staff.shortInstrumentName = #"bn" \clef bass \bn }
+  \new Staff = "ob" { \set Staff.instrumentName = #"Oboe" \set Staff.shortInstrumentName = #"ob" \ob }
+  \new Staff = "kl" { \set Staff.instrumentName = #"Clarinet" \set Staff.shortInstrumentName = #"kl" \kl }
+  \new Staff = "bn" { \set Staff.instrumentName = #"Bassoon" \set Staff.shortInstrumentName = #"bn" \clef bass \bn }
     >>
     \new StaffGroup <<
-  \new Staff {\set Staff.instrumentName = #"Horn" \set Staff.shortInstrumentName = #"hn"\clef bass \hn}
-  \new Staff {\set Staff.instrumentName = #"Trumpet" \set Staff.shortInstrumentName = #"tpt" \clef treble \tpt}
-  \new Staff="tn" {\set Staff.instrumentName = #"Trombone" \set Staff.shortInstrumentName = #"tn" \clef bass \tn}
+  \new Staff { \set Staff.instrumentName = #"Horn" \set Staff.shortInstrumentName = #"hn"\clef bass \hn}
+  \new Staff { \set Staff.instrumentName = #"Trumpet" \set Staff.shortInstrumentName = #"tpt" \clef treble \tpt}
+  \new Staff="tn" { \set Staff.instrumentName = #"Trombone" \set Staff.shortInstrumentName = #"tn" \clef bass \tn}
     >>
     \new StaffGroup <<
   \new Staff {\set Staff.instrumentName = #"Timpani" \set Staff.shortInstrumentName = #"timp" \clef bass \tym}
