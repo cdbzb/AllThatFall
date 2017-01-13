@@ -114,8 +114,9 @@ EOF
 		suffix="6-key"
 		cat <<EOF >> /tmp/cat
 
-\layout {\context { \Staff \RemoveEmptyStaves }
-	 \context { \RhythmicStaff \RemoveEmptyStaves }
+\layout { 
+	% \context { \Staff \RemoveEmptyStaves }
+	\context { \RhythmicStaff \RemoveEmptyStaves }
 }
 \score { 
 <<
@@ -126,22 +127,28 @@ EOF
   >>
   \new StaffGroup 
 	<< 	
-	\new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	\new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	\new Staff \with {\RemoveEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	\new Staff \with { \RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
 	\new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
   >>
+  \new GrandStaff \with {instrumentName = #"kb" shortInstrumentName = "kb"}
+	<< \new Staff \with {\RemoveEmptyStaves} {\kbR}
+	\new Staff  \with {\RemoveEmptyStaves}  {\clef bass \kbL}
+  >>
+
+  \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}
+	<< \new Staff \with {\RemoveEmptyStaves} {\hpR}
+	\new Staff  \with {\RemoveEmptyStaves}  {\clef bass \hpL}
+  >>
+
   \new StaffGroup 
 	<<
 	\new Staff {\I}
 	\new Staff {\II}
 	\new Staff {\III}
-	\new Staff {\IV}
-	\new Staff {\V}
+	\new Staff = "va" {\IV}
+	\new Staff = "vc" {\V}
 	\new Staff {\VI}
-  >>
-  \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}
-	<< \new Staff {\hpR}
-	\new Staff {\clef bass \hpL}
   >>
 
 >>
