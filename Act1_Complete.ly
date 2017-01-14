@@ -4156,9 +4156,9 @@ R2 | <fis a d'>2\arpeggio | % hpL hpR
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-a'4~^"mutes" \times 2/3 {a'8 a' a'} | a'2^"mute"( | << f'2^"mute" \\ c'~ >> |<< {f4^"pizz." f}\\f2_"arc" >> | R2 | % vn vII va vc cb 
- \instrumentSwitch "vn" \Q #"vII" {s2 }|R2   |   \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"bn" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+\tag #'xk { f4 f } \tag #'full { R2 } | R2 | % hpL hpR 
+a'4~^"mutes" \times 2/3 {a'8 a' a'} | a'2^"mute"( | << f'2^"mute" \\ c'~ >> |<< {f4^"pizz." f}\\f2_"mutes" >> | R2 | % vn vII va vc cb 
+ \instrumentSwitch "vn" \Q #"vII" {s2 }|R2   |   \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"bn" { s2 }|f2_"mutes"| % I II III IV V VI 
 
 %bn378
 a8( g4) \rt \rit f16(\start e) | \lyricmode{Roo -- ney } | 
@@ -4166,9 +4166,9 @@ R2 | <e e'>4 <d d'> | << {e'4. d'8}\\{c'4 b}>>| <e e,>4  <d, d> | %rh lh kbR kbL
 R2  | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+\tag#'xk { e4 d } \tag #'full {  R2 } | R2 | % hpL hpR 
 a'8( g'4) f'16( e') | g'4. f'16 e' | << e'2 \\ {c'4 b} >>| << {e4 d}\\{e d} >> | R2 | % vn vII va vc cb 
-  \Q #"vII" { s2 }| R2  |   \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"bn" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+  \Q #"vII" { s2 }| R2  |   \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"bn" { s2 }|e4 d| % I II III IV V VI 
 
 %bn379
 e4\stop r8. e16 | \lyricmode{come. The } | 
@@ -4176,9 +4176,9 @@ r8 <c e> <c e> <c e> | <c c'>2 | <g c' e'>2\arpeggio |<c c,>2 | %rh lh kbR kbL
  r8 <c'' e''>-. q-. q-. | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+\tag #'full { R2 } \tag#'xk { c4 e }| R2 | % hpL hpR 
 e'4 r8. e'16 | e'2) | << c'2 \\ g~ >> | << {c4 e} \\ c2 >> | c,2\p | % vn vII va vc cb 
-  \Q #"vII" { s2 }| \instrumentSwitch "fl" \Q #"fl" {s2 }|  R2  |  \Q #"va" { s2 }| \instrumentSwitch "cb" \Q #"cb" {s2  }| \Q #"vc" { s2 }| % I II III IV V VI 
+  \Q #"vII" { s2 }| \instrumentSwitch "fl" \Q #"fl" {s2 }|  R2  |  \Q #"va" { s2 }| \instrumentSwitch "cb" \Q #"cb" {s2  }|c2 | % I II III IV V VI 
 
 %bn380
 \time 3/4 d8. e16 \times 2/3{f4 f e8( d)} | \lyricmode{mail has not yet gone } | 
@@ -4186,9 +4186,9 @@ r2. | <b b'>4 \ottava #-1 <a a'>2 | <g d>4 \times 2/3 {a4 c' a}| <b, b,,>4 <a, a
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-d'8. e'16 \times 2/3{f'4 f' e'8( d')} | R2. | << { b4 c'2~ } \\ { g4 a2 } \\ \new Staff = "vaossia" \with{alignAboveContext = #"va" firstClef = ##f} {\clef alto r4 \times 2/3 {f4^"solo" c' f}} >>| << { b,4 \times 2/3 {a, c e}}\\{b,4 a,}>> | b,,4 a,,2 | % vn vII va vc cb 
-\instrumentSwitch "va" {\clef alto r4 \times 2/3 {f4^"solo" c' f}} |  \Q #"vII" { s2. }|  \Q #"hn" { s2. }|  \Q #"va" { s2. }|  \Q #"cb" { s2. }| \Q #"vc" { s2. }| % I II III IV V VI 
+\tag #'full { R2. } \tag#'xk {  b,4 \times 2/3 {a, c e} }| R2. | % hpL hpR 
+d'8. e'16 \times 2/3{f'4 f' e'8( d')} | R2. | << { b4 c'2~ } \\ { g4 a2 } \\ \new Staff = "vaossia" \with{alignAboveContext = #"va" firstClef = ##f} {\clef alto r4 \times 2/3 {f4^"solo" c' f}} >>| << { b,4 \times 2/3 {a, c e}}\\{b,4 a,2}>> | b,,4 a,,2 | % vn vII va vc cb 
+\instrumentSwitch "va" {\clef alto r4 \times 2/3 {f4^"solo" c' f}} |  \Q #"vII" { s2. }|  \Q #"hn" { s2. }|  \Q #"va" { s2. }|  \Q #"cb" { s2. }|b,4 a,2| % I II III IV V VI 
 
 %bn381
 \time 2/4 d8 b \rt d a'16( g) | \lyricmode{up, just take my } | 
@@ -4196,7 +4196,7 @@ r2 | <g g'>4 <f f'> | g4 f | <g, g,,>4 <f, f,,> | %rh lh kbR kbL
 R2 | R2 | r8 <d' g'>-. <d' f'>-. q-. | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+\tag #'full { R2 } \tag#'xk {  g,4 f,  }| R2 | % hpL hpR 
 d'8 b d' a'16( g') | R2 | << { c'4 a }  \\ { g f } \\ {\inst "vaossia" {r4 d}}  >>| g,4 f, |g,,4 f,, | % vn vII va vc cb 
  \instrumentSwitch "kl" \Q #"kl" {s2 }| R2 | R2 |  \Q #"va" { s2 }|  \Q #"cb" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 
@@ -4206,7 +4206,7 @@ r2 | <e e'>4 <d d'> | <<{r4 c'}\\{e2}>>  | <e, e,,>4 <d d,> | %rh lh kbR kbL
 R2 | R2 | R2 | r8 <e g> <d g> <d f> | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+\tag #'full { R2 } \tag#'xk { e,4 d,  }| R2 | % hpL hpR 
 g'8 e'4 a16 f'16 | R2 | << {g4 a}\\{e4 d}\\{\inst "vaossia" {c4 d}} >> | << {e,4 d,} \\ \ossia "vc" {\clef bass g8(\mf c' b f}>>  | e,,4 d,,  | % vn vII va vc cb 
 R2 | \instrumentSwitch "ob" \Q #"bn" {s2 }| R2 | << {g4 a}\\{<e c>4 d} >> |  \Q #"cb" { s2 }| << { g8(\mf c' b f} \\ {e,4 d,}>>  | % I II III IV V VI 
 
@@ -4216,7 +4216,7 @@ r2 | <c c'>8 <b b'>4~ <b b'>16 <a a'> | <g c'>8 <g b>4~ b16 a | <c c,>8 <b, b,,>
 R2 | R2 | R2 | R2 | % fl ob kl bn 
  c8\p b, r8. a,16  | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+\tag #'full { R2 } \tag#'xk {  c,8 b,4~ b,16 a,  }| R2 | % hpL hpR 
 e'8 d'16 g e'8 d'16 c'32( b) | R2 | <<g2~ \\ {\inst "vaossia" {e8 d4.}}>> | <<{ c,8 b,4~ b,16 a, }\\{\inst "ossia" {c8 e4.~^"tie" }} >>| c,8 b,,4~ b,,16 a,,| % vn vII va vc cb 
  \instrumentSwitch "tn" \Q #"hn" {s2 }| R2 |  R2  | <<g2~ \\ {e8 d4.}>> |  \Q #"cb" { s2 }| <<{c8 e4.~}\\{ c,8 b,4~ b,16 a, } >>| % I II III IV V VI 
 
@@ -4226,7 +4226,7 @@ r2 | <g g'>2 \ottava #0 | g2 | <g, g,,>2 | %rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 g,4 r | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+\tag #'full { R2 } \tag#'xk { g,2  }| R2 | % hpL hpR 
 b8 r4. | R2 | g4 r |<<  g,2 \\ {\inst "ossia" {e2)}} >>| g,,2 |  % vn vII va vc cb 
 \Q "hn" {s2} | R2 | R2 |  \Q #"va" { s2 }|  \Q #"cb" { s2 }|<<  e2) \\g,2  >>| % I II III IV V VI 
 

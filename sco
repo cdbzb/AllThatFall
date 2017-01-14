@@ -138,7 +138,7 @@ EOF
 
   \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}
 	<< \new Staff \with {\RemoveEmptyStaves} {\hpR}
-	\new Staff  \with {\RemoveEmptyStaves}  {\clef bass \hpL}
+	\new Staff  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
   >>
 
   \new StaffGroup 
@@ -264,7 +264,7 @@ echo 'sent ly file'
   \new RhythmicStaff {\set Staff.instrumentName = #"foley" \set Staff.shortInstrumentName = #"fol" \fol}
     \new GrandStaff \with { connectArpeggios = ##t instrumentName = #"Harp" shortInstrumentName = #"hp"} <<
   \new Staff = "hpR" {\hpR}
-  \new Staff = "hpL" {\clef bass \hpL}
+  \new Staff = "hpL" {\clef bass \removeWithTag #'xk \hpL}
     >>
   >>
     \new StaffGroup <<
