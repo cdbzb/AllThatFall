@@ -4139,7 +4139,6 @@ r4. r4 | r4. r4 | % hpL hpR
   r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
   \Q #"kl" { s4. s4 }|   \Q #"ob" { s4. s4 }|   \Q #"vn" { s4. s4 }|  \Q #"va" { s4. s4 }|  \Q #"bn" { s4. s4 }| \Q #"vc" { s4. s4 }|  % I II III IV V VI        
 
-%}
 %bn376
 \time 2/4 d4. r8                                | \lyricmode{home.  }                         | 
 fis8 r4.                                          | a8  r4.                                     |  R2 |  R2 |   %rh lh kbR kbL 
@@ -4230,7 +4229,6 @@ R2 | R2 | R2 | % tym perc fol
 b8 r4. | R2 | g4 r |<<  g,2 \\ {\inst "ossia" {e2)}} >>| g,,2 |  % vn vII va vc cb 
 \Q "hn" {s2} | R2 | R2 |  \Q #"va" { s2 }|  \Q #"cb" { s2 }|<<  e2) \\g,2  >>| % I II III IV V VI 
 
-%{
 %bn385
 
 
@@ -7623,6 +7621,7 @@ R1. |  R1. |  R1. |  R1. |  R1. |  % vn vII va vc cb
 R1. |  R1. |  R1. |  R1. |  R1. |  R1. |  % I  II  III  IV  V  VI  
 
 %bn711
+%}
 \time 4/4 cis4 \times 2/3 {r8 gis fis} fis e r f'8 |\lyricmode{ bed, Mist -- er Bar -- rell. Just }| %%% correct tempo here !!!!!!!!!
 cis2. r4 | cis2. r4 |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
@@ -7639,7 +7638,7 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI
 <aes'' c'''>4.~ q8 r4 |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
-<<{f'''8 ees''' ees'''~ ees'''4.} \\ <aes'' c'''>2.\arpeggio>> |\clef treble << {f''4. ees''}\\<aes' c''>\arpeggio>> | % hpL hpR 
+\clef treble << {f''4. ees''}\\<aes' c''>\arpeggio>> |  <<{f'''8 ees''' ees'''~ ees'''4.} \\ <aes'' c'''>2.\arpeggio>> | % hpL hpR 
 R2. |  R2. | << {f''8 ees'' ees''~ ees''8 r4} \\ {<aes' c''>4.~ q8 r4}>>|  R2. |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
@@ -7649,19 +7648,19 @@ ees4( d8) d4.                               | \lyricmode{slow -- ly }   |
 <g'' bes''>4.~ q8 r4 |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
- <<{ees'''4 d'''8 d'''4.}\\<g'' bes''>2.>> |<<{ees''4. d''}\\<g' bes'>2. >> | % hpL hpR 
+<<{ees''4. d''}\\<g' bes'>2. >> |   <<{ees'''4 d'''8 d'''4.}\\<g'' bes''>2.>> | % hpL hpR 
 R2. |  R2. | << {r4 d''8 d'' r4} \\ {<g' bes'>4.~ q8 r4}>>| g'4.~ g'8 r4  |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn714
 %%%%%%%%alternate: ees4.( d8) d8 r !!!!! 
 
-des4.~ dis8 c8 aes~  |\lyricmode{ pain less -- ly }|
+des4.~ des8 c8 aes~  |\lyricmode{ pain less -- ly }|
 \clef bass des='4 c8 aes4.~ | <f aes>2. |  R2. |  R2. |   % rh lh kbR kbL 
 <f'' aes''>2.(  |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
-<f'' aes'' des'''>\arpeggio | <f' aes' des''>4.\arpeggio ees' | % hpL hpR 
+<f' aes' des''>4.\arpeggio ees' |  <f'' aes'' des'''>4.\arpeggio r | % hpL hpR 
 R2. |  R2. |<f' aes' des''>4. r4 c''8 |<f f'>4. <ees ees'> |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
@@ -7671,18 +7670,17 @@ aes4 g8 bes4. \breathe |\lyricmode{a -- way }|
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
-r4 g''8 aes''4. |r4. <g' aes' c''>4.\arpeggio| % hpL hpR 
+r4. <g' aes' c''>4.\arpeggio|  r4 g''8 aes''4. | % hpL hpR 
 R2. |  R2. |aes'8 r g'<< ais'4. \\ <d' fis'>4. >>  |r4. r4  <e e'>8( |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn719
-
 \time 4/4 bes8 a g f16( g) a4. g8 |\lyricmode{ keep -- ing up my strength with }|
 \clef treble f'4. f8 e d c b | <<{c2 r2}\\f,1>>|  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 | f'2( e'8 d' c' b) | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
-<< {bes''8 a'' g'' f'' e'' d'' c'' bes'} \\ <c' f'>\arpeggio >> | R1 | % hpL hpR 
+R1 |  << {bes''8 a'' g'' f'' e'' d'' c'' bes'} \\ <c' f'>1\arpeggio >> | % hpL hpR 
 R1 |  R1 | << {bes'8( a' g' f'16 g' a'4. g'8} \\ {<c f'>2~ c} >>  | <f f'>1 |  R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
@@ -7692,7 +7690,7 @@ d4. cis8 b2 | <<{a2~ a8 g fis4} \\ a1>>|  R1 |  R1 |   % rh lh kbR kbL
 d'4. c'8 b2  |  R1 |g'8 fis' e'4~ e'8 d' e' fis'| a2~( a8 g8 fis4 | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
-<a' d''>4. g'8 fis'2  |a1 | % hpL hpR 
+a1 |  <a' d''>4. g'8 fis'2  | % hpL hpR 
 R1 |  R1 |  R1 | << d''1 \\ d'1~ >> |  R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
@@ -7703,7 +7701,7 @@ cis4  | << a4 \\ e >> |  R4 |  R4 |   % rh lh kbR kbL
 a4 |  R4 | fis'8( e') | e4) | % fl ob kl bn 
 R4 |  R4 |   R4 | % hn tpt  tn 
 R4 |  R4 |  R4 | % tym perc fol 
- << {fis''8 e''} \\ <a' cis''>4\arpeggio >>|<a cis' fis'>\arpeggio | % hpL hpR 
+<a cis' fis'>\arpeggio |   << {fis''8 e''} \\ <a' cis''>4\arpeggio >>| % hpL hpR 
 R4 |  R4 |  R4 | << {fis'8 e'} \\ cis'4 >> |  R4 |  % vn vII va vc cb 
 R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI  
 
@@ -7713,7 +7711,7 @@ R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI
 R2. |  R2. | f'4 r2 |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
-<c'' f''>4.\arpeggio d'' |<a c' f'>4.\arpeggio bes | % hpL hpR 
+<a c' f'>4.\arpeggio bes |  <c'' f''>4.\arpeggio d'' | % hpL hpR 
 f4.~ <f f'>| r4^"mutes" <d' a'>8~\< q4.\! |c'4.\pp d'~ | << \new Staff = "vcossia"  \with {alignAboveContext = #"vc"} {  \times 3/4 {f''4^"VC solo"   f''8 e''8 e''4 d''8}  } \\ {a,4.\pp bes,} >> |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
@@ -7723,7 +7721,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
-R2. | b4. c' | % hpL hpR 
+b4. c' |  R2. | % hpL hpR 
 g4. g' | \times 3/2 {g'8 d'} \times 3/2 {f'8 e'} | d'4.\mp e'| << \context Staff = "vcossia" {  g''4. \times 3/2 { e''8 d'' }  }  {b,4. c}>> |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  %   I  II  III  IV  V  VI  
 
@@ -7836,7 +7834,7 @@ r4. r4. r8 gis( dis |r4. c='8( a e a,4.~ |  r4. r r |  r4. r r |   % rh lh kbR k
 r4. r r |  r4. r r |  r4. r r |  r4. r r | % fl ob kl bn 
 r4. r r |  r4. r r |   r4. r r | % hn tpt  tn 
 r4. r r |  r4. r r |  r4. r r | % tym perc fol 
- b'8 a' f\lv r2. |  r4. b8 a f\lv  r4. | % hpL hpR 
+r4. b8 a f\lv  r4. |   b'8 a' f\lv r2. | % hpL hpR 
 r4. r r |  r4. r r | <e a>4.~^"mutes" q~ q |<<\new Staff = "vasolo" \with {\alignAboveContext = "va"}{\clef alto r4.^"solo" b8 r e~ e4.} { a4.~\p a~ a }>> |  r4. r r |  % vn vII va vc cb 
 r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I  II  III  IV  V  VI  
 
@@ -7856,7 +7854,7 @@ r8. r \times 3/4{dis8( cis16 b)} | b8.~ b~ b |  r8. r r |  r8. r r |   % rh lh k
 a8-. r16 cis8-- r16 dis8.|  r8. r r |  r8. r r |  r8. r r | % fl ob kl bn 
 r8. r r |  r8. r r |   r8. r r | % hn tpt  tn 
 r8. r r |  r8. r r |  r8. r r | % tym perc fol 
-a'8 g'16 cis'8 fis'16 dis'8.| a8. cis dis | % hpL hpR 
+a8. cis dis |  a'8 g'16 cis'8 fis'16 dis'8.| % hpL hpR 
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % vn vII va vc cb 
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I  II  III  IV  V  VI  
 
@@ -7866,7 +7864,7 @@ r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I  II  III  
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |   r4. r4 | % hn tpt  tn 
 r4. r4 |  r4. r4 |  r4. r4 | % tym perc fol 
- << <a c' d' f'>4.\arpeggio {f'8 g' a' b' c''} >> | c4.\arpeggio r4 | % hpL hpR 
+c4.\arpeggio r4 |   << <a c' d' f'>4.\arpeggio {f'8 g' a' b' c''} >> | % hpL hpR 
  r4. r4 |  r4. r4 | <a c' d' f'>4.~^"mutes" q4 |  r4. r4 |  r4. r4 |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
@@ -7876,10 +7874,11 @@ R2 |g4. r8 |  R2 |  R2 |   % rh lh kbR kbL
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
-d''8 c'' <c'' e'' g'' c''' e'''>4 |  R2 | % hpL hpR 
+R2 |  d''8 c'' <c'' e'' g'' c''' e'''>4 | % hpL hpR 
 r4 \ottava #1 <g'''\o c''''\o>4\pp \ottava #0 | r4 \ottava #1 c''''4\pp \ottava #0 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
 %bn739
 f8 c a c                                                                             | \lyricmode{ long have you been }                 | 
