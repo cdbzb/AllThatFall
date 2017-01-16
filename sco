@@ -65,8 +65,8 @@ case $players in
     \new Lyrics \lyricsto "tune" \lyrix
   >>
    \new GrandStaff  <<
-  \new Staff  { \hpL }
-  \new Staff  {\clef bass \hpR }
+  \new Staff  { \hpR }
+  \new Staff  {\clef bass \hpL }
   >> 
 >>
 EOF
@@ -238,7 +238,7 @@ echo 'sent ly file'
   <<
 		    << \new Staff \relative c'' { \set Staff.instrumentName = #"voice"
 		  \new Voice = "tune" \melody }
-		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-2  \lyrix}
     % \new Lyrics \lyricsto "tune" \lyrix
   >>
   \new GrandStaff  \with {connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"} {
