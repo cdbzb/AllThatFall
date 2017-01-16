@@ -20,9 +20,9 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 \parallelMusic #'( melody lyrix rh  lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR  vn vII va vc cb I  II  III  IV  V  VI  ) {
 %{
 
+%}
 
 %bn1 %sec1
-%}
   \tempo 4 = 70 %dummy
   \time 2/4 r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |% lh rh kbR kbL 
@@ -40,7 +40,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
   R2 | R2 | <g c'>2  |  R2 | % fl ob kl bn   
   r4.. e16~ |  R2 | R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
-  \grace {g,16~ c~ e}<g, c e>4.. d'16 | \grace c'16~ <g c'>4.. gis'16 | % harpR harpL  
+  <g, c e>4..\arpeggio d'16(\glissando | <g c'>4..\arpeggio aes'16(\glissando | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 |  % va vc cb 
   \instrumentSwitch "kl" \Q #"kl" {  s2} | R2 |\instrumentSwitch "hn" \Q #"hn"{  s2} |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI    
@@ -52,11 +52,12 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
   R2 |R2 | R2  |  R2 | % fl ob kl bn   
   e4 a,8-. r |  R2 | R2 | % hn tpt  tn   
   R2 | \triangle f''2 | R2 | % tmp perc fol  
-  cis'4-.^"*" a-. | a'4-. r | % harpR harpL  THIS CANT BE PEDALLED
+  des'4-.) a-. | a'4-.) r | % harpR harpL  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 |  % va vc cb 
   R2 |  R2  |\Q #"hn" {  s2} |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI    
 
+%{
 %bn4  
   \time 3/4 d'8 b g a b g |\lyricmode{ thought the hin -- ney was fa -- }|
  R2. |  R2. |  R2. |  R2. |% lh rh kbR kbL 
@@ -3469,6 +3470,7 @@ r4. r4 | r4. r4 | e8 f g f g | \clef bass gis8 a b r d | e,8 f, g, f, g, |  % vn
   \Q #"kl" { s4. s4 }| \instrumentSwitch "ob" \Q #"ob" {s4. s4 }|  \Q #"hn" { s4. s4 }|  \Q #"va" { s4. s4 }| \instrumentSwitch "cb" \Q #"cb" {s4. s4 }| \Q "vc" { s4. s4 } |  % I  II  III  IV  V  VI     
 
 %bn310
+\tempo 4 = 60 %trashme
 \time 3/4
 d4 c4. g8|\lyricmode{by you with -- }|%
 d='8 c a e c r | a2. |  R2. |  R2. |   % rh lh kbR kbL 
@@ -3578,7 +3580,7 @@ r4. r4. | r4. r4.   |  R2. |  R2. |   % rh lh kbR kbL
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |<<{des4.~ des4 r8}\\{des,4.~des,4 r8}>>| % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
- R2. |R2. | % hpL hpR 
+R2. | \clef treble R2. | % hpL hpR 
 R2. | R2. | R2. | <<{ f4.~ f4 r8 }\\{des4.~des4 r8}>>  | R2. |  % vn vII va vc cb 
   \Q #"tn" { s2. }|  \Q #"ob" { s2. }|  \Q #"hn" { s2. }|  \Q #"va" { s2. }|  \Q #"cb" { s2. }| \Q "vc" { s2. } |  % I  II  III  IV  V  VI     
 
@@ -3746,7 +3748,7 @@ r8. r4 | r8. b8-. b|  r8. r4 | % hn tpt  tn
 r8. r4 | r8. r4 | r8. r4 | % tym perc fol 
  r8. r4 |r8. r4 | % hpL hpR 
 r8. r4 | r8. r4 | r8. r4 | e,8. r4 | r8. r4 |  % vn vII va vc cb 
-   \Q #"kl" { 0 }|  \Q #"vn" { 0 }|  \Q #"hn" { 0 }|  \Q #"va" { 0 }|  \Q #"cb" { 0 }| \Q "vc" { 0 } |  % I  II  III  IV  V  VI     
+   \Q #"kl" { r8. r4 }|  \Q #"vn" { r8. r4 }|  \Q #"hn" { r8. r4 }|  \Q #"va" { r8. r4 }|  \Q #"cb" { r8. r4 }| \Q "vc" { r8. r4 } |  % I  II  III  IV  V  VI     
 
 %bn337
 f'8. c8 b16 a    | \lyricmode{self, I am not }    | %
@@ -3756,7 +3758,7 @@ r8. r4 | fis8.-.  r4 |  r8. r4 | % hn tpt  tn
 r8. r4 | r8. r4 | r8. r4 | % tym perc fol 
  r8. r4 |r8. r4 | % hpL hpR 
 <d'' b''>8.^"solo" r4 | r8. r4 | <d' f'>8.^"solo" r8. <a, a>16| \clef treble <d' gis' b'>8.\arpeggio^"solo" r4 | r8. r4 |  % vn vII va vc cb 
-   \Q #"kl" { 0 }|  \Q #"vn" { 0 }|  \Q #"hn" { 0 }|  \Q #"va" { 0 }|  \Q #"cb" { 0 }| \Q "vc" { 0 } |  % I  II  III  IV  V  VI     
+   \Q #"kl" { r8. r4 }|  \Q #"vn" { r8. r4 }|  \Q #"hn" { r8. r4 }|  \Q #"va" { r8. r4 }|  \Q #"cb" { r8. r4 }| \Q "vc" { r8. r4 } |  % I  II  III  IV  V  VI     
 
 %bn338
 \time 6/16 d8 a16 fis8 d16   | \lyricmode{ half a -- live nor }    | %
@@ -4231,7 +4233,6 @@ b8 r4. | R2 | g4 r |<<  g,2 \\ {\inst "ossia" {e2)}} >>| g,,2 |  % vn vII va vc 
 \Q "hn" {s2} | R2 | R2 |  \Q #"va" { s2 }|  \Q #"cb" { s2 }|<<  e2) \\g,2  >>| % I II III IV V VI 
 
 
-%{
 
 %bn385
 \time 1/4 \instrumentSwitch "Rooney" cis='8 r8\fermata | \lyricmode{What? } | 

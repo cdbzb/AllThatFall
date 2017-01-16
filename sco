@@ -65,8 +65,8 @@ case $players in
     \new Lyrics \lyricsto "tune" \lyrix
   >>
    \new GrandStaff  <<
-  \new Staff  { \hpR }
-  \new Staff  {\clef bass \hpL }
+   \new Staff  { \hpR }
+   \new Staff  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
   >> 
 >>
 EOF
