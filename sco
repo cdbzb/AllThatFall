@@ -230,14 +230,14 @@ echo 'sent ly file'
 		suffix="Full"
 		cat <<EOF >> /tmp/cat 
 \layout {
-	% \context { \Staff \RemoveEmptyStaves }
+	 \context { \Staff \RemoveEmptyStaves }
 	\context { \RhythmicStaff \RemoveEmptyStaves }
 }
 
 \score {
   <<
 		    << \new Staff \relative c'' { \set Staff.instrumentName = #"voice"
-		  \new Voice = "tune" \melody }
+		  \new Voice = "tune" {\tempo 4 = 60 \melody} }
 		    \new Lyrics \lyricsto "tune" {\set fontSize = #-2  \lyrix}
     % \new Lyrics \lyricsto "tune" \lyrix
   >>
