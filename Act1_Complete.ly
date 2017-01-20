@@ -17,12 +17,11 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
   poet = "Samuel Beckett"
 }
 
-\parallelMusic #'( melody lyrix rh  lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR  vn vII va vc cb I  II  III  IV  V  VI  ) {
+\parallelMusic #'( melody lyrix rh  lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR  vn vII va vc cb I  II  III  IV  V  VI  ) { \hiddenTempo 60
 %{
 
 
 %bn1 %sec1
-%}
   \tempo 4 = 70 %dummy
   \time 2/4 r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |% lh rh kbR kbL 
@@ -1318,7 +1317,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
 %bn112  
   %%%%%%%%% check relationship here!                  | add rest to top of next bar?
   \dQQ \time 4/4 r4 e,8( dis) \times 2/3 {g4 dis8} cis( c) | \lyricmode{so long a -- go } |
-R1  |  \clef bass \repeat tremolo 8 {cis,16 cis'}     |<cis, cis>1:32~ |r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  |  % lh rh kbR kbL
+R1  |  \clef bass \repeat tremolo 8 {cis,16 cis'}     |r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  |<cis, cis>1:32~ |  % lh rh kbR kbL
   R1 | R1 | R1 | R1 |  R1 |   % fl ob kl bn    
   R1 | R1 | % hn tpt  tn   
   R1 | R1 |  % tmp perc fol  
@@ -1872,7 +1871,6 @@ r4. r4  | r4. r4  |  r4. r4 |  r4. r4 |   % lh rh kbR kbL
   R2. | <b,, fis, b,>8-. r r2 | R2. |  % va vc cb 
   \Q "va" {s2. }|\Q "tn" {s2. }|\Q "hn" {\clef treble s2. }|\Q "vn" {s2. } |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
 
-%{
 
 %bn159  
   \time 2/4 e4 b8) gis | \lyricmode{of }     | 
@@ -3294,7 +3292,6 @@ r2. r2. r2 | r2. r2. r2 | g2 ais4~ ais2 b2. |a,2 r4 gis,2 r4 b,4 r |a,,2 r4 gis,
   \Q #"kl" { 0 }|  \Q #"ob" { 0 }|  \Q #"hn" { 0 }|  \Q #"tn" { 0 }|  \Q #"cb" { 0 }| \Q "vc" { 0 } |  % I  II  III  IV  V  VI     
 
 %bn293
-\tempo 4 = 60 %trashme
 \dQQ \time 3/2
 g4( e) cis ais r4 \times 2/3 {g8( fis f) } | \lyricmode {no it is too } |%
 R1. | <cis cis'>1. | \clef bass << {g'4 e' cis' ais \times 2/3{ g4 fis f}}\\ {<cis g ais cis e>2.\arpeggio r2.} >> \clef treble | \ottava #-1 <c,, dis,, fis,, c,>1. \ottava #0 |   % rh lh kbR kbL 
@@ -3307,7 +3304,6 @@ e'2 cis' ais | cis'2 bes \times 2/3 {g4( fis f)} | e1. | cis2 bes, \times 2/3 {g
   %\Q #"kl" { s1. }|  \Q #"ob" { s1. }| \instrumentSwitch "vn" \Q #"vn" {s1. }|  \Q #"tn" { s1. }|  \Q #"cb" { s1. }| \Q "vc" { s1. } |  % I  II  III  IV  V  VI     
 
 %bn294
-\tempo 4 = 60 %trashme
 \time 6/4 \dQQ 
 e4 r2 r2. | \lyricmode {much. } |%   %%%%% MORE??? USED to be 3 quarters (1 pttn) longer
 R1. | <<{fis'4 g2}\\ g,2. >> << {fis'4 g2}\\ g,2. >> |r2 fis'4~ fis'2 fis'4~ | <<{fis4 g r fis g r}\\{<g, d>2~q8 r q2~q8 r}>>|   % rh lh kbR kbL 
@@ -3475,7 +3471,6 @@ r4. r4 | r4. r4 | e8 f g f g | \clef bass gis8 a b r d | e,8 f, g, f, g, |  % vn
   \Q #"kl" { s4. s4 }| \instrumentSwitch "ob" \Q #"ob" {s4. s4 }|  \Q #"hn" { s4. s4 }|  \Q #"va" { s4. s4 }| \instrumentSwitch "cb" \Q #"cb" {s4. s4 }| \Q "vc" { s4. s4 } |  % I  II  III  IV  V  VI     
 
 %bn310
-\tempo 4 = 60 %trashme
 \time 3/4
 d4 c4. g8|\lyricmode{by you with -- }|%
 d='8 c a e c r | a2. |  R2. |  R2. |   % rh lh kbR kbL 
@@ -3777,7 +3772,6 @@ r8. r | \tuplet 2/3 8. { d'16 a fis^"range!" d} | r8 q16 r8 <d, d>16 |\clef bass
  \instrumentSwitch "vn" \Q #"vII" {s8. s }| \instrumentSwitch "vn" \Q #"vn" {s8. s }|  \Q #"hn" { s8. s }|  \Q #"va" { s8. s }|  \Q #"cb" { s8. s }| \Q "vc" { s8. s } |  % I  II  III  IV  V  VI     
 
 %bn339
-\tempo 4 = 60 %trashme
 \time 3/4 e16 fis gis ais  \times 2/3 {b4 fis8 } dis4 | \lyricmode{an -- y -- thing a -- proa -- ching it } | %
 r2. | r4 b=8 fis b,4 |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | r4 b b,8 r | % fl ob kl bn 
@@ -4022,7 +4016,6 @@ R2. | R2. | R2. | % tym perc fol
 
 
 %bn363
-\tempo 4 = 60 %trashme
 \time 2/4 b8 fis g b                        | \lyricmode{when it all came   }     |     
 r2                                          | <b b'>2~                            |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
@@ -7619,6 +7612,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn709
+%}
 \time 5/4 c4 c8 b a gis r4 r4\fermata |\lyricmode {bed, Mis -- ter Bar -- rell }|
 r2 c='8( b a gis) r4 | r2 r2. |  r2. r2 |  r2. r2 |   % rh lh kbR kbL 
 r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 | % fl ob kl bn 
@@ -7919,6 +7913,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 
 %bn739
+%{
 f8 c a c                                                                             | \lyricmode{ long have you been }                 | 
 R2                                                                                   | R2                                               |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 

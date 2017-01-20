@@ -12,7 +12,7 @@ subtitle = \date
 tag = \date
 }
 
-\parallelMusic #'( melody lyrix rh lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR vn vII va vc cb) {
+\parallelMusic #'( melody lyrix rh lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR vn vII va vc cb) { \hiddenTempo 60
 
 %{
 

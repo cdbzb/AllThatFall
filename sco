@@ -50,7 +50,8 @@ fi
 echo input is $input output is $output
 
 
-cat $input > /tmp/cat  ##### THE MUSIC
+cat "\tempo 4 = 60 " > /tmp/cat
+cat $input >> /tmp/cat  ##### THE MUSIC
 
 ##### THE SCORE
 case $players in
