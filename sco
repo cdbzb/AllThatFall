@@ -65,8 +65,8 @@ case $players in
     \new Lyrics \lyricsto "tune" \lyrix
   >>
    \new GrandStaff  <<
-   \new Staff  { \hpR }
-   \new Staff  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
+   \new Staff = "hpR"  { \hpR }
+   \new Staff = "hpL"  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
   >> 
 >>
 EOF
@@ -137,8 +137,8 @@ EOF
   >>
 
   \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}
-	<< \new Staff \with {\RemoveEmptyStaves} {\hpR}
-	\new Staff  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
+	<< \new Staff = "hpR" \with {\RemoveEmptyStaves} {\hpR}
+	\new Staff = "hpL" \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
   >>
 
   \new StaffGroup 
