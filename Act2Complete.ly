@@ -2461,7 +2461,6 @@ R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
-%}
 %bn268
 \mark \default \time 2/4 R2 | |
 \clef treble r4. f=''8-.(^"childs voice" | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -2481,6 +2480,7 @@ R4. |R4. | % hpL hpR
 R4. |R4. |R4. |R4. |R4. | % vn vII va vc cb
 
 %bn270
+%}
 \time 2/4 \tempo "p. piu" b8. gis16 f'8 r | \lyricmode {what was that? } |
 r4. g8-.(  | R2 |  R2 |  R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
@@ -2494,7 +2494,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Lynch Twins OSSIA section %%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ottava #1 \lynchTwins | R4 |  R4 |  R4 |  % rh lh kbR kbL
+\lynchTwins | R4 |  R4 |  R4 |  % rh lh kbR kbL
 R4 |R4 |R4 |R4 | % fl ob kl bn
 R4 |  R4 | R4 | % hn tpt  tn
 R4 |R4 |R4 | % tym perc fol
@@ -2631,8 +2631,8 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 
-%{
 %bn286
+%{
 \tempo "slow" 4 = 50 \time 3/4  cis16 dis e fis \times 2/3 {bes4 fis8} \times 2/3 {a4\fermata^"poco" fis8}| \lyricmode {do you ev -- er wish to kill a } | % longer kill??
 R2. | cis16\<\pp dis e fis aes8-.\! fis-. <a b>-. fis-. |  R2. |  R2. |   % rh lh kbR kbL   
 R2. |R2. |R2. |R2. | % fl ob kl bn 

@@ -57,6 +57,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "ob"))
      (midiInstrument . "voice oohs"))
 
+\addInstrumentDefinition #"vnbass"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "vn")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "vn"))
+     (midiInstrument . "voice oohs"))
+
 \addInstrumentDefinition #"vn"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "vn")
@@ -149,6 +159,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "va"))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"vabass"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "va")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "va"))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"vatreble"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "va")
@@ -181,6 +201,17 @@
 
 
 
+
+\addInstrumentDefinition #"bells"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "bells")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "bells"))
+     (midiInstrument . "voice oohs"))
+%%%%%%%%%%%%%%%%%%%% VOICES
 
 \addInstrumentDefinition #"vibes"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))

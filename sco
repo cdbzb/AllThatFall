@@ -128,8 +128,8 @@ EOF
   >>
   \new StaffGroup 
 	<< 	
-	\new Staff \with {\RemoveEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	\new Staff \with { \RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	\new Staff = "tym" \with {\RemoveEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	\new Staff = "perc" \with { \RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
 	\new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
   >>
   \new GrandStaff \with {instrumentName = #"kb" shortInstrumentName = "kb"}
