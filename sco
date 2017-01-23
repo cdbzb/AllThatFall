@@ -198,6 +198,48 @@ done
 }
 EOF
 
+cat <<EOF >> /tmp/cat
+\book {
+\bookOutputSuffix "perc"
+
+\layout {\context { \Staff \RemoveEmptyStaves }
+	 \context { \RhythmicStaff \RemoveEmptyStaves }
+}
+
+\include "percussion-legend.ly"
+
+\score {
+<<
+		    << \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+		  \new Voice = "tune" \melody }
+		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
+  >>
+  \new StaffGroup <<
+	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	 \new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
+	 >>
+>>
+}}
+EOF
+cat <<EOF >> /tmp/cat
+\book{
+\bookOutputSuffix "harp"
+\score {
+<<
+    <<\new Staff = "voice" \relative c'' { 
+      \new Voice = "tune" \melody
+    }
+    \new Lyrics \lyricsto "tune" \lyrix
+  >>
+   \new GrandStaff  <<
+   \new Staff = "hpR"  { \hpR }
+   \new Staff = "hpL"  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
+  >> 
+>>
+}}
+EOF
+
 
 		;;
 

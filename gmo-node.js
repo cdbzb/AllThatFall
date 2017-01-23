@@ -42,7 +42,7 @@ let rawbars = music
 
 let bars = rawbars
 .map(m => m.split(/\n+/)
-    .map(b => b.slice(0, b.indexOf('%')))
+    .map(b => (b+"%").slice(0, b.indexOf('%')))
     .join(''))
 .map(b => b.split('|').map(k => k.trim()))
 .map(k => k.slice(6, 23))
@@ -73,7 +73,7 @@ function assign(need, available = {
     if(need.length == 0) return [];
     else if(need.length == 1){
         let sol = need[0].find(player => player in available)
-        return sol && [sol]
+        return typeof sol != "undefined" && [sol]
     } else {
 
         let get = player => {

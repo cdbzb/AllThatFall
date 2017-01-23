@@ -2480,7 +2480,6 @@ R4. |R4. | % hpL hpR
 R4. |R4. |R4. |R4. |R4. | % vn vII va vc cb
 
 %bn270
-%}
 \time 2/4 \tempo "p. piu" b8. gis16 f'8 r | \lyricmode {what was that? } |
 r4. g8-.(  | R2 |  R2 |  R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
@@ -2632,7 +2631,6 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 
 %bn286
-%{
 \tempo "slow" 4 = 50 \time 3/4  cis16 dis e fis \times 2/3 {bes4 fis8} \times 2/3 {a4\fermata^"poco" fis8}| \lyricmode {do you ev -- er wish to kill a } | % longer kill??
 R2. | cis16\<\pp dis e fis aes8-.\! fis-. <a b>-. fis-. |  R2. |  R2. |   % rh lh kbR kbL   
 R2. |R2. |R2. |R2. | % fl ob kl bn 
@@ -7982,6 +7980,7 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn872
+%}
 \time 2/2 \tEE r4 gis8 a b gis a b | \lyricmode {did you hear what kept the }|
 R1 | <f f'>8-> r2.. |R1 |R1 |  % rh lh kbR kbL
 R1  |R1  |R1  |R1  | % fl ob kl bn
@@ -8085,8 +8084,8 @@ r4. r4 |r4. r4 |r4. r4 |r4. r4 |r4. r4 | % vn vII va vc cb
 <f bes des f>2 | r4 <e, bes'> |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
-R2 |R2 |R2 | % tym perc fol
-R2 |R2 | % hpL hpR
+R2 | << \cross g'2 \cross f'' d'2:32  >>|R2 | % tym perc fol
+r4  <  c,, des,, e,, f,, ges,,>\lv |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn884
@@ -8094,7 +8093,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 r4 \times 2/3 {r4 f8} | R2 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
-R2 |R2 |R2 | % tym perc fol
+R2 | f'2:32~ |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
@@ -8103,7 +8102,7 @@ g8 a \times 2/3 {a4 g8 } | \lyricmode {was a lit -- le } |
 g8 a a g | R2 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
-R2 |R2 |R2 | % tym perc fol
+R2 | f'2:32~ |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
@@ -8112,7 +8111,7 @@ R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 R2. | R2. |R2. |R2. |  % rh lh kbR kbL
 R2. |R2. |R2. |R2. | % fl ob kl bn
 R2. |R2. | R2. | % hn tpt  tn
-R2. |R2. |R2. | % tym perc fol
+R2. | f'4:32 r |R2. | % tym perc fol
 R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. |R2. | % vn vII va vc cb
 
@@ -8199,6 +8198,7 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn896
+%{
 
 %}
 }
