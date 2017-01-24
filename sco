@@ -139,7 +139,7 @@ EOF
 	<< 	
 	\new Staff = "tym" \with {\RemoveEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
 	\new Staff = "perc" \with { \RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \set Staff.middleCposition = #-6 {\perc}}
-	\new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
+	\new Staff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
   >>
   \new GrandStaff \with {instrumentName = #"kb" shortInstrumentName = "kb"}
 	<< \new Staff \with {\RemoveEmptyStaves} {\kbR}
@@ -258,6 +258,7 @@ EOF
 
 		;;
 
+		####### PERCUSSION
 	r) 
 		suffix="percussion"
 		cat <<EOF >> /tmp/cat 
@@ -275,8 +276,8 @@ EOF
   >>
   \new StaffGroup <<
 	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion instrumentSwitch "perc" {\perc}}
-	 \new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
+	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc" \perc}
+	 \new Staff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
 	 >>
 >>
 EOF

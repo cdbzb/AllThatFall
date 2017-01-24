@@ -149,6 +149,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "bn"))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"tntreble"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "tn")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "tn"))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"tn"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "tn")
@@ -169,6 +179,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
      (midiInstrument . "synth voice"))
 
+
+\addInstrumentDefinition #"vasilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "va")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
 
 \addInstrumentDefinition #"va"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
