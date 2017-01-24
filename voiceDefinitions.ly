@@ -97,6 +97,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "hn"))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"vcsilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "vc")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"vc"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "vc")
@@ -108,12 +118,23 @@
      (midiInstrument . "synth voice"))
 
 
+
+\addInstrumentDefinition #"cbsilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "cb")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . -7)
+     (middleCPosition . 13)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"cb"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "cb")
      (clefGlyph . "clefs.F")
-     (clefTransposition . 0)
-     (middleCPosition . 6)
+     (clefTransposition . -7)
+     (middleCPosition . 13)
      (clefPosition . 2)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "cb"))
      (midiInstrument . "synth voice"))

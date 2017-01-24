@@ -51,6 +51,9 @@ echo input is $input output is $output
 
 
 cat "\tempo 4 = 60 " > /tmp/cat
+
+header=" \header{ subtitle = $output }"
+
 cat $input >> /tmp/cat  ##### THE MUSIC
 
 ##### THE SCORE
@@ -58,16 +61,18 @@ case $players in
 	a)   ##### HARP 
 		suffix="harp"
 		cat <<EOF >> /tmp/cat 
+$header
+
 \score {
 <<
-    <<\new Staff = "voice" \relative c'' { 
-      \new Voice = "tune" \melody
-    }
-    \new Lyrics \lyricsto "tune" \lyrix
-  >>
-   \new GrandStaff  <<
-   \new Staff = "hpR"  { \hpR }
-   \new Staff = "hpL"  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
+	<< 
+		\new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+		\new Voice = "tune" \melody }
+		\new Lyrics \lyricsto "tune" {\set fontSize = #-3  \lyrix}
+	  >>
+   \new GrandStaff \with { instrumentName="harp" shortInstrumentName="hp"  }  <<
+		\new Staff = "hpR"  { \hpR }
+		\new Staff = "hpL"  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
   >> 
 >>
 EOF
@@ -77,6 +82,8 @@ EOF
 	v)   ##### VOCAL SCORE
 		suffix="Vocal"
 		cat <<EOF >> /tmp/cat 
+		$header
+		
 \score {
 <<
     <<\new Staff = "voice" \relative c'' { 
@@ -94,6 +101,7 @@ echo 'sent ly file'
 	q)   ##### QUARTET
 		suffix="Quartet"
 		cat <<EOF >> /tmp/cat 
+		$header
 \score {
   <<
     << \new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
@@ -114,6 +122,7 @@ EOF
 	x)   ##### 6 Keys
 		suffix="6-key"
 		cat <<EOF >> /tmp/cat
+		$header
 
 \layout { 
 	% \context { \Staff \RemoveEmptyStaves }
@@ -129,7 +138,7 @@ EOF
   \new StaffGroup 
 	<< 	
 	\new Staff = "tym" \with {\RemoveEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	\new Staff = "perc" \with { \RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	\new Staff = "perc" \with { \RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \set Staff.middleCposition = #-6 {\perc}}
 	\new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
   >>
   \new GrandStaff \with {instrumentName = #"kb" shortInstrumentName = "kb"}
@@ -162,8 +171,10 @@ EOF
 		names=( I II IV V VI ) #note does not include III!
 		for i in "${names[@]}"; do
 		cat <<EOF >> /tmp/cat
+		$header
 \book{
 	\bookOutputSuffix "$i"
+$header
 	\score {
 		<<
 			\new Staff \with {instrumentName = #"$i"} {\\$i}
@@ -178,8 +189,10 @@ EOF
 done
 
 		cat <<EOF >> /tmp/cat
+		$header
 \book{
 	\bookOutputSuffix "III"
+	$header
 	\score {
 		<<
 			<<
@@ -201,6 +214,7 @@ EOF
 cat <<EOF >> /tmp/cat
 \book {
 \bookOutputSuffix "perc"
+$header
 
 \layout {\context { \Staff \RemoveEmptyStaves }
 	 \context { \RhythmicStaff \RemoveEmptyStaves }
@@ -216,7 +230,7 @@ cat <<EOF >> /tmp/cat
   >>
   \new StaffGroup <<
 	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc"  \perc}
 	 \new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
 	 >>
 >>
@@ -225,6 +239,7 @@ EOF
 cat <<EOF >> /tmp/cat
 \book{
 \bookOutputSuffix "harp"
+$header
 \score {
 <<
     <<\new Staff = "voice" \relative c'' { 
@@ -260,7 +275,7 @@ EOF
   >>
   \new StaffGroup <<
 	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion {\perc}}
+	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion instrumentSwitch "perc" {\perc}}
 	 \new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
 	 >>
 >>
