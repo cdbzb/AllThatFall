@@ -8,7 +8,7 @@ exe "silent !./sco -vsd -n Tyler Act1_Complete.ly"
 exe "silent !./sco -xsd -n Tyler Act1_Complete.ly"
 exe "silent !./sco -psd -n Tyler Act1_Complete.ly"
 "Christy
-call SetRange(92,177) 
+call SetRange(92,178) 
 write
 exe "silent !./sco -vsd -n Christy Act1_Complete.ly"
 exe "silent !./sco -xsd -n Christy Act1_Complete.ly"

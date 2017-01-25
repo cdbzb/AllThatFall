@@ -97,6 +97,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"hnsilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "hn")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"hn"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "hn")
@@ -177,6 +187,16 @@
      (middleCPosition . 6)
      (clefPosition . 2)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "tn"))
+     (midiInstrument . "synth voice"))
+
+\addInstrumentDefinition #"blanktntreble"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "tn")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
      (midiInstrument . "synth voice"))
 
 \addInstrumentDefinition #"blanktn"
