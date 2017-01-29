@@ -284,6 +284,28 @@ EOF
 echo 'sent ly file'
 		;;
 
+		########## PERC WITHOUT VOCAL`
+	R) 
+		suffix="percussion-no-vocal"
+		cat <<EOF >> /tmp/cat 
+\layout {\context { \Staff \RemoveEmptyStaves }
+	 \context { \RhythmicStaff \RemoveEmptyStaves }
+}
+
+\include "percussion-legend.ly"
+
+\score {
+<<
+
+  \new StaffGroup <<
+	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc" \perc}
+	 \new Staff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
+	 >>
+>>
+EOF
+		;;
+
 
 	f)   ##### FULL
 		suffix="Full"
