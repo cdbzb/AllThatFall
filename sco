@@ -20,11 +20,11 @@
 ## TODO use while loop for getopts
 ## TODO add dummy tempo
 
-#getopts "qvfcxpr" players
+#getopts "qvfcxprR" players
 #getopts "ms" format
 #getopts "d" datestamp
 
-while getopts "qvfcxpramsdn:" opts; do
+while getopts "qvfcxprRamsdn:" opts; do
 	case $opts in
 		[qvfcxpra]) 
 			players=$opts
