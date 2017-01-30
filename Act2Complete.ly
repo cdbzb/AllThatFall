@@ -8017,7 +8017,7 @@ r4 r4.  |r4 r4.  | % hpL hpR
 r4 r4.  |r4 r4.  |r4 r4.  |r4 r4.  |r4 r4.  | % vn vII va vc cb
 
 %bn876
-\time 3/8 \dEQ fis8 r \instrumentSwitch "Rooney" b | \lyricmode {on What } |
+\time 3/8 \dEQ fis8 r \instrumentSwitch "Rooney" b= | \lyricmode {on What } |
 <bes d fis>4-> \clef treble <d' f aes c>8-- |e4 <d, d'>8 |R4. |R4. |  % rh lh kbR kbL
 R4. |R4. |R4. |R4. | % fl ob kl bn
 R4. |R4. | R4. | % hn tpt  tn
@@ -8026,7 +8026,7 @@ R4. |R4. | % hpL hpR
 R4. |R4. |R4. |R4. |R4. | % vn vII va vc cb
 
 %bn877
-\time 7/8 d8 b aes f  \instrumentSwitch "Jerry" g a b | \lyricmode {was it Jer -- ry it was a... } |
+\time 7/8 d8 b aes f  \instrumentSwitch "Jerry" g= a b | \lyricmode {was it Jer -- ry it was a... } |
 <f aes b d>8 <d f aes b>4. r4. | <cis cis'>8 <d d'>4. g'8 a b |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
 r2 r4. |r2 r4. |r2 r4. |r2 r4. | % fl ob kl bn
 r2 r4. |  r2 r4. | r2 r4. | % hn tpt  tn
@@ -8053,7 +8053,7 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn880
-\time 6/8 \EE gis8 r cis d r \instrumentSwitch "Rooney" c8 | \lyricmode {thing come on what } |
+\time 6/8 \EE gis8 r cis d r \instrumentSwitch "Rooney" c='8 | \lyricmode {thing come on what } |
 aes8 r <g cis> <ges bes d> r \clef treble <ees' ges a c> | aes8 r  <g cis> <ges bes d> r <des des'>(|R2. |R2. |  % rh lh kbR kbL
 R2. |R2. |R2. |R2. | % fl ob kl bn
 R2. |R2. | R2. | % hn tpt  tn
@@ -8071,7 +8071,7 @@ r4. r4 |r4. r4 | % hpL hpR
 r4. r4 |r4. r4 |r4. r4 |r4. r4 |r4. r4 | % vn vII va vc cb
 
 %bn882
-\set Timing.beatStructure = #'(3 2) \instrumentSwitch "Jerry" b=,8 cis dis \times 2/3 {dis4 cis8} | \lyricmode {it was a lit -- tle } |
+\set Timing.beatStructure = #'(3 2) \instrumentSwitch "Jerry" b=8 cis dis \times 2/3 {dis4 cis8} | \lyricmode {it was a lit -- tle } |
 r4. r4| r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
 r4. r4 |r4. r4 |r4. r4 |r4. r4 | % fl ob kl bn
 r4. r4 |  r4. r4 | r4. r4 | % hn tpt  tn
@@ -8107,7 +8107,7 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn886
-\time 3/4 b8 \instrumentSwitch "Jerry" a=,\noBeam b cis \times 2/3 {cis4 b8} | \lyricmode {child it was a lit -- tle } |
+\time 3/4 b8 \instrumentSwitch "Jerry" a=\noBeam b cis \times 2/3 {cis4 b8} | \lyricmode {child it was a lit -- tle } |
 R2. | R2. |R2. |R2. |  % rh lh kbR kbL
 R2. |R2. |R2. |R2. | % fl ob kl bn
 R2. |R2. | R2. | % hn tpt  tn

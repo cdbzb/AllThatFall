@@ -1051,7 +1051,6 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s4 s4. }| \instrumentSwitch "tn" \Q "tn" {s4 s4. }|\Q "hn" {s4 s4. }| \Q "va" {s4 s4. } |\Q "cb" {s4 s4. }|\Q "vc" {s4 s4. }|  % I  II  III  IV  V  VI    
 
 %bn90  
-%}
   \EE \time 6/16
   c8-> aes16 \times 3/5 {fes-- ees fes ges aes }|\lyricmode{ well! if some -- one were to do } |
   <ees aes c>8.-^ r8.  |<ees aes c>8.--  \times 3/5 {fes16-- ees fes ges aes } |<ees' aes' c''>8.-> \times 3/5 {fes'16-- ees' fes' ges' aes' }|<ees aes c'>8.-> \times 3/5 {fes16-- ees fes ges aes }|  % lh rh kbR kbL 
@@ -2089,7 +2088,6 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
 
 
   %bn178 %sec2
-%{
   \mark \default \time 9/16 \tempo 8. = 60 %dummy
   r8. r8. r8. |    | %
   e''8 dis16 cis8 b16 cis8 a16   | r8. r8. r8. |  r8. r r |  r8. r r |   % rh lh kbR kbL 
@@ -3295,6 +3293,7 @@ r2. r2. r2 | r2. r2. r2 | g2 ais4~ ais2 b2. |a,2 r4 gis,2 r4 b,4 r |a,,2 r4 gis,
 
 
 %bn293
+%}
 \dQQ \time 3/2
 \instrumentSwitch "Tyler" g='4( e) cis ais r4 \times 2/3 {g8( fis f) } | \lyricmode {no it is too } |%
 R1. | <cis cis'>1. | \clef bass << {g'4 e' cis' ais \times 2/3{ g4 fis f}}\\ {<cis g ais cis e>2.\arpeggio r2.} >> \clef treble | \ottava #-1 <c,, dis,, fis,, c,>1. \ottava #0 |   % rh lh kbR kbL 
@@ -4245,6 +4244,7 @@ b8 r4. | R2 | g4 r |<<  g,2 \\ {\inst "ossia" {e2)}} >>| g,,2 |  % vn vII va vc 
 
 
 %bn385
+%{
 \time 1/4 \instrumentSwitch "Rooney" cis='8 r8\fermata | \lyricmode{What? } | 
 r4 | R4 | R4 | R4 | %rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 

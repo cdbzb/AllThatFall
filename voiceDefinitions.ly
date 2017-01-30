@@ -301,7 +301,7 @@
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
      (middleCPosition . 1)
-     (clefPosition . 0)
+     (clefPosition . -2)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "Roon."))
      (midiInstrument . "voice oohs"))
 
@@ -378,11 +378,11 @@
 
 \addInstrumentDefinition #"Jerry"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "Tomm.")
-     (clefGlyph . "clefs.C")
-     (clefTransposition . 0)
-     (middleCPosition . 7)
-     (clefPosition . 0)
-     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "Jer"))
+     (shortInstrumentName . "Jer.")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . -7)
+     (middleCPosition . 1)
+     (clefPosition . -2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "Jerry"))
      (midiInstrument . "synth voice"))
 
