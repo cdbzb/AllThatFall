@@ -1051,6 +1051,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s4 s4. }| \instrumentSwitch "tn" \Q "tn" {s4 s4. }|\Q "hn" {s4 s4. }| \Q "va" {s4 s4. } |\Q "cb" {s4 s4. }|\Q "vc" {s4 s4. }|  % I  II  III  IV  V  VI    
 
 %bn90  
+%}
   \EE \time 6/16
   c8-> aes16 \times 3/5 {fes-- ees fes ges aes }|\lyricmode{ well! if some -- one were to do } |
   <ees aes c>8.-^ r8.  |<ees aes c>8.--  \times 3/5 {fes16-- ees fes ges aes } |<ees' aes' c''>8.-> \times 3/5 {fes'16-- ees' fes' ges' aes' }|<ees aes c'>8.-> \times 3/5 {fes16-- ees fes ges aes }|  % lh rh kbR kbL 
@@ -1175,7 +1176,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   r2 r4. |b2. r8  |r2 r4 c'''8\f|  r2 r4. |   % lh rh kbR kbL 
   r4.. b''16-.  b''4 r8 | r2 r4. | \times 2/3 {g'8( fis' e')} dis'8( cis'16 e') e'8( dis') r8 | r2 r4. |  % fl ob kl bn    
   r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn   
-  r2 r4. | r2 r4 f'8-> | r2 r4. |  % tmp perc fol  
+  r2 r4. | r2 r4 f'8->^"whip" | r2 r4. |  % tmp perc fol  
   r2 r4. | r2 r4. | % hpL hpR  
   r2 r4. | r2 r4. | %vn vn2  
   b2.\> r8\! | r2 r4. | b,2. r8  |  % va vc cb 
@@ -1273,7 +1274,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2.  | R2.  |  R2. |  R2. |    % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   <<{  fis4.\! r }\\{r8 e,8_"stopped" r8 r e,8 r8}>>|  R2. |  R2. | % hn tpt  tn   
-  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | \stemUp c'8^"crunch" r8. \stemDown c'16~ c'16 r r8. \stemUp c'16~ |  % tmp perc fol  
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. |  dis,4(^"solo"\< f,16)\! r  dis,4(\< f,16)\! r  | r8 \grace dis,16( e,8.) r16 r8 e,8. r16  |  % va vc cb 
@@ -1285,7 +1286,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2  | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   << r2\\{r8 e,8 r4 }>>|  R2 |  R2 | % hn tpt  tn   
-  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | c'16 \stemNeutral r4.. |  % tmp perc fol  
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 |<<{<e gis>2\p}\\{dis,4(\< f,8.)\! r16 }>>|r8 e,8~ e,8. r16 |  % va vc cb 
@@ -1318,10 +1319,10 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   %%%%%%%%% check relationship here!                  | add rest to top of next bar?
   \dQQ \time 4/4 r4 e,8( dis) \times 2/3 {g4 dis8} cis( c) | \lyricmode{so long a -- go } |
 R1  |  \clef bass \repeat tremolo 8 {cis,16 cis'}     |r4 e'8( dis') \times 2/3 {g'4 dis'8} cis' c'  |<cis, cis>1:32~ |  % lh rh kbR kbL
-  R1 | R1 | R1 | R1 |  R1 |   % fl ob kl bn    
-  R1 | R1 | % hn tpt  tn   
-  R1 | R1 |  % tmp perc fol  
-  d'1:32 | R1 | R1 | % hpL hpR  
+  R1 | R1 | R1 | R1 |   % fl ob kl bn    
+  R1 |R1 | R1 | % hn tpt  tn   
+  R1 | d'1:32 |  R1 |  % tmp perc fol  
+  R1 | R1 | % hpL hpR  
   R1 | R1 | %vn vn2  
   R1 | cis1:32 | cis,1:32 |  % va vc cb 
   \Q "va" {s1 }| \Q "vn" {s1 }|\Q "hn" {s1 }| \Q "tn" {s1 } |\Q "cb" {s1 }|\Q "vc" {s1 }|  % I  II  III  IV  V  VI    
@@ -1604,7 +1605,7 @@ R2  |<gis gis'>4-> <g g'>8 <gis gis'>~                 |  R2 |  R2 |   % lh rh k
  <f' aes c>4 <f aes c>  | R2 |c''4 r |<fis c'>4 q |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  R2 | % hn tpt  tn   
-  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | R2 | c'4^"bell" c' |  % tmp perc fol  
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | R2 | R2 |  % va vc cb 
@@ -1629,7 +1630,7 @@ R2  |<gis gis'>4-> <g g'>8 <gis gis'>~                 |  R2 |  R2 |   % lh rh k
  \clef bass r4 f,8~ f4 f8     |<<{e,4. e}\\{d8 e4 d8 e4}>>  |r4 a'8 r4 a'8 |<gis, gis>8 a r<gis, gis> a r |   % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
-  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. | \stemUp c'8^"crunch" r4 r16 \stemDown c'8 \stemNeutral r8. |  % tmp perc fol  
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. |  % va vc cb 
@@ -1641,7 +1642,7 @@ R2  |<gis gis'>4-> <g g'>8 <gis gis'>~                 |  R2 |  R2 |   % lh rh k
   r4 f8~ f4 f8 |<<{e4. e}\\{d8 e4 d8 e4}>>  |\times 3/4 {r4 c''8 b'} \times 3/4 {a'4 gis'8 a'}|<gis, gis>8 a r<gis, gis> a r |   % lh rh kbR kbL 
   R2.| R2.| R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
-  R2. | R2. | R2. |  % tmp perc fol  
+  R2. | R2. |  \stemUp c'8 r4  \stemDown c'8 r4 \stemNeutral|  % tmp perc fol  
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   R2. | R2. | R2. |  % va vc cb 
@@ -1969,7 +1970,7 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
   R2  | R2  |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   gis'2 |  R2 | \clef bass r8  <aes, aes>4. | % hn tpt  tn   
-  R2 | R2 | R2 |  % tmp perc fol  
+  R2 |\new Staff="ossia" \with {alignAboveContext="perc" shortInstrumentName = #"bells"} { r8 aes'4.^\markup{\smallCaps "bells"} } | R2 |  % tmp perc fol  
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   <cis' cis''>~ |<< aes2\\ {r8 aes,4.~}>> | R2 |  % va vc cb 
@@ -1980,7 +1981,7 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
   R2  | gis8 ais4. |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  r8 <bes, bes>4. | % hn tpt  tn   
-  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | << R2 {\context Staff="ossia" { r8 bes'4. }} >> | R2 |  % tmp perc fol  
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   q2 |<<des'2\\{aes,8 bes,4.~}>> | R2 |  % va vc cb 
@@ -1991,7 +1992,7 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
   R2     |    bis2   |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  r8 <c c'>4. | % hn tpt  tn   
-  R2 | R2 | R2 |  % tmp perc fol  
+  R2 | << R2 {\context Staff="ossia" { r8 c''4. }} >> | R2 |  % tmp perc fol  
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   <dis' dis''>~ | <<aes2~\\{bes,8 c4.~}>> | R2 |  % va vc cb 
@@ -2002,7 +2003,7 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
   r4. r4 |    cis4.    <dis fis>4   |  r4. r4 |  r4. r4 |   % lh rh kbR kbL 
   r4. r4 |r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
   r4. r4 |  r4. r4 |  r8 <cis cis'>4 r4 | % hn tpt  tn   
-  r4. r4 | r4. r4 | r4. r4 |  % tmp perc fol  
+  r4. r4 | << { r4. r4  } {\context Staff="ossia" { r8 des''4 r4 }} >> | r4. r4 |  % tmp perc fol  
   r4. r4 | r4. r4 | % hpL hpR  
   r4. r4 | r4. r4 | %vn vn2  
   q4. <eis' eis''>4 | <<aes2~\\{c8 des4.~}>> r8 | r4. r4 |  % va vc cb 
@@ -2088,6 +2089,7 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
 
 
   %bn178 %sec2
+%{
   \mark \default \time 9/16 \tempo 8. = 60 %dummy
   r8. r8. r8. |    | %
   e''8 dis16 cis8 b16 cis8 a16   | r8. r8. r8. |  r8. r r |  r8. r r |   % rh lh kbR kbL 
@@ -4030,7 +4032,7 @@ c8 b a8. g16                                | \lyricmode{ov -- er me a -- }     
 <a c>8 <g b> < fis a> <e g>               | <b b'>2                             |  R2 |  R2 |   %rh lh kbR kbL 
  c''8 b' a'8. g'16 | a'8( g' fis' e') | R2 | R2 | % fl ob kl bn 
  e2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2  R2 | R2 | % tym perc fol 
+R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 c''8( b' a'8.) g'16 | R2 | <b e'>2~ | e2^"mutes" | c2 |  % vn vII va vc cb 
 \instrumentSwitch "fl" \Q #"fl" {s2 }| \instrumentSwitch "ob" \Q #"ob" {s2 }|  \Q #"hn" { s2 }| \instrumentSwitch "vn" \Q #"vn" {s2 }|  \Q #"cb" { s2 }| <e b e'>2^"mutes" |  % I II III IV V VI         
@@ -8875,7 +8877,6 @@ r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % vn vII va vc cb
 r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I  II  III  IV  V  VI  
 
 %bn834
-%}
 \time 2/4 e2                                    | \lyricmode{ few }                      | %check tempo relation
 e,4 d                                            | R2                                     |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
@@ -10108,7 +10109,6 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 
  %bn937
-%{
 \time 4/4 aes4.\startTextSpan aes8 aes4\stopTextSpan \instrumentSwitch "Rooney" des=8 des | \lyricmode{bowed and bent? Madd -- ey	  }|
 R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL   
 R1 | R1 | R1 | R1 | % fl ob kl bn 
