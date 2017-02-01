@@ -3293,7 +3293,6 @@ r2. r2. r2 | r2. r2. r2 | g2 ais4~ ais2 b2. |a,2 r4 gis,2 r4 b,4 r |a,,2 r4 gis,
 
 
 %bn293
-%}
 \dQQ \time 3/2
 \instrumentSwitch "Tyler" g='4( e) cis ais r4 \times 2/3 {g8( fis f) } | \lyricmode {no it is too } |%
 R1. | <cis cis'>1. | \clef bass << {g'4 e' cis' ais \times 2/3{ g4 fis f}}\\ {<cis g ais cis e>2.\arpeggio r2.} >> \clef treble | \ottava #-1 <c,, dis,, fis,, c,>1. \ottava #0 |   % rh lh kbR kbL 
@@ -4162,7 +4161,7 @@ R2 | <fis a d'>2\arpeggio | % hpL hpR
   \Q #"kl" { s2 }|   \Q #"ob" { s2 }|   \Q #"vn" { s2 }|  \Q #"va" { s2 }|  \Q #"bn" { s2 }| \Q #"vc" { s2 }|  % I II III IV V VI        
 
 %bn377
-\instrumentSwitch "Tyler" \tempo 4 = 60 \time 2/4 a4~ \times 2/3 {a='8 a a} | \lyricmode{Come, Miss -- es } | 
+\instrumentSwitch "Tyler" \tempo 4 = 60 \time 2/4 a='4~ \times 2/3 {a='8 a a} | \lyricmode{Come, Miss -- es } | 
 < c, f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>} | \clef bass <f f'>2 | <c' f'>2 | <f f,>2 | %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
@@ -4244,7 +4243,6 @@ b8 r4. | R2 | g4 r |<<  g,2 \\ {\inst "ossia" {e2)}} >>| g,,2 |  % vn vII va vc 
 
 
 %bn385
-%{
 \time 1/4 \instrumentSwitch "Rooney" cis='8 r8\fermata | \lyricmode{What? } | 
 r4 | R4 | R4 | R4 | %rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
@@ -9324,6 +9322,7 @@ r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V 
 
 
  %bn872 
+%}
 \time 4/4 \tempo "slower" bes'4 a8( g) g4. a8 | \lyricmode{how could I? Why, }|
 R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL   
 <<{bes'4 a'8( g') g'4\trill}\\{f'4 e' f'}>> r4 | R1 | R1 |bes4 a8 bes c4 r | % fl ob kl bn 
@@ -9607,6 +9606,7 @@ R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
  %bn896 ORCH winds to here
+%{
 f4. e8 |\lyricmode{ Dark Miss }|
 R2| d4. a'8 |  R2 |  R2 |   % rh lh kbR kbL   
 R2 |d'4. c'8 |f'4. e'8 | R2 | % fl ob kl bn 
