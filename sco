@@ -124,9 +124,10 @@ EOF
 		cat <<EOF >> /tmp/cat
 		$header
 
+#(set-global-staff-size 14)
 \layout { 
-	% \context { \Staff \RemoveEmptyStaves }
-	\context { \RhythmicStaff \RemoveEmptyStaves }
+	% \context { \Staff \RemoveAllEmptyStaves }
+	\context { \RhythmicStaff \RemoveAllEmptyStaves }
 }
 \score { 
 <<
@@ -137,13 +138,13 @@ EOF
   >>
   \new StaffGroup 
 	<< 	
-	\new Staff = "tym" \with {\RemoveEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	\new Staff = "perc" \with { \RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc" \set Staff.middleCposition = #-6 {\perc}}
-	\new Staff \with {\RemoveEmptyStaves \instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
+	\new Staff = "tym" \with {\RemoveAllEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	\new Staff = "perc" \with { \RemoveAllEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc" \set Staff.middleCposition = #-6 {\perc}}
+	\new Staff \with {\RemoveAllEmptyStaves \instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
   >>
   \new GrandStaff \with {instrumentName = #"kb" shortInstrumentName = "kb"}
-	<< \new Staff \with {\RemoveEmptyStaves} {\kbR}
-	\new Staff  \with {\RemoveEmptyStaves}  {\clef bass \kbL}
+	<< \new Staff \with {\RemoveAllEmptyStaves} {\kbR}
+	\new Staff  \with {\RemoveAllEmptyStaves}  {\clef bass \kbL}
   >>
 
   \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}

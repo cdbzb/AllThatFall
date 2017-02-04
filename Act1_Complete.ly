@@ -7612,6 +7612,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn709
+%}
 \time 5/4 c4 c8 b a gis r4 r4\fermata |\lyricmode {bed, Mis -- ter Bar -- rell }|
 r2 c='8( b a gis) r4 | r2 r2. |  r2. r2 |  r2. r2 |   % rh lh kbR kbL 
 r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 | % fl ob kl bn 
@@ -7907,6 +7908,7 @@ r4 \ottava #1 <g'''\o c''''\o>4\pp \ottava #0 | r4 \ottava #1 c''''4\pp \ottava 
 
 
 %bn739
+%{
 f8 c a c                                                                             | \lyricmode{ long have you been }                 | 
 R2                                                                                   | R2                                               |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
@@ -9322,7 +9324,6 @@ r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V 
 
 
  %bn872 
-%}
 \time 4/4 \tempo "slower" bes'4 a8( g) g4. a8 | \lyricmode{how could I? Why, }|
 R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL   
 <<{bes'4 a'8( g') g'4\trill}\\{f'4 e' f'}>> r4 | R1 | R1 |bes4 a8 bes c4 r | % fl ob kl bn 
@@ -9606,7 +9607,6 @@ R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
  %bn896 ORCH winds to here
-%{
 f4. e8 |\lyricmode{ Dark Miss }|
 R2| d4. a'8 |  R2 |  R2 |   % rh lh kbR kbL   
 R2 |d'4. c'8 |f'4. e'8 | R2 | % fl ob kl bn 
