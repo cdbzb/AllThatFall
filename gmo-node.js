@@ -28,7 +28,7 @@ let playernames = [
     "hn",
     "tn or tpt",
     "vn",
-    "vnII",
+    "vII",
     "va",
     "vc",
     "cb",
@@ -122,7 +122,7 @@ let sol = nonemptybars
 	playernames.forEach((name, i) => {
 		ret[bar[i]] = name
 	})
-        console.log( '%parts:', ret.map((p, i) => i + 1+': ' + p).join(', '))
+        console.log( '%parts:', ret.map((p, i) => p).join(' | '))
    // } else {
 	let numparts=nonemptybars[i].reduce((a,b)=>a+b,0)
 	if(numparts>6) console.log('Error: too many parts', numparts )
