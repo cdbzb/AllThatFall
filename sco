@@ -24,6 +24,10 @@
 #getopts "ms" format
 #getopts "d" datestamp
 
+format=s
+
+# remove s from getopts later
+
 while getopts "qvfcxpramsdn:" opts; do
 	case $opts in
 		[qvfcxpra]) 
