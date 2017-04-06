@@ -325,11 +325,12 @@ echo 'sent ly file'
   \new Staff {\set Staff.instrumentName = #"Timpani" \set Staff.shortInstrumentName = #"timp" \clef bass \tym}
   \new Staff = "perc" {\set Staff.instrumentName = #"Percussion" \set Staff.shortInstrumentName = #"perc" \perc}
   \new RhythmicStaff {\set Staff.instrumentName = #"foley" \set Staff.shortInstrumentName = #"fol" \fol}
-    \new GrandStaff \with { connectArpeggios = ##t instrumentName = #"Harp" shortInstrumentName = #"hp"} <<
+	  >>
+  \new GrandStaff \with { connectArpeggios = ##t instrumentName = #"Harp" shortInstrumentName = #"hp"} <<
   \new Staff = "hpR" {\hpR}
   \new Staff = "hpL" {\clef bass \removeWithTag #'xk \hpL}
     >>
-  >>
+  
     \new StaffGroup <<
   \new Staff \with {instrumentName = #"violin I" shortInstrumentName = #"vnI"}{\vn}
   \new Staff \with {instrumentName = #"violin II" shortInstrumentName = #"vnII"}{\vII}

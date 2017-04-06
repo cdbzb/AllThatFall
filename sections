@@ -1,3 +1,5 @@
+"Barrell
+"call SetRange(677, 840)
 "she refuses to advance
 "Scene 2 top (maybe)
 map ,come :call SetRange(294,385) 
