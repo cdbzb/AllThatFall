@@ -21,7 +21,6 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 %{
 
 
-%}
 %bn1 %sec1
   \tempo 4 = 70 %dummy
   \time 2/4 r4 g='8 g | \lyricmode {is that } |
@@ -5267,7 +5266,7 @@ R2 |\times 4/5{a4. d4}|  R2 |  R2 |   % rh lh kbR kbL
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-\times 4/5 {  a''4. a'4  }|\times 4/5 {  e''4. a4  }|<<\times 4/5 {  e''8( cis'' a' fis'4) }\\ \times 4/5 {a4.-. d'4-.} >>|  R2 |  R2 |  % vn vII va vc cb 
+\times 4/5 {  a''4. a'4  }|\times 4/5 {  e''4. a4  }|<<\times 4/5 {  e''8( cis'' a' fis'4) }\\ \times 4/5 {a4.-. d'4-.} >>| \times 4/5 {r4. d8-.^"pizz/arc" fis-.}|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn485
@@ -5277,71 +5276,73 @@ r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. | % fl ob kl bn
 r4 r8. |  r4 r8. |   r4 r8. | % hn tpt  tn 
 r4 r8. |  r4 r8. |  r4 r8. | % tym perc fol 
 r4 r8. |  r4 r8. | % hpL hpR 
-r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  % vn vII va vc cb 
-r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  % I  II  III  IV  V  VI  
+r4 r8. |  r4 r8. |  r4 r8. |  a4-. << <c' d'>8.-.\\c'>> |  r4 r8. |  % vn vII va vc cb 
+r4 r8. | r8. d'16 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  % I  II  III  IV  V  VI  
 
+%}
 %bn486
 \time 2/4 fis8 \times 2/3 {r8 fis16} \times 2/3 {e8 fis16} \times 2/3 {g( fis) e }|\lyricmode {thing, I don't know how you }|
 R2 | g=,8 d' fis a |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+R2 |  R2 | \clef bass g,8 b, d fis   |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+g'4 r | d'4 r | \clef bass g,8-.^"pizz" b,-. d-. fis-.   | << <b d'>4-.\\b>>  r | \clef bass g,,8-.^"pizz" b,,-. d,-. fis,-.   |  % vn vII va vc cb 
+R2 |  R2  |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn487
 g8 d16 r b'8. fis16 |\lyricmode{do it... aah! these }|
-R2 | \times 2/3 {g,8 b cis} r16 dis g8 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+R2 | \times 2/3 {g,8 b cis} r16 dis g r |  R2 |  R2 |   % rh lh kbR kbL 
+ g'8. d'16 b'8. g'16 |  R2 | \times 2/3 {g,8 b, cis } r16 dis g8-. | \times 2/3 {g8-. b-. cis'-. } r16 dis'-. g'-. r | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | \times 2/3 {g8-. b-. cis'-. } r16 \clef treble dis'-. g'-. r |\clef treble << {g'8->-. d'->-. b'16->-. <dis dis'> <g g'> r}\\ {   \times 2/3 {g8( b cis') } r16  dis'( g') r  }>> | \times 2/3 {g,8-. b,-. cis-. } r4 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
 %bn488
-dis'8 \instrumentSwitch "Slocum"  aes b ges |\lyricmode{ wasps! May I then }|
+dis'8 \instrumentSwitch "Slocum"  gis= a fis |\lyricmode{ wasps! May I then }| %note do motor with 2 percussionists ?
 R2 | r8 aes b ges |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ dis''4 r |  R2 |  R2 | r8 gis,8( a, fis, | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
+R2 | \cross a''2\lv | r4 b~_"motor" | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+ fis'''2~^"sul pont" |  R2 | r8 gis( a fis)  |  R2 |  gis,,2~ |  % vn vII va vc cb 
+R2   |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn489
-aes8 b ces8. d16 |\lyricmode{of -- fer you a }|
+gis8 a b8. c16 |\lyricmode{of -- fer you a }|
 R2 | aes8 b ces d |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
+R2 |  R2 |  R2 | gis,8 a, b,8. c16) | % fl ob kl bn 
+r4 <f' f''>4~ |  R2 |   R2 | % hn tpt  tn 
+R2 |  R2 | b2~ | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+fis'''4.. r16  |  R2 | fis4 gis8. r16 |  R2   | gis,,2~ |  % vn vII va vc cb 
+R2   |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn490
-ces4 f, |\lyricmode{ lift, ma'am? } |
+b4 f, |\lyricmode{ lift, ma'am? } | %TODO Check f pitch - g?
 R2 | ces2 \doubleBar |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
+R2 |  R2 |  R2 | b,4 r | % fl ob kl bn 
+<f' f''>4 r |  R2 | r4 f, | % hn tpt  tn 
+R2 |  R2 | b2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 | gis,,4 r |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
 %bn491
-\time 6/8 \instrumentSwitch "Rooney" d='4. f8 ees d16 c32( d | \lyricmode { Oh, that would be hea -- }  | 
+\time 6/8 \instrumentSwitch "Rooney" d='4. f8 ees d16 c32( d | \lyricmode { Oh, that would be hea -- }  | %TODO check percussion spelling
 <ees, g bes d>8 <g bes d>16  <g bes d><g bes d>8 <g bes d> <g bes d> <g bes d> | ees=,4. r4.                                  |  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
-R2. |  R2. |   R2. | % hn tpt  tn 
-R2. |  R2. |  R2. | % tym perc fol 
-R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+R2. |  r8 <g'' bes''>16 q q8 q q q  |  R2. |  R2. | % fl ob kl bn 
+R2. |  R2. | g2. | % hn tpt  tn 
+R2. | << {s32^"vibes" \grace c'8(\glissando d''4.*11/12\lv) f''8 ees'' d''}  \ossia "perc" { \clef percussion \cross ees'8\lv f'16 f' f'8 f' f' f' }>>  |  R2. | % tym perc fol 
+R2. |  r8 <g'' bes''>16 q q8 q q q  | % hpL hpR 
+d''''2.\o |  R2. | g''2.\o | ees2.\o | ees,2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 %bn492
 \times 3/4 {c4) bes8 f~ } f8 d' c                            | \lyricmode {ven -- ly, Mis -- ter }      | 
 r4. r4.                                                      | d4. r4.                                  |  R2. |  R2. |   % rh lh kbR kbL 
@@ -11413,7 +11414,6 @@ R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
-%{
 %}
 
 }
