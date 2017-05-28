@@ -359,10 +359,10 @@
 \addInstrumentDefinition #"Slocum"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "Sloc.")
-     (clefGlyph . "clefs.G")
-     (clefTransposition . -7)
-     (middleCPosition . 1)
-     (clefPosition . -2)
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "Sloc"))
      (midiInstrument . "synth voice"))
 

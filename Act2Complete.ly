@@ -7644,9 +7644,10 @@ R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
+%}
 %bn835
 \time 7/8 \set Timing.beatStructure = #'(2 2 3)
-r2. \instrumentSwitch "Jerry" c8 | \lyricmode {you... } |
+r2. \instrumentSwitch "Jerry" c='8 | \lyricmode {you... } |
 fis=''8.( g16) gis8.( a16) ais8.( b16) r8 | fis8 g gis a ais b r8 |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
 r2 r4. |r2 r4. |r2 r4. |r2 r4. | % fl ob kl bn
 r2 r4. |  r2 r4. | r2 r4. | % hn tpt  tn
@@ -7682,7 +7683,7 @@ R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. |R2. | % vn vII va vc cb
 
 %bn839
-\time 2/4 \dQQ e8 bes e, \instrumentSwitch "Jerry" c=\noBeam | \lyricmode {blood ves -- sel you } |
+\time 2/4 \dQQ e8 bes e, \instrumentSwitch "Jerry" c='\noBeam | \lyricmode {blood ves -- sel you } |
 <e aes bes e>4. r8 | <aes bes>4. r8 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
@@ -7980,7 +7981,6 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn872
-%}
 \time 2/2 \tEE r4 gis8 a b gis a b | \lyricmode {did you hear what kept the }|
 R1 | <f f'>8-> r2.. |R1 |R1 |  % rh lh kbR kbL
 R1  |R1  |R1  |R1  | % fl ob kl bn
@@ -8197,8 +8197,8 @@ R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
-%bn896
 %{
+%bn896
 
 %}
 }

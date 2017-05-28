@@ -7,6 +7,8 @@ execute '!sco -rsd -n Scene1 %'
 execute '!sco -asd -n Scene1 %'
 normal u
 
+"Slocum
+call SetRange(450,636)
 " Drifting
 " Ending
 " walking

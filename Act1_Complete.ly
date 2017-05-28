@@ -4934,9 +4934,10 @@ R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI      
 
 
+%}
 
 %bn453 %sec4
-\time 4/4 \mark \default \instrumentSwitch  "Slocum" \tempo 4 = 70 % check this
+\time 4/4 \mark \default  \tempo 4 = 70 % check this
 R1 | |
 <gis ais>1:32 | <fis gis d'>1:32 |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
@@ -4989,7 +4990,7 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI
 
 
 %bn458
-\time  2/4 \times  2/3  {r4 g=8 } \times 2/3 {b g b }   | \lyricmode {is a -- ny -- thing  }                 | 
+\time  2/4 \instrumentSwitch  "Slocum" \times  2/3  {r4  g=,8 } \times 2/3 {b g b }   | \lyricmode {is a -- ny -- thing  }                 | 
 \clef treble R2                                        | \clef bass R2                                      |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -5045,7 +5046,6 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
   
 %bn463
 \instrumentSwitch "Rooney"
-\tempo 4 = 60 %dummy tempo - get rid of this!
 e='4 b8 g                                              | \lyricmode { Well if it  }                         | 
 R2                                                     | R2                                                 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
@@ -5097,7 +5097,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 
 %bn468
-\dQQ r8 \instrumentSwitch "Slocum" g16 a b a g b       | \lyricmode { May I of -- fer  you a }              | 
+\dQQ r8 \instrumentSwitch "Slocum" g=,16 a b a g b       | \lyricmode { May I of -- fer  you a }              | 
 e2                                                     | s2                                                 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -5180,7 +5180,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 
 %bn476
-r4 \instrumentSwitch "Slocum" b8 c16 r | \lyricmode { thank you }             | 
+r4 \instrumentSwitch "Slocum" b=,8 c16 r | \lyricmode { thank you }             | 
 <dis fis>8--( <g e>) <b dis>--( <c e>)     | R2                                   |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  r4 \clef bass <ees ges>8(-- <e g>--) |  R2 | % fl ob kl bn 
  <ees' ges'>8--( <e' g'>--) r4 |  R2 |   R2 | % hn tpt  tn 
@@ -5250,7 +5250,7 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn483
-\time 4/4 a8 f a c e r \instrumentSwitch "Rooney" b8. d16 | \lyricmode {Roo -- ney, is it not?  Yes in -- } |
+\time 4/4 a8 f a c e r \instrumentSwitch "Rooney" b='8. d16 | \lyricmode {Roo -- ney, is it not?  Yes in -- } |
 a,8 f a c e g b4 | f8 a c e g b r4 |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 | \clef treble r8 f a c' e' g' b' e'16 d''| f,8 a, c e g b r4  | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
@@ -5279,7 +5279,6 @@ r4 r8. |  r4 r8. | % hpL hpR
 r4 r8. |  r4 r8. |  r4 r8. |  a4-. << <c' d'>8.-.\\c'>> |  r4 r8. |  % vn vII va vc cb 
 r4 r8. | r8. d'16 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  % I  II  III  IV  V  VI  
 
-%}
 %bn486
 \time 2/4 fis8 \times 2/3 {r8 fis16} \times 2/3 {e8 fis16} \times 2/3 {g( fis) e }|\lyricmode {thing, I don't know how you }|
 R2 | g=,8 d' fis a |  R2 |  R2 |   % rh lh kbR kbL 
@@ -5302,7 +5301,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 
 %bn488
-dis'8 \instrumentSwitch "Slocum"  gis= a fis |\lyricmode{ wasps! May I then }| %note do motor with 2 percussionists ?
+dis'8 \instrumentSwitch "Slocum"  gis=, a fis |\lyricmode{ wasps! May I then }| %note do motor with 2 percussionists ?
 R2 | r8 aes b ges |  R2 |  R2 |   % rh lh kbR kbL 
  dis''4 r |  R2 |  R2 | r8 gis,8( a, fis, | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -5423,7 +5422,6 @@ R2 |  R2 | % hpL hpR
 g'''2\o | e''2 |  R2 |  R2 | 2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 %bn500
 \times 2/3{b4 \times 2/3 {gis4 e8} c4}                     | \lyricmode{ tires I sup -- pose }            | 
 R2                                                         | gis2                                         |  R2 |  R2 |   % rh lh kbR kbL 
@@ -5771,7 +5769,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn534
-\time 2/4  dis4 \instrumentSwitch "Slocum" b8 b | \lyricmode{down?  you'll get }        | 
+\time 2/4  dis4 \instrumentSwitch "Slocum" b=8 b | \lyricmode{down?  you'll get }        | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -5781,7 +5779,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn535
-e4~ \times 2/3{e8 b a}                          | \lyricmode{ down Miss -- es }         | 
+e,4~ \times 2/3{e8 b' a}                          | \lyricmode{ down Miss -- es }         | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -5833,7 +5831,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 
 
 %bn540
-\dEQ \time 2/4 r4 \instrumentSwitch "Rooney"c8( b) | \lyricmode{oh! }                           | 
+\dEQ \time 2/4 r4 \instrumentSwitch "Rooney"c=''8( b) | \lyricmode{oh! }                           | 
 R2                                        | g=,8 gis4.                                 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -6076,7 +6074,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn564
-\time 5/8 \tQQ e4) bes8  \instrumentSwitch "Slocum"  f' b, | \lyricmode{ sees me! Has he } |
+\time 5/8 \tQQ e4) bes8  \instrumentSwitch "Slocum"  f= b, | \lyricmode{ sees me! Has he } |
 r4. r4 | r4. r4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |   r4. r4 | % hn tpt  tn 
@@ -6096,7 +6094,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn566
-\time 3/4 dis4 \instrumentSwitch "Rooney" c8( b16) g fis8 g16 a | \lyricmode {signt? no, I mean when he } |
+\time 3/4 dis4 \instrumentSwitch "Rooney" c=''8( b16) g fis8 g16 a | \lyricmode {signt? no, I mean when he } |
 <a c dis~>4 <dis fis a c>4 r |cis2_"?" d4~ |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
@@ -6179,7 +6177,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 %bn574
 \time 3/4
-\instrumentSwitch "Slocum" \time 3/4 bes'4 bes d | \lyricmode {just sta -- ring } |
+\instrumentSwitch "Slocum" \time 3/4 bes'=,4 bes d | \lyricmode {just sta -- ring } |
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
@@ -6210,7 +6208,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn577
-\time 3/4 \tempo "still" g4 r4 r8\fermata \instrumentSwitch "Rooney" \tempo "brisk" a16 b | \lyricmode {void... Start her } |
+\time 3/4 \tempo "still" g4 r4 r8\fermata \instrumentSwitch "Rooney" \tempo "brisk" a='16 b | \lyricmode {void... Start her } |
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
@@ -6232,7 +6230,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn579
-\time 9/8 \EE b'8. b8 b16 f'8. ees \instrumentSwitch "Slocum" r4\fermata b8\p | \lyricmode {off. This is aw -- ful... last } |
+\time 9/8 \EE b'8. b8 b16 f'8. ees \instrumentSwitch "Slocum" r4\fermata b=,8\p | \lyricmode {off. This is aw -- ful... last } |
 r4. r4. r4. |r4. r4. r4. |  r4. r r |  r4. r r |   % rh lh kbR kbL 
 r4. r r |  r4. r r |  r4. r r |  r4. r r | % fl ob kl bn 
 r4. r r |  r4. r r |   r4. r r | % hn tpt  tn 
@@ -6848,6 +6846,7 @@ R1 |  R1 | % hpL hpR
 R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
+%{
 %bn636
 \time 15/16 r2 a8 bes16 a f8 g16                                           | \lyricmode{ who do you fan -- cy }                    | 
 <f a c>8. q16 q8. q16~ q4..                                                | f8 g a bes c4..                                       |  r2 r4.. |  r2 r4.. |   % rh lh kbR kbL 
@@ -9283,7 +9282,7 @@ r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V 
 
 
  %bn872 
-\time 4/4 \tempo "slower" bes'4 a8( g) g4. a8 | \lyricmode{how could I? Why, }|
+\time 4/4 \tempo "slower" bes'4 bes8( a16 g) g4. a8 | \lyricmode{how could I? Why, }|
 R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL   
 <<{bes'4 a'8( g') g'4\trill}\\{f'4 e' f'}>> r4 | R1 | R1 |bes4 a8 bes c4 r | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
@@ -9454,7 +9453,7 @@ r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  % I  II 
 
 
  %bn886
-c8 d16 e fis                                        | \lyricmode{mit the vast ma -- }                               | 
+c8 aes'16 g f                                        | \lyricmode{mit the vast ma -- }                               | 
 r8. r8 | r8. r8 |r8 r8. |r8 r8. |   % rh lh kbR kbL   
 r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  | % fl ob kl bn 
 r8 r8.  |r8 r8. |  r8 r8.  | % hn tpt  tn 
@@ -9465,7 +9464,7 @@ r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  % I  II 
 
 
  %bn887
-gis16 a cis, \breathe eis dis                       | \lyricmode{jo -- ri -- ty ve -- ry }                          | 
+g16 f ees, \breathe f des                       | \lyricmode{jo -- ri -- ty ve -- ry }                          | 
 r8. r8 | r8. r8 |r8 r8. |r8 r8. |   % rh lh kbR kbL   
 r8. r8  | r8. r8  | r8. r8  | r8. r8  | % fl ob kl bn 
 r8. r8  |r8 r8. |  r8. r8  | % hn tpt  tn 

@@ -1,3 +1,6 @@
 **/*.mid
 **/*.pdf
 **/*.midi
+GmoScript/
+pdf/
+reaper/
