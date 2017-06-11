@@ -35,17 +35,17 @@
 63	Tmp dis,
 62	Tmp d,
 61	snare roll
-60'	snare
+60	snare
 59	snare
 58	side roll
 57	side drum
 56	side drum
 55	tmp g
 54	tmp fis
-'53	tmp f
+53	tmp f
 52	tmp e
 51	tmp ees
-'50	tmp d
+50	tmp d
 49	tmp cis
 48	tmp c
 47	tmp b,

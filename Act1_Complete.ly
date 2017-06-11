@@ -4934,7 +4934,6 @@ R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI      
 
 
-%}
 
 %bn453 %sec4
 \time 4/4 \mark \default  \tempo 4 = 70 % check this
@@ -6846,7 +6845,6 @@ R1 |  R1 | % hpL hpR
 R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
-%{
 %bn636
 \time 15/16 r2 a8 bes16 a f8 g16                                           | \lyricmode{ who do you fan -- cy }                    | 
 <f a c>8. q16 q8. q16~ q4..                                                | f8 g a bes c4..                                       |  r2 r4.. |  r2 r4.. |   % rh lh kbR kbL 
@@ -7267,6 +7265,7 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%}
 %bn677
 \mark default \time 2/4 b4 \instrumentSwitch"Barrell" fis=|\lyricmode{in? Tom -- }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -7581,6 +7580,7 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 %bn707
 cis4 \times 2/3 {r8 gis fis} |\lyricmode{nough, Mis -- ter }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -9464,7 +9464,7 @@ r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  r8 r8.   |  % I  II 
 
 
  %bn887
-g16 f ees, \breathe f des                       | \lyricmode{jo -- ri -- ty ve -- ry }                          | 
+g16 f ees \breathe f des                       | \lyricmode{jo -- ri -- ty ve -- ry }                          | 
 r8. r8 | r8. r8 |r8 r8. |r8 r8. |   % rh lh kbR kbL   
 r8. r8  | r8. r8  | r8. r8  | r8. r8  | % fl ob kl bn 
 r8. r8  |r8 r8. |  r8. r8  | % hn tpt  tn 
@@ -11412,7 +11412,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-
+%bnEND
 %}
 
 }

@@ -16,6 +16,7 @@ tag = \date
 
 %{
 
+%}
 
 %bn1
 \tempo 4 = 80 \mark \default \time 5/8 b4 c4 r8 | \lyricmode {Oh Dan } |
@@ -227,8 +228,6 @@ R2 | R2 |b8 ais gis ais|b,8 ais, gis, ais,| R2 | % vn vII va vc cb
 
 %bn24
 \time 5/8 des8 bes ges des \instrumentSwitch "Rooney" ges\noBeam | \lyricmode {no -- ti -- fy me  I } | %or quint? check Roony note
-
-
 des8 bes ges des4   | r4 r4. |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
@@ -236,6 +235,7 @@ r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 r4. r4 | r4. r4 | % hpL hpR
 r4 r fis'8 | r4. r4 |cis'8( ais fis16) r r4 |cis8 ais, fis( dis b,) | r4. r4 | % vn vII va vc cb
 
+%{
 %bn25
 \time 2/4 f='4 ges8 aes | \lyricmode {wan -- ted to } |
 \absolute{  f'4--( fis'8 gis') } |\absolute { gis2~ } |  R2 |  R2 |  % rh lh kbR kbL
@@ -4694,7 +4694,6 @@ R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
-%}
 %bn510
 \time 7/8 \clef bass \set Timing.beatStructure = #'(3 2 2) \transpose c g, \relative c, { c'8 c c g fis g8. a16   }| \lyricmode { what must it be like on a } |
 \transpose c g, \relative c'' { c8-- b-- a-- gis-- fis-- gis-- a--  }|\transpose c g, \relative c' { c8-- b-- a-- gis-- fis-- gis-- a--  }|  r2 r4. |  r2 r4. |  % rh lh kbR kbL
@@ -4741,7 +4740,7 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 
 %bn515
-\time 3/4 \transpose c g, \relative c' { r4 cis e,  }| \lyricmode {si -- lent } |
+\time 3/4  \clef bass \transpose c g, \relative c' { r4 cis e,  }| \lyricmode {si -- lent } |
 \transpose c g, \relative c' { \clef bass  <a, a' cis>2.  }|\ottava #-1 \transpose c g, \relative c,, {a=,2.  }|  R2. |  R2. |  % rh lh kbR kbL
 R2. | R2. | R2. | R2. | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
@@ -4959,7 +4958,6 @@ r8. r | r8. r | r8. r | % tym perc fol
 r8. r | r8. r | % hpL hpR
 r8. r | r8. r | r8. r | r8. r | r8. r | % vn vII va vc cb
 
-%{
 %bn539
 \time 2/4 \dEQ r8. f=16 e d a b | \lyricmode {why are you hang -- ing } |
 << <g b dis>4\! \\ s4 >> r | R2 |  R2 |  R2 |  % rh lh kbR kbL
