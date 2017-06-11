@@ -369,10 +369,10 @@
 \addInstrumentDefinition #"Tommy"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "Tomm.")
-     (clefGlyph . "clefs.C")
-     (clefTransposition . 0)
-     (middleCPosition . 7)
-     (clefPosition . 0)
+     (clefGlyph . "clefs.G")
+     (clefTransposition . -7)
+     (middleCPosition . 1)
+     (clefPosition . -2)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "Tom"))
      (midiInstrument . "synth voice"))
 
