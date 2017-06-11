@@ -1,17 +1,16 @@
-" Scene 1 6key score and parts 
-call SetRangeBySection(1,2)
-exe 'w'
-execute '!sco -xsd -n Scene1 %'
-execute '!sco -psd -n Scene1 %'
-execute '!sco -rsd -n Scene1 %'
-execute '!sco -asd -n Scene1 %'
-normal u
+Castillo - 
 
-"Slocum
-call SetRange(450,636)
-" Drifting
-" Ending
-" walking
-" pedals
-" intro-test stuff
+Never Trudge
+Office (old higher version??)
+Barrell???
+and the brats!
+
+Scott -
+
+Never Trudge
+and the brats!
+
+"Act 2
+Never Trudge 185 - 198
+Office  514 - 538
 
