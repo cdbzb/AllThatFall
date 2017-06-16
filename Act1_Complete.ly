@@ -5390,6 +5390,7 @@ R1 |  R1 | % hpL hpR
 R1 |  R1 |  R1 |  R1 | f,2 e4 r |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
+%}
 %bn495
 \tQQ a'4( g) fis e                                         | \lyricmode{ high off the }                   | 
 r1                                                         | fis2 d                                       |  R1 |  R1 |   % rh lh kbR kbL 
@@ -5408,7 +5409,7 @@ R2                                                         | g2                 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-a'''2\o | b''2) |  R2 |  R2 | g,,2~ |  % vn vII va vc cb 
+a'''2\o | b''2) | \times 4/5 {r2 d'8( } |  R2 | g,,2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn497
@@ -5418,29 +5419,30 @@ R2                                                         | R2                 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-g'''2\o | e''2 |  R2 |  R2 | 2 |  % vn vII va vc cb 
+g'''2\o | e''2 |\times 4/5{ c'8 a fis e d) } |  R2 | g,,2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn498
 \times 2/3{b4 \times 2/3 {gis4 e8} c4}                     | \lyricmode{ tires I sup -- pose }            | 
 R2                                                         | gis2                                         |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+R2 |  R2 |<gis'' b''>2( <c' e'>~ |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
-
+R2 |  R2 |  R2 |  R2 |gis,2|  % vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 |  R2 | gis,,2.~ |  % I  II  III  IV  V  VI  
+ 
 %bn499
-\tQQ \time 3/4 R2 aes=8 b                                  | \lyricmode {does this }                      | 
+\tQQ \time 3/4 r2 aes=8 b                                  | \lyricmode {does this }                      | 
 R2.                                                        | R2.                                          |  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
+R2. |  R2. | q2) r4 |  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
 R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+R2. |  R2. |  R2. |  R2. |  R2. |gis,,2 r4  |  % I  II  III  IV  V  VI  
 
+%{
 %bn500
 \time 7/8 cis4 aes8 g aes e8 r                             | \lyricmode{ roof ne -- ver come off? }       | 
 r4 r4. r4                                                  | r4 r4. r4                                    |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
@@ -7265,7 +7267,6 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%}
 %bn675
 \mark default \time 2/4 b4 \instrumentSwitch"Barrell" fis=|\lyricmode{in? Tom -- }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -7608,7 +7609,6 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 %bn708
 cis4 \times 2/3 {r8 gis fis} |\lyricmode{nough, Mis -- ter }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
