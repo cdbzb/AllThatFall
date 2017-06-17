@@ -5425,7 +5425,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 %bn498
 \times 2/3{b4 \times 2/3 {gis4 e8} c4}                     | \lyricmode{ tires I sup -- pose }            | 
 R2                                                         | gis2                                         |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |<gis'' b''>2( <c' e'>~ |  R2 | % fl ob kl bn 
+R2 |  R2 |<gis'' b''>4( <c' e'>~ |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
@@ -5442,36 +5442,35 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |gis,,2 r4  |  % I  II  III  IV  V  VI  
 
-%{
 %bn500
 \time 7/8 cis4 aes8 g aes e8 r                             | \lyricmode{ roof ne -- ver come off? }       | 
 r4 r4. r4                                                  | r4 r4. r4                                    |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
-r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. | % fl ob kl bn 
+ <cis'' e''>2~ q4. |  r2 r4. |  r2 r4. |  r2 r4. | % fl ob kl bn 
 r2 r4. |  r2 r4. |   r2 r4. | % hn tpt  tn 
 r2 r4. |  r2 r4. |  r2 r4. | % tym perc fol 
 r2 r4. |  r2 r4. | % hpL hpR 
 r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % vn vII va vc cb 
-r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I  II  III  IV  V  VI  
+r4  gis'2~ |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I  II  III  IV  V  VI  
 
 %bn501
 \time 2/4 d'8 r4.                                          | \lyricmode{ No? }                            | 
 \times 2/3 {r4 bes8} \times 2/3 {r4 bes8}                  | <e fis cis'>8 r4.                            |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+<d'' e''>4 q |  R2 | r4 gis |\times 2/3 {r4 ais'8~} \times 2/3 {ais'8 r ais'8~} | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+gis'2~( |f''2~(| e'2~(| ais,2~(|  R2 |  % vn vII va vc cb 
+R2  | R2 | R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn502
 R2                                                         |                                              | 
 \times 2/3{r4 bes8}\times 2/3{r4 bes8}                     | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+q4 q |  R2 | gis4 gis |\times 2/3 {ais'8 r  ais'8~} \times 2/3 {ais'8 r ais'8} | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+gis'2 |f''2 | e'2 | ais,2|  R2 |  % vn vII va vc cb 
+R2 | R2 | R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn503
 e8 r r16 e d c                                             | \lyricmode {no. I'll ne -- ver }             | 
@@ -5480,17 +5479,27 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+ gis'2) | e''2) | f'2) | a,2) |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn504
-b8. a16 r4 r8. f16 \times 2/3 {g8 a b}                     | \lyricmode{  do it. You'll have to come }    | % two           bar s in one!
-R1                                                         | R1                                           |  R2 |  R2 |   % rh lh kbR kbL 
+b8.  a16 r4 | \lyricmode{  do it. }    | % two           bar s in one! 
+R2                                                         | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 | f,2  |  % vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+
+%bn504
+ r8. f16 \times 2/3 {g8 a b}                     | \lyricmode{  You'll have to come }    | % two           bar s in one! 
+R2                                                         | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
+R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |  R2 |  R2 | % tym perc fol 
+R2 |  R2 | % hpL hpR 
+R2 |  R2 |  R2 |  R2 | d,2  |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn505
@@ -5500,7 +5509,7 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 | d |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn506
@@ -5513,6 +5522,7 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 %bn507
 \time 6/8 c4. r                                            | \lyricmode{rear! }                           | 
 R2.                                                        | c=,16( e g b d b) c16( e g b d b)            |  R2. |  R2. |   % sextuplets? % rh lh kbR kbL 
