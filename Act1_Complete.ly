@@ -5458,7 +5458,7 @@ r4  gis'2~ |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I  II  III  IV
 <d'' e''>4 q |  R2 | r4 gis |\times 2/3 {r4 ais'8~} \times 2/3 {ais'8 r ais'8~} | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
+ r4 <gis gis'> |  R2 | % hpL hpR 
 gis'2~( |f''2~(| e'2~(| ais,2~(|  R2 |  % vn vII va vc cb 
 R2  | R2 | R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
@@ -5468,7 +5468,7 @@ R2                                                         |                    
 q4 q |  R2 | gis4 gis |\times 2/3 {ais'8 r  ais'8~} \times 2/3 {ais'8 r ais'8} | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
+q4 q |  R2 | % hpL hpR 
 gis'2 |f''2 | e'2 | ais,2|  R2 |  % vn vII va vc cb 
 R2 | R2 | R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
@@ -5575,7 +5575,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 %bn512
 \times 2/3 {e4 b fis'8 gis}|\lyricmode{com -- ing, give me }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 | r4 \times 2/3 {r8 <fis fis'> <cis' gis'>}| \times 2/3 {r4 e,,-- e,8 fis} | % fl ob kl bn 
+R2 |  R2 | r4 \times 2/3 {r8 <fis fis'> <cis' gis'>}| \times 2/3 {r4 e,,-- e,8 fis, } | % fl ob kl bn 
 <b e'>8 r4. |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
@@ -5592,20 +5592,20 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
  R1 |  R1 | \grace cis'8( ais'4 \grace{ b'16 ais' } fis'8 ais') fis'2| gis,2 r2| cis,4-. r2. |  % vn vII va vc cb 
  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn514
 %%%%%%%%%%%%%check the rhythm of this passge %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \time 2/4 cis4 \instrumentSwitch "Rooney" cis8 r |\lyricmode{ self stiff! }|
 r4 <g cis>8 r | fis4 r |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |  R2 | <fis' a'>8 r <g' a'> r | r4 g,, | % fl ob kl bn 
+ <fis a>8 r <g a> r |  R2 | r4 g,8 r| % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+ <fis, ais, cis >4 <g, ais, cis e> | <fis ais cis'>4 <g ais cis' e> | % hpL hpR 
+ r4 <<b'8\\gis'-.->_"pz">> r | <fis' ais'>8 r  << <g' ais'>\\e-.->_"pz">> r | fis4 << <cis' e'>\\e-.->_"pz" >> | <fis, cis>4 <g, g> | fis,8 r g,-> r |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 %bn515
 d8 b b gis |\lyricmode{ well I like that! }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
