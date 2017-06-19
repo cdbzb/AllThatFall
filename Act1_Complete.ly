@@ -5529,7 +5529,7 @@ R2.                                                        | c=,16( e g b d b) c
  <e' g'>4. <c' e'> |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-  c'16( e' g' b'  d'' b' c''4.)|  R2. | r4. c16( e g b  d' b| r4. c,16( e, g, b,  d b,| c,,4. c, |  % vn vII va vc cb 
+  c'16( e' g' b'  d'' b' c''4.)|  R2. | r4. c16( e g b  d' b)| r4. c,16( e, g, b,  d b,| c,,4. c,) |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn508
@@ -5556,43 +5556,43 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 \time 12/16 dis8. r8 fis,16 ais8. r8 \instrumentSwitch "Slocum" b16 | \lyricmode{ on, drive on. I'm } |
 dis8 ais16 fis8 ais16 cis,8 fis16 ais,8 r16 | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. | r2 r8 \times 4/7 {e'32(\< fis' gis' a' b' cis'' dis''} |  R2. | % fl ob kl bn 
-R2. |  R2. |   R2. | % hn tpt  tn 
+R2. |  R2. | r4. r4 b,8 | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |ees''16 r bes' ges' r bes' ees' r ges' bes r8| << {ees'8.-.^"pizz" bes ges ees}\\{ees'16 r bes ges r bes ees r ges bes, r8  } >> |  R2. |  % vn vII va vc cb 
+ r4. r8. r8 b'16 |  R2. |ees''16 r bes' ges' r bes' ees' r ges' bes r8| << {ees'8.-.^"pizz" bes ges ees}\\{ees'16 r bes ges r bes ees r ges bes, r16 b  } >> |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%{
 %bn511
 \time 2/4 e16 b gis b e, gis r dis | \lyricmode{com -- ing Miss -- es Roo -- ney, I'm }|
 e='16 b gis b e, gis b, dis |R2|  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |  R2 |e''8) r4.| e16 r gis, r e, r b,, r | % fl ob kl bn 
+<b e'>4..~ <b dis'>16 |  R2 | r16 b, r b, r b, r dis | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+e''16 b' gis' b' e' gis' b dis' |  R2 |  R2 |e'16 b gis b e gis b, dis | e8-.^"pizz" b-. gis-. e,-.|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn512
 \times 2/3 {e4 b fis'8 gis}|\lyricmode{com -- ing, give me }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |  R2 | r4 \times 2/3 {r8 <fis fis'> <cis' gis'>}| \times 2/3 {r4 e,,-- e,8 fis} | % fl ob kl bn 
+<b e'>8 r4. |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+e'8 r4. |  R2 |  R2 | e8 r e,4--  | r4 e,4-.^pizz |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn513
 \tempo \markup {\null} \tQQ \time 4/4 ais4 bis8 ais gis4 ais8 dis |\lyricmode{time, I'm as stiff as your -- }| %generalize this tempo thing
  ais='4 bis8 ais gis4 ais8 fis |  R1 |  R1 |  R1 |   % rh lh kbR kbL 
- R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
+ R1 |  R1 | <fis' ais'>2 <fis' gis'> |  R1 | % fl ob kl bn 
  R1 |  R1 |   R1 | % hn tpt  tn 
  R1 |  R1 |  R1 | % tym perc fol 
  R1 |  R1 | % hpL hpR 
- R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
+ R1 |  R1 | \grace cis'8( ais'4 \grace{ b'16 ais' } fis'8 ais') fis'2| gis,2 r2| cis,4-. r2. |  % vn vII va vc cb 
  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn514
 %%%%%%%%%%%%%check the rhythm of this passge %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
