@@ -5602,7 +5602,7 @@ R2 |  R2 | <fis' a'>8 r <g' a'> r | r4 g,, | % fl ob kl bn
  <fis a>8 r <g a> r |  R2 | r4 g,8 r| % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
  <fis, ais, cis >4 <g, ais, cis e> | <fis ais cis'>4 <g ais cis' e> | % hpL hpR 
- <fis' ais'>4-> < gis' ais'>-> | r4 <e' ais'>4-.->^"btk" |  R2  |  <fis, cis>4 <g, g> | fis,8 r g,-> r |  % vn vII va vc cb 
+ <fis' ais'>4-> < gis' ais'>-> | r4 <e e' ais'>4-.->^"btk" | r4 <cis' e'>-> |  <fis, cis>4 <g, g> | fis,8 r g,-> r |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn515
@@ -5612,9 +5612,8 @@ R2 |  R2 | <gis' b' d'>8( <gis' b'>) q( <f' gis>)| gis,,4-- r| % fl ob kl bn
 <gis b>8 r4. |  R2 | gis,8 r4. | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 <gis, b, d>4 r | <gis b d'>4 r | % hpL hpR 
- <gis' b'>8-> r4. | <f' b'>4-.-> r |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+<gis' b'>8-> r4. | <f f' b' >4-.-> r | <d' f'>4-> r |<gis, gis>4 r |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
-%{
 
 %bn516
 \time 3/8 r8. b16 e8 |\lyricmode{ and me }|
@@ -5626,6 +5625,7 @@ R4. |  R4. | % hpL hpR
 R4. |  R4. |  R4. |  R4. |  R4. |  % vn vII va vc cb 
 R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I  II  III  IV  V  VI  
 
+%{
 %bn517
 \time 2/8 dis8 cis16 b |\lyricmode{hea -- ving all }|
 R4 | R4 |  R4 |  R4 |   % rh lh kbR kbL 
