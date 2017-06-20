@@ -5602,19 +5602,19 @@ R2 |  R2 | <fis' a'>8 r <g' a'> r | r4 g,, | % fl ob kl bn
  <fis a>8 r <g a> r |  R2 | r4 g,8 r| % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
  <fis, ais, cis >4 <g, ais, cis e> | <fis ais cis'>4 <g ais cis' e> | % hpL hpR 
- r4 <<b'8\\gis'-.->_"pz">> r | <fis' ais'>8 r  << <g' ais'>\\e-.->_"pz">> r | fis4 << <cis' e'>\\e-.->_"pz" >> | <fis, cis>4 <g, g> | fis,8 r g,-> r |  % vn vII va vc cb 
+ <fis' ais'>4-> < gis' ais'>-> | r4 <e' ais'>4-.->^"btk" |  R2  |  <fis, cis>4 <g, g> | fis,8 r g,-> r |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 %bn515
 d8 b b gis |\lyricmode{ well I like that! }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |  R2 | <gis' b' d'>8( <gis' b'>) q( <f' gis>)| gis,,4-- r| % fl ob kl bn 
+<gis b>8 r4. |  R2 | gis,8 r4. | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+<gis, b, d>4 r | <gis b d'>4 r | % hpL hpR 
+ <gis' b'>8-> r4. | <f' b'>4-.-> r |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+%{
 
 %bn516
 \time 3/8 r8. b16 e8 |\lyricmode{ and me }|
