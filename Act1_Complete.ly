@@ -5529,7 +5529,7 @@ R2.                                                        | c=,16( e g b d b) c
  <e' g'>4. <c' e'> |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-  c'16( e' g' b'  d'' b' c''4.)|  R2. | r4. c16( e g b  d' b)| r4. c,16( e, g, b,  d b,| c,,4. c,) |  % vn vII va vc cb 
+  c'16( e' g' b'  d'' b' c''4.)|  R2. | r4. c16( e g b  d' b)| r4. c,16( e, g, b,  d b,)| c,,4. c, |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn508
@@ -5616,36 +5616,36 @@ R2 |  R2 |  R2 | % tym perc fol
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn516
-\time 3/8 r8. b16 e8 |\lyricmode{ and me }|
+\time 3/8 r8. b16 e8 |\lyricmode{ and me }| %%%SHOUNLD be 2/8???
 r4. | R4. |  R4. |  R4. |   % rh lh kbR kbL 
-R4. |  R4. |  R4. |  R4. | % fl ob kl bn 
-R4. |  R4. |   R4. | % hn tpt  tn 
+R4. |  R4. |  R4. | r8 gis, <<gis-.\\gis,-->>| % fl ob kl bn 
+ r4 <gis e'>8-. |  R4. |   R4. | % hn tpt  tn 
 R4. |  R4. |  R4. | % tym perc fol 
 R4. |  R4. | % hpL hpR 
-R4. |  R4. |  R4. |  R4. |  R4. |  % vn vII va vc cb 
+r4 b'8-.| r4 gis'8-.|gis8 b8~b-.  | gis,8( b, <e gis>-.) |  R4. |  % vn vII va vc cb 
 R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I  II  III  IV  V  VI  
 
-%{
 %bn517
 \time 2/8 dis8 cis16 b |\lyricmode{hea -- ving all }|
 R4 | R4 |  R4 |  R4 |   % rh lh kbR kbL 
-R4 |  R4 |  R4 |  R4 | % fl ob kl bn 
-R4 |  R4 |   R4 | % hn tpt  tn 
+R4 |  R4 |  R4 |a,8 <<a-.\\a,-->>| % fl ob kl bn 
+<<  <a dis'>4\\{s16\< s8 s16\!}>> |  R4 |   R4 | % hn tpt  tn 
 R4 |  R4 |  R4 | % tym perc fol 
 R4 |  R4 | % hpL hpR 
-R4 |  R4 |  R4 |  R4 |  R4 |  % vn vII va vc cb 
+b'4 |<< a'4\\ {s16\< s8 s16\!}>>| b8( a16 b | <dis cis'>8( cis16 b, |  R4 |  % vn vII va vc cb 
 R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI  
 
 %bn518
-\time 2/4 a8 b c8. a16 |\lyricmode {o -- ver back and }|
+\EQ \time 2/4 a8 b c8. a16 |\lyricmode {o -- ver back and }A %%%%% check this - \dEE ?|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | a4) r | a,4) r |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 %bn519
 \times 2/3{ dis4 g8} fis8 e |\lyricmode{ front, the dry old }|
 \times 2/3{ dis8 b g8} fis8 e | R2 |  R2 |  R2 |   % rh lh kbR kbL 
