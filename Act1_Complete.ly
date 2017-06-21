@@ -5599,7 +5599,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 \time 2/4 cis4 \instrumentSwitch "Rooney" cis8 r |\lyricmode{ self stiff! }|
 r4 <g cis>8 r | fis4 r |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 | <fis' a'>8 r <g' a'> r | r4 g,, | % fl ob kl bn 
- <fis a>8 r <g a> r |  R2 | r4 g,8 r| % hn tpt  tn 
+ \clef bass <fis a>8 r <g a> r |  R2 | r4 g,8 r| % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
  <fis, ais, cis >4 <g, ais, cis e> | <fis ais cis'>4 <g ais cis' e> | % hpL hpR 
  <fis' ais'>4-> < gis' ais'>-> | r4 <e e' ais'>4-.->^"btk" | r4 <cis' e'>-> |  <fis, cis>4 <g, g> | fis,8 r g,-> r |  % vn vII va vc cb 
