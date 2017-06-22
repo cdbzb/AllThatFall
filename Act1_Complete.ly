@@ -5628,7 +5628,7 @@ R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I  II  III  IV  V  VI
 %bn517
 \time 2/8 dis8 cis16 b |\lyricmode{hea -- ving all }|
 R4 | R4 |  R4 |  R4 |   % rh lh kbR kbL 
-R4 |  R4 |  R4 |a,8 <<a-.\\a,-->>| % fl ob kl bn 
+R4 | dis''8 cis''16 b' | dis'8 cis'16 b |a,8 <<a-.\\a,-->>| % fl ob kl bn 
 <<  <a dis'>4\\{s16\< s8 s16\!}>> |  R4 |   R4 | % hn tpt  tn 
 R4 |  R4 |  R4 | % tym perc fol 
 R4 |  R4 | % hpL hpR 
@@ -5636,66 +5636,66 @@ b'4 |<< a'4\\ {s16\< s8 s16\!}>>| b8( a16 b | <dis cis'>8( cis16 b, |  R4 |  % v
 R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI  
 
 %bn518
-\EQ \time 2/4 a8 b c8. a16 |\lyricmode {o -- ver back and }A %%%%% check this - \dEE ?|
-R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+\EQ \time 2/4 a8 b c8. a16 |\lyricmode {o -- ver back and } |  %%%%% check this MM
+R2 | R2 |  R2  | R2 |   % rh lh kbR kbL 
+R2 | a'4 r |<<{r8 d'-. e'-. r}\\ a2>> | a,4 a8-. a, | % fl ob kl bn 
+a4 cis'|  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 | a4) r | a,4) r |  R2 |  % vn vII va vc cb 
+ a'16 r b'r cis''r a' r |r2 | a4) r | a,4) r |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 %bn519
 \times 2/3{ dis4 g8} fis8 e |\lyricmode{ front, the dry old }|
 \times 2/3{ dis8 b g8} fis8 e | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+ dis'2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+\times 2/3{dis''8 b' g'} fis' e' | dis'4 r| \times 2/3 {r4 g8} fis e |<< {\times 2/3{dis'8 b g} fis e }\\{\times 2/3{dis4 g,8} fis, e,}>>|b4 r |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn520
 dis16 fis dis r \instrumentSwitch "Slocum" b4 |\lyricmode{re -- pro -- bate... Now, }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+dis''16 fis'' dis''8 b8 r |  R2 |  R2 | r4 b, | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+dis'4 r |  R2 | dis16 fis dis r \repeat unfold 4 {b'32 cis''} |<dis, fis>4 b |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn521
 \times 2/3 {fis8 gis ais} b b,16 r | \lyricmode{ how shall we do this? } |
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |  R2 |  R2 | \times 2/3 {fis,8 gis, ais,} b, b,,| % fl ob kl bn 
+ \clef bass \times 2/3 {fis4 e8} dis4 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 | r4 b\p |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn522
-\time 3/4 \dQQ \instrumentSwitch "Rooney" fis=8 e  \times 2/3 {d e fis} gis4 |\lyricmode{ as if I were a }|
+\time 3/4 \dQQ \instrumentSwitch "Rooney" fis=8 e  \times 2/3 {d e fis} gis4 |\lyricmode{ as if I were a bale.}| %%% re-bar??? 3 then 2!!! TODO
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
- fis 4 cis' g fis' |  R2. |   R2. | % hn tpt  tn 
+f''8 e'' dis'' d'' cis'' c''  |  R2. |  R2. | fis8 e  \times 2/3 {d e fis} gis4 | % fl ob kl bn 
+fis'4~^"stopped" <fis' cis'~> <cis' g~>   |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+f'2~\< <f' g'>4~ | r2 <g' g''>4~| fis'8 e'  \times 2/3 {d' e' fis'} \times 2/3 {gis' a' gis'} | f4 des g |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn523
-\time 2/4 fis8 gis16 ais ais4 | \lyricmode{bale.  Don't be a -- fraid }|
+\time 2/4 fis8 gis16 ais ais4 | \lyricmode{  Don't be a -- fraid }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+b'8 ais' a'4 |  R2 |  R2 |\times 2/3 {fis8 gis ais} ais4 | % fl ob kl bn 
+<dis' g>4 a' |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+<f' g'>4~ <f' g' a'>\!| q2^"esp"  |\times 2/3 {fis'8 gis' ais'} ais'4 | ees4 r |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
 
 %bn524
