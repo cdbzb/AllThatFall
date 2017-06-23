@@ -1,0 +1,215 @@
+517
+kl: Dis’ Cis’ B A~
+ob: Dis’’ Cis’’ B’ A’~
+bn: A, r A,
+horn normal: [Dis’ A] r A
+vn arco: B’ r
+vn2 arco: [B’ A’] r A’~
+va arco: B A B A~
+va bartok: ?
+vc arco: Dis Cis B, A,~
+vc bartok: ?
+cb arco: A,,
+
+518
+harp glissando: r [A, A] [A’ A’’]~ 
+kl: A B Cis’
+ob: A’
+bn: A, r A,
+horn normal: A Cis’ 
+vn2 arco: A’ B’ Cis’’ A’ 
+va arco: A
+vc arco: A, r
+cb arco: A,
+
+519
+harp: Dis’’
+horn normal: Dis’
+vn arco: Dis’’ B’ C’ Fis’ E’ Dis’~
+vn2 arco: Dis’
+va arco: r G Fis E Dis~
+vc arco: Dis B, G, Fis, E, Dis,~
+cb arco: B, r
+
+520
+fl: Dis’’ Fis’’ Dis’’ B’
+bn: r B,
+vn arco: Dis’
+va arco: Dis Fis Dis r
+va mute: r B’ Cis’’ B’ Cis’’ B’ Cis’’ B’ Cis’’ B’ Cis’’ 
+vc arco: [D Dis, Fis,] B,
+
+521
+bn: Fis, Gis, Ais, B, B,,
+horn normal: Fis, E, Dis
+va mute: B’ Cis’’
+vc arco: B, r B,
+
+522
+harp glissando: [F’ F] [Cis’ Cis]
+fl: F’’ E’’ Dis’’ D’’ 
+bn: F Dis Cis Dis F
+horn stopped: F’ Cis’~
+vn arco: F’
+vn2 arco: F’’
+va arco: F’ Dis’ cis’ Dis’ F’
+vc arco: F Cis
+
+523
+harp glissando: [G G’] [Dis Dis’] Dis F [A Dis’] F’ A’ G’ 
+percussion: r Ais’’ ~
+fl: Cis’’ C’’ B’ Ais’ A’’ r
+kl: r [C, D,] Dis, ~
+ob: r Dis, E, ~
+bn: G Dis F G A r
+horn stopped: [G Cis’] Dis’ A’ r
+tn: r G,,
+vn solo: [G’ G’’] r
+vn arco: [F’ G’] A’ r
+vn2 arco: [f’’ G’’] A’’ r
+va arco: G’ Gis’ G’ Dis’ F’ G’ A’ r
+vc arco: G Dis r
+
+524
+percussion: C, r [D D’’] C,~
+kl: [Cis, Dis, ]r Cis,
+ob: [Dis,, Dis, E,] r [Dis, Dis, E,]~
+tpt; [? didn’t play in project] r C’’ B’ F’ r
+tn: G,, r G,,~
+vc pizz: Gis, r Gis,~
+cb pizz: [Gis, Gis] r 
+
+525
+percussion: r [D D’’] r [D D’’] C’’ r
+kl: r Cis. r Gis,
+ob: [Dis,, Dis, E,] r [Dis,, Dis,] E, r [Dis,, Dis,] E,
+tpt: [muted in project?] r B’ F’ r
+tn: G,, r G,, r G,, r
+vc pizz: Gis, r Gis, r Gis,~
+cb pizz: [Dis, Gis, Gis] r [Fis, Gis, Gis] r [Gis, Gis]~
+
+527
+harpsichord: [roll into chord] [Fis Ais Cis’ F’]~
+percussion: C’’’’
+fl: Ais’~
+kl: F’~
+ob: r Dis’’~
+vn tremo: r [Fis’’ Ais’’]~
+vn tremsu: r [Cis’’ F’’]~
+vn mute: [ Fis Ais Fis’ Ais’]~
+vn2 tremo: [F’’ Cis’’’]~
+vn2 mute: [Cis’’ F’’]~
+vc pizz: Gis, r
+cb pizz: Gis, Fis, r
+
+528
+harpsichord: [Fis Ais Cis’ F’]~
+percussion: C’’’’
+fl: Ais’ A’~
+kl: F’ Fis’~
+ob: Dis’’ D’’~
+vn tremo: [Fis’’ Ais’’] [F’’ A’’]~
+vn tremsu: [Cis’’ F’’]
+vn mute: [Fis Ais Fis’ Ais’] [F A F’ A’]~
+vn2 tremo: [F’’ Cis’’’] [Fis’’ D’’’]~
+vn2 mute: [Cis’ F’ Cis’’ F’’] [D’ Fis’ D’’ Fis’’]~
+
+529
+harpsichord: [D’ Fis’ D’’ Fis’’]~
+Percussion: C’’’’ 
+fl: A’~
+kl: Fis’~
+ob: D’’~
+vn tremo: [F’’ A’’]~
+vn tremsu: [Cis’’ F’’]~
+vn mute: [F A F’ A’]~ 
+vn2 tremo: [Fis’’ D’’’] r
+vn2 mute: [D’ Fis’ D’’ Fis’’]~
+
+530
+fl: A’ Gis’ G’~
+kl: Fis’ F’~
+ob: D’’ Cis’’
+vn tremo: [F’’ A’’]~
+vn tremsu: [Cis’’ F’’] [Cis’’ E’’]~
+vn mute: [F A F’ A’]~ 
+vn 2 mute: [D’ Fis’ D’’ Fis’’] [Cis’ F’ Cis’’ F’’]~
+
+531
+harp glissando: r [G A] [Cis’ G’ A’] Cis’’  
+fl: G’~
+kl: F’~
+ob: G’~
+vn tremo: [F’’ A’’]
+vn tremsu: [Cis’’ E’’]
+vn mute:  [F A F’ A’]~ 
+vn2 mute: [Cis’ F’ Cis’’ F’’]~
+va mute: [G’ B’]
+
+532
+harp glissando: [G A B Dis’ G’ Dis’’] r
+fl: G’ r
+kl: F’ r
+ob: G’ r
+tpt: r [B B’] r [B B’]
+tn: r [B, A]
+vn tremsu: [B’ Dis’’]
+vn mute: [F A F’ A’] r
+vn2 mute: [Cis’ F’ Cis’’ F’’]
+va arco: r [B B’] [B B’] [Cis’ Cis’’] 
+va mute: [B’ Dis’’ B’’ Dis’’’]
+vc arco: r A
+
+533
+fl: E’’ Fis’’ E’’ Fis’’ E’’ Fis’’ E’’ Fis’’ E’’ Dis’’ E’’ Fis’’
+horn normal: [E E’] [A, A]
+tpt: [B B’] [Cis’ Cis’’]~
+tn: [Gis, Gis] [A, A]~
+va arco: [B B’] [Cis’ Cis’’] [Dis’ Dis’’]
+va mute: [Dis’’ B’’ Dis’’’]
+va arco: [E, Cis] [A, A]
+
+534
+fl: Gis’’ Fis’’ Gis’’ Fis’’ Gis’’Fis’’ Gis’’ Fis’’ E’’ Fis’’ Gis’’ A’’ Gis’’ A’’ Gis’’ A’’ Gis’’
+horn normal: r [A, A] [B, B]~
+tpt: Cis’ Cis’ B B~
+tn: [A, A] r [A, A] [Gis, Gis] [Fis, Fis]
+va arco: [E’ E’’] [E’ E’’] r
+vc arco: [A, A] [Cis, Cis] [Fis, B]
+
+535
+fl: A’’ Gis’’ Gis’’ A’’ Gis’’ A’’ Gis’’ Fis’’ Gis’’ Fis’’ Gis’’ Fis’’ E’’ Fis’’ E’’ Dis’’E’’ Fis’’ Fis’’ Fis’’ r
+horn normal: r [B, B] r [E E’] [E E’]
+tpt: r [B B’] r [B B’] r 
+tn: r [Fis, Fis] r [D, E, E] Gis
+va arco: r [E’ E’’] r [E’ E’’] r [E’ E’’] [Dis’ Dis’’]~
+vc arco: r [Fis, B] [E, Cis] r E Dis~
+
+536
+fl: r Dis’’ Cis’’ B’ A’ 
+horn normal: [Dis Dis’] [E E’] [Cis Cis’] [B, B] [A, A]
+tpt: r [A A’] [B B’]~
+tn: r [A, A]
+va arco: [Dis’ Dis’’] [E’ E’’] [Cis’ Cis’’] [E’ E’’] [Fis’ Fis’’] [E’ E’’] [Dis’ Dis’’] [Cis’ Cis’’]~
+vc arco: [Dis Dis’] [E E’’] [Cis Cis’] [B, B] [A, A]
+
+537
+pianoteq: r [G,, D, G,] Gis,
+harp glissando: r Gis,~
+percussion: r C,D,
+bass clarinet: r D, Cis,
+fl: B’ Cis’’ B’ Cis’’ B’ Cis’’ B’ Cis’’ B’ B’ Cis’’ r [B’ Cis’’] Cis’’ B’ Cis’’ r
+kl: [muted in project] r D, Cis,~
+horn normal: [B, B] [B,, B,] [B,, B,] r [C,, D, G,]~
+horn mute: r G,,
+horn stopped: r G,,
+tpt: [B B’]  r [B Dis’] r [B Dis’] r
+tn: r [Dis, Dis] r [Dis, Dis] r [Dis, Dis] r Gis,,~
+va arco: [Cis’ Cis’’] [Dis’ Dis’’] [B B’] r [B B’] r [B B’] [B B’] r
+vc arco: [B, B] B,, Dis B, Fis r
+vc pizz: r [D, G,]~
+vc mute: r [G,, D,]~
+cb arco: r [D,, G,,]~
+cb pizz: r [D,, G,,]
+
+

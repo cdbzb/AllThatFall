@@ -5662,7 +5662,7 @@ dis''16 fis'' dis''8 b8 r |  R2 |  R2 | r4 b, | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-dis'4 r |  R2 | dis16 fis dis r \repeat unfold 4 {b'32 cis''} |<dis, fis>4 b |  R2 |  % vn vII va vc cb 
+dis'4 r |  R2 | dis16 fis dis r b'32( cis'' b' cis'' b' cis'' b' cis'')  |<dis, fis>4 b |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn521
@@ -5695,58 +5695,57 @@ R2 |  R2 | % hpL hpR
 <f' g'>4~ <f' g' a'>\!| q2^"esp"  |\times 2/3 {fis'8 gis' ais'} ais'4 | ees4 r |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 
 
 %bn524
 %%%%%%%%%%%% into the car %%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \time 9/16 r4 c='8 b16 f8| \lyricmode{ that's the way! }| % or should this be 5/8?
 <g c>8. gis16~ gis8. r8                         | <d=, g d'>8 gis'8 r8. r8              |  r8. r r |  r8. r r |   % rh lh kbR kbL 
-r8. r r |  r8. r r |  r8. r r |  r8. r r | % fl ob kl bn 
-r8. r r |  r8. r r |   r8. r r | % hn tpt  tn 
+r8. r r | \clef bass <dis, dis>8~ <dis, dis e> r8 r8. |\clef bass  cis,8. r8. r |  r8. r r | % fl ob kl bn 
+r8. r r |  r8. r r | g,,4 r8 r8.| % hn tpt  tn 
 r8. r r |  r8. r r |  r8. r r | % tym perc fol 
 r8. r r |  r8. r r | % hpL hpR 
-r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % vn vII va vc cb 
+r8. r r |  r8. r r |  r8. r r | r8 gis,16\lv^"pz" r4. |r8  <gis, gis>16-.\lv^"pz"  r4.  |  % vn vII va vc cb 
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I  II  III  IV  V  VI  
 
 %bn525
 \time 2/4 r4 b8 f                               | \lyricmode{lo -- wer }                | 
 <g c>8. gis16~ gis4                             | <d=, g d'>8 gis'4.                    |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |<dis, dis>8~ <dis, dis e> r4 | cis,8. r16 r4 	|  R2 | % fl ob kl bn 
+R2 |  R2 | g,,4 r | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 | r16  gis,8.\lv r4 | r8 <gis, gis> r4 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn526
 \tEE R2                                         |                                       | 
 <g c>8. gis16~ <g c>8. gis16~                   | <d=, g d'>8 gis' <d=, g d'>8 gis'     |  R2 |  R2 |   %add metmod before next bar!! % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 |<dis, dis>8--~ <dis, dis e> <dis, dis>8--~ <dis, dis e> | cis,8 r cis, r|  R2 | % fl ob kl bn 
+R2 |  R2 | g,,8. r16 g,,8. r16| % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 |  r16  gis,8.\lv  r16  gis,8.\lv  | r8 q r q |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn527
 ees'8 r4.                                       | \lyricmode{ wait! }                   | 
 <fis ais cis eis>2\arpeggio                     | fis2                                  |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ais'2 | \clef treble dis''2 |f'2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+ <f'' ais''>2:32 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn528
 fis4 d8 cis                                     | \lyricmode{ no, don't  let }          | 
 <f a d fis>4 r                                  | f2                                    |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+a'2~  | d''2~| fis'2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+<f'' a''>2:32~ |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn529
@@ -5756,7 +5755,7 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+ q2:32~ |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn530
@@ -5766,7 +5765,7 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+ q2:32~ |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn531
@@ -5776,9 +5775,10 @@ R2. |  R2. |  R2. |  R2. | % fl ob kl bn
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+q2.:32~ |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 %bn532
 \time 2/4  dis4 \instrumentSwitch "Slocum" b=8 b | \lyricmode{down?  you'll get }        | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
