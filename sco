@@ -332,8 +332,8 @@ echo 'sent ly file'
     >>
   
     \new StaffGroup <<
-  \new Staff \with {instrumentName = #"violin I" shortInstrumentName = #"vnI"}{\vn}
-  \new Staff \with {instrumentName = #"violin II" shortInstrumentName = #"vnII"}{\vII}
+  \new Staff = "vn" \with {instrumentName = #"violin I" shortInstrumentName = #"vnI"}{\vn}
+  \new Staff = "vII" \with {instrumentName = #"violin II" shortInstrumentName = #"vnII"}{\vII}
   \new Staff ="va" \with {instrumentName = #"viola" shortInstrumentName = #"va"}{\clef alto \va}
   \new Staff = "vc" \with {instrumentName = #"'cello" shortInstrumentName = #"vc"}{\clef bass \vc}
   \new Staff = "cb" \with {instrumentName = #"bass" shortInstrumentName = #"cb"}{\clef bass \cb}

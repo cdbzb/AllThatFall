@@ -5735,50 +5735,49 @@ ais'2 | \clef treble dis''2 |f'2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
- <f'' ais''>2:32 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+<f'' gis'' ais'' des'''>2:32 |<< {<cis' f' cis'' f''>2~^"mutes" } \\{<fis ais fis' ais'>2} >> |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn528
 fis4 d8 cis                                     | \lyricmode{ no, don't  let }          | 
 <f a d fis>4 r                                  | f2                                    |  R2 |  R2 |   % rh lh kbR kbL 
-a'2~  | d''2~| fis'2 |  R2 | % fl ob kl bn 
+a'2~  | d''2~| fis'2~ |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-<f'' a''>2:32~ |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+<f'' gis''  a'' d'''>2:32~ |<<  <d' fis' d'' fis''>2~\\<f a f' a'>2~  >> |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn529
 eis4 \times 2/3 {r4 a,8}                        | \lyricmode{   go. Sup -- }            | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+a'2~| d''2~ | fis'~ |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
- q2:32~ |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+<f'' a''>2:32~ |<<  <d' fis' d'' fis''>2~\\<f a f' a'>2~  >> |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn530
 \times 2/3{gis8 a b} \times 2/3{e4 cis8}        | \lyricmode{pos -- ing I do get }      | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ a'4 gis'~| d''4 cis'' | fis'4 f'~ |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
- q2:32~ |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+< gis' a'' c'''>4:32~ < g' a'' c'''>4:32~ |<<  {<d' fis' d'' fis''>4 <cis' f' cis'' f''>~}\\<f a f' a'>2~  >> |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn531
 \time 3/4 g4 r8 a16 b \times 2/3{cis8 a cis}    | \lyricmode{ up would I ev -- er get } | 
 R2.                                             | R2.                                   |  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
+ g'2. | g'2. | f'2.|  R2. | % fl ob kl bn 
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-q2.:32~ |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+q2.:32~ |<<  { <cis' f' cis'' f''>2.~}\\<f a f' a'>2.~  >> |<g' b'>2.  |  R2.  |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%{
 %bn532
 \time 2/4  dis4 \instrumentSwitch "Slocum" b=8 b | \lyricmode{down?  you'll get }        | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
@@ -5786,9 +5785,10 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |<<  { <cis' f' cis'' f''>4.}\\<f a f' a'>4.  >>r8 |<b' dis' b'' dis''>2 | R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 %bn533
 e,4~ \times 2/3{e8 b' a}                          | \lyricmode{ down Miss -- es }         | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
