@@ -5785,7 +5785,7 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 | r4 <b b'>8 q | r4. <a, a>8 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |<<  { <cis' f' cis'' f''>4.}\\<f a f' a'>4.  >>r8 |<b' dis' b'' dis''>2 | R2 |  R2 |  % vn vII va vc cb 
+R2 |<<  { <cis' f' cis'' f''>4.}\\<f a f' a'>4.  >>r8 |<b' dis' b'' dis''>4 <b b'>8^"norm" q16 <cis' cis''> | r4 r8 a |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn533
@@ -5795,7 +5795,7 @@ R2                                              | R2                            
 <e  e'>2 | q2 | <gis, gis>2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | <b b'>4~ q8 <cis' cis''>16 <dis' dis''> | <e, gis>2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn534
@@ -5805,7 +5805,7 @@ R2                                              | R2                            
 <a, a>4 q   | <cis' cis''>4 q8 <b b'> | <a, a>4 q8 <gis, gis> | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | <e' e''>2| < a, a>8 r q( <gis, gis>)|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -5813,10 +5813,10 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 \time 11/16 r8 b r  b e8 e16         | \lyricmode{you'll get down, we }                 | %check rhythm
 r2 r8.                               | b4 b e8 e16                                      |  r2 r8. |  r2 r8. |   % rh lh kbR kbL 
  \pitchedTrill gis''4\startTrillSpan a'' \afterGrace\pitchedTrill fis''4 \startTrillSpan gis'' {e''32 dis'' e'' fis''\stopTrillSpan} d''8 r16 |  r2 r8. |  r2 r8. |  r2 r8. | % fl ob kl bn 
- <b, b>4 q8 r <b, e e'> | q4 q8 r q r16 | <fis, fis>4 q8 r <e, e>8 r16  | % hn tpt  tn 
+ <b, b>4 q8 r <b, e e'> r16 | q4 q8 r q r16 | <fis, fis>4 q8 r <e, e>8 r16  | % hn tpt  tn 
 r2 r8. |  r2 r8. |  r2 r8. | % tym perc fol 
 r2 r8. |  r2 r8. | % hpL hpR 
-r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  % vn vII va vc cb 
+r2 r8. |  r2 r8. | q8 r4 q8 r8. | <fis, b>4 q8 r <e, gis> r16 |  r2 r8. |  % vn vII va vc cb 
 r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  % I  II  III  IV  V  VI  
 
 %{
