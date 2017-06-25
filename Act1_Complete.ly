@@ -5805,7 +5805,7 @@ R2                                              | R2                            
 <a, a>4 q   | <cis' cis''>4 q8 <b b'> | <a, a>4 q8 <gis, gis> | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 | <e' e''>2| < a, a>8 r q( <gis, gis>)|  R2 |  % vn vII va vc cb 
+R2 |  R2 | <e' e''>2|< a, a>8 r q( <gis, gis>)|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -5813,33 +5813,33 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 \time 11/16 r8 b r  b e8 e16         | \lyricmode{you'll get down, we }                 | %check rhythm
 r2 r8.                               | b4 b e8 e16                                      |  r2 r8. |  r2 r8. |   % rh lh kbR kbL 
  \pitchedTrill gis''4\startTrillSpan a'' \afterGrace\pitchedTrill fis''4 \startTrillSpan gis'' {e''32 dis'' e'' fis''\stopTrillSpan} d''8 r16 |  r2 r8. |  r2 r8. |  r2 r8. | % fl ob kl bn 
- <b, b>4 q8 r <b, e e'> r16 | q4 q8 r q r16 | <fis, fis>4 q8 r <e, e>8 r16  | % hn tpt  tn 
+ <b, b>4 q8 r <b, e e'>  <e e'>16 | q4 q8 r q r16 | <fis, fis>4 q8 r <e, e>8 r16  | % hn tpt  tn 
 r2 r8. |  r2 r8. |  r2 r8. | % tym perc fol 
 r2 r8. |  r2 r8. | % hpL hpR 
-r2 r8. |  r2 r8. | q8 r4 q8 r8. | <fis, b>4 q8 r <e, gis> r16 |  r2 r8. |  % vn vII va vc cb 
+r2 r8. |  r2 r8. | q8 r4 q8 r8  <e' e''>16 | <fis, b>4 q8 r <e, gis>  <e e'>16 |  r2 r8. |  % vn vII va vc cb 
 r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  % I  II  III  IV  V  VI  
 
-%{
 %bn536
 \time 2/4 dis16 e cis e fis8 e16 dis | \lyricmode{may not get you up but I }            | 
 R2                                   | dis16 e cis b a8 r                               |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+ r16 dis'' cis'' b' a'4 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ \octaves { dis,16 e cis b a4 }| r4 < a a'>4 | r4 <a, a> | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | \octaves {dis16 e cis e fis8 e16 dis} | \octaves { dis,16 e cis b a4 }|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn537
 \time 3/4 cis16 dis b8 r8 b r16 b b8 | \lyricmode { war -- rant you, you'll get down! } | 
 R2.                                  | b4 b b                                           |  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
-R2. |  R2. |   R2. | % hn tpt  tn 
+ \pitchedTrill b'4\startTrillSpan cis'' r4\stopTrillSpan b'8\trill r |  R2. |  R2. |  R2. | % fl ob kl bn 
+ <b, b>4 q8 r  q r | <b b'>4 r8 <b dis'>8  r q  | <dis, dis>4 q8 r q r | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+R2. |  R2. |\octaves{ cis16 dis b8 r8 b r16 b b8 }| <b, b>8. r16 b,,8 dis8. b,16 fis8 |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 
 %bn538
 \dEQ \time 2/4 r4 \instrumentSwitch "Rooney"c=''8( b) | \lyricmode{oh! }                           | 
