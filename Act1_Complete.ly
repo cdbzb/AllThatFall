@@ -5839,11 +5839,10 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. |\octaves{ cis16 dis b8 r8 b r16 b b8 }| <b, b>8. r16 b,,8 dis8. b,16 fis8 |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%{
 
 %bn538
 \dEQ \time 2/4 r4 \instrumentSwitch "Rooney"c=''8( b) | \lyricmode{oh! }                           | 
-R2                                        | g=,8 gis4.                                 |  R2 |  R2 |   % rh lh kbR kbL 
+R2                                        | g=,8 gis4.                                 |  R2 |<< {r8 aes,4.}\\<g,, c, g,>2\arpeggio >> |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
@@ -5853,7 +5852,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 %bn539
 \time 7/16 r4 d8 f,16~                    | \lyricmode{lo -- wer }                     | 
-r4 r8.                                    | g8 gis8~ gis8.                             |  r4 r8. |  r4 r8. |   % rh lh kbR kbL 
+r4 r8.                                    | g8 gis8~ gis8.                             |  r4 r8. | << {r8 aes,8~ aes,8.}\\<g,, c, g,>2\arpeggio >> |   % rh lh kbR kbL 
 r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. | % fl ob kl bn 
 r4 r8. |  r4 r8. |   r4 r8. | % hn tpt  tn 
 r4 r8. |  r4 r8. |  r4 r8. | % tym perc fol 
@@ -5863,7 +5862,7 @@ r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. |  % I  II  III  IV  V 
 
 %bn540
 \time 2/4 f8 r8 b8 c16 d                  | \lyricmode{ don't be a -- }                | 
-R2                                        | g8 gis4.                                   |  R2 |  R2 |   % rh lh kbR kbL 
+R2                                        | g8 gis4.                                   |  R2 |<< {r8 aes,4.}\\<g,, c, g,>2\arpeggio >> |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
@@ -5873,7 +5872,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 %bn541
 \tQQ ees4 r8 aes,8                        | \lyricmode{fraid! We're }                  | 
-R2                                        | e4 f                                       |  R2 |  R2 |   % rh lh kbR kbL 
+R2                                        | e4 f                                       |  R2 | << {r8 <f, f,,>4.}\\ {<e,, e,>2 }>>|   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
@@ -5884,7 +5883,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 %bn542
 \time 9/16 \set Timing.beatStructure = #'(4 4 1) 
 \times 2/3 { aes4 aes8 } \times 2/3 {aes4 aes8 } r16 | \lyricmode{ past the age where... } | 
-r2 r16                                    | \times 2/3 {r8 f r} \times 2/3{r8 f r} r16  |  r8. r r |  r8. r r |   % rh lh kbR kbL 
+r2 r16                                    | \times 2/3 {r8 f r} \times 2/3{r8 f r} r16  |  r8. r r | \tuplet 3/2 4 {r8 <f,, f,>4\lv r8 q4\lv }|   % rh lh kbR kbL 
 r8. r r |  r8. r r |  r8. r r |  r8. r r | % fl ob kl bn 
 r8. r r |  r8. r r |   r8. r r | % hn tpt  tn 
 r8. r r |  r8. r r |  r8. r r | % tym perc fol 
@@ -5893,8 +5892,8 @@ r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % vn vII va vc cb
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I  II  III  IV  V  VI  
 
 %bn543
-\time 2/4 r4 b                            | \lyricmode{ there! }                       | 
-r4 <b dis fis b>                          | <b d e gis>4 r                             |  R2 |  R2 |   % rh lh kbR kbL 
+\time 2/4 r4 b                            | \lyricmode{ there! }                       |  %% are the C and Dis in keyboard part not really there?
+r4 <b dis fis b>                          | <b d e gis>4 r                             |  R2 | <b,, c, d, dis, e, gis,>4 r|   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
@@ -5956,7 +5955,7 @@ r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V 
 
 %bn549
 \time 2/4 \times 2/3{r8 c( b) }\times 2/3{ais( a) gis}|\lyricmode{oh mer -- cy }|
-R2                                        | \times 2/3 { <b dis fis g>8  <b dis fis g>4} r4 |  R2 |  R2 |   % rh lh kbR kbL 
+R2                                        | \times 2/3 { <b dis fis g>8  <b dis fis g>4} r4 |  R2 | R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
@@ -6024,6 +6023,7 @@ r8. r8 |  r8. r8 | % hpL hpR
 r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  % vn vII va vc cb 
 r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  % I  II  III  IV  V  VI  
 
+%{
 %bn556
 \time 3/4 fis'8 r d8( g,) cis( f,)                       | \lyricmode {frock! my nice } | 
 r8 \once \override NoteHead #'style = #'cross b^door r2 | R2.                          |  R2. |  R2. |   % rh lh kbR kbL 
