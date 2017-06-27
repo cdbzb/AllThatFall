@@ -5390,7 +5390,6 @@ R1 |  R1 | % hpL hpR
 R1 |  R1 |  R1 |  R1 | f,2 e4 r |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
-%}
 %bn495
 \tQQ a'4( g) fis e                                         | \lyricmode{ high off the }                   | 
 r1                                                         | fis2 d                                       |  R1 |  R1 |   % rh lh kbR kbL 
@@ -5615,6 +5614,7 @@ R2 |  R2 |  R2 | % tym perc fol
 <gis' b'>8-> r4. | <f f' b' >4-.-> r | <d' f'>4-> r |<gis, gis>4 r |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%}
 %bn516
 \time 3/8 r8. b16 e8 |\lyricmode{ and me }| %%%SHOUNLD be 2/8???
 r4. | R4. |  R4. |  R4. |   % rh lh kbR kbL 
@@ -5779,67 +5779,67 @@ q2.:32~ |<<  { <cis' f' cis'' f''>2.~}\\<f a f' a'>2.~  >> |<g' b'>2.  |  R2.  |
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn532
-\time 2/4  dis4 \instrumentSwitch "Slocum" b=8 b | \lyricmode{down?  you'll get }        | 
+\time 2/4  dis4 \instrumentSwitch "Slocum" b=8 b | \lyricmode{down?  you'll get }        | % MM at Down ??
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+R2 | r4 <b b'>8 q | r4. <a, a>8 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |<<  { <cis' f' cis'' f''>4.}\\<f a f' a'>4.  >>r8 |<b' dis' b'' dis''>2 | R2 |  R2 |  % vn vII va vc cb 
+R2 |<<  { <cis' f' cis'' f''>4.}\\<f a f' a'>4.  >>r8 |<b' dis' b'' dis''>4 <b b'>8^"norm" q16 <cis' cis''> | r4 r8 a |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 %bn533
 e,4~ \times 2/3{e8 b' a}                          | \lyricmode{ down Miss -- es }         | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+\afterGrace \pitchedTrill e''2\startTrillSpan fis''{dis''32 e''\stopTrillSpan  } |R2 |  R2 |  R2 | % fl ob kl bn 
+<e  e'>2 | q2 | <gis, gis>2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | <b b'>4~ q8 <cis' cis''>16 <dis' dis''> | <e, gis>2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn534
 a4~ \times 2/3{a8 gis( fis)}                    | \lyricmode{ Roo -- ney }              | 
 R2                                              | R2                                    |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+\afterGrace \pitchedTrill fis''2\startTrillSpan gis''{e''32 fis''\stopTrillSpan  } |  R2 |  R2 |  R2 | % fl ob kl bn 
+<a, a>4 q   | <cis' cis''>4 q8 <b b'> | <a, a>4 q8 <gis, gis> | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | <e' e''>2|< a, a>8 r q( <gis, gis>)|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
 %bn535
-\time 11/16 r8 b r  b e8 e16         | \lyricmode{you'll get down, we }                 | 
+\time 11/16 r8 b r  b e8 e16         | \lyricmode{you'll get down, we }                 | %check rhythm
 r2 r8.                               | b4 b e8 e16                                      |  r2 r8. |  r2 r8. |   % rh lh kbR kbL 
-r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. | % fl ob kl bn 
-r2 r8. |  r2 r8. |   r2 r8. | % hn tpt  tn 
+ \pitchedTrill gis''4\startTrillSpan a'' \afterGrace\pitchedTrill fis''4 \startTrillSpan gis'' {e''32 dis'' e'' fis''\stopTrillSpan} d''8 r16 |  r2 r8. |  r2 r8. |  r2 r8. | % fl ob kl bn 
+ <b, b>4 q8 r <b, e e'>  <e e'>16 | q4 q8 r q r16 | <fis, fis>4 q8 r <e, e>8 r16  | % hn tpt  tn 
 r2 r8. |  r2 r8. |  r2 r8. | % tym perc fol 
 r2 r8. |  r2 r8. | % hpL hpR 
-r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  % vn vII va vc cb 
+r2 r8. |  r2 r8. | q8 r4 q8 r8  <e' e''>16 | <fis, b>4 q8 r <e, gis>  <e e'>16 |  r2 r8. |  % vn vII va vc cb 
 r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  r2 r8. |  % I  II  III  IV  V  VI  
 
 %bn536
 \time 2/4 dis16 e cis e fis8 e16 dis | \lyricmode{may not get you up but I }            | 
 R2                                   | dis16 e cis b a8 r                               |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+ r16 dis'' cis'' b' a'4 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ \octaves { dis,16 e cis b a4 }| r4 < a a'>4 | r4 <a, a> | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 | \octaves {dis16 e cis e fis8 e16 dis} | \octaves { dis,16 e cis b a4 }|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn537
 \time 3/4 cis16 dis b8 r8 b r16 b b8 | \lyricmode { war -- rant you, you'll get down! } | 
 R2.                                  | b4 b b                                           |  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
-R2. |  R2. |   R2. | % hn tpt  tn 
+ \pitchedTrill b'4\startTrillSpan cis'' r4\stopTrillSpan b'8\trill r |  R2. |  R2. |  R2. | % fl ob kl bn 
+ <b, b>4 q8 r  q r | <b b'>4 r8 <b dis'>8  r q  | <dis, dis>4 q8 r q r | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+R2. |  R2. |\octaves{ cis16 dis b8 r8 b r16 b b8 }| <b, b>8. r16 b,,8 dis8. b,16 fis8 |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 
 %bn538
 \dEQ \time 2/4 r4 \instrumentSwitch "Rooney"c=''8( b) | \lyricmode{oh! }                           | 
