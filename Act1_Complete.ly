@@ -5765,7 +5765,7 @@ R2                                              | R2                            
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-< gis' a'' c'''>4:32~ < g' a'' c'''>4:32~ |<<  {<d' fis' d'' fis''>4 <cis' f' cis'' f''>~}\\<f a f' a'>2~  >> |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+< gis' f'' a''>4:32~ < g' f'' a''>4:32~ |<<  {<d' fis' d'' fis''>4 <cis' f' cis'' f''>~}\\<f a f' a'>2~  >> |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn531
