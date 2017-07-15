@@ -28,7 +28,7 @@ format=s
 
 # remove s from getopts later
 
-while getopts "qvfcxpramsdn:" opts; do
+while getopts "qvfcxpramsdln:" opts; do
 	case $opts in
 		[qvfcxpra]) 
 			players=$opts
@@ -38,6 +38,9 @@ while getopts "qvfcxpramsdn:" opts; do
 			;;
 		d)
 			datestamp=$opts
+			;;
+		l) 
+			landscape=$opts
 			;;
 		n)
 			output=$OPTARG
@@ -57,6 +60,15 @@ echo input is $input output is $output
 cat "\tempo 4 = 60 " > /tmp/cat
 
 header=" \header{ subtitle = $output }"
+
+case $landscape in
+	l)
+		cat <<EOF >> /tmp/cat 
+		#(set-default-paper-size "a4" 'landscape)
+	
+EOF
+	;;
+esac
 
 cat $input >> /tmp/cat  ##### THE MUSIC
 
@@ -368,6 +380,7 @@ case $datestamp in
 		stamp=""
 	;;
 esac
+
 
 ### select MIDI or layout
 case $format in
