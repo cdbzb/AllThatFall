@@ -548,7 +548,6 @@ R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb  
 
-%{
  %bn59
 b4 r8 b | \lyricmode {plain the } |
 R2 | <e b' d>2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -2395,6 +2394,7 @@ R8 | R8 | % hpL hpR
 R8 | R8 | R8 | R8 | R8 | % vn vII va vc cb 
 
 
+%{
   %bnEND
 
 %}

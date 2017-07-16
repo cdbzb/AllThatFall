@@ -64,8 +64,11 @@ header=" \header{ subtitle = $output }"
 case $landscape in
 	l)
 		cat <<EOF >> /tmp/cat 
-		#(set-default-paper-size "a4" 'landscape)
-	
+		#(set! paper-alist (cons '("wide" . (cons (* 15 in) (* 9.5 in))) paper-alist))
+\paper {
+  #(set-paper-size "wide")
+}
+
 EOF
 	;;
 esac

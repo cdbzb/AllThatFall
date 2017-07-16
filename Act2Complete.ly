@@ -16,9 +16,9 @@ tag = \date
 
 %{
 
-%}
 
 %bn1
+%}
 \tempo 4 = 80 \mark \default \time 5/8 b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
@@ -235,9 +235,8 @@ r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 r4. r4 | r4. r4 | % hpL hpR
 r4 r fis'8 | r4. r4 |cis'8( ais fis16) r r4 |cis8 ais, fis( dis b,) | r4. r4 | % vn vII va vc cb
 
-%{
 %bn25
-\time 2/4 f='4 ges8 aes | \lyricmode {wan -- ted to } |
+\time 2/4 f=4 ges8 aes | \lyricmode {wan -- ted to } |
 \absolute{  f'4--( fis'8 gis') } |\absolute { gis2~ } |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
@@ -545,7 +544,7 @@ r4. r4 | r4. r4 | % hpL hpR
 a'8 fis' a' b' cis' |a4.~( a4~ |a4.~( a8 g | r4. r4 | r4. r4 | % vn vII va vc cb
 
 %bn59
-\time 2/4 \dQQ e4 d8 fis | \lyricmode {gob  stop -- per } |
+\time 2/4 \dQQ e4 d8 fis, | \lyricmode {gob  stop -- per } |
 <fis a d>4)\arpeggio r | R2 |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
@@ -591,7 +590,7 @@ R2 | R2 | % hpL hpR
 <cis' a'>2 |b'4 g'8 cis'' |b4 g8 cis' |g,2 | R2 | % vn vII va vc cb
 
 %bn64
-\tEE \instrumentSwitch "Jerry" d8 d, r2. | \lyricmode {Yes -- sir } |
+\tEE \time 4/4 \instrumentSwitch "Jerry" d8 d, r2. | \lyricmode {Yes -- sir } |
 r8 d=' cis b a g fis e | d=8 d'( cis b a g fis e |  R1 |  R1 |  % rh lh kbR kbL
 R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
@@ -1569,7 +1568,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 % \times 2/3 {cis16( d cis) } b8 a
 
 \time 8/8 \set Timing.beatStructure = #'(3 3 2)
-e4. g8 e c bes c | \lyricmode {well?! that is what she calls } | %ReBARRED
+e4. \instrumentSwitch "Dan"  g8 e c bes c | \lyricmode {well?! that is what she calls } | %ReBARRED
 <g bes c e>4.\arpeggio r4. r4 | << {<bes c e>4.~\arpeggio( <bes c e>4.~ <bes c e>4\< }\\ {g4.~ g4.~ g4 } >> | R1 | R1 | % rh lh kbR kbL
 R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 | R1 | R1 | % hn tpt tn
@@ -2016,7 +2015,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 %bn219
-\time 4/4 r2 c=''4 a8 e | \lyricmode {that's the way } |
+\time 4/4 r2 c='4 a8 e | \lyricmode {that's the way } |
 \absolute <<{<a' c''>4 <e' a'>8 <c' e'>}\\{ g2 r }>> | <<  {b=) r} \\ {<g,,~ d'~ fis>4( <g d' g>2.)}>> |  <<{r2 <a' c''>4 <e' a'>8 <c' e'>}\\{ g2 r }>> | <<  {b=) r} \\ {<g,,~ d,~ fis,>4( <g,, d, g,>2.)}>> |  % rh lh kbR kbL
 R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
@@ -6036,7 +6035,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 %bn657
-\mark \default \instrumentSwitch "Rooney" \time 3/2 r2\fermata \times 2/3 {e='2 gis4} \times 2/3 {dis2 e4\fermata } | \lyricmode {I re -- mem -- ber } |
+\mark \default \instrumentSwitch "Rooney" \time 3/2 r2\fermata \times 2/3 {e=2 gis4} \times 2/3 {dis2 e4\fermata } | \lyricmode {I re -- mem -- ber } |
 \clef treble <b=' b'>2\fermata r1 | R1. |  R1. |  R1. |  % rh lh kbR kbL
 R1.  |  R1.  |  R1.  |  R1.  | % fl ob kl bn
 R1.  |  R1.  | R1. |% hn tpt tn
@@ -8179,6 +8178,7 @@ r2 r4. |r2 r4. | % hpL hpR
 r2 r4. |r2 r4. |r2 r4. |r2 r4. |r2 r4. | % vn vII va vc cb
 
 %bn894
+%{
 \time 2/4 r4. r8\fermata | |
 << {e'4( d8)}\\<fis, a c>4.>> r8 | <<{r8 g4}\\fis4.>> r8 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn

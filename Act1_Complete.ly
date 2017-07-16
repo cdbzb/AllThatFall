@@ -22,6 +22,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 
 
 %bn1 %sec1
+%}
   \tempo 4 = 70 %dummy
   \time 2/4 r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |% lh rh kbR kbL 
@@ -5614,10 +5615,9 @@ R2 |  R2 |  R2 | % tym perc fol
 <gis' b'>8-> r4. | <f f' b' >4-.-> r | <d' f'>4-> r |<gis, gis>4 r |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%}
 %bn516
 \time 3/8 r8. b16 e8 |\lyricmode{ and me }| %%%SHOUNLD be 2/8???
-r4. | R4. |  R4. |  R4. |   % rh lh kbR kbL 
+R4. | R4. |  R4. |  R4. |   % rh lh kbR kbL 
 R4. |  R4. |  R4. | r8 gis, <<gis-.\\gis,-->>| % fl ob kl bn 
  r4 <gis e'>8-. |  R4. |   R4. | % hn tpt  tn 
 R4. |  R4. |  R4. | % tym perc fol 
@@ -6023,7 +6023,6 @@ r8. r8 |  r8. r8 | % hpL hpR
 r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  % vn vII va vc cb 
 r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  r8. r8 |  % I  II  III  IV  V  VI  
 
-%{
 %bn556
 \time 3/4 fis'8 r d8( g,) cis( f,)                       | \lyricmode {frock! my nice } | 
 r8 \once \override NoteHead #'style = #'cross b^door r2 | R2.                          |  R2. |  R2. |   % rh lh kbR kbL 
@@ -7478,7 +7477,7 @@ r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  % vn vII va vc cb
 r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  % I  II  III  IV  V  VI  
 
 %bn695
-\time 2/4 b4 cis16 a dis8 b | \lyricmode {fer to your el -- ders }  |
+\time 2/4 b8 cis16 a dis8 b | \lyricmode {fer to your el -- ders }  |
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -7488,7 +7487,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn696
-\tuplet 2/3 { r8 c16 b8 c16 } b8 fis | \lyricmode {and you an or -- phan } | %%% check last note 
+\tuplet 3/2 8 { r8 c16 b8 c16 } b8 fis | \lyricmode {and you an or -- phan } | %%% check last note 
  c8( e b fis) | R2 | R2 | R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
@@ -8541,7 +8540,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 
 
 %bn796
-\partial 8 \instrumentSwitch "Rooney" e=8 |\lyricmode{the }|
+\time 1/8 \instrumentSwitch "Rooney" e=8 |\lyricmode{the }|
 r8 |r8 |  r8 |  r8 |   % rh lh kbR kbL 
 r8 |  r8 |  r8 |  r8 | % fl ob kl bn 
 r8 |  r8 |   r8 | % hn tpt  tn 
@@ -11441,6 +11440,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 
 
  %bn1047
+%{
 \times 2/3 {d'4 b8 r b b } f' f,|\lyricmode{stop it or I'll drop you! }|
 R2. | <<f2.~ \\ d2.~>> |  R2. |  R2. |   % rh lh kbR kbL   
 R2. | R2. | R2. | R2. | % fl ob kl bn 
