@@ -165,7 +165,7 @@ r4 \times 3/4{e'8-. e'-. e'-. e'-. }|r8 e'8 r r4 |\grace {ais16 b c' cis' d' dis
 
 %bn17
 \time 3/8 a4~ a16 e | \lyricmode {fa -- ther } |
-<< { r8 <cis e>8 <cis e> } \\ { \grace{ e,16( f g gis } a4.) } >>  | a4. |  R4. |  R4. |  % rh lh kbR kbL
+<< { r8 <cis e>8 <cis e> } \\ { s32 {\grace{ e,16( f g gis } a4.*11/12)} } >>  | s32 a4.*11/12  |  R4. |  R4. |  % rh lh kbR kbL
 R4. | R4. | R4. | R4. | % fl ob kl bn
 R4. |  R4. |  R4. | % hn tpt  tn
 R4. | R4. | R4. | % tym perc fol
@@ -219,7 +219,7 @@ R1 | R1 |f4--\f r f-- f-- | f,4--\f r f,-- f,-- | R1 | % vn vII va vc cb
 
 %bn23
 \time 2/4 \dEQ b8\! bes aes bes | \lyricmode {here? you did not } |
-\grace {g16( a bes } b8) bes aes bes  | R2 |  R2 |  R2 |  % rh lh kbR kbL
+s128 \grace {g16( a bes } b8*15/16) bes8 aes bes  | R2 |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
@@ -8178,7 +8178,6 @@ r2 r4. |r2 r4. | % hpL hpR
 r2 r4. |r2 r4. |r2 r4. |r2 r4. |r2 r4. | % vn vII va vc cb
 
 %bn894
-%{
 \time 2/4 r4. r8\fermata | |
 << {e'4( d8)}\\<fis, a c>4.>> r8 | <<{r8 g4}\\fis4.>> r8 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
@@ -8197,6 +8196,7 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 | % vn vII va vc cb
 
 %bn896
+%{
 
 %}
 }

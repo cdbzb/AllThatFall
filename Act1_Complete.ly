@@ -943,7 +943,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
 
 %bn80  
   \time 3/4
-  r2 r8 b' |\lyricmode{ I }|
+  r2 r8 b=' |\lyricmode{ I }|
   r2 r8 <e gis b>8  |\times 2/3 {b b b} c8 b16 b b8 e,=8  |\times 2/3 {r8 <b dis'>8 q } <c' dis' fis'>8-- \times 2/3 {<b dis' fis'>16 q q } r8  <e' gis b>8-. |<<{\times 2/3 {b,8 b, b, } c4-- }\\b,,2>> r8 gis8-. |  % lh rh kbR kbL 
   R2. | R2. | R2. | R2. |  % fl ob kl bn    
   R2. |  R2. |  R2. | % hn tpt  tn   
@@ -7468,7 +7468,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 %bn694
 \time 5/8 \times 2/3 {e'4 cis8} g fis g16 a | \lyricmode {That's a nice way to re -- }  |
- <g ais cis e>4\arpeggio | r4 r4. |  r4 r4. |  r4 r4. |   % rh lh kbR kbL 
+ <g ais cis e>4\arpeggio r4. | r4 r4. |  r4 r4. |  r4 r4. |   % rh lh kbR kbL 
 r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. | % fl ob kl bn 
 r4 r4. |  r4 r4. |   r4 r4. | % hn tpt  tn 
 r4 r4. |  r4 r4. |  r4 r4. | % tym perc fol 
@@ -11440,7 +11440,6 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 
 
  %bn1047
-%{
 \times 2/3 {d'4 b8 r b b } f' f,|\lyricmode{stop it or I'll drop you! }|
 R2. | <<f2.~ \\ d2.~>> |  R2. |  R2. |   % rh lh kbR kbL   
 R2. | R2. | R2. | R2. | % fl ob kl bn 
@@ -11451,6 +11450,7 @@ R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn1048
+%{
 %}
 
 }

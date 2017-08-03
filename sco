@@ -59,7 +59,7 @@ echo input is $input output is $output
 
 cat "\tempo 4 = 60 " > /tmp/cat
 
-header=" \header{ subtitle = $output }"
+header=" \header{ subtitle = \"$output\" }"
 
 case $landscape in
 	l)
@@ -396,7 +396,7 @@ case $format in
 		echo '\layout{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
 		echo lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
-		lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
+		lilypond -s -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
 	;;
 esac
 
