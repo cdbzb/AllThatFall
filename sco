@@ -396,7 +396,7 @@ case $format in
 		echo '\layout{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
 		echo lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
-		lilypond -s -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
+		lilypond -dno-point-and-click -s -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
 	;;
 esac
 
