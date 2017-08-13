@@ -249,9 +249,9 @@ $header
 		    \new Lyrics \lyricsto "tune" {\set fontSize = #-6  \lyrix}
   >>
   \new StaffGroup <<
-	 \new Staff \with {instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
-	 \new Staff \with {instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc"  \perc}
-	 \new RhythmicStaff \with {instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
+	 \new Staff \with {\RemoveEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
+	 \new Staff \with {\RemoveEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc"  \perc}
+	 \new RhythmicStaff \with {\RemoveEmptyStaves instrumentName = #"Foley" shortInstrumentName = "Fol." }{\fol}
 	 >>
 >>
 }}
