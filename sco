@@ -221,14 +221,26 @@ done
 			\new Lyrics \lyricsto "tune" {\set fontSize = #-4  \lyrix}
 			>>
 
-			\new Staff \with {instrumentName = #"III"} {\III}
-			\new GrandStaff  \with {connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"}  <<
+			\new Staff \with {\RemoveEmptyStaves instrumentName = #"III"} {\III}
+			\new GrandStaff  \with { \RemoveEmptyStaves connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"}  <<
 				\new Staff {\absolute \kbR}
 				\new Staff {\absolute \clef bass \kbL}
 			    	>>
 	 	>>
 	}
 }
+
+\layout {
+  \context {
+    \GrandStaff
+    \consists Keep_alive_together_engraver
+  }
+  \context {
+    \Staff
+    \RemoveEmptyStaves
+  }
+}
+
 EOF
 
 cat <<EOF >> /tmp/cat
@@ -268,7 +280,7 @@ $header
     \new Lyrics \lyricsto "tune" \lyrix
   >>
    \new GrandStaff  <<
-   \new Staff = "hpR"  { \hpR }
+   \new Staff = "hpR"  \with {\RemoveEmptyStaves} { \hpR }
    \new Staff = "hpL"  \with {\RemoveEmptyStaves}  {\clef bass \removeWithTag #'full \hpL}
   >> 
 >>
