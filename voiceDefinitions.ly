@@ -107,6 +107,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"hntreble"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "hn")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "hn"))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"hn"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "hn")

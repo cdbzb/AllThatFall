@@ -59,7 +59,7 @@ echo input is $input output is $output
 
 cat "\tempo 4 = 60 " > /tmp/cat
 
-header=" \header{ subtitle = \"$output\" }"
+header=" \header{ subtitle = \"$output\" tagline =##f}"
 
 case $landscape in
 	l)
@@ -177,7 +177,7 @@ EOF
 	\new Staff {\II}
 	\new Staff {\III}
 	\new Staff = "va" {\IV}
-	\new Staff = "vc" {\V}
+	\new Staff = "vc" {\clef bass \V}
 	\new Staff {\VI}
   >>
 
@@ -238,6 +238,7 @@ done
   \context {
     \Staff
     \RemoveEmptyStaves
+    \override VerticalAxisGroup.remove-first = ##t
   }
 }
 
