@@ -2,4 +2,4 @@ quoting can't handle multiple voices: in this case you need to insert a silent i
 
 quoting doesn't include clefs! clefs need to be added outide the quote
 
-
+ottavas seem to work INSIDE thequote if you restate the clef anyhow...
