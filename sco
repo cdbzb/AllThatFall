@@ -159,7 +159,7 @@ EOF
 	<< 	
 	\new Staff = "tym" \with {\RemoveAllEmptyStaves instrumentName = #"tympani" shortInstrumentName = "tym"} {\clef bass \tym}
 	\new Staff = "perc" \with { \RemoveAllEmptyStaves instrumentName = #"percussion" shortInstrumentName = #"perc"} {\clef percussion \instrumentSwitch "perc" \set Staff.middleCposition = #-6 {\perc}}
-	\new Staff \with {\RemoveAllEmptyStaves \instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
+	\new Staff \with {\RemoveAllEmptyStaves instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
   >>
   \new GrandStaff \with {instrumentName = #"kb" shortInstrumentName = "kb"}
 	<< \new Staff \with {\RemoveAllEmptyStaves} {\kbR}
