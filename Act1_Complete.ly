@@ -4595,7 +4595,6 @@ r8. r | r8. r | % hpL hpR
   r8. r | r8. r | r8. r | r8. r | r8. r |  % vn vII va vc cb 
   r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  % I II III IV V VI       
 
-%{
 %bn416
 \dEQ
 \time 2/4 bes8 aes aes r  |\lyricmode{ lest -- ing me }|
@@ -4610,6 +4609,7 @@ R2 | R2 | % hpL hpR
 %bn417
  \time 10/16 \set Timing.beatStructure = #'(3 3 4) r8 c='16 b a g fis8 g | \lyricmode{ what kind of a count -- ry }               | 
  r4. r4                                                                | <g g'>4. <fis fis'>4                                   |  r4 r4. |  r4 r4. |   %rh lh kbR kbL 
+%{
  r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn 
  r4 r4. |  r4 r4. |  r4 r4. | % hn tpt  tn 
  r4 r4. | r4 r4. | r4 r4. | % tym perc fol 
