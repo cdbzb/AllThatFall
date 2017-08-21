@@ -4670,63 +4670,89 @@ R2 | R2 | % hpL hpR
  R2. |  R2. |  R2. | % hn tpt  tn 
  R2. | R2. | R2. | % tym perc fol 
  R2. | R2. | % hpL hpR 
- <d'' g''>4 r <e''a''> | b'4 r cis'' | R2. | <g d' b'>4 r <a'> | g,4  r <a,, a> |  % vn vII va vc cb 
+ <d'' g''>4 r <e''a''> | b'4 r cis'' | R2. | <g d' b'>4 r <a'~> | g,4  r <a,, a> |  % vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI        
 
-%{
  %bn423
  \dQQ \time 2/4 d4 a8 fis                                                | \lyricmode{ bill bro -- kers! }                        | 
  R2                                                                      | <d d'>2                                                     |  R2 |  R2 |   %rh lh kbR kbL 
- R2 | R2 | R2 | R2 | % fl ob kl bn 
- R2 |  R2 |  R2 | % hn tpt  tn 
+ R2 | R2 | fis''4\p a'' | d,4 r | % fl ob kl bn 
+ d,4 a, |  R2 | <d, a>4 <a, a> | % hn tpt  tn 
  R2 | R2 | R2 | % tym perc fol 
  R2 | R2 | % hpL hpR 
-  R2 |  R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ <d'' d'''>4 a'' | d'4 a'~ | d'8 r a r |<d fis' a'd''>4 r| d,8 r a,, r |  % vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI        
 
  %bn424
-
 \time 1/4 r4||
 r8. d=''16-. | R4 |  R4 |  R4 |   %rh lh kbR kbL 
-R4 | R4 | R4 | R4 | % fl ob kl bn 
-R4 |  R4 |  R4 | % hn tpt  tn 
+R4 | R4 | d'''4 | R4 | % fl ob kl bn 
+<d, a,>4 |  R4 |  R4 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
 R4 | R4 | % hpL hpR 
-  R4 | R4 | R4 | R4 | R4 |  % vn vII va vc cb 
+d''4 | a'4| d4 | R4 |d,,4 |  % vn vII va vc cb 
   R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I II III IV V VI       
 
-%bn425
+%%%%% MISSING LINE HERE AUG 2017
 
+ %bn424
+\time 3/4  R2. ||
+R2. | R2. |  R2. |  R2. |   %rh lh kbR kbL 
+R2. | R2. | \relative c'' {e8 dis16 cis b8 cis16 a gis8 a16 fis}  | R2. | % fl ob kl bn 
+R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | % hpL hpR 
+ e''2.( | R2. |  \tuplet 3/2 4  {e''8-. dis''-. cis''-. b'-. cis''-. a'-. gis'-. a'-. fis'-.} | R2. | R2. |  % vn vII va vc cb 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI       
+
+ %bn424
+R2. ||
+R2. | R2. |  R2. |  R2. |   %rh lh kbR kbL 
+R2. | R2. | \relative c' {f8 e16 d c8 d16 bes a8 a16 g} | R2. | % fl ob kl bn 
+R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | % hpL hpR 
+ g2) r4 | \relative c' {f8 e16 d c8 bes16 a g8 a16 f } |  \tuplet 3/2 4  { gis'8 a' b' a' gis' fis' e' fis' dis'  } |   \tuplet 3/2 4  { f8 e d c d bes, a, bes, r } | R2. |  % vn vII va vc cb 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI       
+
+ %bn424
+R2. ||
+R2. | R2. |  R2. |  R2. |   %rh lh kbR kbL 
+R2. | R2. | ges8 f16 ees des4 r4 | R2. | % fl ob kl bn 
+R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | % hpL hpR 
+R2. | g8 a16 bes a8 g16 f r4 | d'8 r8 r2 | R2. | R2. |  % vn vII va vc cb 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI       
+
+%bn425
 \time 4/4 R1                                               |                                                      | 
 g,16( fis8.) g16( fis8.) g16( fis8) r16\fermata r8. d'16-. | R1                                                         |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | c1^"cooing" | % tym perc fol 
 R1 | R1 | % hpL hpR 
   R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI        
 
 %bn426
-
 R1                                                         |                                                      | 
 g,16( fis8.) g16( fis8.) g16( fis8) r16\fermata r4         | R1                                                         |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | c2.^"cooing" r4 | % tym perc fol 
 R1 | R1 | % hpL hpR 
   R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI        
 
 %bn427
-
-
 \tempo 4 = 60 \time 4/4 b=4.\p a8 a4. r8                    | \lyricmode{ve -- nus birds, }                        | 
 R1                                                         | \clef bass <g= cis e>1                                     |  R1 |  R1 |   %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-  R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+<<{r4 f''( d'' cis''}\\f'1^"mutes">>| r4 <cis''' f'''>4:32( <b'' d'''>4:32 <a'' cis'''>4:32 | cis'1^"mute" |g1(^"mutes"| R1 |  % vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI        
 
 %bn428
@@ -4736,7 +4762,7 @@ R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-  R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+<<{d''4 a' g' fis'}\\a1~ >>| <g'' d'''>4:32 <fis'' a''>4:32 << {g''4:32 fis''4:32}\\{e''4.:32 d''8:32}>>| d'1~| fis2 e4. d8 | R1 |  % vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI        
 
 %bn429
@@ -4746,9 +4772,10 @@ R2. | R2. | R2. | R2. | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-  R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+<< {b'4. a'8 a'4)}\\a2.>>| <d'' b''>2.:32) |d'2. |d2 c4)| R2. |  % vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI        
 
+%{
 %bn430
 \time 7/8 bes4-> f8 ges f4 des8                            | \lyricmode{O! cur -- sed cor -- set }                | 
 r2 r4.                                                     | r2 r4.                                                     |  r2 r4. |  r2 r4. |   %rh lh kbR kbL 
@@ -4843,7 +4870,6 @@ R2. | R2. | % hpL hpR
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI        
 
 %bn439
-
 %%%%%%%%% What's Wrong with ME
 % \tempo 8 = 180
 g8. fis16 fis8 r4 fis8                               | \lyricmode{wrong with me? what's }                | 
