@@ -13,8 +13,8 @@ let players = [
     // fol
     // hl
     // hr
-    [0, 1, 2, 3, 4], //vn or vnII
-    [0, 1, 2, 3, 4], //vn
+    [1, 2, 3, 4], //vn or vnII
+    [1, 2, 3, 4], //vn
     [0, 3], //va
     [5], //vc
     [4], //cb
