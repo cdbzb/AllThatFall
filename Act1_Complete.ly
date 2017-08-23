@@ -4682,7 +4682,6 @@ R2 | R2 | % hpL hpR
  <d'' d'''>4 a'' | d'4 a'~ | d'8 r a r |<d fis' a'd''>4 r| d,8 r a,, r |  % vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI        
 
-%}
  %bn424
 \time 1/4 r4||
 r8. d=''16-. | R4 |  R4 |  R4 |   %rh lh kbR kbL 
@@ -4882,51 +4881,51 @@ r8. r8 r2 | r8. r8 r2 | a''8.\f  g''16 f'' \times 2/3{e''8 d''  c'' } \times 2/3
 r8. r8 r2 |  r8. r8 r2 | << <c' a'>4.\\ {f16 e  f g a b}>>  c'd' e' \times 2/3 { f'8  g' a'}   | % hn tpt  tn 
 r8. r8 r2 | r8. r8 r2 | r8. r8 r2 | % tym perc fol 
 r8. r8 r2 | r8. r8 r2 | % hpL hpR 
-a''8.\f  g''16 f'' \times 2/3{e''8 d''  c'' } \times 2/3{b' 4 a'8} | <f' c'>16  <e' b>  <f'  c'> <g' d'> <a' e'> <b' > c'' d'' e'' \times 2/3 { <f'' c''>8  <g'' d''> <a''  e''>}   | <c' f' c'' f''>8.~ q8 r2| f16 e  f g a b c' d' e' \times 2/3 { f'8  g' a'}   | f,16 e,  f, g, a, b, c d e \times 2/3 { f8  g a}   |  % vn vII va vc cb 
+a''8.\f  g''16 f'' \times 2/3{e''8 d''  c'' } \times 2/3{b' 4 a'8} | <fis' c'>16  <f' b>  <fis'  c'> <gis' d'> <ais' e'> <c'' fis' > <cis'' g'> <dis'' a'> <f'' b'> \times 2/3 { <fis'' c''>8 <gis'' d''> <ais'' e''> } | <c' f' c'' f''>8.~ q8 r2| f,16 e,  f, g, a, b, c d e \times 2/3 { f8  g a}   | f,16 e,  f, g, a, b, c d e \times 2/3 { f8  g a}   |  % vn vII va vc cb 
  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  % I II III IV V VI        
 
+%}
 %bn438
 
 \QdQ \time 6/8 d4. r4 g,8                                 | \lyricmode{hedge! What's }                           | 
 < f aes bes d >2.                                         | aes'8 g f ees d r                                         |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | bes4.~ bes4 r8| R2. | % fl ob kl bn 
-R2. |  R2. | <aes' bes'>4.~ q4 r8 | % hn tpt  tn 
+\clef treble<< {<ais'^"stopped" d''>4.~q4}\\{gis'8( g' fis' dis' d')} >> r |  R2. |<< {<ais d'>4.~q4}\\ {gis8( g fis dis d)} >> r8 | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-  R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+d''4.~ 4 r8 | <dis'' a''>8 <d'' gis''> <c'' fis''> <ais' e''> r4 | <gis' ais' d''>4.~ q4 r8 | gis8( g f dis d r | gis4. r4. |  % vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI        
 
 %bn439
 %%%%%%%%% What's Wrong with ME
 % \tempo 8 = 180
 g8. fis16 fis8 r4 fis8                               | \lyricmode{wrong with me? what's }                | 
-r4. r4.                                              | < e g b >8 q q q q q                              |  R2. |  R2. |   %rh lh kbR kbL 
+r4. r4.                                              | < e g b >8 q q q q q |  R2. | < e g b >8 q q q q q |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-  R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | <g' g''>8.<fis'  fis''>16 q8 r4 <fis' fis''>8| R2. | R2. | R2. |  % vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI        
 
-%{
 %bn440
 fis8. g16 g4 c8 b  | \lyricmode{wrong with me? Ne -- ver } | 
-r4. r  | < e g cis >8 q q < ees g ees' > q q    |  R2. |  R2. |   %rh lh kbR kbL 
+r4. r  | < e g cis' >8 q q < ees g ees' > q q    |  R2. | < e g cis' >8 q q < ees g ees' > q q    |   %rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
+ < e g cis' >8 q q < ees g ees' > q q    |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. |  R2. |  % vn vII va vc cb 
+R2. |<fis' fis''>8. <g' g''>16 <g' g''>4 <c'' c'''>8 <b' b''>  | R2. | < e g cis' >8 q q < ees, ees g ees' > q q    |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III IV V VI        
 
 %bn441
 \dEQ \time 2/4 b4. a8                                | \lyricmode{tran -- quil, }                        | 
-R2                                                   | <d a' d>8 q q q                                   |  R2 |  R2 |   %rh lh kbR kbL 
+R2 | <d a d'>8 q q q |  R2 | <d a d'>8 q q q |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 |  R2 | <d, d a fis'>8 q q q | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-  R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 |<b' b''>4.<a'  a''>8 | R2 | <d, d a fis'>8 q q q | R2 |  % vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI        
 
 %bn442
@@ -4940,6 +4939,7 @@ r4. r r | r4. r r | % hpL hpR
   r4. r r | r4. r r | r4. r r | r4. r r | r4. r r |  % vn vII va vc cb 
   r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I II III IV V VI        
 
+%{
 %bn443
 \time 2/4 \QdE \times 2/3 { cis8( d cis) } cis c16 b | \lyricmode{pelt, out of my }                      | 
 R2                                                   | b4 \times 2/3 {cis8 c b}                          |  R2 |  R2 |   %rh lh kbR kbL 
