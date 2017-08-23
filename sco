@@ -151,8 +151,12 @@ EOF
 \score { 
 <<
 	<< 
-	\new Staff \relative c'' { \set Staff.instrumentName = #"TYLER"
-	\new Voice = "tune" \melody }
+	\new Staff \relative c'' { 
+		\set Staff.instrumentName = #"Vox"
+		\new Voice = "tune" << \melody 
+		{ s2 s2 s2 s2.  \override Score.BarNumber.break-visibility = ##(#t #t #t) \context Score \applyContext #(set-bar-number-visibility 5) }
+		>>
+	}
 	\new Lyrics \lyricsto "tune" \lyrix
   >>
   \new StaffGroup 
@@ -173,12 +177,12 @@ EOF
 
   \new StaffGroup 
 	<<
-	\new Staff {\I}
-	\new Staff {\II}
-	\new Staff {\III}
-	\new Staff = "va" {\IV}
-	\new Staff = "vc" {\clef bass \V}
-	\new Staff {\VI}
+	\new Staff {\set Staff.instrumentName = #"I" \I}
+	\new Staff {\set Staff.instrumentName = #"II" \II}
+	\new Staff {\set Staff.instrumentName = #"III" \III}
+	\new Staff = "va" {\set Staff.instrumentName = #"IV" \IV}
+	\new Staff = "vc" {\set Staff.instrumentName = #"V" \clef bass \V}
+	\new Staff {\set Staff.instrumentName = #"VI"\VI}
   >>
 
 >>

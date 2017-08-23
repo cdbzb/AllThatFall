@@ -22,8 +22,9 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 
 
 %bn1 %sec1
+%}
   \tempo 4 = 70 %dummy
-  \time 2/4 r4 g='8 g | \lyricmode {is that } |
+  \time 2/4 \instrumentSwitch "Rooney" r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |% lh rh kbR kbL 
   R2 | R2 | R2  |  R2 | % fl ob kl bn   
   R2 |  R2 |  R2 | % hn tpt  tn   
@@ -786,7 +787,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | <d' g'>4\laissezVibrer r | % hpL hpR  
   R2 | R2 | %vn vn2  
   R2 | g,2~ | R2 |  % va vc cb 
-  \Q "kl" {s2 }| \Q "tn" {s2 }|\Q "vn" {s2 }|  R2 |\Q "bn" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2 }| \Q "tn" {s2 }|\Q "vn" {s2 }| \instrumentSwitch "hn" \clef treble \Q #"hn" {s2 }|\Q "bn" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn67  
   \time 3/8 
@@ -799,7 +800,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R4. | R4. | % hpL hpR  
   R4. | R4. | %vn vn4  
   R4. | g,4. | R4. |  % va vc cb 
-  \Q "kl" {s4. }| \Q "tn" {s4. }|\Q "vn" {s4. }|  R4. |\Q "bn" {s4. }|\Q "vc" {s4. }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s4. }| \Q "tn" {s4. }|\Q "vn" {s4. }|\Q #"hn" {s4. }|\Q "bn" {s4. }|\Q "vc" {s4. }|  % I  II  III  IV  V  VI    
 
 %bn68  
   \time 11/16 \set Timing.beatStructure = #'(3 2 2) 
@@ -811,7 +812,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   r8. r4 r4  | r8. r4 r4  | % hpL hpR  
   r8. r4 r4  | r8. r4 r4  | %vn vn4  
   <<{d'8.~ d'8} \\ {g8. r8}>> r8 r4| a8.~ a4 <e gis> | \grace fis,,,16( <a,, d,>8.~ q4) a, |  % va vc cb 
-  \Q "kl" {s8. s4 s4 }| \Q "tn" {s8. s4 s4 }|\Q "vn" {s8. s4 s4 }|\Q "va" {s8. s4 s4 }|\instrumentSwitch "cb" \Q "cb" {s8. s4 s4 }|\Q "vc" {s8. s4 s4 }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s8. s4 s4 }| \Q "tn" {s8. s4 s4 }|\Q "vn" {s8. s4 s4 }|\instrumentSwitch "vabass" \Q "va" {s8. s4 s4 }|\instrumentSwitch "cb" \Q "cb" {s8. s4 s4 }|\Q "vc" {s8. s4 s4 }|  % I  II  III  IV  V  VI    
 
 %bn69  
   \time 2/4 
@@ -4427,6 +4428,7 @@ R2. | R2. | % hpL hpR
  \instrumentSwitch "bn" \Q #"bn" {s2. }| \instrumentSwitch "vn" \Q #"vn" {s2. }| \instrumentSwitch "vn" \clef bass \Q #"vII" {s2. }|\instrumentSwitch "vasilent" \clef bass <<d'\\b,2.>> |\Q #"cb" {s2. }|\Q #"vc" {s2. }| % I II III IV V VI 
 
 %bn400
+%{
 %duet
 \time 2/4 a4~ \times 2/3 {a='8) \breathe a a} | \lyricmode{Miss -- es } | 
 < c f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>} | \clef bass <f f'>2 | R2 | R2 | %rh lh kbR kbL 
@@ -4884,7 +4886,6 @@ r8. r8 r2 | r8. r8 r2 | % hpL hpR
 a''8.\f  g''16 f'' \times 2/3{e''8 d''  c'' } \times 2/3{b' 4 a'8} | <fis' c'>16  <f' b>  <fis'  c'> <gis' d'> <ais' e'> <c'' fis' > <cis'' g'> <dis'' a'> <f'' b'> \times 2/3 { <fis'' c''>8 <gis'' d''> <ais'' e''> } | <c' f' c'' f''>8.~ q8 r2| f,16 e,  f, g, a, b, c d e \times 2/3 { f8  g a}   | f,16 e,  f, g, a, b, c d e \times 2/3 { f8  g a}   |  % vn vII va vc cb 
  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  r8. r8 r2 |  % I II III IV V VI        
 
-%}
 %bn438
 
 \QdQ \time 6/8 d4. r4 g,8                                 | \lyricmode{hedge! What's }                           | 
@@ -4939,7 +4940,6 @@ r4. r r | r4. r r | % hpL hpR
   r4. r r | r4. r r | r4. r r | r4. r r | r4. r r |  % vn vII va vc cb 
   r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I II III IV V VI        
 
-%{
 %bn443
 \time 2/4 \QdE \times 2/3 { cis8( d cis) } cis c16 b | \lyricmode{pelt, out of my }                      | 
 R2                                                   | b4 \times 2/3 {cis8 c b}                          |  R2 |  R2 |   %rh lh kbR kbL 
