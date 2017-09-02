@@ -6017,7 +6017,7 @@ r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  % I  II  III  IV  V 
 %bn545
 \time 2/4 r8. b b8  | \lyricmode{ get your }  | 
 R2   | <b=,, d e gis>8. r <b=,, d e gis>8|  R2 | R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+R2 |  R2 | R2 |  R2 | % fl ob kl bn 
 q8. r q8|  R2 | gis,,8. r gis,,8 | % hn tpt  tn 
 d8. r d8 |<<{\cross e'8. r \cross e'8}\\{d'8. r d'8 }>>|  << R2{\inst "ossia" {R2}}>> | % tym perc fol 
 R2 |  R2 | % hpL hpR 
@@ -6039,62 +6039,61 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 r8. r16 c='8~( c16 b)                       | \lyricmode{oh! }                         | 
 R2                                        | <b dis fis g>8. <b dis fis g> <b dis fis g>8|  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
+<d, g,>8.q8. q8| r4 r16 <dis'' fis''>8 q16 | gis,,8. 8. 8 | % hn tpt  tn 
+R2 | << {r16 \times 2/3 {f'32 f' f'} r16 f'16 r f' r f'}\\{d'8. d' d'8}>> |  << R2 {\inst "ossia" {f'8. f'8. f'8} }>> | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+r4 r16  <fis' b'>8 q16  | r4 r16 <c' ees' b'>8 q16  |  R2 |  R2 | b,,,8. 8. 8 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn548
 \time 5/8 \set Timing.beatStructure = #'(2 2 1)  
-r4 \times 2/3{c8( b ais} a16 gis)          | \lyricmode{oh! }                           | 
-r4 r4.                                     | <b dis fis g>8. <b dis fis g> <b dis fis g>4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
+r4 \times 2/3{c8( b ais} a16 gis)          | \lyricmode{oh! } | 
+r4 r4. | <b dis fis g>8. <b dis fis g> <b dis fis g>4 r8 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |   r4. r4 | % hn tpt  tn 
-r4. r4 |  r4. r4 |  r4. r4 | % tym perc fol 
+<d, g,>8.q8. q8 r8 | r4 r16 <dis'' fis''>8 q16  r8| gis,,8. 8. 8  r8| % hn tpt  tn 
+r4. r4 | << {r16 \times 2/3 {f'32 f' f'} r16 f'16 r f' r f'}\\{d'8. d' d'8}>>  r8|  << R2  r8{\inst "ossia" {f'8. f'8. f'8 r8} }>> | % tym perc fol 
 r4. r4 |  r4. r4 | % hpL hpR 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % vn vII va vc cb 
+r4 r16  <fis' b'>8 q16  r8 | r4 r16 <c' ees' b'>8 q16  r8 |  r4. r4 |  r4. r4 | b,,,8. 8. 8  r8|  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
-%{
 %bn549
 \time 2/4 \times 2/3{r8 c( b) }\times 2/3{ais( a) gis}|\lyricmode{oh mer -- cy }|
 R2                                        | \times 2/3 { <b dis fis g>8  <b dis fis g>4} r4 |  R2 | R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
+R2 |  R2 | r8. <dis' b'>8.q8 |  R2 | % fl ob kl bn 
+<d, g,>8.q8. q8~\> | r8.  <dis'' fis''>8. r8 | gis,,8. gis,,16 r4 | % hn tpt  tn 
+R2 | << {\tuplet 3/2 4 { r8 f'16 f' f'8 f'8 f'8 f'8}} \\ {\times 2/3 {r8 < e' d'>4\lv} r4 }>> |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+r8. <fis' b'> q8~\> | r4 \times 2/3{  <c' ees' b'>4 <b f'>8~} |  R2 |  R2 | b,,,8. b,,, b,,,8 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn550
 \QdQ \time 6/8 r4. bes       | \lyricmode{up! }                | 
 R2.                     | b8 c cis d dis e                |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
-R2. |  R2. |   R2. | % hn tpt  tn 
+q2 r4\!|  R2. | gis,,4 a,,8 ais,, b,, c, | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+q2\> r4\! | q2\> r4\! |  R2. |  R2. | b,,8( c, cis, d, dis, e,)                |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn551
 \time 5/8 r4. bes4      | \lyricmode{up! }                | 
 r4. r4                  | c8 cis d dis e                  |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |   r4. r4 | % hn tpt  tn 
+r4. r4 |  r4. r4 | a,8( ais, b, c cis | % hn tpt  tn 
 r4. r4 |  r4. r4 |  r4. r4 | % tym perc fol 
 r4. r4 |  r4. r4 | % hpL hpR 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % vn vII va vc cb 
+r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 | c8( cis d dis e)                  |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
 %bn552
 \time 4/4 r4. b2\< c8\! | \lyricmode{AHH, I'm }           | 
 R1                     | cis8 d dis e f fis g^\fermata r |  R1 |  R1 |   % rh lh kbR kbL 
 R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
-R1 |  R1 |   R1 | % hn tpt  tn 
+R1 |  R1 | d8) ais, b, c cis d dis e\fermata^"cresc." | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
 R1 |  R1 | % hpL hpR 
-R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
+R1 |  R1 |  R1 |  R1 | cis8( d dis e f fis g4\fermata ^"cresc" |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
 %bn553
@@ -6107,6 +6106,7 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 %bn554
 \QdQ \time 3/8 fis4 b,8                                 | \lyricmode {frock, you've }  | 
 <g b d fis>4.                                             | ees''4.                      |  R4. |  R4. |   % rh lh kbR kbL 
