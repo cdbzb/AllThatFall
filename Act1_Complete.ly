@@ -6256,12 +6256,11 @@ R2 |  <fis' fis'' gis'gis''>4:32  r  | % hpL hpR
 R2 |  R2 | s32 \grace {<g' bes'>16 <gis' b'> } <a' c''>2*15/16) |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 %bn569
 r16 b cis dis e b a gis | \lyricmode {what are you do -- ing Mis -- ter } |
 b'8. a16 gis4 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
+ b'8.( a'16 gis'4) |  R2 |  R2 |  R2 | % fl ob kl bn 
+ b,8.( a,16 gis,4) |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
@@ -6270,13 +6269,14 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 %bn570
 \tempo "slower" g8( fis f) e | \lyricmode {Slo -- cum? } |
 R2 | <b, dis>4.( <c e>8) |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ gis'8( g' fis' f') |  R2 |  R2 | dis8( e f fis) | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
+ dis8 e f fis | dis'8 e' f' fis' | % hpL hpR 
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
 %bn571
 R2^"(gagaku)" | |
