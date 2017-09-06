@@ -33,59 +33,55 @@ let playernames = [
     "vc",
     "cb",
 ]
-const input=require('get-stdin');
-input().then ( music => {
+
+require('get-stdin')().then ( music => {
+
 let rawbars = music
-.split('%bn')
-.map(x=>x.trim())
-.slice(1)
+    .split('%bn')
+    .map(x=>x.trim())
+    //ignore everything before first %bn
+    .slice(1)
 
 let bars = rawbars
-.map(m => m.split(/\n+/)
-    .map(b => (b+"%").slice(0, b.indexOf('%')))
-    .join(''))
-.map(b => b.split('|').map(k => k.trim()))
-.map(k => k.slice(6, 23))
+    .map(m => m.split(/\n+/)
+        .map(b => (b+"%").slice(0, b.indexOf('%')))
+        .join(''))
+    .map(b => b.split('|').map(k => k.trim()))
+    .map(k => k.slice(6, 23))
 
-let nonemptybars = bars.map(m => m.map(b => b.split(/\s+/).some(w => !w.toLowerCase().startsWith('r'))))
-.map(b => [
-    ...b.slice(0,5),
-    b[5] || b[6],
-    b[12] , b[13],
-    ...b.slice(14)
-])
+let nonemptybars = bars
+    .map(m => m.map(b => b.split(/\s+/).some(w => !w.toLowerCase().startsWith('r'))))
+    .map(b => [
+        ...b.slice(0,5),
+        b[5] || b[6],
+        b[12] , b[13],
+        ...b.slice(14)
+    ])
 
 
-let clone = v => {
-    let ret = {}
-    Object.keys(v).forEach(k => ret[k] = v[k])
-    return ret
+function cross(choices){
+    if(choices.length == 1) return choices
+    const subsolution = cross(choices.slice(1))
+    return [].concat(...(choices[0].map(c => subsolution.map(s => [c, ...s]))))
 }
 
-function assign(need, available = {
-    0: true,
-    1: true,
-    2: true,
-    3: true,
-    4: true,
-    5: true,
-}){
-    if(need.length == 0) return [];
-    else if(need.length == 1){
-        let sol = need[0].find(player => player in available)
-        return typeof sol != "undefined" && [sol]
-    } else {
+const uniq = arr => Array.from(new Set(arr))
 
-        let get = player => {
-            let avprime = clone(available)
-            delete avprime[player]
-            let partial = assign(need.slice(1), avprime)
-            //  console.log(partial, avprime)
-            return  partial && [player, ...partial]
+function assign2(need){
+    let best_diff = Infinity
+    let best = []
+
+    for(let assignment of cross(need)){
+        const u = uniq(assignment).length
+        if(u === assignment.length) return assignment
+        if(assignment.length - u < best_diff) {
+            best_diff = assignment.length - u
+            best = assignment
         }
-
-        return get(need[0].filter(player => player in available).find(get))
     }
+
+    console.log('Error: no solution found. Returning best guess.')
+    return best
 }
 
 // console.log(nonemptybars.map(assign))
@@ -102,12 +98,13 @@ function solve(bar){
         used.push(i)
     })
 
-    // console.log('need', need)
+    // need is array of arrays of keyboard players needed
+//    console.log('need', need)
 
-    let sol = assign(need)
+    let sol = assign2(need)
     let ret = [...bar]
 
-    sol && sol.forEach((p,i) => ret[used[i]] = p)
+    if (sol) sol.forEach((p,i) => ret[used[i]] = p)
     return sol && ret
 }
 
@@ -130,11 +127,4 @@ let sol = nonemptybars
 })
 
 
-//sol
-//.forEach(b => {
-//    // tex += '\nbarnumber: '+ b.barnumber
-//    tex += '\nparts: '+ b.parts.map((p, i) => i + 1+': ' + p).join(', ')
-////    tex += '\nraw: \n%bn'+ b.raw
-//})
-
-	}).catch(e=>console.log(e))
+}).catch(e=>console.log(e))
