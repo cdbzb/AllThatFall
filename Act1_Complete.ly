@@ -6878,35 +6878,37 @@ R2. |  R2. |  R2. | b'2. |  R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn628
-\doubleBar \instrumentSwitch"Slocum" \time 9/8 e=8 g b e4. b8 g e | \lyricmode{ will you come here, Tom -- my, and }|
-r4. r4. r4.                            | r4. r4. r4.                                              |  r4. r r |  r4. r r |   % rh lh kbR kbL 
-r4. r r |  r4. r r |  r4. r r |  r4. r r | % fl ob kl bn 
-r4. r r |  r4. r r |   r4. r r | % hn tpt  tn 
-r4. r r |  r4. r r |  r4. r r | % tym perc fol 
-r4. r r |  r4. r r | % hpL hpR 
-r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % vn vII va vc cb 
-r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I  II  III  IV  V  VI  
+\doubleBar \instrumentSwitch"Slocum" \time 12/8 r4. e=8 g b e4. b8 g e | \lyricmode{ will you come here, Tom -- my, and }|
+R1.  | R1. |  R1. |  R1. |   % rh lh kbR kbL
+R1. |  R1. |  R1. | r4. e,8 g, b, e4. b,8 g, e,  | % fl ob kl bn
+R1. |  R1. | <e,, e,>2. r | % hn tpt  tn
+ e,8 g, b, e4. r2. | << \cross d''1.\lv\\  d'\lv>>  |  R1. | % tym perc fol
+R1. |  R1. | % hpL hpR
+R1. |  R1. | r2. e8 g b e'4.~  | e,8 g, b, e g b e'4. b8 g e | r4. e,8 g, b, e4. b,8 g, e, |  % vn vII va vc cb
+R1. |  R1. |  R1. |  R1. |  R1. |  R1. |  % I  II  III  IV  V  VI
 
-%bn629
-c'4 e8 b4 e8 bes4 c8                   | \lyricmode{ help this la -- dy out, she's }              | 
-r4. r4. r4.                            | \times 3/2 {c8 e }\times 3/2 {bes e } \times 3/2 {bes c} |  r4. r r |  r4. r r |   % rh lh kbR kbL 
-r4. r r |  r4. r r |  r4. r r |  r4. r r | % fl ob kl bn 
-r4. r r |  r4. r r |   r4. r r | % hn tpt  tn 
-r4. r r |  r4. r r |  r4. r r | % tym perc fol 
-r4. r r |  r4. r r | % hpL hpR 
-r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % vn vII va vc cb 
-r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I  II  III  IV  V  VI  
+ %bn629
+\time 9/8 c'4 e8 b4 e8 bes4 c8                   | \lyricmode{ help this la -- dy out, she's }              |
+ r4. r4. r4.                            | \times 3/2 {c8 e }\times 3/2 {bes e } \times 3/2 {bes c} |  r4. r r |  r4. r r |   % rh lh kbR kbL
+r4. r r |  r4. r r |  r4. r r | \tuplet 2/3 4. {c8-. e-. b,-. e-. bes,-. c-.} | % fl ob kl bn
+ r4. r r |  r4. r r |   r4. r r | % hn tpt  tn
+ c4. b, bes, |  r4. r r |  r4. r r | % tym perc fol
+ r4. r r |  r4. r r | % hpL hpR
+r4. r r |  r4. r r | e'4. e' e' |c4 e8 b,4 e8 bes,4 c8|c,4 r8 b,,4 r8 bes,,4 c,8  |  % vn vII va vc cb
+ r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I  II  III  IV  V  VI
+ 
 
-%bn630
-\time 6/8 f4 r8 \times 2/3 {e d e } f( | \lyricmode{stuck. o -- pen the door }                    | 
-f8 g f r4.                             | r4. r4.                                                  |  R2. |  R2. |   % rh lh kbR kbL 
-R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
-R2. |  R2. |   R2. | % hn tpt  tn 
-R2. |  R2. |  R2. | % tym perc fol 
-R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+ %bn630
+ \time 6/8 f4 r8 \times 2/3 {e d e } f( | \lyricmode{stuck. o -- pen the door }                    |
+ f8 g f r4.                             | r4. r4.                                                  |  R2. |  R2. |   % rh lh kbR kbL
+ f''8) g'' f'' \times 2/3 {e'' d'' e''} f'') |  R2. |  R2. |  R2. | % fl ob kl bn
+ R2. |  R2. |   R2. | % hn tpt  tn
+ R2. |  R2. |  R2. | % tym perc fol
+ R2. |  R2. | % hpL hpR
+f''8) g'' f'' \times 2/3 {e'' d'' e''} f'') |  R2. | <a c'>4. r4. | <f, c f>4. e4 d8  |  R2. |  % vn vII va vc cb
+ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 
+ 
 %bn631
 \time 3/4 f,8) f g8. a16 b4            | \lyricmode{and ease her out }                            | % ease...?
 R2.                                    | <d f a>8 r r2                                            |  R2. |  R2. |   % rh lh kbR kbL 
