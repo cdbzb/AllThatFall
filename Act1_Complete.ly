@@ -6788,7 +6788,7 @@ R2 | d''4 b'8 gis' | f'2|  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
  cis,2-> |\cross d''2\lv|  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-<des' f' aes'>2^"s.p."  | < f' f'' d'''>2:32^"s.p." |<f f'>2| <d d'>2|  R2 |  % vn vII va vc cb 
+<des' f' aes'>2^"s.p."  | < f' f'' d'''>2:32)^"s.p." |<f f'>2| <d d'>2|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn620
@@ -6907,7 +6907,7 @@ r4. r r |  r4. r r | e'4. e' e' |c4 e8 b,4 e8 bes,4 c8|c,4 r8 b,,4 r8 bes,,4 c,8
  R2. |  R2. |   R2. | % hn tpt  tn
  R2. |  R2. |  R2. | % tym perc fol
  R2. |  R2. | % hpL hpR
-f''8) g'' f'' \times 2/3 {e'' d'' e''} f'') |  R2. | <a c'>4. r4. | <f, c f>4. e4 d8  |  R2. |  % vn vII va vc cb
+f''8) g'' f'' \times 2/3 {e'' d'' e''} f'') |  R2. | <a c'>4. r4. | <f, c f>4. e4 r8  | f,,4. e,,4 r8  |  % vn vII va vc cb
  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 
  
@@ -6918,7 +6918,7 @@ R2. |  R2. |  R2. |  R2. | % fl ob kl bn
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+ r2 d''4 |r8 f' g'8. a'16 b'4  | a4 r b  |  R2. | d,4. r8 g,4 |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn632
@@ -6928,27 +6928,27 @@ R1 |  R1 |  R1 |  R1 | % fl ob kl bn
 R1 |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
 R1 |  R1 | % hpL hpR 
-R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
+e''4. r8 r2 |c''8 g'16 e'  \times 2/3 { c'16( d' c'} b16 c')  r8 c' c' c'16 c' | g4. r8 r2 |  R1 | c,4. r8   c,4^pizz r |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
 %bn633
-\doubleBar f8. c16~ c8 r r2                                                 | \lyricmode{ra -- ces }                                | 
+f8. c16~ c8 r r2                                                 | \lyricmode{ra -- ces }                                | 
 r8. <f a c>16 <f a c>8. <f a c>16 <f a c>8. <f a c>16 <f a c>8. <f a c>16  | f=,8\f g a bes c d e f                                |  R1 |  R1 |   % rh lh kbR kbL 
-R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
-R1 |  R1 |   R1 | % hn tpt  tn 
-R1 |  R1 |  R1 | % tym perc fol 
-R1 |  R1 | % hpL hpR 
-R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
+f'''1\trill |  R1 | f''2\trill \grace{e''16 d''} c''2\trill | r4 a,8 bes, c d e f | % fl ob kl bn 
+<c' f'>8 r16 q q r8 q16 q r8 q16 q r8 q16 | <c'' f''>8. q16 q8. q16 q8. q16 q8. q16  |   R1 | % hn tpt  tn 
+ f8. g,16 a,8. bes,16 c8. d16 e8. f16 | <<{\triangle f''1:32}\\{\cross d''1\lv} \\ d'1 >> |  R1 | % tym perc fol 
+<f, a, c f a>1\arpeggio | <c' f' a' c'' f''>\arpeggio^"arp. ad lib" | % hpL hpR 
+ f16 g a bes c' d' e' f' f' g' a' bes' c'' d'' e'' f'' | \grace {d'16( dis' e'} f'8) r r2. |  R1 |  R1 |  R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
 %bn634
 \time 15/16 r2 a8 bes16 a f8 g16                                           | \lyricmode{ who do you fan -- cy }                    | 
 <f a c>8. q16 q8. q16~ q4..                                                | f8 g a bes c4..                                       |  r2 r4.. |  r2 r4.. |   % rh lh kbR kbL 
-r2 r4.. |  r2 r4.. |  r2 r4.. |  r2 r4.. | % fl ob kl bn 
+r2 r4.. |  r2 r4.. |s32 \grace{ bes'16 a' g' } f'4*7/8  r r4..   r2 r4.. |  r2 r4.. | % fl ob kl bn 
 r2 r4.. |  r2 r4.. |   r2 r4.. | % hn tpt  tn 
-r2 r4.. |  r2 r4.. |  r2 r4.. | % tym perc fol 
+ f,8. g,16 a,8. bes,16 c8. d16 e8.  |  r2 r4.. |  r2 r4.. | % tym perc fol 
 r2 r4.. |  r2 r4.. | % hpL hpR 
-r2 r4.. |  r2 r4.. |  r2 r4.. |  r2 r4.. |  r2 r4.. |  % vn vII va vc cb 
+f''16\> g'' a'' bes'' c''' d''' e''' f''' f''' g''' a''' bes'''\! r8. |  r2 r4.. |  r2 r4.. |  r2 r4.. |  r2 r4.. |  % vn vII va vc cb 
 r2 r4..  |  r2 r4..  |  r2 r4..  |  r2 r4..  |  r2 r4..  |  r2 r4..  |  % I  II  III  IV  V  VI  
 
 %bn635
@@ -6957,7 +6957,7 @@ r2 r4..  |  r2 r4..  |  r2 r4..  |  r2 r4..  |  r2 r4..  |  r2 r4..  |  % I  II 
 <c= f b>4 <f b>                                                            | <gis=, c f a>4 gis                                    |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
+ f,4 r |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
