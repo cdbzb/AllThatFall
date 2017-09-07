@@ -6534,6 +6534,7 @@ dis4 eis4 eis8\lv |  r4. r4 | % hpL hpR
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
+%}
 %bn596
 \time 2/4 a4 r8 a     | \lyricmode {on, drive }          | 
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -6551,7 +6552,7 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 | r4 f,4:32\glissando | r4 f,4\glissando |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn598
@@ -6561,7 +6562,7 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 | bes,2:32~ | bes,2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn599
@@ -6571,8 +6572,9 @@ R2 |  R2 |  R2 |  R2 | % fl ob kl bn
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 |  R2 |  R2 | \clef bass bes,2:32\glissando | bes,2\glissando |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+
 %bn600
  \time 5/8 \set Timing.beatStructure = #'(2 3)
  d'4 b8 g r | \lyricmode {one mi -- nute } |
@@ -6581,10 +6583,9 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
  \clef treble <d' g'>4.~^stopped q4 |  r4. r4 |   r4. r4 | % hn tpt  tn 
  r4. r4 |  r4. r4 | \cross b4.~^"MOTOR" \cross b4~ | % tym perc fol 
  r4. r4 |  r4. r4 | % hpL hpR 
- r4. r4 |  r4. r4 |  r4. r4 | \clef bass g,4.:32~ 4 | g,4.~ 4 |  % vn vII va vc cb 
+ r4. r4 |  r4. r4 |  r4. r4 | a,4.:32~ 4 | a,4.~ 4 |  % vn vII va vc cb 
  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
-%}
  %bn601
  \time 3/4
  g8 b a fis fis a  | \lyricmode {pick -- ing ha -- ppy at the } |
@@ -6593,7 +6594,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
  q2. |  R2. |   R2. | % hn tpt  tn 
  R2. |  R2. | \cross b2.~ | % tym perc fol 
  R2. |  R2. | % hpL hpR 
- R2. |  R2. |  R2. | g,2.:32\glissando | g,2.\glissando |  % vn vII va vc cb 
+ R2. |  R2. |  R2. | a,2.:32\glissando | a,2.\glissando |  % vn vII va vc cb 
  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
  %bn602
@@ -6648,7 +6649,8 @@ q2   |  R2 |   R2 | % hn tpt  tn
 q1~ |  R1 |   R1 | % hn tpt  tn 
  R1 |  R1 | \cross b1~ | % tym perc fol 
  R1 |  R1 | % hpL hpR 
- R1 |  R1 | R1 | bes,1:32~ | bes,1~ |  % vn vII va vc cb 
+ R1 |  R1 | R1 | bes,1:32~\glissando
+| bes,1\glissando|  % vn vII va vc cb 
  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
  %bn607
@@ -6659,7 +6661,7 @@ q1~ |  R1 |   R1 | % hn tpt  tn
  e'2~ |  R2 |   R2 | % hn tpt  tn 
  R2 |  R2 |\cross b2~ | % tym perc fol 
  R2 |  R2 | % hpL hpR 
- R2 |  R2 |  R2 | bes,4\glissando g,~ | bes,4\glissando g,~ |  % vn vII va vc cb 
+ R2 |  R2 |  R2 | \once \hide NoteHead  \once \override NoteColumn.glissando-skip = ##t  g,4\glissando g,:32~ | \once \hide NoteHead  \once \override NoteColumn.glissando-skip = ##t  g,4\glissando g,~ |  % vn vII va vc cb 
  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
  %bn608
@@ -6670,7 +6672,7 @@ q1~ |  R1 |   R1 | % hn tpt  tn
  e'4. |  R4. |   R4. | % hn tpt  tn 
  R4. |  R4. | \cross b4.~ | % tym perc fol 
  R4. |  R4. | % hpL hpR 
- R4. |  R4. |  R4. | g,4.\glissando |  R4. |  % vn vII va vc cb 
+ R4. |  R4. |  R4. | g,4.:32\glissando |g,4.\glissando|  % vn vII va vc cb 
  R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I  II  III  IV  V  VI  
 
  %bn609
@@ -6712,7 +6714,7 @@ R2. |  R2. |  R2. |  R2. | % fl ob kl bn
 <aes' f''>4 r2 |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. | \cross b2.~ | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. | cis,2.| cis,2.|  % vn vII va vc cb 
+R2. |  R2. |  R2. | cis,2.:32~ | cis,2.~|  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn613
@@ -6722,7 +6724,7 @@ R2. |  R2. |  R2. |  R2. | % fl ob kl bn
  <b dis' fis'>4 r2 |  R2. |   R2. | % hn tpt  tn 
  R2. |<< {<fis'' ais''>2.^VIBES}\\{fis'2._CROTALES} >>| \cross b4 r2 | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. | cis,,2.:32~| cis,,2.~|% vn vII va vc cb 
+R2. |  R2. |  R2. | cis,2.:32~| cis,2.~|% vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 %bn614
@@ -6733,7 +6735,7 @@ r8. r r |  r8. r r |  r8. r r |  r8. r r | % fl ob kl bn
 r8. r r |  r8. r r |   r8. r r | % hn tpt  tn 
 r8. r r |  r8. r r |  r8. r r | % tym perc fol 
 r8. r r |  r8. r r | % hpL hpR 
-r8. r r |  r8. r r |  r8. r r | cis,,4.:32\glissando\> fis,,8.:32\!| cis,,4.:32\glissando\> fis,,8.:32\!|  % vn vII va vc cb 
+r8. r r |  r8. r r |  r8. r r | cis,4.:32\glissando\> fis,,8.:32\!| cis,4.:32\glissando\> fis,,8.:32\!|  % vn vII va vc cb 
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I  II  III  IV  V  VI  
 
 %bn615
