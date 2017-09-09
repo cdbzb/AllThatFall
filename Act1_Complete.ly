@@ -4960,10 +4960,7 @@ R2                                                   | b4 \times 2/3 {cis8 c b} 
 b4 r |\cross b'2^"med"  | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 << cis'''2\\{<b fis'>4 \times 2/3 {\octaves{\absolute{cis'8 c' b}}}}>>|\octaves{\relative c'' { cis4~ \times 2/3 {cis8  c b}}} |\octaves{\absolute{b4 \times 2/3 {cis'8 c' b}}}| b,2) | r4 \times 2/3 {cis,8 c, b,,} |  % vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI        
-%Error: no solution found. Returning best guess.
-%parts: kl | vII | hn | va | cb | vc
-%Error: too many parts 9
+\instrumentSwitch "fl" \Q #"fl" {s2 }|<< cis'''2\\{<b fis'>4 \times 2/3 {\octaves{\absolute{cis'8 c' b}}}}>>| \Q "hn" {s4} \instrumentSwitch "bn" \Q #"bn" {s4}|b4 \times 2/3 {<cis' gis>8 <c' g> <b fis>}|\Q #"cb" {s2 }|\Q #"vc" {s2 }|  % I II III IV V VI        
 
 %bn444
 \QdQ  \time 3/8 e4.       | \lyricmode{skull! }    | %rh lh
@@ -4973,10 +4970,7 @@ R2 | R2 | % hpL hpR
 R4. | R4. | R4. | % tym perc fol
 R4. | R4. | % hpL hpR
 << aes'''4.~ \\ {\octaves{\absolute{ bes8 a aes}}}>>| <ees'' ees'''>4.~ |\octaves{\absolute{ bes8 a aes }}| R4. | bes,,8 a,, aes,, |  % vn vII va vc cb 
-R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III IV V VI      
-%Error: no solution found. Returning best guess.
-%parts: kl | vII | hn | va | cb | rest
-%Error: too many parts 8
+\Q #"fl" { s4. }|\octaves{\absolute{ bes8 a aes}}|\Q #"bn" {s4. }| <bes f>8 <a e> <aes ees> |\Q #"cb" {s4. }| \clef treble dis'''4. |   % I II III IV V VI      
 
 %bn445
 \QdE \time 2/4  e8. e16 e8. e16 | \lyricmode{Oh to be in } | 
@@ -4986,10 +4980,7 @@ c'''2 | R2 | g'8 ges' f' e' | g,8 ges, f, e, | % fl ob kl bn
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 << aes'''2~ \\ {\octaves{\absolute{g8 ges}}f' e' }>>| q2 |\octaves{\absolute{ g8 ges f e }}| R2 | g,,8 ges,, f,, e,, |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI      
-%Error: no solution found. Returning best guess.
-%parts: kl | vII | hn | va | cb | rest
-%Error: too many parts 8
+\Q #"fl" {s2 }|\octaves{\absolute{g8 ges}}f' e' |\Q #"bn" { s2 }| <g d>8< ges des> <f  c> <e b,> |\Q #"cb" { s2 }| dis'''2 |  % I II III IV V VI      
 
 %bn446
 \dQQ \time 5/8   gis8 e r16 e gis8 e        | \lyricmode{at -- oms in at -- oms }     | 
@@ -4999,18 +4990,13 @@ R2 r8   | ees2 r8       |  r4. r4 |  r4. r4 |   %rh lh kbR kbL
  ees4. 4 | \cross e'4. \cross e'4 |c2^"cooing"| % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
 << {gis'''4 r8 gis'''4} \\{ dis'4 r8 r4}>>|<<{ f'''4\o r8 f'''4\o}\\{<e' cis''>4 r8 q4}>>|  << {<a a'>4^"s.p." r8 q4}\\{<dis dis'>4 r8 <dis dis'>4}>> | \clef treble d''4\o r8 d''4\o| dis,,4 r8 dis,,4|   % vn vII va vc cb 
-  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI      
-%Error: no solution found. Returning best guess.
-%parts: kl | vII | hn | va | cb | vc
-%Error: too many parts 9
+\Q #"fl" { s4. s4 }| <aes'' f'' d'>4 r8 q4 |\Q #"bn" { s4. s4 }| <a a' dis dis'>4 r8 q4 |\Q #"cb" { s4. s4 }|\Q #"vc" {s4. s4 }|  % I II III IV V VI      
 
-%{
 %bn447
 \time 2/4 bes'4 \times 2/3 {bes4 r8 }       | \lyricmode{AT -- OMS! }| r4 \times 2/3{r4 d'8-.\p }| R2   |  R2 |  R2 |   %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-
 R2 | R2 | % hpL hpR 
   R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI      
@@ -5033,8 +5019,7 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol 
 r4. g,8\lv | R2 | % hpL hpR 
   R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI      
-%parts: kl | rest | rest | rest | rest | rest
+ \instrumentSwitch "kl" \Q #"kl" {s2 }|  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI      
 
 %bn450
 b4 b8 r  | \lyricmode{je -- sus... } |
@@ -5044,9 +5029,10 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol 
 r4. g,8\lv | R2 | % hpL hpR 
 R2 | R2 | R2 |\clef bass  g,2\p^"mutes" | g,2\p^"mutes" |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI      
+  \Q #"kl" { s2 }|  R2 |  R2 |  R2 |\Q #"cb" {s2 }|\Q #"vc" {s2 }|  % I II III IV V VI      
 %parts: kl | rest | rest | rest | cb | vc
 
+%{
 
 
 %bn451 %sec4
