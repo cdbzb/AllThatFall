@@ -80,7 +80,7 @@ function assign2(need){
         }
     }
 
-    console.log('Error: no solution found. Returning best guess.')
+    console.log('%Error: no solution found. Returning best guess.')
     return best
 }
 
