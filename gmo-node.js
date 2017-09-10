@@ -122,7 +122,7 @@ let sol = nonemptybars
         console.log( '%parts:', ret.map((p, i) => p).join(' | '))
    // } else {
 	let numparts=nonemptybars[i].reduce((a,b)=>a+b,0)
-	if(numparts>6) console.log('Error: too many parts', numparts )
+	if(numparts>6) console.log('%Error: too many parts', numparts )
    // }
 })
 
