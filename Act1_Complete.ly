@@ -7108,26 +7108,26 @@ R2. | R2. | r8 g'^"pizz" cis' r fis' d' | R2. | R2. | % vn vII va vc cb
 R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
 %bn651
-\time 1/4 r8 ees'8 | \lyricmode {now } | 
-d8 r <ees g bes ees>8-. | R4 | R4 | R4 | % rh lh kbR kbL 
-R4 | R4 | R4 | R4 | % fl ob kl bn 
-R4 | R4 | R4 | % hn tpt tn 
-R4 | R4 | R4 | % tym perc fol 
-R4 | d''8 r | % hpL hpR 
- r8 <dis'' g'' ais'' dis''>8^"pizz" | R4 | R4 | R4 | R4 | % vn vII va vc cb 
-R4 | R4 | R4 | R4 | R4 | R4 | % I II III IV V VI 
+\time 2/4  r4 ees'4 | \lyricmode {now! } | 
+d4 r <ees g bes ees>4-. | R2 | R2 | R2 | % rh lh kbR kbL 
+R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | % hn tpt tn 
+R2 | R2 | R2 | % tym perc fol 
+R2 | d''4 r | % hpL hpR 
+r4 <dis'' g'' ais'' dis''>4->^"pizz" | R2 | R2 | R2 | R2 | % vn vII va vc cb 
+R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
 %bn652
 %%%% watch your feather ma'am
 
- \time 3/4 \grace s4 r2.^"skip this bar?"                                     |                                                   | 
- \clef bass <g= bes d>4 r8 \grace {fis,8~} <fis fis'>8 <fis gis ais cis eis>4 | \grace {<g=,, d g>8~} <g d g>4 r2                 |  R2. |  R2. |   % rh lh kbR kbL 
- R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
- R2. |  R2. |   R2. | % hn tpt  tn 
- R2. |  R2. |  R2. | % tym perc fol 
- R2. |  R2. | % hpL hpR 
- R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
- R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+ \time 3/4 R2. | | 
+ \clef bass <g= bes d>4 r8 \grace {fis,8~} <fis fis'>8 <fis gis ais cis eis>4 | \grace {<g=,, d g>8~} <g d g>4 r2 | R2. | R2. | % rh lh kbR kbL 
+ R2. | R2. | g,2 g4 | \times 2/3 {g,,4 fis,8~} fis,  r4. | % fl ob kl bn 
+ <bes d' a,>4 fis, r | R2. | r2 <d' fis' ais>4-- | % hn tpt tn 
+ \times 2/3 {r4 fis8} e,4 g | d'2. | << R2 {\ossia "perc" {\instrumentSwitch "bells" g'4 fis'' r}}>> | % tym perc fol 
+ <d, g, d g>4->\arpeggio <fis, fis>2\arpeggio | R2. | % hpL hpR 
+ r2 <d'' f'' ais''>4-- | R2. | R2. | <d, d g>4.~\arpeggio <d, d fis>4 r8  | R2. | % vn vII va vc cb 
+ R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
 %{
  %bn653
