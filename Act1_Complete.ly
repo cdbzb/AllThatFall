@@ -21,7 +21,6 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 %{
 
 %bn1 %sec1
-%}
   \tempo 4 = 70 %dummy
   \time 2/4 \instrumentSwitch "Rooney" r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |% lh rh kbR kbL 
@@ -6955,7 +6954,6 @@ f16 g a bes c' d' e' f' f' g' a' bes' c'' d'' e'' f'' |c'''16 a'' f'' c'' a'' f'
  \instrumentSwitch "kl" \Q #"kl" {s1 }| \instrumentSwitch "tn" \clef treble \Q #"tpt" {s1 }|\Q #"vn" {s1 }| \instrumentSwitch "vn" \Q #"vII" {s1 }|  \Q #"cb" { s1 }|\clef treble \Q #"vc" { s1 }|  % I  II  III  IV  V  VI  
 
 %bn634
-%{
 \time 15/16 r2 a8 bes16 a f8 g16                                           | \lyricmode{ who do you fan -- cy }                    | 
 <f a c>8. q16 q8. q16~ q4..                                                | f8 g a bes c4..                                       |  r2 r4.. |  r2 r4.. |   % rh lh kbR kbL 
 r2 r4.. |  r2 r4.. |s32 \grace{ bes'16 a' g' } f'4*7/8  r4 r4..   |  r2 r4.. | % fl ob kl bn 
@@ -7100,6 +7098,7 @@ R2 |b2 | % hpL hpR
 <c'' c'''>2 | s64 \grace {gis'16 ais'16} a'2*31/32)| R2 | e'2 |bes,,2 | % vn vII va vc cb 
 R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
+%}
 %bn649
 \time 6/8 c,8 r4 r4. | \lyricmode {ground } | %rebared
 r4 g8 des8 r fis8 | R4. R4. | R2. | R2. | % rh lh kbR kbL 
@@ -7225,62 +7224,62 @@ r8. g16~g2 \times 2/3 {r8 fis d}  |d'2. <<d'4\\{ \cross e'}>> | R1 | % tym perc 
  %bn662
  \time 6/16 bes8 g16 r16 \instrumentSwitch"Rooney" bes=8 | \lyricmode{o -- pen! Crouch } | 
  r8. r | f8. e8 dis16~ | r8. r | r8. r | % rh lh kbR kbL 
- r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
+ r8. r16 <e' d'' e''> r  | r8. r16 g' r | \clef treble r8. r16 <d' bes'> r | r8. r | % fl ob kl bn 
  << <bes' des''>8. \\ f >> r | r8. r | g'8. r | % hn tpt tn 
-  f,8.:32  r | r8. r | r8. r | % tym perc fol 
- r8. r | r8. r | % hpL hpR 
- r8. r | r8. r | r8. r | r8. r | f,8. e,16 r dis, | % vn vII va vc cb 
+ f,8.:32  r | r8. << { \cross d''16^trash r \cross d''}\\{r16 \acciaccatura f'(\stemDown f' r} >>  | r8. r | % tym perc fol 
+  r8.   <e,, e,>8\lv <dis,, dis,>16\lv   | r8. r | % hpL hpR 
+ r8. r | r8. r | r8. r16 <g' bes'> r | r8. r | f,8. e,16 r dis, | % vn vII va vc cb 
  r8. r | r8. r | r8. r | r8. r | r8. r | r8. r | % I II III IV V VI 
 
  %bn663
  \time 5/16 \set Timing.beatStructure = #'(2 3) d8 r16 bes8 | \lyricmode{down at } | 
  r8 r8. | dis8 e8 dis16~ | r8 r8. | r8 r8. | % rh lh kbR kbL 
- r8 r8. | r8 r8. | r8 r8. | r8 r8. | % fl ob kl bn 
+ q8 r16 q8 | bes'8 r16 g'8 | <g' d''>8 r16 <d' bes'>8 | r8 r8. | % fl ob kl bn 
  r8 r8. | r8 r8. | r8 r8. | % hn tpt tn 
- r8 r8. | r8 r8. | r8 r8. | % tym perc fol 
- r8 r8. | r8 r8. | % hpL hpR 
- r8 r8. | r8 r8. | r8 r8. | r8 r8. | r8 r8. | % vn vII va vc cb 
+ r8 r8. | r8 << { \cross d''16 r \cross d''}\\{r16 \acciaccatura f'(\stemDown f' r} >> | r8 r8. | % tym perc fol 
+ r8 <e, e,,>8 <dis, dis,,>16\lv  | r8 r8. | % hpL hpR 
+ r8 r8. | r8 r8. | <g' bes' d''>8 r16 <g' bes'>8 | r8 r8. | r8 e,8 dis,16 | % vn vII va vc cb 
  r8 r8. | r8 r8. | r8 r8. | r8 r8. | r8 r8. | r8 r8. | % I II III IV V VI 
 
  %bn664
- d8 bes16 g d16~                                                              | \lyricmode{ my time of life }                     | 
- r8 r8.                                                                       | dis16 e4                                          |  r8 r8. |  r8 r8. |   % rh lh kbR kbL 
- r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. | % fl ob kl bn 
- r8 r8. |  r8 r8. |   r8 r8. | % hn tpt  tn 
- r8 r8. |  r8 r8. |  r8 r8. | % tym perc fol 
- r8 r8. |  r8 r8. | % hpL hpR 
- r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |  % vn vII va vc cb 
-  r8 r8.  |   r8 r8.  |   r8 r8.  |   r8 r8.  |   r8 r8.  |   r8 r8.  |  % I  II  III  IV  V  VI  
+ d8 bes16 g d16~ | \lyricmode{ my time of life } | 
+ r8 r8. | dis16 e4 | r8 r8. | r8 r8. | % rh lh kbR kbL 
+ q8 r8.  |  bes'8 r8. | <g' d'>8  r8. | r8 r8. | % fl ob kl bn 
+ r8 r8. | r8 r8. | r8 r8. | % hn tpt tn 
+ r8 r8. |<< { r16 \cross d''4}\\ {\acciaccatura f'16(\stemDown f' r4} >>| r8 r8. | % tym perc fol 
+ r16 <e, e,,>4 | r8 r8. | % hpL hpR 
+ r8 r8. | r8 r8. | <g' bes' d''>4 r16 | r8 r8. | r16 e,4 | % vn vII va vc cb 
+ r8 r8. | r8 r8. | r8 r8. | r8 r8. | r8 r8. | r8 r8. | % I II III IV V VI 
 
  %bn665
- \time 3/8 d16 r d'8 d                                                        | \lyricmode{this is }                              | 
- R4.                                                                          | dis4  r16 d                                       |  R4. |  R4. |   % rh lh kbR kbL 
- R4. |  R4. |  R4. |  R4. | % fl ob kl bn 
- R4. |  R4. |   R4. | % hn tpt  tn 
- R4. |  R4. |  R4. | % tym perc fol 
- R4. |  R4. | % hpL hpR 
- R4. |  R4. |  R4. |  R4. |  R4. |  % vn vII va vc cb 
- R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I  II  III  IV  V  VI  
+ \time 3/8 d16 r d'8 d | \lyricmode{this is } | 
+ R4. | dis4 r16 d | R4. | R4. | % rh lh kbR kbL 
+ r8 q q | r8 bes' bes'| r8 q q | R4. | % fl ob kl bn 
+ R4. | R4. | R4. | % hn tpt tn 
+ R4. |<< { r4 r16 \cross d''16}\\ {r8 \acciaccatura f'16(\stemDown f'8  \acciaccatura f'16(\stemDown f'8 } >>| R4. | % tym perc fol 
+ <dis, dis,,>4. | R4. | % hpL hpR 
+ R4. | R4. | r8 <g' bes' d'>8 q| R4. | dis,4 r16 d,~ | % vn vII va vc cb 
+ R4. | R4. | R4. | R4. | R4. | R4. | % I II III IV V VI 
 
  %bn666
- \QdQ \time 6/8 fis8 d bes r4.                                                | \lyricmode{lu -- na -- cy }                       | 
- r4. r                                                                        | d2.~                                              |  R2. |  R2. |   % rh lh kbR kbL 
- R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
- R2. |  R2. |   R2. | % hn tpt  tn 
- R2. |  R2. |  R2. | % tym perc fol 
- R2. |  R2. | % hpL hpR 
- R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
- R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+ \QdQ \time 6/8 fis8 d bes r4. | \lyricmode{lu -- na -- cy } | 
+ r4. r | d2.~ | R2. | R2. | % rh lh kbR kbL 
+ <fis' fis''>4.\> r\! | d''4.\> g'\!| R2. | R2. | % fl ob kl bn 
+ R2. | R2. | R2. | % hn tpt tn 
+ d2. |\cross f''^crash | << R2. {\ossia "perc" {\instrumentSwitch "vibes" fis''8\sustainOn d'' ais' fis' d' ais fis2.}}>>  | % tym perc fol 
+ R2. | R2. | % hpL hpR 
+ R2. | R2. |<bes' d''>2.~\> | R2. | R2. | % vn vII va vc cb 
+ R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
  %bn667
- \instrumentSwitch"Tommy" gis4 g8 cis4.                                       | \lyricmode{ press her down }                      | 
- r4. \times 6/8{cis16\< dis cis dis cis dis cis dis\!}                        | d2.                                               |  R2. |  R2. |   % rh lh kbR kbL 
- R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
- R2. |  R2. |   R2. | % hn tpt  tn 
- R2. |  R2. |  R2. | % tym perc fol 
- R2. |  R2. | % hpL hpR 
- R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
- R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+ \instrumentSwitch"Tommy" gis4 g8 cis4. | \lyricmode{ press her down } | 
+ r4. \times 6/8{cis16\< dis cis dis cis dis cis dis\!} | d2. | R2. | R2. | % rh lh kbR kbL 
+ r4. cis'''32\< \repeat unfold 5{dis''' cis'''} dis'''\! | R2. | R2. | R2. | % fl ob kl bn 
+ R2. | R2. | R2. | % hn tpt tn 
+R2. | R2. |  R2.  | % tym perc fol 
+ R2. | R2. | % hpL hpR 
+ r4. <cis'' dis'>4.:32~\<| R2. | q2.\! | r4. <cis' dis>4.:32~| R2. | % vn vII va vc cb 
+ R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
 
  %bn668
@@ -7291,9 +7290,10 @@ R2. |  R2. |  R2. |  R2. | % fl ob kl bn
 R2. |  R2. |   R2. | % hn tpt  tn 
 R2. |  R2. |  R2. | % tym perc fol 
 R2. |  R2. | % hpL hpR 
-R2. |  R2. |  R2. |  R2. |  R2. |  % vn vII va vc cb 
+ q8\! r r2  |  R2. | R2. | q8 r r2 |  R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 %bn669
 \time 5/8 \instrumentSwitch"Slocum" b=8 r8 \instrumentSwitch"Tommy" c=8 r4 |\lyricmode{ \markup {(grunt)} \markup {(grunt)} }|
 r4 bes4( a8) | g4( fis8~ fis4)|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
