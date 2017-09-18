@@ -21,6 +21,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 %{
 
 %bn1 %sec1
+%}
   \tempo 4 = 70 %dummy
   \time 2/4 \instrumentSwitch "Rooney" r4 g='8 g | \lyricmode {is that } |
   R2 | R2  |  R2 |  R2 |% lh rh kbR kbL 
@@ -419,7 +420,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
   \instrumentSwitch "blanktn"  << \Q "tpt" {s4 \clef treble s4 } \\  \Q "tn" {s2 } >> |  \Q "vn" {s2 } |\Q "hn" {\clef bass s2 }|\Q "va" {s2 }|\Q "bn" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn35  
-  \time 7/8 \set Timing.beatStructure = #'(2 3) 
+  \time 7/8 \set Timing.beatStructure = #'(2 2 3) 
   g4 a r4 d8 | \lyricmode{small load... of }|
   r2 r4. |<cis cis'>2 r4.|r2 r4 d''8 |  r2 r4. |% lh rh kbR kbL 
   r2 r4. | r2 r4. | r2 r4. | r2 r4. |  % fl ob kl bn    
@@ -801,7 +802,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s4. }| \Q "tn" {s4. }|\Q "vn" {s4. }|\Q #"hn" {s4. }|\Q "bn" {s4. }|\Q "vc" {s4. }|  % I  II  III  IV  V  VI    
 
 %bn68  
-  \time 11/16 \set Timing.beatStructure = #'(3 2 2) 
+  \time 11/16 \set Timing.beatStructure = #'(3 4 4) 
   g8( f16) f8 e16 f e4 | \lyricmode{feet down on the road } |
   r8. r4 r4  | d8.~ d4 r4 |  r8. r4 r4 |  r8. r4 r4 |  % lh rh kbR kbL 
   r8. r4 r4  | r8. r4 r4  | r8. r4 r4  | r8. r4 r4  |  % fl ob kl bn    
@@ -954,7 +955,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "kl" {s2. }| \Q "bn" {s2. }|\Q "vn" {s2. }| \Q "va" {s2. } |\Q "cb" {s2. }| \clef bass \Q "vc" { s2. }|  % I  II  III  IV  V  VI    
 
 %bn81  
-  \time 5/8 \set Timing.beatStructure = #'(2 2 1) 
+  \time 5/8 \set Timing.beatStructure = #'(2  3) 
   c8^"poco piu (6:5)" b16 a \times 4/5 {r16 d8 c16 b} g8 |\lyricmode{ too should be get -- ting a -- long }|
   <e a c>4 <f a d~> <g b d>8  |a4 f g8  |<<{c''8( b'16 a' d''8 c''16 b' g'8-.)}\\{<e' a'>4 f' g'8}>> |a4( f8 f g-.) |   % lh rh kbR kbL 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % fl ob kl bn    
@@ -1169,7 +1170,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \Q "fl" {s4. }|\Q "ob" {s4. }|\Q "vn" {s4. }| \Q "va" {s4. } |\Q "cb" {s4. }|\Q "vc" {s4. }|  % I  II  III  IV  V  VI    
 
 %bn99  
-  \time 7/8 \set Timing.beatStructure = #'(2 2 2 3) 
+  \time 7/8 \set Timing.beatStructure = #'(2 2 3) 
   \times 2/3 {g8 fis e} dis8( cis16) e e8 dis r8^"crack!"|\lyricmode{out of her field of vi -- sion }|
   r2 r4. |b2. r8  |r2 r4 c'''8\f|  r2 r4. |   % lh rh kbR kbL 
   r4.. b''16-.  b''4 r8 | r2 r4. | \times 2/3 {g'8( fis' e')} dis'8( cis'16 e') e'8( dis') r8 | r2 r4. |  % fl ob kl bn    
@@ -1506,7 +1507,7 @@ R4. | R4. | %vn vn2
   \Q "va" {s2 }| \Q "vn" {s2 }|\Q "hn" {s2 }| \Q "tn" {s2 } |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn127  
-  \time 5/16 c8 r16 fis8                             | \lyricmode{move a -- }                  | 
+  \time 5/16 \set Timing.beatStructure = #'(3 2)  c8 r16 fis8                             | \lyricmode{move a -- }                  | 
   r8. r8  |r8. <gis gis'>8->                                  |  r8. r8 |  r8. r8 |   % lh rh kbR kbL 
   r8. r8  | r8. r8  | r8. r8  | r8. r8  |  % fl ob kl bn    
   r8. gis,16 r  |  r8. r8 |  r8. r8  | % hn tpt  tn   
@@ -1742,7 +1743,7 @@ R2  |<gis gis'>4-> <g g'>8 <gis gis'>~                 |  R2 |  R2 |   % lh rh k
 
 
 %bn147  
-  \time 5/16 ees'8 c16 aes g     | \lyricmode{church go -- ing and }  | 
+  \time 5/16 \set Timing.beatStructure = #'(2 3)  ees'8 c16 aes g     | \lyricmode{church go -- ing and }  | 
   r4 r16     |d4 r16     |  r8. r8 |  r8. r8 |   % lh rh kbR kbL 
   r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  |  % fl ob kl bn    
   r8 r8.  |  r8. r8 |  r8 r8.  | % hn tpt  tn   
@@ -1824,7 +1825,7 @@ r4. r4  | r4. r4  |  r4. r4 |  r4. r4 |   % lh rh kbR kbL
 
 
 %bn154  
-  \time 7/8 \set Timing.beatStructure = #'(3 4)  e4 c8 d e d( e)| \lyricmode{asked, a lit -- tle love } | 
+  \time 7/8 \set Timing.beatStructure = #'(3 2 2)  e4 c8 d e d( e)| \lyricmode{asked, a lit -- tle love } | 
  g4 c8 d[ e] d[ e]   |  <g g'>4 e8 f[ g] f[ g]    |  r2 r4. |  r2 r4. |   % lh rh kbR kbL 
   r2 r4. |r2 r4. | r2 r4. | r2 r4. |  % fl ob kl bn    
   g,8 r4. r  |  r2 r4. |  r2 r4. | % hn tpt  tn   
@@ -1986,7 +1987,7 @@ R2.  |r4. dis8~ dis4  |  R2. |  R2. |   % lh rh kbR kbL
   \Q #"kl" {s2 }| \Q "tn" {s2 } | \Q "hn" {\clef treble s2 } | \Q "va" {s2 } | \Q "ob" {s2 }| \Q "vc" {s2  }|  % I  II  III  IV  V  VI    
 
 %bn168  
-  \time 2/4 cis8 bis cis dis | \lyricmode{ ear and a -- no } | 
+  cis8 bis cis dis | \lyricmode{ ear and a -- no } | 
   R2     |    bis2   |  R2 |  R2 |   % lh rh kbR kbL 
   R2 | R2 | R2 | R2 |  % fl ob kl bn    
   R2 |  R2 |  r8 <c c'>4. | % hn tpt  tn   
@@ -2220,7 +2221,7 @@ R2 | R2 | R2 | % tym perc fol
    \Q "kl" { s2 } | \Q "vn" { s2 } |  \Q "vII" { s2 } | \Q "va" { s2 } | \Q "bn" { s2 }|  \Q "vc" { s2 }|  % I  II  III  IV  V  VI     
 
 %bn190
-\time 2/4 f8 fis fis gis   | \lyricmode{sneak -- ing up be -- }  | %
+f8 fis fis gis   | \lyricmode{sneak -- ing up be -- }  | %
 R2   | R2   |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | \relative c' {f8( d dis b} | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
@@ -2430,7 +2431,7 @@ r8 e' <gis d'> e'  <a cis'> r | R2. |r4 e4. r8  | b,8-> r4. r8 <e, a,>8->     | 
   \Q "kl" { s2 } | \Q "fl" { s2 } | \instrumentSwitch "hn" \Q "tn" { s2 } | \clef treble \Q "va" { s2 } | \Q "cb" { s2 } |\Q "vc" { s2 } |  % I  II  III  IV  V  VI     NOTE III plays tn part on hn
 
  %bn211
- \time 7/8 \set Timing.beatStructure = #'(4 3) r4 f'8. c f,8 r |\lyricmode{grand -- child -- less }|%
+ \time 7/8 \set Timing.beatStructure = #'(2 2 3) r4 f'8. c f,8 r |\lyricmode{grand -- child -- less }|%
     << {r4. \times 3/4{e=''4 dis=''8 cis=''} b='8 }\\{e,8 b' gis a f c' a}>> |e8 b' gis a f c' a |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
     r2 r4. | r2 r4. | r4. \tuplet 4/3   4. {e'4 dis'8 cis' b4 a8 gis fis4 e8 d } | r2 r4. | % fl ob kl bn 
     r2 r4. |  r2 r4. |  g2..~ | % hn tpt  tn 
@@ -2581,7 +2582,7 @@ ges''4 f''8 r   | R2 | R2 | R2 | % fl ob kl bn
   \Q "kl" { s2 } |  \Q "vn" { s2 } |  \Q "fl" { s2 } | \Q "va"  {s2}| \Q "cb" {s2} | \Q "vc" {s2} |  % I  II  III  IV  V  VI     
 
   %bn226
-  \time 5/8 \set Timing.beatStructure = #'(2 2 1) 
+  \time 5/8 \set Timing.beatStructure = #'(2 3) 
   \times 2/3 {f8( ees) ees } f16 g a b cis8 |\lyricmode{ that be, would you per -- mit that? }|  %seam????%
   r4 r4. | <aes aes'>4   f16 g a b cis8 |  r4 r4. | <gis, gis dis'>4\arpeggio  r4. |   % rh lh kbR kbL 
   r4 r4. | r4 r4. | r4 r4. | r4 f16 g a b cis8 | % fl ob kl bn 
@@ -4009,7 +4010,7 @@ R2. | R2. | % hpL hpR
 \Q #"tn" { s2. }| \Q #"vn" { s2. }|\Q #"vII" { s2. }| \Q #"va" { s2. }|  \Q #"cb" { s2. }| \Q #"vc" { s2. }|  % I II III IV V VI        
 
 %bn358
-\time 3/4 fis2~ fis8 a                      | \lyricmode{see my  }                | 
+fis2~ fis8 a                      | \lyricmode{see my  }                | 
 r2.                                         | d8 fis a d, g4                     |  R2. |  R2. |   %rh lh kbR kbL 
 R2. | R2. | \clef bass d8( fis a d g4) | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
@@ -4071,7 +4072,7 @@ c''8( b' a'8.) g'16 | R2 | <b e'>2~ | e2^"mutes" | c2 |  % vn vII va vc cb
 % Error: too many parts 7
 
 %bn364
-\time 9/16 d'4. d8 d16                             | \lyricmode{gain like a }                   |     
+\time 9/16 \set Timing.beatStructure = #'(6 3)  d'4. d8 d16                             | \lyricmode{gain like a }                   |     
 <g b>8 <fis a> <e g> <e g>8 <e g>16                | <d d'>4. <d d'>8 <d d'>16                 |  r8. r r |  r8. r r |   %rh lh kbR kbL 
  d''4. d''8 d''16 | g'8( fis' e' d'16) r d' | \clef treble <g' b'>8( <fis' a'> <e' g'> <d' fis'>16) r q  | r8. r r | % fl ob kl bn 
  d4.) d16 r d  |  r8. r r |  r8. r r | % hn tpt  tn 
@@ -4104,7 +4105,7 @@ R2. | R2. | R2. | % tym perc fol
 \Q #"tn" {s2. }|  \Q #"vn" {s2. }|  \Q #"hn" { s2. }|  \Q #"tn" { s2. }| \instrumentSwitch "bn" \Q #"bn" {s2. }| \clef bass \Q #"vc" { s2. }|  % I II III IV V VI   %\tEE
 
 %bn367
-\time 5/16  b8~ b8.                               | \lyricmode{told  }                          | 
+\time 5/16 \set Timing.beatStructure = #'(2 3)   b8~ b8.                               | \lyricmode{told  }                          | 
 g8( a16 g fis)                                           | cis8~ cis8.~                                |  r8 r8. |  r8 r8. |   %rh lh kbR kbL 
 r8 r8. | r8 r8. | r8 r8. | b,8 b,8.~ | % fl ob kl bn 
 r8 r8. |  r8 r8. |  r8 r8. | % hn tpt  tn 
@@ -4336,7 +4337,7 @@ R2. | R2. | <a c'>2 r4 | fis2 r4 | R2. | % vn vII va vc cb
 \Q #"va" {s2. }| R2. | R2. | R2. | R2. |\Q #"vc" {s2. }| % I II III IV V VI 
 
 %bn390
-\time 4/4 \times 2/3 {e'2 d4} r2 | \lyricmode{Min -- nie } | 
+\time 2/2 \times 2/3 {e'2 d4} r2 | \lyricmode{Min -- nie } | 
 R1 | <g= g'>2 <aes aes'>4 <g g'>8 <fis fis'> | R1 | R1 | %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 r2 gis4 g8 fis   | R1 | R1 | % hn tpt tn 
@@ -4357,7 +4358,7 @@ R1 | <c' c''>1 | c''1 \stopTrillSpan | g'1\stopTrillSpan | R1 | % vn vII va vc c
 
 %bn392
 %Come Mrs Rooney II
-\time 2/4 \instrumentSwitch"Tyler" a='4~ \times 2/3 {a8 a a} | \lyricmode{Come, Miss -- es } | 
+\time 2/4 \QE \instrumentSwitch"Tyler" a='4~ \times 2/3 {a8 a a} | \lyricmode{Come, Miss -- es } | 
 < c f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>} | \clef bass <f f'>2 | R2 | R2 | %rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
@@ -4785,7 +4786,7 @@ R1 | R1 | % hpL hpR
 \Q #"va" {s1 }|\Q #"vn" {s1 }|\Q #"vII" {s1 }| R1 | R1 |\Q #"vc" {s1 }| % I II III IV V VI 
 
 %bn427
-\tempo 4 = 60 \time 4/4 b=4.\p a8 a4. r8 | \lyricmode{ve -- nus birds, } | 
+\tempo 4 = 60  b=4.\p a8 a4. r8 | \lyricmode{ve -- nus birds, } | 
 R1 | \clef bass <g= cis e>1 | R1 | R1 | %rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
@@ -4815,7 +4816,7 @@ R2. | R2. | % hpL hpR
 \Q #"va" { s2. }|b'4. a'8 a'4)|\Q #"vII" { s2. }|  R2. |a2.|\Q #"vc" { s2. }|  % I II III IV V VI        
 
 %bn430
-\time 7/8 bes4-> f8 ges f4 des8                            | \lyricmode{O! cur -- sed cor -- set }                | 
+\time 7/8 \set Timing.beatStructure = #'(2 2 3)  bes4-> f8 ges f4 des8                            | \lyricmode{O! cur -- sed cor -- set }                | 
 r2 r4.                                                     | r2 r4.                                                     |  r2 r4. |  r2 r4. |   %rh lh kbR kbL 
 r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
 r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn 
@@ -5370,7 +5371,7 @@ R2 |  R2 | % hpL hpR
  \instrumentSwitch "fl" \Q #"fl" {s2 }|  \Q #"vn" { s2 }| \instrumentSwitch "vn" \Q #"vII" {s2 }| \instrumentSwitch "vatreble" \Q #"va" {s2 }|\Q #"cb" { s2 }|\Q #"vc" { s2 } |  % I  II  III  IV  V  VI  
 
 %bn483
-\time 7/16 fis8 e16 d fis8. |\lyricmode {  that is the great } |
+\time 7/16 \set Timing.beatStructure = #'(4 3)  fis8 e16 d fis8. |\lyricmode {  that is the great } |
 r4 <c=' d fis>8. | r4 r8. |  r4 r8. |  r4 r8. |   % rh lh kbR kbL 
 r4 r8. |  r4 r8. |  r4 r8. |  r4 r8. | % fl ob kl bn 
 r4 r8. |  r4 r8. |   r4 r8. | % hn tpt  tn 
@@ -5545,7 +5546,7 @@ R2. |  R2. |  R2. |  R2. |gis,,2 r4  |  % vn vII va vc cb
  \instrumentSwitch "kl" \Q #"kl" {s2. }|  \Q #"vII" { s2. }| \Q #"vn" { s2. }|\Q #"va" { s2. }|  \Q #"cb" { s2. }| \Q #"vc" { s2. }|  % I  II  III  IV  V  VI  
 
 %bn500
-\time 7/8 cis4 aes8 g aes e8 r                             | \lyricmode{ roof ne -- ver come off? }       | 
+\time 7/8 \set Timing.beatStructure = #'(2 2 3)  cis4 aes8 g aes e8 r                             | \lyricmode{ roof ne -- ver come off? }       | 
 r4 r4. r4                                                  | r4 r4. r4                                    |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
  <cis'' e''>2~ q4. |  r2 r4. |  r2 r4. |  r2 r4. | % fl ob kl bn 
 r2 r4. |  r2 r4. |   r2 r4. | % hn tpt  tn 
@@ -6954,6 +6955,7 @@ f16 g a bes c' d' e' f' f' g' a' bes' c'' d'' e'' f'' |c'''16 a'' f'' c'' a'' f'
  \instrumentSwitch "kl" \Q #"kl" {s1 }| \instrumentSwitch "tn" \clef treble \Q #"tpt" {s1 }|\Q #"vn" {s1 }| \instrumentSwitch "vn" \Q #"vII" {s1 }|  \Q #"cb" { s1 }|\clef treble \Q #"vc" { s1 }|  % I  II  III  IV  V  VI  
 
 %bn634
+%{
 \time 15/16 r2 a8 bes16 a f8 g16                                           | \lyricmode{ who do you fan -- cy }                    | 
 <f a c>8. q16 q8. q16~ q4..                                                | f8 g a bes c4..                                       |  r2 r4.. |  r2 r4.. |   % rh lh kbR kbL 
 r2 r4.. |  r2 r4.. |s32 \grace{ bes'16 a' g' } f'4*7/8  r4 r4..   |  r2 r4.. | % fl ob kl bn 
@@ -7230,7 +7232,6 @@ r8. g16~g2 \times 2/3 {r8 fis d}  |d'2. <<d'4\\{ \cross e'}>> | R1 | % tym perc 
  r8. r | r8. r | r8. r16 <g' bes'> r | r8. r | f,8. e,16 r dis, | % vn vII va vc cb 
  r8. r | r8. r | r8. r | r8. r | r8. r | r8. r | % I II III IV V VI 
 
-%}
  %bn663
  \time 5/16 \set Timing.beatStructure = #'(2 3) d8 r16 bes8 | \lyricmode{down at } | 
  r8 r8. | dis8 e8 dis16~ | r8 r8. | r8 r8. | % rh lh kbR kbL 
@@ -7365,7 +7366,6 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 %bn676
 c'8 r gis4 |\lyricmode{my? Tom -- }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
