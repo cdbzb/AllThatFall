@@ -151,7 +151,7 @@ EOF
 \score { 
 <<
 	<< 
-	\new Staff \relative c'' { 
+	\new Staff=vox \with { \consists "Measure_grouping_engraver"}  \relative c'' { 
 		\set Staff.instrumentName = #"Vox"
 		\new Voice = "tune" << \melody 
 		{ s2 s2 s2 s2.  \override Score.BarNumber.break-visibility = ##(#t #t #t) \context Score \applyContext #(set-bar-number-visibility 5) }
