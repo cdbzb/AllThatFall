@@ -3526,7 +3526,7 @@ R4. | R4. | R4. | a4 b8 | R4. |  % vn vII va vc cb
   \Q #"kl" { s4. }|  \Q #"ob" { s4. }|  \Q #"hn" { s4. }|  \Q #"va" { s4. }|  \Q #"cb" { s4. }| \Q "vc" { s4. } |   % I  II  III  IV  V  VI     
 
 %bn311
-\time 6/8
+\time 6/8 \dQE
 b4. r |\lyricmode{word }|%
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | fis,,4 r2 | % fl ob kl bn 
@@ -8134,7 +8134,6 @@ R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
-%}
 %bn751
 \time 4/4 f,8 \instrumentSwitch"Rooney" d=16\noBeam d \times 2/3 {\times 2/3 {fis16( g fis)} e8 fis} g8 d r8. e16 | \lyricmode{rest.. I rem -- em -- ber him clea -- rly. a } | 
 r1 | d=2 g8( d g, d) | R1 | R1 | % rh lh kbR kbL 
@@ -8249,46 +8248,48 @@ R2 | a'8. aes' aes'8  |  R2 | % tym perc fol
  q2:32| <f'' a''>2\o| e'4 <c'' e''>)\! | c'4 c''|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
+%}
 %bn762
-\time 11/32 \set Timing.beatStructure = #'(4 4 3) r8\fermata e32d cis d e32. f64 g32 | \lyricmode{did I un -- ders -- tand you to } | 
-r8 r r16.                                                                            | r8 r r16.                                    |  r8 r8 r16. |  r8 r8 r16. |   % rh lh kbR kbL 
-r8 r8 r16. |  r8 r8 r16. |  r8 r8 r16. |  r8 r8 r16. | % fl ob kl bn 
-r8 r8 r16. |  r8 r8 r16. |   r8 r8 r16. | % hn tpt  tn 
-r8 r8 r16. |  r8 r8 r16. |  r8 r8 r16. | % tym perc fol 
-r8 r8 r16. |  r8 r8 r16. | % hpL hpR 
-r8 r8 r16. |  r8 r8 r16. |  r8 r8 r16. |  r8 r8 r16. |  r8 r8 r16. |  % vn vII va vc cb 
-r8 r8 r16.  |  r8 r8 r16.  |  r8 r8 r16.  |  r8 r8 r16.  |  r8 r8 r16.  |  r8 r8 r16.  |  % I  II  III  IV  V  VI  
+\time 11/32 \set Timing.beatStructure = #'(4 4 3) r8\fermata e32 d cis d e32. f64 g32 | \lyricmode{did I un -- ders -- tand you to } | 
+r8 r r16. | r8 r r16. | r8 r8 r16. | r8 r8 r16. | % rh lh kbR kbL 
+ r8\fermata r16 e''~\<\startTrillSpan e''16.~ | r8 r8 r16. | r8 r8 r16. | r8 r8 r16. | % fl ob kl bn 
+r8 r8 r16. | r8 r8 r16. | r8 r8 r16. | % hn tpt tn 
+r8 r8 r16. | r8 r8 r16. | r8 r8 r16. | % tym perc fol 
+r8 r8 r16. | r8 r8 r16. | % hpL hpR 
+ r8\fermata r16 <cis'' e''>~\<\startTrillSpan^"sul pont." q16.~ | r8 r8 r16. | r8\fermata e'8( cis'16 b32 | r8\fermata r cis'16.~\startTrillSpan | r8 r8 r16. | % vn vII va vc cb 
+\Q #"fl" {s8 s8 s16. }|\Q #"vn" {s8 s8 s16. }|\Q #"hn" {s8 s8 s16. }|\Q #"va" {s8 s8 s16. }|\Q #"cb" {s8 s8 s16. }|\Q #"vc" {s8 s8 s16. }| % I II III IV V VI 
 
 %bn763
-\time 2/4 \dEE a4 a8 a                                                                         | \lyricmode{say, the twelve }                 | 
-R2                                                                                   | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+\time 2/4 \dEE a4 a8 a | \lyricmode{say, the twelve } | 
+R2 | R2 | R2 | R2 | % rh lh kbR kbL 
+ e''4\mp\stopTrillSpan r| R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | % hn tpt tn 
+R2 | R2 | R2 | % tym perc fol 
+R2 | R2 | % hpL hpR 
+ q4\mp\stopTrillSpan r | R2 | a8) r r4 | cis'4\stopTrillSpan r| R2 | % vn vII va vc cb 
+\Q #"fl" { s2 }|\Q #"vn" { s2 }|\Q #"hn" {s2 }|\Q #"va" { s2 }|\Q #"cb" {s2 }|\Q #"vc" { s2 }| % I II III IV V VI 
 
 %bn764
-d8 \times 2/3 {a8 g16} \times 2/3 {f( g f)} e16 g                                    | \lyricmode{thir -- ty will soon be u -- }    | 
-R2                                                                                   | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+d8 \times 2/3 {a8 g16} \times 2/3 {f( g f)} e16 g | \lyricmode{thir -- ty will soon be u -- } | 
+R2 | R2 | R2 | R2 | % rh lh kbR kbL 
+R2 | R2 | R2 | R2 | % fl ob kl bn 
+ <d d' f'>2^stopped~  | R2 | R2 | % hn tpt tn 
+d2 | \cross f''2\lv | <<{ R2 } {\ossia "perc" {\instrumentSwitch "bells" d'2}}>> | % tym perc fol 
+R2 | R2 | % hpL hpR 
+R2 | R2 | f4~ \times 2/3 {f16( g f)} e8 | <d a>2:32~  | d,,2~ | % vn vII va vc cb 
+\Q #"fl" { s2 }|\Q #"vn" { s2 }|\Q #"hn" {s2 }|\Q #"va" { s2 }|\Q #"cb" {s2 }|\Q #"vc" { s2 }| % I II III IV V VI 
+%parts: va | rest | hn | rest | cb | vc
 
+%{
 %bn765
-\times 2/3 {f16( g f)} e8 \instrumentSwitch"Barrell" d=4                               | \lyricmode{pon -- us? Those }                | 
-R2                                                                                   | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
-R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+\times 2/3 {f16( g f)} e8 \instrumentSwitch"Barrell" d=4 | \lyricmode{pon -- us? Those } | 
+R2 | R2 | R2 | R2 | % rh lh kbR kbL 
+R2 | R2 | R2 | R2 | % fl ob kl bn 
+q4 r  | R2 | R2 | % hn tpt tn 
+R2 | R2 | R2 | % tym perc fol 
+R2 | R2 | % hpL hpR 
+R2 | R2 |\times 2/3 {f16( g f)} e8 r4 | q4:32 r | d,,4 r | % vn vII va vc cb 
+R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
 %bn766
 \tQQ d8 d fis8. r16                                                                  | \lyricmode{ were my words }                  | 
