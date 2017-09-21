@@ -8188,31 +8188,30 @@ R2. | R2. | % hpL hpR
  <e e'>2.~ | R2. | R2. | r2 d8 c16 b, | R2. | % vn vII va vc cb 
 R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
-%{
 %bn756
 \time 2/4 r4 c8. b16 | \lyricmode{I sup -- } | 
 R2 | gis4 a | R2 | R2 | % or gis8 a r4 % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 |gis,8 r a,4 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
+ q2 | R2 | R2 |gis,8 r a,4 | R2 | % vn vII va vc cb 
 R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
 %bn757
 \time 4/4 bes4 r r8 g a b                           | \lyricmode{pose… You'll be re -- }           | 
-<e' g bes>4\arpeggio  r r2                 | r2 r2                                        |  R1 |  R1 |   % rh lh kbR kbL 
-R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
-R1 |  R1 |   R1 | % hn tpt  tn 
+<e' g bes>4\arpeggio  r r2                 | r2 r2                                        | r2 r4. g'8^harps |  R1 |   % rh lh kbR kbL 
+R1 |  R1 |\times 4/6 { bes''4( a''16 aes''} g''2.) | r4 \clef treble \times 4/6 { g'4( ges'16 f'} e'2) | % fl ob kl bn 
+  <g' b'>1^stopped |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
-R1 |  R1 | % hpL hpR 
-R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
+R1 | <e' g'>1\lv | % hpL hpR 
+ <bes' bes''>1 | <e' g' bes>1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
 %bn758
-\time 2/4 ces8 d b cis16( d)                        | \lyricmode{ti -- ring soom your -- }         | 
-R2                                        | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+\time 2/4 ces8 d b cis16( d)                        | \lyricmode{ti -- ring soon your -- }         | 
+R2                                        | R2                                           | a'8 b' d'' cis'' |  R2 |   % rh lh kbR kbL 
+R2 |  R2 | g'4..( fis'32 g' |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
 R2 |  R2 |  R2 | % tym perc fol 
 R2 |  R2 | % hpL hpR 
@@ -8221,35 +8220,36 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
 %bn759
 \time 4/4 d8. r16 a8 g16 a( \times 2/3 {g4) fis a} | \lyricmode{self Mis -- ter Ba -- rrell and } | 
-r2 r2                                     | r2 r2                                        |  R1 |  R1 |   % rh lh kbR kbL 
-R1 |  R1 |  R1 |  R1 | % fl ob kl bn 
+r2 r2                                     | r2 r2                                        | <a' d''>2\arpeggio d'2 |  R1 |   % rh lh kbR kbL 
+R1 |  R1 |fis'4) r2.  | << fis1\\{s4\>s2s4\!}>> | % fl ob kl bn 
 R1 |  R1 |   R1 | % hn tpt  tn 
 R1 |  R1 |  R1 | % tym perc fol 
 R1 |  R1 | % hpL hpR 
-R1 |  R1 |  R1 |  R1 |  R1 |  % vn vII va vc cb 
+R1 |  R1 | r2 d~(\>^mutes | << <fis a >1^mutes \\ {fis4. e8 <d d,~>2 } >>  |  R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
 
 %bn760
 \time 2/4 c8( b) bes a                                                                         | \lyricmode{grow -- ing your }                | 
 R2                                                                                   | R2                                           |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ e''2~\p|  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 | e'4^CROT\p bes'   |  R2 | % tym perc fol 
+ r8 b4 a8~ | r8 b'4 a'8~ | % hpL hpR 
+ <c'' c'''>2:32~| <g'' c''>4.\o\pp r8 | <d e>4 e'~  | <<s2\\d,2>> |  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 %bn761
 \grace b8) a8.( aes) aes8                                                            | \lyricmode{ro -- ses }                       | 
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 |  R2 |  R2 |  R2 | % fl ob kl bn 
+ e''2 |  R2 |  R2 |  R2 | % fl ob kl bn 
 R2 |  R2 |   R2 | % hn tpt  tn 
-R2 |  R2 |  R2 | % tym perc fol 
-R2 |  R2 | % hpL hpR 
-R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
+R2 | a'8. aes' aes'8  |  R2 | % tym perc fol 
+ a8. gis8.~ gis8 | a'8. gis'8.~ gis'8 | % hpL hpR 
+ q2:32| <f'' a''>2\o| e'4 <c'' e''>)\! | c'4 c''|  R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 %bn762
 \time 11/32 \set Timing.beatStructure = #'(4 4 3) r8\fermata e32d cis d e32. f64 g32 | \lyricmode{did I un -- ders -- tand you to } | 
 r8 r r16.                                                                            | r8 r r16.                                    |  r8 r8 r16. |  r8 r8 r16. |   % rh lh kbR kbL 
