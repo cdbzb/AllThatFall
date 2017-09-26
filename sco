@@ -105,7 +105,7 @@ EOF
 		
 \score {
 <<
-    <<\new Staff = "voice" \relative c'' { 
+    <<\new Staff = "voice" \with { \consists "Measure_grouping_engraver"} \relative c'' { 
       \new Voice = "tune" \hiddenTempo 60 \melody
     }
     \new Lyrics \lyricsto "tune" \lyrix

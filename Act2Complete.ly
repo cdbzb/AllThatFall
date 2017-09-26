@@ -19,7 +19,7 @@ tag = \date
 
 %bn1
 %}
-\tempo 4 = 80 \mark \default \time 5/8 b4 c4 r8 | \lyricmode {Oh Dan } |
+\tempo 4 = 80 \mark \default \time 5/8 \set Timing.beatStructure = #'(2 3)  b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
@@ -155,7 +155,7 @@ R2 | R2 | % hpL hpR
 a'8 fis' dis' b |a4-. r |r8 a4.\<( |b,4. r8 | R2 | % vn vII va vc cb
 
 %bn16
-\time 5/8 \instrumentSwitch "Jerry" e=8 e, \instrumentSwitch "Rooney" \times 3/4 { e=8[ e e e] } | \lyricmode {no Maam what news of your } |
+\time 5/8 \set Timing.beatStructure = #'(2 3)  \instrumentSwitch "Jerry" e=8 e, \instrumentSwitch "Rooney" \times 3/4 { e=8[ e e e] } | \lyricmode {no Maam what news of your } |
 r4 r4. | r8 e-> r4. |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
@@ -667,7 +667,7 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 
 %bn72
-\tQE \time 5/8 a8 gis \dEQ fis e dis | \lyricmode{do not ask me to } |
+\tQE \time 5/8 \set Timing.beatStructure = #'(2 3)  a8 gis \dEQ fis e dis | \lyricmode{do not ask me to } |
 r4 r4. |a=8 gis fis e dis | r4 r4. | r4 r4. | % rh lh kbR kbL
 r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn
 r4 r4. | r4 r4. | r4 r4. | % hn tpt tn
