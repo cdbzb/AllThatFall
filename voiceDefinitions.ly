@@ -16,6 +16,16 @@
 %
 
 
+\addInstrumentDefinition #"flsilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "fl")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "voice oohs"))
+
 \addInstrumentDefinition #"fl"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "fl")

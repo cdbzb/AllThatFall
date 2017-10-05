@@ -105,7 +105,7 @@ EOF
 		
 \score {
 <<
-    <<\new Staff = "voice" \with { \consists "Measure_grouping_engraver"} \relative c'' { 
+    <<\new Staff = "voice"  \relative c'' { 
       \new Voice = "tune" \hiddenTempo 60 \melody
     }
     \new Lyrics \lyricsto "tune" \lyrix
@@ -181,8 +181,8 @@ EOF
 	\new Staff {\set Staff.instrumentName = #"II" \II}
 	\new Staff {\set Staff.instrumentName = #"III" \III}
 	\new Staff = "va" {\set Staff.instrumentName = #"IV" \IV}
-	\new Staff = "vc" {\set Staff.instrumentName = #"V" \clef bass \V}
-	\new Staff {\set Staff.instrumentName = #"VI"\VI}
+	\new Staff = "cb" {\set Staff.instrumentName = #"V" \clef bass \V}
+	\new Staff = "vc" {\set Staff.instrumentName = #"VI" \clef bass \VI}
   >>
 
 >>
@@ -407,13 +407,14 @@ case $format in
 	m) 
 		echo '\midi{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
-		lilypond -o /tmp/Quartet /tmp/cat ## TODO change name in relevant reaperscript or even do command line call to reaper..... YES!
+		# lilypond -o /tmp/Quartet /tmp/cat ## TODO change name in relevant reaperscript or even do command line call to reaper..... YES!
+		lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
 	;;
 	s) 
 		echo '\layout{}' >> /tmp/cat
 		echo '}' >> /tmp/cat
 		echo lilypond -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
-		lilypond -dno-point-and-click -s -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
+		lilypond -dno-point-and-click  -o "$PWD"/pdf/"$output"-"$suffix"_"$stamp" /tmp/cat
 	;;
 esac
 
