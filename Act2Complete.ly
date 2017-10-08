@@ -2366,35 +2366,34 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 \time 4/4 \tEE ais8 cis gis fis eis gis \times 2/3 {dis ais' d, } | \lyricmode {go of me be -- fore I shake you off! } |
 R1 | r2. \times 2/3 {r4 \ottava #-1 d8~ } |  R1 |  R1 |  % rh lh kbR kbL
 R1 | R1 | ais8 cis' gis fis eis gis \times 2/3 {dis ais d } | R1 | % fl ob kl bn
-R1 |  R1 |  R1 | % hn tpt  tn
+r2. \times 2/3 { r4 d,8~  }|  R1 |  R1 | % hn tpt  tn
 R1 | R1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb  %% 2 bars in one - divide
 
-%{
 %bn258
-\tempo "slower" 4 = 100 \time 3/4 \instrumentSwitch "Rooney" b=8 gis d' b \times 2/3 { c d e( } | \lyricmode {but you must know you were } |
+\time 3/4 \tempo "slower" 4 = 100 \instrumentSwitch "Rooney" b=8 gis d' b \times 2/3 { c d e( } | \lyricmode {but you must know you were } |
 <f gis b>2. | d2. \ottava #0 |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
+ r4 gis2~\p| R2. | R2. | R2. | % fl ob kl bn
+ d,2.~ | <e' fis' b>2. | <f aes d>2.~ | % hn tpt  tn
+R2. | r4 d''2\sustainOn^VBS | R2. | % tym perc fol
+ d2\lv c4\lv  | d'2 c'4\lv  | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 %bn259
 \time 3/8 f4) gis,8 | \lyricmode {on  it } |
 R4. | R4. |  R4. |  R4. |  % rh lh kbR kbL
-R4. | R4. | R4. | R4. | % fl ob kl bn
-R4. |  R4. |  R4. | % hn tpt  tn
-R4. | R4. | R4. | % tym perc fol
+4.~ | R4. | R4. | R4. | % fl ob kl bn
+4. |  R4. | 4.~ | % hn tpt  tn
+R4. | f''4. | R4. | % tym perc fol
 R4. | R4. | % hpL hpR
 R4. | R4. | R4. | R4. | R4. | % vn vII va vc cb
 
 %bn260
 \time 2/4 r4 f=16 g aes bes | \lyricmode {was it at the } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+2 | R2 | R2 | R2 | % fl ob kl bn
+R2 |  R2 | 2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
@@ -2403,38 +2402,39 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 \time 3/4 ces16 bes aes8 r aes16 bes des8 bes | \lyricmode {ter -- mi -- nus? did you leave on } |
 <d f aes ces>2\arpeggio <des des'>4~ | d=2 des'4 |  R2. |  R2. |  % rh lh kbR kbL
 R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
+R2. | r2 <cis' cis''>4~ |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
+R2. | R2. |  R2.  |<gis b>2.:32~ | b4-.^pizz aes-. f-. | % vn vII va vc cb
 
 %bn262
-\time 3/4 e,8^"slower" r16 g16 des' bes e des g4 | \lyricmode {time or was it on the line? } |
+e,8^"slower" r16 g16 des' bes e des g4 | \lyricmode {time or was it on the line? } |
 R2. | <e,, e'>2 <gis' a>4:32~ |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
+R2. | R2. | r2 <g aes>4~\p\< | R2. | % fl ob kl bn
+R2. |  2.~ |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
+R2. | R2. | e2.~ | 2.:32~  | r2 <g' aes'>4~\p\< | % vn vII va vc cb
 
 %bn263
 \time 2/4 r16 f, b aes d b f' d | \lyricmode {did some -- thing hap -- pen on the } |
 R2 | <gis a>2:32  |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | 2~ | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
+ r2 <g aes>4~\!| R2 | 2~ | 2:32~ | 2 | % vn vII va vc cb
 
 %bn264
 gis4 gis | \lyricmode {line? Dan! } |
 <gis' a>4:32 <gis a>4:32 | <a bes>2:32~ |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+ <gis''' a'''>4 4 | R2 | 2~\! | R2 | % fl ob kl bn
+R2 |  2~ |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
+2\! | R2 | 2 | 2 | R2 | % vn vII va vc cb
 
+%{
 %bn265
 \time 6/8 \QdQ gis8\> e c gis( e) c\! | \lyricmode {why won't you tell me? } |
 R2. |  <a bes>2.:32 |  R2. |  R2. |   % rh lh kbR kbL   
