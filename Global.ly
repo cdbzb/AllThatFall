@@ -23,6 +23,7 @@ doubleBar = \bar "||"
 finalBar = \bar "|."
 
 gliss = \glissando
+treble = \clef treble
 
 %shortcut for quote during
 Q = #(define-music-function (parser location inst music) (string? ly:music?)
