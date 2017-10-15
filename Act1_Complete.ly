@@ -9595,7 +9595,7 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 \treble dis'2~^stopped |  R2 | R2 | % hn tpt  tn 
 R2 | \instrumentSwitch "perc" \cross f''-.^"on bell" |<<{   R2 }\\{\ossia "perc"{\instrumentSwitch "vibes" <fis' b' d'>2\lv}}>>  | % tym perc fol 
 R2 | R2 | % hpL hpR 
-<b ees'>2:32~ | <ees' g'>2~^"s.p."\p | b4 g~ | ees2~ | ees-.^pizz |  % vn vII va vc cb 
+<b ees'>2:32~ | <ees' g'>2~^"s.p."\p | b4 g~ | << s2\\ees2~>> | ees-.^pizz |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
  %bn884
@@ -9606,7 +9606,7 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 2~ | <g' g''>4.. <f' f''>32 <g' g''> |  R2 | % hn tpt  tn 
 R2 | \cross f''4..-. 16-. | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-<c' ees'>2:32 | 2~ | <g c'>2 |<c ees>2~  | c2-. |  % vn vII va vc cb 
+<c' ees'>2:32 | 2~ | <g c'>2 |<<c2~ \\  ees2>>  | c2-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -9618,7 +9618,7 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 aes'2~ | <f' f''>2~ |  R2 | % hn tpt  tn 
 R2 | \cross f''2-. | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-ees'4^arco c' | <ees' aes'>2~ | R2 | <aes, c>2~ | aes,4.-. 8-. |  % vn vII va vc cb 
+ees'4^arco c' | <ees' aes'>2~ | R2 |<< c2~\\aes,>>| aes,4.-. 8-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -9630,32 +9630,32 @@ R4 | R4 | R4 | R4 | % fl ob kl bn
 4 |  4 |  R4 | % hn tpt  tn 
 R4 | \cross f''4-. | R4 | % tym perc fol 
 R4 | R4 | % hpL hpR 
-<g' c''>4~ | 4 | R4 | <f, c>4 |f,4-.  |  % vn vII va vc cb 
+<g' c''>4~ | 4~ | R4 | << c4~\\ f,>> |f,4-.  |  % vn vII va vc cb 
 R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn887 %%%%2 bars in one in the winds
 \time 2/4 \tQQ g4.\mf b8                               | \lyricmode{there she }                                        | 
 R2 | g4 f |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | R2 | R2 | g,4 f, | % fl ob kl bn 
+<<{r4. b'8} \\{g'4 f'}>>| <b' f'' b''>2~ | g4 f | % hn tpt  tn 
+R2 | \cross f''4-. 4-. | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+<g' b'>2 | 2 | R2   | << c2~\\ {g,4 f,}>>| g,,4-. f,,-.|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
  %bn888 
 c16( b c4) g8\mp |\lyricmode{goes, they }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL   
- r4 g'' | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+ r4 g'' | R2 | R2 | e,4. f,8 | % fl ob kl bn 
+ <e' c''>4.  <f' g' c''>8| <c'' f'' c'''>4. <g' c'>8 | e4 g'(\f| % hn tpt  tn 
+R2 |\instrumentSwitch "percsilent" << {\cross b'4.\lv \cross f''8-.}\\d'2>>| R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+<g' c''>2~ | r4 \treble <g'' g'''>~ | R2 | <<c4. \\ e,>> <c f,>8| e,,4.-. f,,8-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn889
  g4. r8 |\lyricmode{say, } |

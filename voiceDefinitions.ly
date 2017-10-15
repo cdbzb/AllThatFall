@@ -280,7 +280,7 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
      (midiInstrument . "synth voice"))
 
-\addInstrumentDefinition #"perc"
+\addInstrumentDefinition #"percsilent"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "perc")
      (clefGlyph . "clefs.percussion")
@@ -290,8 +290,15 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
      (midiInstrument . "voice oohs"))
 
-
-
+\addInstrumentDefinition #"perc"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "perc")
+     (clefGlyph . "clefs.percussion")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "perc"))
+     (midiInstrument . "voice oohs"))
 
 \addInstrumentDefinition #"bellssilent"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
