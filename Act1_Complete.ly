@@ -9783,21 +9783,20 @@ R2 |
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+<c ees ges ais>2\arpeggio | <c' ees' ges' ais>2\arpeggio | % hpL hpR 
+R2 | R2 |   <ges bes>2:32 |  R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn900
 \time 3/4 \times 2/3{b8( cis b)} \times2/3{ais b g16( a)} \times 2/3{g8 fis b} | \lyricmode{trait e -- ven on week -- days ask }      | 
 R2. |
 <cis= e g b>4\arpeggio r <b=, d> |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
+ r2 b''4~ | R2. | R2. | R2. | % fl ob kl bn 
+ r2 <g b>4~|  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+ <des fes g b>2. \arpeggio | <des' fes' g' b'>2. \arpeggio | % hpL hpR 
+ r2 <e' b' e''>4~ | R2. | <cis e g b>2.:32~\arpeggio| r2 <b d>4:32 | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -9806,10 +9805,10 @@ e8-> b16 gis \times 2/3 {e8 fis16} \times 2/3 {gis8 ais16} gis8 fis        | \ly
 R2. |
 e,2. |  R2. |  R2. |   % rh lh kbR kbL   
 < gis'' b''>2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+ <e, e b gis'>4 r2 |  R2. |  R2. | % hn tpt  tn 
+ dis,2. |\cross f''2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+<e' b' e''>4 r2 | <ges e'>4 r2 | e4 r2 | e,4 r2 | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -9817,12 +9816,12 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 \time 2/4 \tQQ
 bes,8 bes r e                                                    | \lyricmode{'Het -- tie', she }                       | 
 R2 |
-<bes bes'>8 <bes bes'>4. |  R2 |  R2 |   % rh lh kbR kbL   
+<bes bes'>8 <bes bes'>4. |  R2 | fis,8 4. |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+ bes,8 4. | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | R2 | R2 | bes,,8^arco 4. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -9834,10 +9833,11 @@ b'2.\p |  R2. |  R2. |   % rh lh kbR kbL
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+ fis2 r4 | r2 b4\lv | % hpL hpR 
+ r4 \times 2/3 {<a e'>8( <gis dis'> <ais cis'>} <a e'>4) | r4 \times 2/3 {gis''8( fis'' e''~} <c'' gis''>4) | r2 b4~ |  b,2.| R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 
 
  %bn904
