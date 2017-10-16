@@ -9744,24 +9744,23 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 \times 2/3 {b16( c b)} g16 a b a g b                                       | \lyricmode{path to a -- void my run -- ning }        | 
 R2 |
 g,4 g'|  R2 |  R2 |   % rh lh kbR kbL   
- r4 b'32 r16 a'32 g' r16 f'32 | R2 | R2 | R2 | % fl ob kl bn 
+ r4 b'32 r16 a'32 g' r16 f'32 | R2 | R2 |  g4 b16 a g f | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+r4 b16.-.^pizz a32 g16. f32   | <d g f'' b''>2:32~ | <a, d a>2 | <d a>2-.^pizz | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn897
 \time 6/16 \EdE  c8^"rit" g16 e8 \breathe c'16                                         | \lyricmode{in to them. Ah }                          | 
 r8. r |
 \times 3/2 {c,16 g} e8. |  r8. r |  r8. r |   % rh lh kbR kbL   
-e'8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
+e'8. r | r8. r | r8. r | e8. r | % fl ob kl bn 
 r8. r |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
 r8. r | r8. r | % hpL hpR 
-r8. r | r8. r | r8. r | r8. r | r8. r |  % vn vII va vc cb 
+e4.-. | < e g e'' g''>8.:32 r | c'8-.^pizz g16-. c8.-.   | \times 3/2 {c'16-.^pizz g-.} c8.-. | r8. r |  % vn vII va vc cb 
 r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  % I  II  III  IV  V  VI  
 
 
@@ -9788,6 +9787,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn900
 \time 3/4 \times 2/3{b8( cis b)} \times2/3{ais b g16( a)} \times 2/3{g8 fis b} | \lyricmode{trait e -- ven on week -- days ask }      | 
