@@ -9170,6 +9170,7 @@ R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
+%}
  %bn848
 \time 9/8 \QdQ
 ees8 d ees \times 3/4 {ees( f) ees d } \grace{c16( d} c8) b b | \lyricmode {Sun -- day we wor -- shipped to -- ge -- ther. We } |
@@ -9467,7 +9468,6 @@ r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
 
-%}
  %bn873
 \time 2/4 \EE gis4 \times 2/3{ gis8 a b }             | \lyricmode{ then, for the first }                             | 
 R2 |
@@ -9649,7 +9649,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 c16( b c4) g8\mp |\lyricmode{goes, they }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL   
  r4 g'' | R2 | R2 | e,4. f,8 | % fl ob kl bn 
- <e' c''>4.  <f' g' c''>8| <c'' f'' c'''>4. <g' c'>8 | e4 g'(\f| % hn tpt  tn 
+ <e' c''>4.  <f' g' c''>8| <c'' f'' c'''>4. <g' c'>8 | e4 << g'(\f\\s>>| % hn tpt  tn 
  r4. f,8 |\instrumentSwitch "percsilent" << {\cross b'4.\lv \cross f''8-.}\\d'2>>| R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 <g' c''>2~ | r4 \treble <g'' g'''>~^mutes | R2 | <<c4. \\ e,>> <c f,>8| e,,4. f,,8 |  % vn vII va vc cb 
@@ -9661,7 +9661,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 R2 |
 f2 |  R2 |  R2 |   % rh lh kbR kbL   
  f''4 e''~ | R2 | R2 | f,2 | % fl ob kl bn 
- 2 |  2 | f'4 e'| % hn tpt  tn 
+ 2 |  2 |<<{ f'4 e'}\\s2>>| % hn tpt  tn 
  f,2 | \cross f''2-. | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 2 | <f'' g'' f''' g'''>4~  <f'' g'' e'' f''' g''' e'''>~ | R2 | 2 | 2 |  % vn vII va vc cb 
@@ -9671,7 +9671,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 \times 2/3 { c4\mf c d8( e)} |\lyricmode{ there goes The }|
 R2 | g2 | \times 2/3{ c'8 r c'4 d'8 e' }|\times 2/3 { <c, c>8 r q2 } |   % rh lh kbR kbL   
  <a' e'' a''>2 | R2 |\times 2/3 {<g' c''>4 q2} | \times 2/3 {g4 2}| % fl ob kl bn 
- \times 2/3 {<g' c''>4 2} |  R2 | <<d'2\\{\times 2/3 {<g c'>4  4 <f b>8 <e a>}}>>| % hn tpt  tn 
+ \times 2/3 {<g' c''>4 2} |  R2 | <<d'2)\\{\times 2/3 {<g c'>4  4 <f b>8 <e a>}}>>| % hn tpt  tn 
  R2 | << \cross d''2\lv \\ {\times 2/3 {d'4\mp 2}}>> | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 R2 | <d'' g'' d''' g'''>2 | R2 |\times 2/3 { <g c>4 2 } | \times 2/3 {g,,4 2} |  % vn vII va vc cb 
@@ -9691,8 +9691,8 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
  %bn892 
 e4. f8 |\lyricmode{Fitt, a -- }|
 R2 |
-a2 |  R2 |  R2 |   % rh lh kbR kbL   
-R2 |\times 2/3 { r2 <c'' e''>4 } | R2 |\times 2/3 {  4 r8<f, f'> } | % fl ob kl bn 
+a2 | r4. <a c' f'>8 | 4. f,8 |   % rh lh kbR kbL   
+R2 |\times 2/3 { r2 <c'' e''>4 } | R2 |\times 2/3 {  4 r <f, f'> } | % fl ob kl bn 
 R2 | R2 |\times 2/3{  4 r f,, } | % hn tpt  tn 
 R2 | r4. \cross f''8-. | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
@@ -9703,7 +9703,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
  %bn893
 \times 2/3 {f4 e d } | \lyricmode{lone with her }     | 
 R2 |
-\times 2/3 {f4 e f }|  R2 |  R2 |   % rh lh kbR kbL   
+\times 2/3 {f4 e f }|\times 2/3 {  <a c' f'>4 <c' e'><d' g'> } | f,2 |   % rh lh kbR kbL   
 \times 2/3 {r2 c'''4} | \times 2/3 {2 <c'' f''>4 }| R2 |\times 2/3 {  <f, f'>4 <e, e'> <f, f'> } | % fl ob kl bn 
 R2 |\times 2/3 {r2 f''4 }|\times 2/3 {f,,4 e,, f,,}| % hn tpt  tn 
 R2 | \cross f''2 | R2 | % tym perc fol 
@@ -9711,18 +9711,17 @@ R2 | R2 | % hpL hpR
  \times 2/3 {4~ <a'' b''> <a'' c'''> }| \times 2/3 {f''4 g'' a''}| \times 2/3 {<f' a'>4~ <e' a'>~ <f' a'>}|\times 2/3 {f,4 e, f,}| \times 2/3 {f,,4-.^pizz r f,,4-.}|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn894
 \time 2/4 \tQE 
 c8 b f'-. f-.   | \lyricmode{ma -- ker take no } | 
 R2 |
-g4 f8 f|  R2 |  R2 |   % rh lh kbR kbL   
- b''8 c'''8  8-. 8-. | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+g4 f8 f| <c' g'>8 b <a c' f'>8 8 | g,4 f,8 8 |   % rh lh kbR kbL   
+b''8 c'''8  8-. 8-. |<c'' g''>8 r4. | R2 | <g, g'>4 <f, f'>8 8 | % fl ob kl bn 
+ e''8 d'' <g' f''>8 8 |  R2 | g,,8( f,,) f,, g,, | % hn tpt  tn 
+R2 | r4 \cross f''8-. \cross f''8-. | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+<g'' d'''>8~ <g'' e'''> r4| c'''8( b'') a'' a'' | <g' a'>4 <f' a'>8 8 | g,4 f,8 8| g,,4-. f,8-. 8-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -9731,12 +9730,12 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
  % % % % % % % % % %page4
 \time 6/8 f16 e d c d c bes16 r a8 g16 f                     | \lyricmode{no -- tice -- of her. and they step down off the }          | 
 R2. |
-g8 g' g  f8. f |  R2. |  R2. |   % rh lh kbR kbL   
-r8 <d'' g''>8 8 r4. | R2. | r8 <g' g''>8 8 r4. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+g8 g' g  f8. f | <c' f'>16 e' <d' g'> c' <d' g'> c' r4. | <g, g>4. r |   % rh lh kbR kbL   
+c'''8  <d'' g''>8 8 r4. | R2. | r8 <g' g''>8 8 r4. | <g, g'>8 a'8  8 r4. | % fl ob kl bn 
+R2. | << { f''16 e'' d'' c'' }\\ <g' c''>4 >> r8 r4. | g,,4. r | % hn tpt  tn 
+R2. | \cross f''2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+c'''8 c'''16 b'' c''' b'' r4. | r4. \times 3/2 {<f bes>8-.\f^pizz <f a>}| <f' a'>8 <d g>8 q8 \times 3/2 {<c f>8 q8 }| g,8 <d' g'>8-.^pizz q-. r4.  | g,4.-. r |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -9752,6 +9751,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn897
 \time 6/16 \EdE  c8^"rit" g16 e8 \breathe c'16                                         | \lyricmode{in to them. Ah }                          | 
