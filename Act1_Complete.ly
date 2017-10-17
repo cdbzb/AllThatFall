@@ -9464,7 +9464,7 @@ c4. r4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 <c e g>4.~\arpeggio 4 | <c' e' g' c'' e''>4.~\arpeggio 4| % hpL hpR 
-<c''' e'''>4.\!~4| r4. r4 |<< {<c' e' g'>4.~\> 4\!}\\{  <c g>4.~ 4 }>>| c4.~ 4 | r4. r4 |  % vn vII va vc cb 
+<c''' e'''>4.\!~4| r4. r4 |<< {<c' e' g'>4.~\> 4\!}\\{  <c g>4.~ 4 }>>| c4.~ 4) | r4. r4 |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
 
@@ -9867,7 +9867,7 @@ r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  % I  II  III  IV  V 
  % % % % % % % % % %page5
 
 
-\time 3/4 b4 \breathe c16 b fis a g8 fis8          | \lyricmode{ trait? I be -- lieve the truth is }         \instrumentSwitch "vibes"c| 
+\time 3/4 b4 \breathe c16 b fis a g8 fis8          | \lyricmode{ trait? I be -- lieve the truth is } | 
 <c ees ges bes >4 r2 |
 << {bes'4( a)}\\<c, ees ges >2>> r4 |  R2. |  R2. |   % rh lh kbR kbL   
 R2. | 4 r2 | R2. | R2. | % fl ob kl bn 
@@ -9881,8 +9881,7 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
  %bn907
 \time 2/4
 r8 f' e d16( c) | \lyricmode{ I'm just not }            | 
-R2 |
-r8 <f=, f'>\<  <e e'>  <g g'>  |  R2 |  R2 |   % rh lh kbR kbL   
+R2 | r8 <f=, f'>\<  <e e'>  <g g'>  |  R2 |  R2 |   % rh lh kbR kbL   
 R2 | R2 | r8 c' c' d' | r8 f, e, g, | % fl ob kl bn 
  r8 <g c'>8 q 8 <g b> |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -9896,7 +9895,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 c8-- b a g-- f                         |\lyricmode{there, Miss -- es Roo -- ney }|
 r4. r4|
 <a a'>4.\>  <d, d'>4\! |  r4. r4 |  r4. r4 |   % rh lh kbR kbL   
-r4. r4 | r4. r4 | e'4. <c' f'>4 | a4. d,4~ | % fl ob kl bn 
+r4. r4 | r4. r4 | e'4. <c' f'>4 | a,4. d,4~ | % fl ob kl bn 
  <e a c'>4.~ <f a>4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
@@ -9908,24 +9907,23 @@ r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V 
 \time 3/4 \EE f'8 e d c d b                      | \lyricmode{just not real -- ly there at }    | 
 r2 r8 f=' |
 <f f'>8 <e e'> <g g'>4 g'|  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | 4 r2 | f,8 e, g,2 | % fl ob kl bn 
+ c8 e f4 g,~  |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+ \treble << {c''4 d''2}\\{f'8 e' d'2}>>|  <g' c''>4~ <g' b'>2~ |  4 r g'( | q4 r g,| R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn910
 \time 2/4 c4. \breathe g8                        | \lyricmode{all. I }                                     | 
 e='8 d e g|
 c,2|  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | R2 |c8( d c e | % fl ob kl bn 
+ 4 r |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ c''2 | R2 | f'4 e'~ | c,2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -9933,11 +9931,11 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 \time 3/4 c4 a8.( g16) g8. g16                   | \lyricmode{eat drink sleep, I }                         | 
 R2. |
 f=,8 e f a c4 |  R2. |  R2. |   % rh lh kbR kbL   
- c''4 8. d''16 e''4 | R2. | R2. | R2. | % fl ob kl bn 
+ c''4 8. d''16 e''8 g'  | R2. | R2. | c'2) c,8 r16 16 | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | 2.) | f,8( e, f, g, c4) | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -9945,11 +9943,11 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 \time 6/8 \QdQ c8 a g \appoggiatura{f16( g} f8) e f    | \lyricmode{go through the us -- u -- al }               | 
 R2. |
 f,2. |  R2. |  R2. |   % rh lh kbR kbL   
-c''2. | R2. | r4. << c'4.~\\{a8 g a}>>| R2. | % fl ob kl bn 
+c''2. | R2. | r4. << c'4.~\\{a8 g a}>>| f,2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | e2. |d,2.~\p | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -9957,23 +9955,22 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 \time 2/4 \EE e8 d g c                               | \lyricmode{mo -- tions but my }                         | 
 R2 |
 d2~ |  R2 |  R2 |   % rh lh kbR kbL   
-d''2 | R2 | <<c'2\\g~>>| R2 | % fl ob kl bn 
+<< {e''8 d''4.}\\ { d''2 } >>| R2 | <<c'2\\g~>>| d,2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | \instrumentSwitch "vibes" r8 \sustainOn d' g' c'' | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | d2 |d2~ | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
  %bn914
 \time 9/8 g'4.~\fermata g8 e c b a f             | \lyricmode{heart is -- n't in it, but }                 | 
-r4. r r |
-d4.~ d~ d |  r4. r r |  r4. r r |   % rh lh kbR kbL   
-r4. r r | r4. r r | << {c'4.\>~4.~4.~\!}\\{<d g>4.~4.~4.}>> | r4. r r | % fl ob kl bn 
+d4.~ d~ d |  r4. r r | <a d' g'>4.~\arpeggio 4.~4.| <c, d>4.~\arpeggio 4.~4.|    % rh lh kbR kbL   
+r4. r r | r4. r r | << {c'4.\>~4.~4.~\!}\\{<d g>4.~4.~4.}>> | 4.~ 4.~ 4. | % fl ob kl bn 
 r4. r r |  r4. r r |  r4. r r | % hn tpt  tn 
 r4. r r | r4. r r | r4. r r | % tym perc fol 
 r4. r r | r4. r r | % hpL hpR 
-r4. r r | r4. r r | r4. r r | r4. r r | r4. r r |  % vn vII va vc cb 
+ <g''' a''' d''''>4.~4.~4. | r4. r r | r4. r r | 4.~4.~4. | r4. r r |  % vn vII va vc cb 
 r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I  II  III  IV  V  VI  
 
 
@@ -10027,6 +10024,7 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn919
 \time 3/4 c8 \breathe g a b c g                  | \lyricmode{home. So if you think I }                    | 
