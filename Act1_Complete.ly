@@ -9837,30 +9837,28 @@ R2. | R2. | R2. | % tym perc fol
  r4 \times 2/3 {<a e'>8( <gis dis'> <ais cis'>} <a e'>4) | r4 \times 2/3 {gis''8( fis'' e''~} <c'' gis''>4) | r2 b4~ |  b,2.| R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%{
 
 
  %bn904
 \time 6/8 a8 e16 fis gis8  \times 3/4 { a8 fis e dis }   | \lyricmode{  stead of the thin bread and but -- ter, }      | 
-R2. |
-R2. |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL   
+R2. | R2. | R2. | r4. \times 3/4 {a8 fis e dis} | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+R2. | r4. \instrumentSwitch "vibes" \times 3/4 {a'8 fis' e' dis'} | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+ fis''4. r | R2. | b4\prall^\markup{\sharp} r8 r4.| 4. a4. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
  %bn905
 \time 5/4  bes8 bes r8 b8 cis dis e( fis) gis r16\fermata b16   | \lyricmode{ 'Het -- tie', how can you be so dis -- }  | 
 r4. b=8 \repeat unfold 5 <b cis> r16 <c ees ges bes> |
-<bes, bes'>8 <bes bes'>8 r << {b=,8 cis dis e fis gis} \\ {b,8 b b b b b }>>  r16 <c= ees ges bes>16 |  r2. r2 |  r2. r2 |  % rh lh kbR kbL   
-r4. b'8 a' gis' fis' e' dis' r | r2. r2 | r2. r2 | r2. r2 | % fl ob kl bn 
-r2. r2 |  r2. r2 |  r2. r2 | % hn tpt  tn 
-r2. r2 | r2. r2 | r2. r2 | % tym perc fol 
-r2. r2 | r2. r2 | % hpL hpR 
-r2. r2 | r2. r2 | r2. r2 | r2. r2 | r2. r2 |  % vn vII va vc cb 
+<bes, bes'>8 <bes bes'>8 r << {b=,8 cis dis e fis gis} \\ {b,8 b b b b b }>>  r16 <c= ees ges bes>16 |  r2. r2 | bes,8 8 r8 b, <b, cis> <b, dis> <b, e> <b, fis> <b, gis>4\fermata|  % rh lh kbR kbL   
+r4. << { b'8 a' gis' fis' e' dis' r }\\{ b cis' dis' e' fis' gis' }>>  | r1 r8 r16\fermata bes' | r2. r2 | r2. r2 | % fl ob kl bn 
+ \clef bass r4. b,8 <b, cis> <b, dis> <b, e> <b, fis> <b, gis> r16\fermata gis |  r2. r2 |  r2. r2 | % hn tpt  tn 
+ bes,8\p 4.~2. | r2. r2 | r2. r2 | % tym perc fol 
+ \clef bass r2. r4. r16\fermata c,\lv | r2. r2 | % hpL hpR 
+r4. \clef bass  b8 a gis fis e dis r16\fermata fis'  | r4. b'4. a'4 gis' | <dis fis a dis' fis'>1\p r4 | <c, c>8:32 4:32 r8 r2 r8.\fermata 16:32  | r2. r2 |  % vn vII va vc cb 
 r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  % I  II  III  IV  V  VI  
 
 
@@ -9869,14 +9867,14 @@ r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  r2. r2 |  % I  II  III  IV  V 
  % % % % % % % % % %page5
 
 
-\time 3/4 b4 \breathe c16 b fis a g8 fis8          | \lyricmode{ trait? I be -- lieve the truth is }         | 
+\time 3/4 b4 \breathe c16 b fis a g8 fis8          | \lyricmode{ trait? I be -- lieve the truth is }         \instrumentSwitch "vibes"c| 
 <c ees ges bes >4 r2 |
 << {bes'4( a)}\\<c, ees ges >2>> r4 |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | 4 r2 | R2. | R2. | % fl ob kl bn 
+ gis4( g) r |  R2. |  R2. | % hn tpt  tn 
+R2. | \instrumentSwitch "perc" \cross e'2.\p | R2. | % tym perc fol 
+ <c ees ges >2.\arpeggio  | << {<bes bes'>4 <a a'>2}\\ <c' ees' ges' >2.\arpeggio >>| % hpL hpR 
+ fis'2. | < d' f' c'' ees'' ges''>2^mutes  r4 | <ees ges c' ees' ges'>2 r4 | 2.:32 | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -9885,11 +9883,11 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 r8 f' e d16( c) | \lyricmode{ I'm just not }            | 
 R2 |
 r8 <f=, f'>\<  <e e'>  <g g'>  |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | r8 c' c' d' | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | r8 c' c' d' | r8 f, e, g, | % fl ob kl bn 
+ r8 <g c'>8 q 8 <g b> |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | r8 <g' c''>8 q 8 <b' d''> | r8 f e g | r8 f, e, g, | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -9898,11 +9896,11 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 c8-- b a g-- f                         |\lyricmode{there, Miss -- es Roo -- ney }|
 r4. r4|
 <a a'>4.\>  <d, d'>4\! |  r4. r4 |  r4. r4 |   % rh lh kbR kbL   
-r4. r4 | r4. r4 | e'4. c'4| r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+r4. r4 | r4. r4 | e'4. <c' f'>4 | a4. d,4~ | % fl ob kl bn 
+ <e a c'>4.~ <f a>4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+r4. r4 | <a' c'>4.~4 | a4.~4~| a,4.~ <d, a,>4~ | r4. r4 |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
 
@@ -9917,6 +9915,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn910
 \time 2/4 c4. \breathe g8                        | \lyricmode{all. I }                                     | 
