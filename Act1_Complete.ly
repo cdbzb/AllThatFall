@@ -10073,16 +10073,15 @@ R2 | R2 | R2 | % tym perc fol
  r4 <b d'> | R2 | r4 <g d'>~ | r4 <g,, g,> | r4 g,4-.^pizz |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn923
 \times 2/3 {e4 d4 c4 }                                                 | \lyricmode {big red blur }                  | 
 << {\times 2/3 {r8 fis='4\p e r8}} \\ {\times 2/3{<c e>4 <b d> <c g>}}>> | \times 2/3 { <c' c,>4 <g g,> <a a,> }       |  R2 |  R2 |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+\times 2/3 {<c' e'>4---. <b d'>---. <e c'>---.}|  R2 | \times 2/3 { << {r8 fis'~ 4 e'}\\ {e'4 d'2}>>}| % hn tpt  tn 
+R2 | \times 2/3 { r4 e'''2 } | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+\times 2/3 {<c' e'>4 <b d'> <g c'>} | R2 | <g e'>4 r |\times 2/3 {<c c'>4---. <g, g>---. 4---. } | a2-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -10102,13 +10101,14 @@ R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI
 \time 2/4 \tQQ
 b4 a                                                                   | \lyricmode {big red }                       | 
 r8 dis4\p cis8~                                                        | g4 d~                                       |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | R2 | R2 | g4---. d~ | % fl ob kl bn 
+<g b>4---. <d a>---. |  R2 | << {r8 dis'4 cis8~}\\{b4 a}>> | % hn tpt  tn 
+R2 | r4 <b' d''>\lv | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ <g' b'>8 r <d' a'> r | R2 | R2 | g4 d | g2-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn926
 g8 e cis d16 d                                                         | \lyricmode {  blur. Is some -- thing a -- } | 
