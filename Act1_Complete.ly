@@ -10184,17 +10184,16 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
  1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn933
 \time 3/4
 aes'8 aes4 f8 aes,8. f'16 |\lyricmode{ Roo -- ney nee Dunne the }|
 R2. | <des des'>2. |  R2. |  R2. |   % rh lh kbR kbL   
 R2. | R2. | <c' aes'>8 8 r4 <ees aes>8. des'16 | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
+ r2 r8. << f'16\\des'>>|  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | <f aes c'>2~ < ees aes c'>4  | c'4.(\p\< des'8 ees'8.) <des' f'>16 |r4. f8\p( gis,4~  |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -10202,11 +10201,11 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 \tQQ \time 2/4
 f4 ees8( des) | \lyricmode{ big red }|
 R2 | des4 aes |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | des'4 aes | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | des'4 aes8( f) | R2 | % fl ob kl bn 
+<< {f'8. r16 ees'8( des')}\\ {des'8. r16 aes}>>|  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | <f aes des'>4~ <ees aes c'>| 4\mf  <aes ees'>8( <f des'>) | 2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
@@ -10214,13 +10213,14 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 \dQQ
 des8 des16 des beses'8( aes16) ges |\lyricmode{ blur, you have pier -- cing }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | f2  | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+ r4 a'8 gis'16 fis' | R2 | f8 r4.  | R2 | % fl ob kl bn 
+ << {des'4 c'}\\{aes4 ges}>> |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+r4 <a'' fis''' a'''>\mp | R2 | <des f aes>4~  <des ges beses>~| <f des'>2~ |,2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
+%{
 
  %bn936
 \time 5/8 \set Timing.beatStructure = #'(2 3) 
