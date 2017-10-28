@@ -10346,37 +10346,37 @@ R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI
 
  %bn946
 \time 3/4 \tEE a4 \instrumentSwitch "Fitt" ees'8( b) a( f) | \lyricmode{else... Now now, } | 
-<c e f a>4\arpeggio r2 | <c e f a>4\arpeggio r2 | R2. | R2. | % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. | R2. | R2. | % hn tpt tn 
-R2. | R2. | R2. | % tym perc fol 
+<c e f a>4\arpeggio r2 | <c e f a>4\arpeggio r2 |<c' e' f' a'>4\arpeggio r2 |<c e f a>4\arpeggio r2 | % rh lh kbR kbL 
+R2. | <f' a'>4 r2 | \repeat tremolo 4 {<c' e'>32 e} r2 | \repeat tremolo 4 {f32 a32} r2 | % fl ob kl bn 
+ <c, c>2.| R2. | R2. | % hn tpt tn 
+R2. | r4 <ees'' ees'''>8 b' a' f' | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | R2. | r2 r8 f,8-.-> |r2  r8f,8\p |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn947
 a8 gis fis eis \times 2/3{gis fis eis}                                      | \lyricmode{Miss -- es Roo -- ney don't put your } | 
 R2.                                                                     | R2.                                               |  R2. |  R2. |   % rh lh kbR kbL   
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+R2. | a''8 gis' fis' f' \times 2/3 {gis'' fis' f'} | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | R2. | r4. f,8-.-> r4| r4. f,8 r4|  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
  %bn948
-\time 8/8 \set Timing.beatStructure = #'(3 3 2)  \QdQ bes'4. g8 f e r8 g | \lyricmode{teeth in -- to me! Re -- }             | 
-<d e g bes d>4\arpeggio r2.            | <e gis b e >4\arpeggio r2.                        |  R1 |  R1 |   % % % % % % % dissonance here a typo or cool????? % rh lh kbR kbL   
+\time 8/8 \set Timing.beatStructure = #'(3 3 2) \QdQ bes'4. g8 f e r8 g | \lyricmode{teeth in -- to me! Re -- } | 
+<d e g bes d>4\arpeggio r2. | <e gis b  >4\arpeggio r2. |<d' e' g' bes' d'>4\arpeggio r2. |<d e g bes d>4\arpeggio r2. | % % % % % % % dissonance here a typo or cool????? % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
-R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | R1 | % hn tpt tn 
+R1 | s 128 \grace e'8\lv( gis''1*127/128)| R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
-R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
+R1 | R1 | R1 | e1-.| e,2~ 8.  c,32( e, c,4) | % vn vII va vc cb 
+R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
 
+%{
 
 
  %bn949
