@@ -10376,41 +10376,41 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | e1-.| e,2~ 8.  c,32( e, c,4) | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
 
-%{
 
 
  %bn949
-\dQQ \time 2/4 cis8 a b cis                                             | \lyricmode{quite! I make these }                  | 
-R2                                                                      | r4. <g, g'>8                                       |  R2 |  R2 |   % rh lh kbR kbL   
+\dQQ \time 2/4 cis8 a b cis | \lyricmode{quite! I make these } | 
+R2 | r4. <g, g'>8 | R2 | r4. <g, g>8 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | R2 | R2 | % hn tpt tn 
+R2 | <cis'' cis'''>2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+ <e' g' cis''>4->\arpeggio r | R2 | R2 | cis'8--^arc r r g, | r4. g,8-.^pizz| % vn vII va vc cb 
+R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
 
  %bn950
-\time 9/16 \times3/2{ d16 cis } \times3/2{b a} \times3/2{r a}           | \lyricmode{sac -- ri -- fic -- es for }           | %or these could be dotted 16ths!
-r8. r r                                                                 | <fis fis'>4. d8.                                  |  r8. r r |  r8. r r |   % rh lh kbR kbL   
+\time 9/16 \times3/2{ d16 cis } \times3/2{b a} \times3/2{r a} | \lyricmode{sac -- ri -- fic -- es for } | %or these could be dotted 16ths!
+r8. r r | <fis fis'>4. d8. | r8. r r | <fis fis'>4. d8. | % rh lh kbR kbL 
 r8. r r | r8. r r | r8. r r | r8. r r | % fl ob kl bn 
-r8. r r |  r8. r r |  r8. r r | % hn tpt  tn 
-r8. r r | r8. r r | r8. r r | % tym perc fol 
+r8. r r | r8. r r | r8. r r | % hn tpt tn 
+r8. r r | <d'' d'''>8.~8.~8.| r8. r r | % tym perc fol 
 r8. r r | r8. r r | % hpL hpR 
-r8. r r | r8. r r | r8. r r | r8. r r | r8. r r |  % vn vII va vc cb 
-r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I  II  III  IV  V  VI  
+r8. r r | r8. r r | r8. r r | fis,4. d,8 r16| fis,4.-. d,8-. r16| % vn vII va vc cb 
+r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % I II III IV V VI 
 
 
  %bn951
-\time 2/4 a4  g8 r16 g16                                                | \lyricmode{no -- thing or }                        | 
-<b= d>8 <b d> <b d> <b d>                                                | b'2                                                |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+\time 2/4 a4 g8 r16 g16 | \lyricmode{no -- thing or } | 
+<b= d>8 <b d> <b d> <b d> | b'2 | R2 | <b,, b,>2 | % rh lh kbR kbL 
+ r8 <b' d''>-. q-.  q-. | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+r8 <b d'>-.^solo q-.  q-. | R2 | d2^mute| <b,, b,>2~^mute| b,,2-. | % vn vII va vc cb 
+R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
+%{
 
  %bn952
 \time 3/16
