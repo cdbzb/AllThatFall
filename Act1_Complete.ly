@@ -10410,29 +10410,27 @@ R2 | R2 | % hpL hpR
 r8 <b d'>-.^solo q-.  q-. | R2 | d2^mute| <b,, b,>2~^mute| b,,2-. | % vn vII va vc cb 
 R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
-%{
 
  %bn952
-\time 3/16
-g8 g16                                                           | \lyricmode{not at }                                | 
-r16 b8                                                                                                              | R8. |  R8. |  R8. |   % rh lh kbR kbL   
- R8.  |  R8.  |  R8.  |  R8.  | % fl ob kl bn 
- R8.  |  R8. |   R8.  | % hn tpt  tn 
- R8.  |  R8.  |  R8.  | % tym perc fol 
- R8.  |  R8.  | % hpL hpR 
- R8.  |  R8.  |  R8.  |  R8.  |  R8.  |  % vn vII va vc cb 
- R8. |  R8. |  R8. |  R8. |  R8. |  R8. |  % I  II  III  IV  V  VI  
+\time 3/16 g8 g16 | \lyricmode{not at } | 
+r16 b8 | R8. | R8. | R8. | % rh lh kbR kbL 
+ r16 b8 | R8. | r16 b8 | R8. | % fl ob kl bn 
+ R8. | R8. | R8. | % hn tpt tn 
+ R8. | r16 b8-.| R8. | % tym perc fol 
+ R8. | R8. | % hpL hpR 
+ r16 b8 | R8. | R8. | 8. | r16 b,8-. | % vn vII va vc cb 
+ R8. | R8. | R8. | R8. | R8. | R8. | % I II III IV V VI 
 
 
  %bn953
-\time 3/4 \rit c2\startTextSpan r8 c8\stopTextSpan                      | \lyricmode{all! I }                               | % % % % add rit here
-R2.                                                                     | << {c='8 g d <a a'>  e'}\\{b=2} >> r8             |  R2. |  R2. |   %tempo change check % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+\time 3/4 \rit c2\startTextSpan r8 c8\stopTextSpan | \lyricmode{all! I } | % % % % add rit here
+R2. | << {c='8 g d <a a'> e'}\\{b=2} >> r8 | R2. | R2. | %tempo change check % rh lh kbR kbL 
+ <b c'' c'''>4 <d'' d'''>2 | R2. | b2. | R2. | % fl ob kl bn 
+ <c' c''>4 <d' d''>2 | R2. | R2. | % hn tpt tn 
+R2. | <b c'''>8 g'' d'' <a' a''>4. | R2. | % tym perc fol 
+c'8 g <d d'> <a, a> e,4 | r4 d'''8 a'' <e'' e'>4 | % hpL hpR 
+ r8 g'~^mutes g'2| R2. | r8 g4^mutes a4.  | 2. | b,2-. e,4-. | % vn vII va vc cb 
+R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
 
  %bn954
@@ -10454,42 +10452,43 @@ R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+r2 <d' f'>8( <dis' fis'>) q8-. q-. | r2. <fis' b'>8-. q-. | R1 | R1 | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI  
 
 
  %bn956
-\time 2/4 b4 b8. b16                                                    | \lyricmode{asked Mis -- ter }                     | 
-<dis fis>8 <dis fis> <dis fis> <dis fis>                                | R2                                                |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+\time 2/4 b4 b8. b16 | \lyricmode{asked Mis -- ter } | 
+<dis fis>8 <dis fis> <dis fis> <dis fis> | R2 | R2 | R2 | % rh lh kbR kbL 
+R2 | R2 | R2 | b,2~\> | % fl ob kl bn 
+R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+q8-. q8-. q8-. q8-. |  q8-. q8-. q8-. q8-. | R2 | b,2:32~\> | R2 | % vn vII va vc cb 
+R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
 
  %bn957
-\time 3/4 b4 b r8. b16                          | \lyricmode{Bar -- rell to }                      | 
-<e g>8 q q q <f aes> q        | R2.                                              |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
+\time 3/4 b4 b r8. b16 | \lyricmode{Bar -- rell to } | 
+<e g>8 q q q <f aes> q | R2. | R2. | R2. | % rh lh kbR kbL 
+R2. | R2. | R2. | 2.~ | % fl ob kl bn 
+R2. | R2. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+<e' g'>8-. q-. q-. q-. <e' gis'>8-. q8-.  | <g' b'>8-. q8-. q8-. q8-. <gis' b'>8-. q-.  | R2. | 2.:32~ | R2. | % vn vII va vc cb 
+R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
 
  %bn958
-\time 3/8 b8 b b                                | \lyricmode{give me his }                         | 
-\times 3/2 {<f aes>8 <f aes>}                   | R4.                                              |  R4. |  R4. |   % rh lh kbR kbL   
-R4. | R4. | R4. | R4. | % fl ob kl bn 
-R4. |  R4. |  R4. | % hn tpt  tn 
+\time 3/8 b8 b b | \lyricmode{give me his } | 
+\times 3/2 {<f aes>8 <f aes>} | R4. | R4. | R4. | % rh lh kbR kbL 
+R4. | R4. | R4. | 4.\! | % fl ob kl bn 
+R4. | R4. | R4. | % hn tpt tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | R4. |  % vn vII va vc cb 
-R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I  II  III  IV  V  VI  
+\times 3/2 {<f' aes'>8-. q-.}|\times 3/2 {  <aes' ces'>8-. q-. } |\times 3/2 {<f' aes'>8-. q-.}| 4.:32\! | R4. | % vn vII va vc cb 
+R4. | R4. | R4. | R4. | R4. | R4. | % I II III IV V VI 
 
+%{
 
  %bn959
 \time 2/8 ces8. d16                             | \lyricmode{arm, just }                           | %is a mm nec. at the top of this bar?
