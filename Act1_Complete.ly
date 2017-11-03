@@ -10250,7 +10250,6 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
  %bn938
  % % % % % % % % % % % % % % % % % % % % % %
 
-%}
 
 
 \time 6/8 \QdQ  
@@ -10534,6 +10533,7 @@ r8. r r | r8. r r | r8. r r | % tym perc fol
 r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % I II III IV V VI 
 
 
+%}
  %bn963
 \time 2/8 g8 e | \lyricmode{want then? } | 
 <f bes des>4 | R4 |4 | R4 | % rh lh kbR kbL 
@@ -10548,7 +10548,7 @@ R4 | R4 | R4 | R4 | R4 | R4 | % I II III IV V VI
  %bn964
 \time 12/16 \times 3/2{ r16 fis }\times 3/2{ g a} cis8 g16 g f16 cis' | \lyricmode{is it my arm you want? or what } | 
 R2. | R2. |r4. <cis' cis''>4. |R2.| % rh lh kbR kbL 
- r4.<cis' gis'' cis''>4.~ | R2. | R2. | R2. | % fl ob kl bn 
+ r4. <cis' gis'' cis''>4.~ | R2. | R2. | R2. | % fl ob kl bn 
 R2. |R2.| R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
@@ -10574,10 +10574,10 @@ R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI
 \time 5/8 e2-> r8 | \lyricmode{arm! } | 
 r4 r4. | <dis=, dis'>8[ <e e'> <b' b'> <gis gis'> <e' e'>] | r4. r4 | r4. r4 | % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 | r4. r4 | r4. r4 | % hn tpt tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-<cis,, cis,>4.~4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII va vc cb 
+r4 <b e'>4.~ | <b' e''>4. r4 | <e,, e,>4.~4~ | % hn tpt tn 
+ e,4.~4 | \cross b'4. ~ \cross b'4 | << {r4. r4}\\{\ossia "perc" {\instrumentSwitch "bells" r4 b'8 g' e''}}>> | % tym perc fol 
+<dis,, dis,>4.~4 | r4. r4 | % hpL hpR 
+ <dis' dis>8( <e' e> <b' b> <gis' gis>~ <gis' e'' gis e'>~| r4. r4 | dis,8( e,2) | dis8( e b gis e')| dis,,8( e,, b,, gis,, e,)| % vn vII va vc cb 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % I II III IV V VI 
 
 
@@ -10585,10 +10585,10 @@ r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % I II III IV V VI
 \time 2/8 \times 2/3{f4 e8} | \lyricmode{a -- ny } | 
 r4 | <dis, dis'>8 <e e'> | R4 | R4 | % rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
-R4 | R4 | R4 | % hn tpt tn 
-R4 | R4 | R4 | % tym perc fol 
+4~ | <b' f''>8. <b' e''>16| <dis,, dis,>8( <e,, e,>)| % hn tpt tn 
+4 | R4 |<< {  R4 }{\inst "ossia" {R4}}>> | % tym perc fol 
 4~ | R4 | % hpL hpR 
-R4 | R4 | R4 | R4 | R4 | % vn vII va vc cb 
+4~ | R4 | dis,8( e,~ | dis8( e | dis,,8( e,, | % vn vII va vc cb 
 R4 | R4 | R4 | R4 | R4 | R4 | % I II III IV V VI 
 
 
@@ -10596,32 +10596,32 @@ R4 | R4 | R4 | R4 | R4 | R4 | % I II III IV V VI
 e8 \times 4/6{r8 e16} | \lyricmode{arm! a } | 
 r4 | <e' e'>16 <b b'> r8 | R4 | R4 | % + this? <gis gis'> bar % rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
-R4 | R4 | R4 | % hn tpt tn 
-R4 | R4 | R4 | % tym perc fol 
-R4 | R4 | % hpL hpR 
-R4 | R4 | R4 | R4 | R4 | % vn vII va vc cb 
+4~  | 4 | <e, e>4) | % hn tpt tn 
+R4 | R4 |<< {  R4 }{\inst "ossia" {\instrumentSwitch "bellssilent" b'8 gis'}}>> | % tym perc fol 
+4 | R4 | % hpL hpR 
+4~ | R4 | 4) | e'8 b) | e,8 b,,) | % vn vII va vc cb 
 R4 | R4 | R4 | R4 | R4 | R4 | % I II III IV V VI 
 
 
  %bn969
-fis8 g16( fis)                                 | \lyricmode{hel -- ping }                           | 
-r4                                                       | <d, d'>4                                           |  R4 |  R4 |   % rh lh kbR kbL   
+fis8 g16( fis) | \lyricmode{hel -- ping } | 
+r4 | <d, d'>4 | R4 | R4 | % rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
-R4 |  R4 |  R4 | % hn tpt  tn 
+<b fis'>8~ <b g'>16~ <b fis'>~ | <b' fis''>8~ <b' g''>16~ <b' fis''>~ | <d,, d,>2 | % hn tpt tn 
 R4 | R4 | R4 | % tym perc fol 
-R4 | R4 | % hpL hpR 
-R4 | R4 | R4 | R4 | R4 |  % vn vII va vc cb 
-R4 |  R4 |  R4 |  R4 |  R4 |  R4 |  % I  II  III  IV  V  VI  
+ <d,,? d,?>4 | R4 | % hpL hpR 
+4~ | R4 | d4 | d,4 |  d,,4  | % vn vII va vc cb 
+R4 | R4 | R4 | R4 | R4 | R4 | % I II III IV V VI 
 
 
  %bn970
 \time 3/4 g4 g16 g gis d~ d8 r                           | \lyricmode{hand, for one mo -- ment }              | %re-write as 2 bars of 3/8
 g=''4 g16 f e d fis d c b                                | <<{c=2}\\{c,16 d e f g a b c}>> r4                 |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+g''4 g''16( f'' e''-- d'') fis''( d'' b' g') | R2. | R2. | R2. | % fl ob kl bn 
+<b e'>2.| <d' g' b' g''>4 <d' g'>16-. 16-. <d' gis'>4. | <c,, c,>2. | % hn tpt  tn 
+R2. | \cross b'4.\mp \cross e'4.\f |<<{  R2. }{\ossia "perc" {\instrumentSwitch "vibes" <g' g''>2.~ }}>>  | % tym perc fol 
+ <c,, c,>16\lv <d,, d,>\lv <e,, e,>\lv <f,, f,>\lv <g,, g,>\lv <a,, a,>\lv  <b,, b,>\lv c16~4 | R2. | % hpL hpR 
+ <g e' g' e''>2. |g''4 g''16( f'' e''-- d'') fis''( d'' b' g') | r4. gis''8~^mutes\> 8. r16\! | c,16\p d, e, f, g, a, b, c r4 | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
@@ -10629,9 +10629,9 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 \time 2/4 dis16 r a g fis8 c                             | \lyricmode{Christ, what a pla -- net.. }           | 
 dis16 b a g fis8 c                                       | R2                                                 |  R2 |  R2 |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2  |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+R2  | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
