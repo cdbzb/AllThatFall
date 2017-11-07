@@ -331,6 +331,15 @@
      (clefPosition . 0)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "vb"))
      (midiInstrument . "voice oohs"))
+\addInstrumentDefinition #"vibessilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "vb"))
+     (midiInstrument . "voice oohs"))
 %%%%%%%%%%%%%%%%%%%% VOICES
 
 \addInstrumentDefinition #"Rooney"
