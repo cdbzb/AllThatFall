@@ -10748,7 +10748,7 @@ r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % I II III IV V VI
 d8 c r4. | \lyricmode{coun -- ty. } | 
 <bes aes' d>8\arpeggio c' b gis f | <<{s4}\\{f4)}>> r4. | r4. r4 | r4. r4 | % rh lh kbR kbL 
 r4. r4 | r4. r4 | f''4.~4 | r4. r4 | % fl ob kl bn 
-r r4 | r4. r4 | <f, f,,>4.~4 | % hn tpt tn 
+r4. r4 | r4. r4 | <f, f,,>4.~4 | % hn tpt tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
  <f,, bes,>4.~4 | r4. r4 | % hpL hpR 
  d''8( c'' b' gis' f') | r4. r4 | d''8( c'' b' gis' f') | r4. r4 | f,,4.~4 | % vn vII va vc cb 
@@ -10793,7 +10793,7 @@ r4. r4 |  r4. r4 |  r4. r4 | r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  
  % % % % % % % % % % % % % % Well I Suppose it is the % % % % % % % % % % % % % % %
 
 \time 2/4 \instrumentSwitch "Fitt" fis=8 a16 g fis g a b | \lyricmode{Well, I sup -- pose it is the } | 
-r2 | <dis fis a c>2\arpeggio | <dis fis a>2\arpeggio | <c' fis'>2\arpeggio | % rh lh kbR kbL 
+r2 | <dis fis a c>2\arpeggio | <c' fis'>2\arpeggio | <dis fis a>2\arpeggio | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -10832,15 +10832,14 @@ R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI
 
 
  % % % % % walking falling fourths idea
-\dQQ \time 3/4 
-g4 r2                                    | \lyricmode{do.. }                          | 
-r4. fis='8 cis gis | g='8 d a e4 e'8 |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+\dQQ \time 3/4 g4 r2 | \lyricmode{do.. } |  %%% or is it just \QE ?
+r4. fis='8 cis gis | g='8 d a e4 e'8 | g'2. | R2. | % rh lh kbR kbL 
+R2. | R2. | g'4.( fis'4 e'8)| R2. | % fl ob kl bn 
+R2. | R2. | r2 <f' aes' c''>4\< | % hn tpt tn 
+R2. | \instrumentSwitch "vibes" <g' g''>8 <d' d''> <a a'> e'4 e''8 | R2. | % tym perc fol 
+ r4. <e, e>4 gis8\lv | r4 <fis' fis''>4 cis' | % hpL hpR 
+ r4 fis'8( cis' gis4) | R2. | g'4.(^mute fis'4 e'8)| g'8~( <g' d'>~ <g' d' a> e~ <e e'>8 b8)| R2. | % vn vII va vc cb 
+R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
 
  %bn989
@@ -10848,10 +10847,10 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI
 c8-> aes f16 g f |\lyricmode{Pis -- mires do it for }|
 <f=' aes c>4\arpeggio r8. | r4 r8. |  r4 r8. |  r4 r8. |   % rh lh kbR kbL   
  r4 r8.  |  r4 r8.  |  r4 r8.  |  r4 r8.  | % fl ob kl bn 
- r4 r8.  |  r4 r8. |   r4 r8.  | % hn tpt  tn 
+ \treble <aes' c''>8-.-> r r8. | <f' aes' c''>8-.-> r r8. | 16\! r8. r  | % hn tpt  tn 
  r4 r8.  |  r4 r8.  |  r4 r8.  | % tym perc fol 
  r4 r8.  |  r4 r8.  | % hpL hpR 
- r4 r8.  |  r4 r8.  |  r4 r8.  |  r4 r8.  |  r4 r8.  |  % vn vII va vc cb 
+ <f'' aes'' c'''>4~\p 8. | <c'' f'' aes''>8-.->^pizz r r8. | <c' f'>4~\p^"sul pont" 8. |  r4 r8.  |  r4 r8.  |  % vn vII va vc cb 
   r4 r8.   |   r4 r8.   |   r4 r8.   |   r4 r8.   |   r4 r8.   |   r4 r8.   |  % I  II  III  IV  V  VI  
 
 
@@ -10859,41 +10858,29 @@ c8-> aes f16 g f |\lyricmode{Pis -- mires do it for }|
 \dEE \time 3/4
 e16 f g aes r4. r32^"molto rit" f f f   | \lyricmode{one -- a -- no -- ther I have seen }|
 r4. e8 b fis | f c g d4 d'8 |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+ f''4 r8 e''4 r8 | R2. | e'8( g') r e''4( fis'8)| R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | <f' f''>8\p\sustainOn\> <c' c''> <g g'> d'4.\! |<< {  R2. }\\ {\ossia "vII" {f''4^"mutes"\pp c''8 d''4.}}>>  | % tym perc fol 
+R2. | r4. e''8 b' fis' | % hpL hpR 
+r4. e''8~ <e'' b'>4   | f'4.^mute\pp e'|  r8 c''8~^mutes < c'' g'>4. fis'8~^norm | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
 
  %bn991
-des'8^"a tempo" bes16 d r2 |\lyricmode{slugs do it! }|
-<f' bes des>4\arpeggio r4. a8 |<< {r4 bes'8 f c g} \\ {a'8 e b s4.} >> |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
+\time 7/8 \set Timing.beatStructure = #'(2 3 2) des'8^"a tempo" bes16 d \rit  r4.\start  r4  |\lyricmode{slugs do it! }|
+<f' bes des>4\arpeggio r4.  r4  | r4 r4. r4 |  r4 r4. r4 |  r4 r4. r4 |   % rh lh kbR kbL   
+r4  bes''8 f'' c''~ 8 r | r4 r4. r4 | r4 r4 a'8 e' b | r4 r4. r4 | % fl ob kl bn 
+r4 r4. r4 | <f' bes' des''>8-.-> r r4. r4 | <e' bes' des''>8-.-> r r4. r4 | % hn tpt  tn 
+r4 r4. r4 | a'8 e' b4 a''8 e'' b' | r4 r4. r4\sustainOff  | % tym perc fol 
+r4 r4. r4 | r4 <bes' bes''>8 <f' f''> <c' c''> <g' g''>4 | % hpL hpR 
+< bes' des''>8-.->^pizz r r4. r4 | r4 r4. r4 | <des' f'>4^"sul pont" r4. r4 | a'8 e' b4 c'8 g4 | r4 r4. r4 |  % vn vII va vc cb 
+r4 r4. r4 |  r4 r4. r4 |  r4 r4. r4 |  r4 r4. r4 |  r4 r4. r4 |  r4 r4. r4 |  % I  II  III  IV  V  VI  
 
-
- %bn992
-\time 2/4
-r4 r\fermata| |
-e8 b r4\fermata |g'4 r\fermata|  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
  %bn993
-\time 4/4
-R1 | |
-r2 g8 g c8 r | <c,,\< c'>1~ |  R1 |  R1 |   % rh lh kbR kbL   
+\time 4/4 R1\stop | |
+r2 g8 g c8 r | <c,,\< c'>1~ |r2 g8 g c8 r |  R1 |   % rh lh kbR kbL   
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -10904,7 +10891,7 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I  II  III  IV  V  VI
 
  %bn994
 R1 | |
-c'8( b16 a  g8 a16 f) \times 2/3 {fis'4( g8} \times 2/3 {fis4 g8)}| <c\> c'>1 |  R1 |  R1 |   % rh lh kbR kbL   
+c'8( b16 a  g8 a16 f) \times 2/3 {fis'4( g8} \times 2/3 {fis4 g8)}| <c\> c'>1 |c'8( b16 a  g8 a16 f) \times 2/3 {fis'4( g8} \times 2/3 {fis4 g8)}|  R1 |   % rh lh kbR kbL   
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
