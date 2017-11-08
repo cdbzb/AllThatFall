@@ -10736,89 +10736,80 @@ R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI
  %bn980
 \tEE \time 5/8 \set Timing.beatStructure = #'(2 3) ges8( ees) d c b | \lyricmode{scream down the whole } | %% kill vocal double in vn?
 r2 r8 | <<{bes4 s4.}\\{ees,4~( ees16 e16~ e4 }>> | r4. r4 | r4. r4 | % rh lh kbR kbL 
-r4. r4 | r4. r4 |\clef bass  <dis' dis''>4.~ <dis' e''>4~ | bes,,4.~4 | % fl ob kl bn 
- dis4.^norm e4~ | r4. r4 | dis,4. e4 | % hn tpt tn 
-r4. r4 | <<\cross g'2\lv  \\ d'\lv >>| r4. r4 | % tym perc fol 
+r4. r4 | r4. r4 |\treble   <dis' dis''>4~ 16 <dis' e''>16~ 4  | bes,,4.~4 | % fl ob kl bn 
+ dis4.^norm e4~ | r4. r4 | dis,4~ 16  e,16~4 | % hn tpt tn 
+r4. r4 | <<\cross g'2\lv  \\ d'\lv >> r8 | r4. r4 | % tym perc fol 
  <ees, bes,>4.~4 | r4. r4 | % hpL hpR 
- ges''8( ees'' d'' c'' b') | r4. r4 | 4.~ 4~  | 4.:32~  4:32~ | dis,,4 e,, | % vn vII va vc cb 
+ ges''8( ees'' d'' c'' b') | r4. r4 | 4.~ 4~  | 4.:32~  4:32~ | dis,,4~16 e,,16~4 | % vn vII va vc cb 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % I II III IV V VI 
 
 
  %bn981
 d8 c r4. | \lyricmode{coun -- ty. } | 
 <bes aes' d>8\arpeggio c' b gis f | <<{s4}\\{f4)}>> r4. | r4. r4 | r4. r4 | % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 | r4. r4 | r4. r4 | % hn tpt tn 
+r4. r4 | r4. r4 | f''4.~4 | r4. r4 | % fl ob kl bn 
+r r4 | r4. r4 | <f, f,,>4.~4 | % hn tpt tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % vn vII va vc cb 
+ <f,, bes,>4.~4 | r4. r4 | % hpL hpR 
+ d''8( c'' b' gis' f') | r4. r4 | d''8( c'' b' gis' f') | r4. r4 | f,,4.~4 | % vn vII va vc cb 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 | % I II III IV V VI 
 
 
- %bn982
-r4 r4. | |
-<bes, b'>8\arpeggio a' gis f d |  r4 r4. |  r4. r4 |  r4. r4 |   % rh lh kbR kbL   
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
-
  %bn983
-\time 3/4
-R2. | |
-<bes b'>8\arpeggio gis' g f d b | R2. |  R2. |  R2. |   % rh lh kbR kbL   
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+\time 3/4 R2. | |
+<bes b'>8\arpeggio gis' g f d b | R2. | R2. |  R2. |   % rh lh kbR kbL   
+R2. | R2. | b'8( gis' g' f' d' b~ | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. |  \triangle f''2.\> | R2. | % tym perc fol 
+ bes2. | R2. | % hpL hpR 
+R2. | R2. | b'8( gis' g' f' d' b~ | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
  %bn984
 \time 5/8 \set Timing.beatStructure = #'(2 3)
 r4 r4. | |
-<bes aes'>8 g' f d b | r4 r4. |  r4. r4 |  r4. r4 |   % rh lh kbR kbL   
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
+<bes aes'>8 g' f d b | r4 r4. | r4. r4 |  r4. r4 |   % rh lh kbR kbL   
+r4. r4 | r4. r4 | <b aes'>8 g' f' d' b~ | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
+r4. r4 | \triangle f''4.~ \triangle f''4 |	 r4. r4 | % tym perc fol 
+ bes,4.~4 | r4. r4 | % hpL hpR 
+ r4. r4 | r4. r4 | 8) r2 |  aes'8(\> g' f' d' b | r4. r4 |  % vn vII va vc cb 
+r4. r4 |  r4. r4 |  r4. r4 |  aes'8 g' f' d' b) |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
  %bn985
 r4 r4. | |
 <bes aes'>8\arpeggio g' f d b | e=8\arpeggio r2 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL   
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
+r4. r4 | r4. r4 | 8) r2 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
+r4. r4 | \triangle f''4.~ \triangle f''4\! | r4. r4 | % tym perc fol 
+ bes,,4.~4 | bes4.~4 | % hpL hpR 
+ <e bes>4.~^"sul pont"\pp  4 | r4. r4 | r4. r4 |  <b aes'>8^solo\pp g' f' d' b)\!| r4. r4 |  % vn vII va vc cb 
+o
+r4. r4 |  r4. r4 |  r4. r4 | r4. r4 |  r4. r4 |  r4. r4 |  % I  II  III  IV  V  VI  
 
 
 
  %bn986
  % % % % % % % % % % % % % % Well I Suppose it is the % % % % % % % % % % % % % % %
+
 \time 2/4 \instrumentSwitch "Fitt" fis=8 a16 g fis g a b | \lyricmode{Well, I sup -- pose it is the } | 
-r2                                                      | <dis fis a c>2\arpeggio                     |  R2 |  R2 |   % rh lh kbR kbL   
+r2 | <dis fis a c>2\arpeggio | <dis fis a>2\arpeggio | <c' fis'>2\arpeggio | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+R2 | R2 | R2 |<dis, fis,>2\mp | R2 | % vn vII va vc cb 
+R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
  %bn987
-\tEE c8 b16 a fis8. a16                                 | \lyricmode{pro -- tes -- tant thing to }   | 
-r2                                                      | R2                                         |  R2 |  R2 |   % rh lh kbR kbL   
+\tEE c8 b16 a fis8. a16 | \lyricmode{pro -- tes -- tant thing to } | 
+r2 | R2 | c''4 fis' | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
+R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
+R2 | R2 | R2 | R2 | R2 | R2 | % I II III IV V VI 
 
 
  %bn988
