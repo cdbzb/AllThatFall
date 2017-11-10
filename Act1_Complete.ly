@@ -10533,7 +10533,6 @@ r8. r r | r8. r r | r8. r r | % tym perc fol
 r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | r8. r r | % I II III IV V VI 
 
 
-%}
  %bn963
 \time 2/8 g8 e | \lyricmode{want then? } | 
 <f bes des>4 | R4 |4 | R4 | % rh lh kbR kbL 
@@ -10921,6 +10920,7 @@ r8. r r | r8. r r | r8. r r | % tym perc fol
  r8. r r | r8. r r | <fis b fis' b>8.-.\arpeggio r4. | dis,8 r16 fis,8 r16 b,8 r16| b8.-. r4. |  % vn vII va vc cb 
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I  II  III  IV  V  VI  
 
+%}
  %bn997
 \dEQ \time 2/4
 e4 e8 r |\lyricmode{ I'm left }|
@@ -10928,7 +10928,7 @@ R2 | r4. c8 |  R2 |  R2 |   % rh lh kbR kbL
 R2 | R2 | R2 | r4. c'8~ | % fl ob kl bn 
 R2 |  R2 | r4. c,8~ | % hn tpt  tn 
 R2 |\instrumentSwitch "vibes" r4. c'8\lv | R2 | % tym perc fol 
-r4. \times 4/6{c32~ e~ g~\crossStaff {c'~ e'~ g'~}} | R2 | % hpL hpR 
+r4. \times 4/6{\set tieWaitForNote = ##t c32~ e~ g~ \change Staff = "hpR" c'~   e'~ g'~ } | s2 | % hpL hpR 
 R2 | R2 | r4. <a e>8~ |r4. <c c'>8:32~ | r4. c,8^arc~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
@@ -10939,7 +10939,7 @@ R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL
 R2. | R2. | c'2.~ | 2.~ | % fl ob kl bn 
 R2. |  R2. |  2.~ | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
-<c e g>2. | <c' e' g' c''>2. | % hpL hpR 
+\change Staff = "hpL" <c e g>2. |<c' e' g' c''>2. | % hpL hpR 
 R2. | R2. | 2. | 2.:32 | 2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
@@ -10951,59 +10951,58 @@ r8 b=' a gis | b,2 |  R2 |  R2 |   % rh lh kbR kbL
  r8 b'4.\mp | R2 |4. r8 | b,2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
- r8 b'( a' gis') | R2 | b2~ |  b2:32~ | b,4. r8 |  % vn vII va vc cb 
+ b,,2 | R2 | % hpL hpR 
+ r8 b'( a' gis'~ | R2 | b2~ |  b2:32~ | b,4. r8 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
-%{
 
  %bn1000
 a4 r | \lyricmode {else! } |
 r8 a g fis | b'2 |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+r8  a'4. | R2 | R2 | b,2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+b,2 | R2 | % hpL hpR 
+ 8) r4. | r8 a'( g' fis'~ | 2~ | 2:32~ | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
  %bn1001
 R2 | |
 r8 g f e | b,2 |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+r8  g'4. | R2 | R2 | 2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ b,2 | R2 | % hpL hpR 
+ r8 g'( f' e'~ | 8) r4. | 2~ | 2:32~ | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
  %bn1002
 R2 |  |
 r8 f e d | b'2 |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+ r8 f'4.~ | R2 | R2 | 2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ b,2 | R2 | % hpL hpR 
+ 8)  f'( e' d'16 \set tieWaitForNote = ##t cis'32~ e'~  | r8 a''(^mutes g'' f'' | r8 f''( e'' d'' | 2:32 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
  %bn1003
 R2 | |
 <a~ cis~ e~ a~>2 | a,2~ |  R2 |  R2 |   % rh lh kbR kbL   
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | 2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ <cis' e' a'>2) | e''2) | cis''2) | a2:32~ | a,,2\mp |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
  %bn1004
 R2 | |
-<a~ cis~ e~ a~>2 | \grace {a16[ b cis d e fis] } <g~ a~ >2:32 |  R2 |  R2 |   % rh lh kbR kbL   
+<a~ cis~ e~ a~>2 | \grace {a16[ b cis d e fis] } <g~ a~ >2:32 |  R2 | \grace {a16[ b cis d e fis] } <g~ a~ >2:32 |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -11014,7 +11013,7 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI
 
  %bn1005
 R2 | |
-<a cis e a>2 |<g a>2:32 |  R2 |  R2 |   % rh lh kbR kbL   
+<a cis e a>2 |<g a>2:32 |  R2 |<g a>2:32 |   % rh lh kbR kbL   
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -11023,6 +11022,7 @@ R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I  II  III  IV  V  VI  
 
 
+%{
  %bn1006
 \times 2/3 {e'4 cis g } | \lyricmode {hea -- vens child! } |
  \grace {bes'16[( b c cis d dis]} \times 2/3 {<g, bes des e>4) <g bes des> <e g bes>}| <bes, bes'>2 |  R2 |  R2 |   % rh lh kbR kbL   
