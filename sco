@@ -368,7 +368,7 @@ echo 'sent ly file'
   \new Staff = "vII" \with {instrumentName = #"violin II" shortInstrumentName = #"vnII"}{\vII}
   \new Staff ="va" \with {instrumentName = #"viola" shortInstrumentName = #"va"}{\clef alto \va}
   \new Staff = "vc" \with {instrumentName = #"'cello" shortInstrumentName = #"vc"}{\clef bass \vc}
-  \new Staff = "cb" \with {instrumentName = #"bass" shortInstrumentName = #"cb"}{\clef bass \cb}
+  \new Staff = "cb" \with {instrumentName = #"bass" shortInstrumentName = #"cb"}{\clef "bass_8" \cb}
     >>
   >>
   }
