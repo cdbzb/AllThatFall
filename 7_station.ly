@@ -97,7 +97,7 @@ R2 | <cis'' cis'''>2 | R2 | % tym perc fol
  %bn8
 \time 3/4 cis4 \times 2/3 {d8 a16 } \times 2/3 {f8 e16 } r8\stop  f| \lyricmode {all for the mo -- ment I } |
 R2. |d2.) |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | 4 r2  |d,2 | % fl ob kl bn 
+R2. | R2. | 4 r2  |d,2. | % fl ob kl bn 
 R2. |  R2. | 4 r2 | % hn tpt  tn 
 R2. | r4 d''2 | R2. | % tym perc fol 
 R2. | d'4.~  d''4 f'8 | % hpL hpR 
@@ -110,8 +110,8 @@ R2. | d'4.~  d''4 f'8 | % hpL hpR
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+<ees ges>4.~4 | <c' ees' ges' c''>4.~4 | % hpL hpR 
+ <fis' c'>8\arpeggio^arc r4 r  | r4. r4 | fis8^arc r4 r | dis8^arc r4 r | r4. r4 |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
  %bn10
@@ -120,31 +120,31 @@ R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | r4 des'8( c'  | % hpL hpR 
+ c'8 r4. | R2 | R2 |  fis8 r4. | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
-%{
  %bn11
 \dQQ cis'8 b  fis dis | \lyricmode {ram -- dam miss Fitt } |
 <dis fis a>4 r | b2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+\repeat tremolo 8 {  fis'32\p b' } | R2 | R2 | <dis fis>2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+ dis2 | b2) | % hpL hpR 
+cis'8( dis'4.~  | <b' cis''>2~ | fis2 | b2~ | R2 |% vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn12
 \tQQ r4 dis8 e | \lyricmode {had I } |
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+\repeat tremolo 8 {  fis'32 b' } | R2 |\clef bass b,2 | 2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+2) | R2 | R2 | <b dis'>2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn13
 \dQQ dis8 e16 fis \times 4/5 {dis16 e fis gis ais( } | \lyricmode {known you were loo -- kin for  your mo -- } | % % % or could be 4:3 ...
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
