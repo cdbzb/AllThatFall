@@ -137,44 +137,44 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI
  %bn12
 \tQQ r4 dis8 e | \lyricmode {had I } |
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-\repeat tremolo 8 {  fis'32 b' } | R2 |\clef bass b,2 | 2~ | % fl ob kl bn 
+\repeat tremolo 8 {  fis'32 b' } | R2 |\clef bass b,2~ | 2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 2) | R2 | R2 | <b dis'>2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
  %bn13
 \dQQ dis8 e16 fis \times 4/5 {dis16 e fis gis ais( } | \lyricmode {known you were loo -- kin for  your mo -- } | % % % or could be 4:3 ...
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+\repeat tremolo 4 {  fis'32 b' } r4 | R2 | 2 | 4 r| % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | r4 \times 4/5 {ees'16\sustainOn e' ges' aes' bes'} | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ 4 r | R2 | R2 | b2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn14
 \EQ c8) gis fis gis | \lyricmode {ther I should } |
 <e fis gis>2\arpeggio | <fis= gis c>2\arpeggio |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+<< bes''2\trill \\ <aes' aes''> >> | R2 | <ges ges'>2 | R2 | % fl ob kl bn 
+ \clef bass c2~ |  R2 |  R2 | % hn tpt  tn 
+R2 | c''2 | R2 | % tym perc fol 
+ <fis gis c'>2\arpeggio | < e' fis c''>2\arpeggio | % hpL hpR 
+ <ges' aes'>2 | <ges'' aes''>2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn15
 \rit \times 2/3 {f4\start g8} a8 b16 c( | \lyricmode {not have op -- por tuned } |
 R2 | f8-.\sustainOn g-. a-. b-. |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+<a' a''>2 | \clef bass f8 r16 g a8 r16 b | <f f'>2 | f,8-. g,-. a,-. b,-. | % fl ob kl bn 
+2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2\sustainOff | R2 | % tym perc fol 
+ f2 | R2 | % hpL hpR 
+ <f' g'>2 | <f'' g''>2 | R2 | R2 | << {f8.-.^pizz g16-. a8.-. b16-.}\\{f,8-. g,-. a,-. b,-.}>> |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
+%{
  %bn16
 d4.)\stop c8 |  \lyricmode {you } |
  <<{d'=''4.( c8)}\\{r8 e,~ <e g>4}>> |c,2 |  R2 |  R2 |   % rh lh kbR kbL 
