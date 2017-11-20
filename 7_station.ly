@@ -149,7 +149,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 \repeat tremolo 4 {  fis'32 b' } r4 | R2 | 2 | 4 r| % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | r4 \times 4/5 {ees'16\sustainOn e' ges' aes' bes'} | R2 | % tym perc fol 
+R2 | r4 \times 4/5 {ees'16\sustainOn fes'  ges' aes' bes'} | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
  4 r | R2 | R2 | b2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
@@ -167,95 +167,96 @@ R2 | c''2 | R2 | % tym perc fol
  %bn15
 \rit \times 2/3 {f4\start g8} a8 b16 c( | \lyricmode {not have op -- por tuned } |
 R2 | f8-.\sustainOn g-. a-. b-. |  R2 |  R2 |   % rh lh kbR kbL 
-<a' a''>2 | \clef bass f8 r16 g a8 r16 b | <f f'>2 | f,8-. g,-. a,-. b,-. | % fl ob kl bn 
+<a' a''>2~ | \clef bass f8 r16 g a8 r16 b | <f f'>2~ | f,8-. g,-. a,-. b,-. | % fl ob kl bn 
 2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2\sustainOff | R2 | % tym perc fol 
  f2 | R2 | % hpL hpR 
- <f' g'>2 | <f'' g''>2 | R2 | R2 | << {f8.-.^pizz g16-. a8.-. b16-.}\\{f,8-. g,-. a,-. b,-.}>> |% vn vII va vc cb 
+ <f' g'>2~ | <f'' g''>2 | R2 | R2 |\clef bass << {f8.-.^pizz g16-. a8.-. b16-.}\\{f,8-. g,-. a,-. b,-.}>> |% vn vII va vc cb 
+
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
-%{
  %bn16
 d4.)\stop c8 |  \lyricmode {you } |
  <<{d'=''4.( c8)}\\{r8 e,~ <e g>4}>> |c,2 |  R2 |  R2 |   % rh lh kbR kbL 
- R2 | R2 | R2 | R2 | % fl ob kl bn 
- R2 |  R2 |  R2 | % hn tpt  tn 
+ 2 | d'4. c'8 | 2 | c4. r8 | % fl ob kl bn 
+ 2 |  R2 |  R2 | % hn tpt  tn 
  R2 | R2 | R2 | % tym perc fol 
- R2 | R2 | % hpL hpR 
- R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
- ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+ c2 | r8 e' g' c'' | % hpL hpR 
+ <e' g'>2 | <e'' g''>2 | R2 | R2 | c'4-. r |% vn vII va vc cb 
+ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn17
  \time 5/8 r8 c b fis16 g fis r | \lyricmode {I know what it is } |
  ees4~ ees4. | ees'4~ ees4. |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
- r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
- r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+ <c' c''>8-- r2 | r4. r4 | <ees, ees>8-- r2 | r4. r4 | % fl ob kl bn 
+ ees8-- r2 |  r4. r4 |  r4. r4 | % hn tpt  tn 
  r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
- r4. r4 | r4. r4 | % hpL hpR 
- r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
- ,  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
+ <dis, dis>4.~4 | r4. r4 | % hpL hpR 
+ <ees' g'>8-- r2 | <ees'' g''>8-- r2 | r4. r4 | r4. r4 | \clef "bass_8" ees,8-.-- r2 |% vn vII va vc cb 
+  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn18
- \time 2/8 \instrumentSwitch "Tyler" e'8\noBeam fis, | \lyricmode {Ram -- dam! } | % % %slower here?
- <fis a c e>4 | d,4 |  R4 |  R4 |   % rh lh kbR kbL 
- R4 | R4 | R4 | R4 | % fl ob kl bn 
- R4 |  R4 |  R4 | % hn tpt  tn 
+ \time 2/8 \instrumentSwitch "Tyler" s128 e'8\noBeam fis,8*15/16 | \lyricmode {Ram -- dam! } | % % %slower here?
+ s128 <fis a c e>4*31/32 | d,4 |  R4 |  R4 |   % rh lh kbR kbL 
+ s128 d'''4*31/32\trill | R4 | R4 | R4 | % fl ob kl bn 
+ s128 \grace {d16( a c'} fis'8*15/16 \times 2/3 {c'16 a d)} |  R4 |  R4 | % hn tpt  tn 
  R4 | R4 | R4 | % tym perc fol 
- R4 | R4 | % hpL hpR 
- R4 | R4 | R4 | R4 | R4 |% vn vII va vc cb 
- ,  R4 |  R4 |  R4 |  R4 |  R4 |  R4 |   % I II III II I VI 
+ s128 <d,, d,>4*31/32 | s128 <fis a c' e'>4*31/32 | % hpL hpR 
+ s128 \grace e'16( <c'' e''>4*31/32)| R4 | s128 \grace a16( <c' d' fis'>4*31/32)|s128  <d, c fis>4*31/32\arpeggio | R4 |% vn vII va vc cb 
+  R4 |  R4 |  R4 |  R4 |  R4 |  R4 |   % I II III II I VI 
 
  %bn19
  \time 2/4 \instrumentSwitch "Fitt" fis='4-.\noBeam gis,16 ais gis ais | \lyricmode {come Dol -- ly dar -- ling } | % should be "Woman"
  R2 |  fis,4-. r |  R2 |  R2 |   % rh lh kbR kbL 
- R2 | R2 | R2 | R2 | % fl ob kl bn 
+ <ais' cis''>4~ <cis' cis''>~ | R2 |\treble  r4 fis'16( g' fis' g') | r4 cis'16\p( b ais f | % fl ob kl bn 
  R2 |  R2 |  R2 | % hn tpt  tn 
- R2 | R2 | R2 | % tym perc fol 
- R2 | R2 | % hpL hpR 
- R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
- ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+ R2 |\instrumentSwitch "perc"  \triangle  f''2\lv | R2 | % tym perc fol 
+ fis,,2 | \clef bass <fis fis'>4 gis16 ais8. | % hpL hpR 
+ cis''2~^mute| R2 | r8 < fis cis'>4. | R2 | fis,2-. |% vn vII va vc cb 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
- %bn20
+%bn20
   \time 3/4 \QdQ r4 eis8 fis r4 | \lyricmode {let us } | % should be half = dotted half
   R2. | <fis' ais cis>4-. r2 |  R2. |  R2. |   % rh lh kbR kbL 
-  R2. | R2. | R2. | R2. | % fl ob kl bn 
+  R2. | R2. | r4 gis'8( ais') r4 | cis2) fis4 | % fl ob kl bn 
   R2. |  R2. |  R2. | % hn tpt  tn 
   R2. | R2. | R2. | % tym perc fol 
-  R2. | R2. | % hpL hpR 
-  R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-  ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  R2. | r4 eis8 fis8~ 4  | % hpL hpR 
+  2.~ | R2. | R2. | R2. | cis4-. r4 fis,-.  |% vn vII va vc cb 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
- %bn21
+%bn21
   \time 7/8 \set Timing.beatStructure = #'(3 4) \EE 
   gis8 ais fis bis8 cis16 bis8 ais16 r8 | \lyricmode {take up our stand be -- for the } | %should be 6 + 1
-  r4. <fis gis c>4.\arpeggio r8 | r4. r4. r8 |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
-  r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
-  r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn 
-  r2 r4. | r2 r4. | r2 r4. | % tym perc fol 
-  r2 r4. | r2 r4. | % hpL hpR 
-  r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |% vn vII va vc cb 
-  ,  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |   % I II III II I VI 
+  r4. <fis gis c>4.\arpeggio r8 | r4. r4. r8 |  r4. r2 |  r4. r2 |   % rh lh kbR kbL 
+  <cis' cis''>4.  r2 | r4. r2 | f'8( fis') r dis'2 | r4.  <fis gis>2\arpeggio | % fl ob kl bn 
+  r4. r2 |  r4. r2 |  r4. r2 | % hn tpt  tn 
+  r4. r2 | r4. r2 | r4. r2 | % tym perc fol 
+  r4. <fis, gis, bis, gis >2\arpeggio |  gis8( ais <fis bis>) <bis>2  | % hpL hpR 
+  4.  gis''2  | r4. r2 | r4. r2 | r4. <dis fis gis c'>4-.^pizz\arpeggio r | r4. r2 |% vn vII va vc cb 
+    r4. r2 |  r4. r2 |  r4. r2 |  r4. r2 |  r4. r2 |  r4. r2 |   % I II III II I VI 
 
- %bn22
+%bn22
   \time 2/4 \EE e'='8 c bes ges | \lyricmode {first class smo -- kers } |
-e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL 
-  R2 | R2 | R2 | R2 | % fl ob kl bn 
-  R2 |  R2 |  R2 | % hn tpt  tn 
+  e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL 
+  bes''2~\trill | R2 | r4 fis''(\prall^\markup{\sharp} | e,2 | % fl ob kl bn 
+  R2 |  R2 | \treble r8 e''4 bes'8 | % hn tpt  tn 
   R2 | R2 | R2 | % tym perc fol 
-  R2 | R2 | % hpL hpR 
-  R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  e4 ais8 fis | e'8 c'4. | % hpL hpR 
+  r8 c''4 fis'8 | R2 | r4 bes | R2 | R2 |% vn vII va vc cb 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn23
   \dQQ r4 d'8 d | \lyricmode {take my } |
    r4 <f bes d>8 <f bes d> |f8\sustainOn( bes d4) |  R2 |  R2 |   % rh lh kbR kbL 
-   R2 | R2 | R2 | R2 | % fl ob kl bn 
-   R2 |  R2 |  R2 | % hn tpt  tn 
-   R2 | R2 | R2 | % tym perc fol 
-   R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+   bes''4) r | R2 | e''8) bes'4. | f2 | % fl ob kl bn 
+   \treble r4 bes'8.(\mf c''16 |  R2 | r4 <bes d' f'>8 8 | % hn tpt  tn 
+   R2 |\instrumentSwitch "vibes" <f'' f'''>2 | R2 | % tym perc fol 
+   f,8( bes, d4) | r4 <f bes d'> | % hpL hpR 
+   r4 <bes d' bes' d''  >\mp | <f'' f'''>2~^mutes\p | r8 <bes, bes>4.\mp | R2 | e,2~^arco |% vn vII va vc cb 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn24
   \QdQ \time 5/8 d4 c8 a f | \lyricmode {hand and hold me } |
   <<{d'4 c8 a f}\\{<f a>4 s4.}>> | <f, a d>4.~ <f a d>4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
@@ -264,7 +265,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
   r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
   r4. r4 | r4. r4 | % hpL hpR 
   r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
-  ,  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI   
+    r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI   
 
  %bn25
    \QdQ \time 8/8 \set Timing.beatStructure = #'(3 3 2) %should be 6/8 + 
@@ -275,7 +276,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R1 | R1 | R1 | % tym perc fol 
    R1 | R1 | % hpL hpR 
    R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
-   ,  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
+  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
 
  %bn26
    \time 5/8 \set Timing.beatStructure = #'(3 2) b'8 ees, \instrumentSwitch "Tyler" g16[ a] b8. g16 | \lyricmode {un -- der you have lost your } |
@@ -285,7 +286,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
    r4. r4 | r4. r4 | % hpL hpR 
    r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
-   ,  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
+  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn27
    \time 3/4 \tEE dis'8 b g dis r \instrumentSwitch "Fitt" a'=\noBeam | \lyricmode {mo -- ther Miss Fitt? Good } |
@@ -295,7 +296,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
  %bn28
    \time 3/8 e'8 a, a16 b | \lyricmode {mor -- ning Mis -- ter  } |
@@ -305,7 +306,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R4. | R4. | R4. | % tym perc fol 
    R4. | R4. | % hpL hpR 
    R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
-   ,  R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI   
+  R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI   
 
  %bn29
    \time 2/4 a4 d,8 \instrumentSwitch "Tyler" g\noBeam |\lyricmode {Ty -- ler Good } |
@@ -315,7 +316,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn30
    d'4 g,8 g  | \lyricmode {Mor -- ning Miss } |
@@ -325,7 +326,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn31
    \time 6/8 c,8 r \instrumentSwitch "Barrell" d8 g d a   | \lyricmode {Fitt Good mor -- ning Miss } |
@@ -335,7 +336,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
  %bn32
    \times 3/2 {e8-. \instrumentSwitch "Fitt"  d'=8\noBeam} a'4 d,8~ | \lyricmode {Fitt Good mor -- ning } |
@@ -345,7 +346,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn33
    d8 d d d4 g,8 | \lyricmode {Mis -- ter Bar -- rell } |
@@ -355,7 +356,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
  %bn34
    \time 2/4 r8\fermata \instrumentSwitch "Tyler" g'=16\noBeam a b8. g16 | \lyricmode {you have lost your } |
@@ -365,7 +366,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn35
    \tEE dis'8 b g dis | \lyricmode {mo -- ther Miss Fitt }| %check MM
@@ -375,7 +376,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn36
    \dQQ \instrumentSwitch "Fitt" c'='16\noBeam b c a fis8 g16 a  | \lyricmode {she said she would be on the } |
@@ -385,7 +386,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn37
    \QdQ r4 ees'  | \lyricmode {last } | %check MM maybe should be \HdH?
@@ -395,7 +396,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn38
    f4 r8 \instrumentSwitch "Tyler" g,16\noBeam a | \lyricmode {train! When you } |
@@ -405,7 +406,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn39
    \time 3/4 \times 2/3 {b4 g8 } ees'4-. f-. | \lyricmode {say the last train } |
@@ -415,7 +416,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn40
    \instrumentSwitch "Rooney" \time 5/8 bes=4\noBeam aes ges8 | \lyricmode {do not im -- } |
@@ -425,7 +426,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
    r4. r4 | r4. r4 | % hpL hpR 
    r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
-   ,  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
+  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
  %bn41
    f4 ees8 r b8 | \lyricmode {a -- gine be -- } |
@@ -435,7 +436,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
    r4. r4 | r4. r4 | % hpL hpR 
    r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
-   ,  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
+  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
  %bn42
    \time 6/8 cis8 dis b g'4 ees8 | \lyricmode {cause I am  si -- lent } |
@@ -445,7 +446,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
  %bn43
    \time 2/4 \EE ees8 f g ees | \lyricmode {that I am not } |
@@ -455,7 +456,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn44
    \dEE a8 f \times 2/3 {f4 f8 } | \lyricmode {pre -- sent and a -- } |
@@ -465,7 +466,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn45
    c'4. b8 | \lyricmode {live to } |
@@ -475,7 +476,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn46
    \time 3/4 \tEE b4 aes8 ges f ees | \lyricmode {all that is go -- ing } |
@@ -485,7 +486,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
  %bn47
    \time 2/4 a8 r4 \instrumentSwitch "Tyler" f16\noBeam g  | \lyricmode {on When you } |
@@ -495,7 +496,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn48
    \time 5/8 \tEE a4 f8 cis'4-. | \lyricmode {say the last } |
@@ -505,7 +506,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
    r4. r4 | r4. r4 | % hpL hpR 
    r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
-   ,  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
+  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn49
    \time 3/8 f,8\noBeam \instrumentSwitch"Rooney" gis=8\noBeam fis | \lyricmode {train do not } |
@@ -515,7 +516,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R4. | R4. | R4. | % tym perc fol 
    R4. | R4. | % hpL hpR 
    R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
-   ,  R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI   
+  R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI   
 
  %bn50
    \time 3/4 a8 gis fis8 dis e fis | \lyricmode {flat -- ter your -- self for one } |
@@ -525,7 +526,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-   ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
  %bn51
    \time 2/4 g4 \times 2/3 {g,4 aes8 } | \lyricmode {mo -- ment be -- } |
@@ -535,7 +536,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn52
    \times 2/3 {bes4 c8}   \times 2/3 {d4 bes8} | \lyricmode {cause I hold a -- } |
@@ -545,7 +546,7 @@ e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-   ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn53
    e4 b8 c | \lyricmode {loof that my } |
@@ -656,7 +657,7 @@ r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb
  R2. | R2. | R2. | % tym perc fol 
  R2. | R2. | % hpL hpR 
  R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
- ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
 
 
@@ -903,7 +904,7 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
  R2 | R2 | R2 | % tym perc fol 
  R2 | R2 | % hpL hpR 
  R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
- ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
 
  %bn88
@@ -914,7 +915,7 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
     R2. | R2. | R2. | % tym perc fol 
     R2. | R2. | % hpL hpR 
     R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-    ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
  %bn89
     \time 2/4 \instrumentSwitch "Rooney" <d e>2:32^"blows nose" | \lyricmode { phphp } |
@@ -924,7 +925,7 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
     R2 | R2 | R2 | % tym perc fol 
     R2 | R2 | % hpL hpR 
     R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-    ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn90
 \instrumentSwitch "Tyler" r8 b16 cis \times 2/3 {dis4 b8} | \lyricmode {when you say the } |
@@ -936,15 +937,15 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
- %bn91
-    \tEE g4-> r a-> r8 a | \lyricmode {last train I } |
-    R2 R2 | <g g'>4-> r <a a'>-> r  |  R2 |  R2 |   % rh lh kbR kbL 
-    R2 | R2 | R2 | R2 | % fl ob kl bn 
-    R2 |  R2 |  R2 | % hn tpt  tn 
-    R2 | R2 | R2 | % tym perc fol 
-    R2 | R2 | % hpL hpR 
-    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-    ,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI     
+%bn91
+  \tEE g4-> r a-> r8 a | \lyricmode {last train I } |
+  R2 R2 | <g g'>4-> r <a a'>-> r  |  R2 |  R2 |   % rh lh kbR kbL 
+  R2 | R2 | R2 | R2 | % fl ob kl bn 
+  R2 |  R2 |  R2 | % hn tpt  tn 
+  R2 | R2 | R2 | % tym perc fol 
+  R2 | R2 | % hpL hpR 
+  R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI     
 
  %bn92
 \time 3/8 \QdQ b8 a g | \lyricmode {take it you } |
@@ -1420,7 +1421,7 @@ fis8. f e16 dis |<< {<b= a>8.~b~ b8}\\{r8. <aes f> <g e>16 <fis dis> }>> |  r8. 
  r8. r r8  |  r8. r r8  |  r8. r r8  | % tym perc fol 
  r8. r r8  |  r8. r r8  | % hpL hpR 
  r8. r r8  |  r8. r r8  |  r8. r r8  |  r8. r r8  |  r8. r r8  |% vn vII va vc cb 
- ,  0 |  0 |  0 |  0 |  0 |  0 |   % I II III II I VI  
+  0 |  0 |  0 |  0 |  0 |  0 |   % I II III II I VI  
 
  %bn139
 \time 5/8 \instrumentSwitch "Barrell" b,8\noBeam cis16 ais b8 cis16 dis e8-.| \lyricmode {that's e -- nough guff out of you } | %change note on 'you' for emphasis ??
@@ -2164,7 +2165,7 @@ r4. r r | r4. r r | r4. r r | r4. r r | r4. r r |% vn vII va vc cb
  R2. | R2. | R2. | % tym perc fol 
  R2. | R2. | % hpL hpR 
  R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
- ,  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn213
  d8 gis,4 r8 a8 b | \lyricmode {shri -- vel and he } |
@@ -2381,7 +2382,7 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
  r2 r8.  |  r2 r8.  |  r2 r8.  | % tym perc fol 
  r2 r8.  |  r2 r8.  | % hpL hpR 
  r2 r8.  |  r2 r8.  |  r2 r8.  |  r2 r8.  |  r2 r8.  |% vn vII va vc cb 
- ,  0 |  0 |  0 |  0 |  0 |  0 |   % I II III II I VI 
+  0 |  0 |  0 |  0 |  0 |  0 |   % I II III II I VI 
 
 
  %bn234
