@@ -256,28 +256,28 @@ d4.)\stop c8 |  \lyricmode {you } |
    r4 <bes d' bes' d''  >\mp | <f'' f'''>2~^mutes\p | r8 <bes, bes>4.\mp | R2 | e,2~^arco |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
  %bn24
   \QdQ \time 5/8 d4 c8 a f | \lyricmode {hand and hold me } |
   <<{d'4 c8 a f}\\{<f a>4 s4.}>> | <f, a d>4.~ <f a d>4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-  r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-  r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+  r4. r4 | r4. r4 | a'4.~4 | r4. r4 | % fl ob kl bn 
+  f''4.~8) r |  r4. r4 | <a d' f'>4.~4 | % hn tpt  tn 
   r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-  r4. r4 | r4. r4 | % hpL hpR 
-  r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+ <a, f a>4.~4 | c'4( b8~4)| % hpL hpR 
+ << {<d' d''>4.~4~} \\ {<a a'>2 <f f'>8}>> | 4.~4~ | <a, a>4.~4 | r4. r4 |4.~4 |% vn vII va vc cb 
     r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI   
 
  %bn25
    \QdQ \time 8/8 \set Timing.beatStructure = #'(3 3 2) %should be 6/8 + 
    e4. ees8 f ees r ees  | \lyricmode {tight you can be pulled } |
    R1 | e2. ees4~( |  R1 |  R1 |   % rh lh kbR kbL 
-   R1 | R1 | R1 | R1 | % fl ob kl bn 
-   R1 |  R1 |  R1 | % hn tpt  tn 
+   R1 | R1 | e'4. dis'2 8 | R1 | % fl ob kl bn 
+   \clef bass e,4.^stopped dis,4. r4  |  R1 |  R1 | % hn tpt  tn 
    R1 | R1 | R1 | % tym perc fol 
-   R1 | R1 | % hpL hpR 
-   R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
+ <e, e>4. <dis, dis>~4 | R1 | % hpL hpR 
+ << { <d'' g''>1 } \\ {<e e'>2 r} >> | 2.\> r4\!  | R1 | R1 | e,4.-.^pizz dis,4.-. 4-. |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
 
+%{
  %bn26
    \time 5/8 \set Timing.beatStructure = #'(3 2) b'8 ees, \instrumentSwitch "Tyler" g16[ a] b8. g16 | \lyricmode {un -- der you have lost your } |
    r4. r4 | <ees f b>4.) r8 g,~  |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
