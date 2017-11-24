@@ -47,7 +47,7 @@ R1  | R1  | R1  | f,2-. c2-. | R1  |% vn vII va vc cb
 r2 d4 e8 c | \lyricmode {that will do } |
 r2 <f aes~ d>2 | <g g'>2)  aes'( |  R1 |  R1 |   % rh lh kbR kbL 
  q4) r2. | R1  | b4) r4 aes'2~  | r2 aes,2 | % fl ob kl bn 
- g4) r2. |  R1 | b,4) r4 f2(  | % hn tpt  tn 
+ g4) r2. |  R1 | b,4) r4 f2  | % hn tpt  tn 
 R1  | R1  | R1  | % tym perc fol 
 r2 <f aes d' >\arpeggio |r2  <f' aes' d''>2\arpeggio | % hpL hpR 
  r2.. <c' c''>8~^mute\pp\<  | R1  | r2 f4^mute e~ | g,2-. aes,-. | R1  |% vn vII va vc cb 
@@ -273,61 +273,61 @@ d4.)\stop c8 |  \lyricmode {you } |
    R1 | R1 | e'4. dis'2 8 | R1 | % fl ob kl bn 
    \clef bass e,4.^stopped dis,4. r4  |  R1 |  R1 | % hn tpt  tn 
    R1 | R1 | R1 | % tym perc fol 
- <e, e>4. <dis, dis>~4 | R1 | % hpL hpR 
+ <e, e>4. <dis, dis> dis,4( | R1 | % hpL hpR 
  << { <d'' g''>1 } \\ {<e e'>2 r} >> | 2.\> r4\!  | R1 | R1 | e,4.-.^pizz dis,4.-. 4-. |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
 
-%{
  %bn26
    \time 5/8 \set Timing.beatStructure = #'(3 2) b'8 ees, \instrumentSwitch "Tyler" g16[ a] b8. g16 | \lyricmode {un -- der you have lost your } |
    r4. r4 | <ees f b>4.) r8 g,~  |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-   r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-   r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+ b''4 r8 r8. g''16~( | r4. r4 | b'4 r8 r g'( | r4. r4 | % fl ob kl bn 
+ r4. r4 |  r4. r4 | \clef bass s128 \grace b,16( <ees f b>4\arpeggio) r4.*47/48 | % hn tpt  tn 
    r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-   r4. r4 | r4. r4 | % hpL hpR 
-   r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+  <f, b, f>4.)\lv\arpeggio \r8 g,16( g | \treble b4.\lv\arpeggio r4  | % hpL hpR 
+ <g b dis'>4.:32\arpeggio r4 | r4. r4 | r4. r4 | <b, f b>4.-.\arpeggio^pizz r8 g,8-.  | 4.-. r4 |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn27
    \time 3/4 \tEE dis'8 b g dis r \instrumentSwitch "Fitt" a'=\noBeam | \lyricmode {mo -- ther Miss Fitt? Good } |
    R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-   R2. | R2. | R2. | R2. | % fl ob kl bn 
-   R2. |  R2. |  R2. | % hn tpt  tn 
-   R2. | R2. | R2. | % tym perc fol 
-   R2. | R2. | % hpL hpR 
-   R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+ <g'' ees'''>4 r2 | R2. | ees''4 r2 | R2. | % fl ob kl bn 
+ <g ees'>4^stopped r2 |  R2. | <ees ees'>4 r2 | % hn tpt  tn 
+   R2. | \instrumentSwitch "perc" \triangle f''2. | R2. | % tym perc fol 
+ dis2 r4 | dis'2 r8 a | % hpL hpR 
+ <dis' g>4:32\arpeggio r2  | <ees''' a'''>4^mutes r2 | R2. | <f g b dis>4-.\arpeggio r2 | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
  %bn28
    \time 3/8 e'8 a, a16 b | \lyricmode {mor -- ning Mis -- ter  } |
    R4. | R4. |  R4. |  R4. |   % rh lh kbR kbL 
-   R4. | R4. | R4. | R4. | % fl ob kl bn 
+ \cross b'4.^tuning | R4. | R4. | R4. | % fl ob kl bn 
    R4. |  R4. |  R4. | % hn tpt  tn 
    R4. | R4. | R4. | % tym perc fol 
    R4. | R4. | % hpL hpR 
-   R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
+ \cross b'4.^tuning | R4. | \cross c'4.^tuning | R4. | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI   
 
  %bn29
    \time 2/4 a4 d,8 \instrumentSwitch "Tyler" g\noBeam |\lyricmode {Ty -- ler Good } |
    R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-   R2 | R2 | R2 | R2 | % fl ob kl bn 
+ \cross b'2| R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ \cross b'2| R2 | \cross c'2| R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn30
    d'4 g,8 g  | \lyricmode {Mor -- ning Miss } |
-   R2  | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-   R2 | R2 | R2 | R2 | % fl ob kl bn 
+   R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
+ \cross b'2| R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ \cross b'2| R2 | \cross c'2| R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
+%{
  %bn31
    \time 6/8 c,8 r \instrumentSwitch "Barrell" d8 g d a   | \lyricmode {Fitt Good mor -- ning Miss } |
    R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
