@@ -20,7 +20,6 @@ tag = \date
 
 \override Score.RehearsalMark #`break-visibility = #begin-of-line-invisible
 %{
-%}
  %bn1
  \tempo 4 = 60 %dummy
 \tempo "sempre rit" \instrumentSwitch "Rooney"
@@ -307,6 +306,7 @@ d4.)\stop c8 |  \lyricmode {you } |
  \cross b'4.^tuning | R4. | \cross c'4.^tuning | R4. | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI   
 
+%}
  %bn29
    \time 2/4 a4 d,8 \instrumentSwitch "Tyler" g\noBeam |\lyricmode {Ty -- ler Good } |
    R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -327,7 +327,6 @@ d4.)\stop c8 |  \lyricmode {you } |
  \cross b'2| R2 | \cross c'2| R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
-%{
  %bn31
    \time 6/8 c,8 r \instrumentSwitch "Barrell" d8 g d a   | \lyricmode {Fitt Good mor -- ning Miss } |
    R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
@@ -349,74 +348,65 @@ d4.)\stop c8 |  \lyricmode {you } |
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn33
-   d8 d d d4 g,8 | \lyricmode {Mis -- ter Bar -- rell } |
-   R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-   R2. | R2. | R2. | R2. | % fl ob kl bn 
-   R2. |  R2. |  R2. | % hn tpt  tn 
-   R2. | R2. | R2. | % tym perc fol 
-   R2. | R2. | % hpL hpR 
-   R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
+   \time 8/8 \set Timing.beatStructure = #'(3 3 2)   d8 d d d4 g,8 r4\fermata 	| \lyricmode {Mis -- ter Bar -- rell } |
+   R1 | R1 |  R1 |  R1 |   % rh lh kbR kbL 
+   R1 | R1 | R1 | R1 | % fl ob kl bn 
+   R1 |  R1 |  R1 | % hn tpt  tn 
+   R1 | R1 | R1 | % tym perc fol 
+   R1 | R1 | % hpL hpR 
+   R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
+  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI   
 
  %bn34
-   \time 2/4 r8\fermata \instrumentSwitch "Tyler" g'=16\noBeam a b8. g16 | \lyricmode {you have lost your } |
+   \time 2/4 r8 \instrumentSwitch "Tyler" g'=16\noBeam a b8. g16 | \lyricmode {you have lost your } |
    R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-   R2 | R2 | R2 | R2 | % fl ob kl bn 
+  <g' a' b'>2\p | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+   R2 | r8 g'16 a' b'4 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn35
-   \tEE dis'8 b g dis | \lyricmode {mo -- ther Miss Fitt }| %check MM
+   \tEE dis'8. 16 8 8  | \lyricmode {mo -- ther Miss Fitt }| %check MM
    R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
-   R2 | R2 | R2 | % tym perc fol 
+   R2 | \instrumentSwitch "vibes" dis''2\p | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+   <dis' dis''>2 | dis''8 b' g' dis' | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn36
    \dQQ \instrumentSwitch "Fitt" c'='16\noBeam b c a fis8 g16 a  | \lyricmode {she said she would be on the } |
    R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-   R2 | R2 | R2 | R2 | % fl ob kl bn 
+   R2 | R2 | fis''8.( d''16 a'8 b'16 c'') | \treble d''2\trill | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+   R2 | R2 | d'16 r fis r a r g fis | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
- %bn37
-   \QdQ r4 ees'  | \lyricmode {last } | %check MM maybe should be \HdH?
-   r4 <g b ees>4-.  | g2 |  R2 |  R2 |   % rh lh kbR kbL 
-   R2 | R2 | R2 | R2 | % fl ob kl bn 
-   R2 |  R2 |  R2 | % hn tpt  tn 
-   R2 | R2 | R2 | % tym perc fol 
-   R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  %bn37
+   \QdQ \time 3/4  r4 ees'  | \lyricmode {last } | %check MM maybe should be \HdH?
+   r4 <g b ees>4-.  | g2 |  R2. |  R2. |   % rh lh kbR kbL 
+ r4 <ees' g'>-- | R2. | R2. | R2. | % fl ob kl bn 
+ r4 \treble <g b'>8-- r |  R2. |  R2. | % hn tpt  tn 
+   R2. |\instrumentSwitch "bells" r4 ees'' | R2. | % tym perc fol 
+   R2. | R2. | % hpL hpR 
+   R2. | R2. | R2. | R2. |r4  <ees, ees>8-.^pizz r |% vn vII va vc cb 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn38
-   f4 r8 \instrumentSwitch "Tyler" g,16\noBeam a | \lyricmode {train! When you } |
-   <g b f'>4-. r | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-   R2 | R2 | R2 | R2 | % fl ob kl bn 
-   R2 |  R2 |  R2 | % hn tpt  tn 
-   R2 | R2 | R2 | % tym perc fol 
-   R2 | R2 | % hpL hpR 
-   R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+   f4 | \lyricmode {train! } |
+   <g b f'>4-.  |  |   |   |   % rh lh kbR kbL 
+ <f' a'>8-- r |  |  |  | % fl ob kl bn 
+ <a cis''>8-- r |   |   | % hn tpt  tn 
+    | f''4  |  | % tym perc fol 
+    |  | % hpL hpR 
+    |  |  |  | <f, f>8-. r |% vn vII va vc cb 
+   |   |   |   |   |   |   % I II III II I VI   
 
- %bn39
-   \time 3/4 \times 2/3 {b4 g8 } ees'4-. f-. | \lyricmode {say the last train } |
-   r4 <g b ees>4-. <g b f'>-. |r8 g r2 |  R2. |  R2. |   % rh lh kbR kbL 
-   R2. | R2. | R2. | R2. | % fl ob kl bn 
-   R2. |  R2. |  R2. | % hn tpt  tn 
-   R2. | R2. | R2. | % tym perc fol 
-   R2. | R2. | % hpL hpR 
-   R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn40
    \instrumentSwitch "Rooney" \time 5/8 bes=4\noBeam aes ges8 | \lyricmode {do not im -- } |
@@ -428,6 +418,7 @@ d4.)\stop c8 |  \lyricmode {you } |
    r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
+%{
  %bn41
    f4 ees8 r b8 | \lyricmode {a -- gine be -- } |
    r4. r4 | bes4~ bes4.~ |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
