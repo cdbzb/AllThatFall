@@ -533,7 +533,7 @@ d4.)\stop c8 |  \lyricmode {you } |
  %bn53
    e4 b8 c | \lyricmode {loof that my } |
    bes=4 r | R2 | <c' e'>2 |  R2 |   % rh lh kbR kbL 
-   <bes' c'' e'' g''>4 e''~\prall^\markup{\sharp} | R2 |<c' c''>2~( | R2 | % fl ob kl bn 
+   <bes' c'' e'' g''>4 \pitchedTrill e''~\startTrillSpan fis''  | R2 |<c' c''>2~( | R2 | % fl ob kl bn 
  c'2~) |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 4 b,  | e'2 | % hpL hpR 
@@ -543,7 +543,7 @@ R2 | R2 | R2 | % tym perc fol
  %bn54
 \time 3/4 \times 2/3 {b8 c b~ } b a ees'4\fermata \breathe | \lyricmode {suf -- fer -- ings have ceased } | %NOTES HERE???? 
 r4. a | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-4. ees''\prall^\markup{\natural} | R2. | 4.~ <c' b'>8) r4 | R2. | % fl ob kl bn 
+4. \stopTrillSpan ees''\prall^\markup{\natural} | R2. | 4.~ <c' b'>8) r4 | R2. | % fl ob kl bn 
 2.\> |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | r4. a8 dis'4 | % hpL hpR 
@@ -563,7 +563,7 @@ R2. | R2. | R2. | % tym perc fol
  %bn56
  r4. \times 3/4 { e8 dis e cis} | \lyricmode {the en -- ti -- re } |
 R2. | e4. r |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | e'2.~) | e,2.~ | % fl ob kl bn 
+R2. | R2. | e'2.~) | e,2.~) | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
@@ -647,53 +647,52 @@ r4. r4 | r4. r4 | cis'4( d'4.) | r4. r4 | r4. r4 |% vn vII va vc cb
  %bn64
 \time 2/4 cis='16 gis ais fis b16 fis32( gis) fis16 eis\fermata \breathe | \lyricmode {pret -- ty lit -- tle way -- side sta -- tion } |
 R2 | \clef bass gis,4 fis' |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | bes4( aes) | R2 | % fl ob kl bn 
+R2 | R2 | bes4( aes~ | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
- fis'8.( gis'16 b'4~) | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+fis'8.( gis'16 b'4~ | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
-%{
  %bn65
-\time 5/8 e8 fis gis4 ais8 | \lyricmode {e -- ven you your -- } |
-e='8 <e fis> <e gis>4 <e fis ais>8| e'=4~( e8. dis16) dis8 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
-  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI   
+\time 5/8 \set Timing.beatStructure = #'(2 3)  e8 fis gis4 ais8 | \lyricmode {e -- ven you your -- } |
+e='8 <e fis> <e gis>4 <e fis ais>8| e'=4~( e8. dis16) dis8 |  r4 r4. |  r4 r4. |   % rh lh kbR kbL 
+r4 r4. | r4 r4. | 2)\> r8\!| r4  \times 3/2 {e,8( dis,)} | % fl ob kl bn 
+r4 r4. |  r4 r4. |  r4 r4. | % hn tpt  tn 
+r4 r4. | r4 gis'4. | r4 r4. | % tym perc fol 
+r4 r4. | r4 r4. | % hpL hpR 
+2\> r8\! | r4 r4. | r4 r4. | r4 r4. | r4 r4. |% vn vII va vc cb 
+  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |   % I II III II I VI   
 
  %bn66
 \time 2/4 ais4 r8 f'8~ | \lyricmode {self, yes } |
 <e fis ais dis>4. <a c f>8~ | dis4. <d, d'>8~ |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+ r4. f''8~\startTrillSpan\p  | R2 | R2 | 4. r8 | % fl ob kl bn 
+ \bass <d a>2~(|  R2 |  R2 | % hn tpt  tn 
+R2 | r4. <a' c'' f''>8\arp\lv | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | r4. d8~ | r4. d,8-.^pizz |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn67
 f8 c \times 2/3 {c( b) b } | \lyricmode {I mean it } | % % % another beat at the end of this bar???
 R2 | <d d'>8 <f f'> <g g'>4  |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+2~  | R2 | R2 | R2 | % fl ob kl bn 
+ 8~ <d f> <d c'>4) |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | 8 f g4~ | r8 f,-. g,4-. |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
 
  %bn68
 \tEE r8 cis dis b | \lyricmode {and o -- ver } |
 R2 | r8 <b'= cis f>4. |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+4.\stopTrillSpan r8  | R2 | <ees' g'>2\p | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | r8 cis''( dis'' b' | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | 2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn69
@@ -716,6 +715,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
 
  %bn71
 \time 2/2 r4 a b4. cis8 | \lyricmode {I see it } |
