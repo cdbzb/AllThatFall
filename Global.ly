@@ -22,8 +22,11 @@ cross = \once \override NoteHead.style = #'cross
 doubleBar = \bar "||"
 finalBar = \bar "|."
 
+%%%%various abbreviations
 gliss = \glissando
 treble = \clef treble
+bass = \clef bass
+arp = \arpeggio
 
 %shortcut for quote during
 Q = #(define-music-function (parser location inst music) (string? ly:music?)

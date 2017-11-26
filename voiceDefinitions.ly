@@ -311,6 +311,17 @@
      (midiInstrument . "voice oohs"))
 %%%%%%%%%%%%%%%%%%%% VOICES
 
+\addInstrumentDefinition #"crotales"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "crotales")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "crotales"))
+     (midiInstrument . "voice oohs"))
+%%%%%%%%%%%%%%%%%%%% VOICES
+
 \addInstrumentDefinition #"bells"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "bells")
