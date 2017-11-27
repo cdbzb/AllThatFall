@@ -698,65 +698,66 @@ R2 | R2 | R2 | 2 | R2 |% vn vII va vc cb
  %bn69
 \time 3/4 a8 gis <c cis>4. gis8 | \lyricmode {all the cloud -- ing } |
 R2.|fis4 f2|  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. | R2. | <des' ges'>4 <des' f'>2 | fis4 f2 | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+R2. | <a fis' a'>2.\p | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | R2. | R2. | r4 << <cis d>2 {s8\< s s\mp\> s\!}>> | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn70
 \time 2/4 g2 | \lyricmode {blue } |
 <b d e g>2 | <e e'>2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+< b d' e'>2\p\> | R2 | <d' e'>2 | e2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | <b d' e' g'>2\arp | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | R2 | \repeat  tremolo 8 {e,32^pizz-.\p e-.} |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
 
  %bn71
 \time 2/2 r4 a b4. cis8 | \lyricmode {I see it } |
 r2. g4 | a=,1\< |  R1 |  R1 |   % rh lh kbR kbL 
-R1  | R1  | R1  | R1  | % fl ob kl bn 
-R1  |  R1 |  R1  | % hn tpt  tn 
+r2.\! g'8. r16  | R1  | R1  | 1  | % fl ob kl bn 
+ r4 \treble a'2. |  R1 |  R1  | % hn tpt  tn 
 R1  | R1  | R1  | % tym perc fol 
 R1  | R1  | % hpL hpR 
-R1  | R1  | R1  | R1  | R1  |% vn vII va vc cb 
+R1  | r4 <a a'>2.~ |<<{{ r4  cis''2.~^solo }}{\ossia "va" {\bass a,4. r \treble  g'8. r16}}>> |<<{s1}\\{  a,,1~ }>> |<< {  \new Staff = "cbossia" \with {alignAboveContext="cb"} {\clef "bass_8" a,1} }{  \repeat  tremolo 16 {e,32-. e-.} } >> |% vn vII va vc cb 
+
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
 
  %bn72
 fis2. e4 | \lyricmode {all I } |
 <<cis2.\f \\ {g2( a4}>>  b | a1~\! |  R1 |  R1 |   % rh lh kbR kbL 
-R1  | R1  | R1  | R1  | % fl ob kl bn 
+ g'2 a'4 b' | R1  | R1  | R1  | % fl ob kl bn 
 R1  |  R1 |  R1  | % hn tpt  tn 
 R1  | R1  | R1  | % tym perc fol 
 R1  | R1  | % hpL hpR 
-R1  | R1  | R1  | R1  | R1  |% vn vII va vc cb 
+R1  | a'2. b'4 | << {\inst "ossia" {g'1}} cis''1  >>|<<{  <g cis'>1\arp^solo }\\{<a,,~ e, a,>1\arp}>>  |<< { \inst "cbossia" a1 } {  \repeat  tremolo 16 {e,32-. e-.} }>> |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI  
 
  %bn73
 \time 5/8 \QdQ e8 d cis b a | \lyricmode {stand here and see it } |
 fis4 d8 e fis | a4.~ a4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
+ fis'4 d'8 e'8 fis' | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+r4. r4 | a'4.~4 | << {d''2 r8}{ \inst "ossia" { fis'4 d'8 e' fis'}}>> | << {< fis d'>4.~4}\\{<a,,  a,>4.~ <a,,~ a,>4}>> | << {\inst "cbossia" {a,4.~4}}{\repeat tremolo 10 {e,32-. e-.}}>> |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn74
 \time 2/4 \EE fis'4. e8 | \lyricmode {all with } |
 <<{fis4. e8}\\cis2>> | << {g'4 a}\\a,2~>>|  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ g'4 a' | R2 | R2 | R2 | % fl ob kl bn 
+ a'2 |  R2 |  R2 | % hn tpt  tn 
+R2 | r4. e''8 | R2 | % tym perc fol 
+R2 | <g' cis' fis''>4.\arp e''8 | % hpL hpR 
+R2 | 2 | << {\inst "ossia"{ cis''2 }}{g'4 a'}>>|<<  < g cis'>2\arp \\ <a,, e, a,>2\arp >> | << {\inst "cbossia" {a2}} {\repeat tremolo 8 {e,32-. e-.}}>> |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn75
 f4 r | \lyricmode {eyes } |
 <f gis>2 | << <f' b>2\\a,2>>|  R2 |  R2 |   % rh lh kbR kbL 
