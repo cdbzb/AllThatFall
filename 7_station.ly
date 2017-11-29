@@ -915,7 +915,7 @@ R2 | R2 |  b8( fis) r4 | 4 r | R2 |% vn vII va vc cb
     R2 |  R2 |  R2 | % hn tpt  tn 
     R2 | R2 | R2 | % tym perc fol 
     R2 | R2 | % hpL hpR 
-    R2 | R2 | a2| R2 | R2  R2 |% vn vII va vc cb 
+    R2 | R2 | a2| R2 |   R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn88
@@ -981,34 +981,34 @@ R2 | R2 | R2 | 2 | R2 |% vn vII va vc cb
  %bn94
 \time 3/8 \QdQ fis8 c\stop \instrumentSwitch "Fitt" cis\noBeam | \lyricmode {thir -- ty what } |
 r4 <cis fis ais cis>8 | r4 <fis fis'>8 |  R4. |  R4. |   % rh lh kbR kbL 
-R4. | R4. | R4. | R4. | % fl ob kl bn 
-R4. |  R4. |  R4. | % hn tpt  tn 
-R4. | R4. | R4. | % tym perc fol 
+<fis' ais' fis''>4. | R4. | <cis' ais' cis''>8. r16 <ais' cis''>8  | fis,,4. | % fl ob kl bn 
+<fis,, fis,>4.~ | <cis'' fis'''>4. | <ais, fis cis'>8. r16 q8 | % hn tpt  tn 
+R4. | <<{\ossia "perc" {\instrumentSwitch "bells" fis''8 cis''4}}{\instrumentSwitch "percsilent" <<\cross f''4.\\d'4.>>}>> | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
+R4. | R4. | R4. | 4 <fis, cis fis>8-.^pizz | r4 fis,,8-> |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
-%{
  %bn95
 \tEE \time 7/8 e4 cis8 ais g r e' | \lyricmode {else could I mean? what } |
 <g' ais cis e>4.~ <g ais cis e>4 r8 <g ais cis e>8 |< g g'>4.~ <g g'>4 r8 <fis fis'>8 |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
-r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn 
-r2 r4. | r2 r4. | r2 r4. | % tym perc fol 
+r2 r4. | r2 r4. | <c'' e''>2 r4 <ais' cis''>8 | r2 r4. | % fl ob kl bn 
+4 r r4. |  r2 r4. | q2 r4 <cis ais gis'>8 | % hn tpt  tn 
+r2 r4. | \cross e'2~4. | r2 r4. | % tym perc fol 
 r2 r4. | r2 r4. | % hpL hpR 
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |% vn vII va vc cb 
+r2 r4. | r2 r4. | r2 r4. | <g, g>8-. r4. r4 <fis, fis>8-.  | g,,2-> r4 fis,,8 |% vn vII va vc cb 
   r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |   % I II III II I VI 
 
  %bn96
 \time 4/4 g8 e cis ais \times 2/3 {<gis' b>4 <f gis> <d f>} | \lyricmode {else could I con -- ceive -- a -- bly } |
 <ais cis e g>2 \times 2/3 {<gis' b>4 <f gis> <d f>} | <f f'>8( <e e'> <f f'> <fis fis'> <g g'> <gis gis'> <a a'> <ais ais'>) |  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | R1 | R1 | % fl ob kl bn 
-R1 |  R1 |  R1 | % hn tpt  tn 
+R1 | R1 | <cis'' e''>4. r8 <e'' g''>4. r8 | R1 | % fl ob kl bn 
+R1 |  R1 | <cis ais g'>4. r8 <g cis' ais'>4. r8 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
+R1 | R1 | R1 | <f, f>8-. <fis, fis>-. <g, g>-. <gis, gis>-. <a, a>-. <ais, ais>-. <b, b>-. <c c'>-. | f,,8 fis,, g,, gis,, a,, ais,, b,, c, |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
 
+%{
  %bn97
 <b d>8 \instrumentSwitch "Tyler" c8\noBeam d bes e d \times 2/3 {c4 bes8} | \lyricmode {mean? then you have no cause for an -- } |
  r2 <g= bes c e>2\arpeggio |r2 <g=, bes c>\arpeggio|  R1 |  R1 |   % rh lh kbR kbL 
