@@ -824,7 +824,7 @@ R4. | R4. | R4. | a4) r8 | % fl ob kl bn
 <d bes d'>4( c'8 | << {ais'4 a'8~}\\ fis'4. >> |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 <bes d'>4.\arp  | <ges' bes' d''>4.\arp | % hpL hpR 
-4 c''8 | 4 c'8 | <fis' ais'>4. |f4. | f,4.~ |% vn vII va vc cb 
+4 c''8 | 4 c'8 | <fis' ais'>4.) |f4. | f,4.~ |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
  %bn82
@@ -834,48 +834,67 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 b4 e | <e' a'>2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 <gis c'>2\arp | <e' gis'>2\arp | % hpL hpR 
- b'8 gis' e' a'~ | b8 gis e a~ | R2 | <b, d>8(^solo <c e> <d f> <e b> | 2 |% vn vII va vc cb 
+ b'8 gis' e' a'~ | \bass b8 gis e a~ | R2 | <b, d>8(^solo <c e> <d f> <e b> | 2 |% vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn83
 \dQQ r4 aes8 ees | \lyricmode {and not } | 
 <a a'>2  | <aes aes'>2~ |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+c'4 r | <c' e'>4. ees'8~  |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+<ees g>2\arp | <ees' aes'>2\arp | % hpL hpR 
+8 r aes' ees' | 8 r aes ees | R2 | <a c'>4 aes) |<aes,, aes,>2~ |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI       
 
-%{
  %bn84
-\tEE fes8 ges \rit bes,4~\start \times 2/3 {bes4 c b} | \lyricmode {looked a -- way...   this is } |
+\tEE fes8 ges \rit bes,4~\start  | \lyricmode {looked a -- way...    } |
 R2 R2 | <aes aes'> <fis fis'> |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 |  2~ |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | ees'2\lv | % hpL hpR 
+R2 | e8( fis ais,4~ | R2 | R2 | 2 |% vn vII va vc cb 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+
+ %bn84
+ \times 2/3 {bes4 c b} | \lyricmode {   this is } |
+R2 R2 | <aes aes'> <fis fis'> |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 |  <a, fis fis'>2 |  R2 | % hn tpt  tn 
+R2 | R2 | R2 | % tym perc fol 
+<fis a c'>2\arp | <fis' a' e'''>2\arp | % hpL hpR 
+R2 | 8 r4. | a2~\p | R2 |<ges ges,,>2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn85
-r2\stop  b8 fis r4  |  \lyricmode {no -- thing } |
+r2\stop |  \lyricmode { } |
 \clef bass e,,8 b' g e'8~| <e g b e>2~ <e g b e>~ |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | \bass <e, e>8( <b, b> <g, g> <e e'>~ | <g, b, e>2~ | % fl ob kl bn 
+ e,,2~ |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ e,,8 b, g, e~ | R2 | % hpL hpR 
+R2 | R2 | 2 | e,8( b, g, e~ | R2 |% vn vII va vc cb 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+
+ %bn85
+ b8 fis r4  |  \lyricmode {no -- thing } |
+\clef bass e,,8 b' g e'8~| <e g b e>2~ <e g b e>~ |  R2 |  R2 |   % rh lh kbR kbL 
+R2 | R2 | 4 <g, g>8 <e e'>~ | 2~ | % fl ob kl bn 
+2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | R2 | % tym perc fol 
+ 4 g,8 e~ | b8 fis4. | % hpL hpR 
+R2 | R2 |  b8( fis) r4 | 4 g,8 e~ | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn86
 b8 fis r4  |  \lyricmode {no -- thing } |
 e4 b8 e8~ e2  | <e g b e>2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | 4 r | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ 2 | b8 fis4. | % hpL hpR 
+R2 | R2 |  b8( fis) r4 | 4 r | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn87
@@ -888,6 +907,7 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
  R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
+%{
 
  %bn88
    \time 3/4 \times 2/3 {cis4 a8 } f'4-. g-. | \lyricmode {say the last train } |
