@@ -388,7 +388,6 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2 | R2 | d'16 r fis r a r g fis | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
-%}
   %bn37
    \QdQ \time 3/4  r4 ees'     f4 | \lyricmode {last train! } | %check MM maybe should be \HdH?
    r4 <g b ees>4-.     <g b f'>4-.  | g2 |  R2. |  R2. |   % rh lh kbR kbL 
@@ -827,6 +826,7 @@ R4. | R4. | R4. | % tym perc fol
 4 c''8 | 4 c'8 | <fis' ais'>4.) |f4. | f,4.~ |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
+%}
  %bn82
 \EE \time 2/4 b8 gis8 e a | \lyricmode{ things they have seen } |
 <b b'>8 <fis fis'> <d d'> <a' a'> |  <f f'>2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -898,34 +898,43 @@ R2 | R2 |  b8( fis) r4 | 4 r | R2 |% vn vII va vc cb
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn87
-\time 2/4 b8 cis16 dis \times 2/3 {cis8( dis) b} fis'8 dis16 b r8 \instrumentSwitch "Tyler" a'=16\noBeam b | \lyricmode {where did I put that hand -- ker -- cheif? when you } |
- R1 | R1 |  R2 |  R2 |   % rh lh kbR kbL 
- R2 | R2 | R2 | R2 | % fl ob kl bn 
- R2 |  R2 |  R2 | % hn tpt  tn 
- R2 | R2 | R2 | % tym perc fol 
- R2 | R2 | % hpL hpR 
- R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+\time 3/4 b8 cis16 dis \times 2/3 {cis8( dis) b} fis'8 dis16 b | \lyricmode {where did I put that hand -- ker -- cheif? } |
+ R2. | R2. |  R2. |  R2. |   % rh lh kbR2.kbL 
+ R2. | R2. | R2. | R2. | % fl ob kl bn 
+ R2. |  R2. |  R2. | % hn tpt  tn 
+ R2. | R2. | R2. | % tym perc fol 
+ R2. | R2. | % hpL hpR2.
+ R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
-%{
 
  %bn88
-   \time 3/4 \times 2/3 {cis4 a8 } f'4-. g-. | \lyricmode {say the last train } |
-    \clef treble \times 2/3 {cis'='4 a8 } <a cis f>4-. <b dis g>-. | \times 2/3  {cis'=4 a8 } <a cis f>4-. <b dis g>-. |  R2. |  R2. |   % rh lh kbR kbL 
-    R2. | R2. | R2. | R2. | % fl ob kl bn 
-    R2. |  R2. |  R2. | % hn tpt  tn 
-    R2. | R2. | R2. | % tym perc fol 
-    R2. | R2. | % hpL hpR 
-    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
-
- %bn89
-    \time 2/4 \instrumentSwitch "Rooney" <d e>2:32^"blows nose" | \lyricmode { phphp } |
-    <d e fis a>2:32~ | <d d'>2:32~ |  R2 |  R2 |   % rh lh kbR kbL 
+   \time 2/4 r8 \instrumentSwitch "Tyler" a'=16\noBeam b \times 2/3 {cis4 a8 }  | \lyricmode {when you say the  } |
+    \clef treble \times 2/3 r4 {cis'='4 a8 } | r4 \times 2/3  {cis'=4 a8 }  |  R2. |  R2. |   % rh lh kbR kbL 
     R2 | R2 | R2 | R2 | % fl ob kl bn 
     R2 |  R2 |  R2 | % hn tpt  tn 
     R2 | R2 | R2 | % tym perc fol 
     R2 | R2 | % hpL hpR 
+    R2 | R2 | a2| R2 | R2  R2 |% vn vII va vc cb 
+  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+
+ %bn88
+  f'4-. g-.| \lyricmode {last train} |
+  <a cis f>4-. <b dis g>-.|<a cis f>4-. <b dis g>-.|  R2. |  R2. |   % rh lh kbR kbL 
+  <ees' g' ees''>8-. r <f' f'' f'''>-. r | R2 |\treble  <b' g''>8-. r q-. r | R2 | % fl ob kl bn 
+    R2 |  R2 |  R2 | % hn tpt  tn 
+    R2 | \instrumentSwitch "crotales" ees'4 f' | R2 | % tym perc fol 
+    R2 | R2 | % hpL hpR 
+    R2 | R2 | f'8-. r g' r | f8-.^pizz r g r | R2 |% vn vII va vc cb 
+    R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+
+ %bn89
+    \instrumentSwitch "Rooney" <d e>2:32^"blows nose" | \lyricmode { phphp } |
+    <d e fis a>2:32~ | <d d'>2:32~ |  R2 |  R2 |   % rh lh kbR kbL 
+    R2 | R2 | R2 | R2 | % fl ob kl bn 
+    R2 |  R2 |  R2 | % hn tpt  tn 
+    R2 | R2 | R2 | % tym perc fol 
+    R2 | <d' fis' a' d''>2:32^"bisbig" | % hpL hpR 
     R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
@@ -940,33 +949,33 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
 %bn91
-  \tEE g4-> r a-> r8 a | \lyricmode {last train I } |
-  R2 R2 | <g g'>4-> r <a a'>-> r  |  R2 |  R2 |   % rh lh kbR kbL 
-  R2 | R2 | R2 | R2 | % fl ob kl bn 
-  R2 |  R2 |  R2 | % hn tpt  tn 
-  R2 | R2 | R2 | % tym perc fol 
-  R2 | R2 | % hpL hpR 
-  R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI     
+  \tEE \time 4/4  g4-> r a-> r8 a | \lyricmode {last train I } |
+   R1 | <g g'>4-> r <a a'>-> r  |  R1 |  R1 |   % rh lh kbR kbL 
+   <ees' g' ees''>4-. r <f' f'' f'''>-. r | R1 |<b' g''>4-. r <b' gis''>-. r | R1 | % fl ob kl bn 
+  R1 |  R1 |  R1 | % hn tpt  tn 
+  R1 | ees'2 f' | R1 | % tym perc fol 
+  R1 | R1 | % hpL hpR 
+ <des'' f''>4-.^pizz r <b' dis''>-. r| R1 | R1 | f,4-. r g,-. r | R1 |% vn vII va vc cb 
+  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI     
 
  %bn92
 \time 3/8 \QdQ b8 a g | \lyricmode {take it you } |
 R4. | R4. |  R4. |  R4. |   % rh lh kbR kbL 
-R4. | R4. | R4. | R4. | % fl ob kl bn 
+R4. | R4. | R4. | b,4.~ | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
+R4. | R4. | R4. | <b, b>4.:32~ | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
  %bn93
 \time 2/4 cis4 \rit \times 2/3 {r8\start cis cis } | \lyricmode {mean the twelve } | %check MM   
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | <g, b,>4 cis,| % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | 2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn94
@@ -979,6 +988,7 @@ R4. | R4. | % hpL hpR
 R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
+%{
  %bn95
 \tEE \time 7/8 e4 cis8 ais g r e' | \lyricmode {else could I mean? what } |
 <g' ais cis e>4.~ <g ais cis e>4 r8 <g ais cis e>8 |< g g'>4.~ <g g'>4 r8 <fis fis'>8 |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
