@@ -1052,7 +1052,7 @@ R2 | R2 | % hpL hpR
 \time 6/8 fis4. eis4 fis8 | \lyricmode {not yet ar -- } |
 <ais=' cis fis>4. <gis cis eis>4 <fis ais cis fis>8 | \times 3/2 {r8 <cis cis'>8~} <cis cis'>8 <cis cis'>4 |  R2. |  R2. |   % rh lh kbR kbL 
 4.~ 4 fis''8 | R2. | <gis cis' fis'>4.( <gis cis' e'>4) <gis cis' e'>8-. |<<dis'2.~\\{cis,4. cis4 r8}>> | % fl ob kl bn 
-2. |\times 3/4{ ais''4( b''8 ais'')} gis''4 fis''8 | << {<ais' cis''>4. <gis' cis''>8 r <ais cis''>-.}\\ cis'2.\trill~ >> | % hn tpt  tn 
+2.~ |\times 3/4{ ais''4( b''8 ais'')} gis''4 fis''8 | << {<ais' cis''>4. <gis' cis''>8 r <ais' cis''>-.}\\ cis'2.\trill~ >> | % hn tpt  tn 
  r4. r4 fis,8 | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
  4.~4 <fis cis'>8 | R2. | R2. | 4.~4 r8 | 4.~4 fis,,8 |% vn vII va vc cb 
@@ -1061,21 +1061,20 @@ R2. | R2. | % hpL hpR
  %bn102
 fis8-> r4 r4. | \lyricmode {rived! } |
 R2. | <fis fis'>8 <fis fis'>(  <g g'>  <gis gis'>  <a a'>  <ais ais'> |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+4. r | R2. | 2. | << dis'2. \\ s2. >>| % fl ob kl bn 
+dis'2. |  2. | <ais' cis''>2. | % hn tpt  tn 
+2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
+2. | R2. | R2. | r8 fis, g, gis, a, ais, | 8  fis,, g,, gis,, a,, ais,, |% vn vII va vc cb 
+R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
-%{
  %bn103
 \time 3/4 dis8 r8 r2| \lyricmode { there } |
 r8 <b dis> <b dis> <b dis>\> << {<b dis> <b dis>\!}\\ c4\p>>| b8-.) r8 r2 |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. | R2. | << {r8 <b dis'>\> q8 q8 q8 q8 q8\!}}\\ {r2 c'4} >>| R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
+R2. | \instrumentSwitch "vibes" dis''2. | R2. | % tym perc fol 
+R2. | r2 c'4\lv | % hpL hpR 
 R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
@@ -1089,6 +1088,7 @@ r8. r | r8. r | % hpL hpR
 r8. r | r8. r | r8. r | r8. r | r8. r |% vn vII va vc cb 
   r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |   % I II III II I VI   
 
+%{
 
  %bn105
 \time 3/4 g8 r8 r2| \lyricmode { line } |
