@@ -880,7 +880,7 @@ R2 | R2 | 2 | e,8( b, g, e~ | R2 |% vn vII va vc cb
  %bn85
  b8 fis r4  |  \lyricmode {no -- thing } |
 \clef bass e,,8 b' g e'8~| <e g b e>2~ <e g b e>~ |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | 4 <g, g>8 <e e'>~ | 2~ | % fl ob kl bn 
+R2 | R2 | 4) <g, g>8 <e e'>~ | 2~ | % fl ob kl bn 
 2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
  4 g,8 e~ | b8 fis4. | % hpL hpR 
@@ -1008,55 +1008,54 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | <f, f>8-. <fis, fis>-. <g, g>-. <gis, gis>-. <a, a>-. <ais, ais>-. <b, b>-. <c c'>-. | f,,8 fis,, g,, gis,, a,, ais,, b,, c, |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
 
-%{
  %bn97
 <b d>8 \instrumentSwitch "Tyler" c8\noBeam d bes e d \times 2/3 {c4 bes8} | \lyricmode {mean? then you have no cause for an -- } |
  r2 <g= bes c e>2\arpeggio |r2 <g=, bes c>\arpeggio|  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | R1 | R1 | % fl ob kl bn 
-R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
-R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
+ R1 | R1 | <g'' bes''>4. r8  <e'' g''>2~  | R1 | % fl ob kl bn 
+ R1 |  R1 | <ais' cis'>8 c8 d bes, e d c8 bes,8 | % hn tpt  tn 
+R1 |<< {\ossia "perc" {\instrumentSwitch "vibes" r2 <bes' c'' e''>\arp }}\\\cross b'1>> | R1 | % tym perc fol 
+r2  <g bes c'>\arp | r2 <e' g' bes' e'' g''>\arp | % hpL hpR 
+r8 d'''( e''' c''' g''2 | \treble r8 c'' d'' bes' <g' bes'>2~ | r8 c'8-.^pizz d'-. bes-. e'4-. r  |  <cis cis'>8-. r4.  g8^arc f e d | R1 |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI   
 
  %bn98
 \grace {g16( bes} \times 2/3 {g4) f8} e8 g d'4 cis8 cis16 c | \lyricmode {xi -- e -- ty Miss Fitt for the twelve } | % %check rhythm
 R1 | <<{r4. g=8~ g2 }\\{g,8-.-- f-.-- e-.-- d-.-- r4  <cis= e>4}>> |  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | R1 | R1 | % fl ob kl bn 
-R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
+g'2\trill~ 4.   r8 | r2. cis'4\p | <d'' g''>2 <g d'>4. r8 | R1 | % fl ob kl bn 
+R1 |  R1 | g,8 d, e, d r2 | % hn tpt  tn 
+R1 |\inst "ossia" {\instrumentSwitch "vibessilent"  <c'' e'' g''>2\arp <d'' d'''>4( cis''') } | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
+R1 | <f' bes'>2.. r8| g8-. f-. e-. d-. r2 | e8 d c bes, g,4. r8 | R1 |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI   
 
  %bn99
 \time 2/4 fis4 cis | \lyricmode {thir -- ty } |
 R2 | <fis=, fis'>16( <gis gis'> <ais ais'> <b cis'> <cis cis'> <dis dis'> <eis eis'> <fis fis'>) |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+<fis'' ais''>8 <cis'' fis''> <cis'' gis'' cis'''>4~ | R2 | fis'4 <fis' cis'>~ |<<dis'2~\\{  <fis, fis,,> 16 <gis, gis,,>  <ais, ais,,>  <b, b,,>  <cis cis,>  <dis dis,>  <eis eis,> <fis fis,> }>>  | % fl ob kl bn 
+\treble fis''8. r16 cis''8. r16 | <cis' fis'>4. r8 |  R2 | % hn tpt  tn 
+R2 | << { \inst "ossia" { \instrumentSwitch "bellssilent" fis''4\lv^BELLS cis''\lv }}\\{\cross b'2}>>| R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+fis'4 cis' | R2 | R2 | R2 |   gis,16^pizz-.  ais,-. b,-. cis-. dis-. eis-. fis-. gis-.  |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn100
-r4. fis8| \lyricmode {has } |
+\tEE r4. fis8| \lyricmode {has } |
 R2 | <cis cis'>4. <cis cis'>8 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+<cis'' gis'' cis'''>2| R2 |<gis cis' fis'>2 |<< dis'2~\\{<cis, cis>4~ cis,~ }>> | % fl ob kl bn 
+ \bass <cis,, gis, dis' gis'>2~ | r4. ais''16 r |  R2 | % hn tpt  tn 
+  ees4 fis,  | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+2~ | R2 | R2 | r4 <gis, cis>4~-> | cis,4^arco cis,,~ |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn101
 \time 6/8 fis4. eis4 fis8 | \lyricmode {not yet ar -- } |
 <ais=' cis fis>4. <gis cis eis>4 <fis ais cis fis>8 | \times 3/2 {r8 <cis cis'>8~} <cis cis'>8 <cis cis'>4 |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+4.~ 4 fis''8 | R2. | <gis cis' fis'>4.( <gis cis' e'>4) <gis cis' e'>8-. |<<dis'2.~\\{cis,4. cis4 r8}>> | % fl ob kl bn 
+2. |\times 3/4{ ais''4( b''8 ais'')} gis''4 fis''8 | << {<ais' cis''>4. <gis' cis''>8 r <ais cis''>-.}\\ cis'2.\trill~ >> | % hn tpt  tn 
+ r4. r4 fis,8 | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+ 4.~4 <fis cis'>8 | R2. | R2. | 4.~4 r8 | 4.~4 fis,,8 |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn102
@@ -1069,6 +1068,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
+%{
  %bn103
 \time 3/4 dis8 r8 r2| \lyricmode { there } |
 r8 <b dis> <b dis> <b dis>\> << {<b dis> <b dis>\!}\\ c4\p>>| b8-.) r8 r2 |  R2. |  R2. |   % rh lh kbR kbL 
