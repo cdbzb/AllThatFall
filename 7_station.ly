@@ -1222,31 +1222,30 @@ R2 | R2 | <ais fis'>4 r | fis'8-. cis' ais-. gis-. | R2 |% vn vII va vc cb
  %bn118
 \time 6/8 \EE eis8 fis \instrumentSwitch "Rooney" gis16\noBeam ais b8 gis e' | \lyricmode {Bar -- rell! But the time is now } |
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | r4 gis,16 ais, << b'4.\\ {  b,8 gis, e }>> | % fl ob kl bn 
+R2. | R2. | R2. | r4 gis,16 ais, << b'4.~\\ {  b,8 gis, e~ }>> | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | \instrumentSwitch "perc" r4. f':32~ | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
 R2. | R2. | <b f'>8( <bes fis>) r8 r4. | gis8-. fis r r4. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
-%{
  %bn119
 \time 2/4 dis8 e cis dis | \lyricmode {get -- ting on to } |
 R2 | dis4-. cis-. |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+dis'''8( e'''-.) 8( f'''-.)| R2 | b8 bes a aes | << b'2\\e2>>| % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | << {\ossia "perc" {\instrumentSwitch "vibes" r8 e''4\lv dis''8\lv }}{f'2:32}>>| R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ dis''8( e''-.) 8( f''-.) | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn120
 \time 6/16 \instrumentSwitch "Tyler" d8.\noBeam d | \lyricmode {we all } |
 r4. | d8. d |  r8. r |  r8. r |   % rh lh kbR kbL 
 r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
-r8. r |  r8. r |  r8. r | % hn tpt  tn 
+ d8 r16 d8 r16 |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
-r8. r | r8. r | % hpL hpR 
+ d,8. d, | r8. r | % hpL hpR 
 r8. r | r8. r | r8. r | r8. r | r8. r |% vn vII va vc cb 
   r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |   % I II III II I VI 
 
@@ -1254,20 +1253,20 @@ r8. r | r8. r | r8. r | r8. r | r8. r |% vn vII va vc cb
 \time 5/8 g4 d8 b d | \lyricmode {know Miss Fitt we } |
 <g b d g>4.\arpeggio r4 |g4. r4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+ g4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+r4. r4 | \triangle f''4.~4 | r4. r4 | % tym perc fol 
+<g,, d, g,>4.~\arp 4 | <g b d' g'>4.\arp~ 4 | % hpL hpR 
+r4. r4 | r4. r4 | <g' b'>4.^mute r4  | g,4.-.^pizz  r4 | r4. r4 |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn122
 \time 6/8 \QdQ g4 d8 e fis  d | \lyricmode {all know on -- ly too } |
 R2. | R2.  |  R2. |  R2. |   % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+2. |  R2. |  R2. | % hn tpt  tn 
+R2. | \triangle f''2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | R2. | 2. | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn123
@@ -1280,6 +1279,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
+%{
  %bn124
 \time 5/8 \tEE c4-> d8 b4 | \lyricmode {time is now } |
 r4. r4 | r4. r4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
