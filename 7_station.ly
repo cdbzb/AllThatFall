@@ -1182,34 +1182,34 @@ r8. r | r8. r | a16-.^pizz r b-. c'-. r d'-. | \times 3/2 {f16-.^pizz g-.} \time
  %bn114
 c8 a16 bes8 r16 | \lyricmode {hour of nine } |
 r8. <f bes d>8.-. | \times 3/2 {c16 a} r8. |  r8. r |  r8. r |   % rh lh kbR kbL 
-r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
-r8. r |  r8. r |  r8. r | % hn tpt  tn 
+ ees''8 c''16 d8.~ | r8. r | r8. r | r8. r | % fl ob kl bn 
+ c16 r a bes8.~ |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
 r8. r | r8. r | % hpL hpR 
-r8. r | r8. r | r8. r | r8. r | r8. r |% vn vII va vc cb 
+r8. r | r8. r | ees8-. c16-. d8.-. | \times 3/2 {f16-. ees-.} d8.-. | r8. r |% vn vII va vc cb 
   r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |   % I II III II I VI  
 
-%{
  %bn115
 \time 2/4 \dEE r8 a \times 2/3 {aes8 r f } | \lyricmode {or three a -- } |
 R2 | bes8-. r4. |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | R2 | 2 | % fl ob kl bn 
+2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | R2 |r4 aes,8-.^pizz  f,-. |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn116
 \tEE d8 \instrumentSwitch "Barrell" <cis e>-.\noBeam^"chuckle" <c ees>-. <b d>-. | \lyricmode {las heh hh eh } |
-R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | R2 | R2 |   % rh lh kbR kbL 
+R2 | R2 | r8 <ais cis'>-. <a c'>-. <gis b>-. | R2 | % fl ob kl bn 
+R2 | R2 | R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | R2 | d,8-. r4. |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
+%{
  %bn117
 \time 2/4 \instrumentSwitch "Tyler" fis'8\noBeam cis ais cis | \lyricmode {thank you Mis -- ter } |
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
