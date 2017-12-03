@@ -1112,59 +1112,58 @@ r8. r | r8. r | \times 3/2 {fis16-.^pizz gis-.} f8.-. | r8. r | r8. r |% vn vII 
  %bn107
 \time 4/4 aes8 bes ges aes bes c aes bes | \lyricmode {fol -- low the dir -- rec --tion of my } |
 R1| aes2 bes |  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | R1 | R1 | % fl ob kl bn 
+ r2 ais8( a gis4) |\bass  ges8( g fis f~ 2~ | R1 | gis,2 ais, | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
-R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
+ <gis, gis>2 <ais, ais> | R1 | % hpL hpR 
+R1 | R1 | r2 ais'8( a' gis' g') | gis1^mutes\p | R1 |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI   
 
-%{
  %bn108
 \time 6/8 \EE d4 bes8 r4. | \lyricmode {fin -- ger } |
 R2. | <<d2.~ \\ {s4. bes~}>> |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+d''4.( \grace {cis''16  b'} bes'4.~  | 4.~\> 4\!) r8 | R2. | d4.~4 r8 | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | <f' f''>2.\lv | R2. | % tym perc fol 
+ <d d'>4.( <ais, ais> | R2. | % hpL hpR 
+R2. | R2. | d4.^mutes( bes, | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn109
 R2.  | \lyricmode {} |
 e2.\fermata |  <<d2. \\ <bes e,> >> |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+ 4) r2 | R2. | R2. | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+ <e, e>2.) | R2. | % hpL hpR 
+R2. | R2. | e,4) r2 | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn110
 \time 2/4 ees4.\mp bes8  | \lyricmode {there you } | %check MM TODO Octaves in LH
 R2 |<<{s4 bes~}\\ees,2~\p>> |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+ ees''8 r4. | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | ees''2\lv | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+<g' bes'>2 | R2 | << {ees'4. d'8}\\{r8 ees g~ <g bes>}\\{ \ossia "va"  {\instrumentSwitch "vatreble" r8 g(^mutes bes d'}}>> | R2 | R2 |% vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn111
 \time 5/8 \tEE aes4 g8 r g  | \lyricmode {see it the } |
 r4. r4 | << <bes ees>4.\\ees >> ees8 r |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
+ ees'4.~4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+r4. r4 | r4. r4 | <<{f'4 ees'8~4 }\\{ees4. r4}\\{\inst "ossia"{ \instrumentSwitch "vasilent" f'4 ees'8~4)}}>>| r4. r4 | r4. r4 |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
  %bn112
 \time 1/4 c8 c, | \lyricmode {sig -- nal } |
 R4 | c4 |  R4 |  R4 |   % rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
-R4 |  R4 |  R4 | % hn tpt  tn 
+ <c, c>4~\mf |  R4 |  R4 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
 R4 | R4 | % hpL hpR 
 R4 | R4 | R4 | R4 | R4 |% vn vII va vc cb 
@@ -1173,11 +1172,11 @@ R4 | R4 | R4 | R4 | R4 |% vn vII va vc cb
  %bn113
 \time 6/16 \EE f8 g16 a8 bes16 | \lyricmode {at the baw -- dy }|
 r8. r8. | \times 3/2 {f16 g} \times 3/2 {a16 bes}  |  r8. r |  r8. r |   % rh lh kbR kbL 
-r8. r | r8. r | r8. r | r8. r | % fl ob kl bn 
-r8. r |  r8. r |  r8. r | % hn tpt  tn 
+ a'8 b'16 c''8 d''16 | r8. r | r8. r | f,16 r g, a, r aes | % fl ob kl bn 
+ c4. |  r8. r |  r8. r | % hn tpt  tn 
 r8. r | r8. r | r8. r | % tym perc fol 
 r8. r | r8. r | % hpL hpR 
-r8. r | r8. r | r8. r | r8. r | r8. r |% vn vII va vc cb 
+r8. r | r8. r | a16-.^pizz r b-. c'-. r d'-. | \times 3/2 {f16-.^pizz g-.} \times 3/2 {  a-. f-. }| r8. r |% vn vII va vc cb 
   r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |   % I II III II I VI  
 
  %bn114
@@ -1190,6 +1189,7 @@ r8. r | r8. r | % hpL hpR
 r8. r | r8. r | r8. r | r8. r | r8. r |% vn vII va vc cb 
   r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |   % I II III II I VI  
 
+%{
  %bn115
 \time 2/4 \dEE r8 a \times 2/3 {aes8 r f } | \lyricmode {or three a -- } |
 R2 | bes8-. r4. |  R2 |  R2 |   % rh lh kbR kbL 
