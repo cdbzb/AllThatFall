@@ -1209,7 +1209,6 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | d,8-. r4. |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
-%{
  %bn117
 \time 2/4 \instrumentSwitch "Tyler" fis'8\noBeam cis ais cis | \lyricmode {thank you Mis -- ter } |
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -1217,19 +1216,20 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | <ais fis'>4 r | fis'8-. cis' ais-. gis-. | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn118
 \time 6/8 \EE eis8 fis \instrumentSwitch "Rooney" gis16\noBeam ais b8 gis e' | \lyricmode {Bar -- rell! But the time is now } |
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. | R2. | R2. | r4 gis,16 ais, << b'4.\\ {  b,8 gis, e }>> | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+R2. | \instrumentSwitch "perc" r4. f':32~ | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | R2. | <b f'>8( <bes fis>) r8 r4. | gis8-. fis r r4. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
+%{
  %bn119
 \time 2/4 dis8 e cis dis | \lyricmode {get -- ting on to } |
 R2 | dis4-. cis-. |  R2 |  R2 |   % rh lh kbR kbL 
