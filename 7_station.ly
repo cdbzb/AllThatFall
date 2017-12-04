@@ -1346,28 +1346,27 @@ r4 fis' cis''~ | R2. | R2. | fis,,16 gis,, ais,, b,, cis, dis, eis, fis, cis,4~ 
 4. r|4. <cis' gis'>4 <ais f>16-. |2.| % hn tpt  tn 
  r4. r4 fis8 | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-cis''4.~4 b8 | <fis'' ais''>4. <eis'' gis''> | cis'''4. b''4 gis''8  | 4.~8 r fis,, | R2. |% vn vII va vc cb 
+cis''4.~4 b8 | <fis'' ais''>4. <eis'' gis''> | \treble cis'''4. b''4 gis''8  | 4.~8 r fis,, | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn131
 \time 3/8 fis8 \instrumentSwitch "Fitt" bes,\noBeam d | \lyricmode {rived! not an acc -- } |
 R4. | fis8 g d |  R4. |  R4. |   % rh lh kbR kbL 
-R4. | R4. | R4. | R4. | % fl ob kl bn 
-R4. |  R4. |  R4. | % hn tpt  tn 
-R4. | R4. | R4. | % tym perc fol 
+<cis'' fis''>4. | R4. | R4. | R4. | % fl ob kl bn 
+<bes d>4. |4.|  R4. | % hn tpt  tn 
+fis4. |<<{\ossia "perc" {\instrumentSwitch "vibes"  r8 bes' d'' }}{f'4.:32}>>  | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
+bes4.~ | fis''4. | ais''4. |<< {r8 \treble bes-.^pizz d'} \\ fis,,4. >>  | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI  
 
-%{
  %bn132
 \time 5/8 fis8 d bes a gis | \lyricmode {i -- dent I trust? } |
 fis'='8 f e dis d| a4.~ a4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
+r8 fis'( dis' c'4) | a''8 fis'' dis'' r4 | <fis a c' a' c'>4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
-r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+r4. r4 |\instrumentSwitch "percsilent" << \cross d''4.->\lv\\ f'4.-> >> r4 | r4. r4 | % tym perc fol 
+r4. r4 |fis'8 dis' c' a fis | % hpL hpR 
+4. r4 |<a c' ees' a' c'' ees''>4.:32~\> 4\! |4. r4 | fis'8-. r2 | f8-. ees-. c-. a,-. fis,-. |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
  %bn133
@@ -1391,6 +1390,7 @@ R4. | R4. | % hpL hpR
 R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
+%{
 
  %bn135
 \time 2/4 r4 \times 2/3 {fis8 r fis} | \lyricmode {left the } |
