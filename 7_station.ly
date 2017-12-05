@@ -1434,35 +1434,34 @@ r8. r r8  |  r8. r r8  | <a' dis''>8. <gis' f''> <g' e''>16 <fis' dis''> |  r8. 
  r8. r r8  |  r8. r r8  |  r8. r r8  |  r8. r r8  |  r8. r r8  |% vn vII va vc cb 
   r8. r r8 |  r8. r r8 |  r8. r r8 |  r8. r r8 |  r8. r r8 |  r8. r r8 |   % I II III II I VI  
 
-%{
  %bn139
-\time 5/8 \instrumentSwitch "Barrell" b,8\noBeam cis16 ais b8 cis16 dis e8-.| \lyricmode {that's e -- nough guff out of you } | %change note on 'you' for emphasis ??
+\time 5/8 \set Timing.beatStructure = #'(2 2 1)  \instrumentSwitch "Barrell" b,8\noBeam cis16 ais b8 cis16 dis e8-.| \lyricmode {that's e -- nough guff out of you } | %change note on 'you' for emphasis ??
 r4 r r8 |a=,2( e8-.)|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
+b''8( a''16 gis'' f''4.~\> | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
+r8 bes, r bes, e |  r4. r4 | <b,, b,>8 r q r <e,, e,> | % hn tpt  tn 
+ r2 e8 | d'4 4.| r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+r4. r4 | r4. r4 | r4. r4 | r4. r4 | b,,8-.\f^pizz r b,, r e, |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn140
 \time 4/4 \tEE e8-. fis-. dis-. e-. a e cis  e | \lyricmode {nip up on the plat -- form now and } |
 R1 |e=,2 a|  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | R1 | R1 | % fl ob kl bn 
-R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
+ 1~ | R1 | R1 |cis4-. 4 4 4 | % fl ob kl bn 
+ <e b>2 e | R1 | 4 r <a, a> r | % hn tpt  tn 
+ e2 a | r2 \cross f''2 | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
-  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI   
+R1 | R1 | R1 | R1 | e,4-. r a-. r |% vn vII va vc cb 
+R1 | R1 | R1 | R1 | R1 |  R1 |   % I II III II I VI   
 
  %bn141
-\time 5/8 \tEE a,8 b cis d e | \lyricmode {see has Mis -- ter Clark } |
-r4 r4. |g4.~ g4|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
+\time 5/8 \set Timing.beatStructure = #'(2 3)  \tEE a,8 b cis d e | \lyricmode {see has Mis -- ter Clark } |
+r4. r. |g4.~ g4|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
+4.~4)\! | r4. r4 | e''8( d'' cis'' b' a~ | r4. r4 | % fl ob kl bn 
+r4. r4 |  r4. r4 | <a,, a,>4. r4 | % hn tpt  tn 
+r4. r4 |\cross d''4~4. ->\lv| r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
+r4. r4 | r4. r4 | r4. r4 | r4. r4 | a,,8-. b,,-. cis,-. d,-. e-. |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn142
@@ -1475,6 +1474,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
+%{
  %bn143
 \time 3/16 c8. | \lyricmode {Dan! } |
 << {<a=' c e a>8.\arpeggio)}\\s8.>>| r8. |  R8. |  R8. |   % rh lh kbR kbL 
