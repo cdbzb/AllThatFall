@@ -1387,10 +1387,9 @@ R4. | R4. | R4. | R4. | % fl ob kl bn
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
+R4. | R4. |fis'4.~\startTrillSpan^"s.p." |<a a'>4.~ | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
-%{
 
  %bn135
 \time 2/4 r4 \times 2/3 {fis8 r fis} | \lyricmode {left the } |
@@ -1399,18 +1398,18 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 |fis'2\stopTrillSpan | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
 
  %bn136
 \time 6/8 e'8 cis a gis' e a,16 gis | \lyricmode {track! Dar -- ling Mo -- ther with the } |
 <fis=' a c e>4.\arpeggio <a cis e gis>\arpeggio | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+\repeat tremolo 12 {<fis' a'>32 <gis' b'>} | R2. |r4. \repeat tremolo 6 {<d'' fis''>32 <e'' gis''>} | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. |<< \cross f'' \\ \cross b'2. >> | R2. | % tym perc fol 
+fis,4. a, | <fis a>4. <a c'> | % hpL hpR 
+R2. | R2. |<a' c'' e''>4.~ <c'' e'' g''> | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
 
@@ -1428,13 +1427,14 @@ r8. r | r8. r | r8. r | r8. r | r8. r |% vn vII va vc cb
  %bn138
 \time 8/16 \set Timing.beatStructure = #'(3 3 2) dis8. f e16 dis  \instrumentSwitch "Tommy" | \lyricmode {lunch! (he he he } | % %CHECK RHYTH  
 fis8. f e16 dis |<< {<b= a>8.~b~ b8}\\{r8. <aes f> <g e>16 <fis dis> }>> |  r8. r r8 |  r8. r r8 |   % rh lh kbR kbL 
- r8. r r8  |  r8. r r8  |  r8. r r8  |  r8. r r8  | % fl ob kl bn 
- r8. r r8  |  r8. r r8 |   r8. r r8  | % hn tpt  tn 
+r8. r r8  |  r8. r r8  | <a' dis''>8. <gis' f''> <g' e''>16 <fis' dis''> |  r8. r r8  | % fl ob kl bn 
+<a' b'>4^stopped r |  r8. r r8 |   r8. r r8  | % hn tpt  tn 
  r8. r r8  |  r8. r r8  |  r8. r r8  | % tym perc fol 
  r8. r r8  |  r8. r r8  | % hpL hpR 
  r8. r r8  |  r8. r r8  |  r8. r r8  |  r8. r r8  |  r8. r r8  |% vn vII va vc cb 
-  0 |  0 |  0 |  0 |  0 |  0 |   % I II III II I VI  
+  r8. r r8 |  r8. r r8 |  r8. r r8 |  r8. r r8 |  r8. r r8 |  r8. r r8 |   % I II III II I VI  
 
+%{
  %bn139
 \time 5/8 \instrumentSwitch "Barrell" b,8\noBeam cis16 ais b8 cis16 dis e8-.| \lyricmode {that's e -- nough guff out of you } | %change note on 'you' for emphasis ??
 r4 r r8 |a=,2( e8-.)|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
