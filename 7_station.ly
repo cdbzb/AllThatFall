@@ -1537,11 +1537,11 @@ R2. | R2. | R2. | r4.\! d8( e) r | R2.\! |% vn vII va vc cb
  %bn149
 \time 3/4 \EE \times 2/3 {c4 fis, b~ } b8 bes | \lyricmode {give way to dis -- } |
 R2. |r2 r8 bes=,8 |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | r2 r8 bes\p^mutes | r2 r8 bes\p | % fl ob kl bn 
+R2. | R2. | R2. | r2 r8 bes\p | % fl ob kl bn 
 R2. |  R2. |\times 2/3 {r4 fis2} r4 | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | r2 r8  bes8 | R2. | R2. |% vn vII va vc cb 
+R2. | R2. | r2 r8  bes8\p^mutes | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn150
@@ -1567,14 +1567,13 @@ R2 | R2 | % hpL hpR
  %bn152
 \dQQ fis4 r8 fis\p^"aside" | \lyricmode {end what } |
 R2 |ees4 r |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+8 r4. | R2 | 8 r4 8| 8 r4 fis8 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | fis2~ | 4 r | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
  %bn153
 b8 fis dis fis | \lyricmode {is the sit -- u -- } |
 R2 |b=,2-. |  R2 |  R2 |   % rh lh kbR kbL 
@@ -1585,6 +1584,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
+%{
  %bn154
 \tEE c8 d ees f | \lyricmode {a -- tion Mis -- ter } |
 R2|c=,2~-.|  R2 |  R2 |   % rh lh kbR kbL 
