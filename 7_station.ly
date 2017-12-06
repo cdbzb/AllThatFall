@@ -1481,7 +1481,7 @@ R8.  | R8.  | <c''' e'''>8. | R8.  | % fl ob kl bn
  R8. |  R8. |  R8.  | % hn tpt  tn 
 R8.  |<<{\inst "ossia" { \instrumentSwitch "vibessilent" <a' c'' e'' a''>\arp }}{  R8. }>>  | R8.  | % tym perc fol 
 c'8.\arp | <a' c'' e'' a''>8.\arp | % hpL hpR 
-fis''16 e'' r | c''8.) | <c' e'>8. |<<{\inst "vcossia" { <g b c' a'>8.~}} {  d32 d' cis cis' b, b\> }>> | R8.  |% vn vII va vc cb 
+fis''16 e'' r | c''8.) | <c' e'>8. |<<{\inst "vcossia" { <g b c' a'>8.~}} {  d32 d' cis cis' b, b\! }>> | R8.  |% vn vII va vc cb 
   R8. |  R8. |  R8. |  R8. |  R8. |  R8. |   % I II III II I VI 
 
  %bn144
@@ -1498,71 +1498,70 @@ d'8-.^pizz fis'-. |<<{\ossia "vII" {\instrumentSwitch "vn" r8 \times 2/3 {fis''1
 \tEE \time 5/16 bes'16 fis d cis \instrumentSwitch "Tyler" g'\noBeam | \lyricmode {thing has hap -- penned now } |
  e16 fis gis ais r| r4   <ees= g>16 |  r4. r8 r8. |  r4. r8 r8. |   % rh lh kbR kbL 
  r8 r8.  | r4 ais16 | c'16 d' e' <g g'> r | r4 <dis ais>16 | % fl ob kl bn 
- e8~8. |  r4. r8 r8. | <d'' fis''>4 g16 | % hn tpt  tn 
+ e8~8. |  r4. r8 r8. | <d'' fis''>4 \bass g16 | % hn tpt  tn 
 r8 r8.  | r8 r8.  | r8 r8.  | % tym perc fol 
 r8 r8.  | r8 r8.  | % hpL hpR 
-ais8-. r8. |<<{ \inst "ossia" {\instrumentSwitch "blankvn" ais16-. fis'-. d'-. cis'-.  r}}  {  r8 r8. }>>  | <a, a>8-. r8. | e16 fis-.^pizz  gis-. ais-. r | r8 r8.  |% vn vII va vc cb 
+ais8-. r8. |<<{ \inst "ossia" {\instrumentSwitch "blankvn" ais'16-. fis'-. d'-. cis'-.  r}}  {  r8 r8. }>>  | <a, a>8-. r8. | e16 fis-.^pizz  gis-. ais-. r | r8 r8.  |% vn vII va vc cb 
   r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |   % I II III II I VI 
 
  %bn146
-\time 5/8 g8. f16 d4 c8 | \lyricmode {now Miss Fitt do } |
+\time 5/8 \set Timing.beatStructure = #'(3 2)  g8. f16 d4 c8 | \lyricmode {now Miss Fitt do } |
 r4. r4  | <d g>2 c8 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+r4. r4 | ais4. r4 | d'4 4 r8 | 4. r4 | % fl ob kl bn 
+r4. r4 |  r4. r4 | g4. f4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
-%{
  %bn147
 \time 6/8 \instrumentSwitch "Rooney" bes4.\noBeam ees4 \instrumentSwitch "Tyler" a8\noBeam^"poco piu" |  \lyricmode {Poor Dan! now } |
 << {<bes'= ees g bes>4.\arpeggio <ees aes c ees>\arpeggio}\\d8_"not">>| d4. aes, |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+<ees'' g'>4. <c''' ees'> |r4. r4 c'8-. |r4. r4 <a a'>8-. |r4. r4 <f c'>8-. | % fl ob kl bn 
+R2. |  R2. | r4. r4 a8-. | % hn tpt  tn 
+R2. | s64 \grace {g'16( bes' ees''} \arpeggioArrowDown  <g' bes' ees'' g''>4.)\arp \grace {c''16( ees'' aes'' } <c'' ees'' aes'' c'''>4.*23/24)\arp \arpeggioNormal | R2. | % tym perc fol 
+<ees g bes d >4.\arp^"up-down" <g aes c'> \arp  | <ees' g' bes'>4.\arpeggio <c' aes c'' ees'' aes''>\arp | % hpL hpR 
+<g' ees''>4.~ <c'' ees''> | <g'' bes''>4. <ees''' g'''> | <bes ees'>4.^mutes <c' aes'>~ | ees4.\< aes,\> | \treble bes'4.~\<^mutes  <g' bes' ees''>\> |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
  %bn148
 \time 6/8 a8. g16 g8 d e r  | \lyricmode {now Miss Fitt do not } |
 R2. | R2. |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | c'4. r | <a' a>8.  <g' g>16 <e' e>4 r4 | <c c'>4. d8( e) r  | % fl ob kl bn 
+R2. |  R2. |a4. g4 r8 | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | R2. | R2. | r4.\! d8( e) r | R2.\! |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
  %bn149
 \time 3/4 \EE \times 2/3 {c4 fis, b~ } b8 bes | \lyricmode {give way to dis -- } |
 R2. |r2 r8 bes=,8 |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
+R2. | R2. | r2 r8 bes\p^mutes | r2 r8 bes\p | % fl ob kl bn 
+R2. |  R2. |\times 2/3 {r4 fis2} r4 | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | R2. | r2 r8  bes8 | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
  %bn150
 \time 2/4 bes8 bes c d | \lyricmode {pair all will come } |
 R2  |bes4 r8 ees,|  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 |\bass r4. bes,8 | 2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+r4 g | R2 | bes2~( | bes,4.^mutes  ees,8 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn151
 \tEE d4 aes8 g | \lyricmode {right in the } |
 R2 |ees2~|  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+ d'2~ | R2 | ees2~ | 2~ | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ g2 | R2 |4 aes8 a | 2~ | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn152
@@ -1575,6 +1574,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn153
 b8 fis dis fis | \lyricmode {is the sit -- u -- } |
 R2 |b=,2-. |  R2 |  R2 |   % rh lh kbR kbL 
