@@ -1456,54 +1456,53 @@ R1 | R1 | R1 | R1 | R1 |  R1 |   % I II III II I VI
 
  %bn141
 \time 5/8 \set Timing.beatStructure = #'(2 3)  \tEE a,8 b cis d e | \lyricmode {see has Mis -- ter Clark } |
-r4. r. |g4.~ g4|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-4.~4)\! | r4. r4 | e''8( d'' cis'' b' a~ | r4. r4 | % fl ob kl bn 
+r4. r |g4.~ g4|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
+4.~4)\! | r4. r4 | e''8( d'' cis'' b' a'~ | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 | <a,, a,>4. r4 | % hn tpt  tn 
 r4. r4 |\cross d''4~4. ->\lv| r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | a,,8-. b,,-. cis,-. d,-. e-. |% vn vII va vc cb 
+r4. r4 | r4. r4 | r4. r4 | r4. r4 | a,,8-. b,,-. cis,-. d,-. e,-. |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
 
  %bn142
 \time 3/4 \dQQ d8 e16 cis  d16 d, r8 r16 \instrumentSwitch "Rooney" e'8.\noBeam\p | \lyricmode {an -- y thing for us Poor } | % % check lyric
 r4 << {r4 r16 <e=' g b e>8.\arpeggio(} \\ { r16 d='( cis b a g\> fis e\!) }>>  | r4 r16 d8.->-. r4 |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
-R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | R2. | <a' b'>2 r16 <g'' b''>8. | R2. | % fl ob kl bn 
+<e g>4 <b, d a>4. r8 |  R2. | <a,, a,>4 <d, a,>2| % hn tpt  tn 
+R2. |<< {\ossia "perc"{\instrumentSwitch "vibes" r2 r16 <e' g' b' e''>8.\arp}}  {\instrumentSwitch "crotales" r4 r16  a'16 g' fis' e' d' cis' b'}>> | R2. | % tym perc fol 
+r2 r16 <e a>8.\arp |r2 r16  <b e' g' b'>8.\arp | % hpL hpR 
+r4 r16 fis''' e''' d''' cis''' b'' a'' g'' | r2 r16 g'8.(^mutes | r2 r16 <b e'>8. |<<{  r4 r16 d'32 d'' cis' cis''  b b' \bass a\> a' g g' fis fis' e  e' } { \new Staff="vcossia" \with {alignAboveContext="vc"} {\instrumentSwitch "vc" r2 r16 b8.~^tie}}>>   | a,,4-. d,,-. r |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
-%{
  %bn143
 \time 3/16 c8. | \lyricmode {Dan! } |
-<< {<a=' c e a>8.\arpeggio)}\\s8.>>| r8. |  R8. |  R8. |   % rh lh kbR kbL 
-r8.  | r8.  | r8.  | r8.  | % fl ob kl bn 
-r8.  |  R8. |  r8.  | % hn tpt  tn 
-r8.  | r8.  | r8.  | % tym perc fol 
-r8.  | r8.  | % hpL hpR 
-r8.  | r8.  | r8.  | r8.  | r8.  |% vn vII va vc cb 
+<< {<a=' c e a>8.\arpeggio)}\\s8.>>| R8. |  R8. |  R8. |   % rh lh kbR kbL 
+R8.  | R8.  | <c''' e'''>8. | R8.  | % fl ob kl bn 
+ R8. |  R8. |  R8.  | % hn tpt  tn 
+R8.  |<<{\inst "ossia" { \instrumentSwitch "vibessilent" <a' c'' e'' a''>\arp }}{  R8. }>>  | R8.  | % tym perc fol 
+c'8.\arp | <a' c'' e'' a''>8.\arp | % hpL hpR 
+fis''16 e'' r | c''8.) | <c' e'>8. |<<{\inst "vcossia" { <g b c' a'>8.~}} {  d32 d' cis cis' b, b\> }>> | R8.  |% vn vII va vc cb 
   R8. |  R8. |  R8. |  R8. |  R8. |  R8. |   % I II III II I VI 
 
  %bn144
 \time 2/8 \instrumentSwitch "Fitt" d'8\noBeam\f \times 2/3 {fis16 d bes} | \lyricmode { What ter -- ri -- ble } |
 d='8 \times 2/3 {ees16( f g)}| R4 |  R4 |  R4 |   % rh lh kbR kbL 
-R4 | R4 | R4 | R4 | % fl ob kl bn 
-R4 |  R4 |  R4 | % hn tpt  tn 
+R4 | R4 | <a' f''>16 r <ais' fis'>8 | R4 | % fl ob kl bn 
+d16 r dis8 |  R4 | \treble <ais' d''>16 r <d'' fis''>8 | % hn tpt  tn 
 R4 | R4 | R4 | % tym perc fol 
 R4 | R4 | % hpL hpR 
-R4 | R4 | R4 | R4 | R4 |% vn vII va vc cb 
+d'8-.^pizz fis'-. |<<{\ossia "vII" {\instrumentSwitch "vn" r8 \times 2/3 {fis''16-.^pizz d''-. ais'-. }}} {  <g' b'>8^mute <a' e''> }>> | \bass <d, d>8-.^pizz <dis, dis>16-. <g, g>-.  | R4 | R4 |% vn vII va vc cb 
   R4 |  R4 |  R4 |  R4 |  R4 |  R4 |   % I II III II I VI 
 
  %bn145
 \tEE \time 5/16 bes'16 fis d cis \instrumentSwitch "Tyler" g'\noBeam | \lyricmode {thing has hap -- penned now } |
  e16 fis gis ais r| r4   <ees= g>16 |  r4. r8 r8. |  r4. r8 r8. |   % rh lh kbR kbL 
-r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  | % fl ob kl bn 
-r8 r8.  |  r4. r8 r8. |  r8 r8.  | % hn tpt  tn 
+ r8 r8.  | r4 ais16 | c'16 d' e' <g g'> r | r4 <dis ais>16 | % fl ob kl bn 
+ e8~8. |  r4. r8 r8. | <d'' fis''>4 g16 | % hn tpt  tn 
 r8 r8.  | r8 r8.  | r8 r8.  | % tym perc fol 
 r8 r8.  | r8 r8.  | % hpL hpR 
-r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  | r8 r8.  |% vn vII va vc cb 
-  0 |  0 |  0 |  0 |  0 |  0 |   % I II III II I VI 
+ais8-. r8. |<<{ \inst "ossia" {\instrumentSwitch "blankvn" ais16-. fis'-. d'-. cis'-.  r}}  {  r8 r8. }>>  | <a, a>8-. r8. | e16 fis-.^pizz  gis-. ais-. r | r8 r8.  |% vn vII va vc cb 
+  r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |  r8 r8. |   % I II III II I VI 
 
  %bn146
 \time 5/8 g8. f16 d4 c8 | \lyricmode {now Miss Fitt do } |
@@ -1515,6 +1514,7 @@ r4. r4 | r4. r4 | % hpL hpR
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
   r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
 
+%{
  %bn147
 \time 6/8 \instrumentSwitch "Rooney" bes4.\noBeam ees4 \instrumentSwitch "Tyler" a8\noBeam^"poco piu" |  \lyricmode {Poor Dan! now } |
 << {<bes'= ees g bes>4.\arpeggio <ees aes c ees>\arpeggio}\\d8_"not">>| d4. aes, |  R2. |  R2. |   % rh lh kbR kbL 
