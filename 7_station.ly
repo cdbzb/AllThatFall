@@ -1767,34 +1767,33 @@ r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |% vn vII va vc cb
 
 
  %bn172
-\time 2/4 f8 \instrumentSwitch "Rooney" <c''='^"- ment"  fis,>  b a | \lyricmode {mo be -- for  you } |
+\time 2/4 f8 \instrumentSwitch "Rooney" <c''='  fis,>\noBeam  b a | \lyricmode {mo be -- for  you } |
 <fis a c dis>8-> r4. | <fis fis'>8 r4. |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+ r8 <fis c'>4.~(^stopped |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | r8 <fis, fis>4.:32~( | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
  %bn173
 ees'8( d des) c | \lyricmode {slink a -- } |
 c8( b bes a) | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+4. <g cis'>8  |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 |4. <g, g>32 <gis, gis> <a, a> <ais, ais> | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn174
 \dEQ b8 aes16 f e16( f e) d | \lyricmode {way Mis -- ter Bar -- rell } |
 R2 | <d f aes b>2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+ <gis d'>2) |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | R2 | <b, b>2:32 ) | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
  %bn175
@@ -1807,6 +1806,7 @@ R4. | R4. | % hpL hpR
 R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
+%{
  %bn176
 \time 2/4 des8 aes e ees | \lyricmode {state -- ment of some } |
 << des2(\\aes~ >> | f4( e~ |  R2 |  R2 |   % rh lh kbR kbL 
