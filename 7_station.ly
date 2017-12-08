@@ -1800,31 +1800,30 @@ R2 | R2 | R2 | <b, b>2:32 ) | R2 |% vn vII va vc cb
 \time 3/8 \dQQ c'4 aes8 | \lyricmode {please a } |
 <d f aes c>4.\arpeggio | <d d'>4.\arpeggio |  R4. |  R4. |   % rh lh kbR kbL 
 R4. | R4. | R4. | R4. | % fl ob kl bn 
-R4. |  R4. |  R4. | % hn tpt  tn 
-R4. | R4. | R4. | % tym perc fol 
+R4. |  R4. | <d,, a,,>4.~ | % hn tpt  tn 
+<d, d>4.\arp | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
+c'4.:32 |<gis gis'>4.:32~ | R4. | <d, d>4.:32 | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
-%{
  %bn176
 \time 2/4 des8 aes e ees | \lyricmode {state -- ment of some } |
 << des2(\\aes~ >> | f4( e~ |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | aes2 | R2 | % fl ob kl bn 
+R2 |  R2 | 4 r | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+cis'2:32~ |2:32 | <cis cis'>2\pp | <f, f>4 <e, e>~ | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn177
 \time 3/4 \rit g4\start d8. d16 aes4\stop | \lyricmode {kind I in -- sist } | % % or cis8. cis16 ??
 <<b2.) \\ des>> | e2.) |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
+R2. | R2. | s64 \grace {a?16( bes b c'} cis'4 d'2*15/16)  | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+4:32 d'2:32~ | R2. | <b, b>2. | 2~8 r | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
 
@@ -1838,6 +1837,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
+%{
  %bn179
 \time 3/8 e'4 c8 | \lyricmode {slow -- est } |
 R4. | c4. |  R4. |  R4. |   % rh lh kbR kbL 
