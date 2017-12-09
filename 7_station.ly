@@ -1644,7 +1644,6 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
 
 
-%}
  %bn160
 \time 4/4 \instrumentSwitch "Tyler" a='4.\noBeam e8 cis4 a8 b | \lyricmode {Come, Miss Fitt let us } |
 R1 | a''=4-. e-. cis-. a-. |  R1 |  R1 |   % rh lh kbR kbL 
@@ -1816,32 +1815,32 @@ R2 | R2 | % hpL hpR
 cis'2:32~ |2:32 | <cis cis'>2\pp | <f, f>4 <e, e>~ | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%}
  %bn177
 \time 3/4 \rit g4\start d8. d16 aes4\stop | \lyricmode {kind I in -- sist } | % % or cis8. cis16 ??
 <<b2.) \\ des>> | e2.) |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | s64 \grace {a?16( bes b c'} cis'4 d'2*15/16)  | R2. | % fl ob kl bn 
+g2( gis4)| R2. | s64 \grace {a?16( bes b c'} cis'4 d'4) r4*15/16   | R2. | % fl ob kl bn 
 R2. |  R2. |  R2. | % hn tpt  tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-4:32 d'2:32~ | R2. | <b, b>2. | 2~8 r | R2. |% vn vII va vc cb 
+4:32 d'2:32~ | <g g'>2:32 <gis gis'>4:32 | <b, b>2. | 2~8 r | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
 
 
  %bn178
 \time 2/4 r8 c= b a  | \lyricmode {e -- ven  the } |
 R2 | a,=,2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+ r8 e''( d'' c'' | R2 | R2 |a,2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
-%{
  %bn179
 \time 3/8 e'4 c8 | \lyricmode {slow -- est } |
 R4. | c4. |  R4. |  R4. |   % rh lh kbR kbL 
-R4. | R4. | R4. | R4. | % fl ob kl bn 
+e'4.) | R4. | R4. | c,4. | % fl ob kl bn 
 R4. |  R4. |  R4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
@@ -1851,7 +1850,7 @@ R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb
  %bn180
 \time 2/4 b8 b c d | \lyricmode {train on this brief } |
 R2 | d8 d c b |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+b'8-. 8( a' gis | R2 | R2 |d8-. d( c b | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
@@ -1861,8 +1860,8 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
  %bn181
 fis4 e8 d | \lyricmode {line is not } |
 <c,=' fis>2 | d2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+d''2 | R2 |<fis' fis''>2 |d2 | % fl ob kl bn 
+<c' fis'>2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
@@ -1871,8 +1870,8 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
  %bn182
 \tEE \time 5/8 f4 e8 d cis | \lyricmode {ten min -- utes and } |
 r4. r4 | <des g bes>4.~ <des g bes>4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+r4. r4 | r4. r4 | <f' f''>4.~4 | cis4.~4 | % fl ob kl bn 
+r4. r4 |  r4. r4 | <g bes>4.~4~ | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
@@ -1881,8 +1880,8 @@ r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb
  %bn183
 \time 3/8 e4 d8 | \lyricmode {more be -- } |
 r4 d8~ | R4. |  R4. |  R4. |   % rh lh kbR kbL 
-R4. | R4. | R4. | R4. | % fl ob kl bn 
-R4. |  R4. |  R4. | % hn tpt  tn 
+R4. | R4. | <e e'>4.~ | R4. | % fl ob kl bn 
+ r4 d'8~ |  R4. | 4. | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
 R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
@@ -1891,11 +1890,11 @@ R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb
  %bn184
 \time 2/4 gis8 e fis c | \lyricmode {hind its sche -- duled } |
 d4. c8 |e2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 | R2 | 8 r4. |e2 | % fl ob kl bn 
+2 |  R2 |  R2 | % hn tpt  tn 
+R2 | fis''2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+ gis'2^mutes | R2 |gis''2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn185
@@ -1908,6 +1907,7 @@ R2  | R2  | % hpL hpR
 R2  | R2  | R2  | R2  | R2  |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn186
 ees8 d16 c bes8 a | \lyricmode {cause one i -- ma -- gines } |
 << {<ees g>8 <d f>16 <c ees>16~ <c ees>4}\\<ees g>2>> | <f a>2|  R2 |  R2 |   % rh lh kbR kbL 
