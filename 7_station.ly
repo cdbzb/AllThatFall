@@ -1990,32 +1990,31 @@ R2 | R2 | % hpL hpR
  %bn194
 \time 3/8 bes4 a8 | \lyricmode {times when } |
 << {ais'4( a8)}\\<c, dis fis>4.>> |<< {ais''4( b8)}\\<c, dis fis>4. >> |  R4. |  R4. |   % rh lh kbR kbL 
-R4. | R4. | R4. | R4. | % fl ob kl bn 
-R4. |  R4. |  R4. | % hn tpt  tn 
+<<{ fis'4 c'8~ } \\ dis'4.~ >> | R4. | R4. | R4. | % fl ob kl bn 
+dis'4 r8 |  R4. | <dis' fis'>4 r8 | % hn tpt  tn 
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
-R4. | R4. | R4. | R4. | R4. |% vn vII va vc cb 
+R4. | R4. | <c' d' fis'>4 r8 | R4. | R4. |% vn vII va vc cb 
   R4. |  R4. |  R4. |  R4. |  R4. |  R4. |   % I II III II I VI 
 
-%{
  %bn195
 \time 2/4 r4 a8 gis | \lyricmode {that is } |
 r4 a'8( gis) | r4 <a a'>8( <gis gis'>)  |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+<<{ s2 }\\2~ >>| R2 |r4.  <a a'>8| | % fl ob kl bn 
+R2 |  R2 | a4 gis8 r | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | a4( gis8) r | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
  %bn196
 gis4 fis8. eis16 | \lyricmode {just not e -- } |
 gis4 fis8. eis16  | <gis gis'>4 <fis fis'>8 <eis eis'> |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+<<{ s2 }\\2~ >>| R2 | <gis gis'>4 <fis fis'>8. < eis eis'>16 | R2 | % fl ob kl bn 
+R2 |  R2 |gis4 fis| % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+g''2\startTrillSpan | R2 | gis4 fis8. eis16  | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn197
@@ -2025,9 +2024,10 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+2\stopTrillSpan | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn198
 fis2 | \lyricmode {nough! } |
 <fis a cis fis>2 | <fis fis'>2 |  R2 |  R2 |   % rh lh kbR kbL 
