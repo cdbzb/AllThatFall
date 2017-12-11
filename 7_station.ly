@@ -2000,7 +2000,7 @@ R4. | R4. | <c' d' fis'>4 r8 | R4. | R4. |% vn vII va vc cb
  %bn195
 \time 2/4 r4 a8 gis | \lyricmode {that is } |
 r4 a'8( gis) | r4 <a a'>8( <gis gis'>)  |  R2 |  R2 |   % rh lh kbR kbL 
-<<{ s2 }\\2~ >>| R2 |r4.  <a a'>8| | % fl ob kl bn 
+<<{ s2 }\\2~ >>| R2 |r4.  <a a'>8| R2 | % fl ob kl bn 
 R2 |  R2 | a4 gis8 r | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
@@ -2020,30 +2020,29 @@ g''2\startTrillSpan | R2 | gis4 fis8. eis16  | R2 | R2 |% vn vII va vc cb
  %bn197
 \dQQ a8 a gis8. eis16 | \lyricmode {nough just not e -- } | 
 <b a'b>8 a gis8. eis16 | <a a'>8 <a a'> <gis gis'> <eis eis'> |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+<e e'>2| R2 | R2 | <b a' b'>4 r4 | % fl ob kl bn 
+cis'8 << cis'4.\\{a8( gis f)}>>  |  R2 | <a a, a,,>8-. q( <gis gis, gis,,> <fis fis, fis,,>)  | % hn tpt  tn 
+R2 |{\instrumentSwitch "bells"  a'4 gis'8 f' } | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-2\stopTrillSpan | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+fis''2\stopTrillSpan | R2 | r8 a'( gis' f' | a,8 8 gis, f,  |r8  a,,8-.^pizz gis,,-. f,,-. |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
  %bn198
 fis2 | \lyricmode {nough! } |
 <fis a cis fis>2 | <fis fis'>2 |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+ <fis' fis>8 r4. | R2 | R2 | R2 | % fl ob kl bn 
+ <fis a, fis, a cis'>2 |  R2 | <fis fis, fis,,>8 r4. | % hn tpt  tn 
+R2 | cis'2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | <f' a'>8~ a'4) r8 | <fis, cis,>4.:32 r8 | fis,,8-. r4. |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
 
  %bn199
 \time 5/8 \set Timing.beatStructure = #'(2 3) ees=8 d16 c a'8 g16 a( b) b( | \lyricmode {here we are eat -- ing our hearts } |
 r4 r4. |<< {r4 fis=4.~(}\\{c4~c4.}>>|  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+c''8 b'16 a' a''4 gis''16 16(  | r4. r4 | r4. r4 | <a a'>4~4. | % fl ob kl bn 
+ r4 fis4.~( |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
@@ -2052,8 +2051,8 @@ r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb
  %bn200
 \time 2/4 c8) b d8. c16 | \lyricmode {out with an -- } | 
 R2 | << {fis8 g a b}\\d,2>> |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+fis''2~ | R2 | R2 | b2 | % fl ob kl bn 
+ f8 g a b |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
@@ -2062,8 +2061,8 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
  %bn201
 \time 5/8 \tEE b8 a gis a b | \lyricmode {xi -- e -- ty for our } |
 << {<gis' b>8 a gis a b}\\{e,4.~ e4} >> | << {c'4.~c4)}\\ {<e, gis >4.~ <e gis >4} >> |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
+fis''8 e'' dis'' e'' fis'') | r4. r4 | <e' gis'>4.~4 | c'4.~4 | % fl ob kl bn 
+c'4.~4) |  r4. r4 |  r4. r4 | % hn tpt  tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb 
@@ -2079,6 +2078,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn203
 \time 7/8 \EE c4 b8~ b4 r8 dis8 | \lyricmode {calls it a } | % % % % % CHECK MM!!! 
 r2. <b dis fis>8 | <c c'>4. <b b'>4. <a a'>8 |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
