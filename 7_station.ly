@@ -2091,9 +2091,9 @@ r2 r4. | r2 r4. | r2 r4. |r2 r4 <a, a>8:32~ | r2 r4. |% vn vII va vc cb
  %bn204
 \time 8/8 \set Timing.beatStructure = #'(3 3 2) b4. \breathe a8 b c e fis | \lyricmode {hitch! some of us like my -- } |
 <a a'>4. c8( b a~ a4) | <b dis fis b>4. r4. r4 |  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | dis'2 r | r4. c'8 b 8~ 4 | % fl ob kl bn 
+R1 | R1 | dis'2 r | r4. c'8 b a8~ 4~ | % fl ob kl bn 
 R1 |  R1 | <b, fis, dis, b,,>4-> r2. | % hn tpt  tn 
-R1 |<< <<{\instrumentSwitch "percsilent" \cross d''8-! r4.}\\{d'1}>> { \inst "ossia" {\instrumentSwitch "bellssilent"  fis'1}}>> | R1 | % tym perc fol 
+R1 |<< <<{\instrumentSwitch "percsilent" \cross d''8-! r2..}\\{d'1}>> { \inst "ossia" {\instrumentSwitch "bellssilent"  fis'1}}>> | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
 R1 | R1 | R1 | <a dis a, dis,>4:32 r2. | b,,4:32 r2. |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI  
@@ -2101,22 +2101,21 @@ R1 | R1 | R1 | <a dis a, dis,>4:32 r2. | b,,4:32 r2. |% vn vII va vc cb
  %bn205
 \time 6/8 gis8 r e a8 r f | \lyricmode {self with heart and } |
 R2. | << {e4.( f}\\{e( ees}>> |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | R2. | <e, e a>4.( <ees, f> | % fl ob kl bn 
+ <e, e>4. <ees, ees>4. |  R2. |  R2. | % hn tpt  tn 
+ e,4.:32 ees4.:32 | R2.  | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
 R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
-%{
  %bn206
 \time 3/4 \EE ais8 e fis gis ais bis | \lyricmode {kid -- ney trou -- ble might col -- } |
 ais'='8( e fis gis ais bis  | <<{fis8 gis ais2)}\\d,2.)>> |  R2. |  R2. |   % rh lh kbR kbL 
-R2. | R2. | R2. | R2. | % fl ob kl bn 
-R2. |  R2. |  R2. | % hn tpt  tn 
-R2. | R2. | R2. | % tym perc fol 
+R2. | R2. | R2. |<< {  ges8 aes bes2 }\\ d,2. >> | % fl ob kl bn 
+ <d d,>2. |  R2. |  R2. | % hn tpt  tn 
+ d,2.:32 | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
-R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
+R2. | r4 r r8 c'''8:32 | bes8:32 e8:32 ges8:32 aes8:32 bes8:32 c'8:32 | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
 
  %bn207
@@ -2124,29 +2123,29 @@ R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb
 cis2) | R2 |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 |<< {\cross d''2->\lv}{ \ossia "perc" { \instrumentSwitch "vibes" cis''2 } }>> | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+f'2:32 | d'''2:32 | <cis' cis''>4.:32 r8 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn208
 \times 2/3 {e4 d8 r e8 f} | \lyricmode {mo -- ment and he } |
 R2 | <e e'>4 <d d'> |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
+R2 |  R2 | <e' e>4 <d' d> | % hn tpt  tn 
+ees4 cis |<< { \inst "ossia" {\instrumentSwitch "bellssilent" e'4 d' }}{  R2 }>> | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
+R2 | R2 | e4 d | \times 2/3 {e4 d e8 f)} | e4-.^pizz d-. |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn209
 \QdQ \time 7/8 \set Timing.beatStructure = #'(3 4) \EE \rit c4\start b8~ b4 r8 fis'8\stop | \lyricmode {calls it a } | % % % % %  OR this should be 8/8 with a quarter note for the last note
 r2. <b dis fis>8 | <c c'>4. <b b'>4. <a a'>8 |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
 r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
-r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn 
-r2 r4. | r2 r4. | r2 r4. | % tym perc fol 
+r4. r4. <b dis' fis'>8 |  r2 r4. | <c' c>4. <b b,>4 r8 <a a,>8| % hn tpt  tn 
+b,4. bes,2 |<< { \inst "ossia" { c'4. b' a'8 }}{ r4. r4 r8 d' } >> | r2 r4. | % tym perc fol 
 r2 r4. | r2 r4. | % hpL hpR 
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |% vn vII va vc cb 
+r4. r fis'8:32 | r4. r fis''8:32 | c4.:32 b,4:32 r | c'4 b8~ 4 r8 <dis fis>8:32~  | c4.-. b,4-. r8 a,,-. |% vn vII va vc cb 
   r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |   % I II III II I VI   
 
  %bn210
@@ -2159,6 +2158,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
+%{
  %bn211
 \time 9/8 \times 3/4 {d4 bes8 d} \dEQ ees8 bes ees e4 c8  | \lyricmode {o -- vens the Sat -- ur -- day roast is } |
 r4. r r |<< {d'4.( ees e) } \\{ <g,~ bes>2. <g c>4.} >>|  r4. r r |  r4. r r |   % rh lh kbR kbL 
