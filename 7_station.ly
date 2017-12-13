@@ -2071,32 +2071,31 @@ r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |% vn vII va vc cb
  %bn202
 \dQQ \time 2/4 \times 2/3 {g4 f e8 d } | \lyricmode {loved ones and he } |
 R2|<d g bes>2|  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
+R2 | R2 | d'4 g' | d2 | % fl ob kl bn 
+R2 |  R2 | <g bes>2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
  %bn203
 \time 7/8 \EE c4 b8~ b4 r8 dis8 | \lyricmode {calls it a } | % % % % % CHECK MM!!! 
 r2. <b dis fis>8 | <c c'>4. <b b'>4. <a a'>8 |  r2 r4. |  r2 r4. |   % rh lh kbR kbL 
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
-r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn 
-r2 r4. | r2 r4. | r2 r4. | % tym perc fol 
+c''2 b''4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn 
+r2 r4. |  r2 r4. | <c, c>2 <b,, b,>4 <a,, a,>8 | % hn tpt  tn 
+r2 r4. |<< {r2 r4.} { \ossia "perc" { \instrumentSwitch "bells" c''2 b'4 a'8 }}>> | r2 r4. | % tym perc fol 
 r2 r4. | r2 r4. | % hpL hpR 
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |% vn vII va vc cb 
+r2 r4. | r2 r4. | r2 r4. |r2 r4 <a, a>8:32~ | r2 r4. |% vn vII va vc cb 
   r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |   % I II III II I VI   
 
  %bn204
 \time 8/8 \set Timing.beatStructure = #'(3 3 2) b4. \breathe a8 b c e fis | \lyricmode {hitch! some of us like my -- } |
 <a a'>4. c8( b a~ a4) | <b dis fis b>4. r4. r4 |  R1 |  R1 |   % rh lh kbR kbL 
-R1 | R1 | R1 | R1 | % fl ob kl bn 
-R1 |  R1 |  R1 | % hn tpt  tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | dis'2 r | r4. c'8 b 8~ 4 | % fl ob kl bn 
+R1 |  R1 | <b, fis, dis, b,,>4-> r2. | % hn tpt  tn 
+R1 |<< <<{\instrumentSwitch "percsilent" \cross d''8-! r4.}\\{d'1}>> { \inst "ossia" {\instrumentSwitch "bellssilent"  fis'1}}>> | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | R1 | R1 | R1 | R1 |% vn vII va vc cb 
+R1 | R1 | R1 | <a dis a, dis,>4:32 r2. | b,,4:32 r2. |% vn vII va vc cb 
   R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI  
 
  %bn205
@@ -2109,6 +2108,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
   R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI 
 
+%{
  %bn206
 \time 3/4 \EE ais8 e fis gis ais bis | \lyricmode {kid -- ney trou -- ble might col -- } |
 ais'='8( e fis gis ais bis  | <<{fis8 gis ais2)}\\d,2.)>> |  R2. |  R2. |   % rh lh kbR kbL 
