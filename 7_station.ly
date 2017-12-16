@@ -22,6 +22,7 @@ tag = \date
 
 %{
 
+%}
  %bn1
  \tempo 4 = 60 %dummy
 \tempo "sempre rit" \instrumentSwitch "Rooney"
@@ -32,7 +33,8 @@ R1 | R1  |c'4~\trill\p c'8 d' e'2  | R1  | % fl ob kl bn
 R1  | R1  | R1  | % tym perc fol 
 R1  | R1  | % hpL hpR 
 R1  | R1  | R1  | c4-.^pizz r2. | R1  |% vn vII va vc cb 
-  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI  
+ \instrumentSwitch "kl" \Q #"kl" {s1 }| \instrumentSwitch "tn" \Q #"tn" {s1 }| \instrumentSwitch "hn" \Q #"hn" {s1 }|  R1 |  R1 | \instrumentSwitch "vc" \Q #"vc" {s1 }|   % I II III II I VI  
+%parts: kl % tn or tpt % hn % rest % rest % vc
 
  %bn2
 \dQH  r4 f2 e4 | \lyricmode {thank you } |
@@ -42,7 +44,9 @@ r4 <a c~ f>2 <g c f>4 | <f f'>2( <c c'> |  R1 |  R1 |   % rh lh kbR kbL
 R1  | R1  | R1  | % tym perc fol 
 R1  | R1  | % hpL hpR 
 R1  | R1  | R1  | f,2-. c2-. | R1  |% vn vII va vc cb 
-  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
+  \Q #"kl" { s1 }|  \Q #"tn" { s1 }|  \Q #"hn" { s1 }| \instrumentSwitch "fl" \Q #"fl" {s1 }| R1 |  \Q #"vc" { s1 }|   % I II III II I VI 
+%parts: kl % tn or tpt % hn % fl % rest % vc
+
 
  %bn3
 r2 d4 e8 c | \lyricmode {that will do } |
@@ -52,8 +56,9 @@ r2 <f aes~ d>2 | <g g'>2)  aes'( |  R1 |  R1 |   % rh lh kbR kbL
 R1  | R1  | R1  | % tym perc fol 
 r2 <f aes d' >\arpeggio |r2  <f' aes' d''>2\arpeggio | % hpL hpR 
  r2.. <c' c''>8~^mute\pp\<  | R1  | r2 f4^mute e~ | g,2-. aes,-. | R1  |% vn vII va vc cb 
-  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
-
+ \Q #"kl" { s1 }|  \Q #"tn" { s1 }|\Q #"hn" {s2 } \instrumentSwitch "bn" \Q "bn" {s2} |\Q #"fl" {s2 } \instrumentSwitch "vabass" \Q "va" {s2}| \instrumentSwitch "vn" \Q #"vn" {s1 }|  \Q #"vc" { s1 }|   % I II III II I VI 
+%parts: kl % tn % hn % fl % vn % vc  -- 1st 2 beats 
+%parts: kl % tn or tpt % bn % va % vn % vc -- 2nd 2 beats 
 
  %bn4
 \time 2/4 r8 b cis d | \lyricmode {just prop me } |
@@ -64,6 +69,9 @@ R2 | R2 | R2 | % tym perc fol
  <fis, f,,>2~ | R2 | % hpL hpR 
  4~4\p | r4. a8~(^mute | 2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+%Error: no solution found. Returning best guess.
+%parts: va % vn % bn % rest % vII % tn or tpt
+%Error: too many parts 7
 
  %bn5
 fis8 d e fis | \lyricmode {up a -- gainst the } |
@@ -75,6 +83,7 @@ R2 | \instrumentSwitch "vibes" <fis' fis''>2\sustainOn  | R2 | % tym perc fol
 R2 | <a fis'>2~) | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
+%{
  %bn6
 \dQQ a8 gis16  a fis16-- gis16  a b(  | \lyricmode {wall like a load of tar -- paul -- } |
 R2 | <fis fis'>2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -1815,7 +1824,6 @@ R2 | R2 | % hpL hpR
 cis'2:32~ |2:32 | <cis cis'>2\pp | <f, f>4 <e, e>~ | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%}
  %bn177
 \time 3/4 \rit g4\start d8. d16 aes4\stop | \lyricmode {kind I in -- sist } | % % or cis8. cis16 ??
 <<b2.) \\ des>> | e2.) |  R2. |  R2. |   % rh lh kbR kbL 
@@ -2241,7 +2249,6 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | 2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
 
-%{
  %bn219
 c8. g16 r4 | \lyricmode {see this } | % % % % %REFGURE all these scales
 R2 | r8 f g a |  R2 |  R2 |   % rh lh kbR kbL 
@@ -2642,4 +2649,18 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
 %}
 
 }
+
+\addQuote "fl" {\fl}
+\addQuote "kl" {\kl}
+\addQuote "ob" {\ob}
+\addQuote "bn" {\bn}
+\addQuote "hn" {\hn}
+\addQuote "tpt" {\tpt}
+\addQuote "tn" {\tn}
+\addQuote "vn" {\vn}
+\addQuote "vII" {\vII}
+\addQuote "va" {\va}
+\addQuote "vc" {\vc}
+\addQuote "cb" {\cb}
+\addQuote "vox" {\melody}
 
