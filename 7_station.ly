@@ -63,12 +63,12 @@ r2 <f aes d' >\arpeggio |r2  <f' aes' d''>2\arpeggio | % hpL hpR
  %bn4
 \time 2/4 r8 b cis d | \lyricmode {just prop me } |
 aes2 | <fis, fis'>2~ |  R2 |  R2 |   % rh lh kbR kbL 
- r8 b''( a'' g'' | R2 | 2 | ges,2~ | % fl ob kl bn 
+ r8 b''( a'' g'' | R2 |aes'2 | ges,2~ | % fl ob kl bn 
 R2 |  R2 | ges2~ | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
  <fis, f,,>2~ | R2 | % hpL hpR 
  4~4\p | r4. a8~(^mute | 2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+ \Q #"kl" { s2 }| \instrumentSwitch "fl" \Q #"fl" {s2 }| \Q "bn" { s2 } | \Q "va" { s4. } \instrumentSwitch "vn" \Q #"vII" {s8} |  \Q #"vn" { s2 }| \instrumentSwitch "tn" \Q #"tn" {s2 }|   % I II III II I VI   
 %Error: no solution found. Returning best guess.
 %parts: va % vn % bn % rest % vII % tn or tpt
 %Error: too many parts 7
@@ -81,9 +81,9 @@ R2 |  R2 |  2 | % hn tpt  tn
 R2 | \instrumentSwitch "vibes" <fis' fis''>2\sustainOn  | R2 | % tym perc fol 
 2~ | fis'2 | % hpL hpR 
 R2 | <a fis'>2~) | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+ \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"vII" { s2 } |  \Q #"vn" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI 
+%parts: fl % vII % bn % rest % rest % tn or tpt
 
-%{
  %bn6
 \dQQ a8 gis16  a fis16-- gis16  a b(  | \lyricmode {wall like a load of tar -- paul -- } |
 R2 | <fis fis'>2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -92,7 +92,8 @@ R2 |  R2 | fis4.. gis16 | % hn tpt  tn
 R2 | <a' a''>2 | R2 | % tym perc fol 
 2~ | f'?2 | % hpL hpR 
 cis'4..(\> d'16 | <cis''(\> fis''>4.. d''16 | R2 | R2 | R2 |% vn vII va vc cb 
-R2 | R2  |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+ \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"vII" { s2 } |  \Q #"vn" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI 
+%parts: kl % vII % bn % rest % rest % tn or tpt
 
  %bn7
 \rit cis8)\start  b16 cis \rt  a8 b16 cis \rt | \lyricmode {lin and that wil be } |
@@ -102,7 +103,9 @@ R2 |  R2 | a2~ | % hn tpt  tn
 R2 | <cis'' cis'''>2 | R2 | % tym perc fol 
 << {r4 a\lv}\\  <e, e,,>2 >> | e'2 | % hpL hpR 
  cis'4.. d'16 | cis''4.. d''16 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+ \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"vII" { s2 } |  \Q #"vn" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI   
+%Error: no solution found. Returning best guess.
+%parts: kl % vII % bn % rest % rest % tn or tpt
 
  %bn8
 \time 3/4 cis4 \times 2/3 {d8 a16 } \times 2/3 {f8 e16 } r8\stop  f| \lyricmode {all for the mo -- ment I } |
@@ -112,7 +115,9 @@ R2. |  R2. | 4 r2 | % hn tpt  tn
 R2. | r4 d''2 | R2. | % tym perc fol 
 R2. | d'4.~  d''4 f'8 | % hpL hpR 
  cis'4)\! r2 | cis''4)\! r2 | R2. | R2. | R2. |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI   
+ \Q #"kl" { s2. }|  \Q #"fl" { s2. }| \Q "bn" { s2. } |  \Q #"vII" { s2. } |  \Q #"vn" { s2. }|  \Q #"tn" { s2. }|   % I II III II I VI   
+%Error: no solution found. Returning best guess.
+%parts: kl % vII % bn % rest % rest % tn or tpt
 
  %bn9
 \tEE \time 5/8 \set Timing.beatStructure = #'(2 3 ) c'4 a8 fis dis | \lyricmode {am sor -- ry for } |
@@ -122,7 +127,8 @@ r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 <ees ges>4.~4 | <c' ees' ges' c''>4.~4 | % hpL hpR 
  <fis' c'>8\arpeggio^arc r4 r  | r4. r4 | fis8^arc r4 r | dis8^arc r4 r | r4. r4 |% vn vII va vc cb 
-  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
+ \Q #"kl" { s4. s4 }|  \Q #"fl" { s4. s4 }| \Q "bn" { s4. s4 } | \instrumentSwitch "va" \Q #"va" {s4. s4 }|  \Q #"vn" { s4. s4 }| \instrumentSwitch "vc" \Q #"vc" {s4. s4 }|   % I II III II I VI  
+%parts: va % vn % rest % rest % rest % vc
 
  %bn10
 \time 2/4 r4 cis8 bis | \lyricmode {all this } |
@@ -132,7 +138,8 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol 
 R2 | r4 des'8( c'  | % hpL hpR 
  c'8 r4. | R2 | R2 |  fis8 r4. | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+ \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"va" { s2 }|  \Q #"vn" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI   
+%parts: rest % vn % rest % rest % rest % vc
 
  %bn11
 \dQQ cis'8 b  fis dis | \lyricmode {ram -- dam miss Fitt } |
@@ -142,7 +149,9 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol 
  dis2 | b2) | % hpL hpR 
 cis'8( dis'4.~  | <b' cis''>2~ | fis2 | b2~ | R2 |% vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+ \instrumentSwitch "vn" \Q #"vII" {s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"va" { s2 }|  \Q #"vn" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
+%parts: fl % vn % bn % va % vII % vc
+
 
  %bn12
 \tQQ r4 dis8 e | \lyricmode {had I } |
@@ -152,7 +161,8 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 2) | R2 | R2 | <b dis'>2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+ \instrumentSwitch "kl" \Q #"kl" {s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"va" { s2 }|  \Q #"vn" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
+%parts: kl % fl % bn % vn % rest % vc
 
  %bn13
 \dQQ dis8 e16 fis \times 4/5 {dis16 e fis gis ais( } | \lyricmode {known you were loo -- kin for  your mo -- } | % % % or could be 4:3 ...
@@ -162,7 +172,8 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | r4 \times 4/5 {ees'16\sustainOn fes'  ges' aes' bes'} | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
  4 r | R2 | R2 | b2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"va" { s2 }|  \Q #"vn" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI   
+%parts: kl % fl % bn % vn % rest % vc
 
  %bn14
 \EQ c8) gis fis gis | \lyricmode {ther I should } |
@@ -172,7 +183,11 @@ R2 | R2 | % hpL hpR
 R2 | c''2 | R2 | % tym perc fol 
  <fis gis c'>2\arpeggio | < e' fis c''>2\arpeggio | % hpL hpR 
  <ges' aes'>2 | <ges'' aes''>2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } | \instrumentSwitch "vn" \Q #"vII" {s2 }|  \Q #"vn" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
+%Error: no solution found. Returning best guess.
+%parts: kl % vII % hn % rest % rest % rest
+%Error: no solution found. Returning best guess.
+%parts: vII % rest % hn % rest % rest % rest
 
  %bn15
 \rit \times 2/3 {f4\start g8} a8 b16 c( | \lyricmode {not have op -- por tuned } |
@@ -182,9 +197,12 @@ R2 | f8-.\sustainOn g-. a-. b-. |  R2 |  R2 |   % rh lh kbR kbL
 R2 | R2\sustainOff | R2 | % tym perc fol 
  f2 | R2 | % hpL hpR 
  <f' g'>2~ | <f'' g''>2 | R2 | R2 |\clef bass << {f8.-.^pizz g16-. a8.-. b16-.}\\{f,8-. g,-. a,-. b,-.}>> |% vn vII va vc cb 
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } |  \Q #"vII" { s2 }|  \Q #"vn" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI  
+%Error: no solution found. Returning best guess.
+%parts: vn % ob % hn % vII % cb % rest
+%Error: too many parts 8
 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
-
+%{
  %bn16
 d4.)\stop c8 |  \lyricmode {you } |
  <<{d'=''4.( c8)}\\{r8 e,~ <e g>4}>> |c,2 |  R2 |  R2 |   % rh lh kbR kbL 
