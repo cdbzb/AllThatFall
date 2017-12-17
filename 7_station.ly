@@ -183,7 +183,7 @@ R2 | R2 | % hpL hpR
 R2 | c''2 | R2 | % tym perc fol 
  <fis gis c'>2\arpeggio | < e' fis c''>2\arpeggio | % hpL hpR 
  <ges' aes'>2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
- \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } | \instrumentSwitch "vn" \Q #"vn" {s2 }|  \Q #"vII" { s4. } \instrumentSwitch "bass" \Q #"cb" {s8} |  \Q #"vc" { s2 }|   % I II III II I VI 
+ \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \Q "bn" { s2 } | \instrumentSwitch "vn" \Q #"vn" {s2 }|  \Q #"vII" { s4. } \instrumentSwitch "cb" \Q #"cb" {s8} |  \Q #"vc" { s2 }|   % I II III II I VI 
 %Error: no solution found. Returning best guess.
 %parts: kl % vII % hn % rest % rest % rest
 %Error: no solution found. Returning best guess.
@@ -232,7 +232,6 @@ d4.)\stop c8 |  \lyricmode {you } |
  \instrumentSwitch "va" \Q #"va" {s4 }|  \Q #"fl" { s4 }| \instrumentSwitch "hn" \Q #"hn" {s4 }|  \Q #"vn" { s4 }| \Q #"cb" { s4 } |  \Q #"vc" { s4 }|   % I II III II I VI 
 %parts: fl % vn % hn % va % rest % vc
 
-%{
  %bn19
  \time 2/4 \instrumentSwitch "Fitt" fis='4-.\noBeam gis,16 ais gis ais | \lyricmode {come Dol -- ly dar -- ling } | % should be "Woman"
  R2 |  fis,4-. r |  R2 |  R2 |   % rh lh kbR kbL 
@@ -241,7 +240,9 @@ d4.)\stop c8 |  \lyricmode {you } |
  R2 |\instrumentSwitch "perc"  \triangle  f''2\lv | R2 | % tym perc fol 
  fis,,2 | \clef bass <fis fis'>4 gis16 ais8. | % hpL hpR 
  cis''2~^mute| R2 | r8 < fis cis'>4. | R2 | fis,2-. |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+ \instrumentSwitch "kl" \Q #"kl" {s2 }|  \Q #"fl" { s2 }| \instrumentSwitch "bn" \Q #"bn" {s2 }| \instrumentSwitch "va" \Q #"va" {s2 }| \Q #"cb" { s2 } |  \Q #"vc" { s2 }|   % I II III II I VI  
+%Error: no solution found. Returning best guess.
+%parts: kl % vn % bn % va % cb % rest
 
 %bn20
   \time 3/4 \QdQ r4 eis8 fis r4 | \lyricmode {let us } | % should be half = dotted half
@@ -251,7 +252,8 @@ d4.)\stop c8 |  \lyricmode {you } |
   R2. | R2. | R2. | % tym perc fol 
   R2. | r4 eis8 fis8~ 4  | % hpL hpR 
   2.~ | R2. | R2. | R2. | cis4-. r4 fis,-.  |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  \Q #"kl" { s2. }|  \Q #"fl" { s2. }|  \Q #"bn" { s2. }| \instrumentSwitch "vn" \Q #"vn" {s2. }| \Q #"cb" { s2. } |  \Q #"vc" { s2. }|   % I II III II I VI  
+%parts: kl % vn % bn % rest % cb % rest
 
 %bn21
   \time 7/8 \set Timing.beatStructure = #'(3 4) \EE 
@@ -262,7 +264,8 @@ d4.)\stop c8 |  \lyricmode {you } |
   r4. r2 | r4. r2 | r4. r2 | % tym perc fol 
   r4. <fis, gis, bis, gis >2\arpeggio |  gis8( ais <fis bis>) <bis>2  | % hpL hpR 
   4.  gis''2  | r4. r2 | r4. r2 | r4. <dis fis gis c'>4-.^pizz\arpeggio r | r4. r2 |% vn vII va vc cb 
-    r4. r2 |  r4. r2 |  r4. r2 |  r4. r2 |  r4. r2 |  r4. r2 |   % I II III II I VI 
+  \Q #"kl" { s2 s4. }|  \Q #"fl" { s2 s4. }|  \Q #"bn" { s2 s4. }|  \Q #"vn" { s2 s4. }| \Q #"cb" { s2 s4. } |  \Q #"vc" { s2 s4. }|   % I II III II I VI 
+%parts: kl % fl % bn % vn % rest % vc
 
 %bn22
   \time 2/4 \EE e'='8 c bes ges | \lyricmode {first class smo -- kers } |
@@ -272,7 +275,10 @@ d4.)\stop c8 |  \lyricmode {you } |
   R2 | R2 | R2 | % tym perc fol 
   e4 ais8 fis | e'8 c'4. | % hpL hpR 
   r8 c''4 fis'8 | R2 | r4 bes | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"bn" { s2 }| \instrumentSwitch "va" \Q #"va" {s2 }| \instrumentSwitch "vn" \Q #"vn" {s2 }|  \Q #"vc" { s2 }|   % I II III II I VI   
+%Error: no solution found. Returning best guess.
+%parts: va % fl % bn % rest % vn % tn or tpt
+%parts: kl %  fl % bn % va % vn % tn or tpt
 
  %bn23
   \dQQ r4 d'8 d | \lyricmode {take my } |
@@ -282,8 +288,12 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2 |\instrumentSwitch "vibes" <f'' f'''>2 | R2 | % tym perc fol 
    f,8( bes, d4) | r4 <f bes d'> | % hpL hpR 
    r4 <bes d' bes' d''  >\mp | <f'' f'''>2~^mutes\p | r8 <bes, bes>4.\mp | R2 | e,2~^arco |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"bn" { s2 }|  \Q #"va" { s2 }|  \Q #"vn" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
+%Error: no solution found. Returning best guess.
+%parts: vn % vII % hn % va % cb % tn or tpt
+%Error: too many parts 9
 
+%{
  %bn24
   \QdQ \time 5/8 d4 c8 a f | \lyricmode {hand and hold me } |
   <<{d'4 c8 a f}\\{<f a>4 s4.}>> | <f, a d>4.~ <f a d>4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
