@@ -425,7 +425,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 %parts: vII % rest % rest % rest % rest % rest
 
  %bn36
-   \tEE  c16 b c a fis8 g16 a | \lyricmode {she said she would be on the } |
+   \tEE \instrumentSwitch "Fitt" c'='16\noBeam b c a fis8 g16 a  | \lyricmode {she said she would be on the } |
    R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
    R2 | R2 | fis''8.( d''16 a'8 b'16 c'') | \treble d''2\trill | % fl ob kl bn 
    R2 |  R2 |  R2 | % hn tpt  tn 
@@ -444,7 +444,7 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2. |\instrumentSwitch "bells" r4 ees''  f''4  | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. |r4  <ees, ees>8-.^pizz r  <f, f>8-. r |% vn vII va vc cb 
-  \Q #"va" { s2. }|  \Q #"fl" { s2. }|  \Q #"hn" { s2. }|  \Q #"vn" { s2. }| \instrumentSwitch "cb" \Q #"cb" {s2. }|  \Q #"vc" { s2. }|   % I II III II I VI 
+  \Q #"kl" { s2. }|  \Q #"fl" { s2. }|  \Q #"hn" { s2. }|  \Q #"vn" { s2. }| \instrumentSwitch "cb" \Q #"cb" {s2. }|  \Q #"vc" { s2. }|   % I II III II I VI 
 %parts: fl % rest % hn % rest % cb % rest
 
 
@@ -456,10 +456,9 @@ d4.)\stop c8 |  \lyricmode {you } |
    r4. r4 | \instrumentSwitch "perc" d'4.:32~\p 4:32~ | r4. r4 | % tym perc fol 
    r4. r4 | r4. r4 | % hpL hpR 
    r4. r4 | r4. r4 | r4. r4 | r4. r4 | bes,,4.\p ~4~ |% vn vII va vc cb 
-  \Q #"va" { s4. s4 }|  \Q #"fl" { s4. s4 }|  \Q #"hn" { s4. s4 }|  \Q #"vn" { s4. s4 }|  \Q #"cb" { s4. s4 }|  \Q #"vc" { s4. s4 }|   % I II III II I VI  
+  \Q #"kl" { s4. s4 }|  \Q #"fl" { s4. s4 }|  \Q #"hn" { s4. s4 }|  \Q #"vn" { s4. s4 }|  \Q #"cb" { s4. s4 }| \instrumentSwitch "tn" \Q #"tn" {s4. s4 }|   % I II III II I VI  
 %parts: kl % tn or tpt % rest % rest % cb % rest
 
-%{
  %bn41
    f4 ees8 r b8 | \lyricmode {a -- gine be -- } |
    r4. r4 | bes4~ bes4.~ |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
@@ -468,7 +467,8 @@ d4.)\stop c8 |  \lyricmode {you } |
    r4. r4 | d'4.:32~ 4:32~ | r4. r4 | % tym perc fol 
    r4. r4 | r4. r4 | % hpL hpR 
    r4. r4 | r4. r4 | r4. r4 | r4. r4 | bes,,4. ~4~ |% vn vII va vc cb 
-  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI  
+  \Q #"kl" { s4. s4 }|  \Q #"fl" { s4. s4 }|  \Q #"hn" { s4. s4 }|  \Q #"vn" { s4. s4 }|  \Q #"cb" { s4. s4 }|  \Q #"tn" { s4. s4 }|   % I II III II I VI  
+%parts: kl % tn or tpt % rest % rest % cb % rest
 
  %bn42
    \time 6/8 cis8 dis b g'4 ees8 | \lyricmode {cause I am  si -- lent } |
@@ -478,7 +478,8 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2. | 2.:32~ | R2. | % tym perc fol 
    R2. | r4. g' | % hpL hpR 
    R2. | R2. | R2. | R2. | 2.~ |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  \Q #"kl" { s2. }|  \Q #"fl" { s2. }|  \Q #"hn" { s2. }|  \Q #"vn" { s2. }|  \Q #"cb" { s2. }|  \Q #"tn" { s2. }|   % I II III II I VI  
+%parts: kl % tn or tpt % rest % rest % cb % rest
 
  %bn43
    \time 2/4  ees8 f g ees | \lyricmode {that I am not } |
@@ -488,7 +489,8 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2 | 2:32~ | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | 2~ |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"vn" { s2 }|  \Q #"cb" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI  
+%parts: kl % tn or tpt % rest % rest % cb % rest
 
  %bn44
    \dEE a8 f \times 2/3 {f4 f8 } | \lyricmode {pre -- sent and a -- } |
@@ -498,7 +500,8 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2 | 2:32~  | R2 | % tym perc fol 
    R2 | a'2 | % hpL hpR 
    R2 | R2 | R2 | R2 | 2~ |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"vn" { s2 }|  \Q #"cb" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI   
+%parts: kl % tn or tpt % rest % rest % cb % rest
 
  %bn45
    c'4. b8 | \lyricmode {live to } |
@@ -508,7 +511,9 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2 | 2:32~  | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | 2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"vn" { s2 }|  \Q #"cb" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI  
+%parts: kl % tn or tpt % hn % rest % cb % rest
+
 
  %bn46
    \time 3/4 \tEE b4 aes8 ges f ees | \lyricmode {all that is go -- ing } |
@@ -518,7 +523,10 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2. | R2. | R2. | % tym perc fol 
    R2. | R2. | % hpL hpR 
    R2. | R2. | R2. | R2. | R2. |% vn vII va vc cb 
-  R2. |  R2. |  R2. |  R2. |  R2. |  R2. |   % I II III II I VI  
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"vn" { s2 }|  \Q #"cb" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI  
+%Error: no solution found. Returning best guess.
+%parts: tn or tpt % rest % hn % rest % rest % rest
+
 
  %bn47
    \time 2/4 a8 r4 \instrumentSwitch "Tyler" f16\noBeam g  | \lyricmode {on When you } |
@@ -528,7 +536,10 @@ d4.)\stop c8 |  \lyricmode {you } |
    R2 | R2 | R2 | % tym perc fol 
    R2 | R2 | % hpL hpR 
    R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"vn" { s2 }|  \Q #"cb" { s2 }|  \Q #"tn" { s2 }|   % I II III II I VI   
+%parts: tn or tpt % rest % rest % rest % rest % rest
+
+%{
 
  %bn48
    \time 5/8 \tEE a4 f8 cis'4-. | \lyricmode {say the last } |
