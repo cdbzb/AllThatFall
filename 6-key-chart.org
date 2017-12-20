@@ -48,7 +48,7 @@ Players per instrument
 fl I II IV
 ob II IV V
 kl I
-bn V (I)
+bn V III
 --------
 hn III
 --------

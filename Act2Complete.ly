@@ -2262,7 +2262,6 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 
 
-%}
 %bn222 INST
 \tempo 4 = 80 %dummy
 \mark \default \time 2/4 aes='16 ees8 \pocoRit  r16 \start  r8. g16 | \lyricmode {hea -- vens! I } |
@@ -2699,7 +2698,6 @@ R2 | R2 | % hpL hpR
   \Q #"kl" { s2 }|  \Q #"tpt" { s2 }|  \Q #"vn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
 %parts: kl | tn or tpt | vn | va | rest | vc
 
-%{
 %bn265
 \time 6/8 \QdQ gis8\> e c gis( e) c\! | \lyricmode {why won't you tell me? } |
 R2. |  <a bes>2.:32 |  R2. |  R2. |   % rh lh kbR kbL   
@@ -5225,6 +5223,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
+%}
 %bn512
 \transpose c g, \relative c' { b8 c b c  }| \lyricmode {and I start -- ed } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -5498,6 +5497,7 @@ r8. r | r8. r | % hpL hpR
 r8. r | r8. r | r8. r | r8. r | r8. r |  % vn vII va vc cb 
 r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  % I II III IV V VI
 
+%{
 %bn539
 \time 2/4 \dEQ r8. f=16 e d a b | \lyricmode {why are you hang -- ing } |
 << <g b dis>4\! \\ s4 >> r | R2 |  R2 |  R2 |  % rh lh kbR kbL
