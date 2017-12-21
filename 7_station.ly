@@ -1124,20 +1124,22 @@ R1 | R1 | R1 | <f, f>8-. <fis, fis>-. <g, g>-. <gis, gis>-. <a, a>-. <ais, ais>-
 R1 |<< {\ossia "perc" {\instrumentSwitch "vibes" r2 <bes' c'' e''>\arp }}\\\cross b'1>> | R1 | % tym perc fol 
 r2  <g bes c'>\arp | r2 <e' g' bes' e'' g''>\arp | % hpL hpR 
 r8 d'''( e''' c''' g''2) | \treble r8 c'' d'' bes' <g' bes'>2~ | r8 c'8-.^pizz d'-. bes-. e'4-. r  |  <cis cis'>8-. r4.  g8^arc f e d | R1 |% vn vII va vc cb 
-  \Q #"kl" { s1 }| \instrumentSwitch "vn" \Q #"vn" {s1 }| \instrumentSwitch "vn" \Q #"vII" {s1 }|  \Q #"tn" { s1 }| \instrumentSwitch "va" \Q #"va" {s1 }|  \Q #"vc" { s1 }|   % I II III II I VI   
+  \Q #"kl" { s1 }| r8 \instrumentSwitch "tn" \Q #"tn" {s2..}| \instrumentSwitch "vn" \Q #"vII" {s1 }| \instrumentSwitch "vn" \Q #"va" {s1 }| \instrumentSwitch "vn" \Q #"vn" {s1 }|  \Q #"vc" { s1 }|   % I II III II I VI   
 %parts: kl % tn or tpt % vn % va % vII % vc
 
-%{
  %bn98
 \grace {g16( bes} \times 2/3 {g4) f8} e8 g d'4 cis8 cis16 c | \lyricmode {xi -- e -- ty Miss Fitt for the twelve } | % %check rhythm
 R1 | <<{r4. g=8~ g2 }\\{g,8-.-- f-.-- e-.-- d-.-- r4  <cis= e>4}>> |  R1 |  R1 |   % rh lh kbR kbL 
 g'2\trill~ 4.   r8 | r2. cis'4\p | <d'' g''>2 <g d'>4. r8 | R1 | % fl ob kl bn 
-R1 |  R1 | g,8 d, e, d r2 | % hn tpt  tn 
+R1 |  R1 | g,8 f, e, d, r2 | % hn tpt  tn 
 R1 |\inst "ossia" {\instrumentSwitch "vibessilent"  <c'' e'' g''>2\arp <d'' d'''>4( cis''') } | R1 | % tym perc fol 
 R1 | R1 | % hpL hpR 
-R1 | <f' bes'>2.. r8| g8-. f-. e-. d-. r2 | e8 d c bes, g,4. r8 | R1 |% vn vII va vc cb 
-  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI   
+R1 | <f' bes'>2.. r8| g8.-. f16-.-> e8.-. d16-.-> r2 | e8 d c bes, g,4. r8 | R1 |% vn vII va vc cb 
+\Q #"kl" { s1 }| \Q #"tn" { s1 }|  \Q #"vII" { s1 }|  \Q #"va" { s1 }| \instrumentSwitch "ob" \Q #"ob" {s1 }|  \Q #"vc" { s1 }|   % I II III II I VI   
+%Error: kill fl :( 
+%parts: kl % tn or tpt % vII % va % ob % vc
 
+%{
  %bn99
 \time 2/4 fis4 cis | \lyricmode {thir -- ty } |
 R2 | <fis=, fis'>16( <gis gis'> <ais ais'> <b cis'> <cis cis'> <dis dis'> <eis eis'> <fis fis'>) |  R2 |  R2 |   % rh lh kbR kbL 
