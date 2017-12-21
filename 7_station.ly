@@ -797,7 +797,7 @@ R2 | R2 | R2 | R2 | \repeat  tremolo 8 {e,32^pizz-.\p e-.} |% vn vII va vc cb
 %parts: kl % fl % bn % rest % cb % rest
 
 
- %bn71
+ %bn71 TODO CHECK OSSIAS HERE - should they be added? 
 \time 2/2 r4 a b4. cis8 | \lyricmode {I see it } |
 r2. g4 | a=,1\< |  R1 |  R1 |   % rh lh kbR kbL 
 r2.\! g'8. r16  | R1  | R1  | 1  | % fl ob kl bn 
@@ -805,12 +805,10 @@ r2.\! g'8. r16  | R1  | R1  | 1  | % fl ob kl bn
 R1  | R1  | R1  | % tym perc fol 
 R1  | R1  | % hpL hpR 
 R1  | r4 <a a'>2.~ |<<{{ r4  cis''2.~^solo }}{\ossia "va" {\bass a,4. r \treble  g'8. r16}}>> |<<{s1}\\{  a,,1~ }>> |<< {  \new Staff = "cbossia" \with {alignAboveContext="cb"} {\clef "bass_8" a,1} }{  \repeat  tremolo 16 {e,32-. e-.} } >> |% vn vII va vc cb 
- \Q #"kl" { s1 }|  \Q #"fl" { s1 }|  \Q #"bn" { s1 }|  \Q #"tn" { s1 }|  \Q #"cb" { s1 }|  \Q #"vc" { s1 }|   % I II III II I VI 
-%Error: no solution found. Returning best guess.
+\Q #"kl" { s1 }|  \Q #"fl" { s1 }| \instrumentSwitch "hn" \Q #"hn" {s1 }| \instrumentSwitch "va" \Q #"va" {s1 }|  <a,, e>1~ |  \Q #"vc" { s1 }|   % I II III II I VI 
+%Error: no solution found. Returning best guess. Try without BN
 %parts: fl % vII % hn % va % cb % vc
-%Error: too many parts 7
 
-%{
 
  %bn72
 fis2. e4 | \lyricmode {all I } |
@@ -820,7 +818,8 @@ R1  |  R1 |  R1  | % hn tpt  tn
 R1  | R1  | R1  | % tym perc fol 
 R1  | R1  | % hpL hpR 
 R1  | a'2. b'4 | << {\inst "ossia" {g'1}} cis''1  >>|<<{  <g cis'>1\arp^solo }\\{<a,,~ e, a,>1\arp}>>  |<< { \inst "cbossia" a1 } {  \repeat  tremolo 16 {e,32-. e-.} }>> |% vn vII va vc cb 
-  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI  
+ \instrumentSwitch "vn" \Q #"vII" {s1 }|  \Q #"fl" { s1 }|  \Q #"hn" { s1 }|  \Q #"va" { s1 }|\Q #"cb" {s1 }|  \Q #"vc" { s1 }|   % I II III II I VI  
+%parts: fl % vII % rest % va % cb % vc
 
  %bn73
 \time 5/8 \QdQ e8 d cis b a | \lyricmode {stand here and see it } |
@@ -830,7 +829,8 @@ r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
 r4. r4 | r4. r4 | % hpL hpR 
 r4. r4 | a'4.~4 | << {d''2 r8}{ \inst "ossia" { fis'4 d'8 e' fis'}}>> | << {< fis d'>4.~4}\\{<a,,  a,>4.~ <a,,~ a,>4}>> | << {\inst "cbossia" {a,4.~4}}{\repeat tremolo 10 {e,32-. e-.}}>> |% vn vII va vc cb 
-  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
+  \Q #"vII" { s4. s4 }|  \Q #"fl" { s4. s4 }|  \Q #"hn" { s4. s4 }|  \Q #"va" { s4. s4 }|\Q #"cb" { s4. s4 }|  \Q #"vc" { s4. s4 }|   % I II III II I VI 
+%parts: fl % vII % rest % va % cb % vc
 
  %bn74
 \time 2/4 \EE fis'4. e8 | \lyricmode {all with } |
@@ -840,7 +840,8 @@ r4. r4 | a'4.~4 | << {d''2 r8}{ \inst "ossia" { fis'4 d'8 e' fis'}}>> | << {< fi
 R2 | r4. e''8 | R2 | % tym perc fol 
 R2 | <g' cis' fis''>4.\arp e''8 | % hpL hpR 
 R2 | 2~ | << {\inst "ossia"{ cis''2 }}{g'4 a'}>>|<<  < g cis'>2\arp \\ <a,, e, a,>2~\arp >> | << {\inst "cbossia" {a2~\>^tie}} {\repeat tremolo 8 {e,32-. e-.}}>> |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  \Q #"vII" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }|\Q #"cb" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
+%parts: fl % vII % hn % va % cb % vc
 
  %bn75
 f4 r | \lyricmode {eyes } |
@@ -850,7 +851,8 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | f'2 | R2 | % tym perc fol 
 R2 | <f'b' gis''>4\arp r | % hpL hpR 
 R2 | 2 | << {\inst "ossia" { d''4 r}}{b'4 r}>>|<<{}\\{ <e, a,>4 r}>> |<< { \inst "cbossia"{ a4\!  gis16) r8. }} {R2}>> |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  \Q #"vII" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }|\Q #"cb" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
+%parts: fl % vII % rest % va % cb % vc
 
  %bn76
 \time 2/2 \tQQ e4 fis r2 | \lyricmode {through eyes } |
@@ -860,7 +862,8 @@ R1  |  R1 |  R1  | % hn tpt  tn
 R1  | e''4 fis'' r2 | R1  | % tym perc fol 
 R1  | R1  | % hpL hpR 
 e''4( fis'') r2 | R1  |<c'' d'' fis'' gis''>2~ 8 r4. |<< { \treble <c'' d'' fis'' gis''>2}{s8\<s4s8\!}>> r2 | a2( gis8) r4. |% vn vII va vc cb 
-  R1 |  R1 |  R1 |  R1 |  R1 |  R1 |   % I II III II I VI 
+  \Q #"vn" { s1 }|  \Q #"fl" { s1 }|  \Q #"hn" { s1 }|  \Q #"va" { s1 }|\Q #"cb" { s1 }|  \Q #"vc" { s1 }|   % I II III II I VI 
+%parts: fl % vn % rest % va % cb % vc
 
  %bn77
 \time 2/4 a'='4 g8 f | \lyricmode {Oh if you  } |
@@ -870,7 +873,24 @@ R2 | <c'' e''>2~ |  R2 | % hn tpt  tn
 R2 |\instrumentSwitch "perc" \cross b'2~\p | R2 | % tym perc fol 
 <a c' e'>2\arp | <a' c'' e'' a''>2\arp^"ad lib" | % hpL hpR 
 a''4 g''8 f'' |a'4 g'8 f' | <c'' e''>2 |\bass g2 | g,2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+\instrumentSwitch "blankvn" << \Q #"vn" { s2 } \\ \Q#"vII" { s2 } >> |\instrumentSwitch "tn" \treble  \Q #"tpt"{ s2 } | \instrumentSwitch "bn" \Q #"bn" {s2 }|  \Q #"va" { s2 }|\Q #"cb" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
+%parts: tn or tpt % vII % bn % va % cb % vc % comp violins together
+
+ %bn78 TT
+\QdQ \time 5/8 e4 \rit d8\start e( f~  | \lyricmode {had my eyes! } |
+<< { <e, e'>4 <d d'>8 <e e'> <f f'>~ } \\ {<a c>2 <bes des>8~} >> |  <fis fis'>4.~ <fis fis'>4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
+r4. r4 | r4. r4 | r4. r4 | <fis b>4.~4 | % fl ob kl bn 
+ \bass << {a4 b4.}\\{fis,4~4.}>> |  4.~ 4 |  r4. r4 | % hn tpt  tn 
+r4. r4 | 4.~ 4 | r4. r4 | % tym perc fol 
+<fis a c' e'>4~4.\arp | <fis' a' c'' e''>4~4.\arp| % hpL hpR 
+r4. r4 | e'4 d'8 e' f'~ | a'2 <ais' cis''>8-- | fis4.~4 | fis,4.~4 |% vn vII va vc cb 
+ << \Q #"vn" { s2 } \\ \Q#"vII" { s4. s4 } >> | \treble  \Q #"tpt"{ s4. s4 } |  \Q #"bn" { s4. s4 }|  \Q #"va" { s4. s4 }|\Q #"cb" { s4. s4 }|  \Q #"vc" { s4. s4 }|   % I II III II I VI 
+%Error: no solution found. Returning best guess.
+%parts: vn % vII % hn % va % cb % vc
+%Error: too many parts 8
+%Error: no solution found. Returning best guess.
+%parts: tn or tpt % vII % hn % va % cb % vc
+%Error: too many parts 7
 
  %bn78
 \QdQ \time 5/8 e4 \rit d8\start e( f~  | \lyricmode {had my eyes! } |
@@ -880,8 +900,12 @@ r4. r4 | r4. r4 | r4. r4 | <fis b>4.~4 | % fl ob kl bn
 r4. r4 | 4.~ 4 | r4. r4 | % tym perc fol 
 <fis a c' e'>4~4.\arp | <fis' a' c'' e''>4~4.\arp| % hpL hpR 
 e''4 d''8 e'' f''~ | e'4 d'8 e' f'~ | a'2 <ais' cis''>8-- | fis4.~4 | fis,4.~4 |% vn vII va vc cb 
-  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |   % I II III II I VI 
+ << \Q #"vn" { s2 } \\ \Q#"vII" { s4. s4 } >> | \treble  \Q #"tpt"{ s4. s4 } |  \Q #"bn" { s4. s4 }|  \Q #"va" { s4. s4 }|\Q #"cb" { s4. s4 }|  \Q #"vc" { s4. s4 }|   % I II III II I VI 
+%Error: no solution found. Returning best guess.
+%parts: vn % vII % hn % va % cb % vc
+%Error: too many parts 8
 
+%{
  %bn79
 \time 2/4 f4)\stop e8 d | \lyricmode {you would } |
 << { <f f'>4\arpeggio <e e'>8 <d d'> } \\ <a' c>2 >> | <c c'>2 |  R2 |  R2 |   % rh lh kbR kbL 
