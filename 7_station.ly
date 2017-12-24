@@ -1147,12 +1147,10 @@ R2 | <fis=, fis'>16( <gis gis'> <ais ais'> <b cis'> <cis cis'> <dis dis'> <eis e
 R2 | << { \inst "ossia" { \instrumentSwitch "bellssilent" fis''4\lv^BELLS cis''\lv }}\\{\cross b'2}>>| R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 fis'4 cis' | R2 | R2 | R2 |   gis,16^pizz-.  ais,-. b,-. cis-. dis-. eis-. fis-. gis-.  |% vn vII va vc cb 
-\Q #"kl" { s2 }| \Q #"tn" { s2 }|  \Q #"vII" { s2 }|  \Q #"va" { s2 }|  \Q #"ob" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI  
-%Error: no solution found. Returning best guess.
-%parts: kl % fl % hn % vn % cb % tn or tpt
-%Error: too many parts 7
+\instrumentSwitch "fl" \Q #"fl" {s2 }| \Q #"tn" { s2 }| \instrumentSwitch "hn" <<{\treble fis''8. r16 cis''8. r16}\\{ees''2~}>> | \instrumentSwitch "vn" \Q #"vn" {s2 }| \instrumentSwitch "bn" \Q #"bn" {s2 }|  \Q #"vc" { s2 }|   % I II III II I VI  
+%parts: fl % tn or tpt % hn % vn % bn % vc %%% cb moves to vc and strike kl
 
-%{
+
  %bn100
 \tEE r4. fis8| \lyricmode {has } |
 R2 | <cis cis'>4. <cis cis'>8 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -1161,8 +1159,10 @@ R2 | <cis cis'>4. <cis cis'>8 |  R2 |  R2 |   % rh lh kbR kbL
   ees4 fis,  | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 2~ | R2 | R2 | r4 <gis, cis>4~-> | cis,4^arco cis,,~ |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+ \Q #"fl" { s2 }| \Q #"hn" { s2 }| \instrumentSwitch "bn" \Q #"bn" {s2 }|  \Q #"vn" { s2 }| \instrumentSwitch "cb" \Q #"cb" {s2 }|  \Q #"vc" { s2 }|   % I II III II I VI  
+%parts: fl % tn or tpt % bn % vn % cb % vc %% cb pizz->vc pizz, hn ->tn, -kl-
 
+%{
  %bn101
 \time 6/8 fis4. eis4 fis8 | \lyricmode {not yet ar -- } |
 <ais=' cis fis>4. <gis cis eis>4 <fis ais cis fis>8 | \times 3/2 {r8 <cis cis'>8~} <cis cis'>8 <cis cis'>4 |  R2. |  R2. |   % rh lh kbR kbL 
