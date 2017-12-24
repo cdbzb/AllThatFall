@@ -60,7 +60,7 @@ let nonemptybars = bars
 
 
 function cross(choices){
-    if(choices.length == 1) return choices
+    if(choices.length == 1) return choices[0].map(c => [c])
     const subsolution = cross(choices.slice(1))
     return [].concat(...(choices[0].map(c => subsolution.map(s => [c, ...s]))))
 }

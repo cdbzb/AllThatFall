@@ -1136,10 +1136,9 @@ R1 |\inst "ossia" {\instrumentSwitch "vibessilent"  <c'' e'' g''>2\arp <d'' d'''
 R1 | R1 | % hpL hpR 
 R1 | <f' bes'>2.. r8| g8.-. f16-.-> e8.-. d16-.-> r2 | e8 d c bes, g,4. r8 | R1 |% vn vII va vc cb 
 \Q #"kl" { s1 }| \Q #"tn" { s1 }|  \Q #"vII" { s1 }|  \Q #"va" { s1 }| \instrumentSwitch "ob" \Q #"ob" {s1 }|  \Q #"vc" { s1 }|   % I II III II I VI   
-%Error: kill fl :( 
+%Error: kill fl :( TODO ?give to percussion on pennywhistle? 
 %parts: kl % tn or tpt % vII % va % ob % vc
 
-%{
  %bn99
 \time 2/4 fis4 cis | \lyricmode {thir -- ty } |
 R2 | <fis=, fis'>16( <gis gis'> <ais ais'> <b cis'> <cis cis'> <dis dis'> <eis eis'> <fis fis'>) |  R2 |  R2 |   % rh lh kbR kbL 
@@ -1148,8 +1147,12 @@ R2 | <fis=, fis'>16( <gis gis'> <ais ais'> <b cis'> <cis cis'> <dis dis'> <eis e
 R2 | << { \inst "ossia" { \instrumentSwitch "bellssilent" fis''4\lv^BELLS cis''\lv }}\\{\cross b'2}>>| R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 fis'4 cis' | R2 | R2 | R2 |   gis,16^pizz-.  ais,-. b,-. cis-. dis-. eis-. fis-. gis-.  |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+\Q #"kl" { s2 }| \Q #"tn" { s2 }|  \Q #"vII" { s2 }|  \Q #"va" { s2 }|  \Q #"ob" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI  
+%Error: no solution found. Returning best guess.
+%parts: kl % fl % hn % vn % cb % tn or tpt
+%Error: too many parts 7
 
+%{
  %bn100
 \tEE r4. fis8| \lyricmode {has } |
 R2 | <cis cis'>4. <cis cis'>8 |  R2 |  R2 |   % rh lh kbR kbL 
