@@ -1486,7 +1486,7 @@ R2. | <fis fis'>16( <gis gis'> <ais ais'> <b b cis'> <cis cis'> <dis dis'> <eis 
  r2 cis4 |<<{\instrumentSwitch "perc" \cross d''2\lv }{\ossia "perc" {\instrumentSwitch "bells" fis''4 cis'' gis'}}>> | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
 r4 fis' cis''~ | R2. | R2. | fis,,16 gis,, ais,, b,, cis, dis, eis, fis, cis,4~ | fis,,16-.^pizz  gis,,-. ais,,-. b,,-. cis,-. dis,-. eis,-. fis,-. cis,4-. |% vn vII va vc cb 
-\Q #"kl" { s2. }|  \Q #"fl" { s2. }| r4 cis\f <gis c'>~ | \instrumentSwitch "vn" \Q #"vn" {s2. }| \instrumentSwitch "cb" \Q #"bn" { s2.^CB }| \instrumentSwitch "tn"  <fis ais>2 r4  |   % I II III II I VI  
+\Q #"kl" { s2. }|  \Q #"fl" { s2. }| r4 cis\f <gis c'>~ | \instrumentSwitch "vn" \Q #"vn" {s2. }| \instrumentSwitch "tn"  <fis ais>2 r4  | \instrumentSwitch "vc" \Q #"vc" { s2. }|   % I II III II I VI  
 %parts: kl % fl % hn % vn % cb % tn or tpt %%% bn -> cb arco -vc-
 
  %bn130
@@ -1497,7 +1497,7 @@ r4 fis' cis''~ | R2. | R2. | fis,,16 gis,, ais,, b,, cis, dis, eis, fis, cis,4~ 
  r4. r4 fis8 | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
 cis''4.~4 b'8 | <fis'' ais''>4. <eis'' gis''> | \treble cis'''4. b''4 gis''8  | 4.~8 r fis,, | R2. |% vn vII va vc cb 
-\Q #"kl" { s2. }|  \Q #"fl" { s2. }| <gis cis'>4.~ cis'  | \instrumentSwitch "va" \clef treble \Q #"va" {s2. }| \instrumentSwitch "vn" \Q #"vII" {s2. }| \instrumentSwitch "vc" \Q #"vc" {s2. }|   % I II III II I VI 
+\Q #"kl" { s2. }|  \Q #"fl" { s2. }| <gis cis'>4.~ cis'  | \instrumentSwitch "va" \clef treble \Q #"va" {s2. }| \instrumentSwitch "vn" \Q #"vII" {s2. }| \Q #"vc" {s2. }|   % I II III II I VI 
 %parts: kl % fl % hn % va % vII % vc %%% Comp Tn to  HN - strike VN1
 
  %bn131
@@ -1509,13 +1509,13 @@ fis4. |<<{\ossia "perc" {\instrumentSwitch "vibes"  r8 bes' d'' }}{f'4.:32}>>  |
 R4. | R4. | % hpL hpR 
 bes4.~ | fis''4. | ais''4. |<< {r8 \treble bes-.^pizz d'} \\ fis,,4. >>  | R4. |% vn vII va vc cb 
 \Q #"kl" { s4. }|  \Q #"fl" { s4. }| <gis cis'>4.~ cis'  |  \clef treble \Q #"va" { s4. }|  \Q #"vII" { s4. }|  \Q #"vc" { s4. }|   % I II III II I VI  
-%Error: no solution found. Returning best guess.
+%Error,: no solution found. Returning best, guess.
 %parts: tn or tpt % vn % hn % va % vII % vc
 %Error: too many parts 7
 
 %{
  %bn132
-\time 5/8 fis8 d bes a gis | \lyricmode {i -- dent I trust? } |
+\time 5/8 fis,8 d, bes, a gis | \lyricmode {i -- dent I trust? } |
 fis'='8 f e dis d| a4.~ a4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
 r8 fis'( dis' c'4) | a''8 fis'' dis'' r4 | <fis a c' a' c'>4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn 
