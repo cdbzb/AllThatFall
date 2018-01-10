@@ -7351,6 +7351,7 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. | g'2.\p^mutes|  R2. |  R2. |  % vn vII va vc cb 
   \Q #"tn" { s2. }|\Q #"fl" { s2. }|  \Q #"bn" { s2. }| \instrumentSwitch "vatreble" \Q #"va" {s2. }|  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I  II  III  IV  V  VI  
 
+%}
 %bn675
 \mark default \time 2/4 b4 \instrumentSwitch"Barrell" fis=|\lyricmode{in? Tom -- }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -7382,7 +7383,7 @@ r8. r |  r8. r | <c'' d''>4.:32 |  r8. r |  r8. r |  % vn vII va vc cb
   \Q #"kl" { s8. s }| \Q #"fl" { s8. s }|  \Q #"bn" { s8. s }|  \Q #"va" { s8. s }|  \Q #"cb" { s8. s }|  \Q #"vc" { s8. s }|  % I  II  III  IV  V  VI  
 
 %bn678
-\time 7/16 e8 b16 \instrumentSwitch"Tommy" f e f g | \lyricmode{ are you? You would -- n't have } | 
+\time 7/16 e8 b16 \instrumentSwitch"Tommy" f=' e f g | \lyricmode{ are you? You would -- n't have } | 
 r4 r8. | r4 r8. | r8. r4 | r8. r4 | % rh lh kbR kbL 
 r8. r4 | r8. r16 e' f' g' | e''32(\> \grace {dis'' d'' cis'' c'' b' ais' a')\!} r32 r8  r4 | r8. r4 | % fl ob kl bn 
 r8. r4 | r8. r4 | r8. r4 | % hn tpt tn 
@@ -7432,7 +7433,7 @@ R2 |  R2 | r4 \clef bass d,4:32 |  \times 2/3 {r8 ais~ <ais fis>} r4 | r4 d, |  
 \Q #"kl" { s2 }| \Q #"ob" { s2 }| \instrumentSwitch "bn" \Q #"bn" {s2 }|  \Q #"va" {s4 \clef bass s4 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I  II  III  IV  V  VI  
 
 %bn683
-\instrumentSwitch"Barrell" c8 a \times 2/3 {cis4 gis8}| \lyricmode{Tom -- my! Blast your }                | 
+\instrumentSwitch"Barrell" c='8 a \times 2/3 {cis4 gis8}| \lyricmode{Tom -- my! Blast your }                | 
 R2  | gis4 r8 gis |  R2 |  R2 |   % rh lh kbR kbL 
 R2 |  R2 |  R2 | \grace{ dis,16( e, f, fis,   } g,16-.) r4.. | % fl ob kl bn 
  r8 a~( \times 2/3 {a4 gis8)} |  R2 |   R2 | % hn tpt  tn 
@@ -7452,7 +7453,7 @@ R4. |  R4. |  R4. |\times 3/4 {gis8( g) g( fis)}|\times 3/4 {gis,8( g,) g,( fis,
 \Q #"kl" { s4. }| \Q #"ob" { s4. }|  \Q #"hn" { s4. }|  \Q #"va" { s4. }|  \Q #"cb" { s4. }|  \Q #"vc" { s4. }|  % I  II  III  IV  V  VI  
 
 %bn685
-\dEQ \time 2/4 b4 r8 \times 2/3 {r16 b b } | \lyricmode{oh, Miss -- es } | 
+\dEQ \time 2/4 b=,4 r8 \times 2/3 {r16 b b } | \lyricmode{oh, Miss -- es } | 
 R2 | R2 | R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
@@ -7492,7 +7493,7 @@ R2 | \grace {ges8-.} ees2\glissando\> | ees'16 d' c' bes aes g f ees | R2 | R2 |
 \Q #"kl" { s2 }|  \Q #"fl" { s2 }| \grace {ges8-.} ees2\glissando\> |  \Q #"va" { s2 }|  \Q #"ob" { s2 }|  \Q #"vc" { s2 }| % I II III IV V VI 
 
 %bn689
-\time 1/4 g8 a | \lyricmode{ who was } | 
+\time 1/4 g=,8 a | \lyricmode{ who was } | 
 r4 | <d d'>4 | R4 | R4 | % rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
 R4 | R4 | R4 | % hn tpt tn 
@@ -7584,7 +7585,7 @@ R2 |  R2 | r4 <dis' b'>4:32 |  R2 |  R2 |  % vn vII va vc cb
 \Q #"vn" { s2 }|  \Q #"vII" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"bn" { s2 }|  \Q #"vc" { s2 }|  % I  II  III  IV  V  VI  
 
 %bn697
-\time 3/4 \dEQ r8 \instrumentSwitch"Barrell" c= g b fis a | \lyricmode{What are you do -- ing }     | %%% check MM 
+\time 3/4 \dEQ r8 \instrumentSwitch"Barrell" c=' g b fis a | \lyricmode{What are you do -- ing }     | %%% check MM 
 R2.                                                 | r8 <c= c'>4 <b b'> <a a'>8               |  R2. |  R2. |   % rh lh kbR kbL 
 R2. |  R2. |  R2. |  R2. | % fl ob kl bn 
  r4 <g,, g,>4 <fis,, fis,> |  R2. |   R2. | % hn tpt  tn 
@@ -7603,7 +7604,6 @@ R4. |  R4. | % hpL hpR
 << c'''4.~\\<g'' a''>4. >>|  R4. |  R4. | r4 <e, e>8 | e,4-.  e,8-. |  % vn vII va vc cb 
  \instrumentSwitch "tn" \Q #"tn" {s4. }|  \Q #"vn" { s4. }|  \Q #"hn" { s4. }|  \Q #"va" { s4. }|  \Q #"cb" { s4. }|  \Q #"vc" { s4. }|  % I  II  III  IV  V  VI  
 
-%}
 %bn699
 \time 2/4 ais8 fis16 g a8. fis16                    | \lyricmode{ here on the pub -- lic }    | 
 \times 2/3 {ais='16( a ais)} fis g a4                   | r4 r16 <bes bes'>8.                     |  R2 |  R2 |   % rh lh kbR kbL 
@@ -7696,6 +7696,7 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
   \Q #"kl" { s2 }|  \Q #"vn" { s2 }|  \Q #"bn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I  II  III  IV  V  VI  
 
+%{
 %bn708
 cis4 \times 2/3 {r8 gis fis} |\lyricmode{nough, Mis -- ter }|
 R2 | R2 | \clef bass <e gis cis'>2\arpeggio^hpschd | <cis, cis>2\arpeggio |   % rh lh kbR kbL 
@@ -8403,7 +8404,6 @@ R2 | <gis' b' d''>2 | % hpL hpR
  <d'' e''>2:32\< |  R2 |  R2 |  R2 | e,2 |  % vn vII va vc cb 
    \Q #"tpt" { s2 }|\Q #"ob" {s2 }|  \Q #"hn" { s2 }|  \Q #"vn" { s2 }|  \Q #"cb" { s2 }|\Q #"vc" { s2 }|  % I  II  III  IV  V  VI  
 
-%{
 %bn777
 e4 r8 f'|\lyricmode{hand the }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 

@@ -16,9 +16,13 @@ tag = \date
 
 %{
 
+}
+%}
 
 %bn1
 \tempo 4 = 80 \mark \default \time 5/8 \set Timing.beatStructure = #'(2 3)  b4 c4 r8 | \lyricmode {Oh Dan } |
+
+
 <e=' gis b>4 <e gis c> r8 | r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
@@ -65,7 +69,7 @@ r2. r2. r2 |  r2. r2. r2 |  r2. r2. r2 | % hn tpt  tn
 r2. r2. r2 | r2. r2. r2 | r2. r2. r2 | % tym perc fol
 r2. r2. r2 | r2. r2. r2 | % hpL hpR
 fis'2 g'4 gis'2 g'4 gis'2 | b'2. c'' c''2 | fis4--(  g2) gis4--( a2) a | <fis, cis>2. <gis, dis> q2 | r2. r2. r2 |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r2. r2. r2  |  r2. r2. r2  |  r2. r2. r2  |  r2. r2. r2  |  r2. r2. r2  |  r2. r2. r2  |  % I II III IV V VI
 
 %bn6
 \dQQ \time 2/4 b16 a  gis fis c'8 dis, | \lyricmode {where in the world were you } |
@@ -415,7 +419,9 @@ R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
 R1 | R1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-<<g1 {s8\> s2. s8\!}>>|c'2 c'4. c'8 |c2 c4. c8 | ees,2 ees,4. ees,8 | R1 |  % vn vII va vees, ees,b
+<<g1 {s8\> s2. s8\!}>>|c'2 c'4. c'8 |c2 c4. c8 | ees,2 ees,4. ees,8 | R1 |  % vn vII va vc cb 
+R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
+
 
 %bn41
 c2 \instrumentSwitch "Rooney" cis8 dis4 eis8 | \lyricmode {now? Ne -- ver mind } |
@@ -823,6 +829,7 @@ R2 | R2 | R2 | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
+R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn80
 \time 7/16 \set Timing.beatStructure = #'(3 4 )  \grace {fis8( g } fis8) e16  e'='8 f| \lyricmode { o -- ver put your } |
@@ -832,7 +839,7 @@ r8. r4 | r8. r4 | r8. r4 | % hn tpt tn
 r8. r4 | r8. r4 | r8. r4 | % tym perc fol
 r8. r4 | r8. r4 | % hpL hpR
 r8. r4 | r8. r4 | r8. r4 | r8. r4 | r8. r4 |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  % I II III IV V VI
 
 %bn81
 \instrumentSwitch "Rooney" \time 2/4  f8 ees c g | \lyricmode{arms a -- round me } |
@@ -1609,7 +1616,7 @@ r4 r8. | r4 r8. | r4 r8. | % hn tpt tn
 r4 r8. | r4 r8. | r4 r8. | % tym perc fol
 r4 r8. | r4 r8. | % hpL hpR
 r4 r8. | r4 r8. | r4 r8. | r4 r8. | r4 r8. |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r4 r8.  |  r4 r8.  |  r4 r8.  |  r4 r8.  |  r4 r8.  |  r4 r8.  |  % I II III IV V VI
 
 %bn158
 \time 5/8 c'8 c gis16 e \tempo "Andante" 4 = 80 c8 \instrumentSwitch "Rooney" f='8\noBeam |\lyricmode{great plea -- sures of life. Not }|
@@ -3775,6 +3782,7 @@ R2. |  R2. | R2. | % hn tpt  tn
 R2. |R2. |R2. | % tym perc fol
 R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. |R2. | % vn vII va vc cb
+R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 
 
@@ -4555,7 +4563,7 @@ r4 r4. r |r4 r4. r |  r4 r4. r | % hn tpt  tn
 r4 r4. r | r4 r4. r | r4 r4. r | % tym perc fol
 r4 r4. r | r4 r4. r | % hpL hpR
 r4 r4. r | r4 r4. r | r4 r4. r | r4 r4. r | r4 r4. r |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r4 r4. r  |  r4 r4. r  |  r4 r4. r  |  r4 r4. r  |  r4 r4. r  |  r4 r4. r  |  % I II III IV V VI
 
 %bn447
 \set Timing.beatStructure = #'(3 3 2)
@@ -4566,7 +4574,7 @@ r4. r4. r4 | r4. r4. r4 |  r4. r4. r4 | % hn tpt  tn
 r4. r4. r4 | r4. r4. r4 | r4. r4. r4 | % tym perc fol
 r4. r4. r4 | r4. r4. r4 | % hpL hpR
 r4. r4. r4 | r4. r4. r4 | r4. r4. r4 | r4. r4. r4 | r4. r4. r4 |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r4. r4. r4  |  r4. r4. r4  |  r4. r4. r4  |  r4. r4. r4  |  r4. r4. r4  |  r4. r4. r4  |  % I II III IV V VI
 
 %bn448
 \time 5/16 \set Timing.beatStructure = #'(3 2)
@@ -4577,7 +4585,7 @@ r8. r8 | r8. r8 |  r8. r8 | % hn tpt  tn
 r8. r8 | r8. r8 | r8. r8 | % tym perc fol
 r8. r8 | r8. r8 | % hpL hpR
 r8. r8 | r8. r8 | r8. r8 | r8. r8 | r8. r8 |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r8. r8  |  r8. r8  |  r8. r8  |  r8. r8  |  r8. r8  |  r8. r8  |  % I II III IV V VI
 
 %bn449
 \time 2/8 \times 2/3 {c='8 g a} | \lyricmode {thou -- sand un -- } |
@@ -4598,7 +4606,7 @@ r8. r8 | r8. r8 |  r8. r8 | % hn tpt  tn
 r8. r8 | r8. r8 | r8. r8 | % tym perc fol
 r8. r8 | r8. r8 | % hpL hpR
 r8. r8 | r8. r8 | r8. r8 | r8. r8 | r8. r8 |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r8. r8  |  r8. r8  |  r8. r8  |  r8. r8  |  r8. r8  |  r8. r8  |  % I II III IV V VI
 
 %bn451
 \time 2/4 \times 2/3 {d8( e) d} \times 2/3 {g, a b } | \lyricmode {sun -- dries and it is clear } |
@@ -4918,6 +4926,7 @@ R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
+R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 
 %bn482
@@ -5223,7 +5232,6 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%}
 %bn512
 \transpose c g, \relative c' { b8 c b c  }| \lyricmode {and I start -- ed } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -5497,7 +5505,6 @@ r8. r | r8. r | % hpL hpR
 r8. r | r8. r | r8. r | r8. r | r8. r |  % vn vII va vc cb 
 r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  % I II III IV V VI
 
-%{
 %bn539
 \time 2/4 \dEQ r8. f=16 e d a b | \lyricmode {why are you hang -- ing } |
 << <g b dis>4\! \\ s4 >> r | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -6224,7 +6231,7 @@ r8. r4 | r8. r4 |  r8. r4 | % hn tpt  tn
 r8. r4 | r8. r4 | r8. r4 | % tym perc fol
 r8. r4 | r8. r4 | % hpL hpR
 r8. r4 | r8. r4 | r8. r4 | r8. r4 | r8. r4 |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  % I II III IV V VI
 
 %bn611
 \hiddenTempo 60 %DUMMY
@@ -7504,7 +7511,7 @@ r4 r8. | r4 r8. | r4 r8. | % hn tpt  tn
 r4 r8.  |  r4 r8.  | r4 r8.  | % tym perc fol
 r4 r8.  | r4 r8.  | % hpL hpR
 r4 r8.  | r4 r8.  | r4 r8.  | r4 r8.  | r4 r8.  |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |   % I II III IV V VI
+r4 r8.   |  r4 r8.   |  r4 r8.   |  r4 r8.   |  r4 r8.   |  r4 r8.   |   % I II III IV V VI
 
 %bn738
 \time 5/8 \QdQ  dis8)  b g fis e | \lyricmode {with these peo -- ple } |
@@ -7705,7 +7712,7 @@ r8. r8  | r8. r8  | r8. r8 |  % hn tpt  tn
 r8. r8  |  r8. r8 |  r8. r8  | % tym perc fol
 r8. r8  | r8. r8  | % hpL hpR
 r8. r8  | r8. r8  | r8. r8  | r8. r8  | r8. r8  |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |   % I II III IV V VI
+r8. r8   |  r8. r8   |  r8. r8   |  r8. r8   |  r8. r8   |  r8. r8   |   % I II III IV V VI
 
 %bn758
 \time 2/4 \times 2/3 {f8( g f) } e4 | \lyricmode {bur -- num } |
@@ -8256,7 +8263,7 @@ r4 r8.  | r4 r8.  |  r4 r8.  | % hn tpt  tn
 r4 r8.  | r4 r8.  | r4 r8.  | % tym perc fol
 r4 r8.  | r4 r8.  | % hpL hpR
 r4 r8.  | r4 r8.  | r4 r8.  | r4 r8.  | r4 r8.  |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r4 r8.   |  r4 r8.   |  r4 r8.   |  r4 r8.   |  r4 r8.   |  r4 r8.   |  % I II III IV V VI
 
 %bn813
 \time 12/16 \EE r8. g8 g16 b8. g | \lyricmode {the in -- cum -- bent? } |
@@ -8266,7 +8273,7 @@ R2.  |R2.  |R2.  | % hn tpt  tn
 R2.  |R2.  |R2.  | % tym perc fol
 R2.  |R2.  | % hpL hpR
 R2.  |R2.  |R2.  |R2.  |R2.  |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn814
 \time 2/4 \dQQ \instrumentSwitch "Rooney" aes=8\noBeam \instrumentSwitch "Dan" bes=, bes8. aes16 | \lyricmode {no thank God for } |
@@ -8890,7 +8897,7 @@ r4 r4.  |r4 r4.  | r4 r4.  | % hn tpt  tn
 r4 r4.  |r4 r4.  |r4 r4.  | % tym perc fol
 r4 r4.  |r4 r4.  | % hpL hpR
 r4 r4.  |r4 r4.  |r4 r4.  |r4 r4.  |r4 r4.  |  % vn vII va vc cb 
-0 |  0 |  0 |  0 |  0 |  0 |  % I II III IV V VI
+r4 r4.   |  r4 r4.   |  r4 r4.   |  r4 r4.   |  r4 r4.   |  r4 r4.   |  % I II III IV V VI
 
 %bn876
 \time 3/8 \dEQ fis8 r \instrumentSwitch "Rooney" b= | \lyricmode {on What } |
@@ -9093,12 +9100,14 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%,  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |      bn896, I II III IV V VI
-
+%{
 
 
 %}
 }
+
+
+
 
 \addQuote "fl" {\fl}
 \addQuote "kl" {\kl}
