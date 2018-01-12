@@ -89,39 +89,38 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | <f f'>8 16 r16 r4 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%{
 %bn8
 \time 6/16 \EE c8. \instrumentSwitch "Dan" f=,8 f16 | \lyricmode {time in the } |
 r8. r | r8. r |  r8. r |  r8. r |  % rh lh kbR kbL
 r8. r | r8. r | r8. r | r8. r | % fl ob kl bn
-r8. r |  r8. r |  r8. r | % hn tpt  tn
+ r8. f8 16 |  r8. r |  r8. r | % hn tpt  tn
 r8. r | r8. r | r8. r | % tym perc fol
-r8. r | r8. r | % hpL hpR
-c'''8. r | c''8.  r |r8. f8 f16 | r8. f,8 f,16 | r8. r |  % vn vII va vc cb 
+r8. r |<c'' c'''>4.\lv | % hpL hpR
+<c'' c'''>4. | r8. r | r8. <f f'>8 16 |r8. f,8 16 | r8. r |  % vn vII va vc cb 
 r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  % I II III IV V VI
 
 %bn9
 \time 2/4 \EE bes4 \instrumentSwitch "Rooney" d='8 d, | \lyricmode {mens kiss me! } |
 r4 <d fis a d>8 d | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+r4 <fis'' a''>8( \grace {<f'' aes''>16 <e'' g''> <ees'' ges''>} <d'' f''>8) | R2 |r4 \treble <a' fis''> | R2 | % fl ob kl bn
+<f bes>4 r |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-r4 d'''8-- d' |r4 <a' fis''>4->  |<d bes>4 r4 |bes,4 d'\trill    | R2 |  % vn vII va vc cb 
+r4 <d'' fis'' a'' d'''>4 | R2 | <d d'>4 r | bes,8. r16 <d' a'>4\trill | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn10
 \instrumentSwitch "Dan"
-\times 2/3 {dis4 fis,8 r d' dis } | \lyricmode {kiss you? in the } |
+\tuplet 3/2 4 {dis4 fis,8 r d' dis } | \lyricmode {kiss you? in the } |
 << {\times 2/3  {<c dis>4 <c dis>2}} \\ {\times 2/3 {<fis, a>4 <fis a> <f aes>8 <fis a>}}>>|\times 2/3 {<fis fis'>4 <fis fis'>8} r4 |  R2 |  R2 |   % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-\times 2/3 {c'4 c'8} \times 2/3 {r c' c'} |\times 2/3 {a4 a8} \times 2/3 {r a a}|\times 2/3 {dis'4\f dis d'8( dis')}| r4 \times 2/3 {fis,8 f( fis) }| R2 |  % vn vII va vc cb 
+\tuplet 3/2 4 { c'4 8 r c'8 8 }|\tuplet 3/2 4 {a4 8 r8 8 8} | \tuplet 3/2 2 {cis'4 e  c'8 cis'} | r4 \times 2/3 {f,8 e f}|\times 2/3 { fis,,4-.^pizz 8~} 8 r|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn11
@@ -131,18 +130,18 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-\times 2/3 {b4 cis'8} \times 2/3 {r cis' cis'} |\times 2/3 {b4 ais8} \times 2/3 {r ais ais}|\times 2/3 {dis'4-- e dis'8( e')}| g4 \times 2/3 {g,8 fis( g) }| R2 |  % vn vII va vc cb 
+\times 2/3 {b4 cis'8} \times 2/3 {r cis' cis'} |\times 2/3 {b4 ais8} \times 2/3 {r ais ais}|\times 2/3 {dis'4-- e dis'8( e')}| g4 \times 2/3 {g,8 fis( g) }|\times 2/3 { g,,4-. 8~} 8 r|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn12
 \time 5/8 \set Timing.beatStructure = #'(2 3) \times 2/3 {e4 f8} \times 2/3 {f e d }  gis8 | \lyricmode {plat -- form be -- for the boy! } |
-<<{c8( b)}\\aes4>> <aes b d> r8 |<d d'>2 <cis cis'>8 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-\times 2/3 {c'4( b8)} b8 r <b d'> |gis4. r4 |\times 2/3 {e'4( f'8)} \times 2/3 {f'8( e' d') } gis'\trill |d4 d8 r d| r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+<<{c8( b)}\\aes4>> <aes b d> r8 |<d d'>2 <cis cis'>8 |  r4 r4. |  r4 r4. |  % rh lh kbR kbL
+r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn
+r4 r4. |  r4 r4. |  r4 r4. | % hn tpt  tn
+r4 r4. | r4 r4. | r4 r4. | % tym perc fol
+r4 r4. | r4 r4. | % hpL hpR
+\times 2/3 {c'4( b8)} b8 r <b d'> |gis4. r4 |\times 2/3 {e'4( f'8)} \times 2/3 {f'8( e' d') } gis' |d4 d8 r d| \repeat tremolo 4 {d,32-.~ d,,-.~} \repeat tremolo 6 {d,32-. d,,32-.} |  % vn vII va vc cb 
+r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  r4 r4. |  % I II III IV V VI
 
 %bn13
 \time 3/4 a16 f cis a \times 2/3 {f8 g a } \grace {f16( g} \times 2/3 {f4) cis8} | \lyricmode {have you tak -- en leave of your sen -- ses? } |
@@ -151,39 +150,40 @@ R2. | R2. | R2. | R2. | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-cis'4 r2 |g4 r2 |a'16 f' cis' a \times 2/3 {f8 g a} \grace {f16( g)} \times 2/3 {f4 cis8}|cis4 r2 | R2. |  % vn vII va vc cb 
+cis'4 r2 |a4 r2 | R2. | <f cis'>8-.^pizz r r2 | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn14
 \time 2/4 \instrumentSwitch "Rooney" b=8 fis \times 2/3 {dis e dis} | \lyricmode {Jer -- ry would -- n't mind } |
 R2 |\absolute b2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | R2 |b,2~\p | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-b'8 fis' \times 2/3 {dis' e' dis'}|b4-.^"pzz" r4  | R2  |b,2~ | R2 |  % vn vII va vc cb 
+<< { b''4~ <fis'' b''>~ }\\{b''8-.^pizz  fis''-.  dis''-. b'-. }>>  | <dis' fis' b'>4-.\arpeggio^pizz r | R2  | b,8-.^pizz b4.-. | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn15
 a'8 fis dis b | \lyricmode {would you Jer -- ry? } |
 R2 |\absolute a2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | r8 b(~ 8 cis'16 dis' |2| % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-a'8 fis' dis' b |a4-. r |r8 a4.\<( |b,4. r8 | R2 |  % vn vII va vc cb 
+<< {fis''4. gis''16 a''}\\dis''2>> |<dis' fis' a'>4-.\arpeggio r  |a'8-.^pizz  fis'-. dis'-. b-. | b,8-. a4.-. | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn16
 \time 5/8 \set Timing.beatStructure = #'(2 3)  \instrumentSwitch "Jerry" e=8 e, \instrumentSwitch "Rooney" \times 3/4 { e=8[ e e e] } | \lyricmode {no Maam what news of your } |
-r4 r4. | r8 e-> r4. |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4 \times 3/4{e'8-. e'-. e'-. e'-. }|r8 e'8 r r4 |\grace {ais16 b c' cis' d' dis'} e'8)--\! e8~ r8 r4  | r8 e8^"pizz" r8  r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+r4 r4. | r8 e-> r4. |  r4.r4. |  r4.r4. |  % rh lh kbR kbL
+r4.r4. | r4.r4. | e'16) r8. r4. | r4.r4. | % fl ob kl bn
+r4.r4. |  r4.r4. |  r4.r4. | % hn tpt  tn
+r4.r4. | r4.r4. | r4.r4. | % tym perc fol
+r4.r4. | r4.r4. | % hpL hpR
+r4 \times 3/4{e'8-. e'-. e'-. e'-. }|r8 e'8 r r4 |\grace {ais16 b c' cis' d' dis'} e'8)--\! e8~ r8 r4  | r8 e8^"pizz" r8  r4 | r4.r4. |  % vn vII va vc cb 
+r4.r4. |  r4.r4. |  r4.r4. |  r4.r4. |  r4.r4. |  r4.r4. |  % I II III IV V VI
 
+%{
 %bn17
 \time 3/8 a4~ a16 e | \lyricmode {fa -- ther } |
 << { r8 <cis e>8 <cis e> } \\ { s32 {\grace{ e,16( f g gis } a4.*11/12)} } >>  | s32 a4.*11/12  |  R4. |  R4. |  % rh lh kbR kbL
