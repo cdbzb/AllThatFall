@@ -313,12 +313,23 @@
 
 \addInstrumentDefinition #"crotales"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "crotales")
+     (shortInstrumentName . "crot")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
      (middleCPosition . -6)
      (clefPosition . 0)
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "crotales"))
+     (midiInstrument . "voice oohs"))
+%%%%%%%%%%%%%%%%%%%% VOICES
+
+\addInstrumentDefinition #"crotalessilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "crot")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
      (midiInstrument . "voice oohs"))
 %%%%%%%%%%%%%%%%%%%% VOICES
 

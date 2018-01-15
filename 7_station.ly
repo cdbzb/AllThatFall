@@ -2486,7 +2486,6 @@ R2 | R2 | R2 | R2 | 2 |% vn vII va vc cb
   \Q #"tn" { s2 }|\Q #"vn" { s2 }|  \Q #"vII" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
 %parts: tn or tpt % rest % rest % rest % cb % rest
 
-%{
  %bn219
 c8. g16 r4 | \lyricmode {see this } | % % % % %REFGURE all these scales
 R2 | r8 f g a |  R2 |  R2 |   % rh lh kbR kbL 
@@ -2497,6 +2496,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
+%{
  %bn220
 r4 r16 \instrumentSwitch "Tommy" c,=8. | \lyricmode {she's } |
 R2 | bes8 c d e |  R2 |  R2 |   % rh lh kbR kbL 

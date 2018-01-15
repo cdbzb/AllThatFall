@@ -357,103 +357,102 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 %bn34
 \time 3/4 ais4 r8. aes16~ aes8 aes | \lyricmode {turns in the } |
 R2. | r4 <aes aes'>4~ \times 2/3{ <aes aes'>8 <aes aes'>4 }|  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
+R2. | R2. |cis'4 r2|fis,4 r2| % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
+r4 gis,~ \times 2/3 {8 4} |cis''2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-ais'4 r8. gis'16~ gis'8 gis' |r4 gis~ \times 2/3 {gis8 gis4}|fis4 r2 | r4 gis,~ \times 2/3 {gis,8 gis,4}| R2. |  % vn vII va vc cb 
+ais''4 r2 |r4 gis~ \times 2/3 {gis8 gis4}|fis4 r2 |r4  gis,4~\times 2/3 {8 4}| \repeat tremolo 4 {d,32 d} gis,4-.^pizz \times 2/3 {r8 gis,4} |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%{
 %bn35
 \time 2/4 \QE cis8 cis, \instrumentSwitch "Dan" d8 cis16 b | \lyricmode {bath -- room I did -- n't } |
 \absolute { <eis' gis' cis''>8\lv \arpeggio <eis' gis'>\lv d'8 cis'16 b } |r4 d=8 cis16 b |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+<gis'' cis'''>4 r| R2 | R2 | R2 | % fl ob kl bn
+cis,2~ |  R2 |  R2 | % hn tpt  tn
+R2 |\instrumentSwitch "percsilent" <<{\cross f''4\lv \cross b' }\\d'2>> |  R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-cis''8-> cis'~-- cis'16 r8. |gis8-> r4. | f,8-> r8 d'8( cis'16 b)  |cis,8 r  d8( cis16 b,)  | R2 |  % vn vII va vc cb 
+R2 |gis8-> r4. | R2 | cis,2~ | cis,2-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn36
 \time 2/4 \tEE bes8 e,  \instrumentSwitch "Rooney" des=[ bes] | \lyricmode {hear you But I } |
 bes8 e, r4  |bes8 e,\lv r4  |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | R2 |r4 cis''~ | R2 | % fl ob kl bn
+4 r |  R2 |  R2 | % hn tpt  tn
+R2 |<<{ \instrumentSwitch "crotalessilent" r4 g'\lv^CROT }{\ossia "perc" {\instrumentSwitch "vibessilent" e'2^VB }}>> | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-r4 des'8 bes | R2 |bes8 e~ e4 |bes,8 e4. | R2 |  % vn vII va vc cb 
+R2 | R2 | R2 |4 r | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn37
 \tEE g'4 des8 g | \lyricmode { gave you a } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | <cis'' g''>2~ | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | << R2 {\inst "ossia" ais'2}>> | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-g'4 des'8 g' | R2 | R2  | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | R2  | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn38
-bes4 r \times 2/3 {r4 f8} \times 2/3 {e4 f8 } | \lyricmode {tie! you have it } |
+\time 4/4 bes4 r \times 2/3 {r4 f8} \times 2/3 {e4 f8 } | \lyricmode {tie! you have it } |
 \absolute {<des' g' bes'>4\arpeggio r \times 2/3 {r4 f'8} \times 2/3 {e'4 f'8~ } } |\absolute { <des e bes>4 } r2.|  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
+R1 | R1 | <cis'' g'' ais''>2 r | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
+R1 | \instrumentSwitch "percsilent" <<\triangle f''2^PERC\\d'2:32>> r2 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-bes'4 r \tuplet 3/2 4 {r4 f'8 e'4 f'8} |g'4 r  \tuplet 3/2 4 {r4 f'8 e'4 f'8} |e'4 r2. |des4 r2.| R1 |  % vn vII va vc cb 
+R1 | R1 | e2:32 r | \pitchedTrill cis2 \startTrillSpan dis r2\stopTrillSpan | R1 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn39
 \time 2/4 d'4 \instrumentSwitch "Dan" c= | \lyricmode {on! What } |
 \absolute {<f' aes' d''>4\arpeggio} \clef bass <ees g c>( | \absolute{<d f b>4\arpeggio } ees=,  |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | R2 | <b' d'' aes''>8.-. r16 r4 | <b d'>4-- <g, c>8\mp r| % fl ob kl bn
+r4 g\mp |  R2 |r4 <dis, dis>8 r  | % hn tpt  tn
+ ees4\mp 4 | \grace f'16( 8 r4. | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-d''4 g|<f' aes'>4 c'  |<d b>4 c|r4  ees,4| R2 |  % vn vII va vc cb 
+R2 | R2 |  <f' aes'>8.:32 r16  g8 r | r4 ees,8 r | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn40
 \time 2/2 c2 c4. c8 | \lyricmode {age am I } |
 <ees g c>2 <ees g c>4. <ees g c>8 | ees2 ees4. ees8 |  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
+R1 | R1 | R1 | q4.\> r8 q4 r8 q8 | % fl ob kl bn
+4.\> r8 4 r8 8 |  R1 | 4.\> r8 4 r8 8 | % hn tpt  tn
+ ees2 4. 8 | R1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-<<g1 {s8\> s2. s8\!}>>|c'2 c'4. c'8 |c2 c4. c8 | ees,2 ees,4. ees,8 | R1 |  % vn vII va vc cb 
+R1 | R1 |  4.\> r8 4 r8 8 | ees,2\> ees,4. ees,8 | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 
 %bn41
 c2 \instrumentSwitch "Rooney" cis8 dis4 eis8 | \lyricmode {now? Ne -- ver mind } |
 <des f c'>2)  << { cis='4.( b8) }\\ {ais4. gis8}>>|des1( |  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
+R1 | R1 | R1 | 2\! r | % fl ob kl bn
+ g2\! <des des'>8\mf <ees ees'>4 <f f'>8 |  R1 | 1~\! | % hn tpt  tn
+ 2 r | R1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-r2 cis'8( dis'4 eis'8  |c'2 cis'4.( b8) | c2 ais4.( gis8) |des,1~\>  | R1 | % vn vII va vc cb 
+ r2 bes4. aes8 | r2 des'4. d'8 | g2\! bes4. aes8 | des,1~ | \treble r2 cis'4.-. b8-. | % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn42
 \time 3/4 fis4 r  b4 | \lyricmode {that come! } |
 << {ais4( gis8 ais)}\\{fis4. eis8}>> <dis fis b>4-- |fis2) b4 |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
+ r2 <dis'' b''>4 | R2. | R2. | R2. | % fl ob kl bn
+ <fis fis'>4. r8  <fis' b' fis'' b''>4 | r2 <dis'' b''>4 | 2.~ | % hn tpt  tn
+R2. |\instrumentSwitch "vibes" r2 <dis'' dis'''>4\lv | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-fis'4) r b'-. |ais4( gis8 ais b4-.) |fis4.( eis8 <dis fis>4-.) |des,2\! r4 | R2. |  % vn vII va vc cb 
+ gis4. g8 <fis dis>4 |ais4( gis8 ais b4-.) |fis4.( eis8 <dis fis>4-.) |des,2\! r4 | ais4-. gis8-. ais-. b4-. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn43
 \time 4/4 \instrumentSwitch "Dan" c4 \times 2/3 {b8 a g } \tQE fis8 g e a \breathe | \lyricmode {why did you not can -- cel the boy? } |
 \clef treble << {c=''4( \times 2/3 {b8 a g }fis8 g e a) }\\< e=' g c>1-> >>|<< {c='4( \times 2/3 {b8 a g }fis8 g e a) }\\<c= e g c>1-> >>| R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
+ r2 r8 <g' g''>4 <a' a''>8 | R1 | R1 | R1 | % fl ob kl bn
+ r2 \clef bass <fis, fis>4-- <e, e>-- |  R1 | <c, c>1 | % hn tpt  tn
+R1 |\instrumentSwitch "percsilent" << \cross f''^PERC \\ d'1 >>| R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-c''4->\f \times 2/3 {b'8 a' g'} fis' g' e' a' \breathe |c'4->\f \times 2/3 {b8 a g} fis' g' e' a' |c1 |c4->\f \times 2/3 {b,8 a, g,} fis, g, e, a, | R1 |  % vn vII va vc cb 
+R1 | <c'' c'''>1 | <<{r2 fis4 e} \\ c1>> |c4-> \times 2/3 {b,8 a, g,} fis, g, e, a, | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 
@@ -461,23 +460,24 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 %bn44
 bes4 a16 g f e d8 e r cis | \lyricmode {now we shall have to give him a } |
 << {bes='4( a16 g f e d8 e) r cis }\\<d=' f bes>1-> >> |<< {bes=4( a16 g f e d8 e) r cis }\\<bes=, d f bes>1-> >> |  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
-R1 | R1 | % hpL hpR->
-bes'4 a'16 g' f' e' d'8 e' r8 cis' |bes'4 a'16 g' f' e' d'8 e' r8 ais |bes4 a16 g f e d8 e~ e4 |bes2. bes4 | R1 |  % vn vII va vc cb 
+ <d' d''>2 r | R1 |r2 d'4 cis' | R1 | % fl ob kl bn
+ \treble bes'4 a'16 g' f' e' d'4 r   |  R1 |  R1 | % hn tpt  tn
+R1 |\triangle f''2 \instrumentSwitch "vibes"  d'4 cis'\lv | R1 | % tym perc fol
+bes2. r4 | <bes' bes''>2. r4 | % hpL hpR->
+2 r | r2.. cis'8~ |\treble  <bes' bes''>1 |bes2. bes4 | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI TODO Check bar end arrangement
 
 %bn45
 \dEQ \rit fis4 \start ais, \instrumentSwitch "Rooney" e='4. e8 | \lyricmode {pen -- ny I for -- } |
 fis='4 r <e=' g b e>4.-> q8  |fis=4 <fis= fis'>4 r2 |  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
+ fis''2 r | R1 | fis2 r| R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
 R1 | R1 | R1 | % tym perc fol
-R1 | R1 | % hpL hpR
-ais4. r8 e'4.\f e'8 |fis'4 ais r2  | R1 | R1 | R1 |  % vn vII va vc cb 
+ <fis, fis>1 | R1 | % hpL hpR
+R1 |2 r | r4 fis r2  | \treble <fis' fis''>2\p r | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI TODO check cutoffs
 
+%{
 %bn46
 \tempo 4 = 90 \time 6/8 e4. \stop r8 e e | \lyricmode {got. I had } |
 <e g b e>2.\arpeggio | << { e=8 g b e b g }\\ <e= b' e>2. >> |  R2. |  R2. |  % rh lh kbR kbL
