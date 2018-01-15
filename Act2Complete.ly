@@ -477,25 +477,24 @@ R1 | R1 | R1 | % tym perc fol
 R1 |2 r | r4 fis r2  | \treble <fis' fis''>2\p r | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI TODO check cutoffs
 
-%{
 %bn46
 \tempo 4 = 90 \time 6/8 e4. \stop r8 e e | \lyricmode {got. I had } |
 <e g b e>2.\arpeggio | << { e=8 g b e b g }\\ <e= b' e>2. >> |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
+e'8( g' b' e''8.) r | R2. | r4. e''8( b' g' | R2. | % fl ob kl bn
+ <b e'>2. |  R2. |  R2. | % hn tpt  tn
+R2. |\instrumentSwitch "percsilent" <<\cross f''2.^PERC\\d' >>| R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-e''4. r8 e'' e'' |<g e'~>2.|e4. b |e,8( g, b, e b, g,) | R2. |  % vn vII va vc cb 
+<b'' e'''>2. | r4. e''8 b' g' | <e g e'>2. | \clef bass r4. e8 b, g,| \clef "bass_8" e,,8( g,, b,, e,4.) |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn47
 \times 3/2 {f8 ees} \times 3/2 { d8( c)} | \lyricmode {such a time } |
 R2. | ees=2. |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
+ees'8 g' bes' ees'' bes' g'  | R2. |<<{  <g'' bes''>4.~ <bes'' f'''> }\\ {ees'4. ees''8 bes' g'}>>  | R2. | % fl ob kl bn
+ R2. |  R2. | ees,8 g, bes, ees bes, g,| % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-\tuplet 2/3 4. {f''8 ees'' d'' c''} |<bes e'>2. |ees8( g bes d' bes g) |ees2.| R2. |  % vn vII va vc cb 
+<c''' f'''>2. |\tuplet 2/3 4. {  f''8 ees'''~ <ees''' d'''>~ <ees''' d''' c'''> } |ees8( g bes d' bes g) | ees,4. ees | ees,4. ees |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn48
@@ -508,6 +507,7 @@ R2 | R2 | % hpL hpR
 fis''8^"or c"  b' dis' b' | R2 |fis2 |a2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
+%{
 %bn49
 \rit b8 \start  bes e8. bes16 | \lyricmode {hor -- rid nas -- } |
 R2  |<< { f=8(^"R.H." ges g aes }\\ {<cis=, cis'>8.  <c c'> <b b'>8 }>> |  R2 |  R2 |  % rh lh kbR kbL

@@ -21,6 +21,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 %{
 
 
+%}
 %bn1 %sec1
   \tempo 4 = 70 %dummy
   \time 2/4 \instrumentSwitch "Rooney" r4 g=8 g | \lyricmode {is that } |
@@ -7351,7 +7352,6 @@ R2. |  R2. | % hpL hpR
 R2. |  R2. | g'2.\p^mutes|  R2. |  R2. |  % vn vII va vc cb 
   \Q #"tn" { s2. }|\Q #"fl" { s2. }|  \Q #"bn" { s2. }| \instrumentSwitch "vatreble" \Q #"va" {s2. }|  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I  II  III  IV  V  VI  
 
-%}
 %bn675
 \mark default \time 2/4 b4 \instrumentSwitch"Barrell" fis=|\lyricmode{in? Tom -- }|
 R2 | R2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -7696,7 +7696,6 @@ R2 |  R2 | % hpL hpR
 R2 |  R2 |  R2 |  R2 |  R2 |  % vn vII va vc cb 
   \Q #"kl" { s2 }|  \Q #"vn" { s2 }|  \Q #"bn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I  II  III  IV  V  VI  
 
-%{
 %bn708
 cis4 \times 2/3 {r8 gis fis} |\lyricmode{nough, Mis -- ter }|
 R2 | R2 | \clef bass <e gis cis'>2\arpeggio^hpschd | <cis, cis>2\arpeggio |   % rh lh kbR kbL 
@@ -11694,6 +11693,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
+%{
 %bn1048
 %}
 
