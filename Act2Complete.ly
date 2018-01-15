@@ -290,68 +290,68 @@ c4 \times 2/3 {r8 c c } | \lyricmode {prise for your } |
  fis'4~ <fis' gis'>~|  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | dis'2-> | % hpL hpR
-2 | <c' c''>2 | dis4-. r | 4 r| R2 |  % vn vII va vc cb 
+2 | <c' c''>2~ | dis4-. r | 4 r| R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn28
+
 \tEE f4 f,8 \instrumentSwitch "Dan" f\noBeam | \lyricmode {birth -- day My } | %check MM
 <a c f>4. <a c f>8 | <f=, f'>4. <f f'>8|  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+4 r8 <a, f>8 |  R2 |  R2 | % hn tpt  tn
+ r4. f,8 |\instrumentSwitch "percsilent" <<\cross f'a'2^PERC\\d'2>> | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-f''4-> f'8-> a |a'4-> r8 f'8\mf |c'4-> r8 f8 |f,4-> r8 f, | R2 |  % vn vII va vc cb 
+a'4 r8 f' | <c'' a'>4. r8 |\treble f'''4 c''' | f,4 r8 f,8 | r4. f,,8 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%{
 %bn29
 \dQQ f4 e | \lyricmode {birth -- day? } |
 <a c f>4 <a c e> | <fis fis'>2 |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-a4 a |f'4 e'~ | fis4 fis |fis,2 | R2 |  % vn vII va vc cb 
+ <a, fis>2~ |  R2 |  R2 | % hn tpt  tn
+fis,2 | \cross b'2 | R2 | % tym perc fol
+fis,,2\lv | R2 | % hpL hpR
+ <a f'>4~ <a e'> |f'4 e'~ | fis4 fis | fis2 | fis,,2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn30
 \instrumentSwitch "Rooney" e='8 dis cis bis  | \lyricmode {you have not for -- } |
 R2| R2|  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+R2 | R2 | R2 | <c, c>16-. r q-. r <cis, cis>-. r q-. r  | % fl ob kl bn
+ 2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-\tuplet 3/2 4 {e''4 dis''8 cis''4 bis'8} |e'8 r4. | R2 |e8 dis cis bis, | R2 |  % vn vII va vc cb 
+\tuplet 3/2 4 {e''4 dis''8 cis''4 bis'8} |e'8 r4. | r8 \clef bass \times 2/3 {dis16-.^pizz dis'8} r \times 2/3 {c16-. c'8-.} | e8-. dis-. cis-. c-. | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn31
 dis8 bis fis d | \lyricmode {got -- ten it? I } |
 R2| R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | R2 | <dis, dis>16-. r q-. r <fis, fis>16 r8. | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-\times 2/3  {dis''4 bis'8} fis'8 d'  | R2 | R2 |dis8 bis, fis, r | R2 |  % vn vII va vc cb 
+r4. <d,, d,>8~ | R2 | % hpL hpR
+\times 2/3  {dis''4 bis'8} fis'8 d'  | R2 | r8 \times 2/3 {c16-. c'8} r4 | dis8 bis, fis, d, | r4. \repeat tremolo 2 {d,32 d }|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn32
 fis4 e8 d | \lyricmode {wished you your } |
 R2 | d2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | r8 fis'4. | d,2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-fis'4 e'8 d' | R2 |d2 | R2 | R2 |  % vn vII va vc cb 
+R2 |\instrumentSwitch "vibes" fis''2 | R2 | % tym perc fol
+2 | R2 | % hpL hpR
+r8 fis''4.~ | R2 | R2 | R2 | \repeat tremolo 8 {d,32 d} |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn33
 \dEQ gis4 fis8 e | \lyricmode {hap -- py re -- } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | gis'4 fis'8 e' | e,2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | e''2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-gis'4 fis'8 e' | R2 |e2| R2 | R2 |  % vn vII va vc cb 
+ <fis'' gis''>2 | R2 |e2| R2 | \repeat tremolo 8 {d,32 d} |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn34
@@ -364,6 +364,7 @@ R2. | R2. | % hpL hpR
 ais'4 r8. gis'16~ gis'8 gis' |r4 gis~ \times 2/3 {gis8 gis4}|fis4 r2 | r4 gis,~ \times 2/3 {gis,8 gis,4}| R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%{
 %bn35
 \time 2/4 \QE cis8 cis, \instrumentSwitch "Dan" d8 cis16 b | \lyricmode {bath -- room I did -- n't } |
 \absolute { <eis' gis' cis''>8\lv \arpeggio <eis' gis'>\lv d'8 cis'16 b } |r4 d=8 cis16 b |  R2 |  R2 |  % rh lh kbR kbL
