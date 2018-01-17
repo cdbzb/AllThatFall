@@ -624,49 +624,48 @@ r8 g=' fis e d  | g=8 g' fis e d | r4 r4. | r4 r4. |  % rh lh kbR kbL
 r4 r4. |  r4 r4. |  r4 r4. | % hn tpt  tn
 g4~g4. | r4 r4. | r4 r4. | % tym perc fol
 r4 r4. | r4 r4. | % hpL hpR
-r8 g'' fis'' e'' d'' | r4. r4 | r8 g'' fis'' e'' d'' | g,8-> g f e d | r4 r4. |  % vn vII va vc cb 
+r4. r4 | r4. r4 | r8 g'' fis'' e'' d'' | g,8-> g f e d | r4 r4. |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
 
 %bn61
-\time 3/8 \dQH \instrumentSwitch "Dan" f8 g a  | \lyricmode {come for me } |
+\time 3/8 \dQH \instrumentSwitch "Dan" f8^check g a  | \lyricmode {come for me } | %TODO CHECK MM against demo
 c8  b a  | R4. |  R4. |  R4. |  % rh lh kbR kbL
  c''8 b' a' | R4. | f'8 g' a' | R4. | % fl ob kl bn
 R4. |  R4. |  R4. | % hn tpt  tn
 R4. | R4. | R4. | % tym perc fol
 R4. | R4. | % hpL hpR
-c''8 b' a' |\treble f'8 g' a' | c''8 b' a' | c8 b, a, | R4. |  % vn vII va vc cb 
+R4. | R4. | c''8 b' a' | c8 b, a, | R4. |  % vn vII va vc cb 
 R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I II III IV V VI
 
 %bn62
 \time 6/8 \QdQ b4 g8  f8 g a | \lyricmode {Wed -- nesday if I am } |
 <<s2.\\g2.~>> | R2. |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
+ g'2.~ | R2. |b'2.~ | R2. | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-g2. |b'4 g'8 f' g' a' |b4 g8 f g a |g,2.~| R2. |  % vn vII va vc cb 
+R2. | R2. | g'2.~ |g,2.~| R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%{
 %bn63
 \tempo 4 = 50
 \time 2/4 \EE b4 g8 cis8 | \lyricmode {still  a -- live } |
 << <a cis>2\\ g2>>|R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+2 | R2 | 4.~ <b' cis''>--  | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-<cis' a'>2 |b'4 g'8 cis'' |b4 g8 cis' |g,2 | R2 |  % vn vII va vc cb 
+R2 | R2 |2~ |2~ | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn64
 \tEE \time 4/4 \instrumentSwitch "Jerry" d8 d, r2. | \lyricmode {Yes -- sir } |
 r8 d=' cis b a g fis e | d=8 d'( cis b a g fis e |  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
+r8 d'' cis'' b' a' g' fis' e' | R1 | r2.. d''8-- | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
+d,1 |\cross d''1->\lv| R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-d''8-> d'-> r2. r8 d'' cis'' b' a' g' fis' <e' a'>-> |r8 d'' cis'' b' a' g' fis' e' d' r4. r4. cis''8-> |r1 r8 d' cis' b a g fis g-> |d8-> d' cis' b a g fis e d d cis b, a, g, fis, e,-> | R1 |  % vn vII va vc cb 
+R1 | R1 |1 | 8 d' cis' b a g fis e | d,2-.^pizz r |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 
@@ -674,12 +673,12 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 %bn65
 R1 | |
 \clef bass << {s2.. <g= a cis>8 }\\ {d8 d cis b a g fis e}>> | d8) d cis b a g fis e |  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
+d''8 8 cis'' b' a' g' fis' e' | R1 | R1 | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
+d1 | R1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
-R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
+R1 | \treble r8 d''' cis''' b'' a'' g'' fis'' e'' |fis'2.. <g' cis''>8->  | d8 d cis b, a, g, fis, e, | d2-. r |  % vn vII va vc cb 
+R1 | R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn66
 \time 6/8 \instrumentSwitch "Dan" r4 c=8 b c e | \lyricmode {we could have saved } |
@@ -702,6 +701,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%{
 %bn68 63
 \time 7/8 \set Timing.beatStructure = #'(3 4) \grace {f8( g gis} a4) \rit a,8 \start r g a b \stop | \lyricmode {five pence. But at what } |
 \relative c' {\grace {f8( g gis} a4) a,8 r g a b }| r4 a8~ a2~ |  r4. r2 |  r4. r2 | % rh lh kbR kbL
