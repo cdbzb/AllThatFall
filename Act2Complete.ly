@@ -393,7 +393,6 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2  | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%}
 %bn38
 \time 4/4 bes4 r \times 2/3 {r4 f8} \times 2/3 {e4 f8 } | \lyricmode {tie! you have it } |
 \absolute {<des' g' bes'>4\arpeggio r \times 2/3 {r4 f'8} \times 2/3 {e'4 f'8~ } } |\absolute { <des e bes>4 } r2.|  R1 |  R1 |  % rh lh kbR kbL
@@ -647,11 +646,12 @@ R2. | R2. | % hpL hpR
 R2. | R2. | g'2.~ |g,2.~| R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%}
 %bn63
 \tempo 4 = 50
 \time 2/4 \EE b4 g8 cis8 | \lyricmode {still  a -- live } |
 << <a cis>2\\ g2>>|R2 |  R2 |  R2 |  % rh lh kbR kbL
-2 | R2 | 4.~ <b' cis''>--  | R2 | % fl ob kl bn
+2 | R2 | 4.~ <b' cis''>8--  | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
@@ -694,32 +694,31 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 gis4 e8-.\fermata \times 3/4 { r e e e } | \lyricmode {six pence. We have saved } |
 \clef treble \absolute {<b gis'>4.\fermata \times 3/4 { r8 e'8 e' e' } } | \absolute {<b, gis>4. r } |  R2. |  R2. | % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
+R2. | R2. | R2. | gis4. r | % fl ob kl bn
+b,4.^stopped r|  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+ <b, e gis>4.\arp\fermata r | <b e' gis'>4.\arp\fermata r | % hpL hpR
+ <gis gis'>2.~^mutes | R2. | gis4.^mutes r | b,4. r | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%{
 %bn68 63
 \time 7/8 \set Timing.beatStructure = #'(3 4) \grace {f8( g gis} a4) \rit a,8 \start r g a b \stop | \lyricmode {five pence. But at what } |
 \relative c' {\grace {f8( g gis} a4) a,8 r g a b }| r4 a8~ a2~ |  r4. r2 |  r4. r2 | % rh lh kbR kbL
-r4. r2 | r4. r2 | r4. r2 | r4. r2 | % fl ob kl bn
-r4. r2 |  r4. r2 |  r4. r2 | % hn tpt  tn
-r4. r2 | r4. r2 | r4. r2 | % tym perc fol
-r4. r2 | r4. r2 | % hpL hpR
-r4. r2 | r4. r2 | r4. r2 | r4. r2 | r4. r2 |  % vn vII va vc cb 
+r4. r2 | r4. r2 | r4. r4. <b b'>8~ | \grace {e8( fis gis} a4.~) 8~ <a g>4.~ | % fl ob kl bn
+ r4.  a2 |  r4. r2 |  r4. r2 | % hn tpt  tn
+r4. r2 | r4. r8 \instrumentSwitch "vibes" g a b  | r4. r2 | % tym perc fol
+ <c e a>4.\arp~2 | <c' e' a'>4.\arp~2 | % hpL hpR
+ 4. <g g'>2 ~ | r4. r2 | r4 a8~2~ | r4 <a,, a,> 8~2~ | r4. r2 |  % vn vII va vc cb 
 r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I II III IV V VI
 
 %bn69
 \time 2/4 dis4 r | \lyricmode {price } |
 \relative c' dis2 | a2 | R2|  R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | 4 r | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | cis'2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ 4 r | R2 | 4 r | 4 r | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 \tempo 4 = 60 %dummy
@@ -738,30 +737,30 @@ r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
 \tQQ \time 4/4 ees=4 g ges a-- | \lyricmode{once and for all } |
 <dis='' fis>4(\< <e g> <f aes> <fis a>)\! | <dis fis>4( <d f> <des fes> <c ees>) | R1 | R1 | % rh lh kbR kbL
 R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 | R1 | R1 | % hn tpt tn
+<fis, fis>4(^norm <f, f> < e, e> <dis, dis>) | R1 | dis,4 d, cis, c, | % hn tpt tn
 R1 | R1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+R1 | R1 | \treble <d'' fis''>4 <e'' g''> < f'' aes''> < fis'' a''> | <dis fis>4 < d f> < cis e> < c ees>| R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn72
 \tQE \time 5/8 \set Timing.beatStructure = #'(2 3)  a8 gis \dEQ fis e dis | \lyricmode{do not ask me to } |
 r4 r4. |a=8 gis fis e dis | r4 r4. | r4 r4. | % rh lh kbR kbL
-r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn
+r4 r4. | r4 r4. | r4 r4. | <a, a>8 < gis, gis> < fis, fis> <e, e> <dis, dis> | % fl ob kl bn
 r4 r4. | r4 r4. | r4 r4. | % hn tpt tn
-r4 r4. | r4 r4. | r4 r4. | % tym perc fol
+r4 r4. | <a'' a'''>4~4. | r4 r4. | % tym perc fol
 r4 r4. | r4 r4. | % hpL hpR
-r4 r4. | r4 r4. | r4 r4. | r4 r4. | r4 r4. |  % vn vII va vc cb 
+ a''8 gis'' fis'' e'' dis''~ | a''4~4.| r4 r4. | a,8 gis, fis, e, dis, | r4 r4. |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
 
 %bn73
 \dQQ \time 2/4 r4 \times 2/3 {d4 bes8} | \lyricmode{ move and } |
 r4 << {\times 2/3 {d='4 bes8~}}\\f=4>>| d8 bes4 d8 | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | R2 | <d, d>8 <bes,, bes,>4.  | % fl ob kl bn
 R2 | R2 | R2 | % hn tpt tn
-R2 | R2 | R2 | % tym perc fol
+R2 | \instrumentSwitch "bells" 	d''8 bes'4 d''8 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+2~ | r4 \times 2/3 { <d d'>4-.^pizz <bes, bes>8 } | R2 | r4 \times 2/3 {d4 bes,8}| d,8 bes,,4 d,8 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn74
@@ -774,6 +773,7 @@ R4. | R4. | % hpL hpR
 R4. | R4. | R4. | R4. | R4. |  % vn vII va vc cb 
 R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I II III IV V VI
 
+%{
 %bn75
 \dEQ \time 2/4 fis8 eis dis cis | \lyricmode{time I shall not } |
 <<{fis='8 eis dis cis }\\c='2>> |<<{d=4( ees}\\c2>> | R2 | R2 | % rh lh kbR kbL
