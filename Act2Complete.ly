@@ -886,32 +886,31 @@ r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  % I II III IV V VI
 %bn85
 \time 3/4 d8 c16 b \times2/3 {a8 gis fis} f8 fis16 dis | \lyricmode{mange! are you in a con -- di -- tion to } |  %was dEQ
 <b d f>8\arpeggio r <c, e a>2\arpeggio |<b d f>4\arpeggio <<{c='4( cis)}\\a=,2>>| R2. | R2. | % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. | R2. | R2. | % hn tpt tn
+r4 \times 2/3 {c''8 b' a' } gis'4 | R2. |\treble f''8 e''16 d'' c4 r |r2 << {f8(fis)}\\<cis a>4 >>| % fl ob kl bn
+ \treble <d'' f''>4 r2 | R2. |r4 c' cis' | % hn tpt tn
 R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+<d f aes>2.\arp |<d' f' aes'>\arp | % hpL hpR
+R2. | R2. | r2 f8 fis16 dis | r4 <e c' e' a'>4:32( <f cis' e' a'>4:32 | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%{
 %bn86
 \tEE \time 4/4 gis8 gis, a a cis cis e e | \lyricmode{ lead me? We shall fall in -- to the } |
 r4 a8 a <a cis> q <a cis e> q |r8 <gis gis'>8 q q q q q q| R1 | R1 | % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 | R1 | R1 | % hn tpt tn
+ r2. e''8-. e''-. | R1 | R1 | R1 | % fl ob kl bn
+R1 |r4  a8-. a-. cis'-. cis'-. e'-. e'-. | R1 | % hn tpt tn
 R1 | R1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+ r2 cis'8-. 8-. 8-. 8-. | r4 a8-. 8-. 8-. 8-. 8-. 8-. |r8 gis4.~2 |r4 \repeat unfold 6 g8-. | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn87
 \time 2/4 bes'4 \instrumentSwitch "Rooney" \tempo "slower" 4=60 \times 2/3 {f='4( e8) } | \lyricmode{ ditch! Oh } |
 <a cis e g bes>4\arpeggio <g bes d f g>\arpeggio | <gis gis'>4 <g d' g>4 | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | R2 | % hn tpt tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ ais'4~ <ais' ais'' e''>~\arp | R2 |r4 f'~ | R2 | % fl ob kl bn
+R2 | ais'2~ | R2 | % hn tpt tn
+R2 | \instrumentSwitch "vibes" <cis' e' gis' ais'>2\arp | R2 | % tym perc fol
+r4 <f g bes d'>\arp | r4 <f' g' bes' d''>\arp | % hpL hpR
+ cis'4 r | a2 | r4 f'8(^mute g' |gis,4 g, | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn88
@@ -925,6 +924,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%{
 %bn89
 \instrumentSwitch "Dan"
 \time 3/4 \tempo "(faster)" 4 = 90  \times 2/3 {fis=4 d8} c d gis e |\lyricmode{ pull your -- self to -- }| %determine tempo!
