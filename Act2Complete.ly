@@ -907,7 +907,7 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 \time 2/4 bes'4 \instrumentSwitch "Rooney" \tempo "slower" 4=60 \times 2/3 {f='4( e8) } | \lyricmode{ ditch! Oh } |
 <a cis e g bes>4\arpeggio <g bes d f g>\arpeggio | <gis gis'>4 <g d' g>4 | R2 | R2 | % rh lh kbR kbL
  ais'4~ <ais' ais'' e''>~\arp | R2 |r4 f'~ | R2 | % fl ob kl bn
-R2 | ais'2~ | R2 | % hn tpt tn
+ r4 f'~ | ais'2~ | R2 | % hn tpt tn
 R2 | \instrumentSwitch "vibes" <cis' e' gis' ais'>2\arp | R2 | % tym perc fol
 r4 <f g bes d'>\arp | r4 <f' g' bes' d''>\arp | % hpL hpR
  cis'4 r | a2 | r4 f'8(^mute g' |gis,4 g, | R2 |  % vn vII va vc cb 
@@ -917,45 +917,45 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 %\time 6/8 \times 3/4 {g4 f8 e} d8 c a' bar \lyricmode{ Dan it will be like old } bar
 \time 3/4 g8 f16 e d8 c16 d e4 | \lyricmode{ Dan it will be like old times! } | %see Alt above! (ALSO second chord ?!?!?!
 << { \octaves { g'8 f16 e d8 c16 d e4 } }\\ <g bes d f>2.\arpeggio >>| R2. | R2. | R2. | % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. | R2. | R2. | % hn tpt tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+<a'' e'''>4..( d'''32 e''' d'''4)| R2. | R2. | R2. | % fl ob kl bn
+ 4. r16 e'16 4 |2 a'4~ | R2. | % hn tpt tn
+R2. | \instrumentSwitch "perc" \cross f''2. | R2. | % tym perc fol
+<g bes d' f'>2.\arp | <g' bes' d'' f''>2.\arp | % hpL hpR
+ <bes'' d''' g'''>2^mutes <bes'' d''' f'''>4 | R2. |a'2) r4 | 2.| R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%{
 %bn89
 \instrumentSwitch "Dan"
 \time 3/4 \tempo "(faster)" 4 = 90  \times 2/3 {fis=4 d8} c d gis e |\lyricmode{ pull your -- self to -- }| %determine tempo!
 R2. | <fis=, fis'>4 <d d'> <gis gis'> | R2. | R2. | % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. | R2. | R2. | % hn tpt tn
-R2. | R2. | R2. | % tym perc fol
+R2. | R2. | R2. |fis8.-- r16 d8.-- r16 gis8. r16 | % fl ob kl bn
+2 r4 | R2. |e,2. | % hn tpt tn
+fis,2 gis,4 | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | R2. | R2. | fis,4-.^pizz d,-. g,-. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn90
 r8 a gis fis gis4 |\lyricmode{ ge -- ther or I shall send }|
 R2. | <e e'>2. | R2. | R2. | % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. | R2. | R2. | % hn tpt tn
-R2. | R2. | R2. | % tym perc fol
+R2. | R2. | R2. | e8( fis e2) | % fl ob kl bn
+R2. | R2. | e,2 r4  | % hn tpt tn
+R2. | d'2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | R2. | R2. | e,2-. r4 |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn91
 \dQQ \time 2/4 b8 gis e gis |\lyricmode {Tom -- my for the }|
 b='8 gis e gis |b=4 e | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | R2 | b4 e | % fl ob kl bn
 R2 | R2 | R2 | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | R2 | R2 | b,,4-. e,4-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
+%{
 %bn92
 \EE \time 9/8 ais4. b8. ais16 gis fis eis8 fis dis | \lyricmode {cab. then in -- stead of ha -- ving saved } |
 r4. r r | <e= fis ais>4.( <ees f b>) r | r4. r r | r4. r r | % rh lh kbR kbL
