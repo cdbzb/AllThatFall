@@ -955,55 +955,54 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | b,,4-. e,4-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%{
 %bn92
 \EE \time 9/8 ais4. b8. ais16 gis fis eis8 fis dis | \lyricmode {cab. then in -- stead of ha -- ving saved } |
 r4. r r | <e= fis ais>4.( <ees f b>) r | r4. r r | r4. r r | % rh lh kbR kbL
-r4. r r | r4. r r | r4. r r | r4. r r | % fl ob kl bn
+r4. r r | r4. r r | <fis fis'>4. <f f'> r | e4. dis r | % fl ob kl bn
 r4. r r | r4. r r | r4. r r | % hn tpt tn
-r4. r r | r4. r r | r4. r r | % tym perc fol
-r4. r r | r4. r r | % hpL hpR
-r4. r r | r4. r r | r4. r r | r4. r r | r4. r r |  % vn vII va vc cb 
+r4. r r | \instrumentSwitch "vibes" r4. \tuplet 2/3 4. {b''8 cis''' ais'' b''} | r4. r r | % tym perc fol
+r4. <ees, f, b,>2.\arp |r4. << f'2.^\markup{\sharp}\trill\\ <ees f b>2.\arp >>| % hpL hpR
+ <fis' fis''>4.^mutes <f' f''>4.~4  <ees' ees''>8 | ais'4.^mutes b r | r4. f' r | e,4. dis,2. | e4.-. r2. |  % vn vII va vc cb 
 r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I II III IV V VI
 
 %bn93
 \EE \time 2/4 a'8 cis,8 r16 g'8 r16 |\lyricmode{ six -- pence no }|
 R2 | r8 cis8 r4 | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | R2 | r8 <cis,, cis,>4. | % fl ob kl bn
 R2 | R2 | R2 | % hn tpt tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | fis''2  | R2 | % tym perc fol
+ r8 cis,4. | R2 | % hpL hpR
+ <a' a''>4 r | R2 | R2 | r8 cis,4 r8 | r8 cis,8-. r4 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn94
 \time 5/8 bes8 d, a' fis8 g16 a | \lyricmode {five -- pence we would have saved } |
 r4. r4 | r8 d4 r4 | r4. r4 | r4. r4 | % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+<ais' ais''>4 r4. | r4. r4 | r4. r4 | r8 <d,, d,>2 | % fl ob kl bn
 r4. r4 | r4. r4 | r4. r4 | % hn tpt tn
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+ <ais' ais''>4 r8 r4 | r4. r4 | r4. r4 | r8 d,4 r4 | r8 d4-. r |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
 
 %bn95
 \time 9/16 \EE ees8 a16 e8. bes | \lyricmode {two and three less } |
 r8. r r | ees8. e bes~( | r8. r r | r8. r r | % rh lh kbR kbL
-r8. r r | r8. r r | r8. r r | r8. r r | % fl ob kl bn
+r8. r r | r8. r r | r8. r r | dis8. e r | % fl ob kl bn
 r8. r r | r8. r r | r8. r r | % hn tpt tn
 r8. r r | r8. r r | r8. r r | % tym perc fol
 r8. r r | r8. r r | % hpL hpR
-r8. r r | r8. r r | r8. r r | r8. r r | r8. r r |  % vn vII va vc cb 
+r8. r r | dis8.-.^pizz e r | <dis dis'>8. <e e'> r | r8. r r | r8. r r |  % vn vII va vc cb 
 r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  r8. r r |  % I II III IV V VI
 
 %bn96
 \dEQ \time 4/4 f'4 \times 2/3 {e4 bes'8 } f8 r b4-- | \lyricmode {six one and no plus } |
 r2. <f=' g b>4 | <g bes des f>4) e=4( f) <f g b>4 | R1 | R1 | % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 | R1 | R1 | % hn tpt tn
-R1 | R1 | R1 | % tym perc fol
+ r2. <f' g' b'>4 | R1 | R1 | f4 r2. | % fl ob kl bn
+ \clef bass <ais, cis>4^stopped r2. | R1 | R1 | % hn tpt tn
+R1 |<< \ossia "perc" {\instrumentSwitch "percsilent" \cross g'1}\\ {\instrumentSwitch "vibessilent"  <g' bes' f''>1\arp } >>| R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+r2.. <b' g'' b''>8~ |r4 e'( f'4.) r8 | r4 <e e'>(^mutes <f f'>4.) r8 | r4 e( f4. r8 | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn97
@@ -1016,6 +1015,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%{
 %bn98
 \time 4/4 c4-- \times 2/3 {fis,4 b8} \times 2/3 {g4 b8} fis4 | \lyricmode {three one and nine and one } |
 <ges aes c>4 r2.| <ges aes c>4 f4( e f)| R1 | R1 | % rh lh kbR kbL
