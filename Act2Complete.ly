@@ -955,6 +955,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | b,,4-. e,4-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
+%{
 %bn92
 \EE \time 9/8 ais4. b8. ais16 gis fis eis8 fis dis | \lyricmode {cab. then in -- stead of ha -- ving saved } |
 r4. r r | <e= fis ais>4.( <ees f b>) r | r4. r r | r4. r r | % rh lh kbR kbL
