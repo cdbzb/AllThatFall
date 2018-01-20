@@ -110,8 +110,10 @@ EOF
     }
     \new Lyrics \lyricsto "tune" \lyrix
   >>
-  \new Staff = "rh" \relative c'' { \removeWithTag #'pf \rh }
-  \new Staff = "lh" \relative c {\clef bass \removeWithTag #'pf \lh}
+	\new GrandStaff { <<
+	  \new Staff = "rh" \relative c'' { \removeWithTag #'pf \rh }
+	  \new Staff = "lh" \relative c {\clef bass \removeWithTag #'pf \lh}
+	>>}
 >>
 EOF
 echo 'sent ly file'

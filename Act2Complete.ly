@@ -1002,28 +1002,27 @@ r2. <f=' g b>4 | <g bes des f>4) e=4( f) <f g b>4 | R1 | R1 | % rh lh kbR kbL
  \clef bass <ais, cis>4^stopped r2. | R1 | R1 | % hn tpt tn
 R1 |<< \ossia "perc" {\instrumentSwitch "percsilent" \cross g'1}\\ {\instrumentSwitch "vibessilent"  <g' bes' f''>1\arp } >>| R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-r2.. <b' g'' b''>8~ |r4 e'( f'4.) r8 | r4 <e e'>(^mutes <f f'>4.) r8 | r4 e( f4. r8 | R1 |  % vn vII va vc cb 
+r2.. <b' g'' b''>8~^mutes |r4 e'( f'4.) r8 | r4 <e e'>(^mutes <f f'>4.) r8 | R1 | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn97
 \time 3/4 \times 2/3 {e,8 r bes'8} f4 b-- | \lyricmode {one-- and no plus } |
 R2 <f g b>4 | e( f) <f g b>4 | R2. | R2. | % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
+ r2 <f' g' b'>4( | R2. | R2. | R2. | % fl ob kl bn
 R2. | R2. | R2. | % hn tpt tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+ 2. |e'4 f'2 | R2. | e4 f2 | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%{
 %bn98
 \time 4/4 c4-- \times 2/3 {fis,4 b8} \times 2/3 {g4 b8} fis4 | \lyricmode {three one and nine and one } |
 <ges aes c>4 r2.| <ges aes c>4 f4( e f)| R1 | R1 | % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
+<fis' gis' c''>4) r2. | R1 | r4 fis'( g' fis') | r4 e'( dis' e') | % fl ob kl bn
 R1 | R1 | R1 | % hn tpt tn
 R1 | R1 | R1 | % tym perc fol
-R1 | R1 | % hpL hpR
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+R1 | r2 <e' fis'> | % hpL hpR
+<aes'' c'''>2 r | fis'4 r2. | r4 < e e' fis'>( <fis dis' g> <e e' fis'>) | fis2 r | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn99
@@ -1031,7 +1030,7 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 R1 | R1 | R1 | R1 | % rh lh kbR kbL
 R1 | R1 | R1 | R1 | % fl ob kl bn
 R1 | R1 | R1 | % hn tpt tn
-R1 | R1 | R1 | % tym perc fol
+R1 | r4 \pitchedTrill gis8\fermata\startTrillSpan ais r\stopTrillSpan r4 \pitchedTrill g8\startTrillSpan\fermata a r8\stopTrillSpan  | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
@@ -1041,11 +1040,12 @@ R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 <g= a cis>4 r8 q8 <fis= a d>4 | a4 r8 a d4 | R2. | R2. | % rh lh kbR kbL
 R2. | R2. | R2. | R2. | % fl ob kl bn
 R2. | R2. | R2. | % hn tpt tn
-R2. | R2. | R2. | % tym perc fol
+R2. | R2. \stopTrillSpan | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+<g' a'>4^arc r8 q <fis' a'>4 | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%{
 %bn101
 \time 5/4 \tEE \set Timing.beatStructure = #'(2 3)
 d8 cis b a gis a fis gis b e, | \lyricmode{ we shall be the poor -- er to the tune of }|
