@@ -21,6 +21,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 \parallelMusic #'( melody lyrix rh  lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR  vn vII va vc cb I  II  III  IV  V  VI  ) { \hiddenTempo 60
 %{
 
+%}
 
 %bn1 %sec1
   \tempo 4 = 70 %dummy
@@ -360,8 +361,8 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
   R2 | R2 | R2 |  % tmp perc fol  
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
-  <<{fis4~^"mutes" fis4~}\\{fis4( e4}>>   | R2 | R2 |  % va vc cb 
-\Q "kl" {s2 }|  R2 |\Q "hn" {\clef treble s2 }|\Q "va" {s2 }|  R2 |\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  <<{fis4~ fis4~}\\{fis4( e4}>>   | R2 | R2 |  % va vc cb 
+\Q "kl" {s2 }|  R2 |  \instrumentSwitch "hnsilent" \clef treble <<r2 \\ {fis'4( e')}>> |\Q "va" {s2 }|  R2 |\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn30  
   \time 7/16 \set Timing.beatStructure = #'(4 3) 
@@ -373,19 +374,19 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
  <ees c'>4..\arpeggio | <ees' c''>4..\arpeggio | % hpL hpR  
   r4 r8.  | r4 r8.  | %vn vn2  
   <<{fis4~ fis8.~}\\{dis4) \times 3/2 {r16 e(}}>> | c'8^"mutes" b16 a \times 3/2 {fis16 g~} | r4 r8.  |  % va vc cb 
-  r4 r8. |  r4 r8. |\Q "hn" {s4 s8. }|  <<{fis4~ fis8.~}\\{dis4) \times 3/2 {r16 e(}}>> |  r4 r8. |\Q "vc" {s4 s8. }|  % I  II  III  IV  V  VI    
+  r4 r8. |  r4 r8. |  << {fis'4~(^"stopped" fis'8.~}\\{r4 \times 3/2 {fis'16( e'}}>>  |  \instrumentSwitch "vasilent" \clef bass  <<{fis4~ fis8.~}\\{dis4) \times 3/2 {r16 e(}}>> |  r4 r8. |\Q "vc" {s4 s8. }|  % I  II  III  IV  V  VI    
 
 %bn31  
   \time 2/4
   b4 ais8 b | \lyricmode{track in the }|
   R2 |  R2 |  R2 |  R2 |  % lh rh kbR kbL 
   R2 | R2 | R2 | b4( bes |  % fl ob kl bn    
-  << b'2 \\ {d'4.)_"norm" r8}>> |  R2 |  R2 | % hn tpt  tn   
+  << b'2 \\ {d'2)}>> |  R2 |  R2 | % hn tpt  tn   
   R2 | R2 | R2 |  % tmp perc fol  
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
    <<{fis4 r}\\{d4.) r8}>> |g4 r | R2 |  % va vc cb 
-  R2 |  R2 |\Q "hn" {s2 }|\Q "va" {s2 }|  R2 |\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  R2 |  R2 |  << b'2 \\ {d'4.)_"norm" r8}>> |\Q "va" {s2 }|  R2 |\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn32  
   \time 6/8 e4. \times 3/2 {e8 d} | \lyricmode{far dis -- tance }|
@@ -448,7 +449,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
   \time 6/8
   \instrumentSwitch"Rooney" b=4 b8 d8. b16 gis8 |\lyricmode{dung?! what class of dung? } |
    <f=' gis b>4.->-. <f=' gis b>8\arpeggio <f=' gis b> <f=' gis b> |  R2. |  R2. |  R2. |    % lh rh kbR kbL 
-  R2. | R2. | <f gis b>4 r8 q q q | r4. d'8. b16 gis8 | % fl ob kl bn    
+  R2. | R2. | r4. <f gis b>8 q q | r4. d'8. b16 gis8 | % fl ob kl bn    
   \clef treble <f' gis' b'>4.^"stopped" <b d' f'>8^"norm" q q |  R2. |  R2. | % hn tpt  tn   
   R2. | \cross d''4 << \cross d''2->\lv \\ f'_"snares off">>  | R2. | % tmp perc fol  
   r4. <f gis b d'>8\arpeggio b gis |r4. <f' gis' b' d''>8\arpeggio b' gis' | % hpL hpR  
@@ -459,7 +460,7 @@ R2 |  R2 |  R2 |  R2 |    % lh rh kbR kbL
 %bn38  
   \instrumentSwitch"Christy" \times 3/2 { fis8 fis } \instrumentSwitch"Rooney" \times 3/2 {c'='8 b } | \lyricmode{sty -- dung sty -- dung? } |
   r4. \times 3/2{ <e gis c>8 <e gis b> }|\times 3/2 { <fis fis'>8 <fis fis'>} r4.|  R2. |  R2. |    % lh rh kbR kbL 
-  r4. \times 3/2 {c'''8 b''}  | r4. \times 3/2 {gis''8 gis''} | R2. |\times 3/2 {fis8-. fis} r4. | % fl ob kl bn    
+  r4. \times 3/2 {c'''8( b'')}  | r4. \times 3/2 {gis''8 gis''} | R2. |\times 3/2 {fis8-. fis} r4. | % fl ob kl bn    
   \clef bass \times 3/2 {fis,8-. fis,~} fis,4. |  R2. |  R2. | % hn tpt  tn   
   \times 3/2 {fis,8 fis,\lv} r4. | R2. | R2. |  % tmp perc fol  
   R2. | R2. | % hpL hpR  
@@ -847,7 +848,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R1 | R1 | % hpL hpR  
   c'4. r8 r2 | R1 | %vn vn2  
     r8 << {<c'' e''>2..~\<} \\ {<f' a'>4. g'2~} >>    |<< { <a e'>2~ <c' e'> }\\{<f, c>8 g, a, b, c d e f} \\ {s2 c2} >> | <f,, c,>8 g,, a,, b,, c, d, e, f,  |   
-  \Q "kl" {s1 }| \instrumentSwitch "bn"  \Q "bn" { \clef bass \ottava #-1 s1 }| \Q "vn" {s1 }|\clef treble \Q "va" {s1 }|  \Q "cb" {s1 }|\Q "vc" {s1^"(clean this up") }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s1 }| \instrumentSwitch "bn"  \Q "bn" { \clef bass \ottava #-1 s1 }| \Q "vn" {s1 }|    r8 \instrumentSwitch "vasilent"  \treble << {<c'' e''>2..~\<} \\ {<f' a'>4. g'2~} >>    |  \Q "cb" {s1 }|\instrumentSwitch "vcsilent" << { <a e'>2~ <c' e'> }\\{<f, c>8 g, a, b, c d e f} \\ {s2 c2} >> |  % I  II  III  IV  V  VI    
 
 %bn72  
   \tEE \time 2/4
@@ -859,7 +860,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | R2 | % hpL hpR  
   c''8 b' a' g' | R2 | %vn vn2  
   << c''2\! \\ g'2~ >> | <g, g>2 | <g, g>2 |  % va vc cb 
-  \Q "kl" {s2 }| \Q "bn" { \clef bass s2 \ottava #0 }|\Q "vn" {s2 }|\Q "va" {s2 }|\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2 }| \Q "bn" { \clef bass s2 \ottava #0 }|\Q "vn" {s2 }|  << c''2\! \\ g'2~ >> |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn73  
   \time 6/8 fis4( e8) \times 3/4 {   dis8 e fis gis } | \lyricmode{way  is it that you }|
@@ -870,7 +871,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2. | R2. | % hpL hpR  
   fis'4 e'8 \times 3/4 {   dis'8 e' fis' gis' } | R2. | %vn vn2  
   <<cis''2. \\ {g'8 r8 r2 }>> | R2. | cis2. |  % va vc cb 
-  \Q "kl" {s2. }| \Q "bn" {s2. }|\Q "vn" {s2. }|\instrumentSwitch "blankva"<< \Q "va" {s2. } \\ \Q "vn"{s2.} >> |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2. }| \Q "bn" {s2. }|\Q "vn" {s2. }|<< \Q "va" {s2. } \\ \Q "vn"{s2.} >> |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn74  
   \dQQ \time 2/4 ais8 fis bis8. gis16 | \lyricmode{ have no head for }|
@@ -880,8 +881,8 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | R2 | R2 |    % tmp perc fol  
   ais8 fis e d  |   <ais' ais''>8 <fis' fis''> <e' e''> <d'  d''> | % hpL hpR  
   ais'16 r fis' r e'  r d'16 r | R2 | %vn vn2  
-  ais'8 fis' e'8 << ais'~ \\ d'~>>  | bes4-.^"pizz" c-. | bes2 |  % va vc cb 
-  \Q "kl" {s2 }| \clef treble \Q "bn" {s2 }|\instrumentSwitch "hn"\Q "hn" {s2 }| \Q "va" {s2 } |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  ais'8 fis' e'8 << ais'~ \\ d'~>>  | bes4-.^"pizz" c-. | \treble bes2 |  % va vc cb 
+  \Q "kl" {s2 }| \clef treble \Q "bn" {s2 }|\instrumentSwitch "hn"\Q "hn" {s2 }| \Q "va" {s2 } |\Q "cb" { \clef treble s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 % Error: too many parts 8
 
 %bn75  
@@ -892,8 +893,8 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   r4 \times 2/3 {b,8 b, b, }  | r4 <<\cross g'4~\\\cross e'4\lv>> | R2 |  % tmp perc fol  
   c2 | <c' c''>2 | % hpL hpR  
   c'4 r | R2 | %vn vn2  
-  <<ais'4 \\ c'>> r4 | aes4 r |r4 b,~ |  % va vc cb 
-  \Q "kl" {s2 }| \Q "bn" {s2 }| \Q "hn" {s2 }| \Q "va" {s2 } |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  <<ais'4 \\ c'>> r4 | aes4 r |r4 \clef "bass_8" b,~ |  % va vc cb 
+  \Q "kl" {s2 }| \Q "bn" {s2 }| \Q "hn" {s2 }| \Q "va" {s2 } |\Q "cb" { \clef "bass_8" s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 % Error: too many parts 8
 
 %bn76  
@@ -1002,7 +1003,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r4 \times 2/3 {r8 gis4} |a,2 | R2 |  % va vc cb 
-  \Q "kl" {s2 }| \Q "bn" {s2 }|\Q "vn" {s2 }| \Q "va" {s2 } |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2 }| \Q "bn" {s2 }|\Q "vn" {s2 }| \Q "va" { s4 \clef bass s4 } |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn85  
   \time 9/16 \EE
@@ -1026,7 +1027,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2 | R2 | % hpL hpR  
   R2 | R2 | %vn vn2  
   r8. f16 g a b g~  |  r8 ees,16 f, g, a, b, g, |  r8 ees,,16 f,, g,, a,, b,, g,, |  % va vc cb 
-  \Q "kl" {s2 }| \Q "bn" {s2 }|\instrumentSwitch "hn" \Q "hn" {s2 }| \Q "va" {s2 } |  r8  ees,,16 f,, g,, a,, b,, g,, | \Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2 }| \Q "bn" {s2 }| \Q "hn" {s2 }| \Q "va" {s2 } |  r8  ees,,16 f,, g,, a,, b,, g,, | \Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn87  
   \time 3/4
@@ -1038,7 +1039,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   R2. | R2. | % hpL hpR  
   R2. | R2. | %vn vn2  
   <g cis'>8 r r2 | \clef bass r4 e,16 e, e, e, gis,8-> gis,16 gis, |  cis4 r16 e e e r8 gis16 gis |  % va vc cb 
-  \Q "kl" {s2. }| \Q "bn" {s2. }|\Q "hn" {s2. }| \Q "va" {s2. } |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s2. }| \Q "bn" {s2. }|\instrumentSwitch "hn" \clef bass  \Q "hn" {s2. }| \Q "va" {s2. } |\Q "cb" {s2. }|\Q "vc" {s2. }|  % I  II  III  IV  V  VI    
 
 %bn88  %%%%%%%%%%%%%%%%%%%% check MM and rhythm !!!!!!!!!!!
   \dQQ%check this!
@@ -1051,7 +1052,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   r4 r4. | r4 r4. | % hpL hpR  
   r4 r4. | r4 r4. | %vn vn2  
   r4 e''4 r8 |  b,8 r  << <e c' gis'>8 \\ { <e, gis,>4}>> r8 | r4 r4. |  % va vc cb 
-  \Q "kl" {s4 s4. }| \instrumentSwitch "tn" \Q "tn" {s4 s4. }|\Q "hn" {s4 s4. }| \Q "va" {s4 s4. } |\Q "cb" {s4 s4. }|\Q "vc" {s4 s4. }|  % I  II  III  IV  V  VI    
+  \Q "kl" {s4 s4. }| \instrumentSwitch "tn" \Q "tn" {s4 s4. }|\Q "hn" {s4 s4. }| \Q "va" {s4 \treble s4. } |\Q "cb" {s4 s4. }|\Q "vc" {s4 s4. }|  % I  II  III  IV  V  VI    
 
 %bn89  
   \EE \time 6/16
@@ -1063,7 +1064,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   r8. r  | r8. r  | % hpL hpR  
   r8. r  | r8. r  | %vn vn2  
   ees'8. r  | <ees, aes,>8-> r16 \times 3/5 {fes,16-- ees, fes, ges, aes, }| r8. r  |  % va vc cb 
-  \instrumentSwitch "kl" \Q "kl" {s8. s }|  \Q "tn" {s8. s }| \instrumentSwitch "hn" \Q "hn" {s8. s }| \instrumentSwitch "vatreble" \Q "va" {s8. s } |\instrumentSwitch "cb" \Q "cb" {s8. s }|\instrumentSwitch "vc" \Q "vc" {s8. s }|  % I  II  III  IV  V  VI    
+   \Q "kl" {s8. s }|  \Q "tn" {s8. s }| \Q "hn" {s8. s }|  \Q "va" {s8. s } |\Q "cb" {s8. s }|\Q "vc" {s8. s }|  % I  II  III  IV  V  VI    
 
 %bn90  
   \times 3/5 {bes8 ges16 c8} cis16 a fis |\lyricmode{ that to me, I would -- n't }|
@@ -1133,7 +1134,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   < c  dis aes b>2\arpeggio |<dis' aes' b' dis'' aes'' b'' >2\arpeggio | % hpL hpR  
   R2 | R2 | %vn vn2  
   << <gis e' b>4 \\ {gis'8 a'}>> <<{gis'8 fis'}>> |<< <gis b>2 \\ <c ees> \\ {s4 gis,,->}  >>| gis8 fis e d |  % va vc cb 
-  \Q "ob" { s2 } |   \Q "fl" { s2 } |\Q "hn" { s2 }| \Q "va" { s2 } | \instrumentSwitch "cb" \Q "cb" {s2 }|<< <gis b>2 \\ {<c ees>} \\ {r4 aes,->} >>|  % I  II  III  IV  V  VI    
+  \instrumentSwitch "ob"  \Q "ob" { s2 } |   \Q "fl" { s2 } |\Q "hn" { s2 }| \Q "va" { s2 } | \instrumentSwitch "cb" \Q "cb" {s2 }|<< <gis b>2 \\ {<c ees>} \\ {r4 aes,->} >>|  % I  II  III  IV  V  VI    
 
 %bn96  %%%%%%%%%%%Check harp part for playability
   cis'4^"rit." d |\lyricmode{eyes! Per -- }|
@@ -1144,7 +1145,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   < d f aes cis'>4\arpeggio <ees ges a d'>\arpeggio |<d' f' aes' cis''>4\arpeggio <ees' ges' a' d''>\arpeggio| % hpL hpR  
   <f' gis' cis''>4:32 <fis' a' d''>4:32 | R2 | %vn vn2  
   <<{<cis' f' gis'>4 <d' f' a'>}\\  {<f cis'>4:32 <fis d'>4:32} >> | <cis eis>4 <d fis>| <d,, d>4 dis |  % va vc cb 
-  \Q "fl" {s2 }|\Q "ob" {s2 }|\instrumentSwitch "vn" \Q "vn" {s2 }| \Q "va" {s2 } |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
+  \Q "fl" {s2 }|\Q "ob" {s2 }|\instrumentSwitch "vn" \Q "vn" {s2 }|  <<{<cis' f' gis'>4:32 <d' f' a'>4:32 }\\  {<f cis'>4:32 <fis d'>4:32} >> |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
 %bn97  
   \time 5/8
@@ -1156,7 +1157,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   r4. r4 |  <ees' ees''>4.\lv r4 | % hpL hpR  
   dis''4.:32 r4 | r4. r4 | %vn vn2  
   << {dis'16 e' fis' g' a' b'}\\ {g8:32 r4  } >> <e' a'>4 |dis16 e fis g a b c'4 | e4.~ e4 |  % va vc cb 
-  \Q "fl" {s4. s4 }|\Q "ob" {s4. s4 }|\Q "vn" {s4. s4 }| \Q "va" {s4. s4 } |\Q "cb" {s4. s4 }|\Q "vc" {s4. s4 }|  % I  II  III  IV  V  VI    
+  \Q "fl" {s4. s4 }|\Q "ob" {s4. s4 }|\Q "vn" {s4. s4 }|  << {dis'16 e' fis' g' a' b'}\\ {g8 r4  } >> <e' a'>4 |\Q "cb" {s4. s4 }|\Q "vc" {s4. s4 }|  % I  II  III  IV  V  VI    
 
 %bn98  
   \time 3/8
@@ -1220,6 +1221,7 @@ R2  |r4 dis8 e |  R2 |  R2 |   % lh rh kbR kbL
   \ottava #2 bes'''2 | <e' gis''>4\o <d' fis''>\o | a,4 g, |  % va vc cb 
   \Q "kl" {s2 }| \Q "vn" {s2 }|\Q "hn" {\clef bass s2 }| \Q "tn" {s2 } |\Q "cb" {s2 }|\Q "vc" {s2 }|  % I  II  III  IV  V  VI    
 
+%{
 %bn103  
   \time 3/4
   fis8 g4 e8 fis^"rit" g|\lyricmode{ snaf -- fle and take her }|
@@ -4450,7 +4452,6 @@ R2 | R2 | % hpL hpR
 a2~) |\Q #"vII" {s2 }| << a2) {s4\> s\!}>>|c'2~|\Q #"cb" {s2 }| R2 | % I II III IV V VI 
 
 
-%}
 %bn401
  a8( g4) \rt \rit f16(\start e) | \lyricmode{Roo -- ney } | 
  <<{ \rooneyOssia}  { <c e a>4 r4  r8 <c= e> <c e>  <c e> R2. R2 R2 R2    R4    < c f a>4~ \times 2/3 {<c f a>8 <c f a> <c f a>} <c e a> r4.   r8 <c e> <c e>  <c e>   } >>| <e e'>4 <d d'> | R2 | R2 | %rh lh kbR kbL 
@@ -11692,7 +11693,6 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I  II  III  IV  V  VI  
 
-%{
 %bn1048
 %}
 
