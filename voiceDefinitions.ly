@@ -179,6 +179,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "cb"))
      (midiInstrument . "synth voice"))
 
+\addInstrumentDefinition #"bnsilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "bn")
+     (clefGlyph . "clefs.F")
+     (clefTransposition . 0)
+     (middleCPosition . 6)
+     (clefPosition . 2)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "synth voice"))
+
 \addInstrumentDefinition #"bn"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "bn")
