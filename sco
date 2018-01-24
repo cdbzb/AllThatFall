@@ -25,12 +25,13 @@
 #getopts "d" datestamp
 
 format=s
+currentPart="II"
 
 # remove s from getopts later
 
-while getopts "qvfcxpramsdln:" opts; do
+while getopts "qvfcxpPramsdln:" opts; do
 	case $opts in
-		[qvfcxpra]) 
+		[qvfcxpPra]) 
 			players=$opts
 			;;
 		[ms])
@@ -191,6 +192,23 @@ EOF
 EOF
 		;;
 
+
+	P)   ##### Proof a single part
+		suffix="part"
+		i=$currentPart
+		cat <<EOF >> /tmp/cat
+		$header
+	\score {
+		<<
+			\new Staff \with {instrumentName = #"$i"} {\\$i}
+			<< \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
+			  \new Voice = "tune" \melody }
+			    \new Lyrics \lyricsto "tune" {\set fontSize = #-4  \lyrix}
+			  >>
+	  >>
+}
+EOF
+		;;
 
 	p)   ##### 6 Keys Parts --- Part 3 includes "keyboard" part
 		suffix="6-key-parts"
