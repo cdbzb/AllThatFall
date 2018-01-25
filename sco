@@ -25,7 +25,7 @@
 #getopts "d" datestamp
 
 format=s
-currentPart="II"
+currentPart="III"
 
 # remove s from getopts later
 

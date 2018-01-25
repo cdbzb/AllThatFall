@@ -7,3 +7,9 @@ UNWANTED CUE NAMES
 
 how to solve the damned ottava bug?
 
+Maybe ottava simply works BEFORE \Q - interacts with \inst though!
+A) ottava down works before \Q
+unless
+B) \instrumentChange in which case place inside {}
+
+
