@@ -1644,71 +1644,70 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 fis16( e fis8~ fis) g | \lyricmode{ please! I }|
 <fis=' a cis fis>4. r8|<< {r4. g=8(}\\{ e=4 b~ }>>|R2 | R2 | % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | e4 b, | % hn tpt tn
+R2 | R2 | e4 b,~ | % hn tpt tn
 R2 | fis''2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-<fis' ais' cis'' fis''>4.) r8| 2:32 | e'4 b | R2 | R2 |  % vn vII va vc cb 
+<fis' ais' cis'' fis''>4.) r8| <fis'' fis'''>2:32~ | e'4 b | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%{
 %bn161
 \rit fis8\startTextSpan e \rt d cis16 \rt g'(\stopTextSpan | \lyricmode{ al -- ways get them }|
 R2 |<<{ fis=8 e d cis }\\{b=,4 fis~}>> | R2 | R2 | % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | R2 | % hn tpt tn
+r4 fis | R2 |4 fis, | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ dis'4 r | 2:32~ |<b, fis>4~ <fis, fis>~| R2 | b,4 fis, |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn162
 a16) g fis dis e fis fis gis |\lyricmode { wrong then you might fall down on your }|
 R2 |<<{<c=~ ees>4) <c e>}\\{fis=,4 r}>> | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | R2 | % hn tpt tn
-R2 | R2 | R2 | % tym perc fol
+R2 | R2 |r4 e' | r4 e | % fl ob kl bn
+ c'2 | R2 | c2 | % hn tpt tn
+R2 | r4 e'\lv | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | <a'' a'''>2:32~ | <fis,dis>2 | R2 | c2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn163
 \times 2/3 {f,4 a8} \times 2/3{ c e g } |\lyricmode{wound and I would have }|
 R2 | <<\\ <f=~ f'~>2 >> | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | R2 | % hn tpt tn
+ r4 <c' c''>~ | R2 | R2 |f,2~ | % fl ob kl bn
+R2 | R2 |f,2~ | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+\tuplet 3/2 4 {r4 f8~ 4 e'8~} |2:32 |r4 c'~ | f,2~ | f,,2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn164
 <g b>8. <g a>16 g fis e d |\lyricmode{ that on top of my ma -- }|
 R2 | <<{r8 cis= b4~}\\{<f= f'>4 r}>>  | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | R2 | % hn tpt tn
+ <c' b'>4 cis'' | R2 | R2 |4 r | % fl ob kl bn
+r8 cis' d'4~ | R2 | 8 cis b,4~ | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+<e' b'>4 r |<b'' b'''>2:32~ |<c' b'>4 r| 4. r8 | 4. r8 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn165
 \times 2/3 {cis16( d cis)} b16( a) \times 2/3 {a8 gis a} |\lyricmode{ nure heap on top of }|
 R2 |<<{b=,4~ <b~ e~>}\\>> | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | R2 | % hn tpt tn
+ d''2~ | R2 | R2 | R2 | % fl ob kl bn
+2~ | R2 | b,4 e~ | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 |2:32~ | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn166
 \tQQ cis8 b \times 2/3 {gis( fis) e} |\lyricmode{ ev -- ery -- thing else, }|
 R2 | <<{<b e>2}\\>> | R2 | R2 | % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 | R2 | R2 | % hn tpt tn
+2 | R2 | R2 | R2 | % fl ob kl bn
+ 2 | R2 | 2 | % hn tpt tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | 4:32~ <e'' b'' e''' b'''>4:32 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn167
@@ -1721,6 +1720,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
+%{
 %bn168
 \time 3/4 a8. e16 e4 r8. b16 | \lyricmode{cling to me and }|
 q8. <e, g c>16 q2 |<g g'>2 g'4 | R2. | R2. | % rh lh kbR kbL
