@@ -312,7 +312,7 @@
 
 \addInstrumentDefinition #"bellssilent"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "bells")
+     (shortInstrumentName . "ch")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
      (middleCPosition . -6)
@@ -345,12 +345,12 @@
 
 \addInstrumentDefinition #"bells"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
-     (shortInstrumentName . "bells")
+     (shortInstrumentName . "chm")
      (clefGlyph . "clefs.G")
      (clefTransposition . 0)
      (middleCPosition . -6)
      (clefPosition . 0)
-     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "bells"))
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "chimes"))
      (midiInstrument . "voice oohs"))
 %%%%%%%%%%%%%%%%%%%% VOICES
 
