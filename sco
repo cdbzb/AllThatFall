@@ -25,7 +25,7 @@
 #getopts "d" datestamp
 
 format=s
-currentPart="III"
+currentPart="VI"
 
 # remove s from getopts later
 
@@ -247,8 +247,8 @@ done
 
 			\new Staff \with {\RemoveEmptyStaves instrumentName = #"III"} {\III}
 			\new GrandStaff  \with { \RemoveEmptyStaves connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"}  <<
-				\new Staff {\absolute \kbR}
-				\new Staff {\absolute \clef bass \kbL}
+				\new Staff {\absolute \keepWithTag #'III \kbR }
+				\new Staff {\absolute \clef bass \keepWithTag #'III \kbL}
 			    	>>
 	 	>>
 	}
