@@ -169,8 +169,8 @@ EOF
 	\new Staff \with {\RemoveAllEmptyStaves instrumentName = #"Foley" shortInstrumentName = "Fol." }{\override Staff.StaffSymbol.line-count = #1 \clef percussion \fol}
   >>
   \new GrandStaff \with {instrumentName = #"kb" shortInstrumentName = "kb"}
-	<< \new Staff \with {\RemoveAllEmptyStaves} {\kbR}
-	\new Staff  \with {\RemoveAllEmptyStaves}  {\clef bass \kbL}
+	<< \new Staff \with {\RemoveAllEmptyStaves} {\keepWithTag #'All \kbR}
+	\new Staff  \with {\RemoveAllEmptyStaves}  {\keepWithTag #'All {\clef bass \kbL}}
   >>
 
   \new GrandStaff \with {instrumentName = #"harp" shortInstrumentName = "hp"}

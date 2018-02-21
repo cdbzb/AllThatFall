@@ -21,8 +21,8 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 \parallelMusic #'( melody lyrix rh lh kbR kbL fl ob kl bn hn tpt tn tym perc fol hpL hpR vn vII va vc cb I II III IV V VI ) { \hiddenTempo 60
 %{
 
-%}
 
+%}
 %bn1 %sec1
  \tempo 4 = 70 %dummy
  \time 2/4 \instrumentSwitch "Rooney" r4 g=8 g | \lyricmode {is that } |
@@ -745,7 +745,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
  %bn63 
  \instrumentSwitch "Rooney" 
  c='4 \times 2/3 {f,8 a d,} |\lyricmode{ dung! what would we } |
- <a=' c e>4 \times 2/3 {r8 <f a c>4 } | r4 \times 2/3 {<f= a c>8 r <d f a>} |\tag #'V {  r4 \times 2/3 {r8 <f' a' c''>4 } } \tag #'III { R2}  |\tag #'V {r4 \times 2/3 {<f= a c'>8 r <d f a>}} \tag #'III { R2 }   | % lh rh kbR kbL 
+ <a=' c e>4 \times 2/3 {r8 <f a c>4 } | r4 \times 2/3 {<f= a c>8 r <d f a>} |\tag #'(V All) {  r4 \times 2/3 {r8 <f' a' c''>4 } } \tag #'III { R2}  |\tag #'(V All) {r4 \times 2/3 {<f= a c'>8 r <d f a>}} \tag #'III { R2 }   | % lh rh kbR kbL 
  R2 | R2 |<a' c'' e''>8 r \times 2/3 {a' <f' a' c''> f'} | R2 | % fl ob kl bn 
  R2 | R2 | R2 | % hn tpt tn 
  R2 | R2 | R2 | % tmp perc fol 
@@ -757,7 +757,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
  %bn64 
  \time 7/16 \set Timing.beatStructure = #'(3 4)
  a'8 f16 \times 2/3 {c'4 d8} |\lyricmode{ want with dung. at }|
- <f a c>8. \times 2/3 {<a c e>4 <f a c>8 } |r8 <d f a>16~ <d f a>8 <f a c> |\tag #'V {  <f' a' c''>8. \times 2/3 {<a' c'' e''>4 <f' a' c''>8 } } \tag #'III { r8. r4 } |\tag #'V {  r8 <d f a>16~ <d f a>8 <f a c'> } \tag#'III { r8. r4} | % lh rh kbR kbL 
+ <f a c>8. \times 2/3 {<a c e>4 <f a c>8 } |r8 <d f a>16~ <d f a>8 <f a c> |\tag #'(V All) {  <f' a' c''>8. \times 2/3 {<a' c'' e''>4 <f' a' c''>8 } } \tag #'III { r8. r4 } | \tag #'(V All) {  r8 <d f a>16~ <d f a>8 <f a c'> } \tag#'III { r8. r4} | % lh rh kbR kbL 
  r8. r4 | r8. r4 |<f' a' c''>8 a'16 \times 2/3 {<a' c'' e''>4-. <f' a' c''>8} | r8. r4 | % fl ob kl bn 
  r8. r4 | r8. r4 | r8. r4 | % hn tpt tn 
  r8. r4 | r8. r4 | r8. r4 | % tmp perc fol 
@@ -770,7 +770,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
  \tEE
  \time 2/4
  c4 b8 \rit f \start | \lyricmode{our time of }|
- r4. f8~ | R2 |\tag #'V {  c''4( b'8 f' } \tag #'III { R2} | R2 | % lh rh kbR kbL 
+ r4. f8~ | R2 |\tag #'(V All) {  c''4( b'8 f' } \tag #'III { R2} | R2 | % lh rh kbR kbL 
  R2 | R2 | c''4( b'8 f' | g2~ | % fl ob kl bn 
  R2 | R2 | r4 <d a>~\pp\< | % hn tpt tn 
  R2 | R2 | R2 | % tmp perc fol 
@@ -781,7 +781,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
 
  %bn66 
  \rit a4\start \hiddenTempo 110 r\stop \hiddenTempo 100 | \lyricmode{life }|
- f4( e8 a, | R2 |\tag #'V {  a'4) r } \tag #'III { R2} | R2 | % lh rh kbR kbL 
+ f4( e8 a, | R2 |\tag #'(V All) {  a'4) r } \tag #'III { R2} | R2 | % lh rh kbR kbL 
  R2 | R2 | a'2) | g4 r | % fl ob kl bn 
  \clef treble f'4( e'8 a | R2 | <d a>2~\! | % hn tpt tn 
  R2 | R2 | R2 | % tmp perc fol 
@@ -1173,7 +1173,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
    %bn99 
    \time 7/8 \set Timing.beatStructure = #'(2 2 3) 
    \times 2/3 {g8 fis e} dis8( cis16) e e8 dis r8^"crack!"|\lyricmode{out of her field of vi -- sion }|
-   r2 r4. |b2. r8 |\tag #'V { r2 r4 c'''8\f } \tag #'III { r2 r4.} | r2 r4. | % lh rh kbR kbL 
+   r2 r4. |b2. r8 |\tag #'(V All) { r2 r4 c'''8\f } \tag #'III { r2 r4.} | r2 r4. | % lh rh kbR kbL 
    r4.. b''16-. b''4 r8 | r2 r4. | \times 2/3 {g'8( fis' e')} dis'8( cis'16 e') e'8( dis') r8 | r2 r4. | % fl ob kl bn 
    r2 r4. | r2 r4. | r2 r4. | % hn tpt tn 
    r2 r4. | r2 r4. | r2 r4 f'8->^"whip" | % tmp perc fol 
@@ -1187,7 +1187,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
    %bn100 
    \time 3/4
    f'8(\f des) des( bes) \times 2/3 {r4 a8->} |\lyricmode{no! no! e -- }|
-   R2. |bes4 f \times 2/3 {des4 bes8} |\tag #'V { <bes' des'' f''>8( des'' bes' f'8) \times 2/3 {r4 f'8} } \tag #'III { R2.} |\tag #'V { <<{bes4 bes bes}\\{bes,2 bes,4 }>> }\tag #' III { R2.} | % lh rh kbR kbL 
+   R2. |bes4 f \times 2/3 {des4 bes8} |\tag #'(V All) { <bes' des'' f''>8( des'' bes' f'8) \times 2/3 {r4 f'8} } \tag #'III { R2.} |\tag #'(V All) { <<{bes4 bes bes}\\{bes,2 bes,4 }>> }\tag #' III { R2.} | % lh rh kbR kbL 
    R2. | R2. | R2. | R2. | % fl ob kl bn 
    <bes bes'>4 <f f'> \times 2/3 {<des des'>4 <bes, bes>8-. } | R2. | r2 \times 2/3 {r4 <cis ais>8-.} | % hn tpt tn 
    bes,4 f, d, | <<{\cross d''2.\lv}\\{d'2:32~ \times 2/3 {d'4:32 d'8}}>>| R2. | % tmp perc fol 
@@ -1199,7 +1199,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
    %bn101 
    \tEE \time 2/4
    a4-> r |\lyricmode{ nough. }|
-   a'='8 g f ees |bes2 |\tag #'V { f'2 }  \tag #'III { R2} |\tag #'V { <bes, bes>2 }  \tag #'III { R2} | % lh rh kbR kbL 
+   a'='8 g f ees |bes2 |\tag #'(V All) { f'2 }  \tag #'III { R2} |\tag #'(V All) { <bes, bes>2 }  \tag #'III { R2} | % lh rh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    \clef treble a''8( g'' f'' e'') | R2 | <cis ais>2| % hn tpt tn 
    R2 |<<{\cross d''2\lv^"crash"}\\d'2>> | R2 | % tmp perc fol 
@@ -1211,7 +1211,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
    %bn102 
    \dQQ % could be clearer that we're just going back here
    \times 2/3 {c4 b a8 g} |\lyricmode{take her by the }|
-   R2 |<a=, a'>4 <g g'> |\tag #'V {  \times 2/3 {<e' a'c''>4\arpeggio b' a'8 g'} }  \tag #'III { R2} |\tag #'V { << {a4 g}\\<a, e>2>> } \tag #'III { R2} | % lh rh kbR kbL 
+   R2 |<a=, a'>4 <g g'> |\tag #'(V All) {  \times 2/3 {<e' a'c''>4\arpeggio b' a'8 g'} }  \tag #'III { R2} |\tag #'(V All) { << {a4 g}\\<a, e>2>> } \tag #'III { R2} | % lh rh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    \clef bass a4\f g | R2 | R2 | % hn tpt tn 
    R2 | R2 | R2 | % tmp perc fol 
@@ -1223,7 +1223,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
    %bn103 
    \time 3/4
    fis8 g4 e8 fis^"rit" g|\lyricmode{ snaf -- fle and take her }|
-   R2. |<fis fis'>4 <e e'>2 |\tag #'V {  fis'8 g'4 e'8 fis' g' } \tag #'III { R2.} |\tag #'V { <fis, fis>4 <e, e>2 }  \tag #'III { R2.} | % lh rh kbR kbL 
+   R2. |<fis fis'>4 <e e'>2 |\tag #'(V All) {  fis'8 g'4 e'8 fis' g' } \tag #'III { R2.} |\tag #'(V All) { <fis, fis>4 <e, e>2 }  \tag #'III { R2.} | % lh rh kbR kbL 
    R2. | R2. | R2. | R2. | % fl ob kl bn 
    fis4 e2~ | R2. | R2. | % hn tpt tn 
    R2. | R2. | R2. | % tmp perc fol 
@@ -1236,7 +1236,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
    \tEE
    \time 2/4 
    cis8( b a g) |\lyricmode{ eyes }|
-   R2 |<e' g a cis>2 |\tag #'V { <<{<e' g' a' cis''>2\arpeggio}\\{a'8 b'\lv a'\lv g'}>> } \tag #'III { R2} |\tag #'V { <e g a cis'>2\arpeggio } \tag #'III { R2} | % lh rh kbR kbL 
+   R2 |<e' g a cis>2 |\tag #'(V All) { <<{<e' g' a' cis''>2\arpeggio}\\{a'8 b'\lv a'\lv g'}>> } \tag #'III { R2} |\tag #'(V All) { <e g a cis'>2\arpeggio } \tag #'III { R2} | % lh rh kbR kbL 
    cis'''8 b'' a'' g'' | R2 | R2 | R2 | % fl ob kl bn 
    e2~ | R2 | R2 | % hn tpt tn 
    R2 | R2 | R2 | % tmp perc fol 
@@ -1247,7 +1247,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
 
    %bn105 
    dis'8 dis c <fis, a>|\lyricmode{ a -- way from me }|
-   R2 |f8 f4-^-- fis8~ |\tag #'V {  <<{dis''8 dis'' c'' fis'~}\\{<f' a' c'' ees''>2\arpeggio}>> }  \tag #'III { R2} |\tag #'V { <f a c' ees'>8 q4 fis8~ }  \tag #'III { R2} | % lh rh kbR kbL 
+   R2 |f8 f4-^-- fis8~ |\tag #'(V All) {  <<{dis''8 dis'' c'' fis'~}\\{<f' a' c'' ees''>2\arpeggio}>> }  \tag #'III { R2} |\tag #'(V All) { <f a c' ees'>8 q4 fis8~ }  \tag #'III { R2} | % lh rh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    << {  f8-. f4 fis8~ }\\s2>> | R2 | R2 | % hn tpt tn 
    R2 | R2 | R2 | % tmp perc fol 
@@ -1660,7 +1660,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
 
    %bn140 %%%%%%%%%%%%%%examine these shakes in the harp ! more notes?
    \time 2/4 a'4~\f \times 2/3 {a8 gis fis16( e)} | \lyricmode{ oh I am } | 
-   \clef treble a''2\! | <a a'>2\! |\tag #'V { <a' cis'' e'' a''>4:32~ \times 2/3 {<a' cis'' e'' a''>8:32 <b' gis''> <d'' fis''>16 <cis'' e''> } }  \tag #'III { R2} |\tag #'V { <a,, e, a,>2:32 }  \tag #'III { R2} | % lh rh kbR kbL 
+   \clef treble a''2\! | <a a'>2\! |\tag #'(V All) { <a' cis'' e'' a''>4:32~ \times 2/3 {<a' cis'' e'' a''>8:32 <b' gis''> <d'' fis''>16 <cis'' e''> } }  \tag #'III { R2} |\tag #'(V All) { <a,, e, a,>2:32 }  \tag #'III { R2} | % lh rh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 | R2 | R2 | % hn tpt tn 
    R2 | R2 | R2 | % tmp perc fol 
@@ -1672,7 +1672,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
 
    %bn141 
    e4~ \times 2/3 { e8 d cis } | \lyricmode{just a hys -- } | 
-   R2 |<fis fis'>2 |\tag #'V { <a' cis'' e''>4:32~ \times 2/3 {q8 <b' d''> <a' cis''>} }  \tag #'III { R2} |\tag #'V { <fis,, fis,>2:32 }  \tag #'III { R2} | % lh rh kbR kbL 
+   R2 |<fis fis'>2 |\tag #'(V All) { <a' cis'' e''>4:32~ \times 2/3 {q8 <b' d''> <a' cis''>} }  \tag #'III { R2} |\tag #'(V All) { <fis,, fis,>2:32 }  \tag #'III { R2} | % lh rh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 | R2 | R2 | % hn tpt tn 
    R2 | R2 | R2 | % tmp perc fol 
@@ -1684,7 +1684,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
 
    %bn142 
    b8 a cis d16( fis) | \lyricmode{ter -- i -- cal old } | 
-   R2 |<d d'>4 <cis cis'> |\tag #'V {  b'8 a' cis'' d''16 fis'' }  \tag #'III { R2} |\tag #'V { <d, d>4 <cis, cis> }  \tag #'III { R2} | % lh rh kbR kbL 
+   R2 |<d d'>4 <cis cis'> |\tag #'(V All) {  b'8 a' cis'' d''16 fis'' }  \tag #'III { R2} |\tag #'(V All) { <d, d>4 <cis, cis> }  \tag #'III { R2} | % lh rh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 | R2 | R2 | % hn tpt tn 
    R2 | R2 | R2 | % tmp perc fol 
@@ -1696,7 +1696,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
 
    %bn143 
    fis8. e16 e4| \lyricmode{hag, I know } | 
-   R2 | <b b'>4.. <e e'>16 |\tag #'V { <a' d'' fis''>2:32 }  \tag #'III { R2} |\tag #'V { <b,, b,>2:32 }  \tag #'III { R2} | % lh rh kbR kbL 
+   R2 | <b b'>4.. <e e'>16 |\tag #'(V All) { <a' d'' fis''>2:32 }  \tag #'III { R2} |\tag #'(V All) { <b,, b,>2:32 }  \tag #'III { R2} | % lh rh kbR kbL 
    R2 | R2 | R2 | R2 | % fl ob kl bn 
    R2 | R2 | R2 | % hn tpt tn 
    r4.. e16 | R2 | R2 | % tmp perc fol 
@@ -2463,7 +2463,7 @@ s2. <g'' b'' d'''>4\! | R1 | r4. << {s8 s2} \\ {<ees g bes>8\glissando\< s2}>> |
 
  %bn214
  \time 5/8 dis4 b8 r b|\lyricmode{ wob -- ble! Dis -- }|%
- r4. r4 | r4. <b b'>8 r|\tag #'V {  r4. r4 }  \tag #'III { r4. r4} |\tag #'V {  r4. <b= b'>8 r } \tag #'III { r4. r4} | % rh lh kbR kbL 
+ r4. r4 | r4. <b b'>8 r|\tag #'(V All) {  r4. r4 }  \tag #'III { r4. r4} |\tag #'(V All) {  r4. <b= b'>8 r } \tag #'III { r4. r4} | % rh lh kbR kbL 
  r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
  r4. r4 | r4. r4 | << <dis' a'>4. a4.>> r4| % hn tpt tn 
  r4. a4 | r4. r4 | r4. r4 | % tym perc fol 
@@ -2473,7 +2473,7 @@ s2. <g'' b'' d'''>4\! | R1 | r4. << {s8 s2} \\ {<ees g bes>8\glissando\< s2}>> |
 
  %bn215
  e8 b g a fis|\lyricmode{mount for mer -- cy's sake }|%
- r4. r4 | <e e'>4. r4 |\tag #'V {  r4. r4 }  \tag #'III { r4. r4} |\tag #'V {  <e, e>4. r4 }  \tag #'III { r4. r4} | % rh lh kbR kbL 
+ r4. r4 | <e e'>4. r4 |\tag #'(V All) {  r4. r4 }  \tag #'III { r4. r4} |\tag #'(V All) {  <e, e>4. r4 }  \tag #'III { r4. r4} | % rh lh kbR kbL 
  r4. r4 | r4. r4 | <e' e''>4.~ q4 | r4. r4 | % fl ob kl bn 
  r4. r4 | r4. r4 | << {<e' e''>4. } {e4.}>> r4 | % hn tpt tn 
  e4. r4 | r4. r4 | r4. r4 | % tym perc fol 
@@ -2861,7 +2861,7 @@ R2 | R2 | \ottava #0 fis2\mf | <<dis'2\mf \\b,>>| R2 | % vn vII va vc cb
 %bn249
 \time 6/8 
 R2. | |%
-r4 ges8 f4 ees8 |\tag #'V { <<{f8 ges4}\\<f, c'>4.>> <<{f'8 ges4}\\<ges, des' >4.>> } \tag #'III { R2.} |\tag #'V {  r4 fis'8 eis'4 dis'8 }  \tag #'III { R2.} | << {f8 fis4} \\<f, c f>4.\arpeggio >> << {f8 fis4} \\<fis, cis f>4.\arpeggio >> | % rh lh kbR kbL 
+r4 ges8 f4 ees8 |\tag #'(V All) { <<{f8 ges4}\\<f, c'>4.>> <<{f'8 ges4}\\<ges, des' >4.>> } \tag #'III { R2.} |\tag #'(V All) {  r4 fis'8 eis'4 dis'8 }  \tag #'III { R2.} | << {f8 fis4} \\<f, c f>4.\arpeggio >> << {f8 fis4} \\<fis, cis f>4.\arpeggio >> | % rh lh kbR kbL 
 R2. | R2. | \octaves {r4 \ottava #-1 fis=8\p eis4 dis8}|f,4 r8 f,8 r4 | % fl ob kl bn 
 fis4^"mute" r8 fis4.| R2. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -2871,7 +2871,7 @@ R2. | R2. | r8 fis r r fis r | <<fis4^"solo"\\ c>> r8 <<{f8( fis)}\\ cis4>> r8 |
 
 %bn250
 \times 3/4 {ces'4 aes8 f} des8. ees16 bes8 | \lyricmode {That was a na -- row scrape... } |%
-des4 ces8 bes4 aes8 |<<{f'8 ges4}\\<ges, des' >4.>> <<{f'8 ges4}\\<ges, des' >4.>>|\tag #'V { cis'4 b8 ais4 gis8 }  \tag #'III { R2.} |\tag #'V { \repeat unfold 2 { << {f8 fis4} \\<fis, cis f>4.\arpeggio >> } }  \tag #'III { R2.} | % rh lh kbR kbL 
+des4 ces8 bes4 aes8 |<<{f'8 ges4}\\<ges, des' >4.>> <<{f'8 ges4}\\<ges, des' >4.>>|\tag #'(V All) { cis'4 b8 ais4 gis8 }  \tag #'III { R2.} |\tag #'(V All) { \repeat unfold 2 { << {f8 fis4} \\<fis, cis f>4.\arpeggio >> } }  \tag #'III { R2.} | % rh lh kbR kbL 
 R2. | R2. |\octaves {cis=4 b8 ais4 gis8 }|f,8 r4 f,8 r4 | % fl ob kl bn 
 fis4 r8 fis4 r8 | R2. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -2881,7 +2881,7 @@ R2. | R2. | r8 fis r r fis r | \repeat unfold 2 {<< {f8 r4}\\{cis4 r8} >>} |f,4.
 
 %bn251
 \time 3/4 r8 \instrumentSwitch "Tyler" a'16 a d8 d16 d fis8. e16 |\lyricmode{ I a -- lit in the nick of }|%
-f8 ges4 r4. | <<{f'8 ges8}\\<ges, des' >4>> <<{f'8 ges8}\\<ges, des' >4>> r4 |\tag #'V {  f8( fis8) r2 }  \tag #'III { R2.} |\tag #'V {  <fis, cis f>4\arpeggio << {f8 fis8} \\<fis, cis f>4\arpeggio >> r8 <g cis'>-. }  \tag #'III { R2.} | % rh lh kbR kbL 
+f8 ges4 r4. | <<{f'8 ges8}\\<ges, des' >4>> <<{f'8 ges8}\\<ges, des' >4>> r4 |\tag #'(V All) {  f8( fis8) r2 }  \tag #'III { R2.} |\tag #'(V All) {  <fis, cis f>4\arpeggio << {f8 fis8} \\<fis, cis f>4\arpeggio >> r8 <g cis'>-. }  \tag #'III { R2.} | % rh lh kbR kbL 
  r2 r8 <g' cis''>8 | R2. | \octaves { f=8( fis8) \ottava #0 r2 } |f,8 r8 f,8 r4. | % fl ob kl bn 
 fis4 r8 fis4 r8 | R2. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -2894,7 +2894,7 @@ R2. | R2. | r8 fis r8 r4 a,8^"pizz" | << {f8 r4}\\{cis4 r8} >> r4. |f,4.-. f,-. 
 %bn252 %%%Merge this line 
 \EQ %fix me
 \time 2/4 d,4 \instrumentSwitch"Rooney" e8 fis |\lyricmode{time! It is }|%
-R2 | R2 |\tag #'V {  R2 }  \tag #'III { R2} |\tag #'V {  <fis d'>4 r }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | R2 |\tag #'(V All) {  R2 }  \tag #'III { R2} |\tag #'(V All) {  <fis d'>4 r }  \tag #'III { R2} | % rh lh kbR kbL 
  <fis' d''>8 r4. | R2 | R2 | R2 | % fl ob kl bn 
 r4 e'8\p fis' | R2 | r4 e8\p fis| % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3014,7 +3014,7 @@ q8 r4 <b'' d'''>4. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 %bn263
 \time 2/4 g8 fis a g |\lyricmode{no -- thing Mi -- ses }| %%%%%%%%%%check this rhythm!!!%
-R2 |R2 |\tag #'V { \clef bass g8-- fis a g }  \tag #'III { R2} |\tag #'V {  <<{g,8-- fis, a, g, } \\ <g,, b,, d, g,>2\arpeggio >> }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 |R2 |\tag #'(V All) { \clef bass g8-- fis a g }  \tag #'III { R2} |\tag #'(V All) {  <<{g,8-- fis, a, g, } \\ <g,, b,, d, g,>2\arpeggio >> }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 r8 fis,4 r8 | R2 | g,,8 fis,, r4 | % hn tpt tn 
 g8\lv fis\lv r4| R2 | R2 | % tym perc fol 
@@ -3024,7 +3024,7 @@ g'8:32 fis'8:32 r4 | R2 | R2 | <<fis,16\\ g,4>> r| R2 | % vn vII va vc cb
 
 %bn264
 fis8( g fis) e |\lyricmode{Roo -- ney }|%
-R2 |R2 |\tag #'V { fis8 g fis e }  \tag #'III { R2} |\tag #'V { fis,8 g, fis, e, }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 |R2 |\tag #'(V All) { fis8 g fis e }  \tag #'III { R2} |\tag #'(V All) { fis,8 g, fis, e, }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3034,7 +3034,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
 %bn265
 g4 cis,|\lyricmode{no -- thing. }|% %%%%%%%%%%%%%%% should be TriP!! ?!
-R2 |R2 |\tag #'V { g4 cis, } \tag #'III { R2} |\tag #'V { g,4 cis, } \tag #'III { R2} | % rh lh kbR kbL 
+R2 |R2 |\tag #'(V All) { g4 cis, } \tag #'III { R2} |\tag #'(V All) { g,4 cis, } \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
  r4 cis8 r | R2 | {g,,4 cis,,8} r8 | % hn tpt tn 
 g4 cis4| R2 | R2 | % tym perc fol 
@@ -3044,7 +3044,7 @@ g'4:32 cis'4:32| R2 | R2 | <<g,4 \\ a,8>> cis,4| R2 | % vn vII va vc cb
 
 %bn266
 fis8 g a fis|\lyricmode{I was on -- ly }|%
-R2 |R2 |\tag #'V { fis8 g a fis } \tag #'III { R2} |\tag #'V { fis,8 g, a, fis, } \tag #'III { R2} | % rh lh kbR kbL 
+R2 |R2 |\tag #'(V All) { fis8 g a fis } \tag #'III { R2} |\tag #'(V All) { fis,8 g, a, fis, } \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 |fis,8 g, a, fis,| % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3054,7 +3054,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
 
 %bn267
 b4\f b8 r|\lyricmode{cur -- sing }|% %%%%%%%%%%%% shave last eighth off ???
-R2 |R2 |\tag #'V {  b4 b8 r }  \tag #'III { R2} |\tag #'V {  b,4 b,8 r }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 |R2 |\tag #'(V All) {  b4 b8 r }  \tag #'III { R2} |\tag #'(V All) {  b,4 b,8 r }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 r4 b,4 | R2 | b4~ < b b,>8 r8| % hn tpt tn 
 b4 b, | R2 | R2 | % tym perc fol 
@@ -3064,7 +3064,7 @@ b'4:32 b4:32~| R2 | R2 | R2 | R2 | % vn vII va vc cb
 
 %bn268
 c4\p b8 a |\lyricmode{un -- der my }|%
-R2 |R2 |\tag #'V { c'4\p b8 a }  \tag #'III { R2} |\tag #'V { c4\p b,8 a, }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 |R2 |\tag #'(V All) { c'4\p b8 a }  \tag #'III { R2} |\tag #'(V All) { c4\p b,8 a, }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 |c''4\p b'8 a' | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3132,7 +3132,7 @@ cis'''2 dis'''4~ | r8 a'8:32 b'8:32 cis''8:32 dis''4:32~\> | R2. | R2. | R2. | %
 %bn274
 \tQQ \time 2/4
 b4 b|\lyricmode{my back }|%
-R2 | b4 b |\tag #'V {  R2 }  \tag #'III { R2} |\tag #'V {  \octaves {b,8 r b r} }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | b4 b |\tag #'(V All) {  R2 }  \tag #'III { R2} |\tag #'(V All) {  \octaves {b,8 r b r} }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | b,8 r b, r| % hn tpt tn 
 b,4 b, | R2 | R2 | % tym perc fol 
@@ -3142,7 +3142,7 @@ dis'''2 | dis''4:32 r\! | R2 | R2 | b,,8 r b,, r| % vn vII va vc cb
 
 %bn275
 e4 b8 gis |\lyricmode{tire has gone }|%
-R2 |e2~|\tag #'V {  \clef bass << { e'4 b8 gis } \\ <e gis b >2 >> }  \tag #'III { R2} |\tag #'V {  <e,, e, gis, b,>2 }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 |e2~|\tag #'(V All) {  \clef bass << { e'4 b8 gis } \\ <e gis b >2 >> }  \tag #'III { R2} |\tag #'(V All) {  <e,, e, gis, b,>2 }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | <<e''4.\\ b'>> r8 | R2 | % fl ob kl bn 
 <e b>2 | R2 | e,2 | % hn tpt tn 
 e2 |<<\voiceTwo d'2 \\ {\grace f'16 f'8} \\ \cross d''2\lv >>| R2 | % tym perc fol 
@@ -3153,7 +3153,7 @@ R2 | e''2 | gis2 | e,2 | e,2 | % vn vII va vc cb
 
 %bn276
 gis4. fis8|\lyricmode{out a -- }|%
-R2 | e4 b |\tag #'V { gis4. fis8 } \tag #'III { R2} |\tag #'V {  r4 <b,, gis,> }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | e4 b |\tag #'(V All) { gis4. fis8 } \tag #'III { R2} |\tag #'(V All) {  r4 <b,, gis,> }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | r4. << dis''8( \\ b'~ >> | R2 | % fl ob kl bn 
 r4 <b, fis> | R2 | r4 c, | % hn tpt tn 
 r4 b, | R2 | R2 | % tym perc fol 
@@ -3165,7 +3165,7 @@ R2 | r4 b'8 r | r4 fis | r4 b,, | r4 b,, | % vn vII va vc cb
 %bn277
 \tQQ
 e4. e8 | \lyricmode {gain, I } |%
-R2 | e,4 r |\tag #'V { e4. e8 }  \tag #'III { R2} |\tag #'V {  <e,, e,>4. e,8 }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | e,4 r |\tag #'(V All) { e4. e8 }  \tag #'III { R2} |\tag #'(V All) {  <e,, e,>4. e,8 }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | <<e''4)\\b'>> r | R2 | % fl ob kl bn 
 <e b>4. r8 | R2 | e4. r8 | % hn tpt tn 
 e2 | R2 | R2 | % tym perc fol 
@@ -3177,7 +3177,7 @@ R2 | e''4. r8 | gis4. r8 | e,4. e8-.^"pizz" | e,,4. e8-.^"pizz" | % vn vII va vc
 %bn278
  \time 6/8
 e4 e8 \times 3/4 {c'4( b8) gis} |\lyricmode{pumped it hard as }|%
-R2. | R2. |\tag #'V {  e4 \clef bass << {r8 \times 3/4 {c'4 b8 a}}\\{e8~ e4.}>> } \tag #'III { R2.} |\tag #'V {  e,4 << {r8 \times 3/4 {c4 b,8 a,}}\\{e,8~ e,4.}>> } \tag #'III { R2.} | % rh lh kbR kbL 
+R2. | R2. |\tag #'(V All) {  e4 \clef bass << {r8 \times 3/4 {c'4 b8 a}}\\{e8~ e4.}>> } \tag #'III { R2.} |\tag #'(V All) {  e,4 << {r8 \times 3/4 {c4 b,8 a,}}\\{e,8~ e,4.}>> } \tag #'III { R2.} | % rh lh kbR kbL 
 r4 c''( b'4) | r4. a'( | r4. <a c'> | R2. | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -3190,7 +3190,7 @@ R2. | R2. | r4. << <a' c''>4.\\e'~ >>| << \ossia "vc" {\clef bass r4. << \times 
 %bn279
  \time 2/4
 b4 gis8 e |\lyricmode{i -- ron be -- }|%
-R2 | R2 |\tag #'V {  << {b4 gis~}\\{e r8 e} >> } \tag #'III { R2} |\tag #'V {  <<b,4\\e,>> r }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | R2 |\tag #'(V All) {  << {b4 gis~}\\{e r8 e} >> } \tag #'III { R2} |\tag #'(V All) {  <<b,4\\e,>> r }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | a'4) r | <gis b>4 r | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3200,7 +3200,7 @@ R2 | R2 | << <gis' b'>4\\e' >> <<r4\\{r8 e'}>> | << \context Staff= "ossia" {<< 
 
 %bn280
 \times 2/3 {e4 fis gis } |\lyricmode{ fore I went } |%
-R2 | R2 |\tag #'V {  <<\times 2/3 {gis4 fis gis}\\e>> } \tag #'III { R2} |\tag #'V {  <<s2\\e,2~ >> } \tag #'III { R2} | % rh lh kbR kbL 
+R2 | R2 |\tag #'(V All) {  <<\times 2/3 {gis4 fis gis}\\e>> } \tag #'III { R2} |\tag #'(V All) {  <<s2\\e,2~ >> } \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3210,7 +3210,7 @@ R2 | R2 |<< \times 2/3 {<fis' a'>4 r q}\\\times 2/3 {e'4 r e'}>>|<< \context Sta
 
 %bn281
 \times 2/3 {bes2 bes4} |\lyricmode{ out and }|%
-R2 | R2 |\tag #'V { << \times 2/3 {ais4 r ais}\\{\times 2/3 {fis16( gis fis) r r8)}}>> } \tag #'III { R2} |\tag #'V {  <<\times 2/3 {ais4 r ais}\\\times 2/3{e,4 r2}>> } \tag #'III { R2} | % rh lh kbR kbL 
+R2 | R2 |\tag #'(V All) { << \times 2/3 {ais4 r ais}\\{\times 2/3 {fis16( gis fis) r r8)}}>> } \tag #'III { R2} |\tag #'(V All) {  <<\times 2/3 {ais4 r ais}\\\times 2/3{e,4 r2}>> } \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -3221,7 +3221,7 @@ R2 | R2 | << \times 2/3 {<fis' a'>4 r q }\\\times 2/3 {e'4 r e'} >> |<<\context 
 %bn282
 \tQQ \time 3/2
 bes2 ges4 aes \times 2/3 {bes2 ges4 }|\lyricmode{now I am on the }|%
-<fes ges bes>2 r1 | R1. |\tag #'V { \clef treble bes'2 ges'4 aes' bes' ges' }  \tag #'III { R1.} |\tag #'V { bes2 ges4 aes bes ges }  \tag #'III { R1.} | % rh lh kbR kbL 
+<fes ges bes>2 r1 | R1. |\tag #'(V All) { \clef treble bes'2 ges'4 aes' bes' ges' }  \tag #'III { R1.} |\tag #'(V All) { bes2 ges4 aes bes ges }  \tag #'III { R1.} | % rh lh kbR kbL 
 R1. | R1. | R1. | R1. | % fl ob kl bn 
 R1. | R1. | R1. | % hn tpt tn 
 R1. | R1. | R1. | % tym perc fol 
@@ -3231,7 +3231,7 @@ R1. | R1. | << <fis' a'>2 \\ e' >> r1 |<< \context Staff = "ossia" { <<{fis2 r4 
 
 %bn283
 c2 \instrumentSwitch "Rooney" e4( c) a fis |\lyricmode {rim oh what a }|%
-<ges aes c>2 r1 | R1. |\tag #'V { <fis gis c'>2\arpeggio e''4( c'' a' fis' }  \tag #'III { R1.} |\tag #'V {  <gis, c>2\arpeggio r1 }  \tag #'III { R1.} | % rh lh kbR kbL 
+<ges aes c>2 r1 | R1. |\tag #'(V All) { <fis gis c'>2\arpeggio e''4( c'' a' fis' }  \tag #'III { R1.} |\tag #'(V All) {  <gis, c>2\arpeggio r1 }  \tag #'III { R1.} | % rh lh kbR kbL 
 R1. | R1. | r2 r r4 c'' | R1. | % fl ob kl bn 
 R1. | R1. | R1. | % hn tpt tn 
 R1. | R1. | R1. | % tym perc fol 
@@ -3242,7 +3242,7 @@ R1. |r2 e''4( c'' a' fis' | << <gis c'>2--\\fis-- >> r1 |<< \context Staff = "os
 %bn284
 \time 2/2
 ees2 \instrumentSwitch "Tyler" r4 f |\lyricmode{ shame! now }|%
-R1 | R1 |\tag #'V {  dis'4 c' a4) <<f4(\\f~>> }  \tag #'III { R1} |\tag #'V {  r4 <a, a> <f, f>4 <<f,4(\\f,~>> }  \tag #'III { R1} | % rh lh kbR kbL 
+R1 | R1 |\tag #'(V All) {  dis'4 c' a4) <<f4(\\f~>> }  \tag #'III { R1} |\tag #'(V All) {  r4 <a, a> <f, f>4 <<f,4(\\f,~>> }  \tag #'III { R1} | % rh lh kbR kbL 
 R1 | R1 | a'4 fis dis c | r4 <a c'>4-. <f a> f, | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -3252,7 +3252,7 @@ R1 | dis'4 c' a4) r | R1 | R1 | R1 | % vn vII va vc cb
 
 %bn285
 g4 a bes c |\lyricmode{if it were the }|%
-R1 | R1 |\tag #'V {  << { g4 a b c' }\\{f2. r4}>> } \tag #'III { R1} |\tag #'V {  << { g,4 a, b, c }\\{f,2. r4}>> } \tag #'III { R1} | % rh lh kbR kbL 
+R1 | R1 |\tag #'(V All) {  << { g4 a b c' }\\{f2. r4}>> } \tag #'III { R1} |\tag #'(V All) {  << { g,4 a, b, c }\\{f,2. r4}>> } \tag #'III { R1} | % rh lh kbR kbL 
 R1 | R1 | R1 | g,4 a, b, c | % fl ob kl bn 
 r2. <a c'>4 | R1 | R1 | % hn tpt tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -3262,7 +3262,7 @@ R1 | R1 | R1 | r2. << e4^"pizz" \\ f, >>| R1 | % vn vII va vc cb
 
 %bn286
 des2. dis4 | \lyricmode {front, I } |%
-R1 | R1|\tag #'V { <f bes des'>2 f4-. q-. }  \tag #'III { R1} |\tag #'V { <f, bes, des>2 r4 q-. }  \tag #'III { R1} | % rh lh kbR kbL 
+R1 | R1|\tag #'(V All) { <f bes des'>2 f4-. q-. }  \tag #'III { R1} |\tag #'(V All) { <f, bes, des>2 r4 q-. }  \tag #'III { R1} | % rh lh kbR kbL 
 R1 | R1 | R1 | bes2.. r8 | % fl ob kl bn 
 <ais cis'>2 r2 | R1 | R1 | % hn tpt tn 
 R1 | r4 \times 2/3 {f'8 f' f'} r4 f' | R1 | % tym perc fol 
@@ -3272,7 +3272,7 @@ R1 | R1 | R1 | <<\grace s8. a1-- \\ {\grace {g,16 gis,16 a,16} bes,1--} >> | R1 
 
 %bn287
 \times 2/3 {c2 bes a4 g } | \lyricmode {would not so much } |%
-R1 | R1 |\tag #'V {  \times 2/3 {<f c'>2 bes2 a4 g} }  \tag #'III { R1} |\tag #'V {  \times 2/3 {<f, c>2 bes,2 a,4 g, } }  \tag #'III { R1} | % rh lh kbR kbL 
+R1 | R1 |\tag #'(V All) {  \times 2/3 {<f c'>2 bes2 a4 g} }  \tag #'III { R1} |\tag #'(V All) {  \times 2/3 {<f, c>2 bes,2 a,4 g, } }  \tag #'III { R1} | % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 r2 q | R1 | R1 | % hn tpt tn 
 R1 | R1 | R1 | % tym perc fol 
@@ -3283,7 +3283,7 @@ R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb
 %bn288
 \time 6/4 
 a2 r4 ees r ees | \lyricmode {mind, but the } |%
-R1. | r2 f4 r f r |\tag #'V { <f a>2 r1 }  \tag #'III { R1.} |\tag #'V { <f, a,>2 r1 }  \tag #'III { R1.} | % rh lh kbR kbL 
+R1. | r2 f4 r f r |\tag #'(V All) { <f a>2 r1 }  \tag #'III { R1.} |\tag #'(V All) { <f, a,>2 r1 }  \tag #'III { R1.} | % rh lh kbR kbL 
 R1. | R1. | R1. |r2 f,4 dis f, dis| % fl ob kl bn 
 <ais cis'>2 r1 | R1. | R1. | % hn tpt tn 
 R1. | r4. f'8 f' f' r4 f'4 r | R1. | % tym perc fol 
@@ -3294,7 +3294,7 @@ R1. | R1. | R1. | r2 f,4 dis f, dis | <<{r2. dis4-.^"pizz" r dis-.}\\{r2 f,4_"ar
 
 %bn289
 b'2. r2 ees,4 | \lyricmode {back the } |%
-R1. | <f, f'>2. r2. |\tag #'V {  r2. r2 \clef bass << s4\\dis~>> }  \tag #'III { R1.} |\tag #'V {  R1. }  \tag #'III { R1.} | % rh lh kbR kbL 
+R1. | <f, f'>2. r2. |\tag #'(V All) {  r2. r2 \clef bass << s4\\dis~>> }  \tag #'III { R1.} |\tag #'(V All) {  R1. }  \tag #'III { R1.} | % rh lh kbR kbL 
 R1. | R1. | b'1 r2 | f,2. r | % fl ob kl bn 
 R1. | R1. | r2. r2 dis4-. | % hn tpt tn 
 R1. | R1. | R1. | % tym perc fol 
@@ -3305,7 +3305,7 @@ R1. | R1. | r2. r2 dis4~ | <<b2.\\{s4\< s s\!}>> r2. | <<f,,2.^arc\\{s4\< s s\!}
 
 %bn290
  c'2^"poco piu" fis,4 e'2 g,4 | \lyricmode {back the chain the } |%
-R1. | <ees ees'>2. <fis fis'> |\tag #'V { <<{c'2 r4 e'2 r4}\\{ dis2 fis4~ fis2 g4~ }>> }  \tag #'III { R1.} |\tag #'V { \ottava #-1 \octaves{ dis,,,2. fis2. } }  \tag #'III { R1.} | % rh lh kbR kbL 
+R1. | <ees ees'>2. <fis fis'> |\tag #'(V All) { <<{c'2 r4 e'2 r4}\\{ dis2 fis4~ fis2 g4~ }>> }  \tag #'III { R1.} |\tag #'(V All) { \ottava #-1 \octaves{ dis,,,2. fis2. } }  \tag #'III { R1.} | % rh lh kbR kbL 
 R1. | dis'2 r4 fis'2 r4 | c''2 r4 e''2 r4 | dis,2 r4 fis,2 r4 | % fl ob kl bn 
 R1. | \octaves {c2\mp r4 e2 r4} |r2 fis4-. r2 g4-. | % hn tpt tn 
 R1. | R1. | R1. | % tym perc fol 
@@ -3317,7 +3317,7 @@ R1. | R1. | dis2 fis4~ fis2 g4~ | dis,2 r4 fis,2 r4 | dis,,2 r4 fis,,2 r4 | % vn
 %bn291
 \time 8/4 \set Timing.beatStructure = #'(3 3 2) 
  ees'2 ais,4 fis'2 b,4 f'2  | \lyricmode {grease the brakes the gear } |%
-r1 r1 |<a a'>2. <gis gis'>2. <a a'>2 |\tag #'V {  << { gis'2 r4 ais'2 r4 b'4 r}\\{ g2 ais4~ ais2 b2. }>> }  \tag #'III { r2. r2. r2} |\tag #'V { \octaves {a,,2. gis2. b2 } }  \tag #'III { r2. r2. r2} | % rh lh kbR kbL 
+r1 r1 |<a a'>2. <gis gis'>2. <a a'>2 |\tag #'(V All) {  << { gis'2 r4 ais'2 r4 b'4 r}\\{ g2 ais4~ ais2 b2. }>> }  \tag #'III { r2. r2. r2} |\tag #'(V All) { \octaves {a,,2. gis2. b2 } }  \tag #'III { r2. r2. r2} | % rh lh kbR kbL 
 r2. r2. r2 | gis'2 r4 ais'2 r4 b'4 r| \relative c'' {dis2 r4 fis2 r4 f4 r }|a,2 r4 gis,2 r4 b,4 r | % fl ob kl bn 
 r2. r2. r2 |\octaves { dis2 r4 fis2 r4 f4 r } | r2 ais4-. r2 b4-. r2 | % hn tpt tn 
 r2. r2. r2 | r2. r2. r2 | r2. r2. r2 | % tym perc fol 
@@ -3330,7 +3330,7 @@ r2. r2. r2 | r2. r2. r2 | g2 ais4~ ais2 b2. |a,2 r4 gis,2 r4 b,4 r |a,,2 r4 gis,
 %bn292
 \dQQ \time 3/2
 \instrumentSwitch "Tyler" g='4( e) cis ais r4 \times 2/3 {g8( fis f) } | \lyricmode {no it is too } |%
-R1. | <cis cis'>1. |\tag #'V {  \clef bass << {g'4 e' cis' ais \times 2/3{ g4 fis f}}\\ {<cis g ais cis e>2.\arpeggio r2.} >> \clef treble }  \tag #'III { R1.} |\tag #'V {  \ottava #-1 <c,, dis,, fis,, c,>1. \ottava #0 }  \tag #'III { R1.} | % rh lh kbR kbL 
+R1. | <cis cis'>1. |\tag #'(V All) {  \clef bass << {g'4 e' cis' ais \times 2/3{ g4 fis f}}\\ {<cis g ais cis e>2.\arpeggio r2.} >> \clef treble }  \tag #'III { R1.} |\tag #'(V All) {  \ottava #-1 <c,, dis,, fis,, c,>1. \ottava #0 }  \tag #'III { R1.} | % rh lh kbR kbL 
 R1. | cis''1. | \ottava #1 <g''' g' bes'>1. \ottava #0 |cis,1.| % fl ob kl bn 
 R1. | <g' g''>1. | R1. | % hn tpt tn 
 R1. | \cross f''1. | R1. | % tym perc fol 
@@ -3342,7 +3342,7 @@ e'2 cis' ais | cis'2 bes \times 2/3 {g4( fis f)} | e1. | cis2 bes, \times 2/3 {g
 %bn293
 \time 6/4 \dQQ 
 e4 r2 r2. | \lyricmode {much. } |% %%%%% MORE??? USED to be 3 quarters (1 pttn) longer
-R1. | <<{fis'4 g2}\\ g,2. >> << {fis'4 g2}\\ g,2. >> |\tag #'V { r2 fis'4~ fis'2 fis'4~ }  \tag #'III { R1.} |\tag #'V {  <<{fis4 g r fis g r}\\{<g, d>2~q8 r q2~q8 r}>> } \tag #'III { R1.} | % rh lh kbR kbL 
+R1. | <<{fis'4 g2}\\ g,2. >> << {fis'4 g2}\\ g,2. >> |\tag #'(V All) { r2 fis'4~ fis'2 fis'4~ }  \tag #'III { R1.} |\tag #'(V All) {  <<{fis4 g r fis g r}\\{<g, d>2~q8 r q2~q8 r}>> } \tag #'III { R1.} | % rh lh kbR kbL 
 R1. | R1. | R1. | R1. | % fl ob kl bn 
 r2. g2~\p^"mute" g8 r| R1. | R1. | % hn tpt tn 
 R1. | r2 fis'4\lv^"vibes" r2 fis'4\lv | \stopStaff \override Staff.StaffSymbol.line-count = #2 \startStaff b4~\<^"drag" b8--\! r d'4^"creak" r4.. d'16~^_d'8 r | % tym perc fol 
@@ -3352,7 +3352,7 @@ g2 r1 |e2 r1 | R1. |e,2 r4 <<{g,2^"Soli" r4}\\{fis,4 r2}>> |r2. <g, d>2.\arpeggi
 
 %bn294
 \time 2/2 \instrumentSwitch "Rooney" r2 gis4 a \breathe | \lyricmode{ are we }|%
-R1 | << {fis'4 g2.}\\ g,1 >> |\tag #'V {  fis'1 }  \tag #'III { R1} |\tag #'V {  <<{fis4 g r2}\\{<g, d>2 r}>> } \tag #'III { R1} | % rh lh kbR kbL 
+R1 | << {fis'4 g2.}\\ g,1 >> |\tag #'(V All) {  fis'1 }  \tag #'III { R1} |\tag #'(V All) {  <<{fis4 g r2}\\{<g, d>2 r}>> } \tag #'III { R1} | % rh lh kbR kbL 
 R1 | R1 | R1 | fis4 r2. | % fl ob kl bn 
 g2. r4 | R1 | R1 | % hn tpt tn 
 R1 | R1 | b4-> d' r2 | % tym perc fol 
@@ -3362,7 +3362,7 @@ R1 | R1 | R1 |<<{g,2 r4}\\{fis,4 r2}>> r4 |<g, d>2\arpeggio r| % vn vII va vc cb
 
 %bn295
 r2 b4 a8 gis~ | \lyricmode{al -- read -- y }|%
-R1 | << {fis'4 g2.}\\ g,1 >> |\tag #'V {  R1 }  \tag #'III { R1} |\tag #'V {  <<{fis4 g r2}\\{<g, d>2 r}>> } \tag #'III { R1} | % rh lh kbR kbL 
+R1 | << {fis'4 g2.}\\ g,1 >> |\tag #'(V All) {  R1 }  \tag #'III { R1} |\tag #'(V All) {  <<{fis4 g r2}\\{<g, d>2 r}>> } \tag #'III { R1} | % rh lh kbR kbL 
 R1 | R1 | r2 fis'^"solo"| fis4 r2. | % fl ob kl bn 
 g2. r4 | R1 | R1 | % hn tpt tn 
 R1 | R1 | << {d'4^- r}\\{b4~\<b8->\! r}>> r8. d'16~ d'8 r| % tym perc fol 
@@ -3372,7 +3372,7 @@ R1 | R1 | R1 |<<{g,2 r4}\\{fis,4 r2}>> r4 |<g, d>2\arpeggio r| % vn vII va vc cb
 
 %bn296
 gis8 c r4 e,8 fis gis ais \breathe | \lyricmode {late? I have not the } |%
-R1 | << {fis'4 g2.}\\ g,1 >> |\tag #'V {  R1 }  \tag #'III { R1} |\tag #'V {  R1 }  \tag #'III { R1} | % rh lh kbR kbL 
+R1 | << {fis'4 g2.}\\ g,1 >> |\tag #'(V All) {  R1 }  \tag #'III { R1} |\tag #'(V All) {  R1 }  \tag #'III { R1} | % rh lh kbR kbL 
 R1 | R1 | R1 | fis4 r2. | % fl ob kl bn 
 g2. r4 | R1 | R1 | % hn tpt tn 
 R1 | R1 | b4-> r d'^- r | % tym perc fol 
@@ -3718,7 +3718,7 @@ R1 | R1 | R1 | % tym perc fol
 
 %bn329
 \time 5/8 fis4 e8 \times 2/3 {cis4 d8} | \lyricmode{ah in spite of } | %
-<g b d fis>4.~ <g b d fis>4 | <d d'>4~ <d d'>4.~ |\tag #'V {  <g' b' d'' fis''>4:32 <<{ e''8 d'' cis'' }\\{g'4.}>> }  \tag #'III { r4. r4} |\tag #'V { <<{d,4 r8 d,4}\\ { <d,, a,,>4.~<d,, a,,>4 }>> } \tag #'III { r4. r4} | % rh lh kbR kbL 
+<g b d fis>4.~ <g b d fis>4 | <d d'>4~ <d d'>4.~ |\tag #'(V All) {  <g' b' d'' fis''>4:32 <<{ e''8 d'' cis'' }\\{g'4.}>> }  \tag #'III { r4. r4} |\tag #'(V All) { <<{d,4 r8 d,4}\\ { <d,, a,,>4.~<d,, a,,>4 }>> } \tag #'III { r4. r4} | % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 <fis' d' a d~>4. <d' a~ fis d>4 |a''4.~ a''4 | a,,4. a,,4 | % hn tpt tn 
 r4. r4 | \cross f''4.\lv r4 | r4. r4 | % tym perc fol 
@@ -3728,7 +3728,7 @@ r4. r4 | \cross f''4.\lv r4 | r4. r4 | % tym perc fol
 
 %bn330
 e4 d8 \times 2/3 {cis4 b8} | \lyricmode{ all it is a } | %
-<g a cis e>4.~ <g a cis e>4 | <d d'>4~ <d d'>4.~ |\tag #'V {  <g' a' cis'' e''>4:32 <<{d''8 cis'' b'}\\{g'4.}>> }  \tag #'III { r4. r4} |\tag #'V { <<{d,4 r8 d,4}\\ { <d,, a,,~>4.~<d,, a,,~>4 }>> } \tag #'III { r4. r4} | % rh lh kbR kbL 
+<g a cis e>4.~ <g a cis e>4 | <d d'>4~ <d d'>4.~ |\tag #'(V All) {  <g' a' cis'' e''>4:32 <<{d''8 cis'' b'}\\{g'4.}>> }  \tag #'III { r4. r4} |\tag #'(V All) { <<{d,4 r8 d,4}\\ { <d,, a,,~>4.~<d,, a,,~>4 }>> } \tag #'III { r4. r4} | % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 <cis'~ a e~>4. <cis' gis e>4 | \grace {bes''16( a'' bes''} a''4.~) a''4 |a,4.~ a,4| % hn tpt tn 
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol 
@@ -3738,7 +3738,7 @@ r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 
 %bn331
 \time 3/4 \times 2/3 {d4 b8} \times 2/3 {fis4 g8 } \times 2/3 {a4 b8} | \lyricmode{ bless -- ed thing to be a -- } | %
-<e g b d>4 <d fis b d> r | R2. |\tag #'V { \times 2/3 {<fis' b'\lv d''\lv>4\arpeggio b'8} \times 2/3 {fis'4 g'8 } \times 2/3 {a'4 b'8} }  \tag #'III { R2.} |\tag #'V { <<{d,4. r8 d,4}\\ { <d,, a,,~>2~ <d,, a,,~>4 }>> } \tag #'III { R2.} | % rh lh kbR kbL 
+<e g b d>4 <d fis b d> r | R2. |\tag #'(V All) { \times 2/3 {<fis' b'\lv d''\lv>4\arpeggio b'8} \times 2/3 {fis'4 g'8 } \times 2/3 {a'4 b'8} }  \tag #'III { R2.} |\tag #'(V All) { <<{d,4. r8 d,4}\\ { <d,, a,,~>2~ <d,, a,,~>4 }>> } \tag #'III { R2.} | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 <fis b d'>2. | gis''2.~ | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -3748,7 +3748,7 @@ R2. | R2. | R2. | % tym perc fol
 
 %bn332
 \time 6/8 \QdQ cis8 b a g f g | \lyricmode{ live in such wea -- ther, and } | %
-r4. r4. | r4. r4. |\tag #'V { cis''8 b' a' g' f' g' }  \tag #'III { R2.} |\tag #'V {  <<d,2.\\{ <d,, a,,>2. }>> }  \tag #'III { R2.} | % rh lh kbR kbL 
+r4. r4. | r4. r4. |\tag #'(V All) { cis''8 b' a' g' f' g' }  \tag #'III { R2.} |\tag #'(V All) {  <<d,2.\\{ <d,, a,,>2. }>> }  \tag #'III { R2.} | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 <e e'>4.~\> q4\! r8| gis8 r4 r4. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -3758,7 +3758,7 @@ R2. | R2. | R2. | % tym perc fol
 
 %bn333
 a8. b16 d8. c16 g8 \instrumentSwitch "Rooney" b\noBeam | \lyricmode{ out of hos -- pit -- al. A -- } | %
-r4. r4. | r4. r4. |\tag #'V { a'8. b'16 d''8. c''16 g'8 b' }  \tag #'III { R2.} |\tag #'V {  R2. }  \tag #'III { R2.} | % rh lh kbR kbL 
+r4. r4. | r4. r4. |\tag #'(V All) { a'8. b'16 d''8. c''16 g'8 b' }  \tag #'III { R2.} |\tag #'(V All) {  R2. }  \tag #'III { R2.} | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | r2 r8 b'\< | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -3768,7 +3768,7 @@ R2. | R2. |<<{\octaves {a8:32 b8:32 d8:32 c8:32 g8:32} r8 }{\context Staff="vaos
 
 %bn334
 dis8\noBeam \instrumentSwitch"Tyler" b e8. b16 gis8 fis16 gis | \lyricmode{ live? Well half ali -- ve shall we } | %
-r4. r4. | r8 b e'8 b gis fis |\tag #'V {  dis4. r }  \tag #'III { R2.} |\tag #'V {  R2. }  \tag #'III { R2.} | % rh lh kbR kbL 
+r4. r4. | r8 b e'8 b gis fis |\tag #'(V All) {  dis4. r }  \tag #'III { R2.} |\tag #'(V All) {  R2. }  \tag #'III { R2.} | % rh lh kbR kbL 
 R2. | R2. | R2. | R2. | % fl ob kl bn 
 R2. | <g' dis''>8->-.\! r r2 | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
@@ -3829,7 +3829,7 @@ R2. | R2. | R2. | % tym perc fol
 
 %bn340
 \time 5/8 a8( g) g4 \breathe c8 | \lyricmode{here for? this } | %
-<d=' f >4. r4 | bes4. r4 |\tag #'V {  <a' g' a''>8 <g' g''> q4 r8 } \tag #'III { r4. r4} |\tag #'V { << {<bes, d'>2 r8}\\ { g,2 r8 } >> } \tag #'III { r4. r4} | % rh lh kbR kbL 
+<d=' f >4. r4 | bes4. r4 |\tag #'(V All) {  <a' g' a''>8 <g' g''> q4 r8 } \tag #'III { r4. r4} |\tag #'(V All) { << {<bes, d'>2 r8}\\ { g,2 r8 } >> } \tag #'III { r4. r4} | % rh lh kbR kbL 
 r4 r4. | r4 r4. | r4. r4 | r4. r4 | % fl ob kl bn 
 a'8( g') g'4 r8 | r4 r4. | r4 r4. | % hn tpt tn 
 r4 r4. | r4 r4. | r4 r4. | % tym perc fol 
@@ -9451,7 +9451,7 @@ R1 | R1 | % hpL hpR
  
  %bn868
 \time 2/4 \tempo "a tempo" fis8 g16 a \times 2/3{ r8 a g } |\lyricmode{ e -- ven when all is }|
-R2 | fis=4 d|\tag #'V {  R2 }  \tag #'III { R2} |\tag #'V {  <fis, fis>4 <d, d> }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | fis=4 d|\tag #'(V All) {  R2 }  \tag #'III { R2} |\tag #'(V All) {  <fis, fis>4 <d, d> }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | \treble fis'2 | % fl ob kl bn 
 R2 | R2 | r4 <d d'> | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
@@ -9729,7 +9729,7 @@ R2 | R2 | % hpL hpR
 
  %bn890
 \times 2/3 { c4\mf c d8( e)} |\lyricmode{ there goes The }|
-R2 | g2 |\tag #'V {  \times 2/3{ c'8 r c'4 d'8 e' } } \tag #'III { R2} |\tag #'V { \times 2/3 { <c, c>8 r q2 } }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | g2 |\tag #'(V All) {  \times 2/3{ c'8 r c'4 d'8 e' } } \tag #'III { R2} |\tag #'(V All) { \times 2/3 { <c, c>8 r q2 } }  \tag #'III { R2} | % rh lh kbR kbL 
  <a' e'' a''>2) | R2 |\times 2/3 {<g' c''>4 q2} | \times 2/3 {g4 2}| % fl ob kl bn 
  \times 2/3 {<g' c''>4 2} | R2 | <<d'2)\\{\times 2/3 {<g c'>4 4 <f b>8 <e a>}}>>| % hn tpt tn 
  R2 | << \cross d''2\lv \\ {\times 2/3 {d'4\mp 2}}>> | R2 | % tym perc fol 
@@ -9742,7 +9742,7 @@ R2 | <d'' g'' d''' g'''>2 | R2 |\times 2/3 { <g c>4 2 } | \times 2/3 {g,,4 2} | 
 
  %bn891 
 f4. e8 |\lyricmode{ Dark Miss }|
-R2| d4. a'8 |\tag #'V {  R2 }  \tag #'III { R2} |\tag #'V {  <d, a, d f>4. <a, cis e>8 }  \tag #'III { R2} | % rh lh kbR kbL 
+R2| d4. a'8 |\tag #'(V All) {  R2 }  \tag #'III { R2} |\tag #'(V All) {  <d, a, d f>4. <a, cis e>8 }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 | R2 | R2 | <d f>4 r8 <c e> | % fl ob kl bn 
 R2 | R2 | <d a>4. <a, e>8 | % hn tpt tn 
 R2 | << \cross f''2-. \\ \cross e'2\lv\p >>| R2 | % tym perc fol 
@@ -9754,7 +9754,7 @@ R2 | R2 | R2 | R2 | d,,4. a,,8| % vn vII va vc cb
 
  %bn892 %% comp violins - move high bn note to ob 
 e4. f8 |\lyricmode{Fitt, a -- }|
-R2 | a2 |\tag #'V {  r4. <a c' f'>8 }  \tag #'III { R2} |\tag #'V {  4. f,8 }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | a2 |\tag #'(V All) {  r4. <a c' f'>8 }  \tag #'III { R2} |\tag #'(V All) {  4. f,8 }  \tag #'III { R2} | % rh lh kbR kbL 
 R2 |\times 2/3 { r2 <c'' a'>4 } | R2 |\times 2/3 { 4 r <f, f'> } | % fl ob kl bn 
 R2 | R2 |\times 2/3{ 4 r f,, } | % hn tpt tn 
 R2 | r4. \cross f''8-. | R2 | % tym perc fol 
@@ -9768,7 +9768,7 @@ R2 | R2 | % hpL hpR
 
  %bn893
 \times 2/3 {f4 e d } | \lyricmode{lone with her } | 
-R2 | \times 2/3 {f4 e f }|\tag #'V { \times 2/3 { <a c' f'>4 <c' e'><d' g'> } }  \tag #'III { R2} |\tag #'V {  f,2 }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | \times 2/3 {f4 e f }|\tag #'(V All) { \times 2/3 { <a c' f'>4 <c' e'><d' g'> } }  \tag #'III { R2} |\tag #'(V All) {  f,2 }  \tag #'III { R2} | % rh lh kbR kbL 
 \times 2/3 {r2 c'''4} | \times 2/3 {2 <c'' f''>4 }| R2 |\times 2/3 { <f, f'>4 <e, e'> <f, f'> } | % fl ob kl bn 
 R2 |\times 2/3 {r2 f''4 }|\times 2/3 {f,,4 e,, f,,}| % hn tpt tn 
 R2 | \cross f''2 |<<{ R2 }{\ossia "perc" { \instrumentSwitch "vibes" \times 2/3 {r2 f''4}}}>> | % tym perc fol 
@@ -9783,7 +9783,7 @@ R2 | R2 | % hpL hpR
  %bn894
 \time 2/4 %\tQE 
 c8 b f'-. f-. | \lyricmode{ma -- ker take no } | 
-R2 | g4 f8 f|\tag #'V {  <c' g'>8 b <a c' f'>8 8 }  \tag #'III { R2} |\tag #'V {  g,4 f,8 8 }  \tag #'III { R2} | % rh lh kbR kbL 
+R2 | g4 f8 f|\tag #'(V All) {  <c' g'>8 b <a c' f'>8 8 }  \tag #'III { R2} |\tag #'(V All) {  g,4 f,8 8 }  \tag #'III { R2} | % rh lh kbR kbL 
 b''8 c'''8 8-. 8-. |<c'' g''>8 r4. | R2 | R2 | % fl ob kl bn 
  e''8 d'' <g' f''>8 8 | R2 | g,,8( f,,) f,, g,, | % hn tpt tn 
  R2 | r4 \cross f''8-. \cross f''8-. |<<{ R2 }{\inst "ossia" {\instrumentSwitch "vibessilent" e''8 d'' r4}}>> | % tym perc fol 

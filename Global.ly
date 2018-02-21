@@ -72,3 +72,16 @@ caesura =  {\override BreathingSign.text = \markup {
     }
   }
   \breathe }
+
+ arpeggioArrowDown = { 
+  \revert PianoStaff.Arpeggio.stencil 
+  \revert PianoStaff.Arpeggio.X-extent 
+  \override PianoStaff.Arpeggio.arpeggio-direction = #DOWN 
+}  
+
+ arpeggioArrowUp = { 
+  \revert PianoStaff.Arpeggio.stencil 
+  \revert PianoStaff.Arpeggio.X-extent 
+  \override PianoStaff.Arpeggio.arpeggio-direction = #UP 
+}  
+
