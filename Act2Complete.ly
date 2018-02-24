@@ -4354,22 +4354,21 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 %bn421
 \time 3/4 g,8 d'16 cis a'8 e16 cis a8 b16 cis | \lyricmode {home on the train to the lilt of the } |
 R2  <<a4~ \\ {r8. g16}>>| b4~ <e, b'> a |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
+R2. | r8 d'16 cis' a'4~ 8.  g'16 |<< { g2 a8. g16 }\\ { b,2 r4 } >>| b,2. | % fl ob kl bn
+R2. |  R2. | b,4~ <fis, b> a, | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | <a' a''>2.~ | R2. | d,,4. r |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%{
 %bn422
 \time 6/8 \EE  \times 2/3 {e4 d8} r8 r4.  | \lyricmode {bo -- geys } |
 R2. | d,8 a' d a d a |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
+R2. | g'4.( fis') | fis2. | R2. | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | 2. | d,8-.^pizz a,-. d-. a,-. d-. a,-.  | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn423
@@ -4379,7 +4378,7 @@ R8. | R8. | R8. | R8. | % fl ob kl bn
 R8. |  R8. |  R8. | % hn tpt  tn
 R8. | R8. | R8. | % tym perc fol
 R8. | R8. | % hpL hpR
-R8. | R8. | R8. | R8. | R8. |  % vn vII va vc cb 
+R8. | R8. | R8. | d,8-. a,16-. | R8. |  % vn vII va vc cb 
 R8. |  R8. |  R8. |  R8. |  R8. |  R8. |  % I II III IV V VI
 
 %bn424
@@ -4392,6 +4391,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%{
 %bn425
 \time 2/4 \tEE g8 g d'4-> | \lyricmode {costs you eight } |
 r4 <f aes b d> |\absolute { r4 << <gis, b, d>4 \\f,4~>> } |  R2 |  R2 |  % rh lh kbR kbL

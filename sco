@@ -299,7 +299,7 @@ cat <<EOF >> /tmp/cat
 $header
 \score {
 <<
-    <<\new Staff = "voice" \relative c'' { 
+			<< \new Staff \with {\magnifyStaff #(magstep -3)} \relative c'' { \set Staff.instrumentName = #"voice"
       \new Voice = "tune" \melody
     }
     \new Lyrics \lyricsto "tune" \lyrix
