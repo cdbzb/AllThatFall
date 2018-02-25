@@ -6978,7 +6978,7 @@ f,4 r | << \cross e'2\lv \\ \cross d''2-- \\ \cross g'2>>| R2 | % tym perc fol
 %parts: kl |rest| vn | vII | bn | vc
 
 %bn636
-\QdQ \time 4/4 \set Timing.beatStructure = #'(3 2 3) d4. bes4 g8 bes des | \lyricmode{ me! Don't take a -- ny } | 
+\QdQ \time 4/4  d4. bes4 g8 bes des | \lyricmode{ me! Don't take a -- ny } | 
 R1 | R1 | R1 | R1 | % rh lh kbR kbL 
 R1 | R1 | r4. g4~ g4.\glissando | b4 r2. | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
@@ -7508,7 +7508,7 @@ R4 | \grace {fis8-.\!} r4 | R4 | R4 | R4 | % vn vII va vc cb
 r4 r4 r4. | r8 \times 2/3 {g16(\< a b} cis'4~\! cis4.) | r2 r4. | r2 r4. | % rh lh kbR kbL 
 r2 r4. | r2 r4. | r2 r4. | s32 \grace {g,32( a, b,} cis')2*7/8~ 4. | % fl ob kl bn 
 r2 r4. | r2 r4. | r2 r4. | % hn tpt tn 
-r2 r4. | cis''4\lv^BELLS <fis'' a'' dis'''>2\arpeggio\lv^"VIBES" r8 | r2 r4. | % tym perc fol 
+r2 r4. | cis''4\lv^CHIMES <fis'' a'' dis'''>2\arpeggio\lv^"VIBES" r8 | r2 r4. | % tym perc fol 
  r4 <fis a b dis'>4~\arpeggio q4. | r4 <fis' a' b' dis''>4~\arpeggio q4. | % hpL hpR 
  r2 r4. | r2 r4. | r2 r4. | <a b>2~ 4.| <d,, d,>2-.^pizz r4. | % vn vII va vc cb 
 \Q #"kl" { s2 s4. }| \Q #"fl" { s2 s4. }| \instrumentSwitch "bn" \Q #"bn" {s2 s4. }| \Q #"va" { s2 s4. }| \Q #"ob" { s2 s4. }| \Q #"vc" { s2 s4. }| % I II III IV V VI 
