@@ -77,6 +77,16 @@
      (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps "ob"))
      (midiInstrument . "voice oohs"))
 
+\addInstrumentDefinition #"obsilent"
+  #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
+     (shortInstrumentName . "ob")
+     (clefGlyph . "clefs.G")
+     (clefTransposition . 0)
+     (middleCPosition . -6)
+     (clefPosition . 0)
+     (instrumentCueName . ,(markup #:fontsize 1 #:smallCaps ""))
+     (midiInstrument . "voice oohs"))
+
 \addInstrumentDefinition #"vnbass"
   #`((instrumentTransposition . ,(ly:make-pitch 0 0 0))
      (shortInstrumentName . "vn")
