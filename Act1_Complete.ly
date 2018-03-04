@@ -165,7 +165,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
  R1 |R1 | R1 | R1 | % fl ob kl bn 
  R1 | R1 | R1 | % hn tpt tn 
  R1 | fis'8 gis' ais'4) r2 |r2 \cross c'8\fermata^"wind" r4.| % tmp perc fol 
- << <fis ais>1\arpeggio \\ {s4 c2.}>> | <e' fis' ais'>1\arpeggio | % hpL hpR 
+ << <fis ais>1\arpeggio \\ {r4 c2.}>> | <e' fis' ais'>1\arpeggio | % hpL hpR 
  R1 | R1 | %vn vn2 
  R1 | R1 | R1 | % va vc cb 
  R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 

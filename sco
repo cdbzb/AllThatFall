@@ -25,7 +25,7 @@
 #getopts "d" datestamp
 
 format=s
-currentPart="perc"
+currentPart="harp"
 
 # remove s from getopts later
 

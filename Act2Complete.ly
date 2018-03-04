@@ -3458,13 +3458,10 @@ r4. \times 3/2 { fis'8 gis'} |R2. | r4. \times 3/2 {<dis fis>8 <e gis>} | r4. \t
 r4. \times 3/2 {<dis, fis>8 <e, gis> }|  R2. | r4. \times 3/2{ dis,8 e, } | % hn tpt  tn
  r4. \times 3/2 { dis,8 e,} |R2. |R2. | % tym perc fol
 R2. |R2. | % hpL hpR
-2. | dis''2. |R2. | r4. \times 3/2 { dis8 e } | r4. \times 3/2 {dis,8 e,} |  % vn vII va vc cb 
- \Q #"kl" { s2. }|  \Q #"vII" { s2. }|  \Q #"hn" { s2. }|  \Q #"fl" { s2. }|  \Q #"vn" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
-%Error: no solution found. Returning best guess.
-%parts: tn or tpt % vn % hn % vII % cb % vc
-%Error: too many parts 9
+2.~ | dis''2.~ |R2. | r4. \times 3/2 { dis8 e } | r4. \times 3/2 {dis,8 e,} |  % vn vII va vc cb 
+\Q #"kl" { s2. }| \instrumentSwitch "tn" \Q #"tn" {s2. }|  \Q #"hn" { s2. }|  \instrumentSwitch "blankvn" << \Q #"vn" { s2.^VN } \\ \Q #"vII" { s2. }>> | \instrumentSwitch "cb" \Q #"cb" {s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
+%parts: kl % tn or tpt % hn % vII % cb % vc ! comp vns scratch fl and bn
 
-%{
 %bn308
 fis4 e8  dis cis ais | \lyricmode {will wa -- ter our } |
 ais4.)  r | <fis fis'>4.) r |  R2. |  R2. |  % rh lh kbR kbL
@@ -3473,17 +3470,19 @@ fis'4. r  |R2. | <fis ais>2. |fis2. | % fl ob kl bn
  fis,2. | \instrumentSwitch "percsilent" << \cross f''2. \\ d' 2. >> |R2. | % tym perc fol
 R2. |R2. | % hpL hpR
  2.~  |2. |R2. | fis2. | fis,2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+\Q #"kl" { s2. }|  \Q #"tn" { s2. }| \instrumentSwitch "hnsilent" << \tuplet 2/3 4. {b8 ais gis ais}\\fis,2.~ >>|   << \Q #"vn" { s2. } \\ \Q #"vII" { s2. }>> |  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
+%parts: kl % tn or tpt % hn % vII % cb % vc ! comp vns scratch fl and bn 
 
 %bn309
-\time 2/4 \EE b8( cis4) b8 | \lyricmode {bo -- ttoms } |
+\time 2/4  b8( cis4) b8 | \lyricmode {bo -- ttoms } |
 R2 | << {r4 fis'}\\b,2>>|  R2 |  R2 |  % rh lh kbR kbL
 4 fis' |R2 | <b dis' fis'>4~ <b e'> |R2 | % fl ob kl bn
 b2 |  R2 | b,,4 fis, | % hn tpt  tn
 r4 fis, |R2 |R2 | % tym perc fol
 <b, dis fis>2\arp |<b dis' fis' b'>2\arp| % hpL hpR
  cis''2 |2 |R2 | b,4 fis |b,,2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+\Q #"kl" { s2 }|  \Q #"tn" { s2 }|\Q #"hn" {s2 }|   << \Q #"vII" { s2 } \\ \Q #"vn" { s2 }>> |  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: kl % tn or tpt % hn % vII % cb % vc ! comp vns scratch fl and bn 
 
 %bn310
 r16 \instrumentSwitch "Rooney" ais= gis fis \grace {e16( fis} e8) d16 bes | \lyricmode {what is the mat -- ter Dan? } |
@@ -3493,7 +3492,8 @@ R2 |R2 |<b, dis'>4 r |R2 | % fl ob kl bn
 b4 r |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |2 |R2 |R2 |c4 r |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+\Q #"kl" { s2 }|  \Q #"tn" { s2 }|\Q #"hn" { s2 }|    \Q #"vII" { s2 } |  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: kl % tn or tpt % hn % vII % cb % rest
 
 %bn311
 \time 3/4 r8 g' ees g des'4 | \lyricmode {are you not well? } |
@@ -3503,7 +3503,7 @@ R2. |  R2. | R2. | % hn tpt  tn
 R2. |R2. |R2. | % tym perc fol
 R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. |R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+\Q #"kl" { s2. }|  \Q #"tn" { s2. }|\Q #"hn" { s2. }|    \Q #"vII" { s2. } |  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
 
 
 
@@ -3516,7 +3516,8 @@ R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
  <dis fis a>2:32~\f |R2 |R2 | gis,2:32~ |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+\Q #"kl" { s2 }|  \Q #"tn" { s2 }|\Q #"hn" { s2 }|    \Q #"vn" { s2 } |  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: tn or tpt % vn % hn % rest % rest % vc
 
 %bn313
 gis8 fis  e dis | \lyricmode {have you ev -- er } |
@@ -3526,7 +3527,8 @@ R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 4:32 r |R2 |R2 | 2:32~ |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+\Q #"kl" { s2 }|  \Q #"tn" { s2 }|\Q #"hn" { s2 }|    \Q #"vn" { s2 } |  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: tn or tpt % vn % hn % rest % rest % vc
 
 %bn314
 cis8 dis bis dis | \lyricmode {known me to be } |
@@ -3536,7 +3538,8 @@ R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |R2 |R2 | 2:32~ |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+\Q #"kl" { s2 }|  \Q #"tn" { s2 }|\Q #"hn" { s2 }|    \Q #"vn" { s2 } |  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: tn or tpt % rest % hn % rest % rest % vc
 
 %bn315
 a'2 | \lyricmode {well? } |
@@ -3546,7 +3549,8 @@ R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 <fis a dis'>2:32~ |R2 |R2 | 2:32~ |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+\Q #"kl" { s2 }|  \Q #"tn" { s2 }|\Q #"hn" { s2 }|    \Q #"vn" { s2 } |  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: tn or tpt % vn % hn % rest % rest % vc
 
 %bn316
 \time 6/8 \tempo "march" \QdQ r4 b,8 b4 b8 | \lyricmode {the day you } |
@@ -3556,7 +3560,8 @@ R2. |R2. |R2. |R2. | % fl ob kl bn
 R2. |R2. |R2. | % tym perc fol
 R2. |R2. | % hpL hpR
 8:32-- r4 r4. |R2. |R2. | 8:32-- r4 r4. |R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+\Q #"kl" { s2. }|  \Q #"tn" { s2. }|\Q #"hn" { s2. }|    \Q #"vn" { s2. } |  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
+%parts: vn % rest % hn % rest % rest % vc
 
 %bn317
 e4. e4 e8 | \lyricmode {met me I } |
@@ -3566,7 +3571,8 @@ R2. |R2. |R2. |R2. | % fl ob kl bn
 R2. | << {r8. f'16 16 16~ \triangle f''4 f'8}\\ {d'2.    } >>|R2. | % tym perc fol
 R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. | r4. \treble gis'\f |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+\Q #"kl" { s2. }|  \Q #"tn" { s2. }|\Q #"hn" { s2. }|    \Q #"vn" { s2. } |  \Q #"cb" {\treble s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
+%parts: tn or tpt % rest % hn % rest % cb % rest
 
 %bn318
 dis4 e8 cis4 e8 | \lyricmode {should have been in } |
@@ -3576,8 +3582,10 @@ R2. | <dis dis'>4. <cis cis'> |  R2. |  R2. |  % rh lh kbR kbL
 R2. | r4 f'8\triangle f''4 f'8 |R2. | % tym perc fol
 R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. | fis'4.~ 4 e'8 |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+ \instrumentSwitch "fl" \Q #"fl" {s2. }|  \Q #"tn" { s2. }|\Q #"hn" { s2. }|    \Q #"vn" { s2. } |  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
+%parts: fl % tn or tpt % hn % rest % cb % rest
 
+%{
 %bn319
 fis2. | \lyricmode {bed. } |
 R2. | <b b'>2. |  R2. |  R2. |  % rh lh kbR kbL
