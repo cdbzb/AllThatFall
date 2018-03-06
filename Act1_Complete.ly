@@ -22,7 +22,6 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 %{
 
 
-%}
 %bn1 %sec1
  \tempo 4 = 70 %dummy
  \time 2/4 \instrumentSwitch "Rooney" r4 g=8 g | \lyricmode {is that } |
@@ -5088,8 +5087,8 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
 
+%}
 %bn456
-
 \time 2/4 \instrumentSwitch "Slocum" \times 2/3 {r4 g=,8 } \times 2/3 {b g b } | \lyricmode {is a -- ny -- thing } | 
 \clef treble R2 | \clef bass R2 | R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
@@ -5427,7 +5426,7 @@ fis'''4.. r16 | R2 | fis4 gis8. r16 | R2 | gis,,2~ | % vn vII va vc cb
 R2 |\Q #"vn" {s2 }| r4 \instrumentSwitch "hn" \clef treble \Q #"hn" {\clef treble s4 }|\Q #"va" {s2 }|\Q #"bn" {s2 }| gis,,2~ | % I II III IV V VI 
 
 %bn488
-b4 f, |\lyricmode{ lift, ma'am? } | %TODO Check f pitch - g?
+b4 f |\lyricmode{ seat ma'am? } | %TODO Check f pitch - g?
 R2 | ces2 \doubleBar | R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | b,4 r | % fl ob kl bn 
 <f' f''>4 r | R2 | r4 f, | % hn tpt tn 
@@ -5436,6 +5435,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | gis,,4 r | % vn vII va vc cb 
  \instrumentSwitch "tn" \Q #"tn" {s2 }| R2 |\Q #"hn" {s2 }| R2 | \Q #"bn" {s2 }| gis,,4 r | % I II III IV V VI 
 
+ %{
 %bn489
 \time 6/8 \instrumentSwitch "Rooney" d='4. f8 ees d16 c32( d | \lyricmode { Oh, that would be hea -- } | %TODO check percussion spelling
 <ees, g bes d>8 <g bes d>16 <g bes d><g bes d>8 <g bes d> <g bes d> <g bes d> | ees=,4. r4. | R2. | R2. | % rh lh kbR kbL 
@@ -11688,7 +11688,6 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
 R2. | R2. | R2. | R2. | R2. | R2. | % I II III IV V VI 
 
- %{
 %bn1048
 %}
 
