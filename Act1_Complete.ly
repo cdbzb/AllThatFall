@@ -5,7 +5,7 @@
 \include "./layoutFile.ly"
 \include "./AddNote.ly"
 \include "./rooney-ossia.ly"
-
+\include "./celli.ly"
 
 date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 
@@ -5039,10 +5039,10 @@ R2 | R2 | R2 |\clef bass g,2\p^"mutes" | g,2\p^"mutes" | % vn vII va vc cb
 %bn451 %sec4
 \time 4/4 \mark \default \tempo 4 = 70 % check this
 R1 | |
-<gis ais>1:32 | <fis gis d'>1:32 | R1 | R1 | % rh lh kbR kbL 
+\clef bass <gis= ais>1:32 | <fis=, gis d'>1:32 | R1 | R1 | % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
-R1 | R1 | c'1^engine-celli | % tym perc fol 
+R1 | R1 | << c'1^engine-celli \\ { \new StaffGroup \with {alignAboveContext="vc"}{<<{\new Staff \vcOne} {\new Staff \vcTwo} {\new Staff \vcThree } {\new Staff \vcFour} {\new Staff \vcFive}{\new Staff \vcSix} >>}}>> | % tym perc fol 
 R1 | R1 | % hpL hpR 
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
@@ -5087,7 +5087,6 @@ R1 | R1 | % hpL hpR
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
 
-%}
 %bn456
 \time 2/4 \instrumentSwitch "Slocum" \times 2/3 {r4 g=,8 } \times 2/3 {b g b } | \lyricmode {is a -- ny -- thing } | 
 \clef treble R2 | \clef bass R2 | R2 | R2 | % rh lh kbR kbL 
@@ -5435,7 +5434,6 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | gis,,4 r | % vn vII va vc cb 
  \instrumentSwitch "tn" \Q #"tn" {s2 }| R2 |\Q #"hn" {s2 }| R2 | \Q #"bn" {s2 }| gis,,4 r | % I II III IV V VI 
 
- %{
 %bn489
 \time 6/8 \instrumentSwitch "Rooney" d='4. f8 ees d16 c32( d | \lyricmode { Oh, that would be hea -- } | %TODO check percussion spelling
 <ees, g bes d>8 <g bes d>16 <g bes d><g bes d>8 <g bes d> <g bes d> <g bes d> | ees=,4. r4. | R2. | R2. | % rh lh kbR kbL 
@@ -6295,6 +6293,7 @@ r4 \arpeggioArrowDown <fis' d' b g>\arpeggio | r4 \arpeggioArrowDown <fis'' d'' 
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
  \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"hn" { s2 }| \Q #"va" { s2 }| \Q #"bn" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 
+%}
 
 %bn572
 \time 6/4 \instrumentSwitch "Slocum" \times 2/3 {bes'=,4 bes bes8 bes } d4 bes r2\fermata | \lyricmode {ga -- zing straigh be -- for me } |
@@ -6480,6 +6479,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
  \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"bn" { s2 }|  \Q #"va" { s2 }| \Q #"tn" { s2 }|\Q #"vc" {s2 }| % I II III IV V VI 
 
+ %{
 
 %bn590
 R2 | | 
