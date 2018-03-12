@@ -1235,7 +1235,7 @@ r8. r | r8. r | \times 3/2 {fis16-.^pizz gis-.} f8.-. | r8. r | r8. r |% vn vII 
  %bn107
 \time 4/4 aes8 bes ges aes bes c aes bes | \lyricmode {fol -- low the dir -- rec --tion of my } |
 R1| aes2 bes |  R1 |  R1 |   % rh lh kbR kbL 
- r2 ais8( a gis4) |\bass  ges8( g fis f~ 2~ | R1 | gis,2 ais, | % fl ob kl bn 
+ r2 ais8( a gis4) |\bass  gis8( g fis f~ 2~ | R1 | gis,2 ais, | % fl ob kl bn 
 R1 |  R1 |  R1 | % hn tpt  tn 
 R1 | R1 | R1 | % tym perc fol 
  <gis, gis>2 <ais, ais> | R1 | % hpL hpR 
