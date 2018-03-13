@@ -1964,7 +1964,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
 
 %bn166 
  %C#Maj Time Sig here
- \time 2/4 eis'4 fis8 g | \lyricmode{ kiss in the } | 
+ \time 2/4 eis'4 fis8 gis | \lyricmode{ kiss in the } | 
  R2 | R2 | R2 | R2 | % lh rh kbR kbL 
  R2 | R2 | R2 | R2 | % fl ob kl bn 
  gis'2 | R2 | \clef bass r8 <aes, aes>4. | % hn tpt tn 
@@ -1974,8 +1974,9 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
  <cis' cis''>~ |<< aes2\\ {r8 aes,4.~}>> | R2 | % va vc cb 
  \Q #"kl" {s2 }| \Q "tn" {s2 } | \Q "hn" {\clef treble s2 } | \clef treble \Q "va" {s2 } | \Q "ob" {s2 }|<< aes2\\ {r8 aes,4.~}>> | % I II III IV V VI 
 
+%}
 %bn167 
- \grace {eis16( fes16} \times 2/3 {eis4) dis cis8 bis} | \lyricmode{ eve -- ning by the } | 
+ \grace {fis16( gis16} \times 2/3 {fis4) eis dis8 cis} | \lyricmode{ eve -- ning by the } | 
  R2 | gis8 ais4. | R2 | R2 | % lh rh kbR kbL 
  R2 | R2 | R2 | R2 | % fl ob kl bn 
  R2 | R2 | r8 <bes, bes>4. | % hn tpt tn 
@@ -1986,7 +1987,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
  \Q #"kl" {s2 }| \Q "tn" {s2 } | \Q "hn" {\clef treble s2 } | \Q "va" {s2 } | \Q "ob" {s2 }|<<des'2\\{aes,8 bes,4.~}>> | % I II III IV V VI 
 
 %bn168 
- cis8 bis cis dis | \lyricmode{ ear and a -- no } | 
+ dis8 cis dis eis | \lyricmode{ ear and a -- no } | 
  R2 | bis2 | R2 | R2 | % lh rh kbR kbL 
  R2 | R2 | R2 | R2 | % fl ob kl bn 
  R2 | R2 | r8 <c c'>4. | % hn tpt tn 
@@ -1997,7 +1998,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
  \Q #"kl" {s2 }| \Q "tn" {s2 } | \Q "hn" {\clef treble s2 } | \Q "va" {s2 } | \Q "ob" {s2 }| <<aes2~\\{bes,8 c4.~}>> | % I II III IV V VI 
 
 %bn169 
- \time 5/8 cis8 dis eis cis bis | \lyricmode{ ther one at mor -- ning, } | 
+ \time 5/8 dis8 eis fis cis bis | \lyricmode{ ther one at mor -- ning, } | 
  r4. r4 | cis4. <dis fis>4 | r4. r4 | r4. r4 | % lh rh kbR kbL 
  r4. r4 |r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
  r4. r4 | r4. r4 | r8 <cis cis'>4 r4 | % hn tpt tn 
@@ -2007,6 +2008,7 @@ R2 | R2 | R2 | R2 | % lh rh kbR kbL
  q4. <eis' eis''>4 | <<aes2~\\{c8 des4.~}>> r8 | r4. r4 | % va vc cb 
  \Q "kl" {s4. s4 } | \Q "tn" {s4. s4 } | \Q "hn" {\clef treble s4. s4 } | \Q "va" {s4. s4 } | \Q "ob" {s4. s4 }| <<aes2~\\{c8 des4.~}>> r8 | % I II III IV V VI 
 
+ %{
 %bn170 
  \time 2/4 b8 r bes g | \lyricmode{ peck, peck, 'till } | 
  r8 <dis fis b> <dis fis ais> g | R2 | R2 | R2 | % lh rh kbR kbL 
@@ -6293,7 +6295,6 @@ r4 \arpeggioArrowDown <fis' d' b g>\arpeggio | r4 \arpeggioArrowDown <fis'' d'' 
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
  \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"hn" { s2 }| \Q #"va" { s2 }| \Q #"bn" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 
-%}
 
 %bn572
 \time 6/4 \instrumentSwitch "Slocum" \times 2/3 {bes'=,4 bes bes8 bes } d4 bes r2\fermata | \lyricmode {ga -- zing straigh be -- for me } |
@@ -6479,7 +6480,6 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb 
  \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"bn" { s2 }|  \Q #"va" { s2 }| \Q #"tn" { s2 }|\Q #"vc" {s2 }| % I II III IV V VI 
 
- %{
 
 %bn590
 R2 | | 
