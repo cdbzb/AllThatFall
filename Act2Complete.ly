@@ -5612,7 +5612,6 @@ R2. | R2. | % hpL hpR
  e'2.~^mutes | R2. | R2. | R2. | cis,4-. r2 |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
-%}
 %bn517
 \time 5/4\transpose c g, \relative c {  r4 d' fis, b d,  }| \lyricmode {base -- ment of -- fice } |
  r2. r2  |\transpose c g, \relative c, {  b2. gis2  }|  r2. r2 |  r2. r2 |  % rh lh kbR kbL
@@ -5937,15 +5936,14 @@ r4. r4 | r4. r4 | r4. r4 | % tym perc fol
  r4 ees'8 f' r16 g'| r4 ees'8~ 4~ | e'4. r4 | <a cis'>4.~4  | r4. r4 |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
 
-%{
 %bn549
 \time 2/4 b8 g ees8 r  | \lyricmode {le -- ven -- ses }          |
 <ees=' g b>8\arpeggio( g ees4)  | des4.) r8                               |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+R2 | R2 | R2 | des2 | % fl ob kl bn
+ des2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+b4 r | ees'2 | < g' b' b''>2~^mutes\pp | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn550
@@ -5954,25 +5952,25 @@ e'8 e e8. e16  | e=8 d c b                               |  R2 |  R2 |   % rh lh
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+R2 | e'8 8 8. 16 | % hpL hpR
+R2 | R2 | R2 | e,8 d, c, b,, | e,8-.^pizz d,-. c,-. b,,-. |  % vn vII va vc cb 
+R2 |  R2 |  R2 |  R2 | R2 | R2 |  % I II III IV V VI
 
 %bn551
 bes4 r8 g  | \lyricmode {care! I }                   |
 <fis, ais cis e>4 r  | bes4-> r                                |  R2 |  R2 |   % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+<c a ees'>2~\> |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | bes2 | % hpL hpR
+R2 | R2 | <c' ges' c''>2 | <bes,, ges>2 | ges,,4-. r |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn552
 cis4 a8 ees  | \lyricmode {speak and you }             |
 R2  | R2                                      |  R2 |  R2 |   % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+ 2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
@@ -5981,374 +5979,384 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 %bn553
 \time 5/8 ees8 f g8~ f16 a16 b8  | \lyricmode {lis -- ten to the wind... } |
 r4. r4  | ees8 f g a b \breathe                   |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+r4. r8 <ees' g' b'>8~\> | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+r4.\! r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 r4. r4 | r4. r4 | % hpL hpR
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn554
-\time 2/4 \instrumentSwitch "Rooney"
-b=2 \breathe d8 c bes8. g16  | \lyricmode {no no I am a -- }               |
-<c e g b>2\arpeggio <ees g bes d>\arpeggio  | R2 R2                                       |  R2 |  R2 |   % split this bar and next % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn555
-e'4~ \times 2/3 {e8 c a } g'2  | \lyricmode {gog tell me all, }             |
-<fis a c e>\arpeggio <a c ees g>\arpeggio^"?" | R2 R2  |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn556
-%%%%%%%%%%%%%% Transpose to D %%%%%%%%%
-\time 5/8 \rit e,8\start f g r\stop \tEE b| \lyricmode {then we shall press }  |
-r4. r8 << <gis b>( \\  e>>  | <<{<c= e>8( <d f> <e g>)} \\ {bes4. r8 gis8}>>                      |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn557
-\hiddenTempo 60 % DUMMY
-\time 2/4 c8 b a g  | \lyricmode {on and ne -- ver }              | %check all these MMs!!
-<< <a c>4 \\ e >>  r  | <<{a8( b c cis}\\ a2>>  |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn558
-\tEE d'4 c8 a e'4 d8 b | \lyricmode {pause ne -- ver pause till we } |
-<f a d>2 <g c e>  | << d2) \\ {f,4( fis}>> <<g'2( \\ {g,8) r4.} >>    |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn559
-fis4 gis8 ais cis4. b8 | \lyricmode {come safe to ha -- ven } |
-R2 R2  | <<{fis=4. e8 dis2)} \\ {r2 b2 }>> |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn560
-%%%%%%%%%%%%% End Transpose %%%%%%%%%%%%
-\instrumentSwitch "Dan"
-
-\time 7/8 aes=4. d,8 bes'4 r8 | \lyricmode {ne -- ver pause?} |
-R2 R4. | aes4 d,\lv bes'4 r8  |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn
-r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn
-r2 r4. | r2 r4. | r2 r4. | % tym perc fol
-r2 r4. | r2 r4. | % hpL hpR
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |  % vn vII va vc cb 
-r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I II III IV V VI
-
-%bn561
-\time 2/4 bes4. e,8 | \lyricmode {safe to } |
-R2 |  bes4 e,\lv |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn562
-\time 3/4 d'4 e, fis8 gis | \lyricmode {ha -- ven? do you  } |
-R2.  | d4 e2  |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
-
-%bn563
-\time 4/4 ais=4 d,8 c g' f f a | \lyricmode {know, Mad -- dy some -- times one would } |
-r2 r2 |<fis d'>4 r d2~ |  R1 |  R1 |  % 2 bars in one % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
-R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
-R1 | R1 | % hpL hpR
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
-R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
-
-%bn564
-\time 2/4 b4 f8 ees | \lyricmode {think you were } |
-\absolute <d f g b>4\arpeggio r4 | R2|  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn565
-\time 5/8 \tEE c'8 g aes e aes | \lyricmode {strug -- gl -- ing with a } |
-r4. r4 | ees4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn566
-%was dQQ
-\time 6/8 \dottedQuarterTiedToQuarterEqualsDottedQuarter \modTempo #3 #5  cis4. c4 bes8 | \lyricmode {dead lan -- guage } |
-<e cis'>4.\arpeggio << {c'4( bes8)}\\ ees,4.>> | <e cis'>4.\arpeggio << {c'4( bes8)}\\ ees,4.>> |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
-
-%bn567
-\time 2/4 \instrumentSwitch "Rooney" a=4^"mm?" r8 a | \lyricmode {yes in -- } | % TODO range
-a4. a8 | << {a4( g}\\a,2 >> |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn568
-\time 3/4 d4 d,8 d d fis | \lyricmode {deed Dan, I know full  } |
-<d, fis a d>4\arpeggio r2 | << fis'4)\\ s>>  r2 |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
-
-%bn569
-\time 7/8 \tEE \set Timing.beatStructure = #'(4 3) g4 d8 b g4 g'8 | \lyricmode {well what you } |
-r2 r4. |r2 r4. |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn
-r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn
-r2 r4. | r2 r4. | r2 r4. | % tym perc fol
-r2 r4. | r2 r4. | % hpL hpR
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |  % vn vII va vc cb 
-r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I II III IV V VI
-
-%bn570
-\time 3/4 \dQQ c8 g16 r e8 d16 r d8 c16 r | \lyricmode {mean, I of -- ten have that fee -- ling } |
-R2. | R2. |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
-
-%bn571
-\time 3/2 \tEE r8 b ees g b g ees g ees' b g ees | \lyricmode {it is in -- cre -- di -- bly ex -- cru -- ci -- a -- ting } |
-R1. | R1. |  R1. |  R1. |  % rh lh kbR kbL
-R1. | R1. | R1. | R1. | % fl ob kl bn
-R1. |  R1. |  R1. | % hn tpt  tn
-R1. | R1. | R1. | % tym perc fol
-R1. | R1. | % hpL hpR
-R1. | R1. | R1. | R1. | R1. |  % vn vII va vc cb 
-R1. |  R1. |  R1. |  R1. |  R1. |  R1. |  % I II III IV V VI
-
-%bn572
-\instrumentSwitch "Dan" \time 9/8 \EE bes4 ces8 bes4 aes8 g4 aes8 | \lyricmode {I con-- fess I have it } |
-bes=4 ces8 bes4 aes8 g4 aes8 | \times 3/2 { bes8 ces} \times 3/2 {bes aes} \times 3/2 {g aes}|  r4. r r |  r4. r r |  % rh lh kbR kbL
-r4. r r | r4. r r | r4. r r | r4. r r | % fl ob kl bn
-r4. r r |  r4. r r |  r4. r r | % hn tpt  tn
-r4. r r | r4. r r | r4. r r | % tym perc fol
-r4. r r | r4. r r | % hpL hpR
-r4. r r | r4. r r | r4. r r | r4. r r | r4. r r |  % vn vII va vc cb 
-r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I II III IV V VI
-
-%bn573
-\time 2/4 \EE f8 g aes bes | \lyricmode {some -- times my -- self } |
-R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn574
-\time 6/8 c4 bes8 aes bes c | \lyricmode {when I hap -- pen to } |
-R2. | R2. |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
-
-%bn575
-\time 3/4 \dQQ r8 d16 c aes bes c d  ees8 ees,  | \lyricmode {o -- ver -- hear what  I am say -- ing } |
-r2 <g=~ bes~ ees>4  | c4~ c16 bes8.  ees,4                                 |  R2. |  R2. |   % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
-R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
-R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
-
-%bn576
-\dQQ \time 5/8 \instrumentSwitch "Rooney"  e='4 g,8 c4 | \lyricmode {well, you know }  |
-<g~ bes e~>4. <g c e>4  | r4. r4                                  |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn577
-\time 3/8 \dEQ f,8 g a  | \lyricmode {it will be }                |
-r4.  | r4.                                     |  R4. |  R4. |   % rh lh kbR kbL
-R4. | R4. | R4. | R4. | % fl ob kl bn
-R4. |  R4. |  R4. | % hn tpt  tn
-R4. | R4. | R4. | % tym perc fol
-R4. | R4. | % hpL hpR
-R4. | R4. | R4. | R4. | R4. |  % vn vII va vc cb 
-R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I II III IV V VI
-
-%bn578
-\time 5/8 b4 g8 cis4  | \lyricmode {dead in time }              |
-r4. r4  | <<{f4.~ f4} \\ {r4. d4\laissezVibrer}>> |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn579
-\QdE  cis8 b gis e gis  | \lyricmode {just like our poor dear }   |
-r4. r4  | r4. <e b'>4                             |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn580
-\time 2/4 gis8 fis gis ais  | \lyricmode {Gae -- lic there is }       |
-gis='8 fis gis e  | <fis cis'>2                             |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn581
-b8 fis16  dis b8 r  | \lyricmode {that to be said }           |
-dis8 r4.  | b,2                                     |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn582
-\time 5/8 r4 \instrumentSwitch "Dan" gis8 f' r  | \lyricmode {Good God! }                                    |
-\repeat tremolo 4 {c='32^"baah" d} r4.  | \clef treble \repeat tremolo 4 {fis=''32 a} r4.            |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn583
-\instrumentSwitch "Rooney" \time 2/4 r4 a'='8 e | \lyricmode {oh the }  |
-R2  | \clef bass a=,4 cis                                                     |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn584
-e16 d fis d cis8. b16  | \lyricmode {pret -- ty lit -- tle woo -- ly }              |
-R2  | << {fis16( gis a b) a8( gis)  } \\  {b,4 e8(  f)}>>      |  R2 |  R2 |   % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn585
-\time 5/8 a4 \times 2/3 {a4 gis8} fis | \lyricmode {lamb cry -- ing to } |
-r4 r4. | fis4 dis4. |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
-r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
-r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
-r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
-
-%bn586
-\time 2/4 cis'8 gis dis eis | \lyricmode {suck its mo -- ther } |
-R2 |eis2|  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn587
-r8 a e d | \lyricmode {theirs has not } |
-R2 | e!2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
-
-%bn588
-\tEE cis4. b8 | \lyricmode {changed since } |
-r4 fis( | d2~ |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn554
+%\time 2/4 \instrumentSwitch "Rooney"
+%b=2 \breathe d8 c bes8. g16  | \lyricmode {no no I am a -- }               |
+%<c e g b>2\arpeggio <ees g bes d>\arpeggio  | R2 R2                                       |  R2 |  R2 |   % split this bar and next % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn555
+%e'4~ \times 2/3 {e8 c a } g'2  | \lyricmode {gog tell me all, }             |
+%<fis a c e>\arpeggio <a c ees g>\arpeggio^"?" | R2 R2  |  R2 |  R2 |   % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn556
+%%%%%%%%%%%%%%% Transpose to D %%%%%%%%%
+%\time 5/8 \rit e,8\start f g r\stop \tEE b| \lyricmode {then we shall press }  |
+%r4. r8 << <gis b>( \\  e>>  | <<{<c= e>8( <d f> <e g>)} \\ {bes4. r8 gis8}>>                      |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+%r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+%r4. r4 | r4. r4 | r4. r4 | % tym perc fol
+%r4. r4 | r4. r4 | % hpL hpR
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+%r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+%
+%%bn557
+%\hiddenTempo 60 % DUMMY
+%\time 2/4 c8 b a g  | \lyricmode {on and ne -- ver }              | %check all these MMs!!
+%<< <a c>4 \\ e >>  r  | <<{a8( b c cis}\\ a2>>  |  R2 |  R2 |   % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn558
+%\tEE d'4 c8 a e'4 d8 b | \lyricmode {pause ne -- ver pause till we } |
+%<f a d>2 <g c e>  | << d2) \\ {f,4( fis}>> <<g'2( \\ {g,8) r4.} >>    |  R2 |  R2 |   % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn559
+%fis4 gis8 ais cis4. b8 | \lyricmode {come safe to ha -- ven } |
+%R2 R2  | <<{fis=4. e8 dis2)} \\ {r2 b2 }>> |  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn560
+%%%%%%%%%%%%%% End Transpose %%%%%%%%%%%%
+%\instrumentSwitch "Dan"
+%
+%\time 7/8 aes=4. d,8 bes'4 r8 | \lyricmode {ne -- ver pause?} |
+%R2 R4. | aes4 d,\lv bes'4 r8  |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
+%r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn
+%r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn
+%r2 r4. | r2 r4. | r2 r4. | % tym perc fol
+%r2 r4. | r2 r4. | % hpL hpR
+%r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |  % vn vII va vc cb 
+%r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I II III IV V VI
+%
+%%bn561
+%\time 2/4 bes4. e,8 | \lyricmode {safe to } |
+%R2 |  bes4 e,\lv |  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn562
+%\time 3/4 d'4 e, fis8 gis | \lyricmode {ha -- ven? do you  } |
+%R2.  | d4 e2  |  R2. |  R2. |  % rh lh kbR kbL
+%R2. | R2. | R2. | R2. | % fl ob kl bn
+%R2. |  R2. |  R2. | % hn tpt  tn
+%R2. | R2. | R2. | % tym perc fol
+%R2. | R2. | % hpL hpR
+%R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+%R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+%
+%%bn563
+%\time 4/4 ais=4 d,8 c g' f f a | \lyricmode {know, Mad -- dy some -- times one would } |
+%r2 r2 |<fis d'>4 r d2~ |  R1 |  R1 |  % 2 bars in one % rh lh kbR kbL
+%R1 | R1 | R1 | R1 | % fl ob kl bn
+%R1 |  R1 |  R1 | % hn tpt  tn
+%R1 | R1 | R1 | % tym perc fol
+%R1 | R1 | % hpL hpR
+%R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+%R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
+%
+%%bn564
+%\time 2/4 b4 f8 ees | \lyricmode {think you were } |
+%\absolute <d f g b>4\arpeggio r4 | R2|  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn565
+%\time 5/8 \tEE c'8 g aes e aes | \lyricmode {strug -- gl -- ing with a } |
+%r4. r4 | ees4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+%r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+%r4. r4 | r4. r4 | r4. r4 | % tym perc fol
+%r4. r4 | r4. r4 | % hpL hpR
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+%r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+%
+%%bn566
+%%was dQQ
+%\time 6/8 \dottedQuarterTiedToQuarterEqualsDottedQuarter \modTempo #3 #5  cis4. c4 bes8 | \lyricmode {dead lan -- guage } |
+%<e cis'>4.\arpeggio << {c'4( bes8)}\\ ees,4.>> | <e cis'>4.\arpeggio << {c'4( bes8)}\\ ees,4.>> |  R2. |  R2. |  % rh lh kbR kbL
+%R2. | R2. | R2. | R2. | % fl ob kl bn
+%R2. |  R2. |  R2. | % hn tpt  tn
+%R2. | R2. | R2. | % tym perc fol
+%R2. | R2. | % hpL hpR
+%R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+%R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+%
+%%bn567
+%\time 2/4 \instrumentSwitch "Rooney" a=4^"mm?" r8 a | \lyricmode {yes in -- } | % TODO range
+%a4. a8 | << {a4( g}\\a,2 >> |  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn568
+%\time 3/4 d4 d,8 d d fis | \lyricmode {deed Dan, I know full  } |
+%<d, fis a d>4\arpeggio r2 | << fis'4)\\ s>>  r2 |  R2. |  R2. |  % rh lh kbR kbL
+%R2. | R2. | R2. | R2. | % fl ob kl bn
+%R2. |  R2. |  R2. | % hn tpt  tn
+%R2. | R2. | R2. | % tym perc fol
+%R2. | R2. | % hpL hpR
+%R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+%R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+%
+%%bn569
+%\time 7/8 \tEE \set Timing.beatStructure = #'(4 3) g4 d8 b g4 g'8 | \lyricmode {well what you } |
+%r2 r4. |r2 r4. |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
+%r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn
+%r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn
+%r2 r4. | r2 r4. | r2 r4. | % tym perc fol
+%r2 r4. | r2 r4. | % hpL hpR
+%r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |  % vn vII va vc cb 
+%r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I II III IV V VI
+%
+%%bn570
+%\time 3/4 \dQQ c8 g16 r e8 d16 r d8 c16 r | \lyricmode {mean, I of -- ten have that fee -- ling } |
+%R2. | R2. |  R2. |  R2. |  % rh lh kbR kbL
+%R2. | R2. | R2. | R2. | % fl ob kl bn
+%R2. |  R2. |  R2. | % hn tpt  tn
+%R2. | R2. | R2. | % tym perc fol
+%R2. | R2. | % hpL hpR
+%R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+%R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+%
+%%bn571
+%\time 3/2 \tEE r8 b ees g b g ees g ees' b g ees | \lyricmode {it is in -- cre -- di -- bly ex -- cru -- ci -- a -- ting } |
+%R1. | R1. |  R1. |  R1. |  % rh lh kbR kbL
+%R1. | R1. | R1. | R1. | % fl ob kl bn
+%R1. |  R1. |  R1. | % hn tpt  tn
+%R1. | R1. | R1. | % tym perc fol
+%R1. | R1. | % hpL hpR
+%R1. | R1. | R1. | R1. | R1. |  % vn vII va vc cb 
+%R1. |  R1. |  R1. |  R1. |  R1. |  R1. |  % I II III IV V VI
+%
+%%bn572
+%\instrumentSwitch "Dan" \time 9/8 \EE bes4 ces8 bes4 aes8 g4 aes8 | \lyricmode {I con-- fess I have it } |
+%bes=4 ces8 bes4 aes8 g4 aes8 | \times 3/2 { bes8 ces} \times 3/2 {bes aes} \times 3/2 {g aes}|  r4. r r |  r4. r r |  % rh lh kbR kbL
+%r4. r r | r4. r r | r4. r r | r4. r r | % fl ob kl bn
+%r4. r r |  r4. r r |  r4. r r | % hn tpt  tn
+%r4. r r | r4. r r | r4. r r | % tym perc fol
+%r4. r r | r4. r r | % hpL hpR
+%r4. r r | r4. r r | r4. r r | r4. r r | r4. r r |  % vn vII va vc cb 
+%r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  r4. r r |  % I II III IV V VI
+%
+%%bn573
+%\time 2/4 \EE f8 g aes bes | \lyricmode {some -- times my -- self } |
+%R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn574
+%\time 6/8 c4 bes8 aes bes c | \lyricmode {when I hap -- pen to } |
+%R2. | R2. |  R2. |  R2. |  % rh lh kbR kbL
+%R2. | R2. | R2. | R2. | % fl ob kl bn
+%R2. |  R2. |  R2. | % hn tpt  tn
+%R2. | R2. | R2. | % tym perc fol
+%R2. | R2. | % hpL hpR
+%R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+%R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+%
+%%bn575
+%\time 3/4 \dQQ r8 d16 c aes bes c d  ees8 ees,  | \lyricmode {o -- ver -- hear what  I am say -- ing } |
+%r2 <g=~ bes~ ees>4  | c4~ c16 bes8.  ees,4                                 |  R2. |  R2. |   % rh lh kbR kbL
+%R2. | R2. | R2. | R2. | % fl ob kl bn
+%R2. |  R2. |  R2. | % hn tpt  tn
+%R2. | R2. | R2. | % tym perc fol
+%R2. | R2. | % hpL hpR
+%R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+%R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
+%
+%%bn576
+%\dQQ \time 5/8 \instrumentSwitch "Rooney"  e='4 g,8 c4 | \lyricmode {well, you know }  |
+%<g~ bes e~>4. <g c e>4  | r4. r4                                  |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+%r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+%r4. r4 | r4. r4 | r4. r4 | % tym perc fol
+%r4. r4 | r4. r4 | % hpL hpR
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+%r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+%
+%%bn577
+%\time 3/8 \dEQ f,8 g a  | \lyricmode {it will be }                |
+%r4.  | r4.                                     |  R4. |  R4. |   % rh lh kbR kbL
+%R4. | R4. | R4. | R4. | % fl ob kl bn
+%R4. |  R4. |  R4. | % hn tpt  tn
+%R4. | R4. | R4. | % tym perc fol
+%R4. | R4. | % hpL hpR
+%R4. | R4. | R4. | R4. | R4. |  % vn vII va vc cb 
+%R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I II III IV V VI
+%
+%%bn578
+%\time 5/8 b4 g8 cis4  | \lyricmode {dead in time }              |
+%r4. r4  | <<{f4.~ f4} \\ {r4. d4\laissezVibrer}>> |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+%r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+%r4. r4 | r4. r4 | r4. r4 | % tym perc fol
+%r4. r4 | r4. r4 | % hpL hpR
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+%r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+%
+%%bn579
+%\QdE  cis8 b gis e gis  | \lyricmode {just like our poor dear }   |
+%r4. r4  | r4. <e b'>4                             |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+%r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+%r4. r4 | r4. r4 | r4. r4 | % tym perc fol
+%r4. r4 | r4. r4 | % hpL hpR
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+%r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+%
+%%bn580
+%\time 2/4 gis8 fis gis ais  | \lyricmode {Gae -- lic there is }       |
+%gis='8 fis gis e  | <fis cis'>2                             |  R2 |  R2 |   % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn581
+%b8 fis16  dis b8 r  | \lyricmode {that to be said }           |
+%dis8 r4.  | b,2                                     |  R2 |  R2 |   % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn582
+%\time 5/8 r4 \instrumentSwitch "Dan" gis8 f' r  | \lyricmode {Good God! }                                    |
+%\repeat tremolo 4 {c='32^"baah" d} r4.  | \clef treble \repeat tremolo 4 {fis=''32 a} r4.            |  r4. r4 |  r4. r4 |   % rh lh kbR kbL
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+%r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+%r4. r4 | r4. r4 | r4. r4 | % tym perc fol
+%r4. r4 | r4. r4 | % hpL hpR
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+%r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+%
+%%bn583
+%\instrumentSwitch "Rooney" \time 2/4 r4 a'='8 e | \lyricmode {oh the }  |
+%R2  | \clef bass a=,4 cis                                                     |  R2 |  R2 |   % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn584
+%e16 d fis d cis8. b16  | \lyricmode {pret -- ty lit -- tle woo -- ly }              |
+%R2  | << {fis16( gis a b) a8( gis)  } \\  {b,4 e8(  f)}>>      |  R2 |  R2 |   % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn585
+%\time 5/8 a4 \times 2/3 {a4 gis8} fis | \lyricmode {lamb cry -- ing to } |
+%r4 r4. | fis4 dis4. |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+%r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
+%r4. r4 | r4. r4 | r4. r4 | % tym perc fol
+%r4. r4 | r4. r4 | % hpL hpR
+%r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+%r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
+%
+%%bn586
+%\time 2/4 cis'8 gis dis eis | \lyricmode {suck its mo -- ther } |
+%R2 |eis2|  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn587
+%r8 a e d | \lyricmode {theirs has not } |
+%R2 | e!2 |  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn588
+%\tEE cis4. b8 | \lyricmode {changed since } |
+%r4 fis( | d2~ |  R2 |  R2 |  % rh lh kbR kbL
+%R2 | R2 | R2 | R2 | % fl ob kl bn
+%R2 |  R2 |  R2 | % hn tpt  tn
+%R2 | R2 | R2 | % tym perc fol
+%R2 | R2 | % hpL hpR
+%R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+%R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+%
+%%bn589
+%\time 3/4 a'8 gis16 dis r8 \instrumentSwitch "Dan" b=,8 c8 b| \lyricmode {Ar -- ca -- dy. Where was I }  |
+%e4) r r4| d2 r4|  R2. |  R2. |  % rh lh kbR kbL
+%R2. | R2. | R2. | R2. | % fl ob kl bn
+%R2. |  R2. |  R2. | % hn tpt  tn
+%R2. | R2. | R2. | % tym perc fol
+%R2. | R2. | % hpL hpR
+%R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+%R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn589
-\time 3/4 a'8 gis16 dis r8 \instrumentSwitch "Dan" b=,8 c8 b| \lyricmode {Ar -- ca -- dy. Where was I }  |
+\time 3/4 \set Score.currentBarNumber = #591 \mark \default r4.  b=,8 c8 b| \lyricmode { Where was I }  |
 e4) r r4| d2 r4|  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
+4.\!  r8 r4 |  R2. | R2. | R2. | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
@@ -6370,9 +6378,9 @@ R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 <e gis c>8 e r4 | r4 f8 f, |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | <e'' aes'' c'''>2\arp | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | <e' aes' c''>4 f-.->^pizz| r4 f-. | r4. f,8-.->^pizz |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn592
@@ -6455,6 +6463,7 @@ R2. | R2. | % hpL hpR
 R2. | R2. | 2.~ | 2.~ |  bes,,2.~  |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
+%}
 %bn600
 \time 4/4 \times 2/3 {r4^"a tempo" f8} r8 f a4\fermata r | \lyricmode {not a sound } |
 R1 | bes2.. bes8~ |  R1 |  R1 |  % rh lh kbR kbL
@@ -6522,7 +6531,7 @@ R2 | R2 | 2~ | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-2~ | 2~ | R2 | 2~ | bes,,2~ |  % vn vII va vc cb 
+2~ | 2~ | R2 | bes,~ | bes,,2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn607
@@ -6532,44 +6541,44 @@ R2 | R2 |2~| R2 | % fl ob kl bn
 R2 |  R2 | r4 <f' ees''>~  | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-2 | 4 ees''~   | R2 |2~ |2~ |  % vn vII va vc cb 
+ 4 ees''~   | 2~ | R2 |2~ |2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn608
 \instrumentSwitch "Rooney" e16 g bes des g fis e d | \lyricmode {did you not spring up and put your } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | R2 | e16 g bes des'~4~ | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ 2 | 2 | r4 g16 fis e d | 2 | 2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn609
 \time 3/4 g16 fis e d \times 2/3 {gis4 b,8 } \instrumentSwitch "Dan" \times 2/3 {bes8 bes bes } | \lyricmode {head out of the win -- dow? what good would  } |
 R2. | R2. |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
+R2. | R2. | R2. | 4~ \times 2/3 {4 b8} r4 | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | g16 fis e d \times 2/3 {bes4 d8} r4  | 2.~ | 2.~ |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn610
 \time 7/16 \set Timing.beatStructure = #'(3 2 2 ) ees8. bes8 ees,  | \lyricmode {that do me? } |
 r8. r4 | r8. r4 | r8. r4 | r8. r4 |  % rh lh kbR kbL
-r8. r4 | r8. r4 | r8. r4 | r8. r4 | % fl ob kl bn
+r8. r4 | r8. r4 | r8. r4 | bes8.~4 | % fl ob kl bn
 r8. r4 | r8. r4 |  r8. r4 | % hn tpt  tn
 r8. r4 | r8. r4 | r8. r4 | % tym perc fol
 r8. r4 | r8. r4 | % hpL hpR
-r8. r4 | r8. r4 | r8. r4 | r8. r4 | r8. r4 |  % vn vII va vc cb 
+r8. r4 | r8. r4 | g8.~4 | 8.~4~ | 8.~4~ |  % vn vII va vc cb 
 r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  r8. r4  |  % I II III IV V VI
 
 %bn611
 \hiddenTempo 60 %DUMMY
 \instrumentSwitch "Rooney" \time 2/4 \tEE  d='4 cis8 b | \lyricmode {why to be } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | <d bes>2( | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
@@ -6579,11 +6588,11 @@ R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 %bn612
 \time 6/16 f'8 d16 e8 f16 | \lyricmode {told what was a -- } |
 R4. | R4. |  r8. r |  r8. r |  % rh lh kbR kbL
-r8. r | r8. r | r8. r | r8. r | % fl ob kl bn
+r8. r | r8. r | s128 \grace {ees16 e f} f4.*47/48)| r8. r | % fl ob kl bn
 r8. r |  r8. r |  r8. r | % hn tpt  tn
 r8. r | r8. r | r8. r | % tym perc fol
 r8. r | r8. r | % hpL hpR
-r8. r | r8. r | r8. r | r8. r | r8. r |  % vn vII va vc cb 
+r8. r | r8. r | r8. r | 4.~ | bes,,4.~ |  % vn vII va vc cb 
 r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  r8. r |  % I II III IV V VI
 
 %bn613
@@ -6593,127 +6602,127 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | R2 | 2~ | 2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn614
 \time 5/8 \tEE  a8 e cis a e | \lyricmode {care what was a -- miss } |
 r4. r4 | r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+r4. r4 | r4. r4 |e'4.~4 | <a cis'>4.~4  | % fl ob kl bn
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol
-r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+ <des,, des,>4.~4  | r4. r4 | % hpL hpR
+r4. r4 | r4. r4 | r4. r4 | 4.~4~ | 4.~4~ |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
 
 %bn615
 \time 2/4 a=2 | \lyricmode {no } |
 \clef bass <f= a>2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+R2 | R2 | 4. r8 | R2 | % fl ob kl bn
+ <f a>2  |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | <f a>2  | 2~ | 2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn616
 a8 g g c, | \lyricmode {I just sat on } |
 <f a>8( <d g>) <d g>( <c f>) | R2 |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+ <f a>8 <d g> q <c f>   |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | 2 | 2~| 2~|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn617
 ees8 \rit d\start\breathe bes' c\stop | \lyricmode {think -- ing if this } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+\clef bass  r4 d8 g | R2 | R2 | R2 | % fl ob kl bn
+ <bes, d>2  | <ees' f'>8~( <d' f'>) r4 | <f, f>2  | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+r4 bes'~ | r4 bes'8( c'' | <ees bes>8~( <d bes>8) bes(\f c' | 2~ | 2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn618
 \tEE d4. c8 | \lyricmode {train were } |
 << <f bes d>2\arpeggio \\ {bes,,8( f' d'4)}>> |  bes2~ |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+ bes2~ | R2 |\clef bass  f2~ | R2 | % fl ob kl bn
+ r8 \treble f' d''4~ |  R2 | <f, f>2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+<b,, b,>8( f d'4)  | <f' bes' d''>2 | % hpL hpR
+<bes' f'' bes''>2~ | d''4. c''8 | d'4. c'8 | 2~ | 2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn619
 \tEE \time 7/8 \set Timing.beatStructure = #'(2 2 3) ees4 d8  c bes4 a8  | \lyricmode {ne -- ver to move a -- } |
 << <g=~ bes ees>2\arpeggio \\ {g2~(  g8. f)} >>| bes2~ bes4.~ |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | % fl ob kl bn
-r2 r4. |  r2 r4. |  r2 r4. | % hn tpt  tn
+ <bes g'>2~ <f g'>4.~ | r2 r4. | 2 r4. | r2 r4. | % fl ob kl bn
+ d''4 c'' g'4.~ |  r2 r4. | <ees, ees>4 <d, d>8 <c, c> <bes,, bes,>4.     | % hn tpt  tn
 r2 r4. | r2 r4. | r2 r4. | % tym perc fol
-r2 r4. | r2 r4. | % hpL hpR
-r2 r4. | r2 r4. | r2 r4. | r2 r4. | r2 r4. |  % vn vII va vc cb 
+<f bes>2\arp  r8 f4 | <ees' bes' ees''>2\arp r4. | % hpL hpR
+<bes' g'' bes''>2~4. | <g' g''>2~4.  | ees'4 d'8 c' bes4 a8~ | 2~4.~ | 2~4.~ |  % vn vII va vc cb 
 r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I II III IV V VI
 
 %bn620
 \tEE \time 3/4 c8 c bes a  \times 2/3 {g4 d8} | \lyricmode {gain I would not great -- ly } |
 r2 r8 d8( | bes2.~ |  R2. |  R2. |  % rh lh kbR kbL
-R2. | R2. | R2. | R2. | % fl ob kl bn
-R2. |  R2. |  R2. | % hn tpt  tn
+ f'2 g'8 d' | R2. | r2 r8 d | R2. | % fl ob kl bn
+ g'2~8 f'8 |  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
-R2. | R2. | % hpL hpR
-R2. | R2. | R2. | R2. | R2. |  % vn vII va vc cb 
+c'2~8 d | <a' a''>2. | % hpL hpR
+< a' f'' c'''>2.  | <f' f''>2~8 <d' d''>  | a4 bes8 a g d | bes,2.~ |  2.~ |  % vn vII va vc cb 
 R2. |  R2. |  R2. |  R2. |  R2. |  R2. |  % I II III IV V VI
 
 %bn621
 \time 2/4 a'2 | \lyricmode {mind } |
 c2) | bes2~ |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
-R2 |  R2 |  R2 | % hn tpt  tn
+ a'2 | R2 | <c, a>4 r  | R2 | % fl ob kl bn
+ f'4. r8 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ a2 | <g' g''>2  | % hpL hpR
+ <f' f'' d'''> 4 r | <f' f''>2  | c2~ | 2~ | 2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn622
 \time 8/8 \QdQ aes4. b8 a gis] r b| \lyricmode {then grad -- ua -- ly a } |
 R1 |bes2. bes4~ |  R1 |  R1 |  % rh lh kbR kbL
-R1 | R1 | R1 | R1 | % fl ob kl bn
+R1 | R1 | <aes aes'>4.~ <aes b aes'>~ 4~  | R1 | % fl ob kl bn
 R1 |  R1 |  R1 | % hn tpt  tn
-R1 | R1 | R1 | % tym perc fol
+R1 | aes1 | R1 | % tym perc fol
 R1 | R1 | % hpL hpR
-R1 | R1 | R1 | R1 | R1 |  % vn vII va vc cb 
+ r4 b2.~ | R1 | c1~ | 1~ | 1~ |  % vn vII va vc cb 
 R1 |  R1 |  R1 |  R1 |  R1 |  R1 |  % I II III IV V VI
 
 %bn623
 \time 5/8 f4 g8 d4 | \lyricmode { how you say } |
 r4. r4 | r4. r4 |  r4. r4 |  r4. r4 |  % rh lh kbR kbL
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn
+r4. r4 | r4. r4 | <aes b aes'>4.~ 4~ | <d f g>4.~4~ | % fl ob kl bn
 r4. r4 |  r4. r4 |  r4. r4 | % hn tpt  tn
 r4. r4 | r4. r4 | r4. r4 | % tym perc fol
 r4. r4 | r4. r4 | % hpL hpR
-r4. r4 | r4. r4 | r4. r4 | r4. r4 | r4. r4 |  % vn vII va vc cb 
+ b'4.~4 | r4. r4 | c4. r4 | 4.~4~ | 4.~4~ |  % vn vII va vc cb 
 r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  r4. r4 |  % I II III IV V VI
 
 %bn624
 \time 2/4 \dQQ cis'4 b8 ais | \lyricmode {grow -- ing de -- } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
-R2 | R2 | R2 | R2 | % fl ob kl bn
+R2 | R2 | 2 | f2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | des'2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ des''2~ | R2 | R2 | 2~ | 2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn625
 \time 3/8 e'4 dis8 | \lyricmode {sire to } |
 R4. | R4. |  R4. |  R4. |  % rh lh kbR kbL
-R4. | R4. | R4. | R4. | % fl ob kl bn
+ \treble e'4 ees'8 | R4. | R4. | R4. | % fl ob kl bn
 R4. |  R4. |  R4. | % hn tpt  tn
-R4. | R4. | R4. | % tym perc fol
+R4. | <bes' c''>4.~ | R4. | % tym perc fol
 R4. | R4. | % hpL hpR
-R4. | R4. | R4. | R4. | R4. |  % vn vII va vc cb 
+ 4 r8 | R4. | R4. | 4.~ | 4.~ |  % vn vII va vc cb 
 R4. |  R4. |  R4. |  R4. |  R4. |  R4. |  % I II III IV V VI
 
 %bn626
@@ -6726,6 +6735,7 @@ R2 | R2 | % hpL hpR
 R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
+%{
 %bn627
 \times 2/3 {c'4\< d e } | \lyricmode {welled up in -- } |
 R2 | R2 |  R2 |  R2 |  % rh lh kbR kbL
