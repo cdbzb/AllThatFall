@@ -4,7 +4,7 @@
 
 \markup "Legend"
 
-\new Staff { \clef percussion \set Staff.middleCposition = #-6
+\new Staff { \clef treble \set Staff.middleCposition = #6
   \instrumentSwitch "perc"
 	\triangle f''_"triangle"
 	\cross f''^"crash"
