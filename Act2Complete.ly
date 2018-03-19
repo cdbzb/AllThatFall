@@ -7317,7 +7317,7 @@ d4 cis8 gis  | \lyricmode {strange and un -- } |
 a=8 e' cis f | R2 |  R2 |  R2 |  % rh lh   kbR kbL
 R2 | R2 | <<e''2\\{a8( e' cis' f')}>>| R2 | % fl ob kl bn
 R2 | R2 | R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
+R2 | R2 |2~| % tym perc fol
 R2 | R2 | % hpL hpR
 R2 | R2 | a8( e'4 f'8 | R2 |2~ |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III IV V VI
@@ -7388,19 +7388,18 @@ R2 | dis8 e fis dis |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 | R2 | R2 | % hn tpt  tn
 R2 |  R2 |2~| % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+ r4. dis8 | r4 \times 2/3 {r4 dis'8}| % hpL hpR
+R2 | R2 | R2 | R2 | dis,8-.^pizz e,-. fis,-. dis,-. |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III IV V VI
 
-%{
 %bn692
 <c ees>4. d8 | \lyricmode {bliged to } |
 << {a='4. gis8} \\ <c=' ees ges> >> | c4 b~ |  R2 |  R2 |  % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 | R2 | R2 | % hn tpt  tn
-R2 | R2 | R2 | % tym perc fol
-R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | 2~ | % tym perc fol
+<c fis a>2\arp | <c' fis' a'>2\arp | % hpL hpR
+R2 | R2 | R2 | R2 | c4 b,~  |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III IV V VI
 
 %bn693
@@ -7410,7 +7409,7 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 | R2 | R2 | % hn tpt  tn
 R2 |  R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | R2 | R2 |  % vn vII va vc cb 
+R2 | R2 | R2 | R2 | \times 2/3 {4 r a, }|  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III IV V VI
 
 %bn694
@@ -7423,6 +7422,7 @@ R1. | R1. | % hpL hpR
 R1. | R1. | R1. | R1. | R1. |  % vn vII va vc cb 
 R1. |  R1. |  R1. |  R1. |  R1. |  R1. |   % I II III IV V VI
 
+%{
 %bn695
 \time  7/4
 e2) c4 g2 b4 a | \lyricmode {with her he said } |
