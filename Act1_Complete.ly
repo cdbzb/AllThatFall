@@ -7451,7 +7451,6 @@ R4. | R4. | % hpL hpR
 R4. | R4. | R4. |\times 3/4 {gis8( g) g( fis)}|\times 3/4 {gis,8( g,) g,( fis,)}| % vn vII va vc cb 
 \Q #"kl" { s4. }| \Q #"ob" { s4. }| \Q #"hn" { s4. }| \Q #"va" { s4. }| \Q #"cb" { s4. }| \Q #"vc" { s4. }| % I II III IV V VI 
 
-%}
 %bn685
 \dEQ \time 2/4 b=,4 r8 \times 2/3 {r16 b b } | \lyricmode{oh, Miss -- es } | 
 R2 | R2 | R2 | R2 | % rh lh kbR kbL 
@@ -11048,6 +11047,7 @@ r4. e''8~ <e'' b'>4 | f'4.^mute\pp e'| r8 c''8~ < c'' g'>4. fis'8~^arc | R2. |<<
 %parts: va % fl % vn % rest % vII % rest
 
 
+%}
  %bn991
 \time 7/8 \set Timing.beatStructure = #'(2 3 2) des'8^"a tempo" bes16 d \rit r4.\start r4 |\lyricmode{slugs do it! }|
 <f' bes des>4\arpeggio r4. r4 | r4 r4. r4 | r4 r4. r4 | r4 r4. r4 | % rh lh kbR kbL 
@@ -11070,11 +11070,12 @@ R4. | R4. | 4. | R4. | % fl ob kl bn
 R4. | R4. | R4. | % tym perc fol 
 R4. | R4. | % hpL hpR 
 R4. | R4. |<c, g,>4.:32~\mp | <c, c>4.:32~\mp | c,,4.:32~ | % vn vII va vc cb 
-R4. | R4. | R4. | R4. | R4. | R4. | % I II III IV V VI 
+\Q #"kl" { s4. }| \Q #"fl" { s4. }| \instrumentSwitch "hn" \Q #"hn" {s4. }| \Q #"va" {\clef bass  s4. }| \instrumentSwitch "cb" \Q #"cb" {s4. }| \Q #"vc" { s4. } | % I II III IV V VI 
+%parts: kl % rest % hn % va % cb % vc
 
 
  %bn994
-\time 4/4 R1 | |
+time 3/8 R4.\stop  s4. | |
 c'8( b16 a g8 a16 f) \times 2/3 {fis'4( g8} \times 2/3 {fis4 g8)}| <c\> c'>1 |c'8( b16 a g8 a16 f) \times 2/3 {fis'4( g8} \times 2/3 {fis4 g8)}| R1 | % rh lh kbR kbL 
 R1 | R1 | e''8( d''16 c'' b'4) r2 | R1 | % fl ob kl bn 
  8. c16 c4 r2 | R1 | R1 | % hn tpt tn 
