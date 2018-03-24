@@ -11045,6 +11045,7 @@ r4. e''8~ <e'' b'>4 | f'4.^mute\pp e'| r8 c''8~ < c'' g'>4. fis'8~^arc | R2. |<<
 %Error: no solution found. Returning best guess.
 %parts: va % fl % vn % rest % vII % rest
 
+%}
 
  %bn991
 \time 7/8 \set Timing.beatStructure = #'(2 3 2) des'8^"a tempo" bes16 d \rit r4.\start r4 |\lyricmode{slugs do it! }|
@@ -11059,7 +11060,6 @@ r4 r4. r4 | r4 <bes' bes''>8 <f' f''> <c' c''> <g' g''>4 | % hpL hpR
 %parts: kl % tn or tpt % vn % va % rest % vc
 
 
-%}
 
  %bn993
  \set Score.currentBarNumber = #1000
@@ -11218,7 +11218,7 @@ R2 | R2 | R2 | R2 | % fl ob kl bn
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
 a'2( | e''2 | 2 |  a,2)\stopTrillSpan | R2 | % vn vII va vc cb 
- \Q #"vn" {\clef bass s2 }| R2 | \Q #"hn" {s2 }| \Q #"va" { s2 }|  \Q #"vII" { s2 }| \Q #"vc" { s2 } | % I II III IV V VI 
+ \Q #"vn" { s2 }| R2 | \Q #"hn" {s2 }| \Q #"va" { s2 }|  \Q #"vII" { s2 }| \Q #"vc" { s2 } | % I II III IV V VI 
 %parts: vn % ob % hn % va % vII % vc
 %parts: vn % vII % hn % va % rest % vc
 
