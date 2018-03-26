@@ -7341,7 +7341,9 @@ R2 | R2 | R4.. | % tym perc fol
 R2 | R2 | R2 | R2 | ees2| % vn vII va vc cb 
  \Q #"tn" { s2 }|\Q #"fl" { s2 }| \Q #"bn" { s2 }| \Q #"vn" { s2 }| \Q #"cb" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 
+%}
 %bn674
+\set Score.currentBarNumber = #680
 \tQQ \doubleBar \time 3/4 g4 r4 \instrumentSwitch"Rooney" ees=8 g |\lyricmode{there am I }|
 R2. | g'2.\!\p | R2. | R2. | % rh lh kbR kbL 
  <fis' b'>2.\p | R2. | R2. | R2. | % fl ob kl bn 
@@ -7492,7 +7494,7 @@ R2 | \grace {ges8-.} ees2\glissando\> | ees'16 d' c' bes aes g f ees | R2 | R2 |
 \Q #"kl" { s2 }| \Q #"fl" { s2 }| R2 | \Q #"va" { s2 }| \Q #"ob" { s2 }| \grace {ges8-.} ees2\glissando\> | % I II III IV V VI 
 
 %bn689
-\time 1/4 g=,8 a | \lyricmode{ who was } | 
+\time 1/4 g=8 a | \lyricmode{ who was } | 
 r4 | <d d'>4 | R4 | R4 | % rh lh kbR kbL 
 R4 | R4 | R4 | R4 | % fl ob kl bn 
 R4 | R4 | R4 | % hn tpt tn 
@@ -8585,7 +8587,7 @@ r2 <fis' a' d''>4 | r2 <a'' d'''>4:32~\p | r2 <d a>4~ | R2. | R2. | % vn vII va 
 \instrumentSwitch "tn" \Q #"tn" {s2.}| \instrumentSwitch "vn" \Q #"vn" {s2. }| \instrumentSwitch "hn" \Q #"hn" {s2. }|\Q #"va" {\clef bass s2. }| \instrumentSwitch "vn" \Q #"vII" {s2. }|\Q #"vc" {s2. }| % I II III IV V VI 
 
 %bn794
-\tEE \time 5/8 \set Timing.beatStructure = #'(3 2) f,8 r f g a | \lyricmode {Maam? I have my } |
+\tEE \time 5/8 \set Timing.beatStructure = #'(3 2) f8 r f g a | \lyricmode {Maam? I have my } |
 r4 r4. |f8 r r4. | r4. r4 | r4. r4 | % rh lh kbR kbL 
 r4. r4 | r4. r4 | r4. r4 | r4. r4 | % fl ob kl bn 
 r4. r4 | r4. r4 | q4.~ q4 | % hn tpt tn 
@@ -8606,11 +8608,7 @@ R2. | q4\! r2 | q4\! r2 | R2. | b,4. cis, | % vn vII va vc cb
 %parts: tn or tpt | vII | hn | va | cb | rest
 
 
-
-
-
-
-
+ %{
 %bn795 
 \time 4/4 
 \tempo "still" R1| |
@@ -11045,7 +11043,6 @@ r4. e''8~ <e'' b'>4 | f'4.^mute\pp e'| r8 c''8~ < c'' g'>4. fis'8~^arc | R2. |<<
 %Error: no solution found. Returning best guess.
 %parts: va % fl % vn % rest % vII % rest
 
-%}
 
  %bn991
 \time 7/8 \set Timing.beatStructure = #'(2 3 2) des'8^"a tempo" bes16 d \rit r4.\start r4 |\lyricmode{slugs do it! }|
@@ -11733,7 +11730,6 @@ R2. | R2. | % hpL hpR
 R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb 
   \Q #"kl" { s2. }|  \Q #"ob" { s2. }|  \Q #"bn" { s2. }|  \Q #"fl" { s2. }|  \Q #"cb" { s2. }|\Q #"vc" { s2. }| % I II III IV V VI 
 
- %{
 %bn1048
 %}
 
