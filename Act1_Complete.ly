@@ -6357,15 +6357,18 @@ r4. r r | r4. r r | % hpL hpR
 r4. r r | r4. r r | r4. r r | r4. r r | r4. r r | % vn vII va vc cb 
  \Q #"kl" { s4. s s }| \Q #"fl" { s4. s s }| \Q #"hn" { s4. s s }| \Q #"va" { s4. s s }| \Q #"bn" { s4. s s }| \Q #"vc" { s4. s s }| % I II III IV V VI 
 
+%}
 %bn578
+\set Score.currentBarNumber = #585
 \time 2/4 b4 ais8 gis | \lyricmode {Sun -- day she } |
 <ees aes b>2\p | <ges ges'>2 | R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | <dis~ gis>2\p | dis2~ | R2 | % vn vII va vc cb 
- \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"hn" { s2 }| \Q #"va" { s2 }| \Q #"bn" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+ fis,2\p | R2 | % hpL hpR 
+R2 | R2 | <dis~ gis>2\p | dis2~ | fis,2~\p^mutes | % vn vII va vc cb 
+ \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"hn" { s2 }| \Q #"va" { s2 }| \instrumentSwitch "cb" \Q #"cb" {s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+%parts: va % rest % rest % rest % cb % vc
 
 %bn579
 fis4 gis8 ais | \lyricmode {ran like a } |
@@ -6373,9 +6376,9 @@ ges4 f8 des | <des des'>2 | R2 | R2 | % rh lh kbR kbL
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | <dis fis>2 | dis2 | R2 | % vn vII va vc cb 
- \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"hn" { s2 }| \Q #"va" { s2 }| \Q #"bn" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+ des,2 | R2 | % hpL hpR 
+R2 | R2 | <dis fis>2 | dis2 | cis,2 | % vn vII va vc cb 
+ \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"hn" { s2 }| \Q #"va" { s2 }|  \Q #"cb" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 
 %bn580
 <b e>4. b8^rit | \lyricmode {dream and } |
@@ -6383,9 +6386,10 @@ R2 | R2 | <dis fis>2 | dis2 | R2 | % vn vII va vc cb
 R2 | R2 | f2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-b2~\p^"mute" | <d~ g>2\p^"mute" | g2 | e2 | R2 | % vn vII va vc cb 
- \Q #"kl" {\clef bass s2 }| \Q #"fl" { s2 }| \instrumentSwitch "vn" \Q #"vn" {s2 }| \Q #"va" { s2 }| \instrumentSwitch "vn" \clef bass \Q #"vII" {s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+ c,?2 | R2 | % hpL hpR 
+b2~\p^"mute" | <d~ g>2\p^"mute" | g2 | e2 | c,?2 | % vn vII va vc cb 
+ \Q #"kl" {\clef bass s2 }| \instrumentSwitch "vn" \clef bass \Q #"vII" {s2 }| \instrumentSwitch "vn" \Q #"vn" {s2 }| \Q #"va" { s2 }|  \Q #"cb" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+%parts: kl % vn % vII % va % cb % vc
 
 %bn581
 b4 b8 b | \lyricmode {now she is } |
@@ -6393,9 +6397,10 @@ b4 b8 b | \lyricmode {now she is } |
 R2 | R2 |<d fis>2~ | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-b2~ | <d~ fis>2 |d2~ | fis2 | R2 | % vn vII va vc cb 
- \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"vn" { s2 }| \Q #"va" { s2 }| \Q #"vII" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+ a,,2 | R2 | % hpL hpR 
+b2~ | <d~ fis>2 |d2~ | fis2 | a,,2 | % vn vII va vc cb 
+ \Q #"kl" { s2 }|   \Q #"vII" { s2 }| \Q #"vn" { s2 }| \Q #"va" { s2 }|  \Q #"cb" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+%parts: kl % vn % vII % va % cb % vc
 
 %bn582
 b4 c'='8^"a tempo" g16 e | \lyricmode {dead. That's what you } |
@@ -6403,9 +6408,9 @@ R2 | g4\! c | R2 | R2 | % rh lh kbR kbL
 R2 | R2 | d4 e'8\mf c'16 g | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 |r4 <c' c''>4->| % hpL hpR 
-b4 r | <d g>4 r | d4 <e g>~ | g4 c~ | R2 | % vn vII va vc cb 
- \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"vn" { s2 }| \Q #"va" { s2 }| \Q #"vII" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+ g,,2 |r4 <c' c''>4->| % hpL hpR 
+b4 r | <d g>4 r | d4 <e g>~ | g4 c~ | g,,4 r | % vn vII va vc cb 
+ \Q #"kl" { s2 }|   \Q #"vII" { s2 }| \Q #"vn" { s2 }| \Q #"va" { s2 }|  \Q #"cb" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 
 %bn583
 c8 d16 e b8 c | \lyricmode {get for a good deed } |
@@ -6416,7 +6421,9 @@ R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR 
 R2 | R2 | q4 f8 e | c4 g,8 c | R2 | % vn vII va vc cb 
  \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"vn" { s2 }| \Q #"va" { s2 }| \Q #"vII" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
+%parts: kl % rest % rest % va % rest % vc
 
+ %{
 %bn584
 r8 dis8 fis fis16 g | \lyricmode {per -- haps if I } |
 R2 | R2 | R2 | R2 | % rh lh kbR kbL 
@@ -7341,9 +7348,7 @@ R2 | R2 | R4.. | % tym perc fol
 R2 | R2 | R2 | R2 | ees2| % vn vII va vc cb 
  \Q #"tn" { s2 }|\Q #"fl" { s2 }| \Q #"bn" { s2 }| \Q #"vn" { s2 }| \Q #"cb" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 
-%}
 %bn674
-\set Score.currentBarNumber = #680
 \tQQ \doubleBar \time 3/4 g4 r4 \instrumentSwitch"Rooney" ees=8 g |\lyricmode{there am I }|
 R2. | g'2.\!\p | R2. | R2. | % rh lh kbR kbL 
  <fis' b'>2.\p | R2. | R2. | R2. | % fl ob kl bn 
@@ -8608,7 +8613,6 @@ R2. | q4\! r2 | q4\! r2 | R2. | b,4. cis, | % vn vII va vc cb
 %parts: tn or tpt | vII | hn | va | cb | rest
 
 
- %{
 %bn795 
 \time 4/4 
 \tempo "still" R1| |
