@@ -17,7 +17,6 @@ tag = \date
 
 
 %bn1
-%}
 \tempo 4 = 80 \mark \default \time 5/8 \set Timing.beatStructure = #'(2 3)  b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4 r4. |  r4 r4. |  r4 r4. |  % rh lh kbR kbL
 r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn
@@ -3040,6 +3039,7 @@ R4. |R4. | % hpL hpR
 R4. |R4. |R4. |R4. |R4. |  % vn vII va vc cb 
   \Q #"kl" { s4. }|  \Q #"bn" { s4. }|  \Q #"hn" { s4. }|  \Q #"va" { s4. }|  \Q #"cb" { s4. }|  \Q #"vc" { s4. }|  % I II III IV V VI
 
+%}
 %bn270
 \time 2/4 \tempo "p. piu" \instrumentSwitch "Dan" b=,8. gis16 f'8 r | \lyricmode {what was that? } |
 r4. g8-.(  | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -3214,6 +3214,7 @@ R2 |R2 |R2 | r4  <a e>^mutes\p\fermata  |R2 |  % vn vII va vc cb
   \Q #"vn" { s2 }|  \Q #"ob" { s2 }|  \Q #"bn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
 
 
+%{ 
 %bn286
 \tempo "slow" 4 = 50 \time 3/4  \instrumentSwitch "Dan" cis16 dis e fis \times 2/3 {bes4 fis8} \times 2/3 {a4\fermata^"poco" fis8}| \lyricmode {do you ev -- er wish to kill a } | % longer kill??
 R2. | cis16\<\pp dis e fis bes8-.\! fis-. <a b>-. fis-. |  R2. | cis,16 dis, e, fis, bes,8-. fis,-. <a, b,>-.\fermata fis,-. |   % rh lh kbR kbL   
@@ -9890,7 +9891,6 @@ R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb 
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
-%{ 
 %bn895
 R2 \finalBar | |
 R2 | c2 |R2 |R2 |  % rh lh kbR kbL
