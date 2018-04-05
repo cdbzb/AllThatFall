@@ -952,7 +952,7 @@ R2 | R2 | % hpL hpR
 %parts: vn % vII % hn % va % rest % rest~
 
 %bn84
-\time 6/16 d32( e) d( cis) d16 f aes b | \lyricmode{ qui -- ve -- ring like a blanc -- } |  % was 3/8
+\time 3/8  d32( e) d( cis) d16 f aes b | \lyricmode{ qui -- ve -- ring like a blanc -- } |  % was 3/8
 \times 3/5 {d16( e d) cis d} f16 aes b |d32( e) d( cis) d16 f aes b | R4. | R4. | % rh lh kbR kbL
 R4. | R4. | R4. | R4. | % fl ob kl bn
 R4. | R4. | R4. | % hn tpt tn
