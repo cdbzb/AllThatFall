@@ -17,6 +17,7 @@ tag = \date
 
 
 %bn1
+%}
 \tempo 4 = 80 \mark \default \time 5/8 \set Timing.beatStructure = #'(2 3)  b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4 r4. |  r4 r4. |  r4 r4. |  % rh lh kbR kbL
 r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn
@@ -3039,7 +3040,6 @@ R4. |R4. | % hpL hpR
 R4. |R4. |R4. |R4. |R4. |  % vn vII va vc cb 
   \Q #"kl" { s4. }|  \Q #"bn" { s4. }|  \Q #"hn" { s4. }|  \Q #"va" { s4. }|  \Q #"cb" { s4. }|  \Q #"vc" { s4. }|  % I II III IV V VI
 
-%}
 %bn270
 \time 2/4 \tempo "p. piu" \instrumentSwitch "Dan" b=,8. gis16 f'8 r | \lyricmode {what was that? } |
 r4. g8-.(  | R2 |  R2 |  R2 |  % rh lh kbR kbL
@@ -3214,7 +3214,6 @@ R2 |R2 |R2 | r4  <a e>^mutes\p\fermata  |R2 |  % vn vII va vc cb
   \Q #"vn" { s2 }|  \Q #"ob" { s2 }|  \Q #"bn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
 
 
-%{ 
 %bn286
 \tempo "slow" 4 = 50 \time 3/4  \instrumentSwitch "Dan" cis16 dis e fis \times 2/3 {bes4 fis8} \times 2/3 {a4\fermata^"poco" fis8}| \lyricmode {do you ev -- er wish to kill a } | % longer kill??
 R2. | cis16\<\pp dis e fis bes8-.\! fis-. <a b>-. fis-. |  R2. | cis,16 dis, e, fis, bes,8-. fis,-. <a, b,>-.\fermata fis,-. |   % rh lh kbR kbL   
@@ -5741,7 +5740,7 @@ r2. r2 | r2. r2 | r2. r2 | 2.~2~ | % fl ob kl bn
 r2. r2 |  r2. r2 |  r2. r2 | % hn tpt  tn
 r2. r2 | r2. r2 | r2. r2 | % tym perc fol
 r2. r2 | r2. r2 | % hpL hpR
- <e' a'>2.~2  | r2. r2 | r2. r2 | r2. r2 | b,4-. r2  aes,4-. r |  % vn vII va vc cb 
+ <e' a'>2.~2  | r2. r2 | r2. r2 | r2. r2 | b,,4-. r2  gis,,4-. r |  % vn vII va vc cb 
   \Q #"kl" { s2. s2 }|  \Q #"vn" { s2. s2 }|  \Q #"bn" { s2. s2 }|  \Q #"va" { s2. s2 }|  \Q #"cb" { s2. s2 }|  \Q #"tn" { s2. s2 }|  % I II III IV V VI
 %parts: vn % rest % bn % rest % cb % rest
 
@@ -5752,7 +5751,7 @@ R2 | R2 | R2 | 2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
- <e' b'>2~  | R2 | R2 | e,2^mutes | c,4-. r |  % vn vII va vc cb 
+ <e' b'>2~  | R2 | R2 | e,2^mutes | e,4-. r |  % vn vII va vc cb 
   \Q #"kl" { s2 }|  \Q #"vn" { s2 }|  \Q #"bn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }| \instrumentSwitch "vc" \Q #"vc" {s2 }|  % I II III IV V VI
 %parts: vn % rest % bn % rest % cb % vc
 
@@ -5997,7 +5996,7 @@ R2 | R2 | r4 <ges b>4  | R2 | % fl ob kl bn
 R2 |  R2 |  R2 | % hn tpt  tn
 R2 | R2 | R2 | % tym perc fol
 R2 | R2 | % hpL hpR
-R2 | R2 | R2 | << {c'4( b)}\\ aes2 >>| R2 |  % vn vII va vc cb 
+R2 | R2 | R2 | << {c'4( b)}\\ aes2 >>| fis,,4 b,~ |  % vn vII va vc cb 
  \instrumentSwitch "kl" \Q #"kl" {s2 }|  \Q #"vII" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
 %parts: kl % rest % rest % rest % rest % vc
 
@@ -6008,7 +6007,7 @@ R2. | R2. | 2 r4 | f,8 g, a,2 | % fl ob kl bn
 R2. |  R2. |  R2. | % hn tpt  tn
 R2. | R2. | R2. | % tym perc fol
  f'2 <ees,, ees,>4  | f'2 des'4 | % hpL hpR
-R2. | R2. | r4 <a a'>2~  | R2. | R2. |  % vn vII va vc cb 
+R2. | R2. | r4 <a a'>2~  | R2. | 2 r4 |  % vn vII va vc cb 
   \Q #"kl" { s2. }|  \Q #"vII" { s2. }| \instrumentSwitch "bn" \Q #"bn" {s2. }|  \Q #"va" { s2. }|  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
 %parts: kl % rest % bn % va % rest % rest
 
@@ -7378,7 +7377,7 @@ R2 | R2 | R2 | % hn tpt  tn
 R2 | R2 | 2~ | % tym perc fol
 R2 | r4 r8. g'16 | % hpL hpR
 R2 | R2 | R2 | 2~  | R2 |  % vn vII va vc cb 
-\Q #"kl" { s2 }|  \Q #"vn" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|   % I II III IV V VI
+\Q #"kl" {\clef bass s2 }|  \Q #"vn" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|   % I II III IV V VI
 %parts: kl % rest % rest % rest % rest % vc
 
 %bn667
@@ -7389,7 +7388,7 @@ r4. r2| r4. r2| r4. r2| % hn tpt  tn
 r4. r2 |  r4. r2 | 4.~2~ | % tym perc fol
 r4. r2 | c''4. b'2 | % hpL hpR
 r4. r2 | r4. r2 | r4. r2 | 2 r4. | r4. r2 |  % vn vII va vc cb 
-\Q #"kl" {\clef bass s2 s4. }|  \Q #"vn" { s2 s4. }|  \Q #"hn" { s2 s4. }|  \Q #"va" { s2 s4. }|  \Q #"cb" { s2 s4. }|  \Q #"vc" { s2 s4. }|   % I II III IV V VI
+\Q #"kl" { s2 s4. }|  \Q #"vn" { s2 s4. }|  \Q #"hn" { s2 s4. }|  \Q #"va" { s2 s4. }|  \Q #"cb" { s2 s4. }|  \Q #"vc" { s2 s4. }|   % I II III IV V VI
 %parts: kl % rest % rest % rest % rest % vc
 
 %bn668
@@ -9892,6 +9891,7 @@ R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb
 R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
 
 %bn895
+%{ 
 R2 \finalBar | |
 R2 | c2 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn

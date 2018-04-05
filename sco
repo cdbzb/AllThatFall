@@ -40,7 +40,7 @@ while getopts "qvfcxpPramsdln:" opts; do
 		d)
 			datestamp=$opts
 			;;
-		l) 
+		[lt]) 
 			landscape=$opts
 			;;
 		n)
@@ -71,7 +71,12 @@ case $landscape in
 }
 
 EOF
-	;;
+		;;
+	t)
+		cat <<EOF >> /tmp/cat
+		#(set-paper-size "tabloid")
+		;;
+EOF
 esac
 
 cat $input >> /tmp/cat  ##### THE MUSIC
@@ -146,7 +151,7 @@ EOF
 		cat <<EOF >> /tmp/cat
 		$header
 
-#(set-global-staff-size 14)
+#(set-global-staff-size 11)
 \layout { 
 	% \context { \Staff \RemoveAllEmptyStaves }
 	\context { \RhythmicStaff \RemoveAllEmptyStaves }

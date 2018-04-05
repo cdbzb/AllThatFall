@@ -22,6 +22,7 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 %{
 
 
+%}
 %bn1 %sec1
  \tempo 4 = 70 %dummy
  \time 2/4 \instrumentSwitch "Rooney" r4 g=8 g | \lyricmode {is that } |
@@ -6357,7 +6358,6 @@ r4. r r | r4. r r | % hpL hpR
 r4. r r | r4. r r | r4. r r | r4. r r | r4. r r | % vn vII va vc cb 
  \Q #"kl" { s4. s s }| \Q #"fl" { s4. s s }| \Q #"hn" { s4. s s }| \Q #"va" { s4. s s }| \Q #"bn" { s4. s s }| \Q #"vc" { s4. s s }| % I II III IV V VI 
 
-%}
 %bn578
 \set Score.currentBarNumber = #585
 \time 2/4 b4 ais8 gis | \lyricmode {Sun -- day she } |
