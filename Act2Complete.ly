@@ -17,7 +17,6 @@ tag = \date
 
 
 %bn1
-%}
 \tempo 4 = 80 \mark \default \time 5/8 \set Timing.beatStructure = #'(2 3)  b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4 r4. |  r4 r4. |  r4 r4. |  % rh lh kbR kbL
 r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn
@@ -9851,56 +9850,63 @@ R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. |R2. |  % vn vII va vc cb 
   \Q #"kl" { s2. }|  \Q #"vn" { s2. }|  \Q #"bn" {s4}  \Q #"hn" { s2. }|  \Q #"va" { s2. }|  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
 
+%}
+%bn891
 \time 2/4 R2 | |
 <<{r8. c16 b a g f}\\ {r16 c' b a g f r8} >>  | R2 |R2 |R2 |  % rh lh kbR kbL
-R2 |R2 |R2 |R2 | % fl ob kl bn
+ r16 c''16 b' a'  g' f' |R2 | r8. c''16 b' a' g' f'  |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
 R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+  \Q #"kl" { s2 }| \instrumentSwitch "fl" \Q #"fl" {s2 }| \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" {\clef bass s2 }|  % I II III IV V VI
+%parts: kl % fl % rest % rest % rest % rest
 
 %bn892
 R2 |  |
 << {e16 d e f g a b c }\\{ r8. d,16 e f g a }>> | R2 |R2 |R2 |  % rh lh kbR kbL
-R2 |R2 |R2 |R2 | % fl ob kl bn
+r4 r16  d'16 e' f' g' a' |R2 | e'16 d' e' f' g' a' b' c'' |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
 R2 |R2 |R2 | % tym perc fol
 R2 |R2 | % hpL hpR
 R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: kl % fl % rest % rest % rest % rest
 
 %bn893
 \time 7/8 \set Timing.beatStructure = #'(3 4) r4. r2 | |
 << {e'4( d8)}\\{<fis, a c>4.}>> <<{b4( a8)}\\<cis, e g>4.>> r8 | <<{r8 g4}\\fis4.>> << {r8 d'4}\\cis4.>> r8 |  r2 r4. |  r2 r4. |  % rh lh kbR kbL
-r2 r4. |r2 r4. |r2 r4. |r2 r4. | % fl ob kl bn
-r2 r4. |  r2 r4. | r2 r4. | % hn tpt  tn
-r2 r4. |r2 r4. |r2 r4. | % tym perc fol
-r2 r4. |r2 r4. | % hpL hpR
-r2 r4. |r2 r4. |r2 r4. |r2 r4. |r2 r4. |  % vn vII va vc cb 
-r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  r2 r4. |  % I II III IV V VI
+ e''4(\p d''8 cis''4) r4  |r2 r4. | r4. b''4(\pp a''8) r8 |r2 r4. | % fl ob kl bn
+ <a c'>4.\pp r2 |  r2 r4. | r2 r4. | % hn tpt  tn
+r2 r4. |r2 r4. | \override Hairpin.circled-tip=##t  c'4.~\<^wind-rain-thunder 2~ | % tym perc fol
+\relative c { <<{r8 g4}\\fis4.\arp>> << {r8 d'4}\\cis4.\arp>> r8} |\relative c' {<< {e'4( d8)}\\{<fis, a c>4.\arp}>> <<{b4( a8)}\\<cis, e g>4.>> r8} | % hpL hpR
+r2 r4. |r2 r4. | r4. <e g>\pp r8 |r2 r4. |r2 r4. |  % vn vII va vc cb 
+  \Q #"kl" { s2 s4. }|  \Q #"fl" { s2 s4. }|\Q #"hn" {s2 s4. }|  \Q #"va" {\clef bass s2 s4. }|  \Q #"cb" { s2 s4. }|  \Q #"vc" { s2 s4. }|  % I II III IV V VI
+%parts: kl % fl % hn % va % rest % rest
 
 %bn894
 \time 2/4 r4. r8\fermata | |
 << {e'4( d8)}\\<fis, a c>4.>> r8 | <<{r8 g4}\\fis4.>> r8 |R2 |R2 |  % rh lh kbR kbL
-R2 |R2 |R2 |R2 | % fl ob kl bn
-R2 |R2 | R2 | % hn tpt  tn
-R2 |R2 |R2 | % tym perc fol
-R2 |R2 | % hpL hpR
+ e'4( d'8) r\fermata |R2 |R2 | \treble e''4( d''8) r\fermata | % fl ob kl bn
+ q4. r8\fermata |R2 | R2 | % hn tpt  tn
+ R2 |R2 | 4.~ 8~\>\fermata | % tym perc fol
+\relative c { <<{r8 g4}\\fis4.\arp>> r8} |\relative c' {<< {e'4( d8)}\\<fis, a c>4.\arp>> r8\fermata} | % hpL hpR
 R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }| \instrumentSwitch "bn" \Q #"bn" {\treble s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: fl % rest % hn % rest % bn % rest
 
 %bn895
-%{ 
 R2 \finalBar | |
 R2 | c2 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
 R2 |R2 | R2 | % hn tpt  tn
-R2 |R2 |R2 | % tym perc fol
-R2 |R2 | % hpL hpR
-R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb 
-R2 |  R2 |  R2 |  R2 |  R2 |  R2 |  % I II III IV V VI
+R2 |R2 |2 s128\! | % tym perc fol
+<c, g, c>2 | c''2\fermata | % hpL hpR
+R2 |R2 |R2 | c,2\fermata | c,,2-.^pizz |  % vn vII va vc cb 
+  \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }| \instrumentSwitch "cb" \Q #"cb" {s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
+%parts: rest % rest % rest % rest % cb % vc
 
+%{ 
 
 
 %}
