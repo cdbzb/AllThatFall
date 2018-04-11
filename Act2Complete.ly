@@ -17,6 +17,7 @@ tag = \date
 
 
 %bn1
+%}
 \tempo 4 = 80 \mark \default \time 5/8 \set Timing.beatStructure = #'(2 3)  b4 c4 r8 | \lyricmode {Oh Dan } |
 <e=' gis b>4 <e gis c> r8 | r4 r4. |  r4 r4. |  r4 r4. |  % rh lh kbR kbL
 r4 r4. | r4 r4. | r4 r4. | r4 r4. | % fl ob kl bn
@@ -5164,7 +5165,7 @@ R2. | R2. | R2. | R2. | % fl ob kl bn
 R2. | R2. | R2. | % tym perc fol
 R2. | R2. | % hpL hpR
 <d'' f''>4 r2   | d''16 f'' e'' c'' g'2 | <d d' f'>4 r2 | d,4 g,,2~ | R2. |  % vn vII va vc cb 
-  \Q #"vn" { s2. }|  \Q #"vII" { s2. }| \instrumentSwitch "hn" \Q #"hn" {s2. }|  \Q #"va" { s2. }|  \Q #"cb" { s2. }|\Q #"vc" { s2. }|  % I II III IV V VI
+  \Q #"vn" { s2. }|  \Q #"vII" { s2. }| \instrumentSwitch "hnsilent" \treble  r4 <<{g'4 c''}\\{g'8. f'16 e'4}>>|  \Q #"va" { s2. }|  \Q #"cb" { s2. }|\Q #"vc" { s2. }|  % I II III IV V VI
 %parts: vn % vII % hn % va % rest % vc
 
 %bn462
@@ -9850,7 +9851,6 @@ R2. |R2. | % hpL hpR
 R2. |R2. |R2. |R2. |R2. |  % vn vII va vc cb 
   \Q #"kl" { s2. }|  \Q #"vn" { s2. }|  \Q #"bn" {s4}  \Q #"hn" { s2. }|  \Q #"va" { s2. }|  \Q #"cb" { s2. }|  \Q #"vc" { s2. }|  % I II III IV V VI
 
-%}
 %bn891
 \time 2/4 R2 | |
 <<{r8. c16 b a g f}\\ {r16 c' b a g f r8} >>  | R2 |R2 |R2 |  % rh lh kbR kbL
@@ -9896,6 +9896,7 @@ R2 |R2 |R2 |R2 |R2 |  % vn vII va vc cb
 %parts: fl % rest % hn % rest % bn % rest
 
 %bn895
+%{ 
 R2 \finalBar | |
 R2 | c2 |R2 |R2 |  % rh lh kbR kbL
 R2 |R2 |R2 |R2 | % fl ob kl bn
@@ -9906,7 +9907,6 @@ R2 |R2 |R2 | c,2\fermata | c,,2-.^pizz |  % vn vII va vc cb
   \Q #"kl" { s2 }|  \Q #"fl" { s2 }|  \Q #"hn" { s2 }|  \Q #"va" { s2 }| \instrumentSwitch "cb" \Q #"cb" {s2 }|  \Q #"vc" { s2 }|  % I II III IV V VI
 %parts: rest % rest % rest % rest % cb % vc
 
-%{ 
 
 
 %}

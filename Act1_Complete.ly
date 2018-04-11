@@ -22,10 +22,12 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 %{
 
 
-%}
 %bn1 %sec1
+%}
  \tempo 4 = 70 %dummy
- \time 2/4 \instrumentSwitch "Rooney" r4 g=8 g | \lyricmode {is that } |
+  \override TimeSignature.style = #'numbered 
+            \override TimeSignature.font-size = #6 
+    \time 2/4 \instrumentSwitch "Rooney" r4 g=8 g | \lyricmode {is that } |
  R2 | R2 | R2 | R2 |% lh rh kbR kbL 
  R2 | R2 | R2 | R2 | % fl ob kl bn 
  R2 | R2 | R2 | % hn tpt tn 
@@ -5053,7 +5055,7 @@ R1 | |
 <gis ais>1:32| <fis gis cis dis>1:32 | R1 | R1 | % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | | % tym perc fol 
 R1 | R1 | % hpL hpR 
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
@@ -5063,7 +5065,7 @@ R1 | |
 <g b>1:32 |<f a d>2:32 <e bes' d ees>2:32 | R1 | R1 | % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | | % tym perc fol 
 R1 | R1 | % hpL hpR 
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
@@ -5073,7 +5075,7 @@ R1 | |
 <g b>2:32 <d, f>2:32 | <ees bes' d e>2:32 <d, d'>2:32 | R1 | R1 | % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | | % tym perc fol 
 R1 | R1 | % hpL hpR 
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
@@ -5083,7 +5085,7 @@ R1 | |
 \clef bass \repeat unfold 4 {d=32 f} a, cis \repeat unfold 3 {d f} a, cis a cis d f d f d f a, cis d f d f | \clef bass <d=,, d'>1:32 | R1 | R1 | % rh lh kbR kbL 
 R1 | R1 | R1 | R1 | % fl ob kl bn 
 R1 | R1 | R1 | % hn tpt tn 
-R1 | R1 | R1 | % tym perc fol 
+R1 | R1 | | % tym perc fol 
 R1 | R1 | % hpL hpR 
 R1 | R1 | R1 | R1 | R1 | % vn vII va vc cb 
 R1 | R1 | R1 | R1 | R1 | R1 | % I II III IV V VI 
@@ -6423,7 +6425,6 @@ R2 | R2 | q4 f8 e | c4 g,8 c | R2 | % vn vII va vc cb
  \Q #"kl" { s2 }| \Q #"fl" { s2 }| \Q #"vn" { s2 }| \Q #"va" { s2 }| \Q #"vII" { s2 }| \Q #"vc" { s2 }| % I II III IV V VI 
 %parts: kl % rest % rest % va % rest % vc
 
- %{
 %bn584
 r8 dis8 fis fis16 g | \lyricmode {per -- haps if I } |
 R2 | R2 | R2 | R2 | % rh lh kbR kbL 
@@ -6755,7 +6756,7 @@ r8. r r | r8. r r | r8. r r | cis,4.:32\glissando\> fis,,8.:32\!| cis,4.:32\glis
 
 %bn615
 \dEQ \time 2/4
-r4 e8 gis |\lyricmode{ here we }|
+\break r4 e8 gis |\lyricmode{ here we }|
 r4 e8 <d gis> | R2| R2 | R2 | % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
@@ -6797,7 +6798,7 @@ R2 | R2 | % hpL hpR
  \Q #"kl" { s2 }| \Q #"ob" { s2 }| \Q #"vn" { s2 }| \Q #"va" { s2 }| \Q #"vII" { s2 }|\Q #"vc" { s2 }| % I II III IV V VI 
 
 %bn619
-d'4 b8 gis | \lyricmode {now Mis -- ter } |
+ d'4 b8 gis | \lyricmode {now Mis -- ter } |
 R2 | R2 | R2 | R2 | % rh lh kbR kbL 
 R2 | d''4 b'8 gis' | f'2| R2 | % fl ob kl bn 
 R2 | R2 | R2 | % hn tpt tn 
@@ -11735,6 +11736,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
   \Q #"kl" { s2. }|  \Q #"ob" { s2. }|  \Q #"bn" { s2. }|  \Q #"fl" { s2. }|  \Q #"cb" { s2. }|\Q #"vc" { s2. }| % I II III IV V VI 
 
 %bn1048
+ %{
 %}
 
 }

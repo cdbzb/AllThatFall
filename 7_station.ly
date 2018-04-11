@@ -23,6 +23,7 @@ tag = \date
 %{
 
  %bn1
+%}
 \tempo "sempre rit" \instrumentSwitch "Rooney"
 \time 2/2 a=2~ a8 g e c | \lyricmode {Thank you miss Fitt } |
 <f=' a>2~ <f a>8 <e g> <c e> <g c>) | <c c'>1 |  R1 |  R1 |   % rh lh kbR kbL 
@@ -265,7 +266,6 @@ d4.)\stop c8 |  \lyricmode {you } |
   \Q #"kl" { s2 s4. }|  \Q #"fl" { s2 s4. }| r2 r4. |  \Q #"vn" { s2 s4. }| \instrumentSwitch "bn" \Q #"bn" {s2 s4. }|  \Q #"vc" { s2 s4. }|   % I II III II I VI 
 %parts: kl % fl % bn % vn % rest % vc
 
-%}
 %bn22
   \time 2/4 \EE e'='8 c bes ges | \lyricmode {first class smo -- kers } |
   e='2 |e=2 |  R2 |  R2 |   % rh lh kbR kbL 
@@ -292,7 +292,6 @@ d4.)\stop c8 |  \lyricmode {you } |
 %parts: vn % vII % hn % va % cb % tn or tpt (comp bn and cb)
 %Error: too many parts 9
 
-%{
  %bn24
   \QdQ \time 5/8 d4 c8 a f | \lyricmode {hand and hold me } |
   <<{d'4 c8 a f}\\{<f a>4 s4.}>> | <f, a d>4.~ <f a d>4 |  r4. r4 |  r4. r4 |   % rh lh kbR kbL 
@@ -471,7 +470,7 @@ d4.)\stop c8 |  \lyricmode {you } |
 %parts: kl % tn or tpt % rest % rest % cb % rest
 
  %bn42
-   \time 6/8 ees'8 f' des' b g'4 ees8 | \lyricmode {cause I am  si -- lent } |
+   \time 6/8 ees8 f des b'4  g8 | \lyricmode {cause I am  si -- lent } |
    R2. | bes2.~ | r4. <bes g'>4.\arpeggio |  R2. |   % rh lh kbR kbL 
    R2. | R2. | 8~ <bes, des>4~ <bes, des g>4.~ | R2. | % fl ob kl bn 
    R2. |  R2. |  2.~ | % hn tpt  tn 
@@ -2883,6 +2882,7 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
   %bnEND
+%{
 
 %}
 

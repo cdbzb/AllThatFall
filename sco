@@ -29,7 +29,7 @@ currentPart="harp"
 
 # remove s from getopts later
 
-while getopts "qvfcxpPramsdln:" opts; do
+while getopts "qvfcxpPramsdltn:" opts; do
 	case $opts in
 		[qvfcxpPra]) 
 			players=$opts
@@ -74,9 +74,11 @@ EOF
 		;;
 	t)
 		cat <<EOF >> /tmp/cat
-		#(set-paper-size "tabloid")
-		;;
+\paper {
+		#(set-paper-size "11x17")
+	}
 EOF
+		;;
 esac
 
 cat $input >> /tmp/cat  ##### THE MUSIC
@@ -151,15 +153,15 @@ EOF
 		cat <<EOF >> /tmp/cat
 		$header
 
-#(set-global-staff-size 11)
+#(set-global-staff-size 12)
 \layout { 
-	% \context { \Staff \RemoveAllEmptyStaves }
+	 %\context { \Staff \RemoveAllEmptyStaves }
 	\context { \RhythmicStaff \RemoveAllEmptyStaves }
 }
 \score { 
 <<
 	<< 
-	\new Staff=vox \with { \consists "Measure_grouping_engraver"}  \relative c'' { 
+	\new Staff=vox \with { \consists "Measure_grouping_engraver" \magnifyStaff #(magstep 1)}  \relative c'' { 
 		\set Staff.instrumentName = #"Vox"
 		\new Voice = "tune" << \melody 
 		{ s2 s2 s2 s2.  \override Score.BarNumber.break-visibility = ##(#t #t #t) \context Score \applyContext #(set-bar-number-visibility 5) }

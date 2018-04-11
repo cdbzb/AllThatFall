@@ -155,6 +155,23 @@ dottedQuarterTiedToQuarter = \markup {
     }
 }
 
+dottedEighth = \markup {
+    \score {
+        \new RhythmicStaff \with {
+            \remove Time_signature_engraver 
+            \remove Staff_symbol_engraver
+            fontSize = #1
+        }
+        {
+            b8.   %unfortunately, the alignment suffers if the slur is down 
+        }
+        \layout { 
+            ragged-right = ##t
+            indent = #0
+        }
+    }
+}
+
 eighth = \markup {
     \score {
         \new RhythmicStaff \with {
@@ -236,20 +253,48 @@ dottedQuarterTiedToQuarterEqualsDottedQuarter = { \once \override TextScript #'p
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % some definitions
 
-dottedEighthEqualsQuarter = { \metMod #"8." #"4" \modTempo #3 #4 }
-quarterEqualsDottedEighth = { \metMod #"4" #"8." \modTempo #4 #3 }
+%dottedEighthEqualsQuarter = { \metMod #"8." #"4" \modTempo #3 #4 }
+dottedEighthEqualsQuarter = {\once \override TextScript #'padding = #1 \tempo \markup {
+			    \general-align #Y #down \dottedEighth  = %\small \general-align #Y #down \note #"8" #1 
+			    \general-align #Y #down \quarter
+			  }}
+%quarterEqualsDottedEighth = { \metMod #"4" #"8." \modTempo #4 #3 }
+quarterEqualsDottedEighth = {\once \override TextScript #'padding = #1 \tempo \markup {
+			    \general-align #Y #down \quarter  = %\small \general-align #Y #down \note #"8" #1 
+			    \general-align #Y #down \dottedEighth
+			  }}
 
 tripletTest = { \metMod #"3" #"8." \modTempo #4 #3 }
 
-eighthEqualsDottedEighth = { \metMod #"8" #"8." \modTempo #2 #3 }
-dottedEighthEqualsEighth = { \metMod #"8." #"8" \modTempo #3 #2 }
+%eighthEqualsDottedEighth = { \metMod #"8" #"8." \modTempo #2 #3 }
+eighthEqualsDottedEighth = {\once \override TextScript #'padding = #1  
+		\tempo \markup { \general-align #Y #down \eighth  = %\small \general-align #Y #down \note #"8" #1 
+	      	\general-align #Y #down \dottedEighth
+	      } }
 
-quarterEqualsEighth = { \metMod #"4" #"8" \modTempo #2 #1 }
-eighthEqualsQuarter = { \metMod #"8" #"4" \modTempo #1 #2 }
+%dottedEighthEqualsEighth = { \metMod #"8." #"8" \modTempo #3 #2 }
+dottedEighthEqualsEighth = {\once \override TextScript #'padding = #1 \tempo \markup {
+			    \general-align #Y #down \eighth  = %\small \general-align #Y #down \note #"8" #1 
+			    \general-align #Y #down \eighth
+			  }}
+
+%quarterEqualsEighth = { \metMod #"4" #"8" \modTempo #2 #1 }
+quarterEqualsEighth = {\once \override TextScript #'padding = #1 \tempo \markup {
+		\general-align #Y #down \quarter  = %\small \general-align #Y #down \note #"8" #1 
+		\general-align #Y #down \eighth}}
+
+%eighthEqualsQuarter = { \metMod #"8" #"4" \modTempo #1 #2 }
+eighthEqualsQuarter = { \once \override TextScript #'padding = #1 \tempo \markup {
+		  \general-align #Y #down \eighth  = %\small \general-align #Y #down \note #"8" #1 
+		  \general-align #Y #down \quarter}}
 
 quarterEqualsDottedQuarter = { \metMod #"4" #"4." \modTempo #2 #3 }
 dottedQuarterEqualsQuarter = { \metMod #"4." #"4" \modTempo #3 #2 }
-dottedQuarterEqualsEighth = { \metMod #"4." #"8" \modTempo #3 #1 }
+%dottedQuarterEqualsEighth = { \metMod #"4." #"8" \modTempo #3 #1 }
+dottedQuarterEqualsEighth = { \once \override TextScript #'padding = #1 \tempo \markup {
+			      \general-align #Y #down \dottedQuarter  = %\small \general-align #Y #down \note #"8" #1 
+			      \general-align #Y #down \eighth}}
+
 dottedQuarterEqualsHalf = { \metMod #"4." #"2" \modTempo #3 #4 }
 
 dottedHalfEqualsHalf = { \metMod #"2." #"2" \modTempo #3 #2 }
@@ -288,7 +333,10 @@ tEE = { \tripEighthEqualsEighth \modTempo #2 #3 }
 tQQ = { \tripQuarterEqualsQuarter  \modTempo #2 #3 }
 tQE = { \tripQuarterEualsEighth \modTempo #4 #3 }
 
-EE = {\metMod #"8" #"8"}
+%EE = {\metMod #"8" #"8"}
+EE = { \once \override TextScript #'padding = #1 \tempo \markup {
+			      \general-align #Y #down \eighth  = %\small \general-align #Y #down \note #"8" #1 
+			      \general-align #Y #down \eighth}}
 QQ = {\metMod #"4" #"4"}
 
 dHH = { \dottedHalfEqualsHalf }
