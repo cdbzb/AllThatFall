@@ -23,7 +23,6 @@ date = #(strftime "%m-%d-%Y" (localtime (current-time)))
 
 
 %bn1 %sec1
-%}
  \tempo 4 = 70 %dummy
   \override TimeSignature.style = #'numbered 
             \override TimeSignature.font-size = #6 
@@ -4707,9 +4706,9 @@ d''4 | a'4| d4 | R4 |d,,4 | % vn vII va vc cb
  <d'' a'>4 | \Q "fl" { s4 } | \Q "hn" { s4 } | \Q #"va" { s4 }| \Q #"cb" { s4 }| \Q #"vc" { s4 }| % I II III IV V VI 
 
  %bn424
- \time 6/8 c8 8 8 8 c16 16 16 16 | \lyricmode {hea -- vens you're not going to ride her } |
+ \time 6/8 e=''8 des8 bes8 g8 a16 bes16 c16 d16 | \lyricmode {hea -- vens you're not going to ride her } |
 R2. | R2. | R2. | R2. | %rh lh kbR kbL 
-R2. | R2. | r4. g'8 a'16 bes' c'' d'' | r4. g8 a16 bes c' d' | % fl ob kl bn 
+R2. | R2. | r4. g'8 a'16 bes' c' d'' | r4. g8 a16 bes c' d' | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
 R2. | R2. | R2. | % tym perc fol 
 R2. | R2. | % hpL hpR 
@@ -4717,7 +4716,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
  \instrumentSwitch "kl" \Q #"kl" {s2. }| R2. | \instrumentSwitch "bn" \Q #"bn" {s2. }| R2. | R2. | R2. | % I II III IV V VI 
 
 %bn424
-c4 c8 c8 c16 c8 c16 | \lyricmode { flat! you'll tear your tubes to } |
+e4 e,8 bes'8 16 b8 16 | \lyricmode { flat! you'll tear your tubes to } |
 R2. | R2. | R2. | R2. | %rh lh kbR kbL 
 R2. | r4. e'16 r16 r4 |e''8 r4 ais'8. dis' |e'8 r4 fis16 r8 b16 r8 | % fl ob kl bn 
 R2. | R2. | R2. | % hn tpt tn 
@@ -4728,7 +4727,7 @@ R2. | R2. | R2. | R2. | R2. | % vn vII va vc cb
 
 
 %bn424
-\time 6/16 c8. c | \lyricmode {rib -- bons } |
+\time 6/16 f'8. b, | \lyricmode {rib -- bons } |
 R4. | R4. | R4. | R4. | %rh lh kbR kbL 
 R4. | b'8. r | b'8. r | d'8. r | % fl ob kl bn 
 R4. | R4. | R4. | % hn tpt tn 
@@ -11702,6 +11701,7 @@ R2 | R2 | R2 | R2 | R2 | % vn vII va vc cb
   \Q #"kl" { s2 }|  \Q #"ob" { s2 }|  \Q #"bn" { s2 }|  \Q #"fl" { s2 }|  \Q #"cb" { s2 }|\Q #"vc" { s2 }| % I II III IV V VI 
 
 
+%}
  %bn1045
 \time 3/4
 g2\p c4 | \lyricmode {tum tum } |
