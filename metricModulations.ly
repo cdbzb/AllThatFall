@@ -274,7 +274,7 @@ eighthEqualsDottedEighth = {\once \override TextScript #'padding = #1
 
 %dottedEighthEqualsEighth = { \metMod #"8." #"8" \modTempo #3 #2 }
 dottedEighthEqualsEighth = {\once \override TextScript #'padding = #1 \tempo \markup {
-			    \general-align #Y #down \eighth  = %\small \general-align #Y #down \note #"8" #1 
+			    \general-align #Y #down \dottedEighth  = %\small \general-align #Y #down \note #"8" #1 
 			    \general-align #Y #down \eighth
 			  }}
 

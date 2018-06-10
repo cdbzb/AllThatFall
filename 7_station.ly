@@ -23,7 +23,6 @@ tag = \date
 %{
 
  %bn1
-%}
 \tempo "sempre rit" \instrumentSwitch "Rooney"
 \time 2/2 a=2~ a8 g e c | \lyricmode {Thank you miss Fitt } |
 <f=' a>2~ <f a>8 <e g> <c e> <g c>) | <c c'>1 |  R1 |  R1 |   % rh lh kbR kbL 
@@ -2486,99 +2485,91 @@ R2 | R2 | R2 | R2 | 2 |% vn vII va vc cb
   \Q #"tn" { s2 }|\Q #"vn" { s2 }|  \Q #"vII" { s2 }|  \Q #"va" { s2 }|  \Q #"cb" { s2 }|  \Q #"vc" { s2 }|   % I II III II I VI 
 %parts: tn or tpt % rest % rest % rest % cb % rest
 
+
+%}
  %bn219
+ \time 2/4 
 c8. g16 r4 | \lyricmode {see this } | % % % % %REFGURE all these scales
 R2 | r8 f g a |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | r8 f, g, a, | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+ r8 f, g, a, | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
  %bn220
 r4 r16 \instrumentSwitch "Tommy" c,=8. | \lyricmode {she's } |
 R2 | bes8 c d e |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | bes,8 c d e | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+ bes,8 c d e | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  R2 |  R2 |  R2 |\instrumentSwitch "bn" \Q #"bn" {s2 }|  R2 |  R2 |   % I II III II I VI 
+%parts: rest % rest % bn % rest % rest % rest
 
  %bn221
 \times 2/3 {f4 c8} r4 | \lyricmode {com -- ing... } |
 R2 | f8 g a b   |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | f8 g a b   | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+ f8 g a b   | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI   
+  R2 |  R2 |  R2 | \Q #"bn" { s2 }|  R2 |  R2 |   % I II III II I VI   
 
  %bn222
 R2 | |
 R2 |c8 d e f |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 |c8 d e f | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+c8 d e f | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+  R2 |  R2 |  R2 | \Q #"bn" { s2 }|  R2 |  R2 |   % I II III II I VI  
 
  %bn223
 R2 | |
 R2 |g,,8 a b c |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 |g,8 a, b, c | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+g,8 a, b, c | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+  R2 |  R2 |  R2 | \Q #"bn" { s2 }|  R2 |  R2 |   % I II III II I VI  
 
  %bn224
 \times 2/3 {r4 a8} \times 2/3 { d4 a8} | \lyricmode {she's at the } |
 R2 | d8 e f g |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | d8 e f g | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+ d8 e f g | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
+  R2 |  R2 |  R2 | \Q #"bn" { s2 }|  R2 |  R2 |   % I II III II I VI  
 
  %bn225
 \times 2/3 { g'4 d8}  \times 2/3 {a4 e8} | \lyricmode {le -- vel cross -- ing } |
 R2 | a8 b c d   |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
+R2 | R2 | R2 | a8 b c' d'   | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
+ a8 b c' d'   | R2 | % hpL hpR 
 R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
-
-
-
-
- %bn226
-\time 2/4 \instrumentSwitch "Rooney" \times 2/3 {r4 c=8} f'8 aes, | \lyricmode {the up train! } |
-R2 | << {d=2:32\glissando\fermata} \\ {<bes aes>:32\glissando(} >> |  R2 |  R2 |   % rh lh kbR kbL 
-R2 | R2 | R2 | R2 | % fl ob kl bn 
-R2 |  R2 |  R2 | % hn tpt  tn 
-R2 | R2 | R2 | % tym perc fol 
-R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+  R2 |  R2 |  R2 | \Q #"bn" { s2 }|  R2 |  R2 |   % I II III II I VI  
 
  %bn227
-\times 2/3 {r4 b8}   fis'8 cis | \lyricmode {the up train! } |
+R2 | \lyricmode { } |
 R2 |  << {ees2:32~\fermata} \\ {<g,~ a~>2:32)} >> |  R2 |  R2 |   % rh lh kbR kbL 
 R2 | R2 | R2 | R2 | % fl ob kl bn 
 R2 |  R2 |  R2 | % hn tpt  tn 
 R2 | R2 | R2 | % tym perc fol 
 R2 | R2 | % hpL hpR 
-R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb 
-  R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI 
+R2 | R2 | R2 |<bes, d >2:32\fermata | aes,,2:32 |% vn vII va vc cb 
+  R2 |  R2 |  R2 | \Q #"bn" { s2 }| \instrumentSwitch "cb" \Q #"cb" {s2 }| \instrumentSwitch "vc" \Q #"vc" {s2 }|   % I II III II I VI 
 
+%{
  %bn228
 R2 | | 
 <c=~ d~ fis~>2:32\< | << {ees'2:32} \\ {<g,~ a~>2:32\>} >> |  R2 |  R2 |   % rh lh kbR kbL 
@@ -2882,7 +2873,6 @@ R2 | R2 | R2 | R2 | R2 |% vn vII va vc cb
   R2 |  R2 |  R2 |  R2 |  R2 |  R2 |   % I II III II I VI  
 
   %bnEND
-%{
 
 %}
 
