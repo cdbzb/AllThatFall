@@ -1,10 +1,11 @@
+\version "2.24.0"
 #(ly:set-option 'midi-extension "mid")
 
-rit = \override TextSpanner #'(bound-details left text) = "rit."
+rit = \override TextSpanner.bound-details.left.text = "rit."
 
 pocoRit = \tempo \markup{\small \italic "poco rit"}
 
-o = #(let ((m (make-articulation "flageolet")))
+o = #(let ((m (make-articulation 'flageolet)))
 (set! (ly:music-property m 'tweaks) (acons 'font-size -3
 (ly:music-property m 'tweaks)))
 m)
@@ -29,7 +30,7 @@ bass = \clef bass
 arp = \arpeggio
 
 %shortcut for quote during
-Q = #(define-music-function (parser location inst music) (string? ly:music?)
+Q = #(define-music-function (inst music) (string? ly:music?)
 	#{ 
 	\quoteDuring $inst { $music }
 	#}
@@ -37,26 +38,26 @@ Q = #(define-music-function (parser location inst music) (string? ly:music?)
 
 
 %quote during And switch instrument [NOT WORKING]
-QQ = #(define-music-function (parser location inst music) (string? ly:music?)
+QQ = #(define-music-function (inst music) (string? ly:music?)
 	#{ 
 	\instrumentSwitch $inst \quoteDuring $inst { $music }
 	#}
 	)
 
-hiddenTempo = #(define-music-function (parser location bpm) (number?)
+hiddenTempo = #(define-music-function (bpm) (number?)
 	#{
 	\once \set Score.tempoHideNote = ##t \tempo 4 = #bpm
 	#}
 	)
 
-ossia = #(define-music-function (parser location staffname music) (string? ly:music?)
+ossia = #(define-music-function (staffname music) (string? ly:music?)
 		#{
 		\new Staff = "ossia" \with {alignAboveContext = $staffname } % firstClef = ##f }
 				{ $music }
 		#}
 		)
 
-inst = #(define-music-function (parser location staffname music) (string? ly:music?)
+inst = #(define-music-function (staffname music) (string? ly:music?)
 		#{
 		\context Staff = $staffname 
 				{ $music }
@@ -67,8 +68,8 @@ caesura =  {\override BreathingSign.text = \markup {
     \override #'(baseline-skip . 1.8)
     \dir-column {
       \translate #'(0.155 . 0)
-        \center-align \musicglyph #"scripts.caesura.curved"
-      \center-align \musicglyph #"scripts.ufermata"
+        \center-align \musicglyph "scripts.caesura.curved"
+      \center-align \musicglyph "scripts.ufermata"
     }
   }
   \breathe }
