@@ -365,8 +365,8 @@ echo 'sent ly file'
   >>
   \new GrandStaff  \with {connectArpeggios = ##t instrumentName = #"Keyboard" shortInstrumentName = "kb"} {
     <<
-  \new Staff {\kbR}
-  \new Staff {\clef bass \kbL}
+  \new Staff {\keepWithTag #'All \kbR}
+  \new Staff {\clef bass \keepWithTag #'All \kbL}
     >>
     }
     \new StaffGroup << 
